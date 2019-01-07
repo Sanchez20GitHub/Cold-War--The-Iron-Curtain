@@ -2398,6 +2398,17 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
+					original_tag = POL
+					NOT = { has_global_flag = polish_uprising_check }
+					date > 1956.6.1 
+					date < 1956.8.24 
+				}
+				country_event = cwu.4
+				set_global_flag = polish_uprising_check
+			}
+			
+			if = {
+				limit = {
 					tag = SOV
 					has_global_flag = stalin_dead
 					is_ai = no

@@ -1802,9 +1802,6 @@ focus_tree = {
 		available = {
 			has_country_flag = poznan_uprising_1956
 		}
-		completion_reward = {
-			country_event = cwu.4
-		}
 		ai_will_do = {
 			factor = 0
 			modifier = {
