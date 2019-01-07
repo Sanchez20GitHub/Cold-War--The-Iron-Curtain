@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 10.00
 		x = 19
 		y = 0
-
+		completion_reward = {
+			add_ideas = total_loyalty
+		}
 	}
 	focus = {
 		id = MON_The_Foundations_for_a_Socialist_State
@@ -22,7 +24,9 @@ focus_tree = {
 		cost = 10.00
 		x = 7
 		y = 0
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = MON_The_Mongolian_Economy
@@ -30,7 +34,9 @@ focus_tree = {
 		cost = 10.00
 		x = 30
 		y = 0
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
 	}
 	focus = {
 		id = MON_The_Mongolian_Peoples_Revolutionary_Army
@@ -38,7 +44,10 @@ focus_tree = {
 		cost = 10.00
 		x = 43
 		y = 0
-
+		completion_reward = {
+			army_experience = 50
+			air_experience = 50
+		}
 	}
 	focus = {
 		id = MON_State_Atheism
@@ -49,7 +58,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 1
-
+		completion_reward = {
+			add_ideas = state_atheism
+		}
 	}
 	focus = {
 		id = MON_Crackdown_on_Buddhism
@@ -71,7 +82,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 2
-
+		completion_reward = {
+			add_ideas = socialist_realism
+		}
 	}
 	focus = {
 		id = MON_Encourage_Russian_Language_Education
@@ -1044,7 +1057,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 16
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = MON_Condemn_Mongolian_Nationalism
@@ -1116,7 +1131,9 @@ focus_tree = {
 		}
 		x = 24
 		y = 16
-
+		completion_reward = {
+			add_ideas = art_and_liberalization
+		}
 	}
 	focus = {
 		id = MON_Tone_Down_Censorship
