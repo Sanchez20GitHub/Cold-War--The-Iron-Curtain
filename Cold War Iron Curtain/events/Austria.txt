@@ -14,7 +14,7 @@ country_event = {
 		ai_chance = {
 			factor = 100
 		}
-		all_owned_state = {
+		every_owned_state = {
 		    limit = {
 			    is_core_of = AUS
 		    }
@@ -44,7 +44,7 @@ country_event = {
 	
 	option = {
 	    name = "Unify the western zones!"
-		all_owned_state = {
+		every_owned_state = {
 		    limit = {
 			    is_core_of = AUS
 		    }
