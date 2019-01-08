@@ -7,7 +7,7 @@ state={
 		owner = SOV
 		add_core_of = SOV
 		add_core_of = MLD
-		1985.1.1 = {
+		1990.6.1 = {
 			owner = MLD
 			remove_core_of = SOV
 
