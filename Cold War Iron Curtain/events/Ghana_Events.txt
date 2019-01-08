@@ -198,11 +198,7 @@ country_event = {
 	picture = GFX_report_event_usa_election_generic
 	
 	fire_only_once = yes
-	
 	is_triggered_only = yes
-	immediate = {
-		complete_national_focus = GHA_60s_Election_of_1969
-	}	
 	
 	option = {
 	    name = "Kofi Busia"
@@ -215,14 +211,11 @@ country_event = {
 			ideology = conservatism
 		}
 		ai_chance = {
-		    factor = 10
+		    factor = 50
 		}
 	}		
 	option = {
 	    name = "Komla Agbeli Gbedemah"
-		ai_chance = {
-		    factor = 10
-		}
 		complete_national_focus = GHA_60s_Gbedemah_Victory
 		set_politics = { ruling_party = Social_Liberalism elections_allowed = no }
 		add_popularity = { ideology = Social_Liberalism popularity = 0.25 }
@@ -231,5 +224,9 @@ country_event = {
 			picture = "Gbedemah.dds"
 			ideology = social_liberal
 		}
+		ai_chance = {
+		    factor = 50
+		}
+
 	}
 }

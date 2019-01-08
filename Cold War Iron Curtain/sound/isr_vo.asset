@@ -48,6 +48,7 @@ soundeffect =
     sounds = {
         sound = isr_Retreat_001
 		sound = isr_Retreat_002
+		sound = artshelldamage1_isr
 
     }
 	max_audible = 1
@@ -65,7 +66,7 @@ soundeffect =
 		sound = atinfselect3_isr
 		sound = atinfselect4_isr
 		sound = atinfselect5_isr
-		sound = atinfselect6_isr
+		sound = sfinfattack2_isr
 
     }
 	max_audible = 1
@@ -78,7 +79,8 @@ soundeffect =
 {
     name = "ISR_infantry_positive_combat"
     sounds = {
-        sound = atinfdamage1_isr
+        sound = sfinfattack2_isr
+		sound = atinfdamage1_isr
     }
 	max_audible = 1
 	max_audible_behaviour = fail
@@ -112,6 +114,11 @@ sound =
 {
 	name = "isr_Retreat_001"
 	file = "isr/isr_Retreat_001.wav"
+}
+sound = 
+{
+	name = "sfinfattack2_isr"
+	file = "isr/sfinfattack2_isr.wav"
 }
 sound = 
 {
@@ -177,4 +184,9 @@ sound =
 {
 	name = "atinfmove5_isr"
 	file = "isr/atinfmove5_isr.wav"
+}
+sound = 
+{
+	name = "artshelldamage1_isr"
+	file = "isr/artshelldamage1_isr.wav"
 }

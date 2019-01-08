@@ -6,6 +6,7 @@ Tank Designers:
 > (-0.5%) Consumer Goods Factories
 2. Mobile Warfare Company
 > (+10%) Max speed All vehicles
+> (-5%) Armor All Vehicles
 > (+0.5%) Consumer Goods Factories
 3. Heavy Vehicle Company
 > (+5%) Armor All vehicles
@@ -14,9 +15,16 @@ Tank Designers:
 4. Superior Firepower Company
 > (+5%) soft/hard attack all vehicles
 > (+0.5%) Consumer Goods Factories
-5. Experimental Vehicles Company
+5. Expeditionary Vehicle Company
+> (+10%) Reliability
+> (-10%) Supply Consumption
+> ##### (-15%) Fuel Consumption
+> (0.5%) Consumer Goods Factories
+6. Experimental Vehicles Company
 > (-7.5%) Research time all vehicles
 > (+0.5%) Consumer Goods Factories
+
+
 
 ##Navy Companies: #Do not put these in until MTG, might be a waste of time
 1. Mass Producing Company
@@ -75,7 +83,7 @@ Air Companies:
 > (-20%) Night Operations Penalty
 > (-10%) Air Accidents Chance
 > (+0.5%) Consumer Goods Factories
-5. Experimental Air Company
+5. Infinity Air Company
 > (-7.5%) Air research time
 > (+0.5%) Consumer Goods Factories
 

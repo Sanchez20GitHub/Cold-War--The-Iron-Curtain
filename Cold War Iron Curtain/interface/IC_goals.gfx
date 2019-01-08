@@ -2731,6 +2731,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/DEH.dds" 
 	}
 	SpriteType = {
+		name = "GFX_OTE"
+		texturefile = "gfx/interface/goals/OTE.dds" 
+	}
+	SpriteType = {
 		name = "GFX_Cablel"
 		texturefile = "gfx/interface/goals/Cablel.dds" 
 	}
@@ -2839,7 +2843,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Papagos_Resigns.dds" 
 	}
 	SpriteType = {
-		name = "GFX_Gre_Land_Redistribution"
+		name = "GFX_GRE_MP_agriculture"
 		texturefile = "gfx/interface/goals/Gre_Land_Redistribution.dds" 
 	}
 	SpriteType = {

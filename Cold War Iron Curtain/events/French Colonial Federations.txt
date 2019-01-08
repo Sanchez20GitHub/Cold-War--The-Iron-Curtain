@@ -13,13 +13,51 @@ country_event = {
 		SEN = {
 			drop_cosmetic_tag = yes
 			set_autonomy = { target = SEN autonomy_state = autonomy_free } 
-			release = MAU
-			release = MLI
-			release = NIG
-			release = GUI
-			release = BEN
-			release = CTD
-			release = BRK
+			every_owned_state = {
+		        limit = {
+			        is_core_of = MAU
+		        }
+		        MLI = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+				    OR = {
+			            is_core_of = MLI
+						is_core_of = SEN
+					}
+		        }
+		        MLI = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = NIG
+		        }
+		        NIG = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = GUI
+		        }
+		        GUI = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = BEN
+		        }
+		        BEN = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = CTD
+		        }
+		        CTD = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = BRK
+		        }
+		        BRK = { transfer_state = PREV }
+	        }
 		}
     }
 	option = {
@@ -29,7 +67,6 @@ country_event = {
 		}
 		declare_war_on = { target = SEN type = annex_everything }
 		SEN = {
-			drop_cosmetic_tag = yes
 			set_autonomy = { target = SEN autonomy_state = autonomy_free } 
 		}
 	}
@@ -48,9 +85,24 @@ country_event = {
 		ROC = {
 			drop_cosmetic_tag = yes
 			set_autonomy = { target = ROC autonomy_state = autonomy_free } 
-			release = CHA 
-			release = GAB 
-			release = CAR
+			every_owned_state = {
+		        limit = {
+			        is_core_of = CHA
+		        }
+		        CHA = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = GAB
+		        }
+		        GAB = { transfer_state = PREV }
+	        }
+			every_owned_state = {
+		        limit = {
+			        is_core_of = CAR
+		        }
+		        CAR = { transfer_state = PREV }
+	        }
 			complete_national_focus = ROC_Dissolution_of_French_Equatorial_Africa
 		}
     }
