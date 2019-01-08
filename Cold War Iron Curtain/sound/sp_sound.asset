@@ -81,3 +81,9 @@ sound =
 	name = "sp_usa_truman_congress"
 	file = "usa_speeches/sp_usa_truman_congress.wav"
 }
+
+sound = 
+{
+	name = "sp_eng_churchill_king"
+	file = "eng_speeches/sp_eng_churchill_king.wav"
+}

@@ -73,3 +73,39 @@ attlee_speech_category = {
 			}
 	}		
 }
+
+churchill_speech_category = {
+	churchill_king_death = {
+			icon = generic_propaganda
+			cost = 0
+			fire_only_once = yes
+			allowed = {
+				tag = ENG
+			}
+			
+			visible = {
+				has_government = conservative
+				date > 1952.2.6
+				date < 1952.2.16
+			}
+			
+			available = {
+				ENG = {
+					has_government = conservative
+					has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+					NOT = {
+						has_idea = ENG_george_vi
+					}
+				}
+				date > 1952.2.6
+				date < 1952.2.16
+			}
+			
+			complete_effect = {
+				add_stability = 0.05
+				hidden_effect = {
+					sound_effect = sp_eng_churchill_king
+				}
+			}
+	}
+}

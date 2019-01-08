@@ -48,3 +48,10 @@ category = {
  }
 }
 
+category = {
+ name = "Churchill"
+ soundeffects = {
+	sp_eng_churchill_king
+ }
+}
+

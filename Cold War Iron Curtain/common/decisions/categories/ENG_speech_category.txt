@@ -5,3 +5,11 @@ attlee_speech_category = {
 		tag = ENG
 	}
 }
+
+churchill_speech_category = {
+	icon = generic_propaganda
+	picture = GFX_eng_churchill_speech
+	allowed = {
+		tag = ENG
+	}
+}

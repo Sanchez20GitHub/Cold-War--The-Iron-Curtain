@@ -208,4 +208,45 @@ eng_announcement_category = {
 		}
 	}
 	}
+	
+	eng_address_king_death = {
+		icon = generic_propaganda
+		cost = 0
+		fire_only_once = yes
+		
+		allowed = {
+			NOT = {
+				tag = ENG
+			}
+		}
+		
+		visible = {
+			is_subject_of = ENG
+			date > 1952.2.6
+			date < 1952.2.16
+			ENG = {
+				has_government = conservative
+			}
+		}
+		
+		available = {
+				is_subject_of = ENG
+				ENG = {
+					has_government = conservative
+					has_country_leader = { ruling_only = yes name = "Winston Churchill" }
+					NOT = {
+						has_idea = ENG_george_vi
+					}
+				}
+				date > 1952.2.6
+				date < 1952.2.16
+			}
+			
+			complete_effect = {
+				add_stability = 0.02
+				hidden_effect = {
+					sound_effect = sp_eng_churchill_king
+				}
+			}
+	}
 }

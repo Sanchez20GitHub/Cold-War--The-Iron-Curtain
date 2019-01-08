@@ -109,3 +109,11 @@ soundeffect = {
 	}
 	volume = 1.3
 }
+
+soundeffect = {
+	name = sp_eng_churchill_king
+	sounds = {
+		sound = sp_eng_churchill_king
+	}
+	volume = 1.3
+}
