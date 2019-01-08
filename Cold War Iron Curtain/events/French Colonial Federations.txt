@@ -21,7 +21,10 @@ country_event = {
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = MLI
+				    OR = {
+			            is_core_of = MLI
+						is_core_of = SEN
+					}
 		        }
 		        MLI = { transfer_state = PREV }
 	        }
