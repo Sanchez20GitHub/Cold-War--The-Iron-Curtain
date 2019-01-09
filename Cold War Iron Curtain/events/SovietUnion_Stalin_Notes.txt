@@ -267,7 +267,6 @@ country_event = {
 			transfer_state = 66
 			transfer_state = 795
 			transfer_state = 950
-			transfer_state = 951
 		}
 		news_event = cw_stalinotes.11 
 	}
@@ -284,7 +283,6 @@ country_event = {
 			transfer_state = 66
 			transfer_state = 795
 			transfer_state = 950
-			transfer_state = 951
 			set_politics = { ruling_party = centrist elections_allowed = yes }
 			add_popularity = {
 				ideology = centrist

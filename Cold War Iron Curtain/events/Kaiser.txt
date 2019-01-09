@@ -51,8 +51,6 @@ country_event = {
 			68 = { add_core_of = WGR }
 			transfer_state = 66
 			66 = { add_core_of = WGR }
-			transfer_state = 951
-			951 = { add_core_of = WGR }
 			transfer_state = 950
 			950 = { add_core_of = WGR }
 			transfer_state = 795
@@ -77,7 +75,6 @@ country_event = {
 			85 = { add_core_of = WGR }
 			68 = { add_core_of = WGR }
 			66 = { add_core_of = WGR }
-			951 = { add_core_of = WGR }
 			950 = { add_core_of = WGR }
 			795 = { add_core_of = WGR }
 			67 = { add_core_of = WGR }
