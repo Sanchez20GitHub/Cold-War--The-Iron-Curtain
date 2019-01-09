@@ -1042,7 +1042,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_wr
-		icon = GFX_goal_unknown
+		icon = GFX_workersriseup
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_social_question
@@ -1059,7 +1059,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_wr_pe_1
-		icon = GFX_goal_unknown
+		icon = GFX_become_rich
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr
@@ -1078,7 +1078,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_wr_pe_2
-		icon = GFX_goal_unknown
+		icon = GFX_generic_repeal_working_hours
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_wr_pe_1
@@ -1208,7 +1208,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_e_e_1
-		icon = GFX_goal_unknown
+		icon = GFX_environmentalism
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e
@@ -1245,7 +1245,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_e_p_2
-		icon = GFX_goal_unknown
+		icon = GFX_decadence
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_e_p_1
@@ -1354,7 +1354,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_gmr_e_1
-		icon = GFX_goal_unknown
+		icon = GFX_gender_equality
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_gmr
@@ -1429,7 +1429,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_lgbt_e_1
-		icon = GFX_goal_unknown
+		icon = GFX_gay_flag_pic
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt
@@ -1448,7 +1448,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_lgbt_e_2
-		icon = GFX_goal_unknown
+		icon = GFX_gay_agenda
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_lgbt_e_1
@@ -1502,7 +1502,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_m_p_1
-		icon = GFX_goal_unknown
+		icon = GFX_pacifism
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m
@@ -1521,7 +1521,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_m_p_2
-		icon = GFX_PileofMoney
+		icon = GFX_pacifism_2
 		cost = 5.00
 		prerequisite = {
 			focus = gen60_m_p_1
@@ -1613,7 +1613,7 @@ focus_tree = {
 	}
 	focus = {
 		id = gen60_g
-		icon = GFX_goal_unknown
+		icon = GFX_globalism
 		cost = 20.00
 		prerequisite = {
 			focus = gen60_m_p_2
