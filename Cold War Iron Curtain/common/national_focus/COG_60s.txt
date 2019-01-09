@@ -1336,7 +1336,7 @@ focus_tree = {
 		completion_reward = {
 			news_event = mobutu.10
 			set_politics = {
-				ideology = nationalism
+				ruling_party = nationalism
 				elections_allowed = no
 			}
 			add_popularity = {
@@ -1442,9 +1442,11 @@ focus_tree = {
 		x = 16
 		y = 32
 		completion_reward = {
+		swap_ideas = {
 			add_ideas = Privitization
-			remove_idea = closed_economy
-		}	
+			remove_ideas = closed_economy
+		}
+		}
 	}
 	focus = {
 		id = DOC_Condemn_Leftism
@@ -2039,8 +2041,10 @@ focus_tree = {
 		x = 7
 		y = 34
 		completion_reward = {
+		swap_ideas = { 
 			add_ideas = embrace_free_trade
-			remove_idea = closed_economy
+			remove_ideas = closed_economy
+		}
 		}
 	}
 	focus = {
@@ -2197,8 +2201,8 @@ focus_tree = {
 		x = 17
 		y = 9
 		completion_reward = {
+		add_stability = 0.02
 			295 = {
-				add_stability = 0.02
 				add_building_construction = {
 					type = infrastructure
 					level = 2

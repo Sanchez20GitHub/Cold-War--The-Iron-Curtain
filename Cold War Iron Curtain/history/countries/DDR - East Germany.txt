@@ -1,4 +1,4 @@
-capital = 744
+﻿capital = 744
 
 oob = "DDR_1949"
 

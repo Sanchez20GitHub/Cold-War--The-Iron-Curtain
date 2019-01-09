@@ -1408,7 +1408,7 @@ focus_tree = {
 			}
 			create_country_leader = {
 					name = "Rolf Steiner"
-					ideology = fascism
+					ideology = neo_nazism
 					picture = "Rolf_Steiner.dds"
 				}
 		}
