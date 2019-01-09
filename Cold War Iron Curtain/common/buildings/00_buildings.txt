@@ -56,8 +56,9 @@ buildings = {
 		base_cost = 2000
 		icon_frame = 7
 		max_level = 4
-		shares_slots = yes
+		shares_slots = no
 		value = 1
+		infrastructure_construction_effect = yes
 	}
 	air_base = {
 		show_on_map = 1
@@ -66,6 +67,7 @@ buildings = {
 		air_base = yes
 		max_level = 15
 		value = 1
+		infrastructure_construction_effect = yes
 	}
 
 	naval_base = {
@@ -79,6 +81,7 @@ buildings = {
 		icon_frame = 6
 		max_level = 20
 		value = 1
+		infrastructure_construction_effect = yes
 	}
 
 	bunker = {
@@ -117,6 +120,7 @@ buildings = {
 		max_level = 16 # This is the max unlock level
 		damage_factor = 0.1
 		value = 1
+		infrastructure_construction_effect = yes
 	}
 
 	radar_station = {
@@ -222,8 +226,8 @@ buildings = {
 		icon_frame = 1
 		local_resources_electricity = 10
 		refinery = yes
-		max_level = 10 # This is the max unlock level
-		shares_slots = yes
+		max_level = 5 # This is the max unlock level
+		shares_slots = no
 		value = 10
 		infrastructure_construction_effect = yes
 	}	
@@ -234,7 +238,7 @@ buildings = {
 		local_resources_electricity = 100
 		refinery = yes
 		max_level = 6 # This is the max unlock level
-		shares_slots = yes
+		shares_slots = no
 		value = 6
 		infrastructure_construction_effect = yes
 	}	
@@ -245,7 +249,7 @@ buildings = {
 		local_resources_electricity = 1000
 		refinery = yes
 		max_level = 1 # This is the max unlock level
-		shares_slots = yes
+		shares_slots = no
 		value = 6
 		infrastructure_construction_effect = yes
 	}	
