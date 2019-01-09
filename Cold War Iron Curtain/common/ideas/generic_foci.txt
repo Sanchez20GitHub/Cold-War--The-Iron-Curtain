@@ -1365,5 +1365,37 @@ ideas = {
 				consumer_goods_factor = -0.01
 			}
 		}
+		rightwing_deathsquads = {
+			removal_cost = -1
+			modifier = {
+			production_speed_buildings_factor = -0.05
+			MONTHLY_POPULATION = -0.4
+			stability_weekly = -0.003
+			stability_factor = -0.20
+			maoism_drift = -0.002
+			communism_drift = -0.002
+			socialism_drift = -0.002
+			neutrality_drift = 0.003
+			}
+		}
+		leftwing_deathsquads = {
+			removal_cost = -1
+			modifier = {
+			production_speed_buildings_factor = -0.05
+			MONTHLY_POPULATION = -0.4
+			stability_weekly = -0.003
+			stability_factor = -0.20
+			conservative_drift = -0.001
+			neutrality_drift = -0.001
+			liberal_conservatism_drift = -0.001
+			Christian_Democratic_drift = -0.001
+			Social_Democratic_drift = -0.001
+			Social_Liberalism_drift = -0.001
+			democratic_drift = -0.001
+			centrist_drift = -0.001
+			liberal_drift = -0.001
+			trotskyism_drift = 0.002
+			}
+		}
 	}
 }
