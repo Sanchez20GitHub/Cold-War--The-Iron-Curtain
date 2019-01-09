@@ -9,7 +9,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1950.11.1
+			date > 1950.11.01
 			date < 1950.12.30
 		}
 		calc_us_house = yes
@@ -20,7 +20,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1952.11.1
+			date > 1952.11.01
 			date < 1952.12.30
 		}
 		calc_us_house = yes
@@ -31,7 +31,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1954.11.1
+			date > 1954.11.01
 			date < 1954.12.30
 		}
 		calc_us_house = yes
@@ -42,7 +42,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1956.11.1
+			date > 1956.11.01
 			date < 1956.12.30
 		}
 		calc_us_house = yes
@@ -53,7 +53,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1958.11.1
+			date > 1958.11.01
 			date < 1958.12.30
 		}
 		calc_us_house = yes
@@ -64,7 +64,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1960.11.1
+			date > 1960.11.01
 			date < 1960.12.30
 		}
 		calc_us_house = yes
@@ -75,7 +75,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1962.11.1
+			date > 1962.11.01
 			date < 1962.12.30
 		}
 		calc_us_house = yes
@@ -86,7 +86,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1964.11.1
+			date > 1964.11.01
 			date < 1964.12.30
 		}
 		calc_us_house = yes
@@ -97,7 +97,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1966.11.1
+			date > 1966.11.01
 			date < 1966.12.30
 		}
 		calc_us_house = yes
@@ -108,7 +108,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1968.11.1
+			date > 1968.11.01
 			date < 1968.12.30
 		}
 		calc_us_house = yes
@@ -119,7 +119,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1970.11.1
+			date > 1970.11.01
 			date < 1970.12.30
 		}
 		calc_us_house = yes
@@ -130,7 +130,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1972.11.1
+			date > 1972.11.01
 			date < 1972.12.30
 		}
 		calc_us_house = yes
@@ -141,7 +141,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1974.11.1
+			date > 1974.11.01
 			date < 1974.12.30
 		}
 		calc_us_house = yes
@@ -152,7 +152,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1976.11.1
+			date > 1976.11.01
 			date < 1976.12.30
 		}
 		calc_us_house = yes
@@ -163,7 +163,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1978.11.1
+			date > 1978.11.01
 			date < 1978.12.30
 		}
 		calc_us_house = yes
@@ -174,7 +174,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1980.11.1
+			date > 1980.11.01
 			date < 1980.12.30
 		}
 		calc_us_house = yes
@@ -185,7 +185,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1982.11.1
+			date > 1982.11.01
 			date < 1982.12.30
 		}
 		calc_us_house = yes
@@ -196,7 +196,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1984.11.1
+			date > 1984.11.01
 			date < 1984.12.30
 		}
 		calc_us_house = yes
@@ -207,7 +207,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1986.11.1
+			date > 1986.11.01
 			date < 1986.12.30
 		}
 		calc_us_house = yes
@@ -218,7 +218,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1988.11.1
+			date > 1988.11.01
 			date < 1988.12.30
 		}
 		calc_us_house = yes
@@ -229,7 +229,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1990.11.1
+			date > 1990.11.01
 			date < 1990.12.30
 		}
 		calc_us_house = yes
@@ -240,7 +240,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1992.11.1
+			date > 1992.11.01
 			date < 1992.12.30
 		}
 		calc_us_house = yes
@@ -251,7 +251,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1994.11.1
+			date > 1994.11.01
 			date < 1994.12.30
 		}
 		calc_us_house = yes
@@ -262,7 +262,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1996.11.1
+			date > 1996.11.01
 			date < 1996.12.30
 		}
 		calc_us_house = yes
@@ -273,7 +273,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1998.11.1
+			date > 1998.11.01
 			date < 1998.12.30
 		}
 		calc_us_house = yes
@@ -284,7 +284,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 2000.11.1
+			date > 2000.11.01
 			date < 2000.12.30
 		}
 		calc_us_house = yes
@@ -295,8 +295,8 @@ ic_pulse = {
 	if = {
 		limit = {
                 tag = SOV
-                date > 1967.6.1
-                date < 1967.7.1
+                date > 1967.06.01
+                date < 1967.07.01
 				NOT = { has_country_flag = sov_glass }
             }
 		news_event = sov.100 
@@ -305,8 +305,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = UGA
-			date > 1961.3.1
-			date < 1961.6.1
+			date > 1961.03.01
+			date < 1961.06.01
 			NOT = { has_country_flag = uga_elect_61 }
 		}
 		country_event = Uganda.61
@@ -315,8 +315,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = WGR
-			date > 1949.9.1
-			date < 1950.1.1
+			date > 1949.09.01
+			date < 1950.01.01
 			NOT = { has_country_flag = wgr_election_49 }
 		}
 		country_event = wgr.2500
@@ -325,18 +325,18 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = ZIM
-			date > 1953.12.1
-			date < 1954.3.1
+			date > 1953.12.01
+			date < 1954.03.01
 			NOT = { has_country_flag = rho_election_53 }
 		}
-		country_event = rho.1
+		country_event = rho.01
 		set_country_flag = rho_election_53
      }		
 	if = {
 		limit = {
 			tag = ZIM
-			date > 1958.11.1
-			date < 1959.2.1
+			date > 1958.11.01
+			date < 1959.02.01
 			NOT = { has_country_flag = rho_election_58 }
 		}
 		country_event = rho.104
@@ -345,8 +345,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = ZIM
-			date > 1962.12.1
-			date < 1963.3.1
+			date > 1962.12.01
+			date < 1963.03.01
 			NOT = { has_country_flag = rho_election_62 }
 		}
 		country_event = rho.126
@@ -355,8 +355,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = ZIM
-			date > 1965.5.1
-			date < 1966.8.1
+			date > 1965.05.01
+			date < 1966.08.01
 			NOT = { has_country_flag = rho_election_65 }
 		}
 		country_event = rho.127
@@ -365,8 +365,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = ZIM
-			date > 1970.4.1
-			date < 1970.7.1
+			date > 1970.04.01
+			date < 1970.07.01
 			NOT = { has_country_flag = rho_election_70 }
 		}
 		country_event = rho.128
@@ -375,18 +375,18 @@ ic_pulse = {
 	if = {
 		limit = {
                 tag = "PHI"
-                date > 1983.8.1
-                date < 1983.9.1
+                date > 1983.08.01
+                date < 1983.09.01
 				NOT = { has_country_flag = phi_events_one }
             }
-		news_event = phi_events.1
+		news_event = phi_events.01
 		set_country_flag = phi_events_one
      }	
 	if = {
 		limit = {
                 tag = SOV
-                date > 1969.1.1
-                date < 1969.2.1
+                date > 1969.01.01
+                date < 1969.02.01
 				NOT = { has_country_flag = sov_brez_assasin }
             }
 		news_event = sov.101
@@ -395,7 +395,7 @@ ic_pulse = {
 	if = {
 		limit = {
                 tag = KOR
-                date > 1952.8.1
+                date > 1952.08.01
                 date < 1952.10.30
             }
 		country_event = KOR_Elections.1952
@@ -404,8 +404,8 @@ ic_pulse = {
 	if = {
 		limit = {
                 tag = KOR
-                date > 1956.5.1
-                date < 1956.7.30
+                date > 1956.05.01
+                date < 1956.07.30
             }
 		country_event = KOR_Elections.1956
 
@@ -413,226 +413,226 @@ ic_pulse = {
 	if = {
 		limit = {
                 tag = JAP
-                date > 1953.12.1
-                date < 1954.1.1
+                date > 1953.12.01
+                date < 1954.01.01
             }
 		news_event = hi_japan.10
      }	 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1954.9.1
-                date < 1954.10.1
+                date > 1954.09.01
+                date < 1954.10.01
             }
-		news_event = hi_japan.2
+		news_event = hi_japan.02
      }
 	if = {
 		limit = {
                 tag = JAP
-                date > 1955.12.1
-                date < 1956.1.1
+                date > 1955.12.01
+                date < 1956.01.01
             }
-		news_event = hi_japan.6
+		news_event = hi_japan.06
      } 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1958.5.1
-                date < 1958.6.1
+                date > 1958.05.01
+                date < 1958.06.01
             }
-		news_event = hi_japan.7
+		news_event = hi_japan.07
      } 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1959.6.1
-                date < 1959.7.1
+                date > 1959.06.01
+                date < 1959.07.01
             }
-		news_event = hi_japan.8
+		news_event = hi_japan.08
      } 
 	if = {
 		limit = {
                 tag = KOR
-                date > 1983.9.1
-                date < 1983.10.1
+                date > 1983.09.01
+                date < 1983.10.01
 				NOT = { has_country_flag = air_disaster_one }
             }
-		news_event = air_disaster.1
+		news_event = air_disaster.01
 		set_country_flag = air_disaster_one
      } 
 	if = {
 		limit = {
                 tag = BUL
-                date > 1955.7.1
-                date < 1955.8.1
+                date > 1955.07.01
+                date < 1955.08.01
 				NOT = { has_country_flag = air_disaster_two }
             }
-		news_event = air_disaster.2
+		news_event = air_disaster.02
 		set_country_flag = air_disaster_two
      } 	 
 	if = {
 		limit = {
                 tag = ENG
-                date > 1950.3.1
-                date < 1950.4.1
+                date > 1950.03.01
+                date < 1950.04.01
 				NOT = { has_country_flag = air_disaster_three }
             }
-		news_event = air_disaster.3
+		news_event = air_disaster.03
 		set_country_flag = air_disaster_three
      } 		
 	if = {
 		limit = {
                 tag = ENG
-                date > 1949.6.1
-                date < 1949.7.1
+                date > 1949.06.01
+                date < 1949.07.01
 				NOT = { has_country_flag = book_releases_one }
             }
-		news_event = book_releases.1
+		news_event = book_releases.01
 		set_country_flag = book_releases_one
      } 			 
 	if = {
 		limit = {
                 tag = USA
-                date > 1977.3.1
-                date < 1977.4.1
+                date > 1977.03.01
+                date < 1977.04.01
 				NOT = { has_country_flag = air_disaster_four }
             }
-		news_event = air_disaster.4
+		news_event = air_disaster.04
 		set_country_flag = air_disaster_four
      } 		 
 	if = {
 		limit = {
                 tag = USA
-                date > 1959.2.1
-                date < 1959.3.1
+                date > 1959.02.01
+                date < 1959.03.01
 				NOT = { has_country_flag = air_disaster_five }
             }
-		news_event = air_disaster.5
+		news_event = air_disaster.05
 		set_country_flag = air_disaster_five
      } 		 
 	if = {
 		limit = {
                 tag = USA
-                date > 1980.4.1
-                date < 1980.5.1
+                date > 1980.04.01
+                date < 1980.05.01
 				NOT = { has_country_flag = cultural_events_one }
             }
-		news_event = cultural_events.1
+		news_event = cultural_events.01
 		set_country_flag = cultural_events_one
      } 		 	 
 	if = {
 		limit = {
                 tag = USA
-                date > 1977.7.1
-                date < 1977.8.1
+                date > 1977.07.01
+                date < 1977.08.01
 				NOT = { has_country_flag = cultural_events_two }
             }
-		news_event = cultural_events.2
+		news_event = cultural_events.02
 		set_country_flag = cultural_events_two
      } 			
 	if = {
 		limit = {
                 tag = USA
-                date > 1958.1.1
-                date < 1958.2.1
+                date > 1958.01.01
+                date < 1958.02.01
 				NOT = { has_country_flag = cultural_events_three }
             }
-		news_event = cultural_events.3
+		news_event = cultural_events.03
 		set_country_flag = cultural_events_three
      } 				
 	if = {
 		limit = {
                 tag = USA
-                date > 1958.1.1
-                date < 1958.2.1
+                date > 1958.01.01
+                date < 1958.02.01
 				NOT = { has_country_flag = cultural_events_three }
             }
-		news_event = cultural_events.3
+		news_event = cultural_events.03
 		set_country_flag = cultural_events_three
      } 		
 	if = {
 		limit = {
                 tag = FRA
-                date > 1980.4.1
-                date < 1980.5.1
+                date > 1980.04.01
+                date < 1980.05.01
 				NOT = { has_country_flag = cultural_events_four }
             }
-		news_event = cultural_events.4
+		news_event = cultural_events.04
 		set_country_flag = cultural_events_four
      } 				 
 	if = {
 		limit = {
                 tag = FRA
-                date > 1977.9.1
-                date < 1977.10.1
+                date > 1977.09.01
+                date < 1977.10.01
 				NOT = { has_country_flag = cultural_events_five }
             }
-		news_event = cultural_events.5
+		news_event = cultural_events.05
 		set_country_flag = cultural_events_five
      } 			 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1983.7.1
-                date < 1983.8.1
+                date > 1983.07.01
+                date < 1983.08.01
 				NOT = { has_country_flag = cultural_events_six }
             }
-		news_event = cultural_events.6
+		news_event = cultural_events.06
 		set_country_flag = cultural_events_six
      } 		
 	if = {
 		limit = {
                 tag = USA
-                date > 1985.10.1
-                date < 1985.11.1
+                date > 1985.10.01
+                date < 1985.11.01
 				NOT = { has_country_flag = cultural_events_seven }
             }
-		news_event = cultural_events.7
+		news_event = cultural_events.07
 		set_country_flag = cultural_events_seven
      } 		
 	if = {
 		limit = {
                 tag = USA
-                date > 1979.6.1
-                date < 1979.7.1
+                date > 1979.06.01
+                date < 1979.07.01
 				NOT = { has_country_flag = air_disaster_six }
             }
-		news_event = air_disaster.6
+		news_event = air_disaster.06
 		set_country_flag = air_disaster_six
      } 	 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1974.3.1
-                date < 1974.4.1
+                date > 1974.03.01
+                date < 1974.04.01
 				NOT = { has_country_flag = cultural_events_eight }
             }
-		news_event = cultural_events.8
+		news_event = cultural_events.08
 		set_country_flag = cultural_events_eight
      } 	 
 	if = {
 		limit = {
                 tag = JAP
-                date > 1958.10.1
-                date < 1958.11.1
+                date > 1958.10.01
+                date < 1958.11.01
             }
-		news_event = hi_japan.9
+		news_event = hi_japan.09
      }
 	 if = {
 		limit = {
                 tag = DDR
-                date > 1972.5.1
-                date < 1972.6.1
+                date > 1972.05.01
+                date < 1972.06.01
             }
 		news_event = ddr.45
      }
 	 if = {
 		limit = {
                 tag = DDR
-                date > 1953.6.1
-                date < 1953.8.1
+                date > 1953.06.01
+                date < 1953.08.01
             }
-		country_event = cwu.1
+		country_event = cwu.01
      }	 
 	 
 	 #End of Japan Flavor 
@@ -640,17 +640,17 @@ ic_pulse = {
 		limit = {
                 tag = SAF
                 NOT = { has_country_flag = saf_news_1}
-                date > 1960.1.21
-                date < 1960.2.21
+                date > 1960.01.21
+                date < 1960.02.21
             }
-		country_event = saf_news.1
+		country_event = saf_news.01
      }
 	if = {
 		limit = { 
 			tag = JAP 
 			has_government = Liberal_Conservatism 
-			date > 1956.12.1
-			date < 1957.1.1
+			date > 1956.12.01
+			date < 1957.01.01
 		}
 		news_event = japan_elections.100
      }
@@ -658,8 +658,8 @@ ic_pulse = {
 		limit = { 
 			tag = JAP 
 			has_government = Liberal_Conservatism 
-			date > 1957.2.1
-			date < 1957.3.1
+			date > 1957.02.01
+			date < 1957.03.01
 		}
 		news_event = japan_elections.102
      }
@@ -667,37 +667,37 @@ ic_pulse = {
 		limit = {
                 NOT = { has_country_flag = saf_news_2}
                 tag = SAF
-                date > 1960.2.1
-                date < 1960.3.1
+                date > 1960.02.01
+                date < 1960.03.01
             }
-		country_event = saf_news.2
+		country_event = saf_news.02
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_3}
                 tag = SAF
-                date > 1960.4.9
-                date < 1960.5.9
+                date > 1960.04.09
+                date < 1960.05.09
             }
-		country_event = saf_news.3
+		country_event = saf_news.03
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_4}
                 tag = SAF
-                date > 1960.5.4
-                date < 1960.6.4
+                date > 1960.05.04
+                date < 1960.06.04
             }
-		country_event = saf_news.4
+		country_event = saf_news.04
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_5}
                 tag = SAF
-                date > 1960.10.5
-                date < 1960.11.5
+                date > 1960.10.05
+                date < 1960.11.05
             }
-		country_event = saf_news.5
+		country_event = saf_news.05
      }
 	if = {
 		limit = {
@@ -706,34 +706,34 @@ ic_pulse = {
                 date > 1960.11.14
                 date < 1960.12.14
             }
-		country_event = saf_news.6
+		country_event = saf_news.06
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_7}
                 tag = SAF
-                date > 1961.2.14
-                date < 1961.3.14
+                date > 1961.02.14
+                date < 1961.03.14
             }
-		country_event = saf_news.7
+		country_event = saf_news.07
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_8}
                 tag = SAF
-                date > 1961.3.1
-                date < 1961.4.1
+                date > 1961.03.01
+                date < 1961.04.01
             }
-		country_event = saf_news.8
+		country_event = saf_news.08
      }
 	if = {
 		limit = {
                 NOT = { has_country_flag = saf_news_9}
                 tag = SAF
-                date > 1961.11.1
-                date < 1961.12.1
+                date > 1961.11.01
+                date < 1961.12.01
             }
-		country_event = saf_news.9
+		country_event = saf_news.09
      }
 	if = {
 		limit = {
@@ -747,115 +747,115 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = SWE
-			date > 1973.9.14
-			date < 1974.1.1
+			date > 1973.09.14
+			date < 1974.01.01
 		}
-		country_event = SWE.4
+		country_event = SWE.04
 	}
 	if = {
 		limit = {
 				tag = BEN
-				date > 1960.12.1
-				date < 1961.1.1
+				date > 1960.12.01
+				date < 1961.01.01
 			}
-		country_event = BEN.1
+		country_event = BEN.01
 	 }	
 	if = {
 		limit = {
 				tag = GHA
-				date > 1951.2.1
-				date < 1952.4.1
+				date > 1951.02.01
+				date < 1952.04.01
 			}
-		country_event = Ghana.1
+		country_event = Ghana.01
 	 }	
 	if = {
 		limit = {
 				tag = GHA
-				date > 1954.2.1
-				date < 1955.1.1
+				date > 1954.02.01
+				date < 1955.01.01
 			}
-		country_event = Ghana.2
+		country_event = Ghana.02
 	 }		
 	if = {
 		limit = {
 				tag = GHA
-				date > 1960.4.1
-				date < 1961.1.1
+				date > 1960.04.01
+				date < 1961.01.01
 			}
-		country_event = Ghana.3
+		country_event = Ghana.03
 	 }				 
 		 
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_1}
 				tag = USA
-				date > 1967.6.12
-				date < 1967.7.12
+				date > 1967.06.12
+				date < 1967.07.12
 			}
-		country_event = NNE.1
+		country_event = NNE.01
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_2}
 				tag = USA
-				date > 1973.1.22
-				date < 1973.2.22
+				date > 1973.01.22
+				date < 1973.02.22
 			}
-		country_event = NNE.2
+		country_event = NNE.02
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_3}
 				tag = DDR
-				date > 1973.5.1
-				date < 1973.6.1
+				date > 1973.05.01
+				date < 1973.06.01
 			}
-		country_event = NNE.3
+		country_event = NNE.03
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_4}
 				tag = USA
-				date > 1977.6.9
-				date < 1977.7.9
+				date > 1977.06.09
+				date < 1977.07.09
 			}
-		country_event = NNE.4
+		country_event = NNE.04
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_5}
 				tag = USA
-				date > 1992.6.29
-				date < 1992.7.29
+				date > 1992.06.29
+				date < 1992.07.29
 			}
-		country_event = NNE.5
+		country_event = NNE.05
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_6}
 				tag = USA
-				date > 1963.6.17
-				date < 1963.7.17
+				date > 1963.06.17
+				date < 1963.07.17
 			}
-		country_event = NNE.6
+		country_event = NNE.06
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_7}
 				tag = DDR
-				date > 1963.5.1
-				date < 1963.6.1
+				date > 1963.05.01
+				date < 1963.06.01
 			}
-		country_event = NNE.7
+		country_event = NNE.07
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_8}
 				tag = DDR
-				date > 1950.9.1
-				date < 1950.10.1
+				date > 1950.09.01
+				date < 1950.10.01
 			}
-		country_event = NNE.8
+		country_event = NNE.08
 	 }
 	if = {
 		limit = {
@@ -864,14 +864,14 @@ ic_pulse = {
 				date > 1950.11.17
 				date < 1950.12.17
 			}
-		country_event = NNE.9
+		country_event = NNE.09
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_10}
 				tag = USA
-				date > 1950.1.21
-				date < 1950.2.21
+				date > 1950.01.21
+				date < 1950.02.21
 			}
 		country_event = NNE.10
 	 }
@@ -879,8 +879,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_11}
 				tag = SOV
-				date > 1950.1.5
-				date < 1950.2.5
+				date > 1950.01.05
+				date < 1950.02.05
 			}
 		country_event = NNE.11
 	 }
@@ -888,8 +888,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_13}
 				tag = TIB
-				date > 1950.8.15
-				date < 1950.9.15
+				date > 1950.08.15
+				date < 1950.09.15
 			}
 		country_event = NNE.13
 	 }
@@ -897,8 +897,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_14 }
 				tag = VTC
-				date > 1950.8.12
-				date < 1950.9.12
+				date > 1950.08.12
+				date < 1950.09.12
 			}
 		country_event = NNE.14
 	 }
@@ -906,8 +906,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_15 }
 				tag = USA
-				date > 1950.10.1
-				date < 1950.11.1
+				date > 1950.10.01
+				date < 1950.11.01
 			}
 		country_event = NNE.15
 	 }
@@ -915,37 +915,37 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_16 }
 				tag = DDR
-				date > 1951.1.1
-				date < 1951.2.1
+				date > 1951.01.01
+				date < 1951.02.01
 			}
 		country_event = NNE.16
 	 }
 	 if = {
 		limit = {
 				tag = FRA
-				date > 1961.4.20
-				date < 1961.4.30
+				date > 1961.04.20
+				date < 1961.04.30
 			}
-		country_event = algeirs.2
+		country_event = algeirs.02
 	 }
 	 if = {
 		limit = {
 		 NOT = {
             has_completed_focus = ROC_Administrative_Reform
         }
-        date > 1951.1.1 # put date here
-		date < 1953.1.1 # put date here
+        date > 1951.01.01 # put date here
+		date < 1953.01.01 # put date here
 		tag = ROC
 		NOT = { has_country_flag = ROC_Chauvet }
 		}
-		country_event = equ.1
+		country_event = equ.01
 		}
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_17}
 				tag = USA
-				date > 1951.3.21
-				date < 1951.4.21
+				date > 1951.03.21
+				date < 1951.04.21
 			}
 		country_event = NNE.17
 	 }
@@ -953,8 +953,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_18}
 				tag = USA
-				date > 1951.6.4
-				date < 1951.7.4
+				date > 1951.06.04
+				date < 1951.07.04
 			}
 		country_event = NNE.18
 	 }
@@ -962,8 +962,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_19}
 				tag = USA
-				date > 1951.7.20
-				date < 1951.8.20
+				date > 1951.07.20
+				date < 1951.08.20
 			}
 		country_event = NNE.19
 	 }
@@ -971,26 +971,26 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_20}
 				tag = USA
-				date > 1951.10.3
-				date < 1951.11.3
+				date > 1951.10.03
+				date < 1951.11.03
 			}
 		country_event = NNE.20
 	 }
 	if = {
 		limit = {
 				tag = EGY
-				date > 1952.1.26
-				date < 1952.3.1
+				date > 1952.01.26
+				date < 1952.03.01
 				NOT = { has_country_flag = black_saturday_1 }
 			}
-		country_event = black_saturday.1
+		country_event = black_saturday.01
 	 }
 	if = {
 		limit = {
 				NOT = { has_country_flag = NNE_22}
 				tag = USA
-				date > 1952.3.22
-				date < 1952.4.22
+				date > 1952.03.22
+				date < 1952.04.22
 			}
 		country_event = NNE.22
 	 }
@@ -998,8 +998,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_24}
 				tag = USA
-				date > 1952.6.2
-				date < 1952.7.2
+				date > 1952.06.02
+				date < 1952.07.02
 			}
 		country_event = NNE.24
 	 }
@@ -1007,8 +1007,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_26}
 				tag = USA
-				date > 1952.7.21
-				date < 1952.8.21
+				date > 1952.07.21
+				date < 1952.08.21
 			}
 		country_event = NNE.26
 	 }
@@ -1016,8 +1016,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_27}
 				tag = CHI
-				date > 1952.8.5
-				date < 1952.9.5
+				date > 1952.08.05
+				date < 1952.09.05
 			}
 		country_event = NNE.27
 	 }
@@ -1025,8 +1025,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_28}
 				tag = SOV
-				date > 1952.8.12
-				date < 1952.9.12
+				date > 1952.08.12
+				date < 1952.09.12
 			}
 		country_event = NNE.28
 	 }
@@ -1034,8 +1034,8 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_29}
 				tag = USA
-				date > 1953.3.26
-				date < 1953.4.26
+				date > 1953.03.26
+				date < 1953.04.26
 			}
 		country_event = NNE.29
 	 }
@@ -1043,15 +1043,15 @@ ic_pulse = {
 		limit = {
 				NOT = { has_country_flag = NNE_30}
 				tag = SWE
-				date > 1953.4.10
-				date < 1953.5.10
+				date > 1953.04.10
+				date < 1953.05.10
 			}
 		country_event = NNE.30
 	 }
 	if = {
 		limit = {
 			tag = USA
-			has_stability < 0.6
+			has_stability < 0.06
 			has_country_flag = congressional_vote_ongoing
 		}
 		add_to_variable = { var = senate_total_voting_support value = -1 }
@@ -1060,7 +1060,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			has_stability < 0.5
+			has_stability < 0.05
 			has_country_flag = congressional_vote_ongoing
 		}
 		add_to_variable = { var = senate_total_voting_support value = -2 }
@@ -1069,7 +1069,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			has_stability < 0.4
+			has_stability < 0.04
 			has_country_flag = congressional_vote_ongoing
 		}
 		add_to_variable = { var = senate_total_voting_support value = -5 }
@@ -1078,7 +1078,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			has_stability < 0.3
+			has_stability < 0.03
 			has_country_flag = congressional_vote_ongoing
 		}
 		add_to_variable = { var = senate_total_voting_support value = -20 }
@@ -1088,19 +1088,19 @@ ic_pulse = {
 		limit = {
 			original_tag = FRA
 			SEN = { is_subject_of = ROOT }
-			date > 1958.10.4
-			date < 1960.1.1
+			date > 1958.10.04
+			date < 1960.01.01
 		}
-		country_event = FCF.1
+		country_event = FCF.01
 	}
 	if = {
 		limit = {
 			original_tag = FRA
 			ROC = { is_subject_of = ROOT }
-			date > 1958.10.4
-			date < 1960.1.1
+			date > 1958.10.04
+			date < 1960.01.01
 		}
-		country_event = FCF.2
+		country_event = FCF.02
 	}
 	if = {
 		limit = {
@@ -1117,11 +1117,11 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = FRA
-			date > 1958.4.1
-			date < 1959.1.1
+			date > 1958.04.01
+			date < 1959.01.01
 			has_completed_focus = FRA_Guy_Mollet
 		}
-		country_event = fra_crisis.2
+		country_event = fra_crisis.02
 	}		
 	
 	if = {
@@ -1129,16 +1129,16 @@ ic_pulse = {
 			tag = ROM
 			owns_state = 949
 		}
-		country_event = PMR.1
+		country_event = PMR.01
 	}
 	if = {
 		limit = {
 			tag = WGR
 			has_completed_focus = WGR_Konrad_Adenauer_49
-			date > 1952.1.1
-			date < 1953.1.1
+			date > 1952.01.01
+			date < 1953.01.01
 		}
-		country_event = GER_ASSASIN.1
+		country_event = GER_ASSASIN.01
 	}		
 
 	if = {
@@ -1183,7 +1183,7 @@ ic_pulse = {
 			if = {
 				limit = {
 					date > 1959.12.31
-					date < 1960.1.31
+					date < 1960.01.31
 					NOT = {
 						has_country_flag = focus_tree_60_reset
 					}
@@ -1231,7 +1231,7 @@ ic_pulse = {
 			if = {
 				limit = {
 					date > 1959.12.31
-					date < 1960.1.31
+					date < 1960.01.31
 					NOT = {
 						has_country_flag = focus_tree_60_reset
 					}
@@ -1458,36 +1458,36 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = ROM
-					date > 1965.4.2
-					date < 1965.7.22					
+					date > 1965.04.02
+					date < 1965.07.22					
 				}
-				country_event = ROM.1
+				country_event = ROM.01
 			}
 			if = {
 				limit = {
 					tag = FRA
-					date > 1954.11.1
-					date < 1955.1.1					
+					date > 1954.11.01
+					date < 1955.01.01					
 				}
-				country_event = algeria_war.1
+				country_event = algeria_war.01
 			}			
 			if = {
 				limit = {
-					date > 1952.7.1
-					date < 1952.8.2
+					date > 1952.07.01
+					date < 1952.08.02
 					NOT = { has_country_flag = summergames52 }
 					FIN = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.1
+				news_event = summerolympics.01
 			}
 			if = {	
 				limit = {
 					tag = PER
-					date > 1952.3.1
-					date < 1952.4.1
+					date > 1952.03.01
+					date < 1952.04.01
 				}
 				country_event = iran_elections.1952
 			}
@@ -1495,8 +1495,8 @@ ic_pulse = {
 				limit = {
 					tag = PER
 					has_completed_focus = PER_Coup_Crushed
-					date > 1954.3.1
-					date < 1954.4.1
+					date > 1954.03.01
+					date < 1954.04.01
 				}
 				country_event = iran_elections.1954
 			}
@@ -1504,15 +1504,15 @@ ic_pulse = {
 				limit = {
 					tag = PER
 					has_completed_focus = PER_Coup_Crushed
-					date > 1954.3.1
-					date < 1954.4.1
+					date > 1954.03.01
+					date < 1954.04.01
 				}
 				country_event = iran_elections.1958
 			}			
 			if = {
 				limit = {
-					date > 1956.6.1
-					date < 1956.7.2
+					date > 1956.06.01
+					date < 1956.07.02
 					NOT = { has_country_flag = summergames56 }
 					AST = {
 						exists = yes
@@ -1523,96 +1523,96 @@ ic_pulse = {
 						has_war = no
 					}
 				}
-				news_event = summerolympics.2
+				news_event = summerolympics.02
 			}
 			if = {
 				limit = {
-					date > 1960.8.1
-					date < 1960.9.2
+					date > 1960.08.01
+					date < 1960.09.02
 					NOT = { has_country_flag = summergames60 }
 					ITA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.3
+				news_event = summerolympics.03
 			}
 			if = {
 				limit = {
-					date > 1964.8.1
-					date < 1964.9.2
+					date > 1964.08.01
+					date < 1964.09.02
 					NOT = { has_country_flag = summergames64 }
 					JAP = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.4
+				news_event = summerolympics.04
 			}
 			if = {
 				limit = {
-					date > 1968.8.1
-					date < 1968.9.2
+					date > 1968.08.01
+					date < 1968.09.02
 					NOT = { has_country_flag = summergames68 }
 					MEX = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.5
+				news_event = summerolympics.05
 			}
 			if = {
 				limit = {
-					date > 1972.8.1
-					date < 1972.9.2
+					date > 1972.08.01
+					date < 1972.09.02
 					NOT = { has_country_flag = summergames72 }
 					WGR = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.6
+				news_event = summerolympics.06
 			}
 			if = {
 				limit = {
-					date > 1976.7.1
-					date < 1976.8.2
+					date > 1976.07.01
+					date < 1976.08.02
 					NOT = { has_country_flag = summergames76 }
 					CAN = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.7
+				news_event = summerolympics.07
 			}
 			if = {
 				limit = {
-					date > 1980.7.1
-					date < 1980.8.2
+					date > 1980.07.01
+					date < 1980.08.02
 					NOT = { has_country_flag = summergames80 }
 					SOV = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.8
+				news_event = summerolympics.08
 			}
 			if = {
 				limit = {
-					date > 1984.7.1
-					date < 1984.8.2
+					date > 1984.07.01
+					date < 1984.08.02
 					NOT = { has_country_flag = summergames84 }
 					USA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = summerolympics.9
+				news_event = summerolympics.09
 			}
 			if = {
 				limit = {
-					date > 1988.10.1
-					date < 1988.11.2
+					date > 1988.10.01
+					date < 1988.11.02
 					NOT = { has_country_flag = summergames88 }
 					KOR = {
 						exists = yes
@@ -1623,8 +1623,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1992.7.1
-					date < 1992.8.2
+					date > 1992.07.01
+					date < 1992.08.02
 					NOT = { has_country_flag = summergames92 }
 					SPR = {
 						exists = yes
@@ -1635,8 +1635,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1996.7.1
-					date < 1996.8.2
+					date > 1996.07.01
+					date < 1996.08.02
 					NOT = { has_country_flag = summergames96 }
 					USA = {
 						exists = yes
@@ -1647,8 +1647,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2000.10.1
-					date < 2000.11.2
+					date > 2000.10.01
+					date < 2000.11.02
 					NOT = { has_country_flag = summergames00 }
 					AST = {
 						exists = yes
@@ -1659,8 +1659,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2004.8.1
-					date < 2004.9.2
+					date > 2004.08.01
+					date < 2004.09.02
 					NOT = { has_country_flag = summergames04 }
 					GRE = {
 						exists = yes
@@ -1671,8 +1671,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2008.8.1
-					date < 2008.9.2
+					date > 2008.08.01
+					date < 2008.09.02
 					NOT = { has_country_flag = summergames08 }
 					CHI = {
 						exists = yes
@@ -1683,8 +1683,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2012.7.1
-					date < 2012.8.2
+					date > 2012.07.01
+					date < 2012.08.02
 					NOT = { has_country_flag = summergames12 }
 					ENG = {
 						exists = yes
@@ -1695,8 +1695,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2016.8.1
-					date < 2016.9.2
+					date > 2016.08.01
+					date < 2016.09.02
 					NOT = { has_country_flag = summergames16 }
 					BRA = {
 						exists = yes
@@ -1707,116 +1707,116 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1952.2.1
-					date < 1952.3.2
+					date > 1952.02.01
+					date < 1952.03.02
 					NOT = { has_country_flag = wintergames52 }
 					"NOR" = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.1
+				news_event = winterolympics.01
 			}
 			if = {
 				limit = {
-					date > 1956.1.1
-					date < 1956.2.2
+					date > 1956.01.01
+					date < 1956.02.02
 					NOT = { has_country_flag = wintergames56 }
 					ITA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.2
+				news_event = winterolympics.02
 			}
 			if = {
 				limit = {
-					date > 1960.2.1
-					date < 1960.3.2
+					date > 1960.02.01
+					date < 1960.03.02
 					NOT = { has_country_flag = wintergames60 }
 					USA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.3
+				news_event = winterolympics.03
 			}
 			if = {
 				limit = {
-					date > 1964.1.1
-					date < 1964.2.2
+					date > 1964.01.01
+					date < 1964.02.02
 					NOT = { has_country_flag = wintergames64 }
 					AUS = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.4
+				news_event = winterolympics.04
 			}
 			if = {
 				limit = {
-					date > 1968.2.1
-					date < 1968.3.2
+					date > 1968.02.01
+					date < 1968.03.02
 					NOT = { has_country_flag = wintergames68 }
 					FRA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.5
+				news_event = winterolympics.05
 			}
 			if = {
 				limit = {
-					date > 1972.2.1
-					date < 1972.3.2
+					date > 1972.02.01
+					date < 1972.03.02
 					NOT = { has_country_flag = wintergames72 }
 					JAP = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.6
+				news_event = winterolympics.06
 			}
 			if = {
 				limit = {
-					date > 1976.2.1
-					date < 1976.3.2
+					date > 1976.02.01
+					date < 1976.03.02
 					NOT = { has_country_flag = wintergames76 }
 					AUS = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.7
+				news_event = winterolympics.07
 			}
 			if = {
 				limit = {
-					date > 1980.2.1
-					date < 1980.3.2
+					date > 1980.02.01
+					date < 1980.03.02
 					NOT = { has_country_flag = wintergames80 }
 					USA = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.8
+				news_event = winterolympics.08
 			}
 			if = {
 				limit = {
-					date > 1984.2.1
-					date < 1984.3.2
+					date > 1984.02.01
+					date < 1984.03.02
 					NOT = { has_country_flag = wintergames84 }
 					YUG = {
 						exists = yes
 						has_war = no
 					}
 				}
-				news_event = winterolympics.9
+				news_event = winterolympics.09
 			}
 			if = {
 				limit = {
-					date > 1988.2.1
-					date < 1988.3.2
+					date > 1988.02.01
+					date < 1988.03.02
 					NOT = { has_country_flag = wintergames88 }
 					CAN = {
 						exists = yes
@@ -1827,8 +1827,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1992.2.1
-					date < 1992.3.2
+					date > 1992.02.01
+					date < 1992.03.02
 					NOT = { has_country_flag = wintergames92 }
 					FRA = {
 						exists = yes
@@ -1839,8 +1839,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1994.2.1
-					date < 1994.3.2
+					date > 1994.02.01
+					date < 1994.03.02
 					NOT = { has_country_flag = wintergames94 }
 					"NOR" = {
 						exists = yes
@@ -1851,8 +1851,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 1998.2.1
-					date < 1998.3.2
+					date > 1998.02.01
+					date < 1998.03.02
 					NOT = { has_country_flag = wintergames98 }
 					JAP = {
 						exists = yes
@@ -1863,8 +1863,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2002.2.1
-					date < 2002.3.2
+					date > 2002.02.01
+					date < 2002.03.02
 					NOT = { has_country_flag = wintergames02 }
 					USA = {
 						exists = yes
@@ -1875,8 +1875,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2006.2.1
-					date < 2006.3.2
+					date > 2006.02.01
+					date < 2006.03.02
 					NOT = { has_country_flag = wintergames06 }
 					ITA = {
 						exists = yes
@@ -1887,8 +1887,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2010.2.1
-					date < 2010.3.2
+					date > 2010.02.01
+					date < 2010.03.02
 					NOT = { has_country_flag = wintergames10 }
 					CAN = {
 						exists = yes
@@ -1899,8 +1899,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2014.2.1
-					date < 2014.3.2
+					date > 2014.02.01
+					date < 2014.03.02
 					NOT = { has_country_flag = wintergames14 }
 					SOV = {
 						exists = yes
@@ -1911,8 +1911,8 @@ ic_pulse = {
 			}
 			if = {
 				limit = {
-					date > 2018.2.1
-					date < 2018.3.2
+					date > 2018.02.01
+					date < 2018.03.02
 					NOT = { has_country_flag = wintergames18 }
 					KOR = {
 						exists = yes
@@ -1925,7 +1925,7 @@ ic_pulse = {
 				limit = {
 					tag = USA
 					date > 1963.11.21
-					date < 1964.3.6
+					date < 1964.03.06
 					NOT = { has_global_flag = november_1963 }
 					has_global_flag = nixon_60
 				}
@@ -1935,7 +1935,7 @@ ic_pulse = {
 				limit = {
 					tag = USA
 					date > 1963.11.21
-					date < 1964.3.6
+					date < 1964.03.06
 					NOT = { has_global_flag = november_1963 }
 					has_global_flag = jfk_60
 				}
@@ -1945,17 +1945,17 @@ ic_pulse = {
 				limit = {
 					tag = USA
 					date > 1966.12.12
-					date < 1968.1.1
+					date < 1968.01.01
 				}
 				country_event = swf.102
 			}	
 			if = {
 				limit = {
 					has_country_flag = civil_war_trigger
-					date > 1970.6.1
-					date < 1970.7.2
+					date > 1970.06.01
+					date < 1970.07.02
 				}				
-				country_event = americancivilwar.6
+				country_event = americancivilwar.06
 			}			if = {
 				limit = {
 					has_idea = nato_member
@@ -1972,19 +1972,19 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = SOV
-					date > 1953.3.1
-					date < 1953.10.6
+					date > 1953.03.01
+					date < 1953.10.06
 					NOT = { has_global_flag = stalin_dead }
 				}
-				country_event = swf.4
+				country_event = swf.04
 			}
 			if = {
 				limit = {
 					tag = SOV
-					date > 1964.10.1
+					date > 1964.10.01
 					date < 1964.12.31
 				}
-				country_event = sov.6
+				country_event = sov.06
 			}
 			if = {
 				limit = {
@@ -1996,7 +1996,7 @@ ic_pulse = {
 						has_country_flag = zanu_defeated
 					}
 				}
-				country_event = zimbabwe.2
+				country_event = zimbabwe.02
 			}
 			if = {
 				limit = {
@@ -2008,7 +2008,7 @@ ic_pulse = {
 						has_country_flag = zapu_defeated
 					}
 				}
-				country_event = zimbabwe.4
+				country_event = zimbabwe.04
 			}
 			if = {
 				limit = {
@@ -2017,7 +2017,7 @@ ic_pulse = {
 					OR = {
 						has_idea = zim_zanu_10
 						has_idea = zim_zapu_10
-						nationalism > 0.7
+						nationalism > 0.07
 					}
 				}
 				country_event = zimbabwe.13
@@ -2034,7 +2034,7 @@ ic_pulse = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1965.12.3
+					date > 1965.12.03
 					date < 1966.10.15
 					NOT = { has_country_flag = french_elections_1965 }
 					NOT = { has_government = fascism }
@@ -2043,13 +2043,13 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.2
+				country_event = french_elections.02
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1969.6.13
+					date > 1969.06.13
 					date < 1969.10.15
 					NOT = { has_country_flag = french_elections_1969 }
 					
@@ -2059,14 +2059,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.3
+				country_event = french_elections.03
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1974.5.5
-					date < 1974.5.20
+					date > 1974.05.05
+					date < 1974.05.20
 					NOT = { has_country_flag = french_elections_1974 }
 					
 					NOT = { has_government = fascism }
@@ -2074,14 +2074,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.1
+				country_event = french_elections.01
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1981.5.1
-					date < 1981.5.12
+					date > 1981.05.01
+					date < 1981.05.12
 					NOT = { has_country_flag = french_elections_1981 }
 					
 					NOT = { has_government = fascism }
@@ -2089,14 +2089,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.4
+				country_event = french_elections.04
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1988.4.25
-					date < 1988.5.10
+					date > 1988.04.25
+					date < 1988.05.10
 					NOT = { has_country_flag = french_elections_1988 }
 					
 					NOT = { has_government = fascism }
@@ -2104,14 +2104,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.5
+				country_event = french_elections.05
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1995.4.28
-					date < 1995.5.10
+					date > 1995.04.28
+					date < 1995.05.10
 					NOT = { has_country_flag = french_elections_1995 }
 					
 					NOT = { has_government = fascism }
@@ -2119,14 +2119,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.6
+				country_event = french_elections.06
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 2002.4.26
-					date < 2002.5.7
+					date > 2002.04.26
+					date < 2002.05.07
 					NOT = { has_country_flag = french_elections_2002 }
 					
 					NOT = { has_government = fascism }
@@ -2134,14 +2134,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.7
+				country_event = french_elections.07
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 2007.4.24
-					date < 2007.5.8
+					date > 2007.04.24
+					date < 2007.05.08
 					NOT = { has_country_flag = french_elections_2007 }
 					
 					NOT = { has_government = fascism }
@@ -2149,14 +2149,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.8
+				country_event = french_elections.08
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 2012.4.24
-					date < 2012.5.8
+					date > 2012.04.24
+					date < 2012.05.08
 					NOT = { has_country_flag = french_elections_2012 }
 					
 					NOT = { has_government = fascism }
@@ -2164,14 +2164,14 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = french_elections.9
+				country_event = french_elections.09
 			}
 			if = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 2017.4.25
-					date < 2017.5.9
+					date > 2017.04.25
+					date < 2017.05.09
 					NOT = { has_country_flag = french_elections_2017 }
 					
 					NOT = { has_government = fascism }
@@ -2185,8 +2185,8 @@ ic_pulse = {
 				limit = {
 					tag = FRA
 					has_civil_war = no
-					date > 1967.3.1
-					date < 1967.3.15
+					date > 1967.03.01
+					date < 1967.03.15
 					NOT = { has_country_flag = french_legislative_elections_1967 }
 					
 					NOT = { has_government = fascism }
@@ -2200,8 +2200,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1951.6.1
-					date < 1952.1.1
+					date > 1951.06.01
+					date < 1952.01.01
 					
 					NOT = { has_government = fascism }
 					NOT = { has_government = communism }
@@ -2209,13 +2209,13 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = fra_elections.1
+				country_event = fra_elections.01
 			}
 			if = {
 				limit = {
 					tag = FRA
-					date > 1956.1.1
-					date < 1957.1.1
+					date > 1956.01.01
+					date < 1957.01.01
 					
 					NOT = { has_government = fascism }
 					NOT = { has_government = communism }
@@ -2223,13 +2223,13 @@ ic_pulse = {
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 				}
-				country_event = fra_elections.2
+				country_event = fra_elections.02
 			}
 			if = {
 				limit = {
 					tag = FRA
-					date > 1968.4.28
-					date < 1968.5.2
+					date > 1968.04.28
+					date < 1968.05.02
 					has_completed_focus = FRA_60s_Re_Elect_De_Galle
 				}
 				news_event = may.681
@@ -2237,8 +2237,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1968.4.28
-					date < 1968.5.2
+					date > 1968.04.28
+					date < 1968.05.02
 					has_completed_focus = FRA_60s_Re_Elect_De_Galle
 				}
 				news_event = may.682
@@ -2246,8 +2246,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1968.5.20
-					date < 1968.5.24
+					date > 1968.05.20
+					date < 1968.05.24
 					has_completed_focus = FRA_60s_Repress_the_Protestors
 				}
 				news_event = may.687
@@ -2255,8 +2255,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1968.5.14
-					date < 1968.5.19
+					date > 1968.05.14
+					date < 1968.05.19
 					has_completed_focus = FRA_60s_Negotiation_with_Protestors
 				}
 				news_event = may.688
@@ -2264,8 +2264,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1968.5.28
-					date < 1968.6.1
+					date > 1968.05.28
+					date < 1968.06.01
 					has_completed_focus = FRA_60s_Re_Elect_De_Galle
 				}
 				country_event = may.71
@@ -2274,65 +2274,65 @@ ic_pulse = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1968.3.1
-					date < 1968.3.17
+					date > 1968.03.01
+					date < 1968.03.17
 					NOT = { has_country_flag = mor_leg_elections_1968 }
 					NOT = { has_completed_focus = MOR_60s_HASSAN_II_GOVERNMENTS }
 				}
-				country_event = morroccoelection.3
+				country_event = morroccoelection.03
 			}
 			if = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1963.3.1
-					date < 1963.3.17
+					date > 1963.03.01
+					date < 1963.03.17
 					NOT = { has_country_flag = mor_leg_elections_1963 }
 					NOT = { has_completed_focus = MOR_60s_ABDALLAH_III_GOVERNMENT }
 				}
-				country_event = morroccoelection.2
+				country_event = morroccoelection.02
 			}
 			if = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1963.3.1
-					date < 1963.3.17
+					date > 1963.03.01
+					date < 1963.03.17
 					NOT = { has_country_flag = mor_elections_1963 }
 					NOT = { has_completed_focus = MOR_60s_HASSAN_II_GOVERNMENTS }
 				}
-				country_event = morroccoelection.1
+				country_event = morroccoelection.01
 			}
 			if = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1971.7.10
-					date < 1971.7.20
+					date > 1971.07.10
+					date < 1971.07.20
 					NOT = { has_completed_focus = MOR_60s_ABDALLAH_III_GOVERNMENT }
 				}
-				country_event = morroccoelection.4
+				country_event = morroccoelection.04
 			}
 			if = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1961.2.16
-					date < 1961.2.26
+					date > 1961.02.16
+					date < 1961.02.26
 					NOT = { has_country_flag = mohammed_v_death }
 				}
-				country_event = morocco.1
+				country_event = morocco.01
 			}
 			if = {
 				limit = {
 					tag = MOR
 					has_civil_war = no
-					date > 1960.3.1
-					date < 1960.4.7
+					date > 1960.03.01
+					date < 1960.04.07
 					NOT = { has_country_flag = assassination_attempt }
 					NOT = { has_country_flag = unfp_arrestation }
 				}
-				country_event = morocco.4
+				country_event = morocco.04
 			}
 			if = {
 				limit = {
@@ -2352,7 +2352,7 @@ ic_pulse = {
 				}
 				random_list = {
 					25 = {
-						country_event = zimbabwe.1
+						country_event = zimbabwe.01
 					}
 					75 = {
 					}
@@ -2367,7 +2367,7 @@ ic_pulse = {
 				}
 				random_list = {
 					25 = {
-						country_event = zimbabwe.3
+						country_event = zimbabwe.03
 					}
 					75 = {
 					}
@@ -2391,8 +2391,8 @@ ic_pulse = {
 				limit = {
 					original_tag = MAL
 					NOT = { has_global_flag = malayan_uprising_67 }
-					date > 1967.6.1 
-					date < 1967.9.24 
+					date > 1967.06.01 
+					date < 1967.09.24 
 				}
 				country_event = cwu.27
 			}
@@ -2400,10 +2400,10 @@ ic_pulse = {
 				limit = {
 					original_tag = POL
 					NOT = { has_global_flag = polish_uprising_check }
-					date > 1956.6.1 
-					date < 1956.8.24 
+					date > 1956.06.01 
+					date < 1956.08.24 
 				}
-				country_event = cwu.4
+				country_event = cwu.04
 				set_global_flag = polish_uprising_check
 			}
 			
@@ -2414,8 +2414,8 @@ ic_pulse = {
 					is_ai = no
 					is_ironman = no 
 					is_historical_focus_on = no
-					date > 1957.3.1
-					date < 1960.1.1
+					date > 1957.03.01
+					date < 1960.01.01
 					has_country_flag = vladivostok_ufotwo
 					has_country_flag = luhansk_ufo_ufotwo
 					has_country_flag = denounce_UFO
@@ -2424,14 +2424,14 @@ ic_pulse = {
 						has_country_flag = luhansk_ufo_ufotwo
 					}					
 				}
-				country_event = easter_egg_posadism.1
+				country_event = easter_egg_posadism.01
 			}
 			if = {
 				limit = {
 					original_tag = YUG
 					NOT = { has_global_flag = slovene_uprising_87 }
-					date > 1987.12.6
-					date < 1988.5.15
+					date > 1987.12.06
+					date < 1988.05.15
 				}
 				country_event = cwu.24
 			}
@@ -2439,8 +2439,8 @@ ic_pulse = {
 				limit = {
 					original_tag = YUG
 					NOT = { has_global_flag = kosovan_uprising_81 }
-					date > 1981.3.11
-					date < 1981.8.20
+					date > 1981.03.11
+					date < 1981.08.20
 				}
 				country_event = cwu.21
 			}
@@ -2448,8 +2448,8 @@ ic_pulse = {
 				limit = {
 					original_tag = YUG
 					NOT = { has_global_flag = croatian_uprising_1971 }
-					date > 1971.9.1
-					date < 1972.1.31
+					date > 1971.09.01
+					date < 1972.01.31
 				}
 				country_event = cwu.18
 			}
@@ -2457,8 +2457,8 @@ ic_pulse = {
 				limit = {
 					original_tag = POL
 					NOT = { has_global_flag = polish_uprising_1970 }
-					date > 1970.12.1
-					date < 1971.7.31
+					date > 1970.12.01
+					date < 1971.07.31
 				}
 				country_event = cwu.15
 			}
@@ -2466,8 +2466,8 @@ ic_pulse = {
 				limit = {
 					original_tag = CZE
 					NOT = { has_global_flag = czech_uprising_1968 }
-					date > 1968.1.5
-					date < 1968.7.31
+					date > 1968.01.05
+					date < 1968.07.31
 				}
 				country_event = cwu.12
 			}
@@ -2478,26 +2478,26 @@ ic_pulse = {
 					date > 1956.10.15
 					date < 1956.12.31
 				}
-				country_event = cwu.9
+				country_event = cwu.09
 			}
 			if = {
 				limit = {
 					original_tag = POL
-					date > 1956.6.15
-					date < 1956.8.31
+					date > 1956.06.15
+					date < 1956.08.31
 					NOT = { has_global_flag = poznan_uprising_1956 }				
 				}
-				country_event = cwu.6
+				country_event = cwu.06
 			}
 			if = {
 				limit = {
 					original_tag = DDR
-					date > 1953.6.15
-					date < 1953.9.1
+					date > 1953.06.15
+					date < 1953.09.01
 					NOT = { has_global_flag = berlin_uprising_1952 }
 					has_capitulated = no		
 				}
-				country_event = cwu.2
+				country_event = cwu.02
 			}
 			if = {
 				limit = {
@@ -2514,10 +2514,10 @@ ic_pulse = {
 								has_government = Social_Democratic
 							}	
 					
-					date > 1950.2.1
-					date < 1951.4.1
+					date > 1950.02.01
+					date < 1951.04.01
 				}
-				country_event = CWelect.1
+				country_event = CWelect.01
 			}
 			if = {
 				limit = {
@@ -2534,10 +2534,10 @@ ic_pulse = {
 								has_government = Social_Democratic
 							}	
 					
-					date > 1951.10.1
-					date < 1951.12.1
+					date > 1951.10.01
+					date < 1951.12.01
 				}
-				country_event = CWelect.2
+				country_event = CWelect.02
 			}
 			if = {
 				limit = {
@@ -2554,10 +2554,10 @@ ic_pulse = {
 								has_government = Social_Democratic
 							}	
 					
-					date > 1955.5.1
-					date < 1955.12.1
+					date > 1955.05.01
+					date < 1955.12.01
 				}
-				country_event = CWelect.3
+				country_event = CWelect.03
 			}
 			if = {
 				limit = {
@@ -2575,10 +2575,10 @@ ic_pulse = {
 								has_government = Social_Democratic
 							}	
 					
-					date > 1957.5.1
-					date < 1958.12.1
+					date > 1957.05.01
+					date < 1958.12.01
 				}
-				country_event = CWelect.4
+				country_event = CWelect.04
 			}
 			if = {
 				limit = {
@@ -2594,10 +2594,10 @@ ic_pulse = {
 								has_government = Social_Liberalism
 								has_government = Social_Democratic
 							}			
-					date > 1959.1.1
-					date < 1960.1.1
+					date > 1959.01.01
+					date < 1960.01.01
 				}
-				country_event = CWelect.5
+				country_event = CWelect.05
 			}		
 			if = {
 				limit = {
@@ -2613,11 +2613,11 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							has_government = Social_Democratic
 						}			
-				date > 1963.1.1
-				date < 1964.1.1
+				date > 1963.01.01
+				date < 1964.01.01
 				has_country_flag = Harold_Macmillian_flag
 				}
-				country_event = CWelect.6
+				country_event = CWelect.06
 			}		
 			if = {
 				limit = {
@@ -2633,11 +2633,11 @@ ic_pulse = {
 								has_government = Social_Liberalism
 								has_government = Social_Democratic
 							}			
-					date > 1963.1.1
-					date < 1964.1.1
+					date > 1963.01.01
+					date < 1964.01.01
 					has_country_flag = Hugh_Gaitskell_flag
 				}
-				country_event = CWelect.7
+				country_event = CWelect.07
 			}		
 			if = {
 				limit = {
@@ -2653,10 +2653,10 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							has_government = Social_Democratic
 						}			
-					date > 1964.1.1
-					date < 1965.1.1
+					date > 1964.01.01
+					date < 1965.01.01
 				}
-				country_event = CWelect.8
+				country_event = CWelect.08
 			}		
 			if = {
 				limit = {
@@ -2672,10 +2672,10 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							has_government = Social_Democratic
 						}			
-					date > 1966.1.1
-					date < 1967.1.1
+					date > 1966.01.01
+					date < 1967.01.01
 				}
-				country_event = CWelect.9
+				country_event = CWelect.09
 			}	
 			if = {
 				limit = {
@@ -2693,8 +2693,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1970.1.1
-					date < 1971.1.1
+					date > 1970.01.01
+					date < 1971.01.01
 				}
 				country_event = CWelect.10
 			}	
@@ -2714,8 +2714,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1974.1.1
-					date < 1975.1.1
+					date > 1974.01.01
+					date < 1975.01.01
 				}
 				country_event = CWelect.11
 			}	
@@ -2729,7 +2729,7 @@ ic_pulse = {
 						}
 					}
 				}
-				country_event = NATO.4
+				country_event = NATO.04
 			}	
 			if = {
 				limit = {
@@ -2751,8 +2751,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1954.11.1
-					date < 1955.1.1
+					date > 1954.11.01
+					date < 1955.01.01
 					NOT = {
 						OR = {
 							country_exists = ALG
@@ -2765,8 +2765,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1955.8.1
-					date < 1956.1.1
+					date > 1955.08.01
+					date < 1956.01.01
 					NOT = {
 						OR = {
 							country_exists = ALG
@@ -2779,8 +2779,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1955.12.1
-					date < 1956.2.1
+					date > 1955.12.01
+					date < 1956.02.01
 					NOT = {
 						OR = {
 							country_exists = ALG
@@ -2793,8 +2793,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = FRA
-					date > 1956.9.1
-					date < 1957.1.1
+					date > 1956.09.01
+					date < 1957.01.01
 					NOT = {
 						OR = {
 							country_exists = ALG
@@ -2820,8 +2820,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1976.1.1
-					date < 1977.1.1
+					date > 1976.01.01
+					date < 1977.01.01
 				}
 				country_event = CWelect.12
 			}	
@@ -2841,8 +2841,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1975.1.1
-					date < 1976.1.1
+					date > 1975.01.01
+					date < 1976.01.01
 				}
 				country_event = CWelect.13
 			}	
@@ -2861,8 +2861,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1974.1.1
-					date < 1975.1.1
+					date > 1974.01.01
+					date < 1975.01.01
 				}
 				country_event = CWelect.14
 			}	
@@ -2882,8 +2882,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1983.1.1
-					date < 1984.1.1
+					date > 1983.01.01
+					date < 1984.01.01
 				}
 				country_event = CWelect.15
 			}	
@@ -2903,8 +2903,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1987.1.1
-					date < 1988.1.1
+					date > 1987.01.01
+					date < 1988.01.01
 				}
 				country_event = CWelect.16
 			}	
@@ -2924,8 +2924,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1990.1.1
-					date < 1991.1.1
+					date > 1990.01.01
+					date < 1991.01.01
 					has_country_flag = Margret_Thatcher_flag 		
 				}
 				country_event = CWelect.17
@@ -2946,8 +2946,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1992.1.1
-					date < 1993.1.1
+					date > 1992.01.01
+					date < 1993.01.01
 				}
 				country_event = CWelect.18
 			}								
@@ -2967,8 +2967,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1993.1.1
-					date < 1994.1.1
+					date > 1993.01.01
+					date < 1994.01.01
 					has_country_flag = Neil_Kinnock_flag
 				}
 				country_event = CWelect.19
@@ -2989,8 +2989,8 @@ ic_pulse = {
 							has_government = Social_Liberalism
 							
 						}			
-					date > 1997.1.1
-					date < 1998.1.1
+					date > 1997.01.01
+					date < 1998.01.01
 					has_country_flag = Neil_Kinnock_flag
 				}
 				country_event = CWelect.20
@@ -3004,7 +3004,7 @@ ic_pulse = {
 					has_global_flag = fra_yes_prc_un_recognition
 					NOT = { has_global_flag = prc_un_recognized }
 				}
-				country_event = prc.9
+				country_event = prc.09
 			}		
 			if = {
 				limit = {
@@ -3022,8 +3022,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1952.7.15
-					date < 1952.9.31
+					date > 1952.07.15
+					date < 1952.09.31
 				}
 				country_event = usa.1000
 				country_event = usa.1001
@@ -3031,8 +3031,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1956.7.15
-					date < 1956.9.31
+					date > 1956.07.15
+					date < 1956.09.31
 				}
 				country_event = usa.1956
 				country_event = usa.19562
@@ -3040,8 +3040,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1960.7.15
-					date < 1960.9.31
+					date > 1960.07.15
+					date < 1960.09.31
 				}
 				country_event = usa.19601
 				country_event = usa.19602
@@ -3049,8 +3049,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1964.7.15
-					date < 1964.9.31
+					date > 1964.07.15
+					date < 1964.09.31
 				}
 				country_event = usa.19641
 				country_event = usa.19642
@@ -3058,8 +3058,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1968.7.15
-					date < 1968.9.31
+					date > 1968.07.15
+					date < 1968.09.31
 				}
 				country_event = usa.19681
 				country_event = usa.19682
@@ -3067,8 +3067,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1972.7.15
-					date < 1972.9.31
+					date > 1972.07.15
+					date < 1972.09.31
 				}
 				country_event = usa.19721
 				country_event = usa.19722
@@ -3076,8 +3076,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1976.7.15
-					date < 1976.8.31
+					date > 1976.07.15
+					date < 1976.08.31
 				}
 				country_event = usa.19761
 				country_event = usa.19762
@@ -3085,8 +3085,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1980.7.15
-					date < 1980.8.31
+					date > 1980.07.15
+					date < 1980.08.31
 				}
 				country_event = usa.19801
 				country_event = usa.19802
@@ -3094,8 +3094,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1984.7.15
-					date < 1984.8.31
+					date > 1984.07.15
+					date < 1984.08.31
 				}
 				country_event = usa.19841
 				country_event = usa.19842
@@ -3103,8 +3103,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1988.7.15
-					date < 1988.8.31
+					date > 1988.07.15
+					date < 1988.08.31
 				}
 				country_event = usa.19881
 				country_event = usa.19882
@@ -3112,8 +3112,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1992.7.15
-					date < 1992.8.31
+					date > 1992.07.15
+					date < 1992.08.31
 				}
 				country_event = usa.19921
 				country_event = usa.19922
@@ -3121,8 +3121,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 1996.7.15
-					date < 1996.8.31
+					date > 1996.07.15
+					date < 1996.08.31
 				}
 				country_event = usa.19961
 				country_event = usa.19962
@@ -3130,8 +3130,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 2000.7.15
-					date < 2000.8.31
+					date > 2000.07.15
+					date < 2000.08.31
 				}
 				country_event = usa.20001
 				country_event = usa.20002
@@ -3139,8 +3139,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 2004.7.15
-					date < 2004.8.31
+					date > 2004.07.15
+					date < 2004.08.31
 				}
 				country_event = usa.20041
 				country_event = usa.20042
@@ -3148,8 +3148,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 2008.7.15
-					date < 2008.8.31
+					date > 2008.07.15
+					date < 2008.08.31
 				}
 				country_event = usa.20081
 				country_event = usa.20082
@@ -3157,8 +3157,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 2012.7.15
-					date < 2012.8.31
+					date > 2012.07.15
+					date < 2012.08.31
 				}
 				country_event = usa.20121
 				country_event = usa.20122
@@ -3166,8 +3166,8 @@ ic_pulse = {
 			if = {
 				limit = {
 					tag = USA
-					date > 2016.7.15
-					date < 2016.8.31
+					date > 2016.07.15
+					date < 2016.08.31
 				}
 				country_event = usa.20161
 				country_event = usa.20162
@@ -3176,48 +3176,48 @@ ic_pulse = {
 				limit = {
 					tag = BRA
 					has_civil_war = no
-					date > 1950.10.1
+					date > 1950.10.01
 					date < 1950.10.15
 					NOT = { has_country_flag = brazil_elections_1950 }	
 				}
-				country_event = brazil.1
+				country_event = brazil.01
 			}
 			if = {
 				limit = {
 					tag = BRA
 					has_civil_war = no
-					date > 1955.10.1
+					date > 1955.10.01
 					date < 1955.10.15
 					NOT = { has_country_flag = brazil_elections_1955 }
 				}
-				country_event = brazil.2
+				country_event = brazil.02
 			}
 			if = {
 				limit = {
 					tag = BRA
 					has_civil_war = no
-					date > 1960.10.1
+					date > 1960.10.01
 					date < 1960.10.15
 					NOT = { has_country_flag = brazil_elections_1960 }
 				}
-				country_event = brazil.3
+				country_event = brazil.03
 			}
 
 		if = {
 			limit = {
 				tag = ARG
 				has_civil_war = no
-				date > 1951.11.1
+				date > 1951.11.01
 				date < 1951.12.21
 				NOT = { has_global_flag = Argentina_Election_1951 }			
 			}
-			country_event = ARG.1
+			country_event = ARG.01
 		}
 		if = {
 			limit = {
 				tag = ARG
 				has_civil_war = no
-				date > 1958.10.1
+				date > 1958.10.01
 				date < 1958.10.15
 				NOT = { has_global_flag = Argentina_Election_1958 }
 				has_global_flag = Argentina_Election_1958
@@ -3226,19 +3226,19 @@ ic_pulse = {
 					has_completed_focus = ARG_Restoration_of_Democracy
 				}
 			}
-			country_event = ARG.2
+			country_event = ARG.02
 		}
 		if = {
 			limit = {
-				date < 1949.7.1
+				date < 1949.07.01
 				NOT = { has_country_flag = nuremberg_trials_over }
 			}
 			news_event = news.1000 
 		}
 		if = {
 			limit = {
-				date < 1960.5.1
-				date > 1961.1.1
+				date < 1960.05.01
+				date > 1961.01.01
 				NOT = { has_country_flag = Chile_Earthquake }
 			}
 			news_event = news.1510
@@ -3274,7 +3274,7 @@ ic_pulse = {
 				controls_state = 1127 								
 			}
 		}
-		country_event = korea.7
+		country_event = korea.07
 	}	
 	if = {
 		limit = {	
@@ -3285,8 +3285,8 @@ ic_pulse = {
 			has_global_flag = korean_war_begun
 			has_global_flag = korean_war_usa_enters
 			NOT = { has_global_flag = korean_armistice_china }
-			date > 1953.7.26
-			date < 1953.8.1
+			date > 1953.07.26
+			date < 1953.08.01
 			KOR = {
 				controls_state = 866
 				controls_state = 750
@@ -3310,8 +3310,8 @@ ic_pulse = {
 				has_global_flag = korean_war_china_enters
 				has_global_flag = korean_war_usa_enters
 			}
-			date > 1953.7.26  
-			date > 1953.8.1 						
+			date > 1953.07.26  
+			date > 1953.08.01 						
 			KOR = {
 				controls_state = 866
 				controls_state = 750
@@ -3352,7 +3352,7 @@ ic_pulse = {
 				OR = {
 					750 = { is_controlled_by = KPA }
 					753 = { is_controlled_by = KPA }
-					date > 1950.8.31
+					date > 1950.08.31
 				}
 				NOT = { has_global_flag = korean_war_usa_reinforcements_1 }
 			}
@@ -3369,7 +3369,7 @@ ic_pulse = {
 					920 = { is_controlled_by = KOR }
 					746 = { is_controlled_by = KOR }
 					745 = { is_controlled_by = KOR }
-					date > 1950.8.31
+					date > 1950.08.31
 				}
 				NOT = { has_global_flag = korean_war_chinese_reinforcements_1 }
 			}
@@ -3385,7 +3385,7 @@ ic_pulse = {
 				OR = {
 					750 = { is_controlled_by = KPA }
 					753 = { is_controlled_by = KPA }
-					date > 1951.1.1
+					date > 1951.01.01
 				}
 				NOT = { has_global_flag = korean_war_usa_reinforcements_2 }
 			}
@@ -3402,7 +3402,7 @@ ic_pulse = {
 				OR = {
 					746 = { is_controlled_by = KOR }
 					745 = { is_controlled_by = KOR }
-					date > 1951.1.3
+					date > 1951.01.03
 				}
 				NOT = { has_global_flag = korean_war_chinese_reinforcements_2 }
 			}
@@ -3420,7 +3420,7 @@ ic_pulse = {
 						750 = { is_controlled_by = KPA }
 						753 = { is_controlled_by = KPA }
 					}
-					date > 1951.4.1
+					date > 1951.04.01
 				}
 				NOT = { has_global_flag = korean_war_usa_reinforcements_3 }
 			}
@@ -3439,7 +3439,7 @@ ic_pulse = {
 						746 = { is_controlled_by = KOR }
 						745 = { is_controlled_by = KOR }
 					}
-					date > 1951.4.3
+					date > 1951.04.03
 				}
 				NOT = { has_global_flag = korean_war_chinese_reinforcements_3 }
 			}
@@ -3447,11 +3447,11 @@ ic_pulse = {
 		}
 		if = {
 			limit = {
-				date > 1954.10.1
+				date > 1954.10.01
 				NOT = { has_global_flag = tri_questions_over }
 				country_exists = TRI
 			}
-			country_event = tri.1
+			country_event = tri.01
 		}
 		if = {
 			limit = {
@@ -3459,7 +3459,7 @@ ic_pulse = {
 				has_global_flag = yug_yes_Trieste
 				NOT = { has_global_flag = tri_Trieste_united }
 			}
-			country_event = tri.2
+			country_event = tri.02
 		}
 		if = {
 			limit = {
@@ -3469,22 +3469,22 @@ ic_pulse = {
 				}
 				NOT = { has_global_flag = tri_Trieste_not_united }
 			}
-			country_event = tri.3
+			country_event = tri.03
 		}
 		if = {
 			limit = {
 				has_global_flag = yug_back_down_trieste
 				NOT = { has_global_flag = tri_yug_back_down }
 			}
-			country_event = tri.4
+			country_event = tri.04
 		}
 	if = {
 		limit = {
 			NOT = { has_global_flag = first_korean_war}
 			tag = KPA
 			has_war_with = KOR
-			date > 1950.1.1
-			date < 1951.1.1	
+			date > 1950.01.01
+			date < 1951.01.01	
 		}
 		news_event = news.1003
 	}
@@ -3493,11 +3493,11 @@ ic_pulse = {
 				has_global_flag = yug_not_back_down_trieste
 				NOT = { has_global_flag = tri_war }
 			}
-			country_event = tri.5
+			country_event = tri.05
 		}
 	if = {
 		limit = {
-			date > 1964.1.1
+			date > 1964.01.01
 			tag = COL
 			OR = {
 				has_government = conservative
@@ -3513,7 +3513,7 @@ ic_pulse = {
 				
 			}	
 		}
-		country_event = COL_pol.2
+		country_event = COL_pol.02
 	}
 	if = {
 		limit = {
@@ -3522,7 +3522,7 @@ ic_pulse = {
 			POR = { owns_state = 321 }	
 			POR = { owns_state = 879 }	
 		}
-		country_event = goa.1
+		country_event = goa.01
 	}
 
 	if = {
@@ -3535,7 +3535,7 @@ ic_pulse = {
 		}
 		random_list = { 
 			15 = {
-				country_event = researchboost.1
+				country_event = researchboost.01
 			}
 			85 = {
 			}
@@ -3551,7 +3551,7 @@ ic_pulse = {
 		}
 		random_list = { 
 			15 = {
-				country_event = researchboost.2
+				country_event = researchboost.02
 			}
 			85 = {
 			}
@@ -3567,7 +3567,7 @@ ic_pulse = {
 		}
 		random_list = { 
 			15 = {
-				country_event = researchboost.3
+				country_event = researchboost.03
 			}
 			85 = {
 			}
@@ -3583,7 +3583,7 @@ ic_pulse = {
 		}
 		random_list = { 
 			15 = {
-				country_event = researchboost.4
+				country_event = researchboost.04
 			}
 			85 = {
 			}
@@ -3618,18 +3618,18 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = SOV
-			date > 1955.5.1	#14
-			date < 1955.8.20
+			date > 1955.05.01	#14
+			date < 1955.08.20
 		}
-		country_event = { id = swf.7 days = 10 random = 1 }
+		country_event = { id = swf.07 days = 10 random = 1 }
 	}
 	if = {
 		limit = {
 			tag = PAR
-			date > 1954.5.1
-			date < 1954.6.1
+			date > 1954.05.01
+			date < 1954.06.01
 		}
-	    country_event = { id = par.1 days = 5 }
+	    country_event = { id = par.01 days = 5 }
 	}
 	if = {
 		limit = {			
@@ -3637,7 +3637,7 @@ ic_pulse = {
 			CUB = {
 				has_government = communism
 			}
-			date > 1960.10.1
+			date > 1960.10.01
 		}
 		country_event = { id = cuba.12 days = 17 random = 1 }
 	}
@@ -3645,64 +3645,64 @@ ic_pulse = {
 		limit = {			
 			tag = CUB
 			has_global_flag = CUB_batista_rev
-			date > 1952.3.1
-			date < 1952.4.1
+			date > 1952.03.01
+			date < 1952.04.01
 		}
-		country_event = cuba.3
+		country_event = cuba.03
 	}
 	if = {
 		limit = {			
 			tag = USA
-			date > 1950.6.1
-			date < 1951.1.1
+			date > 1950.06.01
+			date < 1951.01.01
 		}
-		country_event = usa.6
+		country_event = usa.06
 	}
 	if = {
 		limit = {
 			tag = FIN
-			date > 1953.1.1
-			date < 1953.1.27
+			date > 1953.01.01
+			date < 1953.01.27
 		}
-		news_event = fin.7
+		news_event = fin.07
 	}
 	if = {
 		limit = {
 			tag = USA
-			date > 1954.5.2
-			date < 1954.6.1
+			date > 1954.05.02
+			date < 1954.06.01
 		}
-		news_event = usa.2
+		news_event = usa.02
 	}
 	if = {
 		limit = {
 			tag = FRA
-			date > 1951.7.1
-			date < 1951.7.23
+			date > 1951.07.01
+			date < 1951.07.23
 		}
 		news_event = fra.15
 	}
 	if = {
 		limit = {
 			tag = DDR
-			date > 1960.9.1
-			date < 1960.9.31
+			date > 1960.09.01
+			date < 1960.09.31
 		}
 		news_event = ddr.43
 	}
 	if = {
 		limit = {		
 			tag = SOV
-			date > 1969.2.1 #15 so 15 day delay
-			date < 1974.6.10
+			date > 1969.02.01 #15 so 15 day delay
+			date < 1974.06.10
 		}
-		news_event = { id = zhenbao_island.1 days = 15 random = 1 }
+		news_event = { id = zhenbao_island.01 days = 15 random = 1 }
 	}
 
 	
 	if = {
 		limit = {
-			date > 1949.9.25
+			date > 1949.09.25
 			date < 1949.10.31
 			NOT = { has_country_flag = berlin_airlift_over}	
 		}
@@ -3716,8 +3716,8 @@ ic_pulse = {
 			tag = KPA
 			has_war_with = KOR
 			NOT = { has_global_flag = first_korean_war}
-			date > 1950.1.1
-			date < 1951.1.1	
+			date > 1950.01.01
+			date < 1951.01.01	
 		}
 		news_event = news.1003
 	}		
@@ -3732,8 +3732,8 @@ ic_pulse = {
 		limit = {
 			tag = ENG
 			NOT = { has_global_flag = george_vi_death }
-			date > 1952.2.1
-			date < 1952.3.1
+			date > 1952.02.01
+			date < 1952.03.01
 		}
 		news_event = coronation.1000
 		set_global_flag = george_vi_death
@@ -3743,16 +3743,16 @@ ic_pulse = {
 		limit = {
 			SOV = { has_country_flag = premier_khrushchev }
 			NOT = { has_country_flag = Kruschev_Bury_USA }
-			date > 1960.9.1
-			date < 1960.9.10
+			date > 1960.09.01
+			date < 1960.09.10
 		}
 		news_event = news.1511
 	}
 	if = {
 		limit = {
 			NOT = { has_global_flag = House_of_Soviet_build }
-			date > 1967.5.9
-			date < 1968.1.1	
+			date > 1967.05.09
+			date < 1968.01.01	
 		}
 		news_event = news.1512
 	}		
@@ -3766,29 +3766,29 @@ ic_pulse = {
 				}
 			}
 		}
-		country_event = mal.2
+		country_event = mal.02
 	}
 	if = {
 		limit = {
 			tag = FRA
-			date > 1958.7.31
-			date < 1958.10.3	
+			date > 1958.07.31
+			date < 1958.10.03	
 		}
-		country_event = fra.8
+		country_event = fra.08
 	}
 	if = {
 		limit = {
 			tag = FRA
-			date > 1960.7.31
-			date < 1960.10.1
+			date > 1960.07.31
+			date < 1960.10.01
 		}
-		country_event = fra.9
+		country_event = fra.09
 	}
 	if = {
 		limit = {
 			tag = FRA
-			date > 1960.7.31
-			date < 1960.10.1
+			date > 1960.07.31
+			date < 1960.10.01
 		}
 		country_event = fra.10
 	}
@@ -3798,15 +3798,15 @@ ic_pulse = {
 			NOT = { country_exists = KMP }
 			tag = CAM
 			NOT = { CAM = { has_government = communism } }
-			date > 1967.2.28	#add days to fire 25
-			date < 1970.6.1
+			date > 1967.02.28	#add days to fire 25
+			date < 1970.06.01
 		}
-		country_event = { id = cambodia.1 days = 10 random = 1 }
+		country_event = { id = cambodia.01 days = 10 random = 1 }
 	}
 	if = {
 		limit = {
 			tag = DDR
-			date > 1972.7.31
+			date > 1972.07.31
 		}
 		country_event = { id = ddr.39 days = 14 random = 1 }
 	}	
@@ -3818,21 +3818,21 @@ ic_pulse = {
 			owns_state = 525
 			owns_state = 920
 			KOR = { owns_state = 866 owns_state = 750 }
-			date > 1966.10.4
-			date < 1967.1.1
+			date > 1966.10.04
+			date < 1967.01.01
 		}
-		country_event = dmz_conflict.1
+		country_event = dmz_conflict.01
 	}
 	if = {
 		limit = {
 			tag = USA
-			date > 1950.1.1
-			date < 1951.6.10
+			date > 1950.01.01
+			date < 1951.06.10
 			NOT = {
 				has_country_flag = mccarthy_setup
 			}
 		}
-		news_event = { id = mccarthy.1 days = 20 random = 1 }
+		news_event = { id = mccarthy.01 days = 20 random = 1 }
 	}		
 	
 	if = {
@@ -3856,7 +3856,7 @@ ic_pulse = {
 				controls_state = 65
 			}				
 		}
-		country_event = ger.1
+		country_event = ger.01
 	}
 	if = {
 		limit = {
@@ -3879,16 +3879,16 @@ ic_pulse = {
 				controls_state = 65
 			}
 		}
-		country_event = ger.2
+		country_event = ger.02
 	}
 	if = {
 		limit = {
-			date > 1980.4.28
-			date < 1980.6.15
+			date > 1980.04.28
+			date < 1980.06.15
 			tag = YUG
 			NOT = { YUG = { has_country_flag = tito_dead } }
 		}
-		country_event = yug.3
+		country_event = yug.03
 	}
 
 
@@ -4062,7 +4062,7 @@ ic_pulse = {
 			has_government = fascism
 
 		}
-		country_event = persia.6
+		country_event = persia.06
 	}			
 
 	if = {
@@ -4092,7 +4092,7 @@ ic_pulse = {
 					owns_state = 786
 				}
 				OR = {
-					date > 1954.7.19
+					date > 1954.07.19
 					AND = {
 						controls_state = 881
 						controls_state = 787
@@ -4104,16 +4104,16 @@ ic_pulse = {
 
 			}
 		}
-		country_event = vie.1
+		country_event = vie.01
 	}			
 	if = {
 		limit = {
 			has_global_flag = VIE_yes_Geneva
 			has_global_flag = FRA_yes_Geneva
-			date < 1954.7.20
+			date < 1954.07.20
 			NOT = { has_global_flag = Geneva_Conference }
 		}
-		news_event = vie.3
+		news_event = vie.03
 	}		
 	if = {
 		limit = {
@@ -4124,52 +4124,52 @@ ic_pulse = {
 				has_war_with = FRA
 			}
 		}
-		country_event = vie.7
+		country_event = vie.07
 	}
 	if = {
 		limit = {
 			tag = USA
-			date > 1964.7.31	#delay by 12
-			date < 1970.6.10
+			date > 1964.07.31	#delay by 12
+			date < 1970.06.10
 			country_exists = VIN
 			country_exists = VIE
 		}
-		news_event = { id = tonkin.1 days = 12 random = 1 }
+		news_event = { id = tonkin.01 days = 12 random = 1 }
 	}
 	if = {
 		limit = {
 			tag = USA
 			date > 1950.10.31
-			date < 1950.12.5
+			date < 1950.12.05
 			NOT = { has_global_flag = truman_assasination_attempt }
 			NOT = { has_global_flag = truman_assasinated }
 			has_capitulated = no
 		}
-		country_event = swf.1
+		country_event = swf.01
 	}
 	if = {
 		limit = {
 			original_tag = JOR
-			date > 1951.7.19
-			date < 1952.1.1
+			date > 1951.07.19
+			date < 1952.01.01
 		}
-		country_event = jordan.1
+		country_event = jordan.01
 	}
 	if = {
 		limit = {
 			original_tag = JOR
-			date > 1952.8.10
-			date < 1953.1.1
+			date > 1952.08.10
+			date < 1953.01.01
 		}
-		country_event = jordan.2
+		country_event = jordan.02
 	}
 	if = {
 		limit = {
 			original_tag = JOR
-			date > 1999.2.6
-			date < 2000.1.1
+			date > 1999.02.06
+			date < 2000.01.01
 		}
-		country_event = jordan.3
+		country_event = jordan.03
 	}
 	if = {
 		limit = {
@@ -4191,16 +4191,16 @@ ic_pulse = {
 		limit = {
 			has_country_flag = corruption_scandals 
 		}
-		country_event = yug.6
+		country_event = yug.06
 	}
 	if = {
 		limit = {
 			tag = SOV
 			country_exists = KRL
-			date > 1956.6.30
-			date < 1956.8.31
+			date > 1956.06.30
+			date < 1956.08.31
 		}
-		country_event = soviet.3
+		country_event = soviet.03
 	}
 	if = {
 		limit = {
@@ -4208,7 +4208,7 @@ ic_pulse = {
 			has_global_flag = chinapeace_roc_accept
 			has_global_flag = chinapeace_prc_accept
 		}
-		country_event = chinapeace.3
+		country_event = chinapeace.03
 	}		
 	if = {
 		limit = {
@@ -4224,125 +4224,125 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
-			date > 1956.5.23
-			date < 1957.1.1
+			date > 1956.05.23
+			date < 1957.01.01
 		}
-		news_event = eurovision.1
+		news_event = eurovision.01
 	}
 	if = {
 		limit = {
-			date > 1957.3.2
-			date < 1958.1.1
+			date > 1957.03.02
+			date < 1958.01.01
 		}
-		news_event = eurovision.2
+		news_event = eurovision.02
 	}
 	if = {
 		limit = {
-			date > 1958.3.12
-			date < 1959.1.1
+			date > 1958.03.12
+			date < 1959.01.01
 		}
-		news_event = eurovision.3
+		news_event = eurovision.03
 	}
 	if = {
 		limit = {
-			date > 1959.3.11
-			date < 1960.1.1
+			date > 1959.03.11
+			date < 1960.01.01
 		}
-		news_event = eurovision.4
+		news_event = eurovision.04
 	}
 	if = {
 		limit = {
-			date > 1960.3.29
-			date < 1961.1.1
+			date > 1960.03.29
+			date < 1961.01.01
 		}
-		news_event = eurovision.5
+		news_event = eurovision.05
 	}
 	if = {
 		limit = {
-			date > 1961.3.17
-			date < 1962.1.1
+			date > 1961.03.17
+			date < 1962.01.01
 		}
-		news_event = eurovision.6
+		news_event = eurovision.06
 	}
 	if = {
 		limit = {
-			date > 1962.3.17
-			date < 1963.1.1
+			date > 1962.03.17
+			date < 1963.01.01
 		}
-		news_event = eurovision.7
+		news_event = eurovision.07
 	}
 	if = {
 		limit = {
-			date > 1961.5.29
-			date < 1961.6.2
+			date > 1961.05.29
+			date < 1961.06.02
 			tag = FRA
 		}
 		news_event = fra_news.31
 	}
 	if = {
 		limit = {
-			date > 1960.1.1
-			date < 1960.1.10
+			date > 1960.01.01
+			date < 1960.01.10
 			tag = FRA
 		}
-		news_event = fra_news.1
+		news_event = fra_news.01
 	}
 	if = {
 		limit = {
-			date > 1960.2.1
-			date < 1960.2.9
+			date > 1960.02.01
+			date < 1960.02.09
 			tag = FRA
 		}
-		news_event = fra_news.3
+		news_event = fra_news.03
 	}
 	if = {
 		limit = {
 			date > 1959.12.30
-			date < 1960.1.4
+			date < 1960.01.04
 			tag = FRA
 		}
-		news_event = fra_news.4
+		news_event = fra_news.04
 	}
 	if = {
 		limit = {
-			date > 1960.1.25
-			date < 1960.2.2
+			date > 1960.01.25
+			date < 1960.02.02
 			tag = FRA
 		}
-		news_event = fra_news.5
+		news_event = fra_news.05
 	}
 	if = {
 		limit = {
-			date > 1960.3.1
-			date < 1960.3.5
+			date > 1960.03.01
+			date < 1960.03.05
 			tag = FRA
 		}
-		news_event = fra_news.8
+		news_event = fra_news.08
 	}
 	if = {
 		limit = {
-			date > 1960.3.10
-			date < 1960.3.23
+			date > 1960.03.10
+			date < 1960.03.23
 			tag = FRA
 		}
-		news_event = fra_news.9
+		news_event = fra_news.09
 	}
 	if = {
 		limit = {
-			date > 1960.4.3
-			date < 1960.4.10
+			date > 1960.04.03
+			date < 1960.04.10
 			tag = FRA
 		}
 		news_event = fra_news.10
 	}
 	if = {
 		limit = {
-			date > 1961.2.1
-			date < 1975.1.1
+			date > 1961.02.01
+			date < 1975.01.01
 			NOT = { has_global_flag = angolan_ind_war }
 			tag = POR
 		}
-		#news_event = por_colonial_news.1
+		#news_event = por_colonial_news.01
 		POR = {
 			release = ANG
 			declare_war_on = { target = ANG type = annex_everything }	
@@ -4351,22 +4351,22 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
-			date > 1964.9.1
-			date < 1975.1.1
+			date > 1964.09.01
+			date < 1975.01.01
 			NOT = { has_global_flag = Mozambiquan_War }
 			tag = POR
 		}
-		country_event = MZB.1
+		country_event = MZB.01
 	}
 	if = {
 		limit = {
 			has_global_flag = guinea_bissau_not_added_yet_PLACEHOLDER
-			date > 1963.1.1
-			date < 1975.1.1
+			date > 1963.01.01
+			date < 1975.01.01
 			NOT = { has_global_flag = Guinea_Bissau_War }
 			tag = POR
 		}
-		#news_event = por_colonial_news.2
+		#news_event = por_colonial_news.02
 		POR = {
 			release = GEQ
 			GEQ = { set_politics = { ruling_party = communism elections_allowed = no } }
@@ -5298,18 +5298,18 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = SAF
-			date > 1958.8.1
-			date < 1958.9.1 			
+			date > 1958.08.01
+			date < 1958.09.01 			
 		}
-		country_event = cw_saf.3
+		country_event = cw_saf.03
 	}
 	if = {
 		limit = {
 			tag = SAF
-			date > 1954.6.1
-			date < 1954.7.1 	
+			date > 1954.06.01
+			date < 1954.07.01 	
 		}
-		country_event = cw_saf.2
+		country_event = cw_saf.02
 	}		
 
 	if = {
@@ -5391,7 +5391,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = WGR
-			date > 1963.10.1
+			date > 1963.10.01
 			date < 1963.10.30
 		}
 		country_event = wgr.203
@@ -5400,8 +5400,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = USA
-			date > 1973.1.1
-			date < 1973.3.1
+			date > 1973.01.01
+			date < 1973.03.01
 		}
 		news_event = { id = usa.500 days = 6  }
 	}
@@ -5409,17 +5409,17 @@ ic_pulse = {
 	if = {
 		limit = {
 			tag = SOR
-			date > 1969.10.1
-			date < 1969.12.1
+			date > 1969.10.01
+			date < 1969.12.01
 		}
-		country_event = sor.6
+		country_event = sor.06
 	}
 	if = {
 		limit = {
 			tag = USA
 			USA = { has_war_with = VIN } 
-			date > 1968.3.1
-			date < 1968.3.30
+			date > 1968.03.01
+			date < 1968.03.30
 		}
 		news_event = { id = usa.501 days = 16  }
 	}
@@ -5428,40 +5428,40 @@ ic_pulse = {
 			tag = DOC
 			is_subject = no
 			NOT = { has_cosmetic_tag = DOC_BEL }
-			date > 1960.7.4
-			date < 1970.1.1
+			date > 1960.07.04
+			date < 1970.01.01
 			NOT = { has_global_flag = south_kasai_seceded has_global_flag = katanga_seceded has_global_flag = simba_rebellion has_global_flag = free_republic_of_the_congo }
 		}
-		country_event = { id = congo.1 days = 1  }
+		country_event = { id = congo.01 days = 1  }
 	}
 	if = {
 		limit = {
 			tag = DOC
 			has_global_flag = congo_crisis_historical
-			date > 1960.7.10
-			date < 1970.1.1
+			date > 1960.07.10
+			date < 1970.01.01
 			NOT = { has_global_flag = katanga_seceded country_exists = KAG }
 		}
-		country_event = { id = congo.3 days = 1  }
+		country_event = { id = congo.03 days = 1  }
 	}
 	if = {
 		limit = {
 			tag = DOC
 			has_global_flag = congo_crisis_historical
-			date > 1960.8.7
-			date < 1970.1.1
+			date > 1960.08.07
+			date < 1970.01.01
 			has_global_flag = katanga_seceded
 			country_exists = KAG
 			NOT = { has_global_flag = south_kasai_seceded country_exists = SKS }
 		}
-		country_event = { id = congo.5 days = 1  }
+		country_event = { id = congo.05 days = 1  }
 	}
 	if = {
 		limit = {
 			tag = DOC
 			has_global_flag = congo_crisis_historical
-			date > 1960.8.7
-			date < 1970.1.1
+			date > 1960.08.07
+			date < 1970.01.01
 			has_global_flag = katanga_seceded
 			has_global_flag = south_kasai_seceded
 			country_exists = KAG
@@ -5469,14 +5469,14 @@ ic_pulse = {
 			has_completed_focus = DOC_Lumumba_Deposed
 			NOT = { has_global_flag = free_republic_of_the_congo has_global_flag = simba_rebellion country_exists = COG }
 		}
-		country_event = { id = congo.6 days = 1  }
+		country_event = { id = congo.06 days = 1  }
 		set_global_flag = free_republic_of_the_congo
 	}
 	if = {
 		limit = {
 			tag = DOC
-			date > 1964.1.1
-			date < 1970.1.1
+			date > 1964.01.01
+			date < 1970.01.01
 			OR = {
 				has_global_flag = south_kasai_seceded
 				has_global_flag = katanga_seceded
@@ -5484,7 +5484,7 @@ ic_pulse = {
 			has_completed_focus = DOC_The_Red_and_Blue_Unite
 			NOT = { has_global_flag = simba_rebellion country_exists = SKS country_exists = KAG country_exists = COG }
 		}
-		country_event = { id = congo.7 days = 1  }
+		country_event = { id = congo.07 days = 1  }
 		set_global_flag = simba_rebellion
 	}
 	if = {
@@ -5497,18 +5497,18 @@ ic_pulse = {
 			has_global_flag = simba_rebellion
 			NOT = { country_exists = SKS country_exists = KAG country_exists = COG }
 		}
-		country_event = { id = congo.8 days = 1  }
+		country_event = { id = congo.08 days = 1  }
 		set_global_flag = congo_crisis_over
 	}
 	if = {
 		limit = {
 			tag = DOC
 			date > 1965.11.23
-			date < 1970.1.1
+			date < 1970.01.01
 			has_global_flag = congo_crisis_over
 			NOT = { country_exists = SKS country_exists = KAG country_exists = COG }
 		}
-		country_event = { id = congo.9 days = 1  }
+		country_event = { id = congo.09 days = 1  }
 	}
 	if = {
 		limit = {
@@ -5517,141 +5517,141 @@ ic_pulse = {
 			country_exists = JOR
 			country_exists = SYR
 			country_exists = ISR
-			date > 1967.6.4
-			date < 1970.1.1
+			date > 1967.06.04
+			date < 1970.01.01
 		}
-		country_event = { id = israel.4 days = 1 }
+		country_event = { id = israel.04 days = 1 }
 	}
 	if = {
 		limit = {
 			original_tag = VTC
-			date > 1958.10.8
-			date < 1959.1.1
+			date > 1958.10.08
+			date < 1959.01.01
 		}
-		country_event = vatican.1
+		country_event = vatican.01
 	}
 	if = {
 		limit = {
 			original_tag = VTC
-			date > 1963.6.2
-			date < 1964.1.1
+			date > 1963.06.02
+			date < 1964.01.01
 		}
-		country_event = vatican.2
+		country_event = vatican.02
 	}
 	if = {
 		limit = {
 			original_tag = SWE
 			country_exists = SOV
-			date > 1952.6.12
-			date < 1953.1.1
+			date > 1952.06.12
+			date < 1953.01.01
 		}
-		country_event = SWE.1
+		country_event = SWE.01
 	}
 	if = {
 		limit = {
 			original_tag = SWE
 			date > 1950.10.28
-			date < 1951.1.1
+			date < 1951.01.01
 		}
-		country_event = SWE.3
+		country_event = SWE.03
 	}
 	if = {
 		limit = {
 		    original_tag = SWE
-			date > 1973.9.14
-			date < 1974.1.1
+			date > 1973.09.14
+			date < 1974.01.01
 		}
-		country_event = SWE.4
+		country_event = SWE.04
 	}
     if = {
 		limit = {
 		    original_tag = FRA
 			date > 1959.12.31
-			date < 1961.3.1
+			date < 1961.03.01
             CMR = { exists = no }
 			owns_state = 816
 		}
-		country_event = decolonization.1
+		country_event = decolonization.01
 	}
 	if = {
 		limit = {
 		    original_tag = ENG
-			date > 1961.5.30
-			date < 1962.1.1
+			date > 1961.05.30
+			date < 1962.01.01
 		    OR = { country_exists = NIA country_exists = CMR }
 			owns_state = 1105
 			owns_state = 1106
 		}
-		country_event = decolonization.2
+		country_event = decolonization.02
 	}
     if = {
 		limit = {
 		    original_tag = FRA
-			date > 1960.4.26
-			date < 1961.1.1
+			date > 1960.04.26
+			date < 1961.01.01
 		    NOT = { country_exists = TOG }
 			owns_state = 761
 		}
-		country_event = decolonization.3
+		country_event = decolonization.03
 	}
 	if = {
 		limit = {
 		    original_tag = ENG
 			date > 1956.12.12
-			date < 1957.3.1
+			date < 1957.03.01
 		    country_exists = GHA
 			owns_state = 926
 		}
-		country_event = decolonization.4
+		country_event = decolonization.04
 	}
     if = {
 		limit = {
 		    original_tag = AST
-			date > 1968.1.30
-			date < 1969.3.1
+			date > 1968.01.30
+			date < 1969.03.01
 		    NOT = { country_exists = NAU }
 			owns_state = 725
 		}
-		country_event = decolonization.5
+		country_event = decolonization.05
 	}
 	if = {
 		limit = {
 			original_tag = BEL
-			date > 1962.6.30
-			date < 1963.3.1
+			date > 1962.06.30
+			date < 1963.03.01
 			NOT = { country_exists = RWA country_exists = BUR }
 			owns_state = 907
 			owns_state = 825
 		}
-		country_event = decolonization.6
+		country_event = decolonization.06
 	}
 	if = {
 		limit = {
 			tag = BEL
-			date > 1960.6.1
-			date < 1961.1.1
+			date > 1960.06.01
+			date < 1961.01.01
 			country_exists = DOC
 			DOC = { is_subject_of = BEL  }
 		}
-		country_event = decolonization.7
+		country_event = decolonization.07
 	}
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1961.12.8
-			date < 1962.3.1
+			date > 1961.12.08
+			date < 1962.03.01
 			NOT = { country_exists = TAZ }
 			owns_state = 953
 			owns_state = 546
 			owns_state = 1197
 		}
-		country_event = decolonization.8
+		country_event = decolonization.08
 	}
     if = {
 		limit = {
 			original_tag = AST
-			date > 1975.9.15
-			date < 1976.1.1
+			date > 1975.09.15
+			date < 1976.01.01
 			NOT = { country_exists = PAP }
 			owns_state = 976
 			owns_state = 737
@@ -5659,13 +5659,13 @@ ic_pulse = {
 			owns_state = 986
 			owns_state = 1170
 		}
-		country_event = decolonization.9
+		country_event = decolonization.09
 	}
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1963.9.15
-			date < 1964.1.1
+			date > 1963.09.15
+			date < 1964.01.01
 			MAL = { exists = yes }
 			BRU = { exists = yes }	
 			owns_state = 336
@@ -5677,8 +5677,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1957.8.30
-			date < 1958.1.1
+			date > 1957.08.30
+			date < 1958.01.01
 			MAL = { exists = yes is_subject_of = ENG }
 		}
 		country_event = decolonization.11
@@ -5686,8 +5686,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1966.5.25
-			date < 1967.1.1
+			date > 1966.05.25
+			date < 1967.01.01
 			NOT = { country_exists = GUY }
 			owns_state = 687
 			owns_state = 1202
@@ -5698,8 +5698,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1981.9.21
-			date < 1982.1.1
+			date > 1981.09.21
+			date < 1982.01.01
 			NOT = { country_exists = BLZ }
 			owns_state = 311
 		}
@@ -5708,8 +5708,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1966.10.3
-			date < 1967.1.1
+			date > 1966.10.03
+			date < 1967.01.01
 			NOT = { country_exists = LES }
 			owns_state = 773
 		}
@@ -5719,7 +5719,7 @@ ic_pulse = {
 		limit = {
 			original_tag = SPR
 			date > 1975.11.13
-			date < 1976.1.1
+			date < 1976.01.01
 			NOT = { country_exists = SRW }
 			owns_state = 699
 			owns_state = 1001
@@ -5730,7 +5730,7 @@ ic_pulse = {
 		limit = {
 			original_tag = ENG
 			date > 1971.11.30
-			date < 1972.1.1
+			date < 1972.01.01
 			OR = {
                 UAE = { is_subject_of = ENG }
 			    QAT = { is_subject_of = ENG }
@@ -5743,7 +5743,7 @@ ic_pulse = {
 		limit = {
 			original_tag = ENG
 			date > 1963.10.13
-			date < 1964.1.1
+			date < 1964.01.01
 			DRY = { is_subject_of = ENG  }
 			owns_state = 659
 		}
@@ -5752,8 +5752,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1964.9.20
-			date < 1965.1.1
+			date > 1964.09.20
+			date < 1965.01.01
 			NOT = { country_exists = MLT }
 			owns_state = 116
 		}
@@ -5762,8 +5762,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1973.7.9
-			date < 1974.1.1
+			date > 1973.07.09
+			date < 1974.01.01
 			NOT = { country_exists = BHM }
 			owns_state = 690
 		}
@@ -5772,8 +5772,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1960.8.15
-			date < 1961.1.1
+			date > 1960.08.15
+			date < 1961.01.01
 			NOT = { country_exists = CYP country_exists = NCY }
 			owns_state = 183
 			owns_state = 912
@@ -5784,8 +5784,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1966.9.29
-			date < 1967.1.1
+			date > 1966.09.29
+			date < 1967.01.01
 			country_exists = BOT
 			BOT = { is_subject_of = ENG }
 		}
@@ -5795,7 +5795,7 @@ ic_pulse = {
 		limit = {
 			original_tag = ENG
 			date > 1964.10.23
-			date < 1965.1.1
+			date < 1965.01.01
 			country_exists = ZAM
 			ZAM = { is_subject_of = ENG }
 		}
@@ -5804,8 +5804,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1964.7.5
-			date < 1965.1.1
+			date > 1964.07.05
+			date < 1965.01.01
 			country_exists = NYA
 			NYA = { is_subject_of = ENG }
 		}
@@ -5814,8 +5814,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ENG
-			date > 1960.6.25
-			date < 1961.1.1
+			date > 1960.06.25
+			date < 1961.01.01
 			country_exists = SML
 			SML = { is_subject_of = ENG }
 		}
@@ -5826,52 +5826,52 @@ ic_pulse = {
 			original_tag = MOR
 			is_subject = no
 			date > 1957.10.22
-			date < 1960.1.1
+			date < 1960.01.01
 			country_exists = SPR
 			SPR = { owns_state = 1002 owns_state = 1003 }
 		}
-		country_event = ifni.1
+		country_event = ifni.01
 	}
 	if = {
 		limit = {
 			original_tag = UAE
-			date > 1966.2.10
-			date < 1967.1.1
+			date > 1966.02.10
+			date < 1967.01.01
 		}
-		country_event = UAE.1
+		country_event = UAE.01
 	}
 	if = {
 		limit = {
 			original_tag = NIC
-			date > 1956.9.1
-			date < 1956.10.1
+			date > 1956.09.01
+			date < 1956.10.01
 		}
-		country_event = nic.3
+		country_event = nic.03
 	}
 	if = {
 		limit = {
 			original_tag = NIC
-			date > 1967.3.1
-			date < 1967.4.1
+			date > 1967.03.01
+			date < 1967.04.01
 			has_government = neutrality
 		}
-		country_event = nic.4
+		country_event = nic.04
 	}
 	if = {
 		limit = {
 			original_tag = RAJ
-			date > 1950.1.25
-			date < 1951.1.1
+			date > 1950.01.25
+			date < 1951.01.01
 		}
-		country_event = india.1
+		country_event = india.01
 	}
     if = {
 		limit = {
 			original_tag = CHI
-			date > 1950.2.29
-			date < 1951.1.1
+			date > 1950.02.29
+			date < 1951.01.01
 		}
-		country_event = roc.1
+		country_event = roc.01
 	}
 	if = {
 		limit = {
@@ -5883,7 +5883,7 @@ ic_pulse = {
 			XSM = { has_capitulated = yes }
 			
 		}
-		country_event = chinese_civil_war.1
+		country_event = chinese_civil_war.01
 	}
 	if = {
 		limit = {
@@ -5892,73 +5892,73 @@ ic_pulse = {
 			INS = { is_subject_of = HOL }
 			has_war_with = INO
 			OR = {
-                date > 1949.11.1
+                date > 1949.11.01
 				INS = { has_capitulated = yes }
 			}
 		}
-		country_event = indonesia.1
+		country_event = indonesia.01
 	}
 	if = {
 		limit = {
             original_tag = JAP
-            date > 1951.4.24
-            date < 1951.5.24
+            date > 1951.04.24
+            date < 1951.05.24
         }
-		country_event = japan.1
+		country_event = japan.01
     }
 	if = {
 		limit = {
             original_tag = JAP
-            date > 1950.7.7
-            date < 1950.8.7
+            date > 1950.07.07
+            date < 1950.08.07
         }
-		country_event = japan.2
+		country_event = japan.02
     }
    	if = {
 		limit = {
                 original_tag = JAP
-                date > 1953.6.18
-                date < 1953.7.18
+                date > 1953.06.18
+                date < 1953.07.18
             }
-		country_event = japan.3
+		country_event = japan.03
      }
     if = {
 		limit = {
                 original_tag = JAP
-                date > 1954.10.1
-                date < 1954.11.1
+                date > 1954.10.01
+                date < 1954.11.01
             }
-		country_event = japan.4
+		country_event = japan.04
      }
 	if = {
 		limit = {
                 original_tag = ENG
-				date > 1953.6.1
-				date < 1953.7.1
+				date > 1953.06.01
+				date < 1953.07.01
 			}
 		country_event = ENG.1000
 	 }
 	  if = {
 		limit = {
                 original_tag = DDR
-                date > 1957.11.7
-                date < 1957.12.7
+                date > 1957.11.07
+                date < 1957.12.07
             }
 		country_event = ddr.46
      }
 	  if = {
 		limit = {
                 original_tag = ICE
-                date > 1954.9.1
-                date < 1955.10.1
+                date > 1954.09.01
+                date < 1955.10.01
             }
-		country_event = codwar.1
+		country_event = codwar.01
      }
 	 if = {
 		limit = {
                 original_tag = YUG
-                date > 1950.5.1
-                date < 1950.6.10
+                date > 1950.05.01
+                date < 1950.06.10
             }
 		country_event = yug.33
      }
@@ -5966,41 +5966,41 @@ ic_pulse = {
 			if = {	#ADD MORE SPECICIC STARTUP CODE FOR THIS LATER
 				limit = {
 					tag = GRE
-					date > 1961.5.1
-					date < 1961.10.2
+					date > 1961.05.01
+					date < 1961.10.02
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 					NOT = { has_government = communism }
 					NOT = { has_government = maoism }
 				}
-				country_event = GRE_Elections.4
+				country_event = GRE_Elections.04
 			}				
 			if = {	#ADD MORE SPECICIC STARTUP CODE FOR THIS LATER
 				limit = {
 					tag = GRE
-					date > 1963.5.1
-					date < 1963.10.2
+					date > 1963.05.01
+					date < 1963.10.02
 					NOT = { has_government = neutrality }
 					NOT = { has_government = monarchism }
 					NOT = { has_government = communism }
 					NOT = { has_government = maoism }
 				}
-				country_event = GRE_Elections.5
+				country_event = GRE_Elections.05
 			}
 
 	if = {
 		limit = {
 			original_tag = SPR
-			date > 1958.1.1
+			date > 1958.01.01
 			date < 1958.12.31
 			NOT = { has_country_flag = chupa }
 		}
-		country_event = spr.6
+		country_event = spr.06
 	}
 	if = {
 		limit = {
 			original_tag = PRC
-			date > 1958.1.1
+			date > 1958.01.01
 			date < 1958.12.31
 			NOT = { has_country_flag = yellow_riv_flood }
 		}
@@ -6009,8 +6009,8 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = ZIM
-			date > 1967.9.1
-			date < 1967.9.31
+			date > 1967.09.01
+			date < 1967.09.31
 		}
 		country_event =  rho.129
 	}
