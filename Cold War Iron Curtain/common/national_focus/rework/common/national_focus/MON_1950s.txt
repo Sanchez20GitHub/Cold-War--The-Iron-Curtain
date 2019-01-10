@@ -155,7 +155,13 @@ focus_tree = {
 		}
 		x = 11
 		y = 1
-
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+		}
 	}
 	focus = {
 		id = MON_Literacy_Campaigns
@@ -166,7 +172,12 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = literacy_campaign
+				days = 1200
+			}
+		}
 	}
 	focus = {
 		id = MON_Promote_Hygene_Standards
@@ -177,7 +188,12 @@ focus_tree = {
 		}
 		x = 12
 		y = 2
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = hygene_campaign
+				days = 1200
+			}
+		}
 	}
 	focus = {
 		id = MON_Launch_the_Cultural_Campaigns
@@ -191,7 +207,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 3
-
+		completion_reward = {
+			add_ideas = secular_influence
+		}
 	}
 	focus = {
 		id = MON_A_True_Socialist_State
@@ -208,7 +226,9 @@ focus_tree = {
 		}
 		x = 7
 		y = 4
-
+		completion_reward = {
+			add_ideas = socialist_values
+		}
 	}
 	focus = {
 		id = MON_International_Recognition_Campaign
@@ -232,7 +252,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 2
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
 	}
 	focus = {
 		id = MON_A_Cult_of_Personality
@@ -259,7 +281,10 @@ focus_tree = {
 		}
 		x = 19
 		y = 2
-
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = MON_Growing_Dissulisionment_with_Stalin
@@ -273,7 +298,9 @@ focus_tree = {
 		}
 		x = 17
 		y = 3
-
+		completion_reward = {
+			news_event = mongolia.7
+		}
 	}
 	focus = {
 		id = MON_Modernization_Campaign
@@ -284,7 +311,44 @@ focus_tree = {
 		}
 		x = 23
 		y = 2
-
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+				add_tech_bonus = {
+						name = construction_tech_bonus
+						bonus = 0.25
+						uses = 2
+						category = construction_tech
+					}
+			}
 	}
 	focus = {
 		id = MON_Rebuke_Soviet_Unificaiton_Activitists
@@ -298,7 +362,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 3
-
+		completion_reward = {
+			add_ideas = press_censorship_5
+		}
 	}
 	focus = {
 		id = MON_Death_of_Choibalsan
@@ -312,7 +378,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 4
-
+		completion_reward = {
+			news_event = mongolia.2
+		}
 	}
 	focus = {
 		id = MON_Power_Sharing
@@ -323,7 +391,10 @@ focus_tree = {
 		}
 		x = 18
 		y = 5
-
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.02
+		}
 	}
 	focus = {
 		id = MON_Emulate_Soviet_Political_Systems
@@ -334,8 +405,22 @@ focus_tree = {
 		}
 		x = 20
 		y = 5
-
-	}
+		completion_reward = {
+			add_political_power = 50
+			MON = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = small_increase
+				}
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = MON
+					modifier = small_increase
+				}
+			}	
+		}
+	}	
 	focus = {
 		id = MON_Livestock_Initiatives
 		icon = GFX_goal_unknown
@@ -345,7 +430,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 1
-
+		completion_reward = {
+			add_ideas = agriculture
+		}
 	}
 	focus = {
 		id = MON_Naushk_Ulaanbaatar_Railway
@@ -356,7 +443,15 @@ focus_tree = {
 		}
 		x = 26
 		y = 2
-
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}				
+			}
+		}
 	}
 	focus = {
 		id = MON_Electrification_Campaign
@@ -367,7 +462,32 @@ focus_tree = {
 		}
 		x = 32
 		y = 1
-
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = coal_plant
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = coal_plant
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = coal_plant
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
 	}
 	focus = {
 		id = MON_Establish_the_First_Mongol_Univeristy
@@ -397,7 +517,9 @@ focus_tree = {
 		}
 		x = 28
 		y = 3
-
+		completion_reward = {
+			add_ideas = access_to_health_care
+		}
 	}
 	focus = {
 		id = MON_Accension_of_Yumjaagiin_Tsedenbal
@@ -411,7 +533,13 @@ focus_tree = {
 		}
 		x = 19
 		y = 6
-
+		completion_reward = {
+			create_country_leader = {
+				name = "Yumjaagiin Tsedenbal"
+				picture = "Yumjaagiin_Tsedenbal.dds"
+				ideology = marxism_leninism
+			}		
+		}
 	}
 	focus = {
 		id = MON_Chinese_Economic_Aid
@@ -422,7 +550,10 @@ focus_tree = {
 		}
 		x = 31
 		y = 7
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_stability = -0.01
+		}
 	}
 	focus = {
 		id = MON_Request_Accension_of_Mongolia_into_the_Soviet_Union
@@ -433,7 +564,9 @@ focus_tree = {
 		}
 		x = 15
 		y = 7
-
+		completion_reward = {
+			news_event = mongolia.3
+		}
 	}
 	focus = {
 		id = MON_Promote_Usage_of_Cyrillic
@@ -444,7 +577,23 @@ focus_tree = {
 		}
 		x = 13
 		y = 8
-
+		completion_reward = {
+			add_to_variable = { var = influencer1_amount value = 250 }
+			recalculate_influence = yes
+			add_political_power = 100
+			MON = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = small_increase
+				}
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = MON
+					modifier = small_increase
+				}
+			}	
+		}
 	}
 	focus = {
 		id = MON_Negotiations_with_Mao
@@ -455,7 +604,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 8
-
+		completion_reward = {
+			country_event = mongolia_prc.1
+		}
 	}
 	focus = {
 		id = MON_Zuun_Bayan_Petroleum_Factory
@@ -466,7 +617,15 @@ focus_tree = {
 		}
 		x = 34
 		y = 2
-
+		completion_reward = {
+					capital_scope = {
+							add_building_construction = {
+									type = synthetic_refinery
+									level = 2
+									instant_build = yes
+								}
+						}
+			}
 	}
 	focus = {
 		id = MON_Modernize_Mining_Operations
@@ -480,7 +639,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 3
-
+		completion_reward = {
+			add_ideas = Resource_Efficiency
+		}
 	}
 	focus = {
 		id = MON_Develop_a_Modern_Education_System
@@ -494,7 +655,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 4
-
+		completion_reward = {
+			add_ideas = educaton_investments
+		}
 	}
 	focus = {
 		id = MON_The_Inner_Mongolian_Counteroffer
@@ -508,7 +671,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 9
-
+		completion_reward = {
+			PRC = { country_event = inner_mongol.1 }
+		}
 	}
 	focus = {
 		id = MON_Chinese_Rejection
@@ -522,7 +687,9 @@ focus_tree = {
 		}
 		x = 32
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = MON_The_Chinese_Threat
@@ -533,7 +700,24 @@ focus_tree = {
 		}
 		x = 31
 		y = 11
-
+		completion_reward = {
+			MON = {
+				add_opinion_modifier = {
+					target = PRC
+					modifier = small_decrease
+				}
+			}
+			PRC = {
+				add_opinion_modifier = {
+					target = MON
+					modifier = small_decrease
+				}
+			}
+			add_timed_idea = {
+				days = 750
+				idea = recruitment_propaganda
+			}
+		}
 	}
 	focus = {
 		id = MON_Preserve_our_Independence_from_China
@@ -544,7 +728,11 @@ focus_tree = {
 		}
 		x = 33
 		y = 11
-
+		completion_reward = {
+			add_war_support = 0.05
+			add_threat = 1
+			add_stability = 0.05
+		}
 	}
 	focus = {
 		id = MON_Deteriotartion_of_Sino_Mongol_Relations
@@ -558,7 +746,20 @@ focus_tree = {
 		}
 		x = 32
 		y = 12
-
+		completion_reward = {
+			MON = {
+				add_opinion_modifier = {
+					target = PRC
+					modifier = large_decrease
+				}
+			}
+			PRC = {
+				add_opinion_modifier = {
+					target = MON
+					modifier = large_decrease
+				}
+			}		
+		}
 	}
 	focus = {
 		id = MON_The_Mongolian_Peoples_Army_Ground_Forces
@@ -569,7 +770,10 @@ focus_tree = {
 		}
 		x = 39
 		y = 1
-
+		completion_reward = {
+			army_experience = 50
+			add_manpower = 1000
+		}
 	}
 	focus = {
 		id = MON_Import_Soviet_Tanks
@@ -580,7 +784,13 @@ focus_tree = {
 		}
 		x = 37
 		y = 2
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = mbt_equipment_0
+				amount = 200
+				producer = SOV
+			}		
+		}
 	}
 	focus = {
 		id = MON_Mao_Accepts
@@ -594,7 +804,9 @@ focus_tree = {
 		}
 		x = 38
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = MON_Industrial_Windfall
@@ -605,7 +817,74 @@ focus_tree = {
 		}
 		x = 39
 		y = 11
-
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.15
+							uses = 1
+							category = industry
+						}
+				}
 	}
 	focus = {
 		id = MON_Urbanization_Campaign
@@ -616,7 +895,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 11
-
+		completion_reward = {
+			add_ideas = urban_planning
+			add_ideas = city_economies
+		}
 	}
 	focus = {
 		id = MON_Rapid_Population_Increase
@@ -630,7 +912,12 @@ focus_tree = {
 		}
 		x = 38
 		y = 12
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = inner_mongolian_immigration_focus
+				days = 3650
+			}
+		}
 	}
 	focus = {
 		id = MON_Housing_Expansion
@@ -641,7 +928,11 @@ focus_tree = {
 		}
 		x = 38
 		y = 13
-
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 	}
 	focus = {
 		id = MON_Political_Indoctrination
@@ -652,6 +943,9 @@ focus_tree = {
 		}
 		x = 41
 		y = 2
+		completion_reward = {
+			add_ideas = revolutionary_fervor
+		}
 
 	}
 	focus = {
@@ -666,7 +960,13 @@ focus_tree = {
 		}
 		x = 39
 		y = 3
-
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = motorized_equipment_2
+					amount = 1500
+					producer = SOV
+				}
+			}
 	}
 	focus = {
 		id = MON_Soviet_Cooperation
@@ -677,7 +977,10 @@ focus_tree = {
 		}
 		x = 37
 		y = 4
-
+		completion_reward = {
+			army_experience = 25
+			add_manpower = 1500
+		}
 	}
 	focus = {
 		id = MON_Soviet_Surplus_Equipment
@@ -688,8 +991,15 @@ focus_tree = {
 		}
 		x = 41
 		y = 4
-
-	}
+			completion_reward = {
+					add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 25000
+							producer = SOV
+						}
+				
+			}
+		}
 	focus = {
 		id = MON_Defensive_Posturing
 		icon = GFX_goal_unknown
@@ -702,7 +1012,9 @@ focus_tree = {
 		}
 		x = 39
 		y = 5
-
+		completion_reward = {
+			add_ideas = defensive_posturing
+		}
 	}
 	focus = {
 		id = MON_Cavalry_Expertise
@@ -713,7 +1025,9 @@ focus_tree = {
 		}
 		x = 43
 		y = 1
-
+		completion_reward = {
+			add_ideas = MON_experienced_cavalry_corps
+		}
 	}
 	focus = {
 		id = MON_Soviet_Advisors
@@ -737,7 +1051,9 @@ focus_tree = {
 		}
 		x = 43
 		y = 5
-
+		completion_reward = {
+			add_ideas = Cold_Weather_Expertise
+		}
 	}
 	focus = {
 		id = MON_The_Mongolian_Peoples_Air_Force
@@ -748,7 +1064,9 @@ focus_tree = {
 		}
 		x = 47
 		y = 1
-
+		completion_reward = {
+			air_experience = 50
+		}
 	}
 	focus = {
 		id = MON_Soviet_Air_Trainers
@@ -784,7 +1102,13 @@ focus_tree = {
 		}
 		x = 47
 		y = 3
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_3
+				amount = 350
+				producer = SOV
+			}		
+		}
 	}
 	focus = {
 		id = MON_Import_Soviet_MIG_15s
@@ -795,7 +1119,13 @@ focus_tree = {
 		}
 		x = 45
 		y = 4
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = jet_multirole_equipment_2
+				amount = 200
+				producer = SOV
+			}	
+		}
 	}
 	focus = {
 		id = MON_Soviet_Helicoptors
@@ -806,7 +1136,14 @@ focus_tree = {
 		}
 		x = 49
 		y = 4
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = helicoptor_bonus
+							bonus = 0.25
+							uses = 1
+							category = helicopter
+						}
+				}
 	}
 	focus = {
 		id = MON_Soviet_Anti_AIr_Defense_Cooperation
@@ -820,6 +1157,34 @@ focus_tree = {
 		}
 		x = 47
 		y = 5
+			completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = anti_air_building
+											size > 3
+										}
+								}
+							add_building_construction = {
+									type = anti_air_building
+									level = 2
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = anti_air_building
+											size > 3
+										}
+								}
+							add_building_construction = {
+									type = anti_air_building
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -834,7 +1199,11 @@ focus_tree = {
 		}
 		x = 28
 		y = 9
-
+		completion_reward = {
+			capital_scope = {
+				add_manpower = 400000
+			}
+		}
 	}
 	focus = {
 		id = MON_Growing_Chinese_Influence
@@ -845,7 +1214,23 @@ focus_tree = {
 		}
 		x = 28
 		y = 10
-
+		completion_reward = {
+			add_to_variable = { var = influencer2_amount value = 500 }
+			recalculate_influence = yes
+			add_political_power = 100
+			MON = {
+				add_opinion_modifier = {
+					target = SOV
+					modifier = large_decrease
+				}
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = MON
+					modifier = large_decrease
+				}
+			}	
+		}
 	}
 	focus = {
 		id = MON_Accension_into_the_PRC
@@ -856,7 +1241,11 @@ focus_tree = {
 		}
 		x = 28
 		y = 11
-
+		completion_reward = {
+			news_event = mongolia_prc.100
+			annex_country = { target = PRC transfer_troops = yes }
+			change_tag_from = PRC
+		}
 	}
 	focus = {
 		id = MON_Deepen_Reliance_on_Soviet_Military
@@ -870,6 +1259,41 @@ focus_tree = {
 		}
 		x = 17
 		y = 8
+			completion_reward = {
+					every_owned_state = {
+							add_extra_state_shared_building_slots = 1
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = arms_factory
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -880,9 +1304,14 @@ focus_tree = {
 			focus = MON_Accension_of_Yumjaagiin_Tsedenbal
 		}
 		x = 19
-		y = 7
-
-	}
+		y = 7		
+		available = {
+			has_global_flag = stalin_dead
+		}
+		bypass = { 
+			has_global_flag = stalin_dead
+		}
+	}	
 	focus = {
 		id = MON_Soviet_Agricultural_Planning
 		icon = GFX_goal_unknown
@@ -895,7 +1324,13 @@ focus_tree = {
 		}
 		x = 15
 		y = 9
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = agri_tech_bonus
+				bonus = 0.15
+				category = agri_tech
+			}
+		}
 	}
 	focus = {
 		id = MON_Begin_Destalinization
@@ -985,7 +1420,9 @@ focus_tree = {
 		}
 		x = 22
 		y = 11
-
+		completion_reward = {
+			remove_ideas = repression
+		}
 	}
 	focus = {
 		id = MON_Investigate_Prior_Abuses
@@ -1024,7 +1461,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 14
-
+		completion_reward = {
+			news_event = mongolia.20
+		}
 	}
 	focus = {
 		id = MON_Deposition_of_Yumjaagiin_Tsedenbal
@@ -1038,7 +1477,14 @@ focus_tree = {
 		}
 		x = 24
 		y = 14
-
+		completion_reward = {
+			news_event = mongolia.21
+			create_country_leader = {
+				name = "Dashiin Damba"
+				picture = "Dashiin_Damba.dds"
+				ideology = marxism_leninism
+			}		
+		}
 	}
 	focus = {
 		id = MON_Increase_Diplomatic_Ties_with_India
@@ -1121,7 +1567,10 @@ focus_tree = {
 		}
 		x = 14
 		y = 15
-
+		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.05
+		}
 	}
 	focus = {
 		id = MON_Soviet_Political_Support
@@ -1222,7 +1671,9 @@ focus_tree = {
 		}
 		x = 23
 		y = 17
-
+		completion_reward = {
+			add_ideas = default_media_laws_0
+		}
 	}
 	focus = {
 		id = MON_Relax_Religous_Repression
@@ -1233,7 +1684,9 @@ focus_tree = {
 		}
 		x = 25
 		y = 17
-
+		completion_reward = {
+			remove_ideas = secular_influence
+		}
 	}
 	focus = {
 		id = MON_Assert_Geopolitical_Independence
