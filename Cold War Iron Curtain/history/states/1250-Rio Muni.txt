@@ -1,0 +1,29 @@
+state={
+	id=1250
+	name="STATE_1250"
+	
+	history={
+		owner = EGI
+		add_core_of = EGI
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			8244 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8244 1 
+		}
+
+	}
+	
+	provinces={
+		8244 
+	}
+	manpower=883000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

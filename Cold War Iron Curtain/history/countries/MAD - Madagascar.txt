@@ -122,7 +122,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Didier Ratsiraka"
 	picture = "Didier_Ratsiraka.dds"
-	ideology = trotskyism_ideology
+	ideology = revolutionary_socialism
 }
 
 1946.1.1 = {

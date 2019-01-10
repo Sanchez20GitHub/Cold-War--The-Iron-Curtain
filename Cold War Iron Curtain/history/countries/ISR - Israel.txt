@@ -204,7 +204,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Meir Ya'ari"
 	picture = "Meir_Yaari.dds"
-	ideology = trotskyism_ideology
+	ideology = revolutionary_socialism
 }
 
 create_country_leader = {

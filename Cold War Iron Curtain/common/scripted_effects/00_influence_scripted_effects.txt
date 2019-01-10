@@ -730,7 +730,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = CAR } ROOT = { add_ideas = trade_treaty_CAR	}	}
 	if = { limit = { tag = CMR } ROOT = { add_ideas = trade_treaty_CMR	}	}
 	if = { limit = { tag = DOC } ROOT = { add_ideas = trade_treaty_DOC	}	}
-	if = { limit = { tag = GEQ } ROOT = { add_ideas = trade_treaty_GEQ	}	}
+	if = { limit = { tag = EGI } ROOT = { add_ideas = trade_treaty_EGI	}	}
 	if = { limit = { tag = MAD } ROOT = { add_ideas = trade_treaty_MAD	}	}
 	if = { limit = { tag = GAB } ROOT = { add_ideas = trade_treaty_GAB	}	}
 	if = { limit = { tag = ROC } ROOT = { add_ideas = trade_treaty_ROC	}	}
@@ -992,7 +992,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = CAR } } add_ideas = trade_treaty_CAR	}	
 	if = { limit = { ROOT = { tag = CMR } } add_ideas = trade_treaty_CMR	}	
 	if = { limit = { ROOT = { tag = DOC } } add_ideas = trade_treaty_DOC	}	
-	if = { limit = { ROOT = { tag = GEQ } } add_ideas = trade_treaty_GEQ	}	
+	if = { limit = { ROOT = { tag = EGI } } add_ideas = trade_treaty_EGI	}	
 	if = { limit = { ROOT = { tag = MAD } } add_ideas = trade_treaty_MAD	}	
 	if = { limit = { ROOT = { tag = GAB } } add_ideas = trade_treaty_GAB	}	
 	if = { limit = { ROOT = { tag = ROC } } add_ideas = trade_treaty_ROC	}	

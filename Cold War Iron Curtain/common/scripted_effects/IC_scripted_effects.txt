@@ -4368,9 +4368,9 @@ ic_pulse = {
 		}
 		#news_event = por_colonial_news.02
 		POR = {
-			release = GEQ
-			GEQ = { set_politics = { ruling_party = communism elections_allowed = no } }
-			declare_war_on = { target = GEQ type = annex_everything }	
+			release = EGI
+			EGI = { set_politics = { ruling_party = communism elections_allowed = no } }
+			declare_war_on = { target = EGI type = annex_everything }	
 		}
 		set_global_flag = Guinea_Bissau_War
 	}
@@ -5381,7 +5381,7 @@ ic_pulse = {
 				has_cosmetic_tag = BLR_SSR
 				has_cosmetic_tag = MLD_SSR
 				has_cosmetic_tag = RIF_SPR 
-				has_cosmetic_tag = GEQ_SPR
+				has_cosmetic_tag = EGI_SPR
 				has_cosmetic_tag = KPA_SOV
 				has_cosmetic_tag = KOR_USA
 			}

@@ -438,7 +438,7 @@ country_event = {
 		name = "Ok"
 		release_puppet = ANG
 		release_puppet = MZB
-		release_puppet = GEQ
+		release_puppet = EGI
 	}
 }
 country_event = {
@@ -452,7 +452,7 @@ country_event = {
 		name = "Ok"
 		set_autonomy = { target = ANG autonomy_state = autonomy_free }	
 		set_autonomy = { target = MZB autonomy_state = autonomy_free }
-		set_autonomy = { target = GEQ autonomy_state = autonomy_free }			
+		set_autonomy = { target = EGI autonomy_state = autonomy_free }			
 	}
 }
 country_event = {
@@ -466,7 +466,7 @@ country_event = {
 		name = "Ok"
 		release = ANG
 		release = MZB
-		release = GEQ
+		release = EGI
 	}
 }
 country_event = {

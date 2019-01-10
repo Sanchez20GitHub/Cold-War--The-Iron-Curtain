@@ -36,7 +36,7 @@ GAB = {
 	color = rgb { 150 129 178 }
 	color_ui = rgb { 255 255 255 }
 }
-GEQ = {
+EGI = {
 	color = rgb { 230 170 60 }
 	color_ui = rgb { 230 170 60 }
 }
