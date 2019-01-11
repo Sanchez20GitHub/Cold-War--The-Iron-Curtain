@@ -259,7 +259,7 @@ equipments = {
 		ap_attack = 70
 		air_attack = 7
 		
-		build_cost_ic = 67
+		build_cost_ic = 33
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -285,7 +285,7 @@ equipments = {
 		ap_attack = 70
 		air_attack = 7
 		
-		build_cost_ic = 67
+		build_cost_ic = 33
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -313,7 +313,7 @@ equipments = {
 		ap_attack = 84
 		air_attack = 10
 		
-		build_cost_ic = 74
+		build_cost_ic = 38
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -342,7 +342,7 @@ equipments = {
 		ap_attack = 103
 		air_attack = 13
 		
-		build_cost_ic = 83
+		build_cost_ic = 42
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -370,7 +370,7 @@ equipments = {
 		ap_attack = 110
 		air_attack = 13
 		
-		build_cost_ic = 92
+		build_cost_ic = 47
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -398,7 +398,7 @@ equipments = {
 		ap_attack = 120
 		air_attack = 16
 		
-		build_cost_ic = 100
+		build_cost_ic = 50
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -434,7 +434,7 @@ equipments = {
 		hard_attack = 23
 		ap_attack = 58
 		
-		build_cost_ic = 42
+		build_cost_ic = 21
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -461,7 +461,7 @@ equipments = {
 		hard_attack = 23
 		ap_attack = 58
 		
-		build_cost_ic = 42
+		build_cost_ic = 21
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -489,7 +489,7 @@ equipments = {
 		hard_attack = 26
 		ap_attack = 70
 		
-		build_cost_ic = 47
+		build_cost_ic = 24
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -517,7 +517,7 @@ equipments = {
 		hard_attack = 31
 		ap_attack = 79
 		
-		build_cost_ic = 52
+		build_cost_ic = 26
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -545,7 +545,7 @@ equipments = {
 		hard_attack = 34
 		ap_attack = 92
 		
-		build_cost_ic = 58
+		build_cost_ic = 29
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -572,7 +572,7 @@ equipments = {
 		hard_attack = 38
 		ap_attack = 100
 		
-		build_cost_ic = 63
+		build_cost_ic = 31
 		resources = {
  			electricity = 1
 			aluminium = 3
@@ -613,7 +613,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 5
 		
-		build_cost_ic = 38 
+		build_cost_ic = 19 
 		resources = {
  			electricity = 1
 			steel = 2
@@ -644,7 +644,7 @@ equipments = {
 		defense = 9
 		breakthrough = 4
 		
-		build_cost_ic = 43
+		build_cost_ic = 22
 		resources = {
  			electricity = 1
 			steel = 3
@@ -667,7 +667,7 @@ equipments = {
 		defense = 10
 		breakthrough = 4
 		
-		build_cost_ic = 50
+		build_cost_ic = 25
 		resources = {
  			electricity = 1
 			steel = 4
@@ -690,7 +690,7 @@ equipments = {
 		defense = 10
 		breakthrough = 4
 		
-		build_cost_ic = 56
+		build_cost_ic = 28
 		resources = {
  			electricity = 1
 			steel = 4
@@ -713,7 +713,7 @@ equipments = {
 		defense = 10
 		breakthrough = 4
 		
-		build_cost_ic = 63
+		build_cost_ic = 31
 		resources = {
  			electricity = 1
 			steel = 5
@@ -736,7 +736,7 @@ equipments = {
 		defense = 11
 		breakthrough = 5
 		
-		build_cost_ic = 69
+		build_cost_ic = 35
 		resources = {
  			electricity = 1
 			steel = 5
@@ -759,7 +759,7 @@ equipments = {
 		defense = 11
 		breakthrough = 5
 		
-		build_cost_ic = 75
+		build_cost_ic = 38
 		resources = {
  			electricity = 1
 			steel = 6
