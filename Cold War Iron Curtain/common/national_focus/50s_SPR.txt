@@ -12,8 +12,14 @@ focus_tree = {
 		id = SPR_Pact_of_Madrid
 		icon = GFX_american_franco_treaty
 		cost = 10.00
-		x = 6
-		y = 2
+		x = 4
+		y = 0
+		available = {
+			has_completed_focus = SPR_The_Pact_of_Madrid
+		}
+		mutually_exclusive = {
+			focus = SPR_independent_army
+		}
 		completion_reward = {
 		give_military_access = USA
 		hidden_effect = {		
@@ -23,18 +29,36 @@ focus_tree = {
 
 	}
 	focus = {
+		id = SPR_independent_army
+		icon = GFX_goal_SPR_Proclamation
+		cost = 1.00
+		x = 8
+		y = 0
+		available = {
+			has_completed_focus = SPR_continue_diplomatic_isolation
+		}
+		mutually_exclusive = {
+			focus = SPR_Pact_of_Madrid
+		}
+		completion_reward = {
+		custom_effect_tooltip = spr.tr.1
+		}
+
+	}
+	focus = {
 		id = SPR_Reforming_the_Army
 		icon = GFX_RecruitmentDrive
 		cost = 10.00
 		prerequisite = {
 			focus = SPR_Pact_of_Madrid
+			focus = SPR_independent_army
 		}
 		x = 6
-		y = 3
+		y = 2
 		completion_reward = {
-			army_experience = 25
-			navy_experience = 25
-			air_experience = 25
+			army_experience = 15
+			navy_experience = 15
+			air_experience = 15
 		}
 	}
 	focus = {
@@ -47,7 +71,7 @@ focus_tree = {
 		x = 2
 		y = 4
 			completion_reward = {
-					army_experience = 50
+					army_experience = 30
 				}
 	}
 	focus = {
@@ -62,7 +86,7 @@ focus_tree = {
 			completion_reward = {
 					add_tech_bonus = {
 							name = land_doc_bonus
-							bonus = 0.15
+							bonus = 0.05
 							uses = 2
 							category = land_doctrine
 						}
@@ -1216,10 +1240,10 @@ focus_tree = {
 							create_country_leader = {
 									name = "Carlos Arias Navarro"
 									picture = "SPR_Carlos_Arias_Navarro.dds"
-									ideology = reactionary
+									ideology = falangism
 								}
 							add_political_power = -300
-							add_stability = -0.15
+							add_stability = -0.1
 						}
 				}
 
@@ -1234,7 +1258,7 @@ focus_tree = {
 		x = 36
 		y = 5
 			completion_reward = {
-					add_political_power = -300
+					add_political_power = -100
 					add_stability = -0.15
 				}
 
@@ -1253,7 +1277,12 @@ focus_tree = {
 					set_party_name = {
 							ideology = communism
 							long_name = "Movimiento Republicano Popular"
-							name = "Movimiento Republicano Popular"
+							name = "MRP"
+						}
+						create_country_leader = {
+							name = "Diego Martínez Barrio"
+							picture = "Diego_Barrio.dds"
+							ideology = marxism_leninism
 						}
 				}
 
@@ -1274,6 +1303,8 @@ focus_tree = {
 		x = 36
 		y = 6
 			completion_reward = {
+			custom_effect_tooltip = spr.tr.2
+				hidden_effect = {
 					set_politics = {
 							ruling_party = communism
 							elections_allowed = no
@@ -1284,8 +1315,9 @@ focus_tree = {
 						}
 					remove_ideas = traditional_culture
 					remove_ideas = leftist_persecution_fin
+					remove_ideas = fascist_influence
 				}
-
+			}
 	}
 	focus = {
 		id = SPR_pruge_falangism
@@ -1297,11 +1329,11 @@ focus_tree = {
 		x = 34
 		y = 7
 			completion_reward = {
-					add_ideas = repression
-					add_ideas = death_squads
+					add_timed_idea = { idea = death_squads  days = 365 }
+					add_timed_idea = { idea = repression  days = 365 }
 					add_popularity = {
 							ideology = fascism
-							popularity = -0.25
+							popularity = -0.15
 						}
 				}
 
@@ -1474,7 +1506,21 @@ focus_tree = {
 		}
 		x = 26
 		y = 5
-
+		completion_reward = {
+			add_stability = 0.01
+					SPR = {
+			add_opinion_modifier = {
+				target = VTC
+				modifier = offered_support
+			}
+		}
+		VTC = {
+			add_opinion_modifier = {
+				target = SPR
+				modifier = offered_support
+			}
+		}
+	}
 	}
 	focus = {
 		id = SPR_join_the_un
@@ -1552,7 +1598,21 @@ focus_tree = {
 		}
 		x = 38
 		y = 7
-
+		completion_reward = {
+			end_puppet = EGI
+			EGI = {
+				drop_cosmetic_tag = yes
+				set_politics = {
+				ruling_party = trotskyism
+				}
+			}
+			release = SRW
+			MOR = {
+				transfer_state = 290
+				transfer_state = 1003
+				transfer_state = 1002
+			}
+		}
 	}
 	focus = {
 		id = SPR_closen_with_europe
@@ -1655,6 +1715,9 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = SPR_ban_old_shirts
+		}
+		available = {
+			date >1959.1.1
 		}
 		x = 28
 		y = 8
@@ -1764,7 +1827,11 @@ focus_tree = {
 							ruling_party = communism
 							elections_allowed = yes
 						}
-					remove_ideas = { death_squads  repression }
+					remove_ideas = { death_squads  repression tve }
+					set_autonomy = {
+    target = SPR
+    autonomy_state = autonomy_free
+}
 				}
 
 	}
