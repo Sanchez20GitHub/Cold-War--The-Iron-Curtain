@@ -10,6 +10,7 @@ state={
 		owner = INS
 		add_core_of = INO
 		add_core_of = INS
+		add_core_of = WPA
 		buildings = {
 			infrastructure = 2
 
