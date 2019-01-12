@@ -643,7 +643,8 @@ add_to_tech_sharing_group = marshall_plan
     white_peace = ALG
 	#remove_ideas = Algerian_Independentism
 }
-1967.1.1 = {
+
+1946.1.1 = {
 	set_autonomy = { target = DJB autonomy_state = autonomy_free }	
 }
 

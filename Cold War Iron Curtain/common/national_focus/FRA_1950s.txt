@@ -1953,7 +1953,7 @@ focus_tree = {
 						}
 					create_country_leader = {
 							name = "Henri Queuille"
-							picture = "Portrait_France_Henri_Queuille.dds"
+							picture = "Henri_Queuille.dds"
 							ideology = social_liberal
 						}
 				}
@@ -2052,7 +2052,7 @@ focus_tree = {
 						}
 					create_country_leader = {
 							name = "Henri Queuille"
-							picture = "Portrait_France_Henri_Queuille.dds"
+							picture = "Henri_Queuille.dds"
 							ideology = social_liberal
 						}
 				}

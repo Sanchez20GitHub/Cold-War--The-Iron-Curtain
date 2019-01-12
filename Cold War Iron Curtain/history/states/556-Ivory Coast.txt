@@ -6,18 +6,17 @@ state={
 	history={
 		owner = SEN
 		buildings = {
-			infrastructure = 3
+			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
-			coal_plant = 1
 
 		}
 		victory_points = {
-			8122 5 
+			10803 10 
 		}
 		add_core_of = SEN
 		add_core_of = CTD
-		1960.1.1 = {
+		1958.1.1 = {
 			owner = CTD
 			remove_core_of = SEN
 
@@ -26,9 +25,9 @@ state={
 	}
 
 	provinces={
-		5013 5070 8065 8122 10762 10803 
+		884 3887 5013 6117 8122 9813 9840 10803 11809 11852 
 	}
-	manpower=2630131
+	manpower=4707404
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }
