@@ -293,7 +293,7 @@ focus_tree = {
 					989 = {
 							add_manpower = 25000
 						}
-					999 = {
+					545 = {
 							add_manpower = 25000
 						}
 				}
