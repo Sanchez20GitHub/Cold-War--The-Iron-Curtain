@@ -1397,5 +1397,11 @@ ideas = {
 			trotskyism_drift = 0.002
 			}
 		}
+		country_is_embargoed = {
+			removal_cost = -1
+			modifier = {
+			MONTHLY_POPULATION = -0.1
+			}
+		}
 	}
 }
