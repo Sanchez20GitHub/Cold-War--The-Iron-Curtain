@@ -7,20 +7,25 @@ Conservative
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[e-m-pm,4]Increase Military Spending; more_mil_staff
 	[e-m-pm,8]Largely Increase Military Spending; even_more_mil_staff
-	[s-m-pm,2]Support Troops; gen_pro_mil_1
+	[s-l-m,4]Take Conservative Labor Approach; gen_balanced_workers_1
+	[s-m-pm,4]Support Troops; gen_pro_mil_1
 Liberal Conservativism
 	[4]Encourage Family Unity; +2.5% Stability
 	[mil,6]Military-Industrial Buildup {180 days} military_boost_general
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
 	[e-e-r,4]Increase Education Spending; more_escuelas
 	[e-h-u,4]Medical Science Funding; medical_science
 	[e-h-u,8]Medical Laboratories; medical_apotheosis
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[e-m-v,2]Veteran Affairs; veteran_affairs_generic
+	[s-l-m,4]Take Conservative Labor Approach; gen_balanced_workers_1
 Christian Democratic/Islamism/?Judaism?/Anything Religious Demoractic
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
-	[rel*,8]Construct Religious Buildings; 180 days +0.05% Weekly Stability -2 con goods factories
+	[rel*,8]Construct Religious Buildings; 180 days +0.05% Weekly Stability +2% con goods factories build_religious_buildings
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[e-e-r,8]Prayer in Schools; patriotic_schools
+	[e-ec-u,4]Develop Rural Regions; ruural_development_spirit
 	[e-m-v,8]Veteran Affairs and War Relief; vet_aff_and_relief
 Socialist
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
@@ -28,8 +33,11 @@ Socialist
 	[e-f-l,6]Enact Safety Net; safety_net
 	[e-f-l,12]Welfare Statism; welfare_state_plus
 	[e-ec-l,6]Socialize The Economy; active_communism
+	[e-ec-l,12]Seize the Means; communism_intensifies
+	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
 Liberal #Libertarian
 	[*she,4]Shelter Foreign Investors; 180 days -30% Trade Relations, -3% con goods factories tax_sheltering
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[e-e-li,4]Reduce Education Spending; simplified_education
 	[e-e-li,8]Privatize Education; privatized_education
 	[e-h-li,4]Reduce Medical Expenses; reduce_medical_bills
@@ -40,9 +48,10 @@ Liberal #Libertarian
 	[e-ec-r,8]Cut Taxes; capitalism_intensifies
 	[e-m-am,4]Reduce Military Spending; cheap_army
 	[e-m-am,8]Vastly Reduce Military Spending; cheap_ass_army
-	[s-l-li,4]Reduce Labor Regulation; gen_pro_employer_1
 	[s-l-li,8]Mass Deregulation; gen_pro_employer_2
 Centrist
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[epa,8]Environmental Protectionism; have_furries_control_government
 	[e-e-c,4]Creative Education Reforms; creative_education
 	[e-h-u,4]Medical Science Funding; medical_science
@@ -50,28 +59,127 @@ Centrist
 	[e-f-c,4]Subsidies; subsidies_basic
 	[e-f-c,8]Mass Subsidization; subsidy_economy
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
+	[s-l-m,4]Take Balanced Labor Approach; gen_balanced_workers_2
 Social Democratic
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[e-e-c,4]Creative Education; creative_education
 	[e-e-c,8]Mass Academic Funding; academic_state
 	[e-h-l,4]Enact Universal Healthcare; socialism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
+	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
 Social Liberalism
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
+	[e-e-c,4]Creative Education; creative_education
+	[e-e-c,8]Mass Academic Funding; academic_state
+	[e-h-l,4]Enact Universal Healthcare; socialism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
+	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
 Democratic #Progressive
 	[epa,8]Environmental Protectionism; have_furries_control_government
+	[e-e-c,4]Creative Education; creative_education
+	[e-h-l,4]Enact Universal Healthcare; socialism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
+	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
 Communism
-	[d,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research
+	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
+	[e-h-l,4]Universal Healthcare; socialism_healthcare
+	[e-h-l,8]Adv UHC; communism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
+	[e-f-l,12]Welfare Statism; welfare_state_plus
+	[e-ec-l,6]Socialize The Economy; active_communism
+	[e-ec-l,12]Seize the Means; communism_intensifies
+	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
 Trotskyism
-	[d,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research
+	[4]Firebranding; -2.5% Stability, +5% War Support
+	[*tro,10]Ignite the Permanent Revolution; 1825 +2% Recruitable, +15% War Support permanent_revolution_ignition
+	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[e-e-a,6]Military Colleges; military_colleges
+	[e-h-l,4]Universal Healthcare; socialism_healthcare
+	[e-h-l,8]Adv UHC; communism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
+	[e-f-l,12]Welfare Statism; welfare_state_plus
+	[e-ec-l,6]Socialize The Economy; active_communism
+	[e-ec-l,12]Seize the Means; communism_intensifies
+	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
 Maoism
-	[d,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research
+	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
+	[e-h-l,4]Universal Healthcare; socialism_healthcare
+	[e-h-l,8]Adv UHC; communism_healthcare
+	[e-f-l,6]Enact Safety Net; safety_net
+	[e-f-l,12]Welfare Statism; welfare_state_plus
+	[e-ec-l,6]Socialize The Economy; active_communism
+	[e-ec-l,12]Seize the Means; communism_intensifies
+	[e-ec-u,6]The Rural Class; #adds rural_development_spirit but does not conflict with existing economy laws. Only maoism can do this as it is rural marxism.
+	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
 Fascist #Third Positionist
+	[4]Firebranding; -2.5% Stability, +2.5% War Support
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
+	[e-e-a,6]Military Colleges; military_colleges
+	[e-h-l,4]Universal Healthcare; socialism_healthcare
+	[e-h-l,8]Adv UHC; communism_healthcare
+	[e-f-r,6]Empower the Corporations; save_money
+	[e-f-r,12]Centralize Corporate Control; save_more_money
+	[e-ps,4]Police Statism; police_state
+	[e-m-pm,4]Strengthen the Army; more_mil_staff
+	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
+	[s-l-li,8]Ban Private Unions; gen_pro_employer_2
 Nationalism
+	[4]Firebranding; -2.5% Stability, +2.5% War Support
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
+	[e-e-a,6]Military Colleges; military_colleges
+	[e-h-u,4]Medical Science Funding; medical_science
+	[e-f-c,4]Subsidies; subsidies_basic
+	[e-m-pm,4]Strengthen the Army; more_mil_staff
+	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
+	[s-l-li,8]Restrict Unions; gen_pro_employer_1
 Monarchist
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
+	[e-e-r,4]Prestigous Academies; more_escuelas
+	[e-e-a,6]Royal Military Colleges; #adds military_colleges but does not conflcit with existing education laws. Only monarchs can do this because they implement it this way.
+	[e-h-li,4]Reduce Medical Expenses; reduce_medical_bills
+	[e-f-c,4]Royal Treasury; subsidies_basic
+	[e-m-pm,4]Strengthen the Army; more_mil_staff
+	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
 Neutrality #Reactionary
+	[4]Normalcy of Tradition; +2.5% Stability
+	[4]Firebranding; -2.5% Stability, +2.5% War Support
+	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
+	[e-e-li,4]Reduce Education Spending; simplified_education
+	[e-e-li,8]Privatize Education; privatized_education
+	[e-h-li,4]Reduce Medical Expenses; reduce_medical_bills
+	[e-h-li,8]Privatize Healthcare; privatized_healthcare
+	[e-f-r,6]Reduce Government Spending; save_money
+	[e-f-r,12]Cut Public Pensions; save_more_money
+	[e-m-pm,4]Strengthen the Army; more_mil_staff
+	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
+	[s-l-li,8]Restrict Unions; gen_pro_employer_1
 Radican Shiaism
+	[4]Encourage Religious Unity; +2.5% Stability
+	[4]Envoke Fanaticism; +2.5% War Support
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[*tro,10]Declare Fatwa; 1825 +2% Recruitable, +15% War Support permanent_revolution_ignition #Requires at war
+	[rel*,8]Construct Religious Buildings; 180 days +0.05% Weekly Stability -2 con goods factories build_religious_buildings
+	[e-e-r,8]Prayer in Schools; patriotic_schools
+	[e-ec-u,4]Develop Rural Regions; ruural_development_spirit
+	[e-m-v,8]Veteran Affairs and War Relief; vet_aff_and_relief
 Salafism
+	[4]Encourage Religious Unity; +2.5% Stability
+	[4]Envoke Fanaticism; +2.5% War Support
+	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
+	[*tro,10]Declare Jihad; 1825 +2% Recruitable, +15% War Support permanent_revolution_ignition #Requires at war
+	[rel*,8]Construct Religious Buildings; 180 days +0.05% Weekly Stability -2 con goods factories build_religious_buildings
+	[e-e-r,8]Prayer in Schools; patriotic_schools
+	[e-ec-u,4]Develop Rural Regions; ruural_development_spirit
+	[e-m-v,8]Veteran Affairs and War Relief; vet_aff_and_relief
 
 
 ####Groups. When adding ideas of different groups, repeal the ones from others first

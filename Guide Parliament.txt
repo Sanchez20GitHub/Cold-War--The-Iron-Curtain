@@ -26,3 +26,10 @@
 	{M}oderate[gen_balanced_workers_1 _2]
 	{L}eft[gen_pro_union_1 _2]
 {E}nvironment;
+
+	[s-l-li,4]
+	[s-l-li,8]
+	[s-l-m,4]
+	[s-l-m,8]
+	[s-l-l,4]
+	[s-l-l,8]
