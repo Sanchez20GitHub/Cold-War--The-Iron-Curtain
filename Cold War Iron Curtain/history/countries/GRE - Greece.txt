@@ -4,26 +4,6 @@ capital = 47
 oob = "GRE_1949"
 
 set_research_slots = 3
-set_variable = { var = influencer1 value = 0 }
-set_variable = { var = influencer1_amount value = 0 }
-
-set_variable = { var = influencer2 value = 0 }
-set_variable = { var = influencer2_amount value = 0 }
-
-set_variable = { var = influencer3 value = 0 }
-set_variable = { var = influencer3_amount value = 0 }
-
-set_variable = { var = influencer4 value = 0 }
-set_variable = { var = influencer4_amount value = 0 }
-
-set_variable = { var = influencer5 value = 0 }
-set_variable = { var = influencer5_amount value = 0 }
-
-set_variable = { var = influencer6 value = 0 }
-set_variable = { var = influencer6_amount value = 0 }
-
-set_variable = { var = influencer7 value = 0 }
-set_variable = { var = influencer7_amount value = 0 }
 
 add_ideas = {
 	limited_conscription
@@ -158,14 +138,12 @@ set_variable = { var = domestic_influence_amount value = 2000 }
   
 set_variable = { var = influencer1 value = ENG.id }
 set_variable = { var = influencer1_amount value = 1000 }
-#set_variable = { var = influencer2 value = USA.id }
-#set_variable = { var = influencer2_amount value = 1000 }
-#set_variable = { var = influencer3 value = SOV.id }
-#set_variable = { var = influencer3_amount value = 10 }
-#set_variable = { var = influencer4 value = YUG.id }
-#set_variable = { var = influencer4_amount value = 10 }
-
-
+set_variable = { var = influencer2 value = USA.id }
+set_variable = { var = influencer2_amount value = 1000 }
+set_variable = { var = influencer3 value = SOV.id }
+set_variable = { var = influencer3_amount value = 10 }
+set_variable = { var = influencer4 value = YUG.id }
+set_variable = { var = influencer4_amount value = 10 }
 	
 1956.1.1 = {
   add_ideas = nato_member
