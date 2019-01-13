@@ -1,0 +1,54 @@
+Conservative
+	[a,4]Increase Military Spending; more_mil_staff
+	[a,8]Largely Increase Military Spending; even_more_mil_staff
+	[b,2]Support Troops; gen_pro_mil_1
+	[c,4]Military Research Grant; 2x 15% General Military Research Boosts
+	[d,4]Encourage Family Unity; +2.5% Stability
+	[e,6]Military-Industrial Buildup {180 days} military_boost_general
+Liberal Conservativism
+	[a,2]Veteran Affairs; veteran_affairs_generic
+	[b,4]Increase Education Spending; more_escuelas
+	[c,4]Medical Science Funding; medical_science
+	[c,8]Medical Laboratories; medical_apotheosis
+	[d,4]Encourage Family Unity; +2.5% Stability
+	[e,6]Military-Industrial Buildup {180 days} military_boost_general
+Christian Democratic
+	
+Socialist
+Liberal #Libertarian
+	[a,4]Reduce Military Spending; cheap_army
+	[a,8]Vastly Reduce Military Spending; cheap_ass_army
+Centrist
+Social Democratic
+Social Liberalism
+Democratic #Progressive
+	[a,8]Environmental Protectionism; have_furries_control_government
+Communism
+Trotskyism
+Maoism
+Fascist #Third Positionist
+Nationalism
+Monarchist
+Neutrality #Reactionary
+Islamism
+Radican Shiaism
+Salafism
+
+
+####Groups. When adding ideas of different groups, repeal the ones from others first
+Education; 
+	Left/Center[creative_education academic_state]
+	Right/Moderate[more_escuelas patriotic_schools]
+	*Liberal[simplified_education privatized_education]
+	Alt[military_colleges]
+Healthcare;
+	Left[socialism_healthcare communism_healthcare]
+	Unaligned[medical_science medical_apotheosis]
+	Liberal[reduce_medical_bills privatized_healthcare]
+Economy;
+	Left[activate_communism communism_intensifies]
+	Unaligned[rural_development_spirit]
+	Right/Liberal[activate_capitalism capitalism_intensifies]
+Military;
+	Anti-Military[cheap_army cheap_ass_army]
+	Pro-Military[more_mil_staff even_more_mil_staff vet_affairs_generic]
