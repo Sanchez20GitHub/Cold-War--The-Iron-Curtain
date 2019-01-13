@@ -1188,7 +1188,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer1 = 0 } }
+     localization_key = "Open Slot"
+    }
 
     text = {
         localization_key = ""
@@ -1976,7 +1978,12 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer2 = REN } }
+     localization_key = "[REN.GetNameWithFlag]"
+    }
+    text = { trigger = { check_variable = { influencer2 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }
@@ -2763,7 +2770,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer3 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }
@@ -3550,7 +3559,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer4 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }
@@ -4337,7 +4348,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer5 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }
@@ -5124,7 +5137,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer6 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }
@@ -5911,7 +5926,9 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = REN } }
      localization_key = "[REN.GetNameWithFlag]"
     }
-
+    text = { trigger = { check_variable = { influencer7 = 0 } }
+     localization_key = "Open Slot"
+    }
     text = {
         localization_key = ""
     }

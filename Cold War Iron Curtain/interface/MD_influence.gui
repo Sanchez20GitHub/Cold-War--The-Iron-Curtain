@@ -164,7 +164,22 @@ guiTypes = {
 			
 			pdx_tooltip = "FPP_TOOLTIP"
 		}
-
+		buttonType ={
+			name ="establish_influencer"
+			spriteType = "GFX_generic_box_smallest_smaller"
+			position = { x=270 y=0 }
+			#shortcut = "ctrl+k"
+		}
+		instantTextBoxType = {
+			name ="establish_influencer_text"
+			position = { x=270 y = 0 }
+			font = "hoi_16mbs"
+			text = "[position_3_var]"
+			format = centre
+			maxWidth = 35
+			maxHeight = 18
+			fixedsize = yes
+		}
 	}
 	
 	containerWindowType = {

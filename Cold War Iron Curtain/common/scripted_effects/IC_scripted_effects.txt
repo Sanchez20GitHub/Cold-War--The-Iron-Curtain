@@ -6,6 +6,57 @@ ic_pulse = {
 		min = 0
 		max = 2000000
 	}	
+	every_country = {
+		if = {
+			limit = {
+				NOT = { has_variable = influencer1 }
+			}
+			set_variable = { var = influencer1 value = 0 }
+			set_variable = { var = influencer1_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer2 }
+			}
+			set_variable = { var = influencer2 value = 0 }
+			set_variable = { var = influencer2_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer3 }
+			}
+			set_variable = { var = influencer3 value = 0 }
+			set_variable = { var = influencer3_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer4 }
+			}
+			set_variable = { var = influencer4 value = 0 }
+			set_variable = { var = influencer4_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer5 }
+			}
+			set_variable = { var = influencer5 value = 0 }
+			set_variable = { var = influencer5_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer6 }
+			}
+			set_variable = { var = influencer6 value = 0 }
+			set_variable = { var = influencer6_amount value = 0 }
+		}
+		if = {
+			limit = {
+				NOT = { has_variable = influencer7 }
+			}
+			set_variable = { var = influencer7 value = 0 }
+			set_variable = { var = influencer7_amount value = 0 }
+		}
+	}
 	if = {
 		limit = {
 			tag = USA
