@@ -5,6 +5,14 @@ state={
 	history={
 		owner = EGI
 		add_core_of = EGI
+		1946.1.1 = {
+			owner = SPR
+		    add_core_of = SPR
+		}
+		1968.1.1 = {
+			owner = EGI
+			remove_core_of = SPR
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
