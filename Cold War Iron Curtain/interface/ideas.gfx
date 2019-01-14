@@ -5122,4 +5122,8 @@ spriteTypes = {
 		name = "GFX_idea_jap_occupation"
 		texturefile = "gfx/interface/ideas/legacy_of_japan.dds"
     }
+	spriteType = {
+		name = "GFX_idea_eva_peron"
+		texturefile = "gfx/interface/ideas/Peron_Advisor_paper.dds"
+    }
 }
