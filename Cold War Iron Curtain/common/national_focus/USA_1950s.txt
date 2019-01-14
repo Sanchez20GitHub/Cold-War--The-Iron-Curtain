@@ -4106,6 +4106,112 @@
 								}
 						}
 				}
+
+	}
+	shared_focus = {
+		id = USA_undermine_Sukarno
+		icon = GFX_SP_focus_shadow_government
+		cost = 10.00
+		prerequisite = {
+			focus = USA_Creation_of_the_CIA
+		}
+		x = 79
+		y = 2
+			allow_branch = {
+					
+				}
+			available = {
+					country_exists = INO
+				}
+			completion_reward = {
+					INO = {
+							add_timed_idea = {
+									idea = reactionary_drift
+									days = 900
+								}
+						}
+				}
+
+	}
+	shared_focus = {
+		id = USA_Launch_Coup_in_Indonesia
+		icon = GFX_focus_generic_strike_at_democracy1
+		cost = 10.00
+		prerequisite = {
+			focus = USA_undermine_Sukarno
+		}
+		x = 79
+		y = 3
+			available = {
+					country_exists = INO
+				}
+			allow_branch = {
+					
+				}
+			completion_reward = {
+					INO = {
+							start_civil_war = {
+									ideology = neutrality
+									size = 0.5
+								}
+						}
+				}
+
+	}
+	shared_focus = {
+		id = USA_Support_the_indonesian_uprising
+		icon = GFX_Room_Meeting
+		cost = 10.00
+		prerequisite = {
+			focus = USA_Launch_Coup_in_Indonesia
+		}
+		x = 79
+		y = 4
+			available = {
+					country_exists = INO
+				}
+			allow_branch = {
+					
+				}
+			completion_reward = {
+					every_country = {
+							limit = {
+									original_tag = INO
+									has_government = neutrality
+								}
+							random_owned_controlled_state = {
+									limit = {
+											free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+											OR = {
+													is_in_home_area = yes
+													NOT = {
+															owner = {
+																	any_owned_state = {
+																			free_building_slots = {
+																					building = arms_factory
+																					size > 0
+																					include_locked = yes
+																				}
+																			is_in_home_area = yes
+																		}
+																}
+														}
+												}
+										}
+									add_extra_state_shared_building_slots = 2
+									add_building_construction = {
+											type = arms_factory
+											level = 2
+											instant_build = yes
+										}
+								}
+						}
+				}
+
 	}
 	shared_focus = {
 		id = USA_The_Free_Officier_Coup
@@ -5980,6 +6086,13 @@
 		}
 		x = 28
 		y = 6
+		ai_will_do = {
+				factor = 0.76
+				modifier = {
+						is_historical_focus_on = yes
+						factor = 100
+					}
+			}
 		completion_reward = {
 			add_threat = 3
 			add_political_power = 100
@@ -5997,6 +6110,13 @@
 		}
 		x = 24
 		y = 6
+		ai_will_do = {
+				factor = 0.25
+				modifier = {
+						is_historical_focus_on = yes
+						factor = 0
+					}
+			}
 		completion_reward = {
 			add_threat = 20
 			SOV = {
