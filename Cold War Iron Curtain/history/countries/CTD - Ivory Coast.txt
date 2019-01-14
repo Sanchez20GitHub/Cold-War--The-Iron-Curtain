@@ -2,6 +2,10 @@
 
 oob = "CTD_1949"
 
+1983.1.1 = {
+    capital = 1252
+}
+
 # Starting tech
 set_technology = {
 	

@@ -190,6 +190,18 @@ create_country_leader = {
 	ideology = salafist
 }
 
+create_country_leader = {
+	name = "Mohammed Ridha Al-Shabibi"
+	picture = "Mohammed_Ridha_Al_Shabibi.dds"
+	ideology = centrism
+}
+
+create_country_leader = {
+	name = "Nuri al-Said"
+	picture = "Nuri_al_Said.dds"
+	ideology = national_conservatism
+}
+
 create_field_marshal = {
 	name = "Ahmed Hassan al-Bakr"
 	picture = "Ahmed_Hassan_al_Bakr.dds"
@@ -361,6 +373,15 @@ create_corps_commander = {
 	    name = "Saddam Hussein"
 	    picture = "Saddam_Hussein.dds"
 	    ideology = baathism
+    }
+}
+
+1991.1.1 = {
+	set_party_name = { ideology = centrist long_name = "Al-Wifaq Al-Watani Al-'Iraqi" name = Wifaq }
+    create_country_leader = {
+	    name = "Ayad Allawi"
+	    picture = "Ayad_Allawi.dds"
+	    ideology = centrism
     }
 }
 

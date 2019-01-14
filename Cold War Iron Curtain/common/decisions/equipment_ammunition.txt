@@ -10,6 +10,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_1
 			NOT = { has_tech = at_ammo_2}
+			NOT = { has_country_flag = at_ammo_1} 
 			}
 		
 		available = {
@@ -46,6 +47,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_2
 			NOT = { has_tech = at_ammo_3}
+			NOT = { has_country_flag = at_ammo_2} 
 			}
 		
 		available = {
@@ -85,6 +87,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_3
 			NOT = { has_tech = at_ammo_4}
+			NOT = { has_country_flag = at_ammo_3} 
 			}
 		
 		available = {
@@ -125,6 +128,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_4
 			NOT = { has_tech = at_ammo_5}
+			NOT = { has_country_flag = at_ammo_4} 
 			}
 		
 		available = {
@@ -164,6 +168,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = at_ammo_5
+			NOT = { has_country_flag = at_ammo_5} 
 			}
 		
 		available = {
@@ -205,6 +210,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_1
 			NOT = { has_tech = at_ammo_2}
+			NOT = { has_country_flag = at_ammo_1} 
 			}
 		
 		available = {
@@ -251,6 +257,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_2
 			NOT = { has_tech = at_ammo_3}
+			NOT = { has_country_flag = at_ammo_2} 
 			}
 		
 		available = {
@@ -300,6 +307,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_3
 			NOT = { has_tech = at_ammo_4}
+			NOT = { has_country_flag = at_ammo_3} 
 			}
 		
 		available = {
@@ -349,6 +357,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = at_ammo_4
 			NOT = { has_tech = at_ammo_5}
+			NOT = { has_country_flag = at_ammo_4} 
 			}
 		
 		available = {
@@ -397,6 +406,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = at_ammo_5
+			NOT = { has_country_flag = at_ammo_5} 
 			}
 		
 		available = {
@@ -450,6 +460,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_1
 			NOT = { has_tech = cannon_ammo_2}
+			NOT = { has_country_flag = cannon_ammo_1} 
 			}
 		
 		available = {
@@ -487,6 +498,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_2
 			NOT = { has_tech = cannon_ammo_3}
+			NOT = { has_country_flag = cannon_ammo_2} 
 			}
 		
 		available = {
@@ -526,6 +538,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_3
 			NOT = { has_tech = cannon_ammo_4}
+			NOT = { has_country_flag = cannon_ammo_3} 
 			}
 		
 		available = {
@@ -566,6 +579,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_4
 			NOT = { has_tech = cannon_ammo_5}
+			NOT = { has_country_flag = cannon_ammo_4} 
 			}
 		
 		available = {
@@ -605,6 +619,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = cannon_ammo_5
+			NOT = { has_country_flag = cannon_ammo_5} 
 			}
 		
 		available = {
@@ -646,6 +661,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_1
 			NOT = { has_tech = cannon_ammo_2}
+			NOT = { has_country_flag = cannon_ammo_1} 
 			}
 		
 		available = {
@@ -692,6 +708,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_2
 			NOT = { has_tech = cannon_ammo_3}
+			NOT = { has_country_flag = cannon_ammo_2} 
 			}
 		
 		available = {
@@ -741,6 +758,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_3
 			NOT = { has_tech = cannon_ammo_4}
+			NOT = { has_country_flag = cannon_ammo_3} 
 			}
 		
 		available = {
@@ -790,6 +808,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = cannon_ammo_4
 			NOT = { has_tech = cannon_ammo_5}
+			NOT = { has_country_flag = cannon_ammo_4} 
 			}
 		
 		available = {
@@ -838,6 +857,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = cannon_ammo_5
+			NOT = { has_country_flag = cannon_ammo_5} 
 			}
 		
 		available = {
@@ -890,6 +910,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_1
 			NOT = { has_tech = art_ammo_2}
+			NOT = { has_country_flag = art_ammo_1} 
 			}
 		
 		available = {
@@ -926,6 +947,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_2
 			NOT = { has_tech = art_ammo_3}
+			NOT = { has_country_flag = art_ammo_2} 
 			}
 		
 		available = {
@@ -964,6 +986,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_3
 			NOT = { has_tech = art_ammo_4}
+			NOT = { has_country_flag = art_ammo_3} 
 			}
 		
 		available = {
@@ -1003,6 +1026,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_4
 			NOT = { has_tech = art_ammo_5}
+			NOT = { has_country_flag = art_ammo_4} 
 			}
 		
 		available = {
@@ -1041,6 +1065,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = art_ammo_5
+			NOT = { has_country_flag = art_ammo_5} 
 			}
 		
 		available = {
@@ -1081,6 +1106,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_1
 			NOT = { has_tech = art_ammo_2}
+			NOT = { has_country_flag = art_ammo_1} 
 			}
 		
 		available = {
@@ -1127,6 +1153,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_2
 			NOT = { has_tech = art_ammo_3}
+			NOT = { has_country_flag = art_ammo_2} 
 			}
 		
 		available = {
@@ -1176,6 +1203,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_3
 			NOT = { has_tech = art_ammo_4}
+			NOT = { has_country_flag = art_ammo_3} 
 			}
 		
 		available = {
@@ -1225,6 +1253,7 @@ ammo_equipment_category = {
 		visible = {
 			has_tech = art_ammo_4
 			NOT = { has_tech = art_ammo_5}
+			NOT = { has_country_flag = art_ammo_4} 
 			}
 		
 		available = {
@@ -1273,6 +1302,7 @@ ammo_equipment_category = {
 		
 		visible = {
 			has_tech = art_ammo_5
+			NOT = { has_country_flag = art_ammo_5} 
 			}
 		
 		available = {

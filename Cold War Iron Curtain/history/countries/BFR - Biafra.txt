@@ -65,6 +65,18 @@ set_technology = {
 
 set_convoys = 10
 
+set_variable = { var = domestic_influence_amount value = 5000 }
+set_variable = { var = influencer1 value = FRA.id }
+set_variable = { var = influencer1_amount value = 1500 }
+set_variable = { var = influencer2 value = ISR.id }
+set_variable = { var = influencer2_amount value = 1500 }
+set_variable = { var = influencer3 value = SAF.id }
+set_variable = { var = influencer3_amount value = 500 }
+set_variable = { var = influencer4 value = VTC.id }
+set_variable = { var = influencer4_amount value = 500 }
+set_variable = { var = influencer5 value = ZIM.id }
+set_variable = { var = influencer5_amount value = 500 }
+
 set_politics = {
 
 	parties = {
@@ -79,9 +91,7 @@ set_politics = {
         Social_Democratic = { popularity = 0 }
         Social_Liberalism = { popularity = 0 }
         Salafism = { popularity = 0 }
-        
         Liberal_Conservatism = { popularity = 0 }
-        
         conservative = { popularity = 0 }
         Christian_Democratic = { popularity = 0 }
         socialist = { popularity = 0 }
@@ -89,8 +99,6 @@ set_politics = {
         liberal = { popularity = 0 }
         trotskyism = { popularity = 0 }
         maoism = { popularity = 0 }
-        
-
 	}
 	
 	ruling_party = neutrality
@@ -103,18 +111,4 @@ create_country_leader = {
 	name = "C. Odumegwu Ojukwu"
 	picture = "Odumegwu_Ojukwu.dds"
 	ideology = military_junta
-}
-1949.1.1 = {
-    set_variable = { var = domestic_influence_amount value = 5000 }
-    set_variable = { var = influencer1 value = FRA.id }
-    set_variable = { var = influencer1_amount value = 1500 }
-    set_variable = { var = influencer2 value = ISR.id }
-    set_variable = { var = influencer2_amount value = 1500 }
-    set_variable = { var = influencer3 value = SAF.id }
-    set_variable = { var = influencer3_amount value = 500 }
-    set_variable = { var = influencer4 value = VTC.id }
-    set_variable = { var = influencer4_amount value = 500 }
-    set_variable = { var = influencer5 value = ZIM.id }
-    set_variable = { var = influencer5_amount value = 500 }
-    
 }

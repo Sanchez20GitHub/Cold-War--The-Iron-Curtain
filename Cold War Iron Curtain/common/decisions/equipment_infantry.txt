@@ -10,6 +10,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_1
 			NOT = { has_tech = protection_equip_2}
+			NOT = { has_country_flag = pt_gear_1} 
 			}
 		
 		available = {
@@ -47,6 +48,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_2
 			NOT = { has_tech = protection_equip_3}
+			NOT = { has_country_flag = pt_gear_2} 
 			}
 		
 		available = {
@@ -86,6 +88,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_3
 			NOT = { has_tech = protection_equip_4}
+			NOT = { has_country_flag = pt_gear_3} 
 			}
 		
 		available = {
@@ -126,6 +129,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_4
 			NOT = { has_tech = protection_equip_5}
+			NOT = { has_country_flag = pt_gear_4} 
 			}
 		
 		available = {
@@ -165,6 +169,7 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = protection_equip_5
+			NOT = { has_country_flag = pt_gear_5} 
 			}
 		
 		available = {
@@ -206,6 +211,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_1
 			NOT = { has_tech = protection_equip_2}
+			NOT = { has_country_flag = pt_gear_1} 
 			}
 		
 		available = {
@@ -252,6 +258,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_2
 			NOT = { has_tech = protection_equip_3}
+			NOT = { has_country_flag = pt_gear_2} 
 			}
 		
 		available = {
@@ -301,6 +308,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_3
 			NOT = { has_tech = protection_equip_4}
+			NOT = { has_country_flag = pt_gear_3} 
 			}
 		
 		available = {
@@ -350,6 +358,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = protection_equip_4
 			NOT = { has_tech = protection_equip_5}
+			NOT = { has_country_flag = pt_gear_4} 
 			}
 		
 		available = {
@@ -398,6 +407,7 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = protection_equip_5
+			NOT = { has_country_flag = pt_gear_5} 
 			}
 		
 		available = {
@@ -451,6 +461,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_1
 			NOT = { has_tech = manpats_2}
+			NOT = { has_country_flag = manpat_1} 
 			}
 		
 		available = {
@@ -488,6 +499,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_2
 			NOT = { has_tech = manpats_3}
+			NOT = { has_country_flag = manpat_2}
 			}
 		
 		available = {
@@ -527,6 +539,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_3
 			NOT = { has_tech = manpats_4}
+			NOT = { has_country_flag = manpat_3}
 			}
 		
 		available = {
@@ -566,7 +579,8 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = manpats_4
-			NOT = { has_tech = manpats_5}
+			NOT = { has_tech = manpats_5}			
+			NOT = { has_country_flag = manpat_4}
 			}
 		
 		available = {
@@ -605,7 +619,8 @@ infantry_equipment_category = {
 	adopt_manpat_V_1_slow = {
 		
 		visible = {
-			has_tech = manpats_5
+			has_tech = manpats_5			
+			NOT = { has_country_flag = manpat_5}
 			}
 		
 		available = {
@@ -647,6 +662,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_1
 			NOT = { has_tech = manpats_2}
+			NOT = { has_country_flag = manpat_1}
 			}
 		
 		available = {
@@ -693,6 +709,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_2
 			NOT = { has_tech = manpats_3}
+			NOT = { has_country_flag = manpat_2}
 			}
 		
 		available = {
@@ -742,6 +759,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_3
 			NOT = { has_tech = manpats_4}
+			NOT = { has_country_flag = manpat_3}
 			}
 		
 		available = {
@@ -791,6 +809,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpats_4
 			NOT = { has_tech = manpats_5}
+			NOT = { has_country_flag = manpat_4}
 			}
 		
 		available = {
@@ -839,6 +858,7 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = manpats_5
+			NOT = { has_country_flag = manpat_5}
 			}
 		
 		available = {
@@ -891,6 +911,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = hmg_1
 			NOT = { has_tech = manpads_1}
+			NOT = { has_country_flag = manpads_1}
 			}
 		
 		available = {
@@ -927,6 +948,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_1
 			NOT = { has_tech = manpads_2}
+			NOT = { has_country_flag = manpads_2}
 			}
 		
 		available = {
@@ -965,6 +987,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_2
 			NOT = { has_tech = manpads_3}
+			NOT = { has_country_flag = manpads_3}
 			}
 		
 		available = {
@@ -1004,6 +1027,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_3
 			NOT = { has_tech = manpads_4}
+			NOT = { has_country_flag = manpads_4}
 			}
 		
 		available = {
@@ -1042,6 +1066,7 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = manpads_4
+			NOT = { has_country_flag = manpads_5}
 			}
 		
 		available = {
@@ -1081,6 +1106,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = hmg_1
 			NOT = { has_tech = manpads_1}
+			NOT = { has_country_flag = manpads_1}
 			}
 		
 		available = {
@@ -1127,6 +1153,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_1
 			NOT = { has_tech = manpads_2}
+			NOT = { has_country_flag = manpads_2}
 			}
 		
 		available = {
@@ -1176,6 +1203,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_2
 			NOT = { has_tech = manpads_3}
+			NOT = { has_country_flag = manpads_3}
 			}
 		
 		available = {
@@ -1225,6 +1253,7 @@ infantry_equipment_category = {
 		visible = {
 			has_tech = manpads_3
 			NOT = { has_tech = manpads_4}
+			NOT = { has_country_flag = manpads_4}
 			}
 		
 		available = {
@@ -1273,6 +1302,7 @@ infantry_equipment_category = {
 		
 		visible = {
 			has_tech = manpads_4
+			NOT = { has_country_flag = manpads_5}
 			}
 		
 		available = {

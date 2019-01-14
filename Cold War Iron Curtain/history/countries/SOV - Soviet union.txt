@@ -521,11 +521,6 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = MON
-		autonomous_state = autonomy_easternbloc
-		freedom_level = 0.4
-	}
-	set_autonomy = {
 		target = KPA
 		autonomous_state = autonomy_easternbloc
 		freedom_level = 0.1
@@ -539,7 +534,6 @@ if = {
 		puppet = ROM
 		puppet = BUL	
 		puppet = ALB
-		puppet = MON
         puppet = KPA		
 	}
 }
@@ -1003,7 +997,6 @@ create_equipment_variant = {
     drop_cosmetic_tag = yes
 	create_faction = "Warsaw Pact"
 	add_to_faction = SOV
-	add_to_faction = MON
 	add_to_faction = ALB
 	add_to_faction = DDR
 	add_to_faction = POL
@@ -1077,7 +1070,6 @@ create_equipment_variant = {
 	remove_ideas = home_of_revolution
 	dismantle_faction = yes
 	set_cosmetic_tag = RUS
-    set_autonomy = { target = MON autonomy_state = autonomy_free }
     set_autonomy = { target = BUL autonomy_state = autonomy_free }
 	set_autonomy = { target = DDR autonomy_state = autonomy_free }
 	set_autonomy = { target = HUN autonomy_state = autonomy_free }

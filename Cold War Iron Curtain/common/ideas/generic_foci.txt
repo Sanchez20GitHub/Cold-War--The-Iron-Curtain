@@ -1370,7 +1370,7 @@ ideas = {
 			modifier = {
 			production_speed_buildings_factor = -0.05
 			MONTHLY_POPULATION = -0.4
-			stability_weekly = -0.003
+			stability_weekly = -0.03
 			stability_factor = -0.20
 			maoism_drift = -0.002
 			communism_drift = -0.002
@@ -1383,7 +1383,7 @@ ideas = {
 			modifier = {
 			production_speed_buildings_factor = -0.05
 			MONTHLY_POPULATION = -0.4
-			stability_weekly = -0.003
+			stability_weekly = -0.03
 			stability_factor = -0.20
 			conservative_drift = -0.001
 			neutrality_drift = -0.001
@@ -1395,6 +1395,12 @@ ideas = {
 			centrist_drift = -0.001
 			liberal_drift = -0.001
 			trotskyism_drift = 0.002
+			}
+		}
+		country_is_embargoed = {
+			removal_cost = -1
+			modifier = {
+			MONTHLY_POPULATION = -0.1
 			}
 		}
 	}

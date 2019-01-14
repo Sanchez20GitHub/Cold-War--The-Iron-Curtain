@@ -120,7 +120,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Joshua Nkomo"
 	picture = "Joshua_Nkomo.dds"
-	ideology = trotskyism_ideology
+	ideology = revolutionary_socialism
 }
 
 create_country_leader = {

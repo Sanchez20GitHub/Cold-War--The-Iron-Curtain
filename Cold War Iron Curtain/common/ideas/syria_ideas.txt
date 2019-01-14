@@ -127,7 +127,7 @@ ideas = {
 				production_speed_industrial_complex_factor = 0.1
 				production_speed_arms_factory_factor = 0.1
 				industrial_capacity_factory = 0.15
-				MONTHLY_POPULATION = 0.40
+				MONTHLY_POPULATION = 0.01
 			}
 
 			picture = generic_manpower_bonus

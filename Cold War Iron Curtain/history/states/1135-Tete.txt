@@ -10,7 +10,7 @@ state={
 			infrastructure = 1
 
 		}
-		1975.6.25 = {
+		1975.1.1 = {
 			owner = MZB
 
 		}
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		5155 12013 12950 
+		5155 11170 12013 12950 
 	}
 	manpower=2764169
 	buildings_max_level_factor=1.000

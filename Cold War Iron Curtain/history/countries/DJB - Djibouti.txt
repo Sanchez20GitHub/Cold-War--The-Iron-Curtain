@@ -72,7 +72,6 @@ set_politics = {
         neutrality = { popularity = 1000 }
         islamism = { popularity = 0 }
         radical_shiaism = { popularity = 0 }
-        
         Social_Democratic = { popularity = 0 }
         Social_Liberalism = { popularity = 0 }
         Salafism = { popularity = 0 }
@@ -107,38 +106,6 @@ create_country_leader = {
 }
 
 1946.1.1 = {
-	create_country_leader = {
-		name = "Paul Henri Siriex"
-		picture = "Paul_Henri_Siriex.dds"
-		ideology = colonial_regime
-    }
-}
-
-1954.1.1 = {
-    create_country_leader = {
-	    name = "René Jean Albert Petitbon"
-	    picture = "Rene_Jean_Albert_Petitbon.dds"
-	    ideology = colonial_regime
-    }
-}
-
-1958.1.1 = {
-    create_country_leader = {
-	    name = "Jacques Marie Julien Compain"
-	    picture = "Jacques_Marie_Julien_Compain.dds"
-	    ideology = colonial_regime
-    }
-}
-
-1962.1.1 = {
-    create_country_leader = {
-	    name = "René Tirant"
-	    picture = "Rene_Tirant.dds"
-	    ideology = colonial_regime
-    }
-}
-
-1967.1.1 = {
 	drop_cosmetic_tag = yes
 	set_politics = {
 	    parties = {
@@ -150,7 +117,6 @@ create_country_leader = {
             neutrality = { popularity = 0 }
             islamism = { popularity = 0 }
             radical_shiaism = { popularity = 0 }
-            
             Social_Democratic = { popularity = 0 }
             Social_Liberalism = { popularity = 0 }
             Salafism = { popularity = 0 }

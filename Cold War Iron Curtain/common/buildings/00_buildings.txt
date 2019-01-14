@@ -129,7 +129,7 @@ buildings = {
 		icon_frame = 11
 		radar = yes
 		#max_level = 0 # max: 5
-		max_level = 6 # This is the max unlock level
+		max_level = 10 # This is the max unlock level
 		damage_factor = 0.5
 		value = 4
 		infrastructure_construction_effect = yes
@@ -227,7 +227,7 @@ buildings = {
 		local_resources_electricity = 10
 		refinery = yes
 		max_level = 5 # This is the max unlock level
-		shares_slots = no
+		shares_slots = yes
 		value = 10
 		infrastructure_construction_effect = yes
 	}	
@@ -238,7 +238,7 @@ buildings = {
 		local_resources_electricity = 100
 		refinery = yes
 		max_level = 6 # This is the max unlock level
-		shares_slots = no
+		shares_slots = yes
 		value = 6
 		infrastructure_construction_effect = yes
 	}	
@@ -249,7 +249,7 @@ buildings = {
 		local_resources_electricity = 1000
 		refinery = yes
 		max_level = 1 # This is the max unlock level
-		shares_slots = no
+		shares_slots = yes
 		value = 6
 		infrastructure_construction_effect = yes
 	}	

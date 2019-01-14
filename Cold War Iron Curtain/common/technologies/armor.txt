@@ -1572,10 +1572,6 @@ technologies = {
 			position = { x = 14 y = 2 }
 		}
 		
-		dependencies = {
-           amphibious_warfare_3 = 1
-        }
-		
 		categories = {
 			motorized_equipment
 			mechanized_tech

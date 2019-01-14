@@ -80,7 +80,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Vladimir Voronin"
 	picture = "Vladimir_Voronin.dds"
-	ideology = trotskyism_ideology
+	ideology = revolutionary_socialism
 }
 
 create_country_leader = {

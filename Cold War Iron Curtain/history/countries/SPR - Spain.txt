@@ -219,7 +219,7 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = GEQ
+		target = EGI
 		autonomous_state = autonomy_colony
 		freedom_level = 0.4
 	}	
@@ -227,7 +227,7 @@ if = {
 	else = {
 		puppet = RIF
 		puppet = SRW
-		puppet = GEQ
+		puppet = EGI
 	}
 }
 
@@ -238,7 +238,7 @@ if = {
     set_autonomy = { target = SRW autonomy_state = autonomy_free } 
 }
 1968.1.1 = {
-    set_autonomy = { target = GEQ autonomy_state = autonomy_free } 
+    set_autonomy = { target = EGI autonomy_state = autonomy_free } 
 }
 
 create_country_leader = {

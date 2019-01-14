@@ -3085,7 +3085,7 @@ focus_tree = {
 			}
 					create_country_leader = {
 							name = "Nguyen Khanh"
-							picture = "VIE_60s_Portrait_Nguyan_Khanh.dds"
+							picture = "Nguyen_Khanh.dds"
 							expire = "1980.5.5"
 							ideology = military_junta
 						}
@@ -4217,7 +4217,7 @@ focus_tree = {
 			}
 					create_country_leader = {
 							name = "Nguyen Van Thieu"
-							picture = "VIE_60s_Portrait_Nguyen_Van_Thieu.dds"
+							picture = "Nguyen_Van_Thieu.dds"
 							expire = "1980.5.5"
 							ideology = military_junta
 						}

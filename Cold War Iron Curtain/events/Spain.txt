@@ -71,7 +71,7 @@ country_event = {
 	major = no
 
 	option = {
-		name = "fantastic!"
+		name = "Fantastic!"
 	}
 }
 
@@ -108,6 +108,37 @@ news_event = {
 	option = {
 		set_country_flag = chupa
 		name = "interesting"
+	}
+}
+
+country_event = {
+	id = spr.8
+	title = "Spain Request Protection"
+	desc = spr.8.d
+	picture = GFX_spain_madrid
+
+	is_triggered_only = yes
+
+	option = {
+		name = "We gladly accept"
+		SOV = {
+		puppet = SPR
+		}
+	}
+	option = {
+		name = "Tell them we cannot accept"
+		SPR = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = refused_help
+			}
+		}
+		SOV = {
+			add_opinion_modifier = {
+				target = SPR
+				modifier = refused_help
+			}
+		}
 	}
 }
 

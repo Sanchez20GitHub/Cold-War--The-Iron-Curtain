@@ -542,9 +542,13 @@ ideologies = {
 
 ###########################################
 
-	trotskyism = { # Radical Socialism
+	trotskyism = { # Revolutionary Socialism
 		
 		types = {
+		
+			revolutionary_socialism = {
+			}
+			
 			trotskyism_ideology = {
 			}
 			

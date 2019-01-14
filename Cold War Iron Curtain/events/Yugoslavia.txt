@@ -696,7 +696,7 @@ country_event = {
 
 news_event = {
 	id = yug.32
-	title = "Eleanor Roosevelt and Josip Tito Meet"
+	title = "[GetNewspaperHeader]Eleanor Roosevelt and Josip Tito Meet"
 	desc = yug.32.d
 	picture = roosevelt_tito
 	is_triggered_only = yes

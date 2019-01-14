@@ -164,7 +164,22 @@ guiTypes = {
 			
 			pdx_tooltip = "FPP_TOOLTIP"
 		}
-
+		buttonType ={
+			name ="establish_influencer"
+			spriteType = "GFX_generic_box_smallest_smaller"
+			position = { x=270 y=0 }
+			#shortcut = "ctrl+k"
+		}
+		instantTextBoxType = {
+			name ="establish_influencer_text"
+			position = { x=270 y = 0 }
+			font = "hoi_16mbs"
+			text = "[position_3_var]"
+			format = centre
+			maxWidth = 35
+			maxHeight = 18
+			fixedsize = yes
+		}
 	}
 	
 	containerWindowType = {
@@ -175,7 +190,7 @@ guiTypes = {
 			name ="position_1_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_1]"
+			text = "[INFLUENCER1_L]"
 			format = left
 			maxWidth = 140
 			maxHeight = 18
@@ -206,7 +221,7 @@ guiTypes = {
 			name ="position_2_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_2]"
+			text = "[INFLUENCER2_L]"
 			format = left
 			maxWidth = 140
 			maxHeight = 18
@@ -222,7 +237,7 @@ guiTypes = {
 			name ="position_2_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_2_var]"
+			text = "[?influencer2_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
@@ -237,7 +252,7 @@ guiTypes = {
 			name ="position_3_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_3]"
+			text = "[INFLUENCER3_L]"
 			format = left
 			maxWidth = 200
 			maxHeight = 18
@@ -253,7 +268,7 @@ guiTypes = {
 			name ="position_3_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_3_var]"
+			text = "[?influencer3_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
@@ -268,7 +283,7 @@ guiTypes = {
 			name ="position_4_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_4]"
+			text = "[INFLUENCER4_L]"
 			format = left
 			maxWidth = 200
 			maxHeight = 18
@@ -284,7 +299,7 @@ guiTypes = {
 			name ="position_4_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_4_var]"
+			text = "[?influencer4_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
@@ -299,7 +314,7 @@ guiTypes = {
 			name ="position_5_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_5]"
+			text = "[INFLUENCER5_L]"
 			format = left
 			maxWidth = 200
 			maxHeight = 18
@@ -315,7 +330,7 @@ guiTypes = {
 			name ="position_5_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_5_var]"
+			text = "[?influencer5_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
@@ -330,7 +345,7 @@ guiTypes = {
 			name ="position_6_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_6]"
+			text = "[INFLUENCER6_L]"
 			format = left
 			maxWidth = 200
 			maxHeight = 18
@@ -346,7 +361,7 @@ guiTypes = {
 			name ="position_6_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_6_var]"
+			text = "[?influencer6_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
@@ -361,7 +376,7 @@ guiTypes = {
 			name ="position_7_text"
 			position = { x= 0 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_7]"
+			text = "[INFLUENCER7_L]"
 			format = left
 			maxWidth = 200
 			maxHeight = 18
@@ -377,7 +392,7 @@ guiTypes = {
 			name ="position_7_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[position_7_var]"
+			text = "[?influencer7_amount_calc|%0]"
 			format = centre
 			maxWidth = 35
 			maxHeight = 18
