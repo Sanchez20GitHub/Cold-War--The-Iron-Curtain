@@ -2065,7 +2065,7 @@ focus_tree = {
 		y = 6
 		
 			completion_reward = {
-					add_ideas = gen_sports_fanatic
+					add_ideas = gen_parks_and_rec
 				}
 
 	}
