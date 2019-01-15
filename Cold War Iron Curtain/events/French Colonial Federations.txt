@@ -13,18 +13,16 @@ country_event = {
 		SEN = {
 			drop_cosmetic_tag = yes
 			set_autonomy = { target = SEN autonomy_state = autonomy_free } 
+		    MLI = { transfer_state = 557 }
 			every_owned_state = {
 		        limit = {
 			        is_core_of = MAU
 		        }
-		        MLI = { transfer_state = PREV }
+		        MAU = { transfer_state = PREV }
 	        }
 			every_owned_state = {
 		        limit = {
-				    OR = {
-			            is_core_of = MLI
-						is_core_of = SEN
-					}
+			        is_core_of = MLI
 		        }
 		        MLI = { transfer_state = PREV }
 	        }
