@@ -12,15 +12,16 @@ state={
 		}
 		add_core_of = KAZ
 		add_core_of = SOV
-		1985.1.1 ={
-		    owner = KAZ
+		1985.1.1 = {
+			owner = KAZ
 			remove_core_of = SOV
+
 		}
 
 	}
 
 	provinces={
-		475 642 1517 3593 4523 4620 10262 11701 13008 
+		642 1517 4523 4620 10262 11701 13008 
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000

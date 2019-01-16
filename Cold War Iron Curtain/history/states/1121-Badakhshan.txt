@@ -6,7 +6,7 @@ state={
 	history={
 		owner = AFG
 		1979.1.1 = {
-		    owner = TAL
+			owner = TAL
 			add_core_of = TAL
 
 		}
@@ -26,7 +26,7 @@ state={
 	}
 
 	provinces={
-		7519 12314 12653 
+		3593 7519 12314 12653 
 	}
 	manpower=904700
 	buildings_max_level_factor=1.000

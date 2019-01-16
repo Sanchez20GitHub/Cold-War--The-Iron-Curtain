@@ -6,7 +6,6 @@ country_event = {
     title = "Soviet offer for neutral Austria"
 	desc = "We have gotten an offer from the Soviet Union to create a neutral, unified Austria. It would serve as a buffer zone between the West and the East. All we have to do is turn over our occupation zone to the Austrians."
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
@@ -39,7 +38,6 @@ country_event = {
     title = "Austria Divided"
 	desc = "Instead of an agreement, the Soviet Union has created a communist puppet state from its occupation zone. A strong response is inbound by us and our allies."
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
@@ -120,12 +118,11 @@ country_event = {
     title = "The Second Anschluss"
 	desc = "The Soviets have broken the entire occupation zone agreement by merging its zone into the German Democratic Republic. Seems we have to do the same with the Federal Republic of Germany!"
 
-	fire_only_once = yes
 	is_triggered_only = yes
 	
 	option = {
 	    name = "Goodbye Austria!"
-		WGR = { transfer_state = 999 transfer_state = 758 transfer_state = 153 transfer_state = 4 transfer_state = 1075 transfer_state = 1192 }
+		WGR = { transfer_state = 999 transfer_state = 758 transfer_state = 153 transfer_state = 4 transfer_state = 1075 transfer_state = 1192 transfer_state = 1253 }
 		999 = { add_core_of = WGR }
 		758 = { add_core_of = WGR }
 		153 = { add_core_of = WGR }
@@ -135,6 +132,7 @@ country_event = {
 		152 = { add_core_of = WGR }
 		1119 = { add_core_of = WGR }
 		1150 = { add_core_of = WGR }
+		1253 = { add_core_of = WGR }
 	}
 
 }

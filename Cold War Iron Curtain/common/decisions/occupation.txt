@@ -50,7 +50,12 @@ occupation_of_austria = {
 		cost = 20
 
 		complete_effect = {
-			release = ADR
+			all_owned_state = {
+		        limit = {
+			        is_core_of = ADR
+		        }
+		        ADR = { transfer_state = PREV }
+	        }
 			set_global_flag = aus_questions_over
 			if = {
 	            limit = {
