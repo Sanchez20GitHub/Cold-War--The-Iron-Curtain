@@ -4,3 +4,4 @@
 *.sqlite-journal
 /ValidatorHOI4-V0.72/
 ugc_*.mod
+*.db
