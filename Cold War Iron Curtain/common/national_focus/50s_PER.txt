@@ -2275,7 +2275,7 @@ focus_tree = {
 		x = 40
 		y = 40
 		completion_reward = {
-			country_event = iran_political.500
+			news_event = iran_political.500
 		}
 	}
 	focus = {
@@ -2497,7 +2497,7 @@ focus_tree = {
 		y = 43
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
+				type = infantry_equipment_0
 				amount = 25000
 				producer = SOV
 			}		
@@ -2603,7 +2603,7 @@ focus_tree = {
 		y = 46
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
+				type = infantry_equipment_0
 				amount = 25000
 				producer = SOV
 			}		

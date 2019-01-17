@@ -391,13 +391,8 @@ focus_tree = {
 			completion_reward = {
 					create_country_leader = {
 							name = "Norodom Phurissara"
-							desc = ""
 							picture = "Phurissara.dds"
-							expire = "1975.1.1"
 							ideology = monarchy
-							traits = {
-
-}
 						}
 				}
 
