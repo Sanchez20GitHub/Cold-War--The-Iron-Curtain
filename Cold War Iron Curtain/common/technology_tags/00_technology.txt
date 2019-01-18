@@ -107,6 +107,15 @@ technology_categories = {
 	heavy_artillery
 	sf_forces
 	cavarly_tech
+	hardware_tech
+	software_tech
+	radio_tech
+	coms_tech
+	consumer_electronics
+	consumer_electronics_tech
+	interwebs_tech
+	transistor_tech
+	supercomputer_tech
 }
 
 technology_folders = {
