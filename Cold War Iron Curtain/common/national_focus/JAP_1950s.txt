@@ -3455,7 +3455,6 @@ focus_tree = {
 		x = 50
 		y = 11
 			completion_reward = {
-					add_ideas = a_new_japan
 					add_timed_idea = {
 							idea = a_new_japan
 							days = 200
