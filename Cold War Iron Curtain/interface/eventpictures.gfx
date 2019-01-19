@@ -19,7 +19,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_north_sea_flood"
 		texturefile = "gfx/event_pictures/north_sea_flood.dds"
-	}		
+	}
+spriteType = {
+		name = "GFX_wp"
+		texturefile = "gfx/event_pictures/wp.dds"
+	}	
 	spriteType = {
 		name = "GFX_rosenberg"
 		texturefile = "gfx/event_pictures/rosenberg.dds"
