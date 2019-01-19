@@ -469,6 +469,7 @@ ideas = {
 				industrial_capacity_dockyard = -0.15
 				production_speed_buildings_factor = -0.15
 				research_time_factor = 0.04
+				trade_opinion_factor = -1
 			}
 			
 			on_add = {
