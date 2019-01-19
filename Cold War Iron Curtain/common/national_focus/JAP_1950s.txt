@@ -1138,8 +1138,6 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = JAP_Rightist_Socialist_Victory_53
-		}
-		prerequisite = {
 			focus = JAP_Leftist_Socialist_Victory_53
 		}
 		x = 32
@@ -2435,8 +2433,11 @@ focus_tree = {
 		}
 		x = 52
 		y = 1
-			completion_reward = {
-					add_ideas = idea_JAP_Reconstruction_begins
+			completion_reward = { 
+					add_timed_idea = {
+							idea = idea_JAP_Reconstruction_begins
+							days = 200
+						}
 				}
 
 	}
@@ -3455,6 +3456,10 @@ focus_tree = {
 		y = 11
 			completion_reward = {
 					add_ideas = a_new_japan
+					add_timed_idea = {
+							idea = a_new_japan
+							days = 200
+						}
 				}
 
 	}
