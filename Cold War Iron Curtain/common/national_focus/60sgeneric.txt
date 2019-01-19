@@ -212,6 +212,9 @@ focus_tree = {
 		id = gen60_wmd_dev
 		icon = GFX_BurningGlobe
 		cost = 8.00
+		prerequisite = {
+			focus = gen60_new_officers
+		}
 		x = 2
 		y = 2
 		
