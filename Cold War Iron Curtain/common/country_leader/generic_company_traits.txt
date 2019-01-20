@@ -1,0 +1,48 @@
+leader_traits = {
+
+	tank_mass_produced = {
+		random = no
+		equipment_bonus = {
+			mbt_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
+				instant = yes
+			}
+			mechanized_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
+				instant = yes
+			}
+			mechanized_heavy_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
+				instant = yes
+			}
+			lt_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			motorized_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			ht_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
+				instant = yes
+			}
+			sht_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
+				instant = yes
+			}
+		}
+		consumer_goods_factor = -0.005
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

@@ -1,0 +1,21 @@
+ideas = {
+
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		tank_mass_produced_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				tank_mass_produced
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}
