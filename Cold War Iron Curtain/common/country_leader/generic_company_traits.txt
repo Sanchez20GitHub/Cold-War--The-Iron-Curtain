@@ -242,7 +242,7 @@ leader_traits = {
 	tank_experimental = {
 		random = no
 		
-		consumer_goods_factor = 0.005
+		consumer_goods_factor = 0.01
 		research_bonus = {
 			armor = 0.075
 		}
@@ -529,7 +529,7 @@ leader_traits = {
 			air = 0.075
 		}
 		
-		consumer_goods_factor = 0.005
+		consumer_goods_factor = 0.01
 		
 		ai_will_do = {
 			factor = 1
