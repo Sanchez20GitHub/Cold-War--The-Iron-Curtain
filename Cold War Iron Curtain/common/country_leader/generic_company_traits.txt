@@ -254,144 +254,164 @@ leader_traits = {
 	air_mass_produced = {
 		random = no
 		equipment_bonus = {
-			fighter = {
+			fighter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_fighter = {
+			cv_fighter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cas = {
+			cas_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_cas = {
+			cv_CAS_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_nav_bomber = {
+			cv_nav_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			nav_bomber = {
+			nav_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			tac_bomber = {
+			tac_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			heavy_fighter = {
+			heavy_fighter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			strat_bomber = {
+			strat_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jet_strat_bomber = {
+			jet_strat_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			transport_plane = {
+			transport_plane_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jet_tac_bomber = {
+			jet_tac_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jet_multirole = {
+			jet_multirole_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jet_interceptor = {
+			jet_interceptor_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jet_cas = {
+			jet_CAS_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			mach2stratbomber = {
+			mach2stratbomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			mach3stratbomber = {
+			mach3stratbomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_jet_multirole = {
+			cv_jet_multirole_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_jet_cas = {
+			cv_jet_CAS_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			stealth_strategic_bomber = {
+			stealth_strategic_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			stealth_tactical_bomber = {
+			stealth_tactical_bomber_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			cv_stealth_fighter = {
+			mr_stealth_fighter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			jump_jet = {
+			cas_stealth_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			naval_helicopter = {
+			cv_stealth_fighter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			attack_helicopter = {
-				reliability = -0.10 
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			light_attack_helicopter = {
-				reliability = -0.10 
-				build_cost_ic = -0.1
-				instant = yes
-			}
-			cas_uav = {
+			jump_jet_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
 				instant = yes
 			}
-			naval_uav = {
+			naval_helicopter_equipment = {
 				reliability = -0.10 
 				build_cost_ic = -0.1 
+				instant = yes
+			}
+			attack_helicopter_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			scout_helicopter_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			cas_uav_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			naval_uav_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			utility_helicopter_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05
+				instant = yes
+			}
+			cargo_helicopter_equipment = {
+				reliability = -0.10 
+				build_cost_ic = -0.05 
 				instant = yes
 			}
 		}
@@ -414,6 +434,20 @@ leader_traits = {
 		air_interception_attack_factor = 0.03
 		air_interception_defence_factor = 0.03
 		air_interception_agility_factor = 0.03
+		equipment_bonus = {
+			scout_heliopter_equipment = {
+			defense = 0.05
+			instant = yes
+			}
+			attack_helicopter_equipment = {
+			defense = 0.05
+			instant = yes
+			}
+			utility_helicopter_equipment = {
+			defense = 0.05
+			instant = yes
+			}
+		}
 		consumer_goods_factor = 0.005
 		
 		ai_will_do = {
@@ -431,6 +465,20 @@ leader_traits = {
 		naval_strike_attack_factor = 0.03
 		naval_strike_targetting_factor = 0.03
 		naval_strike_agility_factor = 0.03
+		equipment_bonus = {
+			scout_heliopter_equipment = {
+			attack = 0.05
+			instant = yes
+			}
+			attack_helicopter_equipment = {
+			attack = 0.05
+			instant = yes
+			}
+			utility_helicopter_equipment = {
+			breakthrough = 0.05
+			instant = yes
+			}
+		}
 		
 		consumer_goods_factor = 0.005
 		
@@ -452,6 +500,20 @@ leader_traits = {
 		air_night_penalty = -0.2
 		air_weather_penalty = -0.2
 		air_ace_generation_chance_factor = 0.10
+		equipment_bonus = {
+			scout_heliopter_equipment = {
+			reliability = 0.1
+			instant = yes
+			}
+			attack_helicopter_equipment = {
+			reliability = 0.1
+			instant = yes
+			}
+			utility_helicopter_equipment = {
+			reliability = 0.1
+			instant = yes
+			}
+		}
 		
 		consumer_goods_factor = 0.01
 		
