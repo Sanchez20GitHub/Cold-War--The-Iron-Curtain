@@ -17,5 +17,84 @@ ideas = {
 				factor = 1
 			}
 		}
+		tank_mobile_warfare_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				tank_mobile_warfare
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		tank_heavy_vehicle_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				tank_heavy_vehicle
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		tank_superior_firepower_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				tank_superior_firepower
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		tank_expeditionary_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				tank_expeditionary
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		tank_experimental_company = {
+
+			picture = 
+			
+			research_bonus = {
+				armor = 0.075
+			}
+			
+			cost = 150
+			
+			traits = { 
+				tank_experimental
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
 	}
 }
