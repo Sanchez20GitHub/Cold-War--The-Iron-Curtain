@@ -241,6 +241,232 @@ leader_traits = {
 	}
 	tank_experimental = {
 		random = no
+		
+		consumer_goods_factor = 0.005
+		research_bonus = {
+			armor = 0.075
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	air_mass_produced = {
+		random = no
+		equipment_bonus = {
+			fighter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_fighter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cas = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_cas = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_nav_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			nav_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			tac_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			heavy_fighter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			strat_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jet_strat_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			transport_plane = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jet_tac_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jet_multirole = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jet_interceptor = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jet_cas = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			mach2stratbomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			mach3stratbomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_jet_multirole = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_jet_cas = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			stealth_strategic_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			stealth_tactical_bomber = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			cv_stealth_fighter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			jump_jet = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			naval_helicopter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			attack_helicopter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			light_attack_helicopter = {
+				reliability = -0.10 
+				build_cost_ic = -0.1
+				instant = yes
+			}
+			cas_uav = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+			naval_uav = {
+				reliability = -0.10 
+				build_cost_ic = -0.1 
+				instant = yes
+			}
+		}
+		consumer_goods_factor = -0.005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	air_guardian_angel = {
+		random = no
+	
+		air_air_superiority_attack_factor = 0.03
+		air_air_superiority_defence_factor = 0.03
+		air_air_superiority_agility_factor = 0.03
+		air_close_air_support_attack_factor = 0.02
+		air_close_air_support_defence_factor = 0.02
+		air_close_air_support_agility_factor = 0.02
+		air_interception_attack_factor = 0.03
+		air_interception_defence_factor = 0.03
+		air_interception_agility_factor = 0.03
+		consumer_goods_factor = 0.005
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	air_firestorm = {
+		random = no
+		
+		air_strategic_bomber_attack_factor = 0.03
+		air_strategic_bomber_defence_factor = 0.03
+		air_strategic_bomber_agility_factor = 0.03
+		air_strategic_bomber_bombing_factor = 0.06
+		air_cas_present_factor 0.1
+		naval_strike_attack_factor = 0.03
+		naval_strike_targetting_factor = 0.03
+		naval_strike_agility_factor = 0.03
+		
+		consumer_goods_factor = 0.005
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	air_assault_horizon = {
+		random = no
+		
+		air_interception_attack_factor = 0.03
+		air_interception_defence_factor = 0.03
+		air_interception_agility_factor = 0.03
+		air_cas_present_factor 0.1
+		naval_strike_attack_factor = 0.02
+		naval_strike_targetting_factor = 0.02
+		naval_strike_agility_factor = 0.02
+		air_accidents_factor = -0.1
+		air_night_penalty = -0.2
+		air_weather_penalty = -0.2
+		air_ace_generation_chance_factor = 0.10
+		
+		consumer_goods_factor = 0.01
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	air_infinity = {
+		random = no
+		
+		air_ace_generation_chance_factor = 0.10
+		research_bonus = {
+			air = 0.075
+		}
+		
 		consumer_goods_factor = 0.005
 		
 		ai_will_do = {

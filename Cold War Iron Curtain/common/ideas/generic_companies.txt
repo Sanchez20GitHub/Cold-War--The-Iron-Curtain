@@ -81,14 +81,100 @@ ideas = {
 
 			picture = 
 			
-			research_bonus = {
-				armor = 0.075
-			}
-			
 			cost = 150
 			
 			traits = { 
 				tank_experimental
+				research_bonus = {
+					cat_light_armor = 0.075
+					cat_medium_armor = 0.075
+					cat_heavy_armor = 0.075
+					mechanized_tech = 0.075
+					motorized_equipment = 0.075
+				}
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+	aircraft_manufacturer = {
+		air_mass_produced_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				air_mass_produced
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		air_guardian_angel_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				air_guardian_angel
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		air_firestorm_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				air_firestorm
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		air_assault_horizon_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				air_assault_horizon
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		air_infinity_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				air_infinity
+				research_bonus = {
+					light_air = 0.075
+					medium_air = 0.075
+					jet_technology = 0.075
+					heavy_air = 0.075
+				}
 			}
 			
 
