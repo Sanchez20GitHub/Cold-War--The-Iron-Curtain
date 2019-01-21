@@ -31,9 +31,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				stability_factor = 0.05
-				political_power_gain = -0.4
+				political_power_gain = -0.2
 			}
 		}
 	
@@ -51,8 +51,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				industrial_capacity_factory = 0.1
-				production_speed_industrial_complex_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_industrial_complex_factor = 0.025
 			}
 		}
 	
@@ -71,9 +71,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				stability_factor = -0.1
-				political_power_gain = -0.5
-				production_speed_buildings_factor = 0.1
+				stability_factor = -0.05
+				political_power_gain = -0.1
+				production_speed_buildings_factor = 0.05
 				democratic_drift = 0.02
 			}
 		}
@@ -92,7 +92,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				production_speed_buildings_factor = 0.4
+				production_speed_buildings_factor = 0.2
 				conscription = -0.010
 				industrial_capacity_factory = 0.3
 			}
@@ -133,7 +133,7 @@ ideas = {
 
 			modifier = {
 			    local_resources_factor = -0.05
-				political_power_gain = 0.2
+				political_power_gain = 0.1
 				conscription = 0.005
 			}
 		}
@@ -153,8 +153,8 @@ ideas = {
 
 			modifier = {
 			    research_time_factor = -0.01
-				consumer_goods_factor = 0.1
-				stability_factor = 0.2
+				consumer_goods_factor = 0.01
+				stability_factor = 0.05
 			}
 		}
 	
@@ -251,7 +251,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    conscription = -0.1
+			    conscription = -0.02
 			}
 		}
 	
@@ -296,8 +296,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    stability_factor = 0.1
-				production_speed_buildings_factor = -0.15
+			    stability_factor = 0.05
+				production_speed_buildings_factor = -0.05
 			}
 		}
 	
@@ -312,7 +312,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    conscription = 0.005
+			    conscription = 0.01
 			}
 		}
 	
@@ -376,10 +376,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    production_speed_arms_factory_factor = 0.4
-				production_speed_industrial_complex_factor = 0.2
-				trade_opinion_factor = -0.5
-				political_power_gain = -0.5 
+			    production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				trade_opinion_factor = -0.1
+				political_power_gain = -0.1 
 				
 			}
 		}
@@ -411,7 +411,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-			    political_power_gain = -0.8
+			    political_power_gain = -0.1
 				democratic_drift = 0.02
 			}
 		}
