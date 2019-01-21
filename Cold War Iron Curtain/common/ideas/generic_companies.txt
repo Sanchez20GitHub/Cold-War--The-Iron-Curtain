@@ -91,6 +91,7 @@ ideas = {
 					cat_heavy_armor = 0.075
 					mechanized_tech = 0.075
 					motorized_equipment = 0.075
+					artillery = 0.075
 				}
 			}
 			
@@ -184,5 +185,78 @@ ideas = {
 			}
 		}
 	}
-	
+	materiel_manufacturer = {
+		materiel_value_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				materiel_value
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		materiel_infantry_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			research_bonus = {
+				infantry_tech = 0.075
+			}
+			
+			traits = { 
+				materiel_infantry
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		materiel_support_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				materiel_support
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		materiel_experimental_company = {
+
+			picture = 
+			
+			cost = 150
+			
+			traits = { 
+				materiel_experimental
+			}
+			
+			research_bonus = {
+				artillery = 0.075
+				infantry_tech = 0.075
+				infantry_weapons = 0.075
+				sf_forces = 0.075
+				support_tech = 0.075
+			}
+			
+
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 }
