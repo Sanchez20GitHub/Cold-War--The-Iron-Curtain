@@ -104,7 +104,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 
 			modifier = {
-				global_building_slots_factor = 0.25
+				global_building_slots_factor = 0.1
 				production_speed_buildings_factor = 0.05
 			}
 		}
@@ -137,7 +137,7 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 		
 			modifier = { 
-				MONTHLY_POPULATION = 0.35
+				MONTHLY_POPULATION = 0.05
 			}
 		}
 
@@ -170,7 +170,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
 				trade_opinion_factor = 0.1
 			}
 		}

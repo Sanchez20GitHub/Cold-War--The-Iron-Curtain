@@ -276,7 +276,7 @@ ideas = {
 			}			
 
 			modifier = {
-				army_morale_factor = 0.1
+				army_morale_factor = 0.05
 				conscription = 0.015
 			}
 		}
@@ -447,7 +447,7 @@ ideas = {
 			}
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 
@@ -466,7 +466,7 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_nuclear_reactor_factor = 0.25
+				production_speed_nuclear_reactor_factor = 0.1
 			}
 		}
 
@@ -502,7 +502,7 @@ ideas = {
 			}
 			
 			modifier = {
-				army_defence_factor = 0.1
+				army_defence_factor = 0.05
 			}
 		}
 
@@ -541,39 +541,39 @@ ideas = {
 
 			equipment_bonus = {
 				fighter_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				cv_fighter_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				CAS_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				cv_CAS_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				cv_nav_bomber_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				nav_bomber_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				tac_bomber_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				heavy_fighter_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 				strat_bomber_equipment = {
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 			}
@@ -658,7 +658,7 @@ ideas = {
 				heavy_cruiser = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
 					armor_value = 0.2
 					attack = 0.1
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 			}
@@ -682,7 +682,7 @@ ideas = {
 				heavy_cruiser = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
 					armor_value = 0.2
 					attack = 0.1
-					build_cost_ic = -0.1
+					build_cost_ic = -0.05
 					instant = yes
 				}
 			
