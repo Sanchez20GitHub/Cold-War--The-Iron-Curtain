@@ -36,7 +36,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				political_power_gain = 0.25
+				political_power_gain = 0.2
 			}
 		}
 
@@ -51,7 +51,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}		
 		rampant_spending = {
@@ -100,7 +100,7 @@ ideas = {
 			modifier = {
 				max_planning = 0.10
 				defence = 0.10
-				army_org_Factor = 0.30
+				army_org_Factor = 0.05
 			}
 		}
 		
@@ -130,7 +130,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 
@@ -145,7 +145,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.1
 			}
 		}
 
@@ -196,7 +196,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				production_factory_efficiency_gain_factor = 0.05
 			}
 			
