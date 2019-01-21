@@ -479,5 +479,49 @@
  ammo_2:0 "Ammunition II"
  ammo_3:0 "Ammunition III"
  protection_1_desc:0 "Basic protective equipment used in WW2."
+
+ ZIM_infantry_equipment_0:0 "Short Magazine Lee-Enfield Rifle, No. 4 Mk I"
+ ZIM_infantry_equipment_0_short:0 "SMLE No. 4"
+ ZIM_infantry_equipment_0_desc:0 "Bolt Action rifle."
+ 
+ ZIM_infantry_equipment_1:0 "EM-2 Rifle No.9 Mk1"
+ ZIM_infantry_equipment_1_short:0 "Rifle No.9"
+ ZIM_infantry_equipment_1_desc:0 ""
+ 
+
+ ZIM_infantry_equipment_2:0 "Northwood R-76"
+ ZIM_infantry_equipment_2_short:0 "Northwood R-76"
+ ZIM_infantry_equipment_2_desc:0 ""
+
+ ZIM_infantry_equipment_3:0 "Sanna-77"
+ ZIM_infantry_equipment_3_short:0 "Sanna-77"
+ ZIM_infantry_equipment_3_desc:0 ""
+ 
+ ZIM_infantry_equipment_4:0 "Vektor LM-5"
+ ZIM_infantry_equipment_4_short:0 "Vektor LM-5"
+ ZIM_infantry_equipment_4_desc:0 ""
+ 
+ WGR_infantry_equipment_0:0 "Karabiner 98k"
+ WGR_infantry_equipment_0_short:0 "Karabiner 98k"
+ WGR_infantry_equipment_0_desc:0 ""
+ 
+ WGR_infantry_equipment_1:0 "Heckler & Koch G3"
+ WGR_infantry_equipment_1_short:0 "Heckler & Koch G3"
+ WGR_infantry_equipment_1_desc:0 ""
+ 
+ WGR_infantry_equipment_2:0 "Heckler & Koch HK33"
+ WGR_infantry_equipment_2_short:0 "Heckler & Koch HK33"
+ WGR_infantry_equipment_2_desc:0 ""
+
+ WGR_infantry_equipment_3:0 "Heckler & Koch G41"
+ WGR_infantry_equipment_3_short:0 "Heckler & Koch G41"
+ WGR_infantry_equipment_3_desc:0 ""
+ 
+ WGR_infantry_equipment_4:0 "Heckler & Koch G36"
+ WGR_infantry_equipment_4_short:0 "Heckler & Koch G36"
+ WGR_infantry_equipment_4_desc:0 ""
+ 
+
+
  
  
