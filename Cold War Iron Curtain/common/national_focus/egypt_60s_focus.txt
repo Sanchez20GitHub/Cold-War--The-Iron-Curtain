@@ -1127,9 +1127,19 @@ focus_tree = {
 		x = 20
 		y = 8
 			completion_reward = {
-					YUG = {
-							add_to_faction = EGY
+											EGY = {
+							add_opinion_modifier = {
+									target = YUG
+									modifier = large_increase
+								}
 						}
+					YUG = {
+							add_opinion_modifier = {
+									target = EGY
+									modifier = large_increase
+								}
+						}
+						add_ideas = neutrality_idea
 				}
 
 	}
