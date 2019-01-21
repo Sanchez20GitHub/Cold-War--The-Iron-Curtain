@@ -16,9 +16,8 @@ ideas = {
 			picture = generic_goods_red_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.02
-				MONTHLY_POPULATION = 0.01
-				stability_weekly = 0.001
+				MONTHLY_POPULATION = 0.15
+				consumer_goods_factor = 0.025
 			}
 		}
 		HighMilitarism = {
@@ -36,7 +35,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				conscription = 0.015
+				conscription = 0.01
 			}
 		}
 		lowmilitarism = {
@@ -54,7 +53,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				conscription = 0.015
+				conscription = 0.01
 			}
 		}
 		God_Save_Empress = {
@@ -72,7 +71,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				conscription = 0.1
+				conscription = 0.02
 				stability_weekly = 0.002
 			}
 		}

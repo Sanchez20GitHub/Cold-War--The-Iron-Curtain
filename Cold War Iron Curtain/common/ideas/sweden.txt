@@ -10,7 +10,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				political_power_gain = -0.25
+				political_power_gain = -0.15
 			}
 
 			picture = generic_manpower_bonus
