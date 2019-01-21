@@ -45,7 +45,7 @@ ideas = {
 			}
 	
 			modifier = {
-				production_speed_nuclear_reactor_factor = 0.25
+				production_speed_nuclear_reactor_factor = 0.05
 				stability_factor = 0.02
 			}
 		}
@@ -69,9 +69,9 @@ ideas = {
 			}
 	
 			modifier = {
-				conscription_factor = 0.04
-				army_morale_factor = 0.02
-				war_support_factor = 0.01
+				conscription_factor = 0.01
+				army_morale_factor = 0.01
+				war_support_factor = 0.02
 			}
 		}
 		National_Firearms_Act = {
@@ -119,9 +119,9 @@ ideas = {
 			}
 	
 			modifier = {
-				conscription_factor = 0.10
-				army_morale_factor = 0.15
-				war_support_factor = 0.15
+				conscription_factor = 0.02
+				army_morale_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}
 		Red_Churches = {
@@ -144,9 +144,9 @@ ideas = {
 			}
 	
 			modifier = {
-				stability_factor = 0.10
-				drift_defence_factor = 0.15
-				war_support_factor = 0.15
+				stability_factor = 0.025
+				drift_defence_factor = 0.05
+				war_support_factor = 0.10
 			}
 		}
 		combat_groups_of_the_working_class = {
@@ -169,8 +169,8 @@ ideas = {
 			}
 	
 			modifier = {
-				conscription_factor = 0.10
-				army_morale_factor = 0.15
+				conscription_factor = 0.02
+				army_morale_factor = 0.05
 			}
 		}
 		
@@ -197,7 +197,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				production_factory_efficiency_gain_factor = -0.07
+				production_factory_efficiency_gain_factor = -0.05
 				stability_factor = 0.05
 				political_power_factor = 0.15
 			}
@@ -282,8 +282,8 @@ ideas = {
 			}
 	
 			modifier = {
-				army_org_factor = 0.15
-				army_morale_factor = 0.15
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
 			}
 		}
 		drug_the_troops = {
@@ -308,7 +308,7 @@ ideas = {
 			modifier = {
 				army_org_factor = -0.1
 				army_morale_factor = 0.15
-				army_core_attack_factor = 0.25
+				army_core_attack_factor = 0.05
 			}
 		}
 		simba = {
@@ -331,9 +331,9 @@ ideas = {
 			}
 	
 			modifier = {
-				army_org_factor = -0.15
-				army_morale_factor = 0.15
-				conscription_factor = 0.25
+				army_org_factor = -0.05
+				army_morale_factor = 0.05
+				conscription_factor = 0.05
 			}
 		}
 		customs_union_mali = {
@@ -448,7 +448,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				political_power_factor = 0.15
+				political_power_factor = 0.1
 				drift_defence_factor = 0.15
 			}			
 		}
@@ -463,7 +463,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				war_support_factor = 0.05
-				political_power_factor = 0.15
+				political_power_factor = 0.1
 				drift_defence_factor = 0.15
 			}			
 		}
@@ -564,8 +564,8 @@ ideas = {
 			picture = pan_arabism_drift_bonus
 			
 			modifier = {
-				stability_factor = 0.1
-				MONTHLY_POPULATION = 0.1
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.05
 			}
 	
 			ai_will_do = {
@@ -597,9 +597,9 @@ ideas = {
 			picture = pan_arabism_drift_bonus
 			
 			modifier = {
-				stability_factor = 0.05
-				war_support_factor = -0.02
-				political_power_factor = 0.05
+				stability_factor = 0.01
+				political_power_cost = 0.01
+				war_support = -0.02
 			}
 	
 			ai_will_do = {
@@ -613,7 +613,7 @@ ideas = {
 			}	
 
 			modifier = {
-				consumer_goods_factor = 0.075
+				consumer_goods_factor = 0.03
 				production_speed_buildings_factor = 0.10
 				production_factory_efficiency_gain_factor = 0.10
 				production_speed_industrial_complex_factor = 0.10
@@ -629,12 +629,12 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
-				production_factory_efficiency_gain_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
+				stability_factor = 0.05
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -666,11 +666,11 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.05
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
-				production_factory_efficiency_gain_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -699,7 +699,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 		socialist_realism = {
@@ -727,8 +727,8 @@ ideas = {
 			
 			modifier = {
 				research_time_factor = 0.15
-				stability_factor = 0.10
-				political_power_factor = 0.25
+				stability_factor = 0.05
+				political_power_factor = 0.1
 			}
 		}
 		idea_863_program = {
@@ -741,7 +741,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 		increased_pensions = {
@@ -752,8 +752,8 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.05
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
+				consumer_goods_factor = 0.01
+				production_speed_buildings_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -768,7 +768,7 @@ ideas = {
 			picture = pan_arabism_drift_bonus
 			
 			modifier = {
-				conscription_factor = 0.10
+				conscription_factor = 0.05
 				drift_defence_factor = 0.25
 				fascism_drift = 0.05
 			}
@@ -792,7 +792,7 @@ ideas = {
 			
 			modifier = {
 				research_time_factor = 0.025
-				stability_factor = 0.10
+				stability_factor = 0.05
 			}
 		}
 		Social_Dividends = {
@@ -802,9 +802,9 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
+				stability_factor = 0.05
 				consumer_goods_factor = 0.005
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -831,7 +831,7 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_defence_factor = 0.15
+				army_core_defence_factor = 0.05
 			}
 		}
 		Permament_Revolution = {
@@ -1015,7 +1015,7 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = 0.05
-				MONTHLY_POPULATION = 1.15
+				MONTHLY_POPULATION = 0.05
 			}
 	
 			ai_will_do = {
@@ -1223,7 +1223,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				production_speed_buildings_factor = 0.1
+				production_speed_buildings_factor = 0.05
 				research_time_factor = -0.03
 			}
 		}
@@ -1613,7 +1613,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.15
 				conscription_factor = -0.25
-				production_speed_arms_factory_factor = 0.5
+				production_speed_arms_factory_factor = -0.5
 			}
 		}
 		importing_western_machinery = {
@@ -1638,9 +1638,9 @@ ideas = {
 			modifier = {
 				stability_factor = -0.10
 				conscription_factor = -0.10
-				production_speed_buildings_factor = 0.15
-				consumer_goods_factor = 0.10
-				research_time_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				consumer_goods_factor = 0.01
+				research_time_factor = -0.01
 			}
 		}
 		Bastion_of_Democracy = {
@@ -1749,7 +1749,7 @@ ideas = {
 			}
 			
 			modifier = {
-				conscription_factor = 0.1
+				conscription_factor = 0.05
 				stability_factor = -0.15
 				army_morale_factor = 0.05
 				army_org_factor = -0.35
@@ -1906,7 +1906,7 @@ ideas = {
 				stability_factor = 0.05
 				army_core_attack_factor = 0.1
 				army_core_defence_factor = 0.1
-				conscription_factor = 0.10
+				conscription_factor = 0.02
 			}
 		}
 		TUR_mobilization_of_the_masses = {
@@ -2294,7 +2294,7 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			
 			modifier = { 
-				MONTHLY_POPULATION = -0.20
+				MONTHLY_POPULATION = -0.70
 				stability_factor = -0.25
 			}
 			
@@ -2307,8 +2307,8 @@ ideas = {
 			allowed_civil_war = { always = yes }
 			
 			modifier = { 
-				MONTHLY_POPULATION = -0.10
-				stability_factor = -0.05
+				MONTHLY_POPULATION = -0.50
+				stability_factor = -0.25
 				political_power_factor = -0.25
 			}
 			
@@ -2415,9 +2415,9 @@ ideas = {
 			picture = neutrality_idea
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.10
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = -0.10
+				production_speed_industrial_complex_factor = 0.05
+				consumer_goods_factor = 0.01
+				production_speed_buildings_factor = -0.05
 			}
 	
 			ai_will_do = {
@@ -2433,11 +2433,11 @@ ideas = {
 			picture = neutrality_idea
 			
 			modifier = {
-				stability_factor = 0.1
-				production_speed_arms_factory_factor = 0.10
-				production_speed_industrial_complex_factor = 0.10
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
+				stability_factor = 0.025
+				production_speed_arms_factory_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
+				consumer_goods_factor = 0.01
+				production_speed_buildings_factor = 0.05
 			}
 	
 			ai_will_do = {
@@ -2675,8 +2675,8 @@ ideas = {
 			}
 	
 			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = -0.02
+				stability_factor = 0.025
+				consumer_goods_factor = -0.01
 			}			
 			ai_will_do = {
 				factor = 1
@@ -2724,8 +2724,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				stability_factor = 0.05
-				local_resources_factor = 0.25
+				stability_factor = 0.025
+				local_resources_factor = 0.1
 			}
 
 			picture = generic_air_manufacturer_3
@@ -2739,8 +2739,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				stability_factor = 0.05
-				local_resources_factor = 0.25
+				stability_factor = 0.025
+				local_resources_factor = 0.1
 			}
 
 			picture = generic_air_manufacturer_3
@@ -2763,7 +2763,7 @@ ideas = {
 				picture = generic_volunteer_expedition_bonus
 		
 				modifier = {
-					min_export = -0.50
+					min_export = -0.10
 				}
 			}
 		Iraq_Petroleum_Company = {
@@ -2775,8 +2775,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				political_power_gain = -0.5
-				stability_factor = -0.10
+				political_power_gain = -0.1
+				stability_factor = -0.05
 				local_resources_factor = 0.15
 			}
 
@@ -2791,7 +2791,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				political_power_gain = 0.25
+				political_power_gain = 0.1
 				stability_factor = 0.05
 				war_support_factor = 0.05
 			}
@@ -2873,7 +2873,7 @@ ideas = {
 			modifier = {
 				conscription_factor =  -0.15
 				stability_factor = 0.10
-				consumer_goods_factor = -0.10
+				consumer_goods_factor = -0.02
 				production_speed_arms_factory_factor = -0.20
 			}			
 			ai_will_do = {
@@ -2895,8 +2895,8 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = -0.25 
+				consumer_goods_factor = -0.01
+				production_speed_buildings_factor = -0.05
 			}
 		}
 		civilian_preparations = {
@@ -2942,7 +2942,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 
@@ -2957,7 +2957,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 		Bantu_Education_Act = {
@@ -2971,8 +2971,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
-				stability_factor = -0.05
+				research_time_factor = -0.02
+				stability_factor = -0.02
 			}
 		}
 		education_reform_2 = {
@@ -3014,7 +3014,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 		KOR_revolution_in_the_rice_paddies_focus = {
@@ -3028,7 +3028,7 @@ ideas = {
 
 
 			modifier = {
-			local_factories = 0.2
+			local_factories = 0.05
 			}
 		}		
 		decleration_of_martial_law = {
@@ -3069,10 +3069,10 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				research_time_factor = -0.02
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		workers_trade_union = {
@@ -3085,10 +3085,10 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				#research_time_factor = -0.025
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				#industrial_capacity_factory = 0.15
+				#research_time_factor = -0.02
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				#industrial_capacity_factory = 0.05
 			}
 		}
 		national_corporations = {
@@ -3101,8 +3101,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
-				industrial_capacity_factory = 0.15
+				research_time_factor = -0.02
+				industrial_capacity_factory = 0.05
 			}
 		}
 		
@@ -3116,8 +3116,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
-				industrial_capacity_factory = 0.15
+				research_time_factor = -0.02
+				industrial_capacity_factory = 0.05
 			}
 		}
 		desperate_times = {
@@ -3230,7 +3230,7 @@ ideas = {
 				conscription_factor = 0.02
 				army_core_defence_factor = 0.10
 				ai_get_ally_desire_factor = -1500
-				drift_defence_factor = 0.4
+				drift_defence_factor = 0.6
 			}			
 		}
 		segregation_question = {
@@ -3331,7 +3331,7 @@ ideas = {
 			}	
 
 			modifier = {
-				MONTHLY_POPULATION = -0.15
+				MONTHLY_POPULATION = -0.3
 				maoism_drift = 0.05
 			}			
 			ai_will_do = {
@@ -3346,7 +3346,7 @@ ideas = {
 
 			modifier = {
 				MONTHLY_POPULATION = -0.01
-				stability_factor = 0.10
+				stability_factor = 0.02
 			}			
 			ai_will_do = {
 				factor = 0
@@ -3359,8 +3359,8 @@ ideas = {
 			}	
 
 			modifier = {
-				MONTHLY_POPULATION = 0.05
-				stability_factor = 0.10
+				MONTHLY_POPULATION = 0.1
+				stability_factor = 0.02
 			}			
 			ai_will_do = {
 				factor = 0
@@ -3373,7 +3373,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
+				stability_factor = 0.025
 				conscription_factor = 0.05
 				drift_defence_factor = 0.33			
 				MONTHLY_POPULATION = 0.05
@@ -3390,7 +3390,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.05
+				stability_factor = 0.025
 				drift_defence_factor = 0.25			
 				MONTHLY_POPULATION = 0.025
 			}			
@@ -3405,7 +3405,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = -0.05
+				stability_factor = -0.025
 				research_time_factor = -0.05
 				drift_defence_factor = -0.15			
 				MONTHLY_POPULATION = -0.02
@@ -3469,7 +3469,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
+				stability_factor = 0.03
 				consumer_goods_factor = 0.005
 				MONTHLY_POPULATION = 0.01
 			}			
@@ -3484,7 +3484,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.125
+				stability_factor = 0.04
 				consumer_goods_factor = 0.0075
 				MONTHLY_POPULATION = 0.02
 			}			
@@ -3499,7 +3499,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.15
+				stability_factor = 0.05
 				consumer_goods_factor = 0.01
 				MONTHLY_POPULATION = 0.035
 			}			
@@ -3514,7 +3514,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.175
+				stability_factor = 0.075
 				consumer_goods_factor = 0.015
 				MONTHLY_POPULATION = 0.05
 			}			
@@ -3529,7 +3529,7 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.2
+				stability_factor = 0.1
 				consumer_goods_factor = 0.020
 				MONTHLY_POPULATION = 0.05
 				production_factory_efficiency_gain_factor = 0.05
@@ -3545,8 +3545,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = -0.10
-				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				consumer_goods_factor = -0.02
 			}			
 			ai_will_do = {
 				factor = 0
@@ -3559,10 +3559,11 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
-				consumer_goods_factor = 0.005
+				stability_factor = 0.05
+				political_power_factor = 0.2
+				consumer_goods_factor = 0.04
 				MONTHLY_POPULATION = 0.075
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -3584,9 +3585,9 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.05
 				MONTHLY_POPULATION = 0.10
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.01
 				production_speed_buildings_factor = -0.05
-				production_factory_max_efficiency_factor = -0.10
+				production_factory_max_efficiency_factor = -0.05
 			}		
 		}
 		northern_push = {
@@ -3628,9 +3629,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.10
-				production_speed_buildings_factor = -0.15
-				production_factory_max_efficiency_factor = -0.15
+				consumer_goods_factor = -0.02
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
 			}		
 		}
 		combat_inflation = {
@@ -3647,9 +3648,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.15
-				production_factory_max_efficiency_factor = -0.15
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = -0.05
 			}		
 		}
 		economic_stagnation = {
@@ -3685,7 +3686,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = -0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
@@ -3704,9 +3705,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.025
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.15
+				production_factory_max_efficiency_factor = 0.05
 			}		
 		}
 		tax_increase = {
@@ -3723,9 +3724,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.025
-				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
 			}		
 		}
 		a_time_for_choosing = {
@@ -3769,7 +3770,7 @@ ideas = {
 			modifier = {
 				stability_factor = -0.10
 				drift_defence_factor = -0.25
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = -0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
@@ -3788,7 +3789,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
@@ -3807,7 +3808,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = -0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
@@ -3826,9 +3827,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.10
+				consumer_goods_factor = -0.02
 				production_speed_buildings_factor = -0.05
-				production_factory_max_efficiency_factor = -0.15
+				production_factory_max_efficiency_factor = -0.05
 			}		
 		}
 		peace_corp = {
@@ -3941,7 +3942,7 @@ ideas = {
 			}	
 
 			modifier = {
-				MONTHLY_POPULATION = 0.05
+				MONTHLY_POPULATION = 0.1
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4004,9 +4005,6 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.05
-				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = 0.10
-				production_factory_max_efficiency_factor = 0.10
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4020,9 +4018,6 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.10
-				consumer_goods_factor = 0.08
-				production_speed_buildings_factor = 0.15
-				production_factory_max_efficiency_factor = 0.15
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4035,11 +4030,11 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
-				consumer_goods_factor = 0.075
-				MONTHLY_POPULATION = 0.075
-				production_speed_buildings_factor = 0.18
-				production_factory_max_efficiency_factor = 0.18
+				stability_factor = 0.05
+				consumer_goods_factor = 0.01
+				MONTHLY_POPULATION = 0.05
+				production_speed_buildings_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4053,11 +4048,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
-				consumer_goods_factor = 0.01
 				MONTHLY_POPULATION = 0.15
-				production_speed_buildings_factor = 0.10
-				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = 0.025
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4100,9 +4092,9 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				political_power_cost = 1
-				production_speed_infrastructure_factor = 0.1
-				production_speed_buildings_factor = 0.10
+				political_power_cost = 0.05
+				production_speed_infrastructure_factor = 0.05
+				production_speed_buildings_factor = 0.05
 			}
 		}		
 		humphrey_hawkins_full_employment_act = {
@@ -4121,7 +4113,7 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				political_power_cost = 1
+				political_power_cost = .1
 				production_speed_infrastructure_factor = 0.1
 				production_speed_buildings_factor = 0.10
 			}
@@ -4172,11 +4164,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.15
-				consumer_goods_factor = 0.10
-				MONTHLY_POPULATION = 0.10
-				production_speed_buildings_factor = 0.25
-				production_factory_max_efficiency_factor = 0.25
+				consumer_goods_factor = 0.03
+				political_power_factor = 0.15
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4189,11 +4178,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.15
-				consumer_goods_factor = 0.10
-				MONTHLY_POPULATION = 0.10
-				production_speed_buildings_factor = 0.25
-				production_factory_max_efficiency_factor = 0.25
+				consumer_goods_factor = 0.01
+				political_power_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4206,8 +4192,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
-				MONTHLY_POPULATION = 0.10
+				stability_factor = 0.05
+				MONTHLY_POPULATION = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4257,9 +4243,9 @@ ideas = {
 			}
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.2
-				research_time_factor = -0.05
-				political_power_factor = 0.25
+				production_factory_max_efficiency_factor = 0.05
+				research_time_factor = -0.02
+				political_power_factor = 0.05
 			}
 		}
 		Chinese_Korean_Brotherhood = {
@@ -4274,9 +4260,9 @@ ideas = {
 			}
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.2
-				research_time_factor = -0.05
-				political_power_factor = 0.25
+				production_factory_max_efficiency_factor = 0.05
+				research_time_factor = -0.02
+				political_power_factor = 0.05
 			}
 		}
 		new_frontier = {
@@ -4293,7 +4279,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_time_factor = -0.02
 			}
 		}
 
@@ -4322,10 +4308,8 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.05
 				MONTHLY_POPULATION = 0.10
-				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.10
+				consumer_goods_factor = 0.015
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4353,9 +4337,9 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = -0.10
+				stability_factor = -0.05
 				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4373,8 +4357,8 @@ ideas = {
 			}
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.2
-				political_power_factor = 0.50
+				production_factory_max_efficiency_factor = 0.05
+				political_power_factor = 0.05
 			}
 		}
 
@@ -4392,7 +4376,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
+				research_time_factor = -0.02
 			}
 		}
 		vietnam_war_draft = {
@@ -4546,7 +4530,7 @@ ideas = {
 	
 			modifier = {
 				MONTHLY_POPULATION = 0.05
-				stability_factor = 0.15
+				stability_factor = 0.05
 			}
 		}	
 
@@ -4565,8 +4549,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
-				stability_factor = -0.10
+				research_time_factor = -0.02
+				stability_factor = -0.05
 			}
 		}
 		nazi_haven = {
@@ -4601,7 +4585,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
+				research_time_factor = -0.02
 			}
 		}
 		la_violencia = {
@@ -4659,7 +4643,7 @@ ideas = {
 	
 			modifier = {
 				conscription_factor = -0.01
-				MONTHLY_POPULATION = -0.1
+				MONTHLY_POPULATION = -0.4
 			}
 		}
 		Bao_Di = {
@@ -4706,13 +4690,13 @@ ideas = {
 			}	
 
 			modifier = {
-				stability_factor = 0.10
+				stability_factor = 0.025
 				conscription_factor = 0.05
 				drift_defence_factor = 0.33			
 				MONTHLY_POPULATION = 0.05
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				research_time_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				research_time_factor = 0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4728,9 +4712,9 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		Yoshida_Doctrine = {
@@ -4743,9 +4727,9 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 				conscription_factor = -0.1
 			}
 		}
@@ -4760,9 +4744,9 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = -0.1
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		Ultrantionalist_Plot = {	
@@ -4824,8 +4808,8 @@ ideas = {
 				guarantee_tension = 1.0
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_get_ally_desire_factor = -100
-				stability_factor = 0.50
-				research_time_factor = -0.25
+				stability_factor = 0.05
+				research_time_factor = -0.02
 			}
 		}
 		high_quotas = {
@@ -4842,9 +4826,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = -0.10
-				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = -0.02
+				stability_factor = -0.1
+				production_speed_buildings_factor = 0.1
 				production_factory_max_efficiency_factor = 0.05
 			}		
 		}
@@ -4862,9 +4846,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = -0.10
-				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = -0.02
+				stability_factor = -0.05
+				production_speed_buildings_factor = 0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
 		}
@@ -4950,7 +4934,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				local_resources_factor = 0.15
+				local_resources_factor = 0.1
 			}
 
 			picture = generic_air_manufacturer_3
@@ -5007,9 +4991,9 @@ ideas = {
 			}
 			
 			modifier = {
-				production_factory_max_efficiency_factor = 0.2
+				production_factory_max_efficiency_factor = 0.05
 				research_time_factor = -0.05
-				political_power_factor = 0.25
+				political_power_factor = 0.05
 			}
 		}
 		enforce_Consumer_Protection_Laws = {
@@ -5025,7 +5009,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.02
-				political_power_factor = 0.25
+				political_power_factor = 0.05
 			}
 		}
 		Fair_Labor_Standards = {
@@ -5040,9 +5024,9 @@ ideas = {
 			}
 			
 			modifier = {
-				production_factory_max_efficiency_factor = -0.1
-				MONTHLY_POPULATION = 0.01
-				production_factory_efficiency_gain_factor = 0.10
+				production_factory_max_efficiency_factor = -0.05
+				MONTHLY_POPULATION = 0.02
+				production_factory_efficiency_gain_factor = 0.05
 			}
 		}
 		expanded_school_lunch_program = {
@@ -5059,7 +5043,7 @@ ideas = {
 			modifier = {
 				MONTHLY_POPULATION = 0.01
 				research_time_factor = -0.01
-				political_power_factor = 0.25
+				political_power_factor = 0.05
 			}
 		}
 		prussian_heritage = {
@@ -5071,9 +5055,9 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			modifier = {
-				army_org_factor = 0.10
+				army_org_factor = 0.05
 				stability_factor = 0.05
-				political_power_factor = 0.15
+				political_power_factor = 0.05
 			}	
 		}
 		
@@ -5091,7 +5075,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.05
+				consumer_goods_factor = 0.01
 				production_speed_buildings_factor = -0.05
 				production_factory_max_efficiency_factor = 0.05
 			}		
@@ -5110,12 +5094,12 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.05
-				local_resources_factor = 0.25
+				consumer_goods_factor = 0.02
+				local_resources_factor = 0.05
 				production_speed_buildings_factor = -0.05
-				production_factory_max_efficiency_factor = 0.10
-				stability_factor = -0.10
-				political_power_factor = -0.25
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = -0.05
+				political_power_factor = -0.05
 			}		
 		}
 		Unity_of_economic_and_social_politics = {
@@ -5132,11 +5116,11 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_factor = 0.02
 				production_speed_buildings_factor = -0.05
 				production_factory_max_efficiency_factor = -0.075
-				stability_factor = 0.10
-				political_power_factor = 0.25
+				stability_factor = 0.05
+				political_power_factor = 0.15
 			}		
 		}
 		Central_Planning = {
@@ -5153,9 +5137,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.15
-				production_speed_buildings_factor = -0.10
-				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.10
+				production_factory_max_efficiency_factor = 0.05
 			}		
 		}
 		
@@ -5180,7 +5164,7 @@ ideas = {
 
 			picture = generic_manpower_bonus
 			modifier = {
-				army_core_defence_factor = 0.15
+				army_core_defence_factor = 0.05
 			}	
 		}
 		Construction_Soldiers = {
@@ -5205,7 +5189,7 @@ ideas = {
 			modifier = {
 				stability_factor = 0.05
 				conscription_factor = -0.05
-				production_speed_buildings_factor = -0.10
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		usa_Anti_Merger_Act = {
@@ -5241,7 +5225,7 @@ ideas = {
 	
 			modifier = {
 				stability_factor = 0.05
-				production_speed_buildings_factor = 0.10
+				production_speed_buildings_factor = 0.1
 			}
 		}
 		Prussian_Legacy = {
@@ -5276,7 +5260,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.05
-				political_power_factor = 0.15
+				political_power_factor = 0.05
 			}
 		}
 		Prussian_Identity = {
@@ -5284,8 +5268,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				stability_factor = 0.15
-				political_power_factor = 0.25
+				stability_factor = 0.05
+				political_power_factor = 0.05
 			}
 		}
 
@@ -5296,9 +5280,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_buildings_factor = 0.05
-				production_factory_max_efficiency_factor = 0.05
+				consumer_goods_factor = 0.05
+				production_speed_buildings_factor = -0.05
+				production_factory_max_efficiency_factor = -0.05
 			}		
 		}
 
@@ -5311,9 +5295,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_morale_factor = 0.15
+				army_morale_factor = 0.05
 				army_org_factor = 0.1
-				army_org = 5.00
+				army_org = 2.00
 			}
 		}
 		prc_great_leap_forward = {
@@ -5326,10 +5310,10 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				MONTHLY_POPULATION = -0.05
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				MONTHLY_POPULATION = -0.1
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		four_pests = {
@@ -5342,7 +5326,7 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				MONTHLY_POPULATION = -0.025
+				MONTHLY_POPULATION = -0.1
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				industrial_capacity_factory = 0.05
@@ -5412,8 +5396,8 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
-				industrial_capacity_factory = 0.15
+				research_time_factor = -0.02
+				industrial_capacity_factory = 0.05
 			}
 		}
 		KCIA = {
@@ -5435,8 +5419,8 @@ ideas = {
 				always = no # Added via focus
 			}
 			modifier = {
-				encryption = 0.5
-				decryption = 0.5
+				encryption = 0.2
+				decryption = 0.2
 				drift_defence_factor = 0.15
 			}	
 		}
@@ -5472,7 +5456,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.03
+				research_time_factor = -0.02
 			}
 		}
 		thai_advisors = {
@@ -5543,9 +5527,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.15
-				production_speed_buildings_factor = -0.10
-				production_factory_max_efficiency_factor = 0.15
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.05
 			}		
 		}
 		Royal_Socialism = {
@@ -5553,8 +5537,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				stability_factor = 0.15
-				political_power_factor = 0.15
+				stability_factor = 0.05
+				political_power_factor = 0.05
 			}
 		}
 		Son_Ngoc_Thanh_Prime_Minister = {
@@ -5562,8 +5546,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				stability_factor = 0.15
-				political_power_factor = 0.15
+				stability_factor = 0.05
+				political_power_factor = 0.05
 				nationalism_drift = 0.005
 			}
 		}
@@ -5651,7 +5635,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				consumer_goods_factor = 0.10
+				consumer_goods_factor = 0.05
 				production_speed_buildings_factor = -0.15
 				production_factory_max_efficiency_factor = -0.10
 			}		
@@ -5687,10 +5671,9 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				conscription_factor = 0.05
+				conscription_factor = 0.1
 				consumer_goods_factor = 0.05
-				production_speed_buildings_factor = -0.25
-				production_factory_max_efficiency_factor = -0.25
+				production_factory_max_efficiency_factor = 0.25
 			}		
 		}
 		SACTU = {
@@ -5703,10 +5686,10 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				research_time_factor = -0.02
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				industrial_capacity_factory = 0.05
 			}
 		}
 		
@@ -5767,15 +5750,15 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				stability_factor = 0.05
-				consumer_goods_factor = 0.05
+				stability_factor = 0.1
+				consumer_goods_factor = 0.02
 			}
 		}
 		Mobil = {
 			picture = generic_industrial_concern_1
 			
 			modifier = {
-				production_oil_factor = 0.15
+				production_oil_factor = 0.10
 			}		
 		}			
 		total_oil = { 
