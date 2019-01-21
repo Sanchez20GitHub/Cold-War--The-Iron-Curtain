@@ -55,9 +55,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = 0.05
 				industrial_capacity_factory = 0.05
-				political_power_gain = -0.1
+				political_power_gain = -0.05
 			}
 		}
 		degaulle_memoire = {
@@ -89,7 +88,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			
 			modifier = {
-				political_power_gain = 0.2
+				political_power_gain = 0.1
 				MONTHLY_POPULATION = -0.05
 			}
 		}
@@ -104,9 +103,9 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = 0.02
+				stability_factor = 0.05
 				production_factory_efficiency_gain_factor = 0.05
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.01
 			}
 		}
 		Anti_racist_law = {
@@ -220,7 +219,7 @@ ideas = {
 			picture = generic_disjointed_gov
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.02
+				production_speed_infrastructure_factor = 0.03
 			}
 		}
 
