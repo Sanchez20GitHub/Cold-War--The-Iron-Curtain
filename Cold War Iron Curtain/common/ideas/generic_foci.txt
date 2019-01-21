@@ -862,7 +862,7 @@ ideas = {
 				}
 			}
 			modifier = {
-				special_forces_cap = 0.1
+				special_forces_cap = 0.01
 			}
 		}
 		gen_army_academy_old_0 = {
