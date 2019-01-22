@@ -125,7 +125,7 @@ ideas = {
 					has_government = islamism
 					
 					has_war = yes
-					threat > 5
+					threat > 0.5
 				}
 			}
 
@@ -165,7 +165,7 @@ ideas = {
 			
 			
 			available = {
-				threat > 0.6
+				threat > 0.75
 				OR = {
 					has_government = radical_shiaism
 					
@@ -227,7 +227,7 @@ ideas = {
 			
 			available = {
 				has_war = yes
-				threat > 0.7
+				threat > 1
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
@@ -297,7 +297,12 @@ ideas = {
 		law = yes
 
 		free_trade = {
-			
+		
+			available = {
+				NOT = {
+					has_idea = country_is_embargoed
+				}
+			}
 			
 			cost = 150
 			removal_cost = -1
@@ -315,6 +320,12 @@ ideas = {
 		
 		export_focus = {
 			
+			
+			available = {
+				NOT = {
+					has_idea = country_is_embargoed
+				}
+			}
 			
 			cost = 150
 			removal_cost = -1
@@ -355,6 +366,9 @@ ideas = {
 							has_idea = tot_economic_mobilisation
 						}
 					}
+				}
+				NOT = {
+					has_idea = country_is_embargoed
 				}
 			}
 		
@@ -400,6 +414,9 @@ ideas = {
 					NOT = {	tag = SOV }
 					NOT = { has_opinion_modifier = MR_pact }
 				}
+				NOT = {
+					has_idea = country_is_embargoed
+				}
 			}
 			
 			cost = 150
@@ -426,6 +443,43 @@ ideas = {
 					is_in_faction = yes
 					has_war = yes
 				}
+   			}
+		}
+		
+		country_was_embargoed = {
+			
+			
+			available = {
+				has_idea = country_is_embargoed
+			}
+			
+			allowed = {
+				has_idea = country_is_embargoed
+			}
+			
+			
+			cost = 150
+			removal_cost = -1
+			
+			
+			modifier = {
+				min_export = -50
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.15
+				research_time_factor = 0.04
+				trade_opinion_factor = -1
+			}
+			
+			on_add = {
+				custom_effect_tooltip = closed_economy_TT
+			}
+			
+			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 0
    			}
 		}
 	}

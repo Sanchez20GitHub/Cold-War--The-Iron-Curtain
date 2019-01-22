@@ -17,8 +17,8 @@ ideas = {
 			
 			targeted_modifier = {
 				tag = MZB
-				attack_bonus_against = 0.1
-				defense_bonus_against = 0.1
+				attack_bonus_against = 0.05
+				defense_bonus_against = 0.05
 			}
 		}
 		CHI_disorganized_military = {
@@ -58,10 +58,10 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				land_doctrine = 0.07
+				land_doctrine = 0.05
 			}
 			research_bonus = {
-				infantry_weapons = 0.07
+				infantry_weapons = 0.05
 			}			
 		}
 		
@@ -222,7 +222,7 @@ ideas = {
 			}
 
 			research_bonus = {
-				land_doctrine = 0.07
+				land_doctrine = 0.05
 			}
 			
 			traits = { military_theorist }

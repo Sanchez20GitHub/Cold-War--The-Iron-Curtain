@@ -27,9 +27,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-						consumer_goods_factor = -0.05
-			industrial_capacity_factory = 0.1
-			production_speed_buildings_factor = 0.1
+			consumer_goods_factor = -0.02
+			industrial_capacity_factory = 0.05
+			production_speed_buildings_factor = 0.05
 			}
 		}
 		fra_amhelp_2 = {
@@ -41,9 +41,9 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-						consumer_goods_factor = -0.1
-			industrial_capacity_factory = 0.2
-			production_speed_buildings_factor = 0.2
+			consumer_goods_factor = -0.02
+			industrial_capacity_factory = 0.1
+			production_speed_buildings_factor = 0.1
 			}
 		}
 		fra_rationing = {
@@ -58,7 +58,7 @@ ideas = {
 
 			modifier = {
 				consumer_goods_factor = -0.05
-				stability_factor = -0.05
+				stability_factor = -0.1
 				political_power_cost = 0.1
 			}
 		}
@@ -85,12 +85,12 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
-				stability_factor = 0.1
-				political_power_cost = -0.2
-				industrial_capacity_factory = 0.2
-				production_speed_buildings_factor = 0.2
-				MONTHLY_POPULATION = 0.20
+				consumer_goods_factor = -0.01
+				stability_factor = 0.05
+				political_power_cost = -0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+				MONTHLY_POPULATION = 0.05
 			}
 		}
 		fra_urbanisme = {
@@ -102,7 +102,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				global_building_slots_factor = 0.1
+				global_building_slots_factor = 0.05
 			}
 		}
 		fra_sicomi = {
@@ -114,7 +114,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.01
 			}
 		}
 		fra_hq = {
@@ -142,7 +142,7 @@ ideas = {
 			
 			equipment_bonus = {
 				armor = {
-					build_cost_ic = -0.1 instant = yes reliability = 0.05 soft_attack = 0.05
+					build_cost_ic = -0.01 instant = yes reliability = 0.05 soft_attack = 0.05
 				}
 			}
 			
@@ -170,7 +170,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				max_planning = 0.15 planning_speed = 0.2
+				max_planning = 0.05 planning_speed = 0.2
 			}
 
 			picture = generic_pp_unity_bonus
@@ -232,7 +232,7 @@ ideas = {
 
 			removal_cost = -1
 			modifier = {
-				political_power_cost = -0.3
+				political_power_cost = -0.05
 				stability_factor = 0.05
 			}
 		}
@@ -268,7 +268,6 @@ ideas = {
 			removal_cost = -1
 			modifier = {
 				consumer_goods_factor = -0.05
-				production_factory_max_efficiency_factor = 0.1
 			}
 		}
 		fra_desert_equipment = {
@@ -297,7 +296,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = 0.03
+				political_power_factor = 0.15
 			}
 		}
 		fra_nationalizations = {
@@ -309,8 +309,8 @@ ideas = {
 
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				industrial_capacity_factory = 0.1
-				global_building_slots_factor = 0.1
+				industrial_capacity_factory = 0.05
+				global_building_slots_factor = 0.05
 				min_export = -0.05
 			}
 		}
@@ -323,7 +323,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.02
+				consumer_goods_factor = -0.01
 			}
 		}
 		vie_fra_profits = {
@@ -335,7 +335,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 	}

@@ -148,8 +148,8 @@ ideas = {
 			picture = generic_volunteer_expedition_bonus
 	
 			modifier = {
-				consumer_goods_factor = -0.40
-				production_speed_industrial_complex_factor = -0.25				
+				consumer_goods_factor = -0.1
+				production_speed_industrial_complex_factor = 0.25				
 			}
 		}
 	}

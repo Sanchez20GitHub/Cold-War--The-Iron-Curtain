@@ -1135,3 +1135,7 @@ WPA = {
 	color = rgb { 150 129 178 }
 	color_ui = rgb { 255 255 255 }
 }
+KAY = {
+	color = rgb { 71  84  117 }
+	color_ui = rgb { 71  84  117 }
+}

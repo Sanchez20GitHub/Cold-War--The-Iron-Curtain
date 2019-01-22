@@ -1857,15 +1857,15 @@ focus_tree = {
 			completion_reward = {
 					add_popularity = {
 							ideology = conservative
-							popularity = 0.1
+							popularity = 0.02
 						}
 					add_popularity = {
 							ideology = centrist
-							popularity = 0.1
+							popularity = 0.08
 						}
 					add_popularity = {
 							ideology = democratic
-							popularity = 0.1
+							popularity = 0.16
 						}
 				}
 
@@ -1912,7 +1912,10 @@ focus_tree = {
 		y = 4
 			completion_reward = {
 					add_political_power = -120
-					add_manpower = 20000
+						add_popularity = {
+						ideology = communism
+						popularity = -0.15
+						}
 				}
 
 	}
@@ -2195,47 +2198,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = HUN_the_return_of_horthy
-		icon = GFX_goal_support_fascism
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_hungarian_revolution
-		}
-		mutually_exclusive = {
-			focus = HUN_rally_behind_the_church
-			focus = HUN_soviet_crackdown
-			focus = HUN_in_nagy_we_trust
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-		x = 34
-		y = 7
-			completion_reward = {
-					SOV = {
-							remove_from_faction = HUN
-						}
-					set_autonomy = {
-							target = HUN
-							autonomy_state = autonomy_free
-						}
-					set_politics = {
-							ruling_party = fascism
-							elections_allowed = yes
-						}
-					add_popularity = {
-							ideology = fascism
-							popularity = 0.25
-						}
-					add_political_power = 200
-				}
-
-	}
-	focus = {
 		id = HUN_in_nagy_we_trust
 		icon = GFX_focus_YUG_pan_slavic_congress
 		cost = 10.00
@@ -2243,9 +2205,7 @@ focus_tree = {
 			focus = HUN_hungarian_revolution
 		}
 		mutually_exclusive = {
-			focus = HUN_rally_behind_the_church
 			focus = HUN_soviet_crackdown
-			focus = HUN_the_return_of_horthy
 		}
 		x = 38
 		y = 7
@@ -2274,9 +2234,11 @@ focus_tree = {
 		x = 37
 		y = 8
 			completion_reward = {
-					set_autonomy = {
-							target = HUN
-							autonomy_state = autonomy_free
+						SOV = {
+							add_opinion_modifier = {
+									target = HUN
+									modifier = large_decrease
+								}
 						}
 					set_politics = {
 							ruling_party = socialist
@@ -2298,9 +2260,7 @@ focus_tree = {
 			focus = HUN_hungarian_revolution
 		}
 		mutually_exclusive = {
-			focus = HUN_rally_behind_the_church
 			focus = HUN_in_nagy_we_trust
-			focus = HUN_the_return_of_horthy
 		}
 		x = 42
 		y = 7
@@ -2313,6 +2273,12 @@ focus_tree = {
 		}
 			completion_reward = {
 					add_popularity = {
+										SOV = {
+							add_opinion_modifier = {
+									target = HUN
+									modifier = large_increase
+								}
+						}
 							ideology = communism
 							popularity = 0.15
 						}
@@ -2400,447 +2366,6 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = HUN_rally_behind_the_church
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_hungarian_revolution
-		}
-		mutually_exclusive = {
-			focus = HUN_soviet_crackdown
-			focus = HUN_in_nagy_we_trust
-			focus = HUN_the_return_of_horthy
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-		x = 45
-		y = 7
-			completion_reward = {
-					set_autonomy = {
-							target = HUN
-							autonomy_state = autonomy_free
-						}
-					set_politics = {
-							ruling_party = conservative
-							elections_allowed = yes
-						}
-					add_popularity = {
-							ideology = conservative
-							popularity = 0.25
-						}
-					add_political_power = 200
-				}
-
-	}
-	focus = {
-		id = HUN_Traditional_Values
-		icon = GFX_focus_generic_self_management
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_rally_behind_the_church
-		}
-		x = 45
-		y = 8
-		completion_reward = {
-			add_ideas = traditional_culture
-		}
-	}
-	focus = {
-		id = HUN_American_Economic_Aid
-		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Traditional_Values
-		}
-		x = 45
-		y = 9
-			completion_reward = {
-					every_owned_state = {
-							add_extra_state_shared_building_slots = 1
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = industrial_complex
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = industrial_complex
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = industrial_complex
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-	}
-	focus = {
-		id = HUN_A_Conservative_Republic
-		icon = GFX_focus_generic_the_giant_wakes
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_American_Economic_Aid
-		}
-		mutually_exclusive = {
-			focus = HUN_Return_of_the_Habsburg
-		}
-		x = 44
-		y = 10
-		completion_reward = {
-			add_ideas = passion_of_the_right
-		}
-	}
-	focus = {
-		id = HUN_Return_of_the_Habsburg
-		icon = GFX_focus_rom_abdicate
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_American_Economic_Aid
-		}
-		mutually_exclusive = {
-			focus = HUN_A_Conservative_Republic
-		}
-		x = 46
-		y = 10
-		completion_reward = {
-			add_ideas = monarchist_influence
-		}
-	}
-	focus = {
-		id = HUN_Restoration_of_Austria_Hungary
-		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Return_of_the_Habsburg
-		}
-		x = 46
-		y = 11
-			completion_reward = {
-					set_politics = {
-							ruling_party = monarchism
-							elections_allowed = no
-						}
-					add_popularity = {
-							ideology = monarchism
-							popularity = 0.35
-						}
-					set_cosmetic_tag = HUN_EMPIRE
-					152 = { add_core_of = ROOT }
-					153 = { add_core_of = ROOT }
-					4 = { add_core_of = ROOT }
-					69 = { add_core_of = ROOT }
-					9 = { add_core_of = ROOT }
-					75 = { add_core_of = ROOT }
-					74 = { add_core_of = ROOT }
-					72 = { add_core_of = ROOT }
-					70 = { add_core_of = ROOT }
-					664 = { add_core_of = ROOT }
-					71 = { add_core_of = ROOT }
-					73 = { add_core_of = ROOT }
-		}
-	}
-	focus = {
-		id = HUN_The_Imperial_Army
-		icon = GFX_focus_generic_little_entente
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Restoration_of_Austria_Hungary
-		}
-		x = 46
-		y = 12
-		completion_reward = {
-			add_ideas = imperial_army
-			add_ideas = militarized_schools
-			add_ideas = ideological_fanaticism_focus
-		}
-	}
-	focus = {
-		id = HUN_Demand_Transylvania
-		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_The_Imperial_Army
-		}
-		x = 46
-		y = 13
-			completion_reward = {
-					create_wargoal = {
-							type = annex_everything
-							target = ROM
-						}
-			}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
-	focus = {
-		id = HUN_Demand_Galicia
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Demand_Transylvania
-		}
-		x = 45
-		y = 14
-			completion_reward = {
-					create_wargoal = {
-							type = annex_everything
-							target = POL
-						}
-			}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
-	focus = {
-		id = HUN_Crush_Yugoslavia
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Demand_Transylvania
-		}
-		x = 47
-		y = 14
-			completion_reward = {
-					create_wargoal = {
-							type = annex_everything
-							target = YUG
-						}
-			}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
-	focus = {
-		id = HUN_Claim_Venetia
-		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Crush_Yugoslavia
-		}
-		prerequisite = {
-			focus = HUN_Demand_Galicia
-		}
-		x = 46
-		y = 15
-			completion_reward = {
-					create_wargoal = {
-							type = annex_everything
-							target = ITA
-						}
-			}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 0
-			}
-		}
-	}
-	focus = {
-		id = HUN_prepare_for_invasion
-		icon = GFX_goal_generic_position_armies
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_expand_mountaineer_forces
-		}
-		x = 7
-		y = 4
-			completion_reward = {
-					add_manpower = 20000
-				}
-
-	}
-	focus = {
-		id = HUN_true_hungarian_mountaineers
-		icon = GFX_goal_generic_amphibious_assault
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_prepare_for_invasion
-		}
-		x = 7
-		y = 5
-			completion_reward = {
-					army_experience = 20
-				}
-
-	}
-	focus = {
-		id = HUN_reform_aviation_forces
-		icon = GFX_goal_generic_build_airforce
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_reject_soviet_aviation_officers
-		}
-		x = 15
-		y = 4
-			completion_reward = {
-					air_experience = 25
-					if = {
-							limit = {
-									capital_scope = {
-											NOT = {
-													free_building_slots = {
-															building = air_base
-															size > 1
-														}
-												}
-										}
-								}
-							random_owned_state = {
-									limit = {
-											free_building_slots = {
-													building = air_base
-													size > 1
-												}
-										}
-									add_building_construction = {
-											type = air_base
-											level = 2
-											instant_build = yes
-										}
-									ROOT = {
-											set_country_flag = aviation_effort_AB
-										}
-								}
-						}
-					if = {
-							limit = {
-									capital_scope = {
-											free_building_slots = {
-													building = air_base
-													size > 1
-												}
-										}
-								}
-							capital_scope = {
-									add_building_construction = {
-											type = air_base
-											level = 2
-											instant_build = yes
-										}
-									ROOT = {
-											set_country_flag = aviation_effort_AB
-										}
-								}
-						}
-					add_tech_bonus = {
-							name = air_doc_bonus
-							bonus = 0.15
-							uses = 1
-							category = air_doctrine
-						}
-				}
-
-	}
-	focus = {
-		id = HUN_soviet_controlled_science
-		icon = GFX_focus_research
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_soviet_scientists
-		}
-		x = 23
-		y = 7
-			completion_reward = {
-					add_ideas = educate_the_peasants
-				}
-
-	}
-	focus = {
 		id = HUN_embrace_titoism
 		icon = GFX_focus_generic_soviet_politics
 		cost = 10.00
@@ -2879,33 +2404,6 @@ focus_tree = {
 						}
 				}
 
-	}
-	focus = {
-		id = HUN_Militarise_Society
-		icon = GFX_focus_generic_strike_at_democracy1
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_the_return_of_horthy
-		}
-		x = 34
-		y = 8
-		completion_reward = {
-			add_ideas = militarized_schools
-			add_ideas = militarism_focus
-		}
-	}
-	focus = {
-		id = HUN_Purge_Communists
-		icon = GFX_goal_generic_propaganda
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Militarise_Society
-		}
-		x = 34
-		y = 9
-		completion_reward = {
-			add_ideas = leftist_persecution_cam
-		}
 	}
 	focus = {
 		id = HUN_Social_Welfare
@@ -3007,25 +2505,6 @@ focus_tree = {
 						}
 					add_political_power = 200
 					add_stability = 0.35
-				}
-
-	}
-	focus = {
-		id = HUN_Join_NATO
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_American_Military_Aid
-		}
-		mutually_exclusive = {
-			focus = HUN_transition_to_parliamentary_social_democracy
-		}
-		x = 44
-		y = 12
-			completion_reward = {
-					add_ideas = nato_member
-					USA = { add_to_faction = ROOT }
-
 				}
 
 	}
@@ -3270,210 +2749,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-		}
-	}
-	focus = {
-		id = HUN_Demand_the_Magyar_Plains
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Purge_Communists
-		}
-		x = 34
-		y = 10
-			completion_reward = {
-					create_wargoal = {
-							type = annex_everything
-							target = ROM
-						}
-			}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_historical_focus_on = yes
-				factor = 1
-			}
-		}
-	}
-	focus = {
-		id = HUN_Strengthen_Ties_With_Franco
-		icon = GFX_goal_generic_improve_relations
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Demand_the_Magyar_Plains
-		}
-		x = 33
-		y = 11
-			completion_reward = {
-					HUN = {
-							add_opinion_modifier = {
-									target = SPR
-									modifier = large_increase
-								}
-						}
-					SPR = {
-							add_opinion_modifier = {
-									target = HUN
-									modifier = large_increase
-								}
-						}
-				}
-	}
-	focus = {
-		id = HUN_Strengthen_Ties_With_Portugal
-		icon = GFX_goal_generic_improve_relations
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Demand_the_Magyar_Plains
-		}
-		x = 35
-		y = 11
-			completion_reward = {
-					HUN = {
-							add_opinion_modifier = {
-									target = POR
-									modifier = large_increase
-								}
-						}
-					POR = {
-							add_opinion_modifier = {
-									target = HUN
-									modifier = large_increase
-								}
-						}
-				}
-	}
-	focus = {
-		id = HUN_Military_Expansion
-		icon = GFX_focus_RAJ_lions_of_the_great_war
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Strengthen_Ties_With_Franco
-		}
-		prerequisite = {
-			focus = HUN_Strengthen_Ties_With_Portugal
-		}
-		x = 34
-		y = 12	
-		completion_reward = {
-			add_ideas = military_expansion
-		}
-	}
-	focus = {
-		id = HUN_American_Military_Aid
-		icon = GFX_focus_generic_little_entente
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_A_Conservative_Republic
-		}
-		x = 44
-		y = 11
-			completion_reward = {
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									free_building_slots = {
-											building = arms_factory
-											size > 0
-											include_locked = yes
-										}
-									OR = {
-											is_in_home_area = yes
-											NOT = {
-													owner = {
-															any_owned_state = {
-																	free_building_slots = {
-																			building = arms_factory
-																			size > 0
-																			include_locked = yes
-																		}
-																	is_in_home_area = yes
-																}
-														}
-												}
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-	}
-	focus = {
-		id = HUN_The_Return_of_the_Empire
-		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
-		cost = 10.00
-		prerequisite = {
-			focus = HUN_Claim_Venetia
-		}
-		x = 46
-		y = 16	
-		completion_reward = {
-			add_ideas = ideological_fanaticism_focus
-			add_political_power = 300
-			add_stability = 0.10
 		}
 	}
 }

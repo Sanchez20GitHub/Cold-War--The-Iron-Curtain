@@ -208,7 +208,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.15
+				consumer_goods_factor = -0.02
 			}
 		}
 
@@ -235,7 +235,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				army_core_defence_factor = 0.2
+				army_core_defence_factor = 0.05
 			}
 		}
 
@@ -248,8 +248,8 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				local_org_regain = 0.1
-				army_core_attack_factor = 0.2
+				local_org_regain = 0.05
+				army_core_attack_factor = 0.05
 			}
 		}
 
@@ -263,9 +263,9 @@ ideas = {
 
 			modifier = {
 				partisan_effect = 0.75
-				local_org_regain = 0.1
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				local_org_regain = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 	}

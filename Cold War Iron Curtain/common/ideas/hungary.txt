@@ -73,7 +73,7 @@ ideas = {
 			
 			modifier = {
 				neutrality_drift = 0.02
-				stability_factor = 0.1
+				stability_factor = 0.05
 			}
 		}
 
@@ -85,7 +85,7 @@ ideas = {
 			
 			modifier = {
 				democratic_drift = 0.02
-				stability_factor = 0.1
+				stability_factor = 0.05
 			}
 		}
 
@@ -96,8 +96,8 @@ ideas = {
 			}
 			
 			modifier = {
-				fascism_drift = 0.034
-				stability_factor = 0.1
+				fascism_drift = 0.02
+				stability_factor = 0.05
 			}
 		}
 
@@ -127,8 +127,8 @@ ideas = {
 			
 			modifier = {
 				neutrality_drift = 0.02
-				stability_factor = 0.1
-				political_power_factor = 0.2
+				stability_factor = 0.05
+				political_power_factor = 0.1
 				generate_wargoal_tension = -0.25
 			}
 		}
@@ -169,8 +169,8 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				political_power_factor = -0.25
-				consumer_goods_factor = -0.05
+				political_power_factor = -0.1
+				consumer_goods_factor = -0.02
 			}
 		}
 
@@ -179,7 +179,7 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 			}
 		}
 
@@ -188,7 +188,7 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.02
 				communism_drift = 0.02
 			}
 		}
@@ -230,8 +230,8 @@ ideas = {
 			}
 			
 			modifier = {
-				production_speed_infrastructure_factor = 0.1
-				production_speed_industrial_complex_factor = 0.1
+				production_speed_infrastructure_factor = 0.05
+				production_speed_industrial_complex_factor = 0.05
 			}
 		}
 
@@ -270,7 +270,7 @@ ideas = {
 			}
 			
 			modifier = {
-				industrial_capacity_dockyard = 0.1
+				industrial_capacity_dockyard = 0.05
 			}
 		}
 
@@ -284,7 +284,7 @@ ideas = {
 			
 			equipment_bonus = {
 				medium_tank_artillery_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 			}
 		}

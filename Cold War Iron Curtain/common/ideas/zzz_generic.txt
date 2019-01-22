@@ -543,7 +543,7 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				conscription = 0.015
+				conscription = 0.01
 				enemy_partisan_effect = -0.1
 			}
 		}
@@ -567,7 +567,8 @@ ideas = {
 			picture = generic_manpower_bonus
 	
 			modifier = {
-				conscription = 0.015
+				conscription_factor = 0.015
+				conscription = 0.01
 			}
 		}
 	
@@ -638,8 +639,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		revolutionary_exporter = {
@@ -663,8 +664,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		three_worlds_theory = {
@@ -688,8 +689,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		International_Brigades = {
@@ -713,8 +714,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 		ideological_fanaticism_focus = {
@@ -739,8 +740,8 @@ ideas = {
 	
 			modifier = {
 				war_support_factor = 0.05
-				army_core_attack_factor = 0.1
-				army_core_defence_factor = 0.1
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
 			}
 		}
 	
@@ -760,7 +761,7 @@ ideas = {
 			picture = generic_morale_bonus
 	
 			modifier = {
-				army_morale_factor = 0.1
+				army_morale_factor = 0.05
 			}
 		}
 	
@@ -811,7 +812,7 @@ ideas = {
 				production_speed_bunker_factor = 0.2
 				production_speed_coastal_bunker_factor = 0.2
 				production_speed_anti_air_building_factor = 0.2
-				production_speed_arms_factory_factor = 0.2
+				production_speed_arms_factory_factor = 0.05
 			}
 		}
 
@@ -865,8 +866,8 @@ ideas = {
 			picture = generic_pp_unity_bonus
 			
 			modifier = {
-				stability_factor = 0.10
-				war_support_factor = 0.1
+				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}	
 
@@ -973,7 +974,7 @@ ideas = {
 			picture = generic_research_bonus
 	
 			modifier = {
-				production_speed_nuclear_reactor_factor = 0.2
+				production_speed_nuclear_reactor_factor = 0.1
 			}
 			research_bonus = {
 				nuclear = 0.10
@@ -1241,9 +1242,9 @@ ideas = {
 			picture = generic_production_bonus
 			
 			modifier = {
-				political_power_factor = 0.15
-				industry_repair_factor = 0.2
-				industrial_capacity_factory = 0.1
+				political_power_factor = -0.5
+				industry_repair_factor = 0.5
+				industrial_capacity_factory = 0.05
 				stability_factor = 0.005
 				war_support_factor = -0.002
 			}

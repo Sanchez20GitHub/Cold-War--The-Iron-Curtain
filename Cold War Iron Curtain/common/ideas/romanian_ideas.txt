@@ -12,7 +12,7 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.015
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.05
 			}
 		}
 		ROM_patriotic_mobilisation_i = {	#Placeholder
@@ -27,7 +27,7 @@ ideas = {
 			
 			modifier = {
 				conscription = 0.01
-				army_core_defence_factor = 0.1
+				army_core_defence_factor = 0.05
 			}
 		}	
 	}

@@ -28,7 +28,7 @@ ideas = {
             picture = generic_goods_red_bonus
    
             modifier = {
-    production_speed_infrastructure_factor = 0.2
+				production_speed_infrastructure_factor = 0.05
             }
         }
  
@@ -43,7 +43,7 @@ ideas = {
             picture = generic_free_trade
                        
             modifier = {
-    consumer_goods_factor = -0.3
+				consumer_goods_factor = -0.03
             }
         }
  
@@ -59,7 +59,7 @@ ideas = {
            
             equipment_bonus = {
                 infantry_equipment = {
-                    build_cost_ic = -0.2 instant = yes
+                    build_cost_ic = -0.05 instant = yes
                 }
             }
         }
@@ -75,7 +75,7 @@ ideas = {
             picture = generic_free_trade
                        
             modifier = {
-                stability_factor = 0.05
+                stability_factor = 0.025
             }
         }
  
@@ -254,7 +254,7 @@ ideas = {
             removal_cost = -1
                        
             modifier = {
-                conscription_factor = 0.20
+                conscription_factor = 0.02
  
             }
         }
@@ -298,8 +298,8 @@ ideas = {
             picture = generic_production_bonus
            
             modifier = {
-                consumer_goods_factor = -0.05
-        conversion_cost_civ_to_mil_factor= -0.2
+                consumer_goods_factor = 0.05
+				conversion_cost_civ_to_mil_factor= 0.2
             }
         }
        
@@ -340,7 +340,7 @@ ideas = {
            
             equipment_bonus = {
                 fighter_equipment = {
-                    build_cost_ic = -0.1 instant = yes
+                    build_cost_ic = -0.05 instant = yes
                 }
             }
         }
@@ -363,7 +363,7 @@ ideas = {
            
             equipment_bonus = {
                 infantry_equipment = {
-                    build_cost_ic = -0.1 instant = yes
+                    build_cost_ic = -0.05 instant = yes
                 }
             }
         }
@@ -384,10 +384,10 @@ ideas = {
            
             equipment_bonus = {
                 destroyer = {
-                    build_cost_ic = -0.1 instant = yes
+                    build_cost_ic = -0.05 instant = yes
                 }
                 convoy = {
-                    build_cost_ic = -0.1 instant = yes
+                    build_cost_ic = -0.05 instant = yes
                 }
             }
         }
@@ -442,10 +442,10 @@ ideas = {
 			equipment_bonus = {
 
 				infantry_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				lmg_infantry_equipment  = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 			}
 
@@ -463,19 +463,19 @@ ideas = {
 			equipment_bonus = {
 
 				mechanized_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				motorized_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				lt_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				mbt_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				ht_equipment = {
-					build_cost_ic = -0.1 instant = yes
+					build_cost_ic = -0.05 instant = yes
 				}
 				 
 			}
@@ -492,10 +492,10 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				consumer_goods_factor = -0.05
-				production_speed_industrial_complex_factor = 0.1
-				production_speed_arms_factory_factor = 0.1
-				industrial_capacity_factory = 0.15
+				consumer_goods_factor = -0.02
+				production_speed_industrial_complex_factor = 0.025
+				production_speed_arms_factory_factor = 0.025
+				industrial_capacity_factory = 0.05
 			}
 
 			picture = generic_manpower_bonus

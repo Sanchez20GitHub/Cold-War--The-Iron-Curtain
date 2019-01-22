@@ -12,7 +12,7 @@ ideas = {
 			picture = generic_intel_bonus
 			
 			modifier = {
-				cavalry_attack_factor = 0.15
+				cavalry_attack_factor = 0.25
 			}
 		}
 		MON_experienced_cavalry_corps = {

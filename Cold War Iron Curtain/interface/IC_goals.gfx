@@ -762,6 +762,22 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/pekkala.dds"
 	}
 	SpriteType = {
+		name = "GFX_kekkonen"
+		texturefile = "gfx/interface/goals/kekkonen.dds"
+	}
+	SpriteType = {
+		name = "GFX_fagerholm"
+		texturefile = "gfx/interface/goals/fagerholm.dds"
+	}
+	SpriteType = {
+		name = "GFX_kuusinen"
+		texturefile = "gfx/interface/goals/kuusinen.dds"
+	}
+	SpriteType = {
+		name = "GFX_kilpi"
+		texturefile = "gfx/interface/goals/kilpi.dds"
+	}
+	SpriteType = {
 		name = "GFX_cia"
 		texturefile = "gfx/interface/goals/cia.dds"
 	}
