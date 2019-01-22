@@ -200,7 +200,9 @@ bookmarks = {
 			}
 			focuses = {
 				ZIM_60s_rise_o_voices
-				ZIM_60s_african_nationalism
+	            ZIM_60s_an_ace
+	            ZIM_60s_the_unexpected
+	
 			}
 		}
 

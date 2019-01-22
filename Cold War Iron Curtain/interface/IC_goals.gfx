@@ -3740,6 +3740,13 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_FocusLaurentDesireKabila"
 		texturefile = "gfx/interface/goals/FocusLaurentDesireKabila.dds" 
-	}	
-
+	}
+	SpriteType = {
+		name = "GFX_tourism"
+		texturefile = "gfx/interface/goals/generic_Tourism.dds" 
+	}
+	SpriteType = {
+		name = "GFX_be_a_man_among_man"
+		texturefile = "gfx/interface/goals/higuys2d.dds" 
+	}
 }

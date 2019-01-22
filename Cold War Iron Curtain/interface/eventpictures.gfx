@@ -2930,4 +2930,16 @@ spriteTypes = {
 		name = "GFX_report_event_air_rhodesia"
 		texturefile = "gfx/event_pictures/air_rhodesia.dds"
 	}
-}	
+   spriteType = {
+		name = "GFX_Oberholzer_murder"
+		texturefile = "gfx/event_pictures/dad_original.dds"
+	}
+   spriteType = {
+		name = "GFX_rho_armoured_veichle"
+		texturefile = "gfx/event_pictures/rhodesia_armoured_veichle.dds"
+	}
+   spriteType = {
+		name = "GFX_rho_black_white"
+		texturefile = "gfx/event_pictures/rhodie_black_and_white.dds"
+	}
+}
