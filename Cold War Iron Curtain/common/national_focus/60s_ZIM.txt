@@ -3,7 +3,6 @@ focus_tree = {
 	country = {
 		factor = 1
 	}
-	default = yes
 	focus = {
 		id = ZIM_60s_reinforce_union
 		icon = GFX_goal_rho_frn
