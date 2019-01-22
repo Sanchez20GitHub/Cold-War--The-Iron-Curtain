@@ -201,6 +201,11 @@ create_country_leader = {
 	picture = "Nuri_al_Said.dds"
 	ideology = national_conservatism
 }
+create_country_leader = {
+	name = "Husain al-Radi"
+	picture = "Husain_Radi.dds"
+	ideology = marxism_leninism
+}
 
 create_field_marshal = {
 	name = "Ahmed Hassan al-Bakr"

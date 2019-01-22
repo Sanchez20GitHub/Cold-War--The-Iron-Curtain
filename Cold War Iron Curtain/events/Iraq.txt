@@ -159,6 +159,18 @@ news_event = {
 		name = "Interesting"
 	}
 }
+country_event = {
+	id = iraqi_intifada.2
+	title = "Government Overthrown"
+	desc = iraqi_intifada.2.d
+	picture = GFX_iraqi_intifada
+
+	is_triggered_only = yes
+
+	option = {
+		name = "k"
+	}
+}
 
 
 country_event = {

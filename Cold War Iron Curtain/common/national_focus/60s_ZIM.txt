@@ -1,7 +1,7 @@
 focus_tree = {
 	id = 60s_ZIM
 	country = {
-		factor = 1
+		factor = 0
 	}
 	focus = {
 		id = ZIM_60s_reinforce_union
