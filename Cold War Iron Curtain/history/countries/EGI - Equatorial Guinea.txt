@@ -114,7 +114,28 @@ create_country_leader = {
 	ideology = national_democrat
 }
 
-1946.1.1 = {
+create_country_leader = {
+	name = "Bonifacio Ondó Edu"
+	picture = "Bonifacio_Ondo_Edu.dds"
+    ideology = conservatism
+}
+	
+create_country_leader = {
+	name = "Malabo II"
+	picture = "Malabo_II.dds"
+    ideology = monarchy
+}
+
+
+1949.1.1 = {
+	create_country_leader = {
+	    name = "Faustino Ruíz González"
+	    picture = "Faustino_Ruiz_Gonzalez.dds"
+	    ideology = colonial_regime
+    }
+}
+
+1968.1.1 = {
 	drop_cosmetic_tag = yes
 	set_politics = {
 	    parties = {
