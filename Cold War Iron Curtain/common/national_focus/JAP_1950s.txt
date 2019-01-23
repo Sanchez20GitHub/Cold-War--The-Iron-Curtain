@@ -4534,7 +4534,7 @@ focus_tree = {
 		x = 25
 		y = 14
 			completion_reward = {
-					country_event = jcp.1
+					USA = { country_event = jcp.1 }
 				}
 
 	}

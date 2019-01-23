@@ -5,7 +5,7 @@ news_event = {
 	id = mongolia.1
 	title = "[GetNewspaperHeader]Mongolian International Recognition Campaign"
 	desc = mongolia.1.d
-	picture = GFX_generic_sc_ruling
+	picture = GFX_mongol_two
 	is_triggered_only = yes
 	
 	major = yes
@@ -16,8 +16,47 @@ news_event = {
 }
 news_event = {
 	id = mongolia.7
-	title = "[GetNewspaperHeader]Mongolian International Recognition Campaign"
+	title = "[GetNewspaperHeader]Mongolian Dissulisionment with Stalin"
 	desc = mongolia.7.d
+	picture = GFX_mongol_one
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	name = "Interesting News"
+	}
+}
+news_event = {
+	id = mongolia.3
+	title = "[GetNewspaperHeader]Mongolian Application to Become an SSR Rejected"
+	desc = mongolia.3.d
+	picture = GFX_mongol_three
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	name = "Interesting News"
+	}
+}
+news_event = {
+	id = mongolia.2
+	title = "[GetNewspaperHeader]Death of Khorloogiin Choibalsan"
+	desc = mongolia.2.d
+	picture = GFX_mongol_foura
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	name = "Interesting News"
+	}
+}
+news_event = {
+	id = mongolia.11
+	title = "[GetNewspaperHeader]Revelation of the Brutality of the Mongolian Great Purge"
+	desc = mongolia.11.d
 	picture = GFX_generic_sc_ruling
 	is_triggered_only = yes
 	
@@ -27,7 +66,45 @@ news_event = {
 	name = "Interesting News"
 	}
 }
+news_event = {
+	id = mongolia.20
+	title = "[GetNewspaperHeader]Deposition of General Secretary Dashiin Damba"
+	desc = mongolia.20.d
+	picture = GFX_generic_sc_ruling
+	is_triggered_only = yes
+	
+	major = yes
 
+	option = {
+	name = "Interesting News"
+	}
+}
+news_event = {
+	id = mongolia.21
+	title = "[GetNewspaperHeader]Deposition of Prime Minister Yumjaagiin Tsedenbal"
+	desc = mongolia.21.d
+	picture = GFX_generic_sc_ruling
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	name = "Interesting News"
+	}
+}
+news_event = {
+	id = mongolia_prc.100
+	title = "[GetNewspaperHeader]Mongolian Accension into the Peoples Republic of China"
+	desc = mongolia_prc.100.d
+	picture = GFX_generic_sc_ruling
+	is_triggered_only = yes
+	
+	major = yes
+
+	option = {
+	name = "Interesting News"
+	}
+}
 
 #News Events
 #mongolia.1 Mongolian International Recognition Campaign

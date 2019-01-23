@@ -10,7 +10,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = MON_The_Stalin_of_Mongolia
-		icon = GFX_goal_unknown
+		icon = GFX_Choibalsan
 		cost = 10.00
 		x = 19
 		y = 0
@@ -31,7 +31,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Mongolian_Economy
-		icon = GFX_goal_unknown
+		icon = GFX_CommunistProductionFocus
 		cost = 10.00
 		x = 30
 		y = 0
@@ -52,7 +52,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_State_Atheism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_atheism
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Foundations_for_a_Socialist_State
@@ -65,7 +65,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Crackdown_on_Buddhism
-		icon = GFX_goal_unknown
+		icon = GFX_crush_buddhism
 		cost = 10.00
 		prerequisite = {
 			focus = MON_State_Atheism
@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Socialist_Realism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_socialist_realism
 		cost = 10.00
 		prerequisite = {
 			focus = MON_State_Atheism
@@ -149,7 +149,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Young_Pioneers
-		icon = GFX_goal_unknown
+		icon = GFX_Mongolia_XSE
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Foundations_for_a_Socialist_State
@@ -289,7 +289,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Growing_Dissulisionment_with_Stalin
-		icon = GFX_goal_unknown
+		icon = GFX_anti_founders
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Desire_for_Unification
@@ -1249,7 +1249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Accension_into_the_PRC
-		icon = GFX_goal_unknown
+		icon = GFX_prc_influence
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Growing_Chinese_Influence

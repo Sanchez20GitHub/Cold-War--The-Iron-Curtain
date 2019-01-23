@@ -641,8 +641,8 @@ news_event = {
 
 country_event = {
 	id = jcp.1
-	title = "Japan Demands Retur of Okinawa and an End to Occupation"
-	desc = "The Communist regime in Japan is demanding we return Okinawa and being vacating our bases in Japan proper"
+	title = "Japan Demands Return of Okinawa and an End to Occupation"
+	desc = "The recently elected Communist regime in Japan is demanding we return Okinawa to Japan."
 	picture = GFX_report_event_brazil_election_1955
 	
 	fire_only_once = yes
