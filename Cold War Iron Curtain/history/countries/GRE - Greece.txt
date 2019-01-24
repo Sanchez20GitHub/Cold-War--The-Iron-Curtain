@@ -12,7 +12,7 @@ add_ideas = {
 	##GRE_hyperinflation
 	##GRE_TEA
 	##GRE_indoctrination_camps_harsh
-	##GRE_communism_banned
+	GRE_communism_banned
 	##GRE_repression_harsh
 }
 1946.1.1 = {
