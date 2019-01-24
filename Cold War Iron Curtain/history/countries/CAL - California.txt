@@ -156,6 +156,11 @@ create_country_leader = {
 	picture = "Earl_Warren.dds"
 	ideology = republican
 }
+create_country_leader = {
+	name = "Jim Jones"
+	picture = "Jim_Jones.dds"
+	ideology = fascism_ideology
+}
 
     set_variable = { var = domestic_influence_amount value = 2000 }
 	

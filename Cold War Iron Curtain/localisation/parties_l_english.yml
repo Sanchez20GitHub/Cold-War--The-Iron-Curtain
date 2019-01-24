@@ -288,6 +288,8 @@
  CAL_conservative_party_long:0 "California Republican Party"
  CAL_democratic_party:0 "CADEM"
  CAL_democratic_party_long:0 "California Democratic Party"
+ CAL_fascism_party:0 "Peoples Temple"
+ CAL_fascism_party_long:0 "The Peoples Temple of the Disciples of Christ"
  CAL_liberal_party:0 "LPC"
  CAL_liberal_party_long:0 "Libertarian Party of California"
  CAM_centrist_party:0 "CPP"
