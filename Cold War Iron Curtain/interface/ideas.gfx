@@ -5126,4 +5126,15 @@ spriteTypes = {
 		name = "GFX_idea_eva_peron"
 		texturefile = "gfx/interface/ideas/Peron_Advisor_paper.dds"
     }
+	spriteType = {
+		name = "GFX_idea_jim_jones"
+		texturefile = "gfx/interface/ideas/jim_jones.dds"
+    }
+	
+	###GREECE
+
+    spriteType = {
+		name = "GFX_idea_GRE_communism_banned"
+		texturefile = "gfx/interface/ideas/law509.dds"
+    }
 }
