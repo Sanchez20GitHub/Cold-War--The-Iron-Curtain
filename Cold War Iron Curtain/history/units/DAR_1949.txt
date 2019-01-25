@@ -45,21 +45,21 @@ units = {
 	}
 	division= {	
 		name = "Hizbullah"
-		location = 12330
+		location = 10464
 		division_template = "Hizbullah"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division= {	
 		name = "Hizbullah"
-		location = 7336
+		location = 10464
 		division_template = "Hizbullah"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
 	}
 	division= {	
 		name = "Hizbullah"
-		location = 7336
+		location = 10464
 		division_template = "Hizbullah"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1
