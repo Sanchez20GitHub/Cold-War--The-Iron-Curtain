@@ -9,6 +9,7 @@ Conservative
 	[e-m-pm,8]Largely Increase Military Spending; even_more_mil_staff
 	[s-l-m,4]Take Conservative Labor Approach; gen_balanced_workers_1
 	[s-m-pm,4]Support Troops; gen_pro_mil_1
+	[s-e-b,4]Conservative Environmental Outlook; gen_balanced_outlook_1
 Liberal Conservativism
 	[4]Encourage Family Unity; +2.5% Stability
 	[mil,6]Military-Industrial Buildup {180 days} military_boost_general
@@ -19,6 +20,7 @@ Liberal Conservativism
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[e-m-v,2]Veteran Affairs; veteran_affairs_generic
 	[s-l-m,4]Take Conservative Labor Approach; gen_balanced_workers_1
+	[s-e-b,8]Pragmatic Environmental Outlook; gen_balanced_outlook_2
 Christian Democratic/Islamism/?Judaism?/Anything Religious Demoractic
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
@@ -27,6 +29,7 @@ Christian Democratic/Islamism/?Judaism?/Anything Religious Demoractic
 	[e-e-r,8]Prayer in Schools; patriotic_schools
 	[e-ec-u,4]Develop Rural Regions; ruural_development_spirit
 	[e-m-v,8]Veteran Affairs and War Relief; vet_aff_and_relief
+	[s-e-e,8]God(s)'s Green Earth; gen_environmentalist_2
 Socialist
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[e-h-l,4]Universal Healthcare; socialism_healthcare
@@ -49,6 +52,7 @@ Liberal #Libertarian
 	[e-m-am,4]Reduce Military Spending; cheap_army
 	[e-m-am,8]Vastly Reduce Military Spending; cheap_ass_army
 	[s-l-li,8]Mass Deregulation; gen_pro_employer_2
+	[s-e-m,8]Freedom of Consumption; gen_materialist_2
 Centrist
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
@@ -60,6 +64,7 @@ Centrist
 	[e-f-c,8]Mass Subsidization; subsidy_economy
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[s-l-m,4]Take Balanced Labor Approach; gen_balanced_workers_2
+	[s-e-b,8]Pragmatic Environmental Outlook; gen_balanced_outlook_2
 Social Democratic
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[e-e-c,4]Creative Education; creative_education
@@ -68,6 +73,7 @@ Social Democratic
 	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
+	[s-e-e,4]Environmentalism; gen_environmentalist_1
 Social Liberalism
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
 	[e-e-c,4]Creative Education; creative_education
@@ -76,6 +82,7 @@ Social Liberalism
 	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
+	[s-e-e,4]Environmentalism; gen_environmentalist_1
 Democratic #Progressive
 	[epa,8]Environmental Protectionism; have_furries_control_government
 	[e-e-c,4]Creative Education; creative_education
@@ -83,6 +90,7 @@ Democratic #Progressive
 	[e-f-l,6]Enact Safety Net; safety_net
 	[e-ec-r,4]Embrace Capitlalism; activate_capitalism
 	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
+	[s-e-e,8]Green Earth; gen_environmentalist_2
 Communism
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
@@ -93,6 +101,7 @@ Communism
 	[e-ec-l,6]Socialize The Economy; active_communism
 	[e-ec-l,12]Seize the Means; communism_intensifies
 	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
+	[s-e-m,4]People's Progress; gen_materialist_1
 Trotskyism
 	[4]Firebranding; -2.5% Stability, +5% War Support
 	[*tro,10]Ignite the Permanent Revolution; 1825 +2% Recruitable, +15% War Support permanent_revolution_ignition
@@ -106,6 +115,7 @@ Trotskyism
 	[e-ec-l,6]Socialize The Economy; active_communism
 	[e-ec-l,12]Seize the Means; communism_intensifies
 	[s-l-l,4]Strengthen the Workers; gen_pro_union_1
+	[s-e-m,4]People's Progress; gen_materialist_1
 Maoism
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[e-h-l,4]Universal Healthcare; socialism_healthcare
@@ -116,6 +126,7 @@ Maoism
 	[e-ec-l,12]Seize the Means; communism_intensifies
 	[e-ec-u,6]The Rural Class; #adds rural_development_spirit but does not conflict with existing economy laws. Only maoism can do this as it is rural marxism.
 	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
+	[s-e-m,4]People's Progress; gen_materialist_1
 Fascist #Third Positionist
 	[4]Firebranding; -2.5% Stability, +2.5% War Support
 	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
@@ -149,6 +160,7 @@ Monarchist
 	[e-f-c,4]Royal Treasury; subsidies_basic
 	[e-m-pm,4]Strengthen the Army; more_mil_staff
 	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
+	[s-e-m,4]Royal Progress; gen_materialist_1
 Neutrality #Reactionary
 	[4]Normalcy of Tradition; +2.5% Stability
 	[4]Firebranding; -2.5% Stability, +2.5% War Support
@@ -162,6 +174,7 @@ Neutrality #Reactionary
 	[e-m-pm,4]Strengthen the Army; more_mil_staff
 	[e-m-pm,8]Mobilize the Country; even_more_mil_staff
 	[s-l-li,8]Restrict Unions; gen_pro_employer_1
+	[s-e-b,4]Conservative Environmental Outlook; gen_balanced_outlook_1
 Radican Shiaism
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
@@ -213,7 +226,10 @@ Salafism
 	{M}oderate[gen_balanced_workers_1 _2]
 	{L}eft[gen_pro_union_1 _2]
 {E}nvironment;
-
+	{E}nvironmentalist [gen_environmentalist_1 _2]
+	{B}alanced [gen_balanced_outlook_1 _2]
+	{M}aterialist [gen_materialist_1 _2]
+	
 
 
 	

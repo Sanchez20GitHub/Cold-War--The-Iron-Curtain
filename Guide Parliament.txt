@@ -26,10 +26,6 @@
 	{M}oderate[gen_balanced_workers_1 _2]
 	{L}eft[gen_pro_union_1 _2]
 {E}nvironment;
-
-	[s-l-li,4]
-	[s-l-li,8]
-	[s-l-m,4]
-	[s-l-m,8]
-	[s-l-l,4]
-	[s-l-l,8]
+	{E}nvironmentalist [gen_environmentalist_1 _2]
+	{B}alanced [gen_balanced_outlook_1 _2]
+	{M}aterialist [gen_materialist_1 _2]
