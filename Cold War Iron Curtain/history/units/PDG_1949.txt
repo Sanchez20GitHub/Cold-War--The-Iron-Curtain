@@ -1,231 +1,48 @@
 ﻿division_template = {
-	name = "Pezikó Diaíresi"			
+	name = "Merarxía Pezikou"			
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }	
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 0 y = 3 }		
+		infantry = { x = 0 y = 2 }	
 		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-		infantry = { x = 1 y = 3 }		
-		artillery = { x = 2 y = 0 }		
-		artillery = { x = 2 y = 1 }
+		infantry = { x = 1 y = 1 }	
 	}
 	support = {
 		recon = { x = 0 y = 0 } 		
 		engineer = { x = 0 y = 1 } 		
-		artillery_support = { x = 0 y = 2 }		
-		direct_fire_gun_support = { x = 0 y = 3 }
-		auto_cannon_support = { x = 0 y = 4 }		
+		light_artillery_support = { x = 0 y = 2 }		
+		direct_fire_gun_support = { x = 0 y = 3 }	
 	}
 }
 division_template = {
-	name = "Thalássia Diaíresi" 		
-
-	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }	
-	}
-	support = {
-		recon = { x = 0 y = 0 } 		
-		engineer = { x = 0 y = 1 }   
-	}
-	priority = 0
-}
-division_template = {
-	name = "Aerometaferómena Diaíresi"
-
-	regiments = {
-		airborne = { x = 0 y = 0 }
-		airborne = { x = 0 y = 1 }
-        airborne = { x = 1 y = 0 }
-		airborne = { x = 1 y = 1 }
-	}
-	support = {
-		recon = { x = 0 y = 0 } 		
-		engineer = { x = 0 y = 1 }   
-	}
-}
-division_template = {
-	name = "Vounó Pezikó Diaíresi"
+	name = "Oreiní Merarxía Pezikou"
 
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
-      	mountaineers = { x = 0 y = 2 }
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
-        mountaineers = { x = 1 y = 2 }
 	}
 	support = {
-	 	engineer = { x = 0 y = 0 }
-	    recon = { x = 0 y = 1 }
-	}
-}
-division_template = {
-	name = "Michanokínita Diaíresi" 	
-
-	regiments = {
-		motorized_infantry = { x = 0 y = 0 }
-		motorized_infantry = { x = 0 y = 1 }
-       	motorized_infantry = { x = 0 y = 2 }
-       	motorized_infantry = { x = 1 y = 0 }
-		motorized_infantry = { x = 1 y = 1 }
-        motorized_infantry = { x = 1 y = 2 }
-		artillery = { x = 2 y = 0 }
-		artillery = { x = 2 y = 1 }	
-		rocket_sp_artillery = { x = 3 y = 0 }			
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        light_artillery_support = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Fos Michanismós Pezikó Diaíresi"
-
-	regiments = {
-		mechanized_infantry = { x = 0 y = 0 }
-		mechanized_infantry = { x = 0 y = 1 }
-		mechanized_infantry = { x = 0 y = 2 }
-		motorized_infantry = { x = 0 y = 3 }
-		medium_armor = { x = 1 y = 0 }
-		light_armor = { x = 1 y = 1 }
-		light_sp_artillery = { x = 2 y = 0 }
-		light_sp_artillery = { x = 2 y = 1 }	
-		rocket_sp_artillery = { x = 3 y = 0 }		
-	}
-	support = {
-	 	engineer = { x = 0 y = 0 }
-	    recon = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }		
-	}
-}
-division_template = {
-	name = "Varýs Michanismós Pezikó Diaíresi"
-
-	regiments = {
-		armored_infantry = { x = 0 y = 0 }
-		armored_infantry = { x = 0 y = 1 }
-		armored_infantry = { x = 0 y = 2 }		
-		mechanized_infantry = { x = 0 y = 3 }		
-		medium_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
-		light_sp_artillery = { x = 3 y = 0 }
-		light_sp_artillery = { x = 3 y = 1 }	
-		rocket_sp_artillery = { x = 4 y = 0 }
-	}
-	support = {
-		recon_mechanized = { x = 0 y = 0 } 		
+		recon = { x = 0 y = 0 } 		
 		engineer = { x = 0 y = 1 } 		
-		artillery_support = { x = 0 y = 2 }		
-		direct_fire_gun_support = { x = 0 y = 3 }
-		auto_cannon_support = { x = 0 y = 4 }		  
+		light_artillery_support = { x = 0 y = 2 }		
+		direct_fire_gun_support = { x = 0 y = 3 }	
 	}
 }
-division_template = {
-	name = "Fos Thorakisménos Diaíresi"
 
-	regiments = {
-		light_armor = { x = 0 y = 0 }
-		light_armor = { x = 0 y = 1 }
-        light_armor = { x = 0 y = 2 }
-        medium_armor = { x = 0 y = 3 }		
-		motorized_infantry = { x = 1 y = 0 }
-       	motorized_infantry = { x = 1 y = 1 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Mesaío Thorakisménos Diaíresi"
 
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-        medium_armor = { x = 0 y = 2 }
-		medium_armor = { x = 0 y = 3 }
-		mechanized_infantry = { x = 1 y = 0 }
-       	mechanized_infantry = { x = 1 y = 1 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }
-	}
-}
 division_template = {
-	name = "Varýs Thorakisménos Diaíresi"
-
-	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
-        heavy_armor = { x = 0 y = 2 }
-		light_armor = { x = 0 y = 3 }
-		mechanized_infantry = { x = 1 y = 0 }
-       	mechanized_infantry = { x = 1 y = 1 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        heavy_artillery_support = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Fos Thorakisménos Taxiarchía"				
-
-	regiments = {
-		light_armor = { x = 0 y = 0 }		
-		light_armor = { x = 0 y = 1 }
-		light_armor = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Mesaío Thorakisménos Taxiarchía"				
-
-	regiments = {
-		medium_armor = { x = 0 y = 0 }
-		medium_armor = { x = 0 y = 1 }
-		medium_armor = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Varýs Thorakisménos Taxiarchía"				# Represents (light) Army Tank Brigades (LT Mk VIs, some Matilda Is)
-
-	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
-        		heavy_armor = { x = 0 y = 2}
-	}
-}
-division_template = {
-	name = "Ippikó Taxiarchía"
-
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Pezikó Taxiarchía"			
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Vounó Pezikó Taxiarchía"
+	name = "Taxiarchía Pezikou"
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
       	mountaineers = { x = 0 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 } 		
+		light_artillery_support = { x = 0 y = 2 }			
 	}
 }
 
@@ -235,93 +52,93 @@ units = {
 	####### HOME THEATRE #######
 	# Home Front #
 	division= {	
-		name = "I Pezikó Diaíresi"
-		location = 9805
-		division_template = "Pezikó Diaíresi"
-		start_experience_factor = 0.3
+		name = "I Merarxía Pezikou"
+		location = 3980
+		division_template = "Merarxía Pezikou"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "II Vounó Pezikó Diaíresi"
+		name = "II Oreiní Merarxía Pezikou"
 		location = 841
-		division_template = "Vounó Pezikó Diaíresi"
+		division_template = "Oreiní Merarxía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "III Vounó Pezikó Diaíresi"
+		name = "III Oreiní Merarxía Pezikou"
 		location = 3914
-		division_template = "Vounó Pezikó Diaíresi"
-		start_experience_factor = 0.1
+		division_template = "Oreiní Merarxía Pezikou"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "I Vounó Pezikó Taxiarchía"
+		name = "I Oreini Taxiarchía Pezikou"
 		location = 9837
-		division_template = "Vounó Pezikó Taxiarchía"
+		division_template = "Taxiarchía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "II Pezikó Taxiarchía"
-		location = 3526
-		division_template = "Pezikó Taxiarchía"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	
-		name = "III Pezikó Taxiarchía"
-		location = 3844
-		division_template = "Pezikó Taxiarchía"
+		name = "14i Taxiarchía Pezikou"
+		location = 3980
+		division_template = "Taxiarchía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "IV Pezikó Taxiarchía"
-		location = 11895
-		division_template = "Pezikó Taxiarchía"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	
-		name = "V Pezikó Taxiarchía"
-		location = 11895
-		division_template = "Pezikó Taxiarchía"
-		start_experience_factor = 0.1
-		start_equipment_factor = 1
-	}
-	division= {	
-		name = "VI Pezikó Taxiarchía"
+		name = "16i Taxiarchía Pezikou"
 		location = 3844
-		division_template = "Pezikó Taxiarchía"
-		start_experience_factor = 0.1
+		division_template = "Taxiarchía Pezikou"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "VII Pezikó Taxiarchía"
-		location = 3526
-		division_template = "Pezikó Taxiarchía"
-		start_experience_factor = 0.1
+		name = "102i Taxiarchía Pezikou"
+		location = 9916
+		division_template = "Taxiarchía Pezikou"
+		start_experience_factor = 1.0
 		start_equipment_factor = 1
-	}	
+	}
 	division= {	
-		name = "IV Vounó Pezikó Taxiarchía"
+		name = "103i Taxiarchía Pezikou"
+		location = 9916
+		division_template = "Taxiarchía Pezikou"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "105i Taxiarchía Pezikou"
+		location = 3844
+		division_template = "Taxiarchía Pezikou"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+	}
+	division= {	
+		name = "107i Taxiarchía Pezikou"
 		location = 3526
-		division_template = "Vounó Pezikó Taxiarchía"
+		division_template = "Taxiarchía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}	
 	division= {	
-		name = "V Vounó Pezikó Taxiarchía"
+		name = "108i Taxiarchía Pezikou"
+		location = 3526
+		division_template = "Taxiarchía Pezikou"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1
+	}	
+	division= {	
+		name = "Sxoli Aksiomatikon Genikoy Epiteleioy"
 		location = 11786
-		division_template = "Vounó Pezikó Taxiarchía"
+		division_template = "Taxiarchía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}
 	division= {	
-		name = "VI Vounó Pezikó Taxiarchía"
+		name = "VI Oreini Taxiarchía Pezikou"
 		location = 11786
-		division_template = "Vounó Pezikó Taxiarchía"
+		division_template = "Taxiarchía Pezikou"
 		start_experience_factor = 1.0
 		start_equipment_factor = 1
 	}

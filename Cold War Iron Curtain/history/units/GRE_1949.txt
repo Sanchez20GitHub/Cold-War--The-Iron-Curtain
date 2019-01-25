@@ -14,37 +14,57 @@
 	support = {
        	engineer = { x = 0 y = 0 }
        	recon = { x = 0 y = 1 }
-       	artillery_support = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 2 }
+       	light_artillery_support = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
 	}
 }
-division_template = {
-	name = "Merarxía Pezonautwn" 		
 
+division_template = {
+	name = "Merarxía Pezikou (II)"			
 	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
-		marine = { x = 0 y = 2 }
-		marine = { x = 1 y = 0 }
-		marine = { x = 1 y = 1 }
-		marine = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 3 y = 1 }
+		infantry = { x = 3 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+       	engineer = { x = 0 y = 0 }
+       	recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+       	light_artillery_support = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
 	}
-	priority = 0
 }
-division_template = {
-	name = "Aerometaferómeni Merarxía"
 
+division_template = {
+	name = "Taxiarchía Pezikou"			
 	regiments = {
-		airborne = { x = 0 y = 0 }
-		airborne = { x = 0 y = 1 }
-        airborne = { x = 0 y = 2 }
-		airborne = { x = 1 y = 0 }
-		airborne = { x = 1 y = 1 }
-        airborne = { x = 1 y = 2 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
 	}
 }
+
+division_template = {
+	name = "Elafru Suntagma Pezikou"			
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+}
+
 division_template = {
 	name = "Oreiní Merarxía Pezikou"
 
@@ -59,8 +79,26 @@ division_template = {
 	support = {
 	 	engineer = { x = 0 y = 0 }
 	    recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+       	light_artillery_support = { x = 0 y = 3 }
+		field_hospital = { x = 0 y = 4 }
+		army_special_force { x = 1 y = 0 }
 	}
 }
+
+division_template = {
+	name = "Oreiní Taxiarchía Pezikou"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+      	mountaineers = { x = 0 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+	}
+}
+
 division_template = {
 	name = "Michanokíniti Merarxía Pezikou" 	
 
@@ -71,13 +109,12 @@ division_template = {
        	motorized_infantry = { x = 1 y = 0 }
 		motorized_infantry = { x = 1 y = 1 }
         motorized_infantry = { x = 1 y = 2 }
-		artillery = { x = 2 y = 0 }
-		artillery = { x = 2 y = 1 }	
-		rocket_sp_artillery = { x = 3 y = 0 }
 	}
 	support = {
 	 	engineer = { x = 0 y = 0 }
         recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+       	artillery_support = { x = 0 y = 3 }
 	}
 }
 division_template = {
@@ -94,24 +131,11 @@ division_template = {
 	support = {
 	 	engineer = { x = 0 y = 0 }
 	    recon = { x = 0 y = 1 }
+		signal_company = { x = 0 y = 2 }
+       	light_artillery_support = { x = 0 y = 3 }
 	}
 }
-division_template = {
-	name = "Varía Michanokíniti Merarxía Pezikou"
 
-	regiments = {
-		motorized_infantry = { x = 0 y = 0 }
-		motorized_infantry = { x = 0 y = 1 }
-		motorized_infantry = { x = 1 y = 0 }
-		motorized_infantry = { x = 1 y = 1 }
-		light_armor = { x = 2 y = 0 }
-		light_armor = { x = 2 y = 1 }
-	}
-	support = {
-	 	engineer = { x = 0 y = 0 }
-	    recon = { x = 0 y = 1 }
-	}
-}
 division_template = {
 	name = "Elafra Tethorakisméni Merarxía"
 
@@ -126,7 +150,8 @@ division_template = {
 	support = {
         recon = { x = 0 y = 0 }
         engineer = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 2 }
+       	light_artillery_support = { x = 0 y = 3 }
 	}
 }
 division_template = {
@@ -143,26 +168,11 @@ division_template = {
 	support = {
         recon = { x = 0 y = 0 }
         engineer = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }
+        signal_company = { x = 0 y = 2 }
+       	artillery_support = { x = 0 y = 3 }
 	}
 }
-division_template = {
-	name = "Varía Tethorakisméni Merarxía"
 
-	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
-        heavy_armor = { x = 0 y = 2}
-		light_armor = { x = 1 y = 0 }
-		motorized_infantry = { x = 2 y = 0 }
-       	motorized_infantry = { x = 2 y = 1 }
-	}
-	support = {
-        recon = { x = 0 y = 0 }
-        engineer = { x = 0 y = 1 }
-        artillery_support = { x = 0 y = 2 }
-	}
-}
 division_template = {
 	name = "Elafra Tethorakisméni Taxiarchía"				
 
@@ -170,6 +180,10 @@ division_template = {
 		light_armor = { x = 0 y = 0 }		
 		light_armor = { x = 0 y = 1 }
 		light_armor = { x = 0 y = 2 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
@@ -180,108 +194,341 @@ division_template = {
 		medium_armor = { x = 0 y = 1 }
 		medium_armor = { x = 0 y = 2 }
 	}
-}
-division_template = {
-	name = "Varía Tethorakisméni Taxiarchía"				# Represents (light) Army Tank Brigades (LT Mk VIs, some Matilda Is)
-
-	regiments = {
-		heavy_armor = { x = 0 y = 0 }
-		heavy_armor = { x = 0 y = 1 }
-        heavy_armor = { x = 0 y = 2}
+	support = {
+        recon = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
 	}
 }
+
 division_template = {
-	name = "Taxiarchía Ippikou"
+	name = "Suntagma Armatwn"				
+
+	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		mechanized_infantry = { x = 1 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Suntagma Anagnwrisis"				
+
+	regiments = {
+		mechanized_infantry = { x = 0 y = 0 }
+	}
+	support = {
+        recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Suntagma Ippikou"
 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Taxiarchía Pezikou"			
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-}
-division_template = {
-	name = "Oreiní Taxiarchía Pezikou"
-	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
-      	mountaineers = { x = 0 y = 2 }
 	}
 }
 
 units = {
 	######## Ellinikó Genikó Epiteleío ########
 	division = {
-		name = "I 'Iron' Merarxía Pezikou"
-		location = 10163
+		name = "I Merarxía Pezikou"
+		location = 1109
 		division_template = "Merarxía Pezikou" 
 		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 	}
 	division = {
-		name = "III Merarxía Pezikou"
-		location = 11818
+		name = "II Merarxía Pezikou"
+		location = 936
 		division_template = "Merarxía Pezikou" 
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
 	}
 	division = {
 		name = "IV Merarxía Pezikou"
-		location = 863
+		location = 11965
 		division_template = "Merarxía Pezikou" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 
 	}
 	division = {
-		name = "II Elafra Michanokíniti Merarxía Pezikou"
+		name = "VII Merarxía Pezikou"
+		location = 11818
+		division_template = "Merarxía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "VIII Merarxía Pezikou"
 		location = 1109
-		division_template = "Elafra Michanokíniti Merarxía Pezikou" 
-		start_experience_factor = 0.4
-		start_equipment_factor = 0.7
-
+		division_template = "Merarxía Pezikou (II)" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
 	}
 	division = {
-		name = "I Aerometaferómeni Merarxía"
-		location = 9916
-		division_template = "Aerometaferómeni Merarxía" 
-		start_experience_factor = 0.5
-		start_equipment_factor = 0.7
-	}
-	division = {
-		name = "I Oreiní Merarxía Pezikou"
+		name = "IX Merarxía Pezikou"
 		location = 6930
-		division_template = "Oreiní Merarxía Pezikou" 
+		division_template = "Merarxía Pezikou" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 	}
 	division = {
-		name = "II Oreiní Merarxía Pezikou"
-		location = 936
-		division_template = "Oreiní Merarxía Pezikou" 
+		name = "X Merarxía Pezikou"
+		location = 6930
+		division_template = "Merarxía Pezikou" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
 	}
 	division = {
-		name = "III Oreiní Merarxía Pezikou"
+		name = "XI Merarxía Pezikou"
+		location = 3973
+		division_template = "Merarxía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "XV Merarxía Pezikou"
+		location = 3864
+		division_template = "Merarxía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "71st Anexartiti Taxiarchía"
+		location = 11895
+		division_template = "Taxiarchía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "72nd Anexartiti Taxiarchía"
+		location = 12001
+		division_template = "Taxiarchía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "77th Anexartiti Taxiarchía"
+		location = 4109
+		division_template = "Taxiarchía Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "2on Elafru Suntagma Pezikou"
+		location = 3865
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "3on Elafru Suntagma Pezikou"
+		location = 976
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "4on Elafru Suntagma Pezikou"
+		location = 863
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "5on Elafru Suntagma Pezikou"
+		location = 863
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "6on Elafru Suntagma Pezikou"
+		location = 863
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "11on Elafru Suntagma Pezikou"
+		location = 7211
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "12on Elafru Suntagma Pezikou"
+		location = 863
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "16on Elafru Suntagma Pezikou"
+		location = 11905
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "19on Elafru Suntagma Pezikou"
+		location = 11774
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "26on Elafru Suntagma Pezikou"
+		location = 9791
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "27on Elafru Suntagma Pezikou"
+		location = 11895
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "29on Elafru Suntagma Pezikou"
+		location = 6990
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "30on Elafru Suntagma Pezikou"
+		location = 6990
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "31on Elafru Suntagma Pezikou"
+		location = 11905
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "34on Elafru Suntagma Pezikou"
+		location = 1205
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "39on Elafru Suntagma Pezikou"
+		location = 1205
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "41on Elafru Suntagma Pezikou"
+		location = 11905
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "42on Elafru Suntagma Pezikou"
+		location = 11895
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "50on Elafru Suntagma Pezikou"
+		location = 3988
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "59on Elafru Suntagma Pezikou"
+		location = 8435
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "81on Elafru Suntagma Pezikou"
+		location = 6550
+		division_template = "Elafru Suntagma Pezikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "III Merarxía Katadromewn"
 		location = 966
 		division_template = "Oreiní Merarxía Pezikou" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "XI Yli Armatwn"
+		location = 3973
+		division_template = "Suntagma Armatwn" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
 	}
 	division = {
-		name = "XXV Tethorakisméni Merarxía"
-		location = 1205
-		division_template = "Tethorakisméni Merarxía" 
+		name = "I Suntagma Anagnwrisis"
+		location = 12001
+		division_template = "Suntagma Anagnwrisis" 
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "II Suntagma Anagnwrisis"
+		location = 936
+		division_template = "Suntagma Anagnwrisis" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "VII Suntagma Anagnwrisis"
+		location = 10163
+		division_template = "Suntagma Anagnwrisis" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "IX Suntagma Anagnwrisis"
+		location = 1249
+		division_template = "Suntagma Anagnwrisis" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	division = {
+		name = "XI Suntagma Anagnwrisis"
+		location = 11895
+		division_template = "Suntagma Anagnwrisis" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
+
+	}
+	
+	division = {
+		name = "B' Suntagma Ippikou"
+		location = 976
+		division_template = "Suntagma Ippikou" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.9
 
 	}
 

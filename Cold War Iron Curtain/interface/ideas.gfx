@@ -5129,5 +5129,13 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_reparations"
 		texturefile = "gfx/interface/ideas/Reparations.tga"
+	spriteType = {
+		name = "GFX_idea_jim_jones"
+		texturefile = "gfx/interface/ideas/jim_jones.dds"
+    }
+	###GREECE
+    spriteType = {
+		name = "GFX_idea_GRE_communism_banned"
+		texturefile = "gfx/interface/ideas/law509.dds"
     }
 }
