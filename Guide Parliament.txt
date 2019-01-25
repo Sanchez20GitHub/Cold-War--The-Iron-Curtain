@@ -29,3 +29,19 @@
 	{E}nvironmentalist [gen_environmentalist_1 _2]
 	{B}alanced [gen_balanced_outlook_1 _2]
 	{M}aterialist [gen_materialist_1 _2]
+{G}ender and {Minorities};
+	{R}eactionary [gen_archy_1 _2]
+	{C}onservative [gen_trad_1 _2]
+	{P}rogressive [gen_equal_1 _2]
+{LGBT};
+	{R}eactionary [gen_notsaga_1 _2]
+	{C}onservative [gen_semighey_1 _2]
+	{P}rogressive [gen_ghey_1 _2]
+{M}ilitary;
+	{A}nti-{M}ilitary [gen_pacifist_1 _2]
+	{P}ro-{M}ilitary [gen_pro_mil_1 _2]
+	{J}ingoism [gen_jingoist_1 _2]
+Economic {G}lobalisation;
+	{N}ationalist [gen_nationalist_1 _2]
+	{B}alanced [gen_openist_1 _2]
+	{G}lobalist [gen_globalist_1 _2]
