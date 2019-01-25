@@ -11,6 +11,12 @@ state={
 		victory_points = {
 			7297 1 
 		}
+		victory_points = {
+			10149 3 
+		}
+		victory_points = {
+			7391 1
+		}
 		1954.1.1 = {
 			owner = RAJ
 			remove_core_of = FRA
@@ -18,6 +24,11 @@ state={
 		}
 		2006.1.1 = {
 			set_state_name = Puducherry
+			set_province_name = {
+				id = 10149
+				name = Puducherry
+
+			}
 
 		}
 		buildings = {

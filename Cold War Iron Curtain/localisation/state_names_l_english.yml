@@ -320,7 +320,7 @@
  STATE_319:0 "Santo Domingo"
  STATE_320:0 "Pondicherry"
  STATE_321:0 "Goa"
- STATE_322:0 "Lhasa"
+ STATE_322:0 "Ü-Tsang"
  STATE_323:0 "Nepal"
  STATE_324:0 "Thimphu"
  STATE_325:0 "Yunnan"
@@ -1252,3 +1252,4 @@
  STATE_1251:0 "Sassandra-Marahoue"
  STATE_1252:0 "Yamoussoukro"
  STATE_1253:0 "West-Wien"
+ STATE_1254:0 "Südbaden"
