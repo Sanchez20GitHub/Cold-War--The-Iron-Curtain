@@ -1,4 +1,4 @@
-﻿ add_namespace = decolonization
+﻿add_namespace = decolonization
   
 #French Cameroons - Mandate Expired
 country_event = {
