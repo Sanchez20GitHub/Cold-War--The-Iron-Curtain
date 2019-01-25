@@ -1712,7 +1712,10 @@ herfocus_tree = {
 		}
 		x = 31
 		y = 9
-
+		completion_reward = {
+			remove_ideas = SOV_government_corruption
+			add_stability = -0.05
+		}
 	}
 	focus = {
 		id = PRC_Five_Anti_Campaign
@@ -1762,7 +1765,9 @@ herfocus_tree = {
 		}
 		x = 31
 		y = 13
-
+		completion_reward = {
+			news_event = anti_rightest_campaign.1
+		}
 	}
 	focus = {
 		id = PRC_Reconsider_the_Legitimacy_of_the_Regime
@@ -1790,7 +1795,9 @@ herfocus_tree = {
 		}
 		x = 33
 		y = 14
-
+		completion_reward = {
+			add_ideas = ideological_fanaticism_focus
+		}
 	}
 	focus = {
 		id = PRC_Silence_the_Opposition
@@ -1861,7 +1868,7 @@ herfocus_tree = {
 		}
 		x = 31
 		y = 18
-
+		
 	}
 	focus = {
 		id = PRC_Mao_Self_Criticism_at_Lushan

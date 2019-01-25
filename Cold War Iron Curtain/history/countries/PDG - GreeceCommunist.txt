@@ -5,7 +5,7 @@ oob = "PDG_1949"
 set_research_slots = 3
 
 add_ideas = {
-	extensive_conscription
+	service_by_requirement
 	population_growth_steady
 	cold_war_civil_war_ideological_idea
 	paramilitarism_focus
