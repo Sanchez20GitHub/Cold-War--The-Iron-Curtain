@@ -2445,13 +2445,6 @@ guiTypes = {
 					position = { x=0 y=0 }
 					alwaystransparent = yes
 				}	
-		
-			containerWindowType = {
-				name = "artillery_subtitles"
-				position = { x = -640 y = 50 }
-				size = { width = 600 height = 80% }				
-				orientation = center_up
-				origo = center_up
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
@@ -3077,7 +3070,7 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 				}
 
-			}
+			
 			
 			gridboxtype = {
 				name = "direct_fire_gun_1_tree"
