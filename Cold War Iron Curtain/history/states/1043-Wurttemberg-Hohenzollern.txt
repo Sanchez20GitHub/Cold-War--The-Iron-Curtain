@@ -10,9 +10,6 @@ state={
 			owner = WGR
 
 		}
-		victory_points = {
-			6712 1 
-		}
 		buildings = {
 			infrastructure = 3
 			coal_plant = 1
@@ -24,9 +21,9 @@ state={
 	}
 
 	provinces={
-		519 694 3679 3690 3692 6542 6712 6934 9655 11486 11640 
+		519 694 3690 6934 9655 11486 
 	}
 	manpower=307755
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 }

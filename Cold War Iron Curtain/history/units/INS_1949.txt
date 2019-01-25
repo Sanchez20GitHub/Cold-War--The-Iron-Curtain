@@ -176,15 +176,8 @@ units = {
 		start_equipment_factor = 1
     }
 	division= {
-        name = "8.Militia Division"
-        location = 10450
-        division_template = "Militia Division"
-        start_experience_factor = 0.3
-		start_equipment_factor = 1
-    }
-	division= {
         name = "9.Militia Division"
-        location = 4537
+        location = 12330
         division_template = "Militia Division"
         start_experience_factor = 0.3
 		start_equipment_factor = 1
