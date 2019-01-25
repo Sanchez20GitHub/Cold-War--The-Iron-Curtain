@@ -761,7 +761,7 @@ ideas = {
 			
 			removal_cost = -1
 
-			picture = generic_army_problems
+			picture = reparations
 			
 			
 			targeted_modifier = {

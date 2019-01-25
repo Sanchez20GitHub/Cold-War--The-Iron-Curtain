@@ -1424,7 +1424,7 @@ focus_tree = {
 		icon = GFX_PlannedEconomy
 		cost = 10.00
 		prerequisite = {
-			focus = DDR_The_Death_of_Stalin
+			focus = DDR_Emphasis_on_Heavy_Industry
 		}
 		x = 5
 		y = 13

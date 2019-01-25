@@ -5126,4 +5126,8 @@ spriteTypes = {
 		name = "GFX_idea_eva_peron"
 		texturefile = "gfx/interface/ideas/Peron_Advisor_paper.dds"
     }
+	spriteType = {
+		name = "GFX_idea_reparations"
+		texturefile = "gfx/interface/ideas/Reparations.tga"
+    }
 }
