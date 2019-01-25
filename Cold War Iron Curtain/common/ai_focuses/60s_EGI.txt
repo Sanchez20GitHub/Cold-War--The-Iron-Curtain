@@ -1,0 +1,3666 @@
+focus_tree = {
+	
+	id = EGI_60s_1960s
+	
+	country = {
+		
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = EGI
+		}
+	}
+	
+	default = no
+
+	focus = {
+		
+		id = EGI_end_the_tribal_civil_war
+		
+		cost = 16.00
+		
+		x = 5
+		
+		y = 0
+		
+		mutually_exclusive = {
+			focus = EGI_spanish_integralism
+		}	
+		
+		completion_reward = {
+			
+			add_political_power = -100
+		
+		}
+	}
+	
+	focus = {
+		
+		id = EGI_ethnic_equality
+		
+		cost = 8.00
+		
+		x = 3
+		
+		y = 1
+		
+		mutually_exclusive = {
+			focus = EGI_fang_supremacy
+		}
+		
+		completion_reward = {
+			
+			add_ideas = idea_EGI_ethnic_reconciliation
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_end_the_tribal_civil_war
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_fang_supremacy
+		
+		cost = 8.00
+		
+		x = 7
+		
+		y = 1
+		
+		mutually_exclusive = {
+			focus = EGI_ethnic_equality
+		}
+		
+		completion_reward = {
+			
+			add_ideas = idea_EGI_ethnic_fang_supremacy
+			add_popularity = {
+				ideology = nationalism
+				popularity = +0.05
+			}		
+				
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_end_the_tribal_civil_war
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_tryanny_of_the_majority
+		
+		cost = 8.00
+		
+		x = 7
+		
+		y = 2
+
+		completion_reward = {
+			
+			add_political_power = -50
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_fang_supremacy
+		
+		}
+		
+	}
+
+	focus = {
+		
+		id = EGI_esanguii_clan_officials
+		
+		cost = 8.00
+		
+		x = 7
+		
+		y = 3
+
+		completion_reward = {
+			
+			add_ideas = idea_EGI_esanguii_clan_bias
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_tryanny_of_the_majority
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_greater_cultural_acceptance
+		
+		cost = 8.00
+		
+		x = 3
+		
+		y = 2
+
+		completion_reward = {
+			
+			add_political_power = +50
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_ethnic_equality
+	
+		}
+		
+	}
+
+	
+	focus = {
+		
+		id = EGI_the_anti_spanish_riots_of_santa_isabel
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 0
+			
+		mutually_exclusive = {
+			focus = EGI_spanish_integralism
+		}	
+		
+		completion_reward = {
+			
+			add_ideas = idea_EGI_emancipado_unrest
+			
+			add_popularity = {
+				ideology = nationalism
+				popularity = +0.3
+			
+			}	
+			
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+			
+		}
+
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_legitimize_equatoguinean_nationalist_activism
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 1
+
+		completion_reward = {
+					
+			add_popularity = {
+				ideology = democratic
+				popularity = +0.05
+			
+			}
+			
+			add_stability = +0.1
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_the_anti_spanish_riots_of_santa_isabel
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_us_envoy_to_spain
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 2
+
+		completion_reward = {
+					
+				add_autonomy_ratio = {
+					value = 0.6
+				}	
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_legitimize_equatoguinean_nationalist_activism
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_establish_transitional_government
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 3
+
+		
+		completion_reward = {
+			
+			remove_ideas = emancipado_unrest
+			
+			
+			set_politics = {
+				
+				parties = {
+			
+					conservative = { 
+						popularity = 30
+					}
+					
+				}
+	
+				ruling_party = conservative
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_us_envoy_to_spain
+	
+		}
+		
+	}
+	
+
+
+
+
+
+
+
+	focus = {
+		
+		id = EGI_spanish_integralism
+		
+		cost = 10.00
+		
+		x = 16
+		
+		y = 0
+
+		mutually_exclusive = {
+			focus = EGI_the_anti_spanish_riots_of_santa_isabel
+		}
+		
+		mutually_exclusive = {
+			focus = EGI_end_the_tribal_civil_war
+		}
+		
+		completion_reward = {
+					
+				add_stability = +0.2
+			
+		}
+			
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_exploit_fernando_po_colonial_oil_refining
+		
+		cost = 10.00
+		
+		x = 13
+		
+		y = 1
+		
+		completion_reward = {
+					
+		297 = {
+				add_resource = {
+					type = oil
+					amount = 4
+				}
+		}	
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_spanish_integralism
+	
+		}
+		
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_expand_colonial_administrative_transportation
+		
+		cost = 10.00
+		
+		x = 13
+		
+		y = 2
+		
+		completion_reward = {
+					
+			1250 {
+				add_building_construction = {	
+					
+						type = infrastructure
+					
+						level = 1
+					
+						instant_build = yes
+						
+				}
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_exploit_fernando_po_colonial_oil_refining
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_assemble_merchant_fleet
+		
+		cost = 10.00
+		
+		x = 14
+		
+		y = 3
+		
+		completion_reward = {
+					
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 5
+				producer = EGI
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_expand_colonial_administrative_transportation
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_build_the_bata_jetty
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_build_the_bata_jetty
+		
+		cost = 10.00
+		
+		x = 15
+		
+		y = 2
+		
+		completion_reward = {
+			
+			1250 = {
+				add_extra_state_shared_building_slots = 1
+				
+				add_building_construction = {
+					
+					
+					type = dockyard
+					
+					level = 1
+					
+					instant_build = yes
+					
+				}
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_invest_in_rio_muni_industry
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_invest_in_rio_muni_industry
+		
+		cost = 10.00
+		
+		x = 15
+		
+		y = 1
+		
+		completion_reward = {
+			
+			1250 = {
+				add_extra_state_shared_building_slots = 1
+				
+				add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+				}
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_spanish_integralism
+	
+		}
+		
+		
+	}
+	
+	
+		focus = {
+		
+		id = EGI_strengthen_colonialism
+		
+		cost = 10.00
+		
+		x = 18
+		
+		y = 1
+		
+		completion_reward = {
+			
+			add_political_power = +50
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_spanish_integralism
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_emancipados_in_spanish_parliment
+		
+		cost = 10.00
+		
+		x = 17
+		
+		y = 2
+		
+		mutually_exclusive = {
+			focus = EGI_fernandino_descrimination
+		}
+		
+		completion_reward = {
+			
+			add_stability = +0.2
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_strengthen_colonialism
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_fernandino_descrimination
+		
+		cost = 10.00
+		
+		x = 19
+		
+		y = 2
+		
+		mutually_exclusive = {
+			focus = EGI_emancipados_in_spanish_parliment
+		}
+		
+		completion_reward = {
+			
+			add_stability = -0.2
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_strengthen_colonialism
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_return_newly_stabilized_guinea_as_a_state
+		
+		cost = 10.00
+		
+		x = 19
+		
+		y = 3
+		
+		completion_reward = {
+			
+			SPR = {
+			
+				annex_country = {
+					target = EGI
+					transfer_troops = yes
+				}
+			
+			}
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_fernandino_descrimination
+	
+		}
+		
+		
+	}
+	
+	focus = {
+		
+		id = EGI_status_quo
+		
+		cost = 10.00
+		
+		x = 17
+		
+		y = 3
+		
+		completion_reward = {
+			
+			add_ideas = idea_EGI_hardline_spanish_integralism
+			
+		}
+			
+		
+		prerequisite = {
+			
+			focus = EGI_emancipados_in_spanish_parliment
+	
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_un_general_assembly_pressures_spain
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 4
+
+		completion_reward = {
+					
+			drop_cosmetic_tag = yes
+			
+			set_autonomy = {
+				target = EGI
+				autonomy_state = autonomy_free
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_esanguii_clan_officials
+			
+		}
+		
+		prerequisite = {
+		
+			focus = EGI_establish_transitional_government
+			
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_hold_first_general_election
+		
+		cost = 8.00
+		
+		x = 26
+		
+		y = 5
+
+		completion_reward = {
+					
+			country_event = {
+				id = egi.2
+				days = 1
+				random = 50
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_un_general_assembly_pressures_spain
+			
+		}
+
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_restore_bubi_kingdom
+		
+		cost = 10.00
+		
+		x = 3
+		
+		y = 8	
+		
+		completion_reward = {
+			
+					
+			set_politics = {
+				
+				parties = {
+			
+					monarchism = { 
+						popularity = 50
+					}
+					
+				}
+	
+				ruling_party = monarchism
+			}
+		
+			drop_cosmetic_tag = yes
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_greater_cultural_acceptance
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_establish_transitional_government
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_crown_malabo_ii
+		
+		cost = 10.00
+		
+		x = 3
+		
+		y = 9
+
+		
+		
+		completion_reward = {
+			
+			add_popularity = {
+			
+				ideology = monarchism
+				
+				popularity = +0.1
+			
+			}
+		
+			add_ideas = idea_EGI_king_malabo_ii
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_restore_bubi_kingdom
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_clan_assimiliation
+		
+		cost = 10.00
+		
+		x = 2
+		
+		y = 10
+
+		
+		
+		completion_reward = {
+
+			add_stability = +0.05
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_crown_malabo_ii
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_popularize_bubi_culture
+		
+		cost = 10.00
+		
+		x = 4
+		
+		y = 10
+
+		
+		
+		completion_reward = {
+
+			add_political_power = 50
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_crown_malabo_ii
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_the_cult_of_morim
+		
+		cost = 10.00
+		
+		x = 3
+		
+		y = 11
+
+		
+		
+		completion_reward = {
+
+			add_ideas = idea_EGI_cult_of_morim
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_popularize_bubi_culture
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_clan_assimiliation
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_defend_the_kingdom
+		
+		cost = 10.00
+		
+		x = 1
+		
+		y = 11
+
+		
+		
+		completion_reward = {
+
+			add_ideas = idea_EGI_defense_of_the_kingdom
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_clan_assimiliation
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_employ_bubi_peasants
+		
+		cost = 10.00
+		
+		x = 5
+		
+		y = 11
+
+		
+		
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+		
+			add_building_construction = {
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_popularize_bubi_culture
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_restore_oral_traditions
+		
+		cost = 10.00
+		
+		x = 2
+		
+		y = 12
+
+		
+		
+		completion_reward = {
+
+			add_political_power = +50
+			
+			army_experience = 20
+			
+		}
+		
+
+		
+		prerequisite = {
+			
+			focus = EGI_employ_bubi_peasants
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_the_cult_of_morim
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_defend_the_kingdom
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_ethnic_tattooing
+		
+		cost = 10.00
+		
+		x = 4
+		
+		y = 12
+
+		
+		
+		completion_reward = {
+
+			add_political_power = +50
+			
+		}
+		
+
+		
+		prerequisite = {
+			
+			focus = EGI_employ_bubi_peasants
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_the_cult_of_morim
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_defend_the_kingdom
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_diplomatic_ties_with_the_uk
+		
+		cost = 10.00
+		
+		x = 3
+		
+		y = 13
+
+		
+		
+		completion_reward = {
+
+			add_opinion_modifier = { 
+			target = ENG
+			modifier = large_increase 
+			}
+			
+			ENG = {
+				add_opinion_modifier = { 
+				target = EGI
+				modifier = large_increase 
+				}
+			}
+		}
+		
+
+		
+		prerequisite = {
+			
+			focus = EGI_restore_oral_traditions
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_ethnic_tattooing
+	
+		}
+		
+
+	}
+	
+	focus = {
+		
+		id = EGI_the_royal_shipment
+		
+		cost = 10.00
+		
+		x = 2
+		
+		y = 14
+
+		
+		
+		completion_reward = {
+
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = ENG
+			}
+		
+			add_equipment_to_stockpile = {
+				type = jet_multirole_equipment_2
+				amount = 50
+				producer = ENG
+			}
+		
+			add_equipment_to_stockpile = {
+				type = mbt_equipment_2
+				amount = 50
+				producer = ENG
+			}
+			
+		}
+		
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_with_the_uk
+	
+		}
+		
+
+	}
+
+	focus = {
+		
+		id = EGI_hire_british_advisors
+		
+		cost = 10.00
+		
+		x = 4
+		
+		y = 14
+
+		
+		
+		completion_reward = {
+
+			add_ideas = british_advisors
+			
+		}
+		
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_with_the_uk
+	
+		}
+		
+
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_president_bonifacio_ondo_edu
+		
+		cost = 10.00
+		
+		x = 12
+		
+		y = 8
+
+		available = {
+			always = no
+		}
+		
+
+	}	
+	
+	
+	focus = {
+		
+		id = EGI_embrace_catholicism
+		
+		cost = 10.00
+		
+		x = 10
+		
+		y = 9
+	
+	
+		completion_reward = {
+
+			add_opinion_modifier = { 
+				target = VTC
+				modifier = medium_increase 
+			}
+			
+			VTC = {
+				add_opinion_modifier = { 
+					target = EGI
+					modifier = medium_increase 
+				}
+			}
+		}
+		
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_president_bonifacio_ondo_edu
+	
+		}
+		
+
+	}	
+	
+	focus = {
+		
+		id = EGI_early_autarky
+		
+		cost = 10.00
+		
+		x = 14
+		
+		y = 9
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+			
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_president_bonifacio_ondo_edu
+	
+		}
+		
+
+	}	
+	
+	focus = {
+		
+		id = EGI_diplomatic_ties_to_the_US
+		
+		cost = 10.00
+		
+		x = 13
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_opinion_modifier = { 
+				target = USA
+				modifier = medium_increase 
+			}
+			
+			USA = {
+				add_opinion_modifier = { 
+					target = EGI
+					modifier = medium_increase 
+				}
+			}	
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_early_autarky
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_embrace_catholicism
+	
+		}
+		
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_maintain_spanish_relations
+		
+		cost = 10.00
+		
+		x = 11
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_opinion_modifier = { 
+				target = SPR
+				modifier = medium_increase 
+			}
+			
+			SPR = {
+				add_opinion_modifier = { 
+					target = EGI
+					modifier = medium_increase 
+				}
+			}	
+
+			
+			SPR = {
+				
+				diplomatic_relation = {
+					country = EGI
+					relation = guarantee
+				}
+				
+			}
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_early_autarky
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_embrace_catholicism
+	
+		}
+		
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_begin_industrialization
+		
+		cost = 10.00
+		
+		x = 14
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+			
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_maintain_spanish_relations
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_to_the_US
+	
+		}
+		
+		
+	}
+
+	focus = {
+		
+		id = EGI_build_hispanophone_universities
+		
+		cost = 10.00
+		
+		x = 10
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_research_slot = 1
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_maintain_spanish_relations
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_to_the_US
+	
+		}
+		
+		
+	}
+
+	focus = {
+		
+		id = EGI_build_hispanophone_universities
+		
+		cost = 10.00
+		
+		x = 10
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_research_slot = 1
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_maintain_spanish_relations
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_to_the_US
+	
+		}
+		
+		
+	}
+
+	focus = {
+		
+		id = EGI_move_capital_to_mainland
+		
+		cost = 10.00
+		
+		x = 12
+		
+		y = 12
+	
+	
+		completion_reward = {
+
+			set_capital = 1250
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_build_hispanophone_universities
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_begin_industrialization
+	
+		}
+		
+		
+	}
+
+	focus = {
+		
+		id = EGI_build_our_prestige
+		
+		cost = 10.00
+		
+		x = 10
+		
+		y = 13
+	
+	
+		completion_reward = {
+
+			add_political_power = +50
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_move_capital_to_mainland
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_rio_muni_garmet_industry
+		
+		cost = 10.00
+		
+		x = 14
+		
+		y = 13
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+			
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_move_capital_to_mainland
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_stability_and_saftey
+		
+		cost = 10.00
+		
+		x = 12
+		
+		y = 14
+	
+	
+		completion_reward = {
+
+			add_stability = +0.1
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_rio_muni_garmet_industry
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_build_our_prestige
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_us_upbringing
+		
+		cost = 10.00
+		
+		x = 12
+		
+		y = 15
+	
+	
+		completion_reward = {
+
+			add_equipment_to_stockpile = {
+				
+				type = infantry_equipment
+				amount = 10000
+				producer = USA
+			}
+		
+			add_equipment_to_stockpile = {
+				
+				type = jet_multirole_equipment_2
+				amount = 50
+				producer = USA
+			}
+		
+			add_equipment_to_stockpile = {
+				
+				type = mbt_equipment_2
+				amount = 50
+				producer = USA
+			}
+		
+		}
+
+	
+		
+		prerequisite = {
+			
+			focus = EGI_stability_and_saftey
+	
+		}
+		
+		
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_president_francisco_macias_nguema
+		
+		cost = 10.00
+		
+		available = {
+			always = no
+		}
+		
+		x = 26
+		
+		y = 8
+	
+	
+		completion_reward = {
+
+			set_party_name = {
+
+				ideology = fascism
+
+				name = "PUN"
+
+				long_name = "Partido Único Nacional"
+
+			}
+		
+		}
+		
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_execute_ondo_edu
+		
+		cost = 10.00
+		
+		x = 26
+		
+		y = 9
+	
+	
+		completion_reward = {
+
+			add_popularity = {
+				ideology = conservative
+				popularity = -0.2
+			}
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_president_francisco_macias_nguema
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_decree_415
+		
+		cost = 10.00
+		
+		x = 26
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			country_event = {
+				id = egi.1
+				days = 1
+				random = 50
+			}
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_execute_ondo_edu
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_kill_the_governor_of_the_central_bank
+		
+		cost = 10.00
+		
+		x = 23
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_stability = -0.05
+			
+			add_political_power = +50
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_decree_415
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_rampant_nepotism
+		
+		cost = 10.00
+		
+		x = 21
+		
+		y = 12
+	
+	
+		completion_reward = {
+
+			add_ideas = idea_EGI_rampant_nepotism
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_kill_the_governor_of_the_central_bank
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_youth_in_march_with_macias
+		
+		cost = 10.00
+		
+		x = 25
+		
+		y = 12
+	
+	
+		completion_reward = {
+
+			add_ideas = idea_EGI_esanguii_militias
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_kill_the_governor_of_the_central_bank
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_there_is_no_god_but_nguema
+		
+		cost = 10.00
+		
+		x = 29
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_ideas = idea_EGI_there_is_no_god_but_nguema
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_decree_415
+	
+		}
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_cult_of_personality
+		
+		cost = 10.00
+		
+		x = 27
+		
+		y = 12
+	
+	
+		completion_reward = {
+
+			add_political_power = +50
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_there_is_no_god_but_nguema
+	
+		}
+		
+	}
+	
+	
+	focus = {
+		
+		id = EGI_open_north_korean_embassy
+		
+		cost = 10.00
+		
+		x = 20
+		
+		y = 13
+	
+	
+		completion_reward = {
+
+			add_opinion_modifier = { 
+				target = KPA
+				modifier = medium_increase 
+			}
+			
+			KPA = {
+				add_opinion_modifier = { 
+					target = EGI
+					modifier = medium_increase 
+				}
+			}
+			
+			
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_rampant_nepotism
+	
+		}
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_rename_the_party
+		
+		cost = 10.00
+		
+		x = 23
+		
+		y = 13
+	
+	
+		completion_reward = {
+		
+			set_party_name = {
+
+				ideology = fascism
+
+				name = "PUNT"
+
+				long_name = "Partido Único Nacional de los Trabajadores"
+
+			}
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_rampant_nepotism
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_youth_in_march_with_macias
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_replace_the_constitution
+		
+		cost = 10.00
+		
+		x = 31
+		
+		y = 12
+	
+	
+		completion_reward = {
+		
+			add_stability = +0.1
+			
+			add_political_power = 50
+		
+		}
+		
+		
+		prerequisite = {
+			
+			focus = EGI_there_is_no_god_but_nguema
+	
+		}
+		
+	}		
+		
+	
+	focus = {
+		
+		id = EGI_ussr_builds_bata_dockyard
+		
+		cost = 10.00
+		
+		x = 26
+		
+		y = 13
+	
+	
+		completion_reward = {
+		
+			1250 = {
+				
+				add_extra_state_shared_building_slots = 1
+				
+				add_building_construction = {
+					
+					
+					type = dockyard
+					
+					level = 1
+					
+					instant_build = yes
+
+				}
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_youth_in_march_with_macias
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_cult_of_personality
+	
+		}
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_nguemize_colonial_names
+		
+		cost = 10.00
+		
+		x = 29
+		
+		y = 13
+	
+	
+		completion_reward = {
+		
+			297 = { set_state_name = "Bioko" }
+			
+			set_province_name = { id = 1903 name = "Malabo"}
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_replace_the_constitution
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_cult_of_personality
+	
+		}
+		
+	}		
+	
+	focus = {
+		
+		id = EGI_christmas_eve_massacre
+		
+		cost = 10.00
+		
+		x = 32
+		
+		y = 13
+	
+	
+		completion_reward = {
+		
+			add_popularity = {
+				ideology = nationalism
+				popularity = -0.2
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_replace_the_constitution
+	
+		}
+		
+	}	
+	
+	
+		focus = {
+		
+		id = EGI_diplomatic_ties_with_the_ussr
+		
+		cost = 10.00
+		
+		x = 21
+		
+		y = 14
+	
+	
+		completion_reward = {
+		
+			add_opinion_modifier = { 
+				target = SOV
+				modifier = medium_increase 
+			}
+			
+			SOV = {
+				add_opinion_modifier = { 
+					target = EGI
+					modifier = medium_increase 
+				}
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_rename_the_party
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_open_north_korean_embassy
+	
+		}
+		
+	}
+	
+			focus = {
+		
+		id = EGI_found_black_beach_prison
+		
+		cost = 10.00
+		
+		x = 31
+		
+		y = 14
+	
+	
+		completion_reward = {
+		
+			add_ideas = idea_EGI_black_beach_prison
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_nguemize_colonial_names
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_christmas_eve_massacre
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_the_red_shipment
+		
+		cost = 10.00
+		
+		x = 25
+		
+		y = 15
+	
+	
+		completion_reward = {
+		
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = SOV
+			}
+		
+			add_equipment_to_stockpile = {
+				type = jet_multirole_equipment_1
+				amount = 50
+				producer = SOV
+			}
+		
+			add_equipment_to_stockpile = {
+				type = mbt_equipment_1
+				amount = 50
+				producer = SOV
+			}
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_with_the_ussr
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_ussr_builds_bata_dockyard
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_north_korean_advisors
+		
+		cost = 10.00
+		
+		x = 27
+		
+		y = 15
+	
+	
+		completion_reward = {
+		
+			add_ideas = idea_EGI_north_korean_advisors
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_found_black_beach_prison
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_ussr_builds_bata_dockyard
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_malabo_international_airport
+		
+		cost = 10.00
+		
+		x = 26
+		
+		y = 16
+	
+	
+		completion_reward = {
+		
+			297 = {
+				add_building_construction = {
+						type = air_base
+						level = 1
+						instant_build = yes
+				}
+			}
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_north_korean_advisors
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_the_red_shipment
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_the_dachau_of_africa
+		
+		cost = 10.00
+		
+		x = 25
+		
+		y = 17
+	
+	
+		completion_reward = {
+		
+			add_ideas = idea_EGI_the_dachau_of_africa
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_malabo_international_airport
+	
+		}
+		
+		
+	}
+	
+	
+	focus = {
+		
+		id = EGI_flight_of_the_people
+		
+		cost = 10.00
+		
+		x = 27
+		
+		y = 17
+	
+	
+		completion_reward = {
+		
+			add_manpower = -5000
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_malabo_international_airport
+	
+		}
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_president_atanasio_ndongo_miyone
+		
+		available = {
+			always = no
+		}
+		
+		cost = 10.00
+		
+		x = 46
+		
+		y = 8
+	
+	
+		completion_reward = {
+
+			
+		
+		}
+		
+		
+		
+	}
+	
+	
+	focus = {
+		
+		id = EGI_create_national_identity
+		
+		cost = 10.00
+		
+		x = 42
+		
+		y = 9
+	
+	
+		completion_reward = {
+
+			add_stability = +0.2
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_president_atanasio_ndongo_miyone
+	
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_war_on_poverty
+		
+		cost = 10.00
+		
+		x = 40
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_create_national_identity
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_africanize_colonial_names
+		
+		cost = 10.00
+		
+		x = 44
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			297 = { set_state_name = "Otcho" }
+			
+			set_province_name = { id = 1903 name = "Malabo"}
+			
+			1250 = { set_state_name = "Mbini" }
+
+		}
+		
+		
+		
+		prerequisite = {
+			
+			focus = EGI_create_national_identity
+	
+		}
+		
+	}	
+	
+	focus = {
+		
+		id = EGI_new_industries
+		
+		cost = 10.00
+		
+		x = 50
+		
+		y = 9
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_president_atanasio_ndongo_miyone
+	
+		}	
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_change_official_language_to_fang
+		
+		cost = 10.00
+		
+		x = 48
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_popularity = {
+				ideology = nationalism
+				popularity = +0.15
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_new_industries
+	
+		}	
+	
+	}		
+	
+	focus = {
+		
+		id = EGI_economic_independence
+		
+		cost = 10.00
+		
+		x = 52
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_new_industries
+	
+		}	
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_economic_independence
+		
+		cost = 10.00
+		
+		x = 52
+		
+		y = 10
+	
+	
+		completion_reward = {
+
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_new_industries
+	
+		}	
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_guard_against_neo_imperialism
+		
+		cost = 10.00
+		
+		x = 42
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_ideas = idea_EGI_guardian_of_the_coast_of_guinea
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_africanize_colonial_names
+	
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_war_on_poverty
+	
+		}
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_move_capital_to_bata
+		
+		cost = 10.00
+		
+		x = 46
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			set_capital = 1250
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_africanize_colonial_names
+	
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_change_official_language_to_fang
+	
+		}
+	
+	}		
+	
+	
+	
+	focus = {
+		
+		id = EGI_end_superstitions
+		
+		cost = 10.00
+		
+		x = 50
+		
+		y = 11
+	
+	
+		completion_reward = {
+
+			add_political_power = +50
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_economic_independence
+	
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_change_official_language_to_fang
+	
+		}
+	
+	}		
+	
+	focus = {
+		
+		id = EGI_protect_guinea
+		
+		cost = 10.00
+		
+		x = 44
+		
+		y = 12
+	
+	
+		completion_reward = {
+
+			
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = arms_factory
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_guard_against_neo_imperialism
+	
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_move_capital_to_bata
+	
+		}
+	
+	}
+	
+	focus = {
+		
+		id = reduce_illiteracy
+		
+		cost = 10.00
+		
+		x = 48
+		
+		y = 12
+	
+	
+		completion_reward = {
+	
+			add_research_slot = 1
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_end_superstitions
+	
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_move_capital_to_bata
+	
+		}
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_protect_ethnic_minorities
+		
+		cost = 10.00
+		
+		x = 43
+		
+		y = 13
+	
+	
+		completion_reward = {
+	
+			remove_ideas = idea_EGI_ethnic_fang_supremacy
+			
+			remove_ideas = idea_EGI_esanguii_clan_bias
+		
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_protect_guinea
+	
+		}
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_diplomatic_ties_with_ghana
+		
+		cost = 10.00
+		
+		x = 49
+		
+		y = 13
+	
+	
+		completion_reward = {
+	
+			add_opinion_modifier = { 
+			target = GHA
+			modifier = large_increase 
+			}
+			
+			GHA = {
+				add_opinion_modifier = { 
+				target = EGI
+				modifier = large_increase 
+				}
+			}
+		
+		}	
+	
+		prerequisite = {
+			
+			focus = reduce_illiteracy
+	
+		}
+	
+	}
+	
+	focus = {
+		
+		id = EGI_train_native_officers
+		
+		cost = 10.00
+		
+		x = 44
+		
+		y = 14
+	
+	
+		completion_reward = {
+	
+			army_experience = 25
+		
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_protect_ethnic_minorities
+	
+		}
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_we_are_africans
+		
+		cost = 10.00
+		
+		x = 48
+		
+		y = 14
+	
+	
+		completion_reward = {
+	
+			add_stability = +0.1
+			
+			add_political_power = +50
+			
+			add_popularity = {
+				ideology = nationalism
+				popularity = +0.15
+			}
+		
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_diplomatic_ties_with_ghana
+	
+		}
+	
+	}	
+	
+	focus = {
+		
+		id = EGI_rise_o_equatoguineans
+		
+		cost = 10.00
+		
+		x = 46
+		
+		y = 15
+	
+	
+		completion_reward = {
+	
+			add_ideas = idea_EGI_rise_o_equatoguineans
+		
+		}	
+	
+		prerequisite = {
+			
+			focus = EGI_we_are_africans
+	
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_train_native_officers
+	
+		}
+	
+	}		
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_equatoguinean_mobilization
+		
+		cost = 10.00
+		
+		x = -3
+		
+		y = 0
+
+		completion_reward = {
+					
+			add_manpower = 5000
+					
+		}
+		
+	}
+	
+	focus = {
+		id = EGI_utilize_spanish_training_manuels
+		
+		cost = 10.00
+		
+		x = -3
+		
+		y = 1
+
+		completion_reward = {
+					
+			add_tech_bonus = {
+				bonus = 0.20
+				uses = 2
+				category = land_doctrine
+			}
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_equatoguinean_mobilization
+		
+		}
+		
+	}
+	
+	focus = {
+		id = EGI_replace_colonial_equipment
+		
+		cost = 10.00
+		
+		x = -3
+		
+		y = 2
+
+		
+		completion_reward = {
+					
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 1
+				category = infantry_weapons
+			}
+					
+		}
+		
+		prerequisite = {
+			focus = EGI_utilize_spanish_training_manuels
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_motorize_equatoguineans
+		
+		cost = 10.00
+		
+		x = -5
+		
+		y = 2
+
+		completion_reward = {
+					
+			add_ideas = idea_EGI_motorized_equatoguineans
+				
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 1
+				category = motorized_equipment
+			}	
+			
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_utilize_spanish_training_manuels
+		
+		}
+		
+	}
+	
+		focus = {
+		
+		id = EGI_invite_foreign_observers
+		
+		cost = 10.00
+		
+		x = -1
+		
+		y = 2
+
+		
+		completion_reward = {
+					
+			add_ideas = idea_EGI_foreign_military_observers
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_utilize_spanish_training_manuels
+		
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_equatoguinean_air_force
+		
+		cost = 10.00
+		
+		x = -8
+	
+		y = 1
+		
+		completion_reward = {
+					
+			air_experience = 10
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_equatoguinean_mobilization
+		
+		}
+		
+	}
+	
+	focus = {
+	
+		id = EGI_reverse_engineer_spanish_designs
+		
+		cost = 10.00
+		
+		x = -9
+		
+		y = 2
+
+	
+		completion_reward = {
+					
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = light_fighter
+			}
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_equatoguinean_air_force
+		
+		}
+		
+	}
+
+	focus = {
+		
+		id = EGI_primitive_runways_logistics
+		
+		cost = 10.00
+		
+		x = -7
+		
+		y = 2
+		
+		completion_reward = {
+					
+			add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+			}
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_equatoguinean_air_force
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_early_armorization
+		
+		cost = 10.00
+		
+		x = -4
+		
+		y = 3
+		
+		completion_reward = {
+					
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = armor
+			}		
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_replace_colonial_equipment
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_jungle_warfare
+		
+		cost = 10.00
+		
+		x = -2
+		
+		y = 3
+		
+		completion_reward = {
+					
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 1
+				category = sf_forces
+			}
+
+			add_ideas = idea_EGI_jungle_warfare
+					
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_replace_colonial_equipment
+		
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_protect_our_corridor
+		
+		cost = 10.00
+		
+		x = -14
+		
+		y = 0
+
+		completion_reward = {
+			
+			add_equipment_to_stockpile = {
+				type = convoy
+				amount = 5
+				producer = EGI
+			}
+
+			add_extra_state_shared_building_slots = 3
+				
+			add_building_construction = {
+					
+					
+					type = dockyard
+					
+					level = 3
+					
+					instant_build = yes
+					
+			}
+					
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_buy_submarine_designs
+		
+		cost = 10.00
+		
+		x = -15
+		
+		y = 1
+
+		completion_reward = {
+		
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = ss_tech
+			}	
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_protect_our_corridor
+		
+		}
+		
+	}
+
+	focus = {
+		
+		id = EGI_research_soviet_doctrine
+		
+		cost = 10.00
+		
+		x = -13
+		
+		y = 1
+
+		completion_reward = {
+		
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 2
+				category = submarine_doctrine
+			}	
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_protect_our_corridor
+		
+		}
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	focus = {
+		
+		id = EGI_modernize_colonial_industry
+		
+		cost = 10.00
+		
+		x = -22
+		
+		y = 0
+	
+		completion_reward = {
+		
+			add_tech_bonus = {
+				bonus = 0.2
+				uses = 3
+				category = industry
+			}	
+		
+		}
+	
+	}
+
+	focus = {
+		id = EGI_mainland_aluminum_deposits
+		
+		cost = 10.00
+		
+		x = -19
+		
+		y = 1
+
+		completion_reward = {
+		
+			1250 = {
+				add_resource = {
+					type = aluminium
+					amount = 12
+				}
+			}
+		
+		}
+		
+		prerequisite = {
+		
+		focus = EGI_modernize_colonial_industry
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_expand_fernando_po_oil_refining
+		
+		cost = 10.00
+		
+		x = -19
+		
+		y = 2
+		
+		completion_reward = {
+		
+			297 = {
+				add_resource = {
+					type = oil
+					amount = 15
+				}
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_mainland_aluminum_deposits
+		
+		}
+		
+	}
+	
+	focus = {
+		id = EGI_refurbish_republican_manufacturies
+		
+		cost = 10.00
+		
+		x = -25
+		
+		y = 1
+
+		completion_reward = {
+		
+			add_extra_state_shared_building_slots = 2
+				
+			add_building_construction = {
+					
+					
+					type = arms_factory
+					
+					level = 2
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_modernize_colonial_industry
+		
+		}
+		
+	}
+	
+	focus = {
+		id = EGI_repurpose_lumber_mills
+		
+		cost = 10.00
+		
+		x = -22
+		
+		y = 1
+		
+		completion_reward = {
+		
+			add_extra_state_shared_building_slots = 1
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 1
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			focus = EGI_modernize_colonial_industry
+		}
+		
+	}
+	
+	focus = {
+		id = EGI_continue_rio_muni_roadwork
+		
+		cost = 10.00
+		
+		x = -25
+		
+		y = 2
+
+		completion_reward = {
+		
+			1250 {
+				add_building_construction = {	
+					
+						type = infrastructure
+					
+						level = 1
+					
+						instant_build = yes
+						
+				}
+			}
+		}
+		
+		prerequisite = {
+			focus = EGI_refurbish_republican_manufacturies
+		}
+		
+	}
+	focus = {
+	
+		id = EGI_fernando_po_highway
+		
+		cost = 10.00
+		
+		x = -26
+		
+		y = 3
+		
+		completion_reward = {
+		
+			297 {
+				add_building_construction = {	
+					
+					type = infrastructure
+					
+					level = 1
+					
+					instant_build = yes
+					
+				}
+			}
+		}
+		
+		prerequisite = {
+			
+		focus = EGI_continue_rio_muni_roadwork
+		
+		}
+	}
+	focus = {
+		
+		id = EGI_repurpose_coffee_processing_plants
+		
+		cost = 10.00
+		
+		x = -22
+			
+		y = 2
+			
+		completion_reward = {
+		
+			add_extra_state_shared_building_slots = 2
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 2
+					
+					instant_build = yes
+					
+			}
+		
+		}
+			
+		prerequisite = {
+			
+		focus = EGI_repurpose_lumber_mills
+		
+		}
+	}
+
+	focus = {
+		
+		id = EGI_finish_rio_muni_roadwork
+		
+		cost = 10.00
+		
+		x = -24
+		
+		y = 3
+		
+		completion_reward = {
+		
+			1250 {
+				add_building_construction = {	
+					
+						type = infrastructure
+					
+						level = 1
+					
+						instant_build = yes
+						
+				}
+			}
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_continue_rio_muni_roadwork
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_equatoguinean_middle_class_industry
+		
+		cost = 10.00
+		
+		x = -22
+		
+		y = 3
+		
+		completion_reward = {
+		
+			add_extra_state_shared_building_slots = 3
+				
+			add_building_construction = {
+					
+					
+					type = industrial_complex
+					
+					level = 3
+					
+					instant_build = yes
+					
+			}
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_repurpose_coffee_processing_plants
+		
+		}
+		
+	}
+	
+	focus = {
+		
+		id = EGI_trade_skills_education
+		
+		cost = 10.00
+		
+		x = -19
+		
+		y = 3
+		
+		completion_reward = {
+		
+			add_research_slot = 1
+		
+		}
+		
+		prerequisite = {
+			
+			focus = EGI_expand_fernando_po_oil_refining
+		
+		}
+		
+	}
+	
+}
