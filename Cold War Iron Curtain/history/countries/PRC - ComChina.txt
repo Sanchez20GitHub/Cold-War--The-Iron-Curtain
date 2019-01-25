@@ -146,7 +146,7 @@ add_ideas = {
 	population_growth_explosion
 	foreign_aggression_policy_6
 	defcon_system_5
-	SOV_government_corruption
+	SOV_government_corruption_endemic
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }
@@ -323,7 +323,7 @@ create_corps_commander = {
 }
 
 1960.1.1 = {
-	remove_ideas = SOV_government_corruption
+	remove_ideas = SOV_government_corruption_endemic
 	oob = "PRC_1960"
 	#load_focus_tree = PRC_1960s
 	#set_country_flag = focus_tree_60_reset
