@@ -1715,11 +1715,7 @@ technologies = {
 		enable_subunits = {
 			motorized_infantry
 		}
-		
-		sub_technologies = {
-			sp_rocket1
-		}
-				
+
 		research_cost = 2
 		start_year = 1942
 		
@@ -1757,10 +1753,6 @@ technologies = {
 			motorized_equipment_2
 		}
 		
-		sub_technologies = {
-			sp_rocket2
-		}
-		
 		research_cost = 2
 		start_year = 1947	
 		
@@ -1791,10 +1783,6 @@ technologies = {
 		
 		enable_equipments = {
 			motorized_equipment_3
-		}
-		
-		sub_technologies = {
-			sp_rocket3
 		}
 		
 		research_cost = 2
@@ -1829,10 +1817,6 @@ technologies = {
 			motorized_equipment_4
 		}
 		
-		sub_technologies = {
-			sp_rocket4
-		}
-		
 		research_cost = 2
 		start_year = 1975
 		
@@ -1865,10 +1849,6 @@ technologies = {
 			motorized_equipment_5
 		}
 		
-		sub_technologies = {
-			sp_rocket5
-		}
-		
 		research_cost = 2
 		start_year = 1995
 		
@@ -1888,114 +1868,7 @@ technologies = {
 					
 	}
 
-###SP Rocket Artillery	
-	
-#1945
-	sp_rocket1 = {
 
-		enable_subunits = {
-			rocket_sp_artillery
-		}
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-		
-		research_cost = 1
-
-		start_year = 1945
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-
-#1960	
-
-	sp_rocket2 = {
-
-		enable_equipments = {
-			motorized_rocket_equipment_2
-		}
-		
-		research_cost = 1
-
-		start_year = 1960
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-
-#1975
-	
-	sp_rocket3 = {
-
-		enable_equipments = {
-			motorized_rocket_equipment_3
-		}
-		
-		research_cost = 1
-
-		start_year = 1975
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-
-#1990
-	
-	sp_rocket4 = {
-
-		enable_equipments = {
-			motorized_rocket_equipment_4
-		}
-		
-		research_cost = 1
-
-		start_year = 1990
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
-
-#2005	
-	
-	sp_rocket5 = {
-
-		enable_equipments = {
-			motorized_rocket_equipment_5
-		}
-		
-		research_cost = 1
-
-		start_year = 2005
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			artillery
-		}
-	}
 }
 	
 ####Made by Iron Courtain Team

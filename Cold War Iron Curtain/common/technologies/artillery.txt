@@ -2629,6 +2629,155 @@ technologies = {
 		}
 	}
 
+###SP Rocket Artillery	
+	
+#1945
+	sp_rocket1 = {
+
+		enable_subunits = {
+			rocket_sp_artillery
+		}
+		enable_equipments = {
+			motorized_rocket_equipment_1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		folder = {
+			name = artillery_folder
+			position = { x = 16 y = 2 }
+		}
+		
+		path = {
+			leads_to_tech = sp_rocket2 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+#1960	
+
+	sp_rocket2 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_2
+		}
+		
+		research_cost = 1
+
+		start_year = 1960
+		folder = {
+			name = artillery_folder
+			position = { x = 16 y = 10 }
+		}
+		
+		path = {
+			leads_to_tech = sp_rocket3 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+#1975
+	
+	sp_rocket3 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_3
+		}
+		
+		research_cost = 1
+
+		start_year = 1975
+		folder = {
+			name = artillery_folder
+			position = { x = 16 y = 16 }
+		}
+		
+		path = {
+			leads_to_tech = sp_rocket4 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+#1990
+	
+	sp_rocket4 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_4
+		}
+		
+		research_cost = 1
+
+		start_year = 1990
+		folder = {
+			name = artillery_folder
+			position = { x = 16 y = 22 }
+		}
+		
+		path = {
+			leads_to_tech = sp_rocket5
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+
+#2005	
+	
+	sp_rocket5 = {
+
+		enable_equipments = {
+			motorized_rocket_equipment_5
+		}
+		
+		research_cost = 1
+
+		start_year = 2005
+		folder = {
+			name = artillery_folder
+			position = { x = 16 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
 ###DIRECT FIRE GUN###
 
 ###DIRECT FIRE GUN 1
@@ -2668,7 +2817,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 0 }
+			position = { x = 24 y = 0 }
 		}
 		
 		ai_will_do = {
@@ -2711,7 +2860,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = 4 }
+			position = { x = 21 y = 4 }
 		}
 		
 		categories = {
@@ -2744,7 +2893,7 @@ technologies = {
 		start_year = 1940
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 2 }
+			position = { x = 24 y = 2 }
 		}
 		
 		categories = {
@@ -2797,7 +2946,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = artillery_folder
-			position = { x = 23 y = 4 }
+			position = { x = 27 y = 4 }
 		}
 		
 		categories = {
@@ -2844,7 +2993,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 6 }
+			position = { x = 24 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -2887,7 +3036,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = 10 }
+			position = { x = 21 y = 10 }
 		}
 		
 		categories = {
@@ -2916,7 +3065,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 8 }
+			position = { x = 24 y = 8 }
 		}
 		
 		categories = {
@@ -2969,7 +3118,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = artillery_folder
-			position = { x = 23 y = 10 }
+			position = { x = 27 y = 10 }
 		}
 		
 		categories = {
@@ -3016,7 +3165,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 12 }
+			position = { x = 24 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -3059,7 +3208,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = 16 }
+			position = { x = 21 y = 16 }
 		}
 		
 		categories = {
@@ -3088,7 +3237,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 14 }
+			position = { x = 24 y = 14 }
 		}
 		
 		categories = {
@@ -3141,7 +3290,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = artillery_folder
-			position = { x = 23 y = 16 }
+			position = { x = 27 y = 16 }
 		}
 		
 		categories = {
@@ -3188,7 +3337,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 18 }
+			position = { x = 24 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -3231,7 +3380,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = 22 }
+			position = { x = 21 y = 22 }
 		}
 		
 		categories = {
@@ -3260,7 +3409,7 @@ technologies = {
 		start_year = 1985
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 20 }
+			position = { x = 24 y = 20 }
 		}
 		
 		categories = {
@@ -3313,7 +3462,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = artillery_folder
-			position = { x = 23 y = 22 }
+			position = { x = 27 y = 22 }
 		}
 		
 		categories = {
@@ -3360,7 +3509,7 @@ technologies = {
 		
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 24 }
+			position = { x = 24 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -3398,7 +3547,7 @@ technologies = {
 		start_year = 2005
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = 28 }
+			position = { x = 21 y = 28 }
 		}
 		
 		categories = {
@@ -3427,7 +3576,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = artillery_folder
-			position = { x = 20 y = 26 }
+			position = { x = 24 y = 26 }
 		}
 		
 		categories = {
@@ -3475,7 +3624,7 @@ technologies = {
 		start_year = 2005
 		folder = {
 			name = artillery_folder
-			position = { x = 23 y = 28 }
+			position = { x = 27 y = 28 }
 		}
 		
 		categories = {
