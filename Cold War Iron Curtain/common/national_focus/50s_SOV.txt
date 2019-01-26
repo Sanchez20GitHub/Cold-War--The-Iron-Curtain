@@ -766,12 +766,11 @@ focus_tree = {
 					SOV = {
 							transfer_state = 354
 							transfer_state = 793
-							puppet = KUR
 						}
 						KUR = {
 							transfer_state = 352
 							set_politics = {
-							    ruling_party = communism
+							    ruling_party = conservative
 								elections_allowed = no
 							}
 						}
