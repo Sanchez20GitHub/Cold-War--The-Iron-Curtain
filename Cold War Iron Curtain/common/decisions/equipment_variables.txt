@@ -14,7 +14,7 @@ variables_calculation_category = {
 		
 		visible = {
 			is_ai = yes
-			}
+		}
 		
 		activation = {
 			always = yes
