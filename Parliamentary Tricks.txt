@@ -13,6 +13,7 @@ Conservative
 	[s-gm-c,8]Conservative Social Outlook; gen_trad_2
 	[s-m-pm,4]Support Troops; gen_pro_mil_1
 	[s-m-b,4]Conservative Economic Approach; gen_openist_1
+	
 Liberal Conservativism
 	[4]Encourage Family Unity; +2.5% Stability
 	[mil,6]Military-Industrial Buildup {180 days} military_boost_general
@@ -29,6 +30,7 @@ Liberal Conservativism
 	[s-LGBT-c,4]Conservative LGBT Outlook; gen_semighey_1
 	[s-m-pm,4]Support Troops; gen_pro_mil_1
 	[s-m-b,4]Conservative Economic Approach; gen_openist_1
+	
 Christian Democratic/Islamism/?Judaism?/Anything Religious Demoractic
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
@@ -45,6 +47,7 @@ Christian Democratic/Islamism/?Judaism?/Anything Religious Demoractic
 	[s-LGBT-r,4]Religious Traditionalism; gen_notsaga_1
 	[s-m-pm,8]Support Troops; gen_pro_mil_2
 	[s-m-g,4]The Foreign Mission; gen_globalist_1
+	
 Socialist
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[*fac,6]Arms Buildup; {180 days} arms_boost_general
@@ -56,6 +59,7 @@ Socialist
 	[s-l-l,8]Worker's Bill of Rights; gen_pro_union_2
 	[s-gm-p,8]Socialist Progress; gen_equal_2
 	[s-m-am,4]Military-Industrial Redistribution; gen_pacifist_1
+	
 Liberal #Libertarian
 	[*she,4]Shelter Foreign Investors; 180 days -30% Trade Relations, -3% con goods factories tax_sheltering
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
@@ -73,6 +77,7 @@ Liberal #Libertarian
 	[s-l-li,8]Mass Deregulation; gen_pro_employer_2
 	[s-e-m,8]Freedom of Consumption; gen_materialist_2
 	[s-m-g,8]Freedom from State; gen_globalist_2
+	
 Centrist
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
@@ -90,6 +95,7 @@ Centrist
 	[s-LGBT-c,4]Moderate Progress; gen_semighey_1
 	[s-m-pm,4]Support Troops; gen_pro_mil_1
 	[s-m-b,8]Centrist Economic Approach; gen_openist_2
+	
 Social Democratic
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
 	[e-e-c,4]Creative Education; creative_education
@@ -103,6 +109,7 @@ Social Democratic
 	[s-LGBT-c,4]Moderate Progress; gen_semighey_1
 	[s-m-am,4]Military-Industrial Redistribution; gen_pacifist_1
 	[s-m-b,8]Centrist Economic Approach; gen_openist_2
+	
 Social Liberalism
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
 	[e-e-c,4]Creative Education; creative_education
@@ -116,6 +123,7 @@ Social Liberalism
 	[s-LGBT-p,4]Social Progress; gen_ghey_1
 	[s-m-am,4]Military-Industrial Redistribution; gen_pacifist_1
 	[s-m-b,8]Centrist Economic Approach; gen_openist_2
+	
 Democratic #Progressive
 	[epa,8]Environmental Protectionism; have_furries_control_government
 	[e-e-c,4]Creative Education; creative_education
@@ -128,6 +136,7 @@ Democratic #Progressive
 	[s-LGBT-p,8]Rapid Progress; gen_ghey_2
 	[s-m-am,8]Pacifism; gen_pacifist_2
 	[s-m-g,8]The Global Communist; gen_globalist_2
+	
 Communism
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[inf,6]Infrastructure Project; {180 days} infrastructure_boost_general
@@ -143,6 +152,7 @@ Communism
 	[s-gm-p,4]Communist Progress; gen_equal_1
 	[s-m-n,4]Communism in One Country; gen_nationalist_1
 	[s-m-b,4]International Communism; gen_openist_1
+	
 Trotskyism
 	[4]Firebranding; -2.5% Stability, +5% War Support
 	[*tro,10]Ignite the Permanent Revolution; 1825 +2% Recruitable, +15% War Support permanent_revolution_ignition
@@ -162,6 +172,7 @@ Trotskyism
 	[s-m-j,8]Permanent Revolution; gen_jingoist_2
 	[s-m-b,4]International Communism; gen_openist_1
 	[s-m-g,4]Global Communism; gen_globalist_1
+	
 Maoism
 	[*soc,10]Enact 5-Year Plan; 1825 days +10% Infra Con Speed, +5% Industrial Research 5_year_progress
 	[*fac,6]Arms Buildup; {180 days} arms_boost_general
@@ -178,6 +189,7 @@ Maoism
 	[s-m-j,1People's Army; gen_jingoist_1
 	[s-m-b,4]International Communism; gen_openist_1
 	[s-m-g,4]Global Communism; gen_globalist_1
+	
 Fascist #Third Positionist
 	[4]Firebranding; -2.5% Stability, +2.5% War Support
 	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
@@ -197,6 +209,7 @@ Fascist #Third Positionist
 	[s-LGBT-r,8]Fascist Stalwartism; gen_notsaga_2
 	[s-m-j,8]Fascist Demogogery; gen_jingoist_2
 	[s-m-n,8]Isolationism; gen_nationalist_2
+	
 Nationalism
 	[4]Firebranding; -2.5% Stability, +2.5% War Support
 	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
@@ -212,6 +225,7 @@ Nationalism
 	[s-LGBT-r,4]Nationalist Tradition; gen_notsaga_1
 	[s-m-j,4]Nationalist Demagogery; gen_jingoist_1
 	[s-m-n,8]Isolationism; gen_nationalist_2
+	
 Monarchist
 	[mil,6]Military-Industrial Buildup; {180 days} military_boost_general
 	[con,6]Civilian Industry Zoning; {180 days} civilian_boost_general
@@ -226,6 +240,7 @@ Monarchist
 	[s-gm-r,4]Perfect as it was; gen_archy_1
 	[s-m-j,4]Royal Army; gen_jingoist_1
 	[s-m-n,4]Mercantilism; gen_nationalist_1
+	
 Neutrality #Reactionary
 	[4]Normalcy of Tradition; +2.5% Stability
 	[4]Firebranding; -2.5% Stability, +2.5% War Support
@@ -244,6 +259,7 @@ Neutrality #Reactionary
 	[s-gm-r,4]Reactionaryism; gen_archy_1
 	[s-LGBT-r,4]Reactionaryism; gen_notsaga_1
 	[s-m-n,4]Protectionism; gen_nationalist_1
+	
 Radical Shiaism
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
@@ -257,6 +273,7 @@ Radical Shiaism
 	[s-gm-r,4]Religious Tradition; gen_archy_1
 	[s-LGBT-r,8]Counterreformation; gen_notsaga_2
 	[s-m-j,8]Jingo Fatwa; gen_jingoist_2
+	
 Salafism
 	[4]Encourage Religious Unity; +2.5% Stability
 	[4]Envoke Fanaticism; +2.5% War Support
@@ -281,39 +298,48 @@ Salafism
 	{R}ight[more_escuelas patriotic_schools]
 	*{Li}beral[simplified_education privatized_education]
 	{A}lt[military_colleges]
+	
 {H}ealthcare;
 	{L}eft[socialism_healthcare communism_healthcare]
 	{U}naligned[medical_science medical_apotheosis]
 	{Li}beral[reduce_medical_bills privatized_healthcare]
+	
 {F}inance;
 	{L}eft[safety_net welfare_state_plus]
 	{C}enter[subsidies_basic subsidy_economy]
 	{Li}beral[save_money save_more_money]
+	
 {Ec}onomy;
 	{L}eft[activate_communism communism_intensifies]
 	{U}naligned[rural_development_spirit]
 	{R}ight/Liberal[activate_capitalism capitalism_intensifies]
+	
 {M}ilitary;
 	{A}nti-{M}ilitary[cheap_army cheap_ass_army]
 	Pro-Military[more_mil_staff even_more_mil_staff]
 	#vet_aff_and_relief only repeals veteran_affairs_generic
+	
 ####{S}ocial Issues
 {L}abor;
 	{Li}beral[gen_pro_employer_1 _2]
 	{M}oderate[gen_balanced_workers_1 _2]
 	{L}eft[gen_pro_union_1 _2]
+	
 {E}nvironment;
 	{E}nvironmentalist [gen_environmentalist_1 _2]
 	{B}alanced [gen_balanced_outlook_1 _2]
 	{M}aterialist [gen_materialist_1 _2]
+	
 {G}ender and {Minorities};
 	{R}eactionary [gen_archy_1 _2]
 	{C}onservative [gen_trad_1 _2]
 	{P}rogressive [gen_equal_1 _2]
+	
 {M}ilitary;
 	{A}nti-{M}ilitary [gen_pacifist_1 _2]
 	{P}ro-{M}ilitary [gen_pro_mil_1 _2]
 	{J}ingoism [gen_jingoist_1 _2]
+	
 Economic {G}lobalisation;
 	{N}ationalist [gen_nationalist_1 _2]
 	{B}alanced [gen_openist_1 _2]

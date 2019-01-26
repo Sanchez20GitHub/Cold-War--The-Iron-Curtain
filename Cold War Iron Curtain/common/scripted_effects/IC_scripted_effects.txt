@@ -1124,13 +1124,13 @@ ic_pulse = {
 		country_event = fra_crisis.2
 	}		
 	
-	if = {
-		limit = {
-			tag = ROM
-			owns_state = 949
-		}
-		country_event = PMR.1
-	}
+	#if = {
+	#	limit = {
+	#		tag = ROM
+	#		owns_state = 949
+	#	}
+	#	country_event = PMR.1
+	#}
 	if = {
 		limit = {
 			tag = WGR
