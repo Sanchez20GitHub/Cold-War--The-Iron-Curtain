@@ -30,12 +30,12 @@ continent = {
 	name = europe
 	army = {
 		male = {
-			"gfx/leaders/Europe/General_Europe_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_6.dds"
 		}
 	}
 	
@@ -466,27 +466,196 @@ continent = {
 	}
 
 	political = {
-		communism = {
+		conservative = {
 				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		Liberal_Conservatism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		Christian_Democratic = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		socialist = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		Social_Democratic = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		Social_Liberalism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
 			}
 		}
 		democratic = {
 				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_2.dds" 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		centrist = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		liberal = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		communism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		trotskyism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		maoism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
 			}
 		}
 		fascism = {
 				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		nationalism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		monarchism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
 			}
 		}
 		neutrality = {
 				male = { 
-					"gfx/leaders/Asia/Portrait_Asia_Generic_3.dds" 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
 			}
 		}
-	}	
+		islamism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		radical_shiaism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
+		Salafism = {
+				male = { 
+					"gfx/leaders/Portrait_asia_Generic_1.dds"
+					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/portrait_EU_generic_4.dds"
+					"gfx/leaders/portrait_EU_generic_5.dds"
+					"gfx/leaders/portrait_EU_generic_6.dds"
+			}
+		}
 
 }
 
