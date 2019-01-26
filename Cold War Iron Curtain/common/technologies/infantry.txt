@@ -1844,6 +1844,8 @@ technologies = {
 	}
 	
 	desert_warfare_3 = {
+	
+		heat_attrition = -0.10
 		
         path = {
 			leads_to_tech = desert_warfare_4
@@ -2171,6 +2173,8 @@ technologies = {
 	}
 	
 	mountain_warfare_4 = {
+	
+		custom_effect_tooltip = <advanced_mountain_warfare_desc>
         
 		mountaineers = {
 		    hills = { 
@@ -2238,6 +2242,8 @@ technologies = {
 	}
 	
 	mountain_warfare_6 = {
+	
+		custom_effect_tooltip = <modern_mountain_warfare_desc>
 		
 		mountaineers = {
 		    hills = { 
@@ -2323,6 +2329,8 @@ technologies = {
 	}
 	
 	amphibious_warfare_2 = {
+	
+		custom_effect_tooltip = <littoral_combat_tip>
 
 		marine = {
 		    river = { 
@@ -2391,6 +2399,8 @@ technologies = {
 	}
 	
 	amphibious_warfare_4 = {
+	
+		custom_effect_tooltip = <littoral_combat_tip>
 		
 		marine = {
 		    marsh = { 
@@ -2445,6 +2455,8 @@ technologies = {
 	}
 	
 	amphibious_warfare_5 = {
+	
+		custom_effect_tooltip = <littoral_combat_tip>
 		
 		mechanized_marine = {
 		    marsh = { 
@@ -2487,6 +2499,8 @@ technologies = {
 	}
 	
 	amphibious_warfare_6 = {
+	
+		custom_effect_tooltip = <littoral_combat_tip>
         
 		marine = {
 		    marsh = { 
@@ -2988,6 +3002,8 @@ technologies = {
 	}
 	
 	airborne_operations_6 = {
+	
+		custom_effect_tooltip = <advanced_air_assault_operations_tip>
         
 		mechanized_airborne = {
             hills = { 
@@ -3133,6 +3149,8 @@ technologies = {
 	}
 	
 	air_assault_operations_2 = {
+	
+		custom_effect_tooltip = <vertical_envolopment_tactics_tip>
 		
 		mechanized_airborne = {
             hills = { 
@@ -3200,6 +3218,8 @@ technologies = {
 	}
 	
 	air_assault_operations_3 = {
+	
+		custom_effect_tooltip = <modern_vertical_envolopment_tactics_tip>
 		
 		mechanized_airborne = {
             hills = { 

@@ -1224,6 +1224,7 @@ ic_pulse = {
 					NOT = { tag = UGA }
 					NOT = { tag = CAR }
 					NOT = { tag = DOC }
+					NOT = { tag = EGI }
 				}
 				load_focus_tree = generic_focus_60
 				set_country_flag = focus_tree_60_reset
@@ -1266,6 +1267,7 @@ ic_pulse = {
 						tag = UGA
 						tag = CAR
 						tag = DOC
+						tag = EGI
 					}
 				}
 				set_country_flag = focus_tree_60_reset		

@@ -1,7 +1,7 @@
 ideas = {
 
 	# TECHNOLOGY
-	tank_manufacturer = { 
+	tank_manufacturer = {
 		tank_mass_produced_company = {
 
 			picture = 
