@@ -1,0 +1,13 @@
+﻿l_english:
+ GRE_MP_category:0 "Marshall Plan Infastructure Projects"
+ GRE_rebuild_Infa_attica:0 "Rebuild road & rail system in Attikí"
+ GRE_rebuild_Infa_attica_desc:0 ""
+ GRE_rebuild_Infa_sterea:0 "Rebuild road & rail system in Stereá Elláda"
+ GRE_rebuild_Infa_sterea_desc:0 ""
+ GRE_rebuild_Infa_thessaly:0 "Rebuild road & rail system in Thessalía"
+ GRE_rebuild_Infa_thessaly_desc:0 ""
+ GRE_rebuild_Infa_macedonia:0 "Rebuild road & rail system in Macedonia"
+ GRE_rebuild_Infa_macedonia_desc:0 ""
+ GRE_rebuild_Infa_peloponnese:0 "Rebuild road & rail system in Peloponnese"
+ GRE_rebuild_Infa_peloponnese_desc:0 ""
+ GRE_MP_INFASTRUCTURE:0 "Unlocks Infastructure §YDecisions§"
