@@ -10,7 +10,11 @@ state={
 			infrastructure = 2
 
 		}
-		1960.1.1 = {
+		1949.11.1 = {
+			owner = ITA
+
+		}
+		1960.7.1 = {
 			owner = SOR
 
 		}

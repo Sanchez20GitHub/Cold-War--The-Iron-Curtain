@@ -5365,7 +5365,6 @@ ic_pulse = {
 				has_cosmetic_tag = ZAZ_ENG
 				has_cosmetic_tag = SKK_RAJ
 				has_cosmetic_tag = SKK_ENG
-				has_cosmetic_tag = SOR_ITA
 				has_cosmetic_tag = ZIM_ENG
 				has_cosmetic_tag = NYA_ENG
 				has_cosmetic_tag = KAZ_SSR
