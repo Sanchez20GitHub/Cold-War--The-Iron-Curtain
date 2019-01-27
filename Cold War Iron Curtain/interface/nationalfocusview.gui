@@ -108,7 +108,13 @@ guiTypes = {
 				spriteType = "GFX_tech_bg"
 				position = { x=3000 y=3000 }
 				alwaystransparent = yes
-			}					
+			}	
+			iconType = {
+				name ="focus_view_bg"
+				spriteType = "GFX_sov_armour_techtree_bg"
+				position = { x=0 y=0 }
+				alwaystransparent = yes
+			}			
 			containerWindowType = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 10 }
