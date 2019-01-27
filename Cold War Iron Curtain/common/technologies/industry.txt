@@ -111,12 +111,24 @@ technologies = {
 			leads_to_tech = grid_I 
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = inframanagement_I 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = inframunicipal_I
+			research_cost_coeff = 1.0
+		}
+		path = {
+			leads_to_tech = infrastate_I 
+			research_cost_coeff = 1.0
+		}
 		
 		research_cost = 3
 		start_year = 1945
 		folder = {
 			name = industry_folder
-			position = { x = 34 y = -2 }
+			position = { x = 33 y = -2 }
 		}
 		
 		categories = {
@@ -1911,11 +1923,11 @@ technologies = {
 			water_V = 1
 		}
 	
-		research_cost = 1.5
-		start_year = 2005
+		research_cost = 6
+		start_year = 2010
 			folder = {
 				name = industry_folder
-				position = { x = 13 y = 19 }
+				position = { x = 13 y = 25 }
 		}
 		
 		ai_will_do = {
@@ -2902,6 +2914,10 @@ technologies = {
 			leads_to_tech = renewables_II
 			research_cost_coeff = 1.0
 		}
+		path = {
+			leads_to_tech = gas_I
+			research_cost_coeff = 1.0
+		}
 	
 		research_cost = 2.5
 		start_year = 1960
@@ -2929,6 +2945,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = renewables_III
+			research_cost_coeff = 1.0
+		}
+		path = {
+			leads_to_tech = gas_II
 			research_cost_coeff = 1.0
 		}
 	
@@ -3012,6 +3032,10 @@ technologies = {
 	
 		path = {
 			leads_to_tech = renewables_VI
+			research_cost_coeff = 1.0
+		}
+		path = {
+			leads_to_tech = gas_III
 			research_cost_coeff = 1.0
 		}
 	
@@ -3181,7 +3205,7 @@ technologies = {
 		}
 	
 		research_cost = 1.5
-		start_year = 2000
+		start_year = 1995
 			folder = {
 				name = industry_folder
 				position = { x = 28 y = 18 }
@@ -3202,6 +3226,10 @@ technologies = {
 	
 		path = {
 			leads_to_tech = ecoenergy_VI 
+			research_cost_coeff = 1.0
+		}
+		path = {
+			leads_to_tech = electriccars 
 			research_cost_coeff = 1.0
 		}
 	
@@ -3352,7 +3380,7 @@ technologies = {
 		}
 	
 		research_cost = 1
-		start_year = 2000
+		start_year = 1995
 			folder = {
 				name = industry_folder
 				position = { x = 26 y = 18 }
@@ -3390,6 +3418,381 @@ technologies = {
 			infrastructure
 			energy
 			ecoenergy
+		}
+	}
+	
+		gas_I = {
+	
+		path = {
+			leads_to_tech = gas_II 
+			research_cost_coeff = 1.0
+		}
+		dependencies = {
+			grid_II = 1
+		}
+	
+		research_cost = 1
+		start_year = 1960
+			folder = {
+				name = industry_folder
+				position = { x = 32 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 75
+		}
+			
+		categories = {
+			infrastructure
+			energy
+			gas
+		}
+	}
+	
+
+	gas_II = {
+		
+		path = {
+			leads_to_tech = gas_III 
+			research_cost_coeff = 1.0
+		}
+		dependencies = {
+			grid_III = 1
+		}
+	
+		research_cost = 1
+		start_year = 1970
+			folder = {
+				name = industry_folder
+				position = { x = 32 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+			
+		categories = {
+			infrastructure
+			energy
+			gas
+		}
+	}
+	
+	gas_III = {
+	
+		dependencies = {
+			grid_VI = 1
+		}
+	
+		research_cost = 1
+		start_year = 2010
+			folder = {
+				name = industry_folder
+				position = { x = 32 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+			
+		categories = {
+			infrastructure
+			energy
+			gas
+		}
+	}
+	
+	inframanagement_I = {
+	
+		path = {
+			leads_to_tech = inframanagement_II 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 1.5
+		start_year = 1955
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 75
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+
+	inframanagement_II = {
+		
+		path = {
+			leads_to_tech = inframanagement_III 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 1.5
+		start_year = 1965
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+	inframanagement_III = {
+	
+		path = {
+			leads_to_tech = inframanagement_IV 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 1.5
+		start_year = 1975
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 30
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+	inframanagement_IV = {
+	
+		path = {
+			leads_to_tech = inframanagement_V 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 1.5
+		start_year = 1985
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 20	
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+	inframanagement_V = {
+	
+		path = {
+			leads_to_tech = inframanagement_VI 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 1.5
+		start_year = 1995
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 20	
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+	inframanagement_VI = {
+	
+		research_cost = 1.5
+		start_year = 2005
+			folder = {
+				name = industry_folder
+				position = { x = 34 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 20	
+		}
+			
+		categories = {
+			infrastructure
+			inframanagement
+		}
+	}
+	
+	inframunicipal_I = {
+	
+		path = {
+			leads_to_tech = inframunicipal_II 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 2.5
+		start_year = 1970
+			folder = {
+				name = industry_folder
+				position = { x = 38 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 75
+		}
+			
+		categories = {
+			infrastructure
+			inframunicipal
+		}
+	}
+	
+
+	inframunicipal_II = {
+		
+		path = {
+			leads_to_tech = inframunicipal_III 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 2.5
+		start_year = 1990
+			folder = {
+				name = industry_folder
+				position = { x = 38 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+			
+		categories = {
+			infrastructure
+			inframunicipal
+		}
+	}
+	
+	inframunicipal_III = {
+	
+		research_cost = 2.5
+		start_year = 2010
+			folder = {
+				name = industry_folder
+				position = { x = 38 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 95
+		}
+			
+		categories = {
+			infrastructure
+			inframunicipal
+		}
+	}
+	
+	infrastate_I = {
+	
+		path = {
+			leads_to_tech = infrastate_II 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 2.5
+		start_year = 1960
+			folder = {
+				name = industry_folder
+				position = { x = 36 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 75
+		}
+			
+		categories = {
+			infrastructure
+			infrastate
+		}
+	}
+	
+
+	infrastate_II = {
+		
+		path = {
+			leads_to_tech = infrastate_III 
+			research_cost_coeff = 1.0
+		}
+	
+		research_cost = 2.5
+		start_year = 1980
+			folder = {
+				name = industry_folder
+				position = { x = 36 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 40
+		}
+			
+		categories = {
+			infrastructure
+			infrastate
+		}
+	}
+	
+	infrastate_III = {
+	
+		research_cost = 2.5
+		start_year = 2000
+			folder = {
+				name = industry_folder
+				position = { x = 36 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 95
+		}
+			
+		categories = {
+			infrastructure
+			infrastate
+		}
+	}
+	electriccars = {
+	
+		research_cost = 6
+		start_year = 2010
+			folder = {
+				name = industry_folder
+				position = { x = 27 y = 25 }
+		}
+		
+		ai_will_do = {
+			factor = 95
+		}
+			
+		categories = {
+			energy
+			altvehicles
 		}
 	}
 }	
