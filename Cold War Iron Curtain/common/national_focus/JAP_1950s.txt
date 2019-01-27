@@ -362,20 +362,7 @@ focus_tree = {
 							planning_skill = 4
 							logistics_skill = 4
 						}
-					create_corps_commander = {
-							name = "Ichiji Sugita"
-							picture = "Portrait_Ichiji_Sugita.dds"
-							traits = {
-
-}
-							skill = 3
-							attack_skill = 2
-							defense_skill = 5
-							planning_skill = 4
-							logistics_skill = 4
-						}
-				}
-
+					}
 	}
 	focus = {
 		id = JAP_Lessons_from_WW2

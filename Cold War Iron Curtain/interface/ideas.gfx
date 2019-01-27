@@ -5138,4 +5138,24 @@ spriteTypes = {
 		name = "GFX_idea_GRE_communism_banned"
 		texturefile = "gfx/interface/ideas/law509.dds"
     }
+    spriteType = {
+		name = "GFX_idea_heinz_hoffman"
+		texturefile = "gfx/interface/ideas/Minister_Heinz_Hoffman.dds"
+    } 
+    spriteType = {
+		name = "GFX_idea_Wilhem_Adam"
+		texturefile = "gfx/interface/ideas/willhem_adam.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_Rudolf_Bamler"
+		texturefile = "gfx/interface/ideas/Minister_Rudolf_Bamler.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_Vincenz_Mueller"
+		texturefile = "gfx/interface/ideas/Minister_Vincenz_Mueller.dds"
+    }
+     spriteType = {
+		name = "GFX_idea_von_lenski"
+		texturefile = "gfx/interface/ideas/Minister_Arno_von_Lenski.dds"
+    }
 }
