@@ -469,7 +469,7 @@ continent = {
 		conservative = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -479,7 +479,7 @@ continent = {
 		Liberal_Conservatism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -489,7 +489,7 @@ continent = {
 		Christian_Democratic = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -499,7 +499,7 @@ continent = {
 		socialist = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -509,7 +509,7 @@ continent = {
 		Social_Democratic = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -519,7 +519,7 @@ continent = {
 		Social_Liberalism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -529,7 +529,7 @@ continent = {
 		democratic = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -539,7 +539,7 @@ continent = {
 		centrist = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -549,7 +549,7 @@ continent = {
 		liberal = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -559,7 +559,7 @@ continent = {
 		communism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -569,7 +569,7 @@ continent = {
 		trotskyism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -579,7 +579,7 @@ continent = {
 		maoism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -589,7 +589,7 @@ continent = {
 		fascism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -599,7 +599,7 @@ continent = {
 		nationalism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -609,7 +609,7 @@ continent = {
 		monarchism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -619,7 +619,7 @@ continent = {
 		neutrality = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -629,7 +629,7 @@ continent = {
 		islamism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -639,7 +639,7 @@ continent = {
 		radical_shiaism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
@@ -649,7 +649,7 @@ continent = {
 		Salafism = {
 				male = { 
 					"gfx/leaders/Portrait_asia_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/Portrait_asia_Generic_2.dds"
 					"gfx/leaders/Portrait_EU_Generic_3.dds"
 					"gfx/leaders/portrait_EU_generic_4.dds"
 					"gfx/leaders/portrait_EU_generic_5.dds"
