@@ -29,7 +29,7 @@ state={
 	provinces={
 		1173 4078 4178 7096 11965 
 	}
-	manpower=945000
+	manpower=708877
 	buildings_max_level_factor=1.000
 	state_category=town
 }
