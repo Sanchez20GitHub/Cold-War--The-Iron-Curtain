@@ -1,11 +1,11 @@
 focus_tree = {
-	id = SOR_1960s
+	id = SOM_1960s
 	country = {
 		factor = 0
 	}
 	default = no
 	focus = {
-		id = SOR_60s_prepare_for_independence
+		id = SOM_60s_prepare_for_independence
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 26.00
 		x = 42
@@ -16,14 +16,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_freedom_by_democracy
+		id = SOM_60s_freedom_by_democracy
 		icon = GFX_goal_anschluss
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_prepare_for_independence
+			focus = SOM_60s_prepare_for_independence
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_freedom_by_blood
+			focus = SOM_60s_freedom_by_blood
 		}
 		x = 38
 		y = 1
@@ -36,7 +36,7 @@ focus_tree = {
 				}
 			completion_reward = {
 				set_autonomy = {
-					target = SOR
+					target = SOM
 					autonomy_state = autonomy_free
 				}
 			set_politics = {
@@ -49,20 +49,20 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_freedom_by_blood
+		id = SOM_60s_freedom_by_blood
 		icon = GFX_goal_tfv_sever_ties_with_uk
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_prepare_for_independence
+			focus = SOM_60s_prepare_for_independence
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_freedom_by_democracy
+			focus = SOM_60s_freedom_by_democracy
 		}
 		x = 46
 		y = 1
 			completion_reward = {
 				set_autonomy = {
-					target = SOR
+					target = SOM
 					autonomy_state = autonomy_free
 				}
 			set_politics = {
@@ -74,12 +74,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_government_projects
+		id = SOM_60s_government_projects
 		icon = GFX_RootoutFunding
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_freedom_by_democracy
-			focus = SOR_60s_freedom_by_blood
+			focus = SOM_60s_freedom_by_democracy
+			focus = SOM_60s_freedom_by_blood
 		}
 		x = 20
 		y = 1
@@ -88,11 +88,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_industrial_effort
+		id = SOM_60s_industrial_effort
 		icon = GFX_goal_generic_production
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_government_projects
+			focus = SOM_60s_government_projects
 		}
 		x = 4
 		y = 2
@@ -108,11 +108,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_construction_effort
+		id = SOM_60s_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_industrial_effort
+			focus = SOM_60s_industrial_effort
 		}
 		x = 2
 		y = 3
@@ -175,11 +175,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_mining_development
+		id = SOM_60s_mining_development
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_industrial_effort
+			focus = SOM_60s_industrial_effort
 		}
 		x = 6
 		y = 3
@@ -198,15 +198,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_non_aligned
+		id = SOM_60s_non_aligned
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_government_projects
+			focus = SOM_60s_government_projects
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_soviet_alignment
-			focus = SOR_60s_american_alignment
+			focus = SOM_60s_soviet_alignment
+			focus = SOM_60s_american_alignment
 		}
 		x = 12
 		y = 2
@@ -217,11 +217,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_army_effort
+		id = SOM_60s_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_non_aligned
+			focus = SOM_60s_non_aligned
 		}
 		x = 10
 		y = 3
@@ -238,11 +238,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_equipment_effort
+		id = SOM_60s_equipment_effort
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_army_effort
+			focus = SOM_60s_army_effort
 		}
 		x = 9
 		y = 4
@@ -259,11 +259,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_motorization_effort
+		id = SOM_60s_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_army_effort
+			focus = SOM_60s_army_effort
 		}
 		x = 11
 		y = 4
@@ -281,11 +281,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_aviation_effort
+		id = SOM_60s_aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_non_aligned
+			focus = SOM_60s_non_aligned
 		}
 		x = 14
 		y = 3
@@ -369,14 +369,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_fighter_focus
+		id = SOM_60s_fighter_focus
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_aviation_effort
+			focus = SOM_60s_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_bomber_focus
+			focus = SOM_60s_bomber_focus
 		}
 		x = 13
 		y = 4
@@ -398,14 +398,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_bomber_focus
+		id = SOM_60s_bomber_focus
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_aviation_effort
+			focus = SOM_60s_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_fighter_focus
+			focus = SOM_60s_fighter_focus
 		}
 		x = 15
 		y = 4
@@ -424,20 +424,20 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_alignment
+		id = SOM_60s_soviet_alignment
 		icon = GFX_goal_support_communism
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_government_projects
+			focus = SOM_60s_government_projects
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_non_aligned
-			focus = SOR_60s_american_alignment
+			focus = SOM_60s_non_aligned
+			focus = SOM_60s_american_alignment
 		}
 		x = 20
 		y = 2
 			completion_reward = {
-					SOR = {
+					SOM = {
 							add_opinion_modifier = {
 									target = SOV
 									modifier = large_increase
@@ -445,7 +445,7 @@ focus_tree = {
 						}
 					SOV = {
 							add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = large_increase
 								}
 						}
@@ -453,25 +453,25 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_advisors
+		id = SOM_60s_soviet_adviSOMs
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_alignment
+			focus = SOM_60s_soviet_alignment
 		}
 		x = 18
 		y = 3
 			completion_reward = {
-					add_ideas = soviet_advisors
+					add_ideas = soviet_adviSOMs
 				}
 
 	}
 	focus = {
-		id = SOR_60s_surplus_soviet_equipment
+		id = SOM_60s_surplus_soviet_equipment
 		icon = GFX_goal_continuous_reduce_training_time
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_advisors
+			focus = SOM_60s_soviet_adviSOMs
 		}
 		x = 17
 		y = 4
@@ -500,11 +500,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_trainer_pilots
+		id = SOM_60s_soviet_trainer_pilots
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_alignment
+			focus = SOM_60s_soviet_alignment
 		}
 		x = 22
 		y = 3
@@ -514,14 +514,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_personel_exchanges
+		id = SOM_60s_personel_exchanges
 		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_trainer_pilots
+			focus = SOM_60s_soviet_trainer_pilots
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_advisors
+			focus = SOM_60s_soviet_adviSOMs
 		}
 		x = 20
 		y = 4
@@ -532,14 +532,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_army_doctrine
+		id = SOM_60s_soviet_army_doctrine
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_personel_exchanges
+			focus = SOM_60s_personel_exchanges
 		}
 		prerequisite = {
-			focus = SOR_60s_surplus_soviet_equipment
+			focus = SOM_60s_surplus_soviet_equipment
 		}
 		x = 19
 		y = 5
@@ -555,11 +555,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_fighters
+		id = SOM_60s_soviet_fighters
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_trainer_pilots
+			focus = SOM_60s_soviet_trainer_pilots
 		}
 		x = 23
 		y = 4
@@ -578,14 +578,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_bombers
+		id = SOM_60s_soviet_bombers
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_fighters
+			focus = SOM_60s_soviet_fighters
 		}
 		prerequisite = {
-			focus = SOR_60s_personel_exchanges
+			focus = SOM_60s_personel_exchanges
 		}
 		x = 21
 		y = 5
@@ -604,14 +604,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_air_doctrine
+		id = SOM_60s_soviet_air_doctrine
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_fighters
+			focus = SOM_60s_soviet_fighters
 		}
 		prerequisite = {
-			focus = SOR_60s_personel_exchanges
+			focus = SOM_60s_personel_exchanges
 		}
 		x = 23
 		y = 5
@@ -626,14 +626,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_airfield_development
+		id = SOM_60s_soviet_airfield_development
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_air_doctrine
+			focus = SOM_60s_soviet_air_doctrine
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_bombers
+			focus = SOM_60s_soviet_bombers
 		}
 		x = 21
 		y = 6
@@ -697,14 +697,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_anti_air_defenses
+		id = SOM_60s_soviet_anti_air_defenses
 		icon = GFX_focus_generic_air_defense
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_air_doctrine
+			focus = SOM_60s_soviet_air_doctrine
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_bombers
+			focus = SOM_60s_soviet_bombers
 		}
 		x = 23
 		y = 6
@@ -745,14 +745,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_research_advances_air
+		id = SOM_60s_research_advances_air
 		icon = GFX_goal_continuous_air_production
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_airfield_development
+			focus = SOM_60s_soviet_airfield_development
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_anti_air_defenses
+			focus = SOM_60s_soviet_anti_air_defenses
 		}
 		x = 22
 		y = 7
@@ -767,20 +767,20 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_alignment
+		id = SOM_60s_american_alignment
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_government_projects
+			focus = SOM_60s_government_projects
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_non_aligned
-			focus = SOR_60s_soviet_alignment
+			focus = SOM_60s_non_aligned
+			focus = SOM_60s_soviet_alignment
 		}
 		x = 28
 		y = 2
 			completion_reward = {
-					SOR = {
+					SOM = {
 							add_opinion_modifier = {
 									target = USA
 									modifier = large_increase
@@ -788,7 +788,7 @@ focus_tree = {
 						}
 					USA = {
 							add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = large_increase
 								}
 						}
@@ -796,25 +796,25 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_advisors
+		id = SOM_60s_american_adviSOMs
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_alignment
+			focus = SOM_60s_american_alignment
 		}
 		x = 26
 		y = 3
 			completion_reward = {
-					add_ideas = american_advisors
+					add_ideas = american_adviSOMs
 				}
 
 	}
 	focus = {
-		id = SOR_60s_american_surplus_equipment
+		id = SOM_60s_american_surplus_equipment
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_advisors
+			focus = SOM_60s_american_adviSOMs
 		}
 		x = 25
 		y = 4
@@ -843,11 +843,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_armed_divisions
+		id = SOM_60s_american_armed_divisions
 		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_surplus_equipment
+			focus = SOM_60s_american_surplus_equipment
 		}
 		x = 25
 		y = 5
@@ -862,11 +862,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_aircraft_training
+		id = SOM_60s_american_aircraft_training
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_alignment
+			focus = SOM_60s_american_alignment
 		}
 		x = 30
 		y = 3
@@ -876,14 +876,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_weapon_sale
+		id = SOM_60s_american_weapon_sale
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_aircraft_training
+			focus = SOM_60s_american_aircraft_training
 		}
 		prerequisite = {
-			focus = SOR_60s_american_advisors
+			focus = SOM_60s_american_adviSOMs
 		}
 		x = 28
 		y = 4
@@ -912,14 +912,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_doctrine
+		id = SOM_60s_american_doctrine
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_weapon_sale
+			focus = SOM_60s_american_weapon_sale
 		}
 		prerequisite = {
-			focus = SOR_60s_american_surplus_equipment
+			focus = SOM_60s_american_surplus_equipment
 		}
 		x = 27
 		y = 5
@@ -935,14 +935,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_intelligence_aid
+		id = SOM_60s_american_intelligence_aid
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_doctrine
+			focus = SOM_60s_american_doctrine
 		}
 		prerequisite = {
-			focus = SOR_60s_american_armed_divisions
+			focus = SOM_60s_american_armed_divisions
 		}
 		x = 26
 		y = 6
@@ -952,11 +952,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_weapon_sale_Copy
+		id = SOM_60s_american_weapon_sale_Copy
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_weapon_sale
+			focus = SOM_60s_american_weapon_sale
 		}
 		x = 28
 		y = 6
@@ -985,11 +985,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_weapon_sale_Copy_Copy
+		id = SOM_60s_american_weapon_sale_Copy_Copy
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_weapon_sale_Copy
+			focus = SOM_60s_american_weapon_sale_Copy
 		}
 		x = 28
 		y = 8
@@ -1018,11 +1018,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_fighters
+		id = SOM_60s_american_fighters
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_aircraft_training
+			focus = SOM_60s_american_aircraft_training
 		}
 		x = 31
 		y = 4
@@ -1041,14 +1041,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_bombers
+		id = SOM_60s_american_bombers
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_weapon_sale
+			focus = SOM_60s_american_weapon_sale
 		}
 		prerequisite = {
-			focus = SOR_60s_american_fighters
+			focus = SOM_60s_american_fighters
 		}
 		x = 29
 		y = 5
@@ -1067,11 +1067,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_doctrine_air
+		id = SOM_60s_american_doctrine_air
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_fighters
+			focus = SOM_60s_american_fighters
 		}
 		x = 31
 		y = 5
@@ -1086,14 +1086,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_anti_air_defences
+		id = SOM_60s_american_anti_air_defences
 		icon = GFX_focus_generic_air_defense
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_bombers
+			focus = SOM_60s_american_bombers
 		}
 		prerequisite = {
-			focus = SOR_60s_american_doctrine_air
+			focus = SOM_60s_american_doctrine_air
 		}
 		x = 30
 		y = 6
@@ -1134,11 +1134,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_airfield_development
+		id = SOM_60s_american_airfield_development
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_anti_air_defences
+			focus = SOM_60s_american_anti_air_defences
 		}
 		x = 30
 		y = 7
@@ -1202,25 +1202,25 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_mic_contracts
+		id = SOM_60s_american_mic_contracts
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_airfield_development
+			focus = SOM_60s_american_airfield_development
 		}
 		x = 30
 		y = 8
 			completion_reward = {
-					add_ideas = american_mic_advisors
+					add_ideas = american_mic_adviSOMs
 				}
 
 	}
 	focus = {
-		id = SOR_60s_syl
+		id = SOM_60s_syl
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_freedom_by_democracy
+			focus = SOM_60s_freedom_by_democracy
 		}
 		x = 38
 		y = 2
@@ -1243,14 +1243,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_align_with_west
+		id = SOM_60s_align_with_west
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_syl
+			focus = SOM_60s_syl
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_non_alignedd
+			focus = SOM_60s_non_alignedd
 		}
 		x = 36
 		y = 3
@@ -1260,36 +1260,36 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_nato_friends
+		id = SOM_60s_nato_friends
 		icon = GFX_goal_USA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_align_with_west
+			focus = SOM_60s_align_with_west
 		}
 		x = 36
 		y = 4
 
 	}
 	focus = {
-		id = SOR_60s_non_alignedd
+		id = SOM_60s_non_alignedd
 		icon = GFX_Room_Meeting
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_syl
+			focus = SOM_60s_syl
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_align_with_west
+			focus = SOM_60s_align_with_west
 		}
 		x = 40
 		y = 3
 		completion_reward = {
 						EGY = {
 							add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = small_increase
 								}
 						}
-					SOR = {
+					SOM = {
 							add_opinion_modifier = {
 									target = EGY
 									modifier = small_increase
@@ -1297,11 +1297,11 @@ focus_tree = {
 						}
 						AFG = {
 						add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = small_increase
 								}
 						}
-					SOR = {
+					SOM = {
 							add_opinion_modifier = {
 									target = AFG
 									modifier = small_increase
@@ -1309,23 +1309,23 @@ focus_tree = {
 						}
 					PER = {
 					add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = small_increase
 								}
 						}
 		}
 	}
 	focus = {
-		id = SOR_60s_befriend_yugoslavia
+		id = SOM_60s_befriend_yugoslavia
 		icon = GFX_goal_YUG_Proclamation
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_non_alignedd
+			focus = SOM_60s_non_alignedd
 		}
 		x = 40
 		y = 4
 		completion_reward = {
-				SOR = {
+				SOM = {
 							add_opinion_modifier = {
 									target = YUG
 									modifier = small_increase
@@ -1333,19 +1333,19 @@ focus_tree = {
 						}
 					YUG = {
 							add_opinion_modifier = {
-									target = SOR
+									target = SOM
 									modifier = small_increase
 								}
 						}
 				}
 	}
 	focus = {
-		id = SOR_60s_Abdirashid
+		id = SOM_60s_Abdirashid
 		icon = GFX_somalip
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_nato_friends
-			focus = SOR_60s_befriend_yugoslavia
+			focus = SOM_60s_nato_friends
+			focus = SOM_60s_befriend_yugoslavia
 		}
 		available = {
 					date > 1967.6.10
@@ -1362,14 +1362,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_restore_dervish_state
+		id = SOM_60s_restore_dervish_state
 		icon = GFX_focus_hun_elect_a_king
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_freedom_by_blood
+			focus = SOM_60s_freedom_by_blood
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_communism_will_save
+			focus = SOM_60s_communism_will_save
 		}
 		x = 46
 		y = 2
@@ -1387,11 +1387,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_monarchist_propaganda
+		id = SOM_60s_monarchist_propaganda
 		icon = GFX_focus_hun_elect_a_king
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_restore_dervish_state
+			focus = SOM_60s_restore_dervish_state
 		}
 		x = 46
 		y = 3
@@ -1401,11 +1401,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_monarchist_militarism
+		id = SOM_60s_monarchist_militarism
 		icon = GFX_focus_hun_elect_a_king
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_monarchist_propaganda
+			focus = SOM_60s_monarchist_propaganda
 		}
 		x = 46
 		y = 4
@@ -1415,22 +1415,22 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_Purge_communists_from_army
+		id = SOM_60s_Purge_communists_from_army
 		icon = GFX_focus_CZE_german_puppet
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_monarchist_militarism
+			focus = SOM_60s_monarchist_militarism
 		}
 		x = 44
 		y = 5
 
 	}
 	focus = {
-		id = SOR_60s_greater_somalia
+		id = SOM_60s_greater_somalia
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_monarchist_militarism
+			focus = SOM_60s_monarchist_militarism
 		}
 		x = 46
 		y = 5
@@ -1441,17 +1441,17 @@ focus_tree = {
 						}
 					ETH = {
 							every_owned_state = {
-									add_core_of = SOR
+									add_core_of = SOM
 								}
 						}
 				}
 	}
 	focus = {
-		id = SOR_60s_traditions_live_forever
+		id = SOM_60s_traditions_live_forever
 		icon = GFX_focus_generic_military_academy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_monarchist_militarism
+			focus = SOM_60s_monarchist_militarism
 		}
 		x = 48
 		y = 5
@@ -1460,14 +1460,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_communism_will_save
+		id = SOM_60s_communism_will_save
 		icon = GFX_goal_support_communism
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_freedom_by_blood
+			focus = SOM_60s_freedom_by_blood
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_restore_dervish_state
+			focus = SOM_60s_restore_dervish_state
 		}
 		x = 52
 		y = 2
@@ -1481,11 +1481,11 @@ focus_tree = {
 			}
 	}
 	focus = {
-		id = SOR_60s_five_year_plan
+		id = SOM_60s_five_year_plan
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_communism_will_save
+			focus = SOM_60s_communism_will_save
 		}
 		x = 51
 		y = 3
@@ -1494,27 +1494,27 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_soviet_advisorss
+		id = SOM_60s_soviet_adviSOMss
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_communism_will_save
+			focus = SOM_60s_communism_will_save
 		}
 		x = 53
 		y = 3
 		completion_reward = {
-			add_ideas = soviet_advisors
+			add_ideas = soviet_adviSOMs
 		}
 	}
 	focus = {
-		id = SOR_60s_soviet_culture
+		id = SOM_60s_soviet_culture
 		icon = GFX_soviet_culture
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_advisorss
+			focus = SOM_60s_soviet_adviSOMss
 		}
 		prerequisite = {
-			focus = SOR_60s_five_year_plan
+			focus = SOM_60s_five_year_plan
 		}
 		x = 52
 		y = 4
@@ -1525,11 +1525,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_the_warsaw_pact
+		id = SOM_60s_the_warsaw_pact
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_culture
+			focus = SOM_60s_soviet_culture
 		}
 		x = 52
 		y = 5
@@ -1538,11 +1538,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_the_iron_curtain
+		id = SOM_60s_the_iron_curtain
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_the_warsaw_pact
+			focus = SOM_60s_the_warsaw_pact
 		}
 		x = 52
 		y = 6
@@ -1551,11 +1551,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_spread_communism
+		id = SOM_60s_spread_communism
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_culture
+			focus = SOM_60s_soviet_culture
 		}
 		x = 54
 		y = 5
@@ -1569,26 +1569,26 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_ideological_battle
+		id = SOM_60s_ideological_battle
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_spread_communism
+			focus = SOM_60s_spread_communism
 		}
 		x = 54
 		y = 6
 		completion_reward = {
-			SOR = {
-				country_event = sor.5
+			SOM = {
+				country_event = SOM.5
 			}
 		}
 	}
 	focus = {
-		id = SOR_60s_construction_effort_2
+		id = SOM_60s_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_construction_effort
+			focus = SOM_60s_construction_effort
 		}
 		x = 2
 		y = 4
@@ -1651,11 +1651,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_infrastructure_effort
+		id = SOM_60s_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_construction_effort_2
+			focus = SOM_60s_construction_effort_2
 		}
 		x = 2
 		y = 5
@@ -1742,11 +1742,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_construction_effort_3
+		id = SOM_60s_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_infrastructure_effort
+			focus = SOM_60s_infrastructure_effort
 		}
 		x = 2
 		y = 6
@@ -1809,11 +1809,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_production_effort
+		id = SOM_60s_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_industrial_effort
+			focus = SOM_60s_industrial_effort
 		}
 		x = 4
 		y = 3
@@ -1876,11 +1876,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_production_effort_2
+		id = SOM_60s_production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_production_effort
+			focus = SOM_60s_production_effort
 		}
 		x = 4
 		y = 4
@@ -1943,11 +1943,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_production_effort_3
+		id = SOM_60s_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_production_effort_2
+			focus = SOM_60s_production_effort_2
 		}
 		x = 4
 		y = 5
@@ -2010,14 +2010,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_infrastructure_effort_2
+		id = SOM_60s_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_infrastructure_effort
+			focus = SOM_60s_infrastructure_effort
 		}
 		prerequisite = {
-			focus = SOR_60s_production_effort_3
+			focus = SOM_60s_production_effort_3
 		}
 		x = 4
 		y = 6
@@ -2104,14 +2104,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_secret_weapons
+		id = SOM_60s_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_infrastructure_effort_2
+			focus = SOM_60s_infrastructure_effort_2
 		}
 		prerequisite = {
-			focus = SOR_60s_construction_effort_3
+			focus = SOM_60s_construction_effort_3
 		}
 		x = 2
 		y = 7
@@ -2136,14 +2136,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_extra_tech_slot
+		id = SOM_60s_extra_tech_slot
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_infrastructure_effort_2
+			focus = SOM_60s_infrastructure_effort_2
 		}
 		prerequisite = {
-			focus = SOR_60s_construction_effort_3
+			focus = SOM_60s_construction_effort_3
 		}
 		x = 6
 		y = 7
@@ -2154,11 +2154,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_steel_industry
+		id = SOM_60s_steel_industry
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_mining_development
+			focus = SOM_60s_mining_development
 		}
 		x = 6
 		y = 4
@@ -2173,11 +2173,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_oil_development
+		id = SOM_60s_oil_development
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_steel_industry
+			focus = SOM_60s_steel_industry
 		}
 		x = 6
 		y = 5
@@ -2192,11 +2192,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_Chromium_development
+		id = SOM_60s_Chromium_development
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_oil_development
+			focus = SOM_60s_oil_development
 		}
 		x = 6
 		y = 6
@@ -2211,11 +2211,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_equipment_effort_2
+		id = SOM_60s_equipment_effort_2
 		icon = GFX_goal_generic_army_artillery
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_equipment_effort
+			focus = SOM_60s_equipment_effort
 		}
 		x = 9
 		y = 6
@@ -2232,11 +2232,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_equipment_effort_3
+		id = SOM_60s_equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_equipment_effort_2
+			focus = SOM_60s_equipment_effort_2
 		}
 		x = 9
 		y = 8
@@ -2253,11 +2253,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_doctrine_effort
+		id = SOM_60s_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_army_effort
+			focus = SOM_60s_army_effort
 		}
 		x = 10
 		y = 5
@@ -2274,11 +2274,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_doctrine_effort_2
+		id = SOM_60s_doctrine_effort_2
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_doctrine_effort
+			focus = SOM_60s_doctrine_effort
 		}
 		x = 10
 		y = 7
@@ -2295,11 +2295,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_mechanization_effort
+		id = SOM_60s_mechanization_effort
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_motorization_effort
+			focus = SOM_60s_motorization_effort
 		}
 		x = 11
 		y = 6
@@ -2315,11 +2315,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_armor_effort
+		id = SOM_60s_armor_effort
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_mechanization_effort
+			focus = SOM_60s_mechanization_effort
 		}
 		x = 11
 		y = 8
@@ -2335,17 +2335,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_special_forces
+		id = SOM_60s_special_forces
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_equipment_effort_3
+			focus = SOM_60s_equipment_effort_3
 		}
 		prerequisite = {
-			focus = SOR_60s_doctrine_effort_2
+			focus = SOM_60s_doctrine_effort_2
 		}
 		prerequisite = {
-			focus = SOR_60s_armor_effort
+			focus = SOM_60s_armor_effort
 		}
 		x = 10
 		y = 9
@@ -2362,12 +2362,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_aviation_effort_2
+		id = SOM_60s_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_bomber_focus
-			focus = SOR_60s_fighter_focus
+			focus = SOM_60s_bomber_focus
+			focus = SOM_60s_fighter_focus
 		}
 		x = 14
 		y = 5
@@ -2457,11 +2457,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_CAS_effort
+		id = SOM_60s_CAS_effort
 		icon = GFX_goal_generic_CAS
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_aviation_effort_2
+			focus = SOM_60s_aviation_effort_2
 		}
 		x = 13
 		y = 6
@@ -2478,11 +2478,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_NAV_effort
+		id = SOM_60s_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_aviation_effort_2
+			focus = SOM_60s_aviation_effort_2
 		}
 		x = 15
 		y = 6
@@ -2499,17 +2499,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_reform_officer_corps
+		id = SOM_60s_reform_officer_corps
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_special_forces
+			focus = SOM_60s_special_forces
 		}
 		prerequisite = {
-			focus = SOR_60s_CAS_effort
+			focus = SOM_60s_CAS_effort
 		}
 		prerequisite = {
-			focus = SOR_60s_NAV_effort
+			focus = SOM_60s_NAV_effort
 		}
 		x = 12
 		y = 10
@@ -2519,11 +2519,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_armed_divisions
+		id = SOM_60s_soviet_armed_divisions
 		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_surplus_soviet_equipment
+			focus = SOM_60s_surplus_soviet_equipment
 		}
 		x = 17
 		y = 5
@@ -2538,14 +2538,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_more_surplus_equipment
+		id = SOM_60s_more_surplus_equipment
 		icon = GFX_focus_secret_rearmament
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_armed_divisions
+			focus = SOM_60s_soviet_armed_divisions
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_army_doctrine
+			focus = SOM_60s_soviet_army_doctrine
 		}
 		x = 17
 		y = 6
@@ -2574,11 +2574,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_tanks
+		id = SOM_60s_american_tanks
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_intelligence_aid
+			focus = SOM_60s_american_intelligence_aid
 		}
 		x = 25
 		y = 7
@@ -2602,19 +2602,19 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_barre_coup
+		id = SOM_60s_barre_coup
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_october_21st
+			focus = SOM_60s_october_21st
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_coup_avoided
+			focus = SOM_60s_coup_avoided
 		}
 		x = 36
 		y = 8
 			completion_reward = {
-					SOR = { country_event = sor.3 }
+					SOM = { country_event = SOM.3 }
 					add_political_power = 100
 					add_stability = 0.05
 					set_politics = {
@@ -2625,14 +2625,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_strong_leader
+		id = SOM_60s_strong_leader
 		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_coup_avoided
+			focus = SOM_60s_coup_avoided
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_stick_to_democracy
+			focus = SOM_60s_stick_to_democracy
 		}
 		x = 40
 		y = 9
@@ -2647,11 +2647,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_military_youth
+		id = SOM_60s_military_youth
 		icon = GFX_goal_generic_axis_build_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_leftist_persecution
+			focus = SOM_60s_leftist_persecution
 		}
 		x = 40
 		y = 12
@@ -2661,11 +2661,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_national_corporations
+		id = SOM_60s_national_corporations
 		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_military_youth
+			focus = SOM_60s_military_youth
 		}
 		x = 40
 		y = 13
@@ -2675,11 +2675,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_leftist_persecution
+		id = SOM_60s_leftist_persecution
 		icon = GFX_swe_racial
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_execute_barre
+			focus = SOM_60s_execute_barre
 		}
 		x = 40
 		y = 11
@@ -2690,17 +2690,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_reform_officer_corps_usa
+		id = SOM_60s_reform_officer_corps_usa
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_weapon_sale_Copy_Copy
+			focus = SOM_60s_american_weapon_sale_Copy_Copy
 		}
 		prerequisite = {
-			focus = SOR_60s_american_mic_contracts
+			focus = SOM_60s_american_mic_contracts
 		}
 		prerequisite = {
-			focus = SOR_60s_american_license_agreements
+			focus = SOM_60s_american_license_agreements
 		}
 		x = 28
 		y = 9
@@ -2710,14 +2710,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_extra_tech_slot_2
+		id = SOM_60s_extra_tech_slot_2
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_extra_tech_slot
+			focus = SOM_60s_extra_tech_slot
 		}
 		prerequisite = {
-			focus = SOR_60s_secret_weapons
+			focus = SOM_60s_secret_weapons
 		}
 		x = 4
 		y = 8
@@ -2733,14 +2733,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_motorization_aid
+		id = SOM_60s_soviet_motorization_aid
 		icon = GFX_goal_generic_army_motorized
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_army_doctrine
+			focus = SOM_60s_soviet_army_doctrine
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_armed_divisions
+			focus = SOM_60s_soviet_armed_divisions
 		}
 		x = 19
 		y = 6
@@ -2754,14 +2754,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_tanks
+		id = SOM_60s_soviet_tanks
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_motorization_aid
+			focus = SOM_60s_soviet_motorization_aid
 		}
 		prerequisite = {
-			focus = SOR_60s_more_surplus_equipment
+			focus = SOM_60s_more_surplus_equipment
 		}
 		x = 17
 		y = 7
@@ -2785,14 +2785,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_soviet_mechanized_equipment
+		id = SOM_60s_soviet_mechanized_equipment
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_more_surplus_equipment
+			focus = SOM_60s_more_surplus_equipment
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_motorization_aid
+			focus = SOM_60s_soviet_motorization_aid
 		}
 		x = 19
 		y = 7
@@ -2806,14 +2806,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_backwards_engineer_soviet_designs
+		id = SOM_60s_backwards_engineer_soviet_designs
 		icon = GFX_focus_secret_rearmament
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_mechanized_equipment
+			focus = SOM_60s_soviet_mechanized_equipment
 		}
 		prerequisite = {
-			focus = SOR_60s_soviet_tanks
+			focus = SOM_60s_soviet_tanks
 		}
 		x = 18
 		y = 8
@@ -2823,14 +2823,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_purge_officer_corps
+		id = SOM_60s_purge_officer_corps
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_backwards_engineer_soviet_designs
+			focus = SOM_60s_backwards_engineer_soviet_designs
 		}
 		prerequisite = {
-			focus = SOR_60s_research_advances_air
+			focus = SOM_60s_research_advances_air
 		}
 		x = 20
 		y = 9
@@ -2840,11 +2840,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_mechanized_equipment
+		id = SOM_60s_american_mechanized_equipment
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_intelligence_aid
+			focus = SOM_60s_american_intelligence_aid
 		}
 		x = 27
 		y = 7
@@ -2863,21 +2863,21 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_american_license_agreements
+		id = SOM_60s_american_license_agreements
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_american_mechanized_equipment
+			focus = SOM_60s_american_mechanized_equipment
 		}
 		prerequisite = {
-			focus = SOR_60s_american_tanks
+			focus = SOM_60s_american_tanks
 		}
 		x = 26
 		y = 8
 			completion_reward = {
 				USA = {
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = motorized_equipment_2
@@ -2885,7 +2885,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = mechanized_equipment_3
@@ -2893,7 +2893,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = main_battle_tanks_2
@@ -2901,7 +2901,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = lt_equipment_1
@@ -2909,7 +2909,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = ht_equipment_2
@@ -2917,7 +2917,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = infantry_equipment
@@ -2925,7 +2925,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = CAS_equipment_4
@@ -2933,7 +2933,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = SOR
+							target = SOM
 							cost_factor = 1.0
 							equipment = {
 									type = jet_fighter_equipment_2
@@ -2945,11 +2945,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_embrace_capitalism
+		id = SOM_60s_embrace_capitalism
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_exile_barre
+			focus = SOM_60s_exile_barre
 		}
 		x = 43
 		y = 11
@@ -2959,14 +2959,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_stick_to_democracy
+		id = SOM_60s_stick_to_democracy
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_coup_avoided
+			focus = SOM_60s_coup_avoided
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_strong_leader
+			focus = SOM_60s_strong_leader
 		}
 		x = 43
 		y = 9
@@ -2976,14 +2976,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOR_60s_coup_avoided
+		id = SOM_60s_coup_avoided
 		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_october_21st
+			focus = SOM_60s_october_21st
 		}
 		mutually_exclusive = {
-			focus = SOR_60s_barre_coup
+			focus = SOM_60s_barre_coup
 		}
 		x = 40
 		y = 8
@@ -2993,24 +2993,24 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_execute_barre
+		id = SOM_60s_execute_barre
 		icon = GFX_purge
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_strong_leader
+			focus = SOM_60s_strong_leader
 		}
 		x = 40
 		y = 10
 		completion_reward = {
-					SOR = { country_event = sor.1 }
+					SOM = { country_event = SOM.1 }
 				}
 	}
 	focus = {
-		id = SOR_60s_october_21st
+		id = SOM_60s_october_21st
 		icon = GFX_focus_generic_strike_at_democracy3
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_make_relations_with_nonaligned
+			focus = SOM_60s_make_relations_with_nonaligned
 		}
 		x = 38
 		y = 7
@@ -3022,22 +3022,22 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = SOR_60s_make_relations_with_nonaligned
+		id = SOM_60s_make_relations_with_nonaligned
 		icon = GFX_goal_generic_improve_relations
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_Abdirashid
+			focus = SOM_60s_Abdirashid
 		}
 		x = 38
 		y = 6
 
 	}
 	focus = {
-		id = SOR_60s_literacy_campaign
+		id = SOM_60s_literacy_campaign
 		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_unified_government
+			focus = SOM_60s_unified_government
 		}
 		x = 35
 		y = 10
@@ -3047,11 +3047,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_attack_ethiopia
+		id = SOM_60s_attack_ethiopia
 		icon = GFX_focus_generic_provoke_border_clashes
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_national_corporations
+			focus = SOM_60s_national_corporations
 		}
 		x = 40
 		y = 14
@@ -3061,36 +3061,36 @@ focus_tree = {
 						target = ETH
 						generator = { 1095 }
 					}
-						ETH = { 1095 = { add_core_of = SOR }	}		
+						ETH = { 1095 = { add_core_of = SOM }	}		
 		}
 	}
 	focus = {
-		id = SOR_60s_exile_barre
+		id = SOM_60s_exile_barre
 		icon = GFX_focus_CZE_german_puppet
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_stick_to_democracy
+			focus = SOM_60s_stick_to_democracy
 		}
 		x = 43
 		y = 10
 		completion_reward = {
-					SOR = {
-							country_event = sor.4
+					SOM = {
+							country_event = SOM.4
 						}
 				}
 	}
 	focus = {
-		id = SOR_60s_purge_the_party
+		id = SOM_60s_purge_the_party
 		icon = GFX_goal_generic_secret_weapon
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_literacy_campaign
+			focus = SOM_60s_literacy_campaign
 		}
 		prerequisite = {
-			focus = SOR_60s_rights_for_women
+			focus = SOM_60s_rights_for_women
 		}
 		prerequisite = {
-			focus = SOR_60s_nationalization
+			focus = SOM_60s_nationalization
 		}
 		x = 36
 		y = 12
@@ -3101,11 +3101,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_unified_government
+		id = SOM_60s_unified_government
 		icon = GFX_goal_generic_national_unity
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_barre_coup
+			focus = SOM_60s_barre_coup
 		}
 		x = 36
 		y = 9
@@ -3115,11 +3115,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_nationalization
+		id = SOM_60s_nationalization
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_unified_government
+			focus = SOM_60s_unified_government
 		}
 		x = 37
 		y = 10
@@ -3128,11 +3128,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_rights_for_women
+		id = SOM_60s_rights_for_women
 		icon = GFX_focus_generic_military_academy
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_unified_government
+			focus = SOM_60s_unified_government
 		}
 		x = 36
 		y = 11
@@ -3141,11 +3141,11 @@ focus_tree = {
 			}
 	}
 	focus = {
-		id = SOR_60s_Soviet_education
+		id = SOM_60s_Soviet_education
 		icon = GFX_focus_generic_socialist_science
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_soviet_culture
+			focus = SOM_60s_soviet_culture
 		}
 		x = 56
 		y = 5
@@ -3154,11 +3154,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_seek_western_support
+		id = SOM_60s_seek_western_support
 		icon = GFX_focus_chi_mission_to_the_us
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_embrace_capitalism
+			focus = SOM_60s_embrace_capitalism
 		}
 		x = 43
 		y = 12
@@ -3171,11 +3171,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_join_nato
+		id = SOM_60s_join_nato
 		icon = GFX_nato
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_seek_western_support
+			focus = SOM_60s_seek_western_support
 		}
 		available = {
 		 	is_puppet = no
@@ -3187,11 +3187,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SOR_60s_minority_rights
+		id = SOM_60s_minority_rights
 		icon = GFX_goal_generic_national_unity
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_seek_western_support
+			focus = SOM_60s_seek_western_support
 		}
 		x = 45
 		y = 13
@@ -3200,11 +3200,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = SOR_60s_free_trade
+		id = SOM_60s_free_trade
 		icon = GFX_goal_generic_positive_trade_relations
 		cost = 10.00
 		prerequisite = {
-			focus = SOR_60s_embrace_capitalism
+			focus = SOM_60s_embrace_capitalism
 		}
 		x = 45
 		y = 12

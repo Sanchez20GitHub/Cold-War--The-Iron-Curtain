@@ -1205,7 +1205,7 @@ ic_pulse = {
 					NOT = { tag = POR }
 					NOT = { tag = NIA }
 					NOT = { tag = POL }
-					NOT = { tag = SOR }
+					NOT = { tag = SOM }
 					NOT = { tag = TUR }
 					NOT = { tag = SAF }
 					NOT = { tag = KOR }
@@ -5409,11 +5409,11 @@ ic_pulse = {
 	
 	if = {
 		limit = {
-			tag = SOR
+			tag = SOM
 			date > 1969.10.01
 			date < 1969.12.01
 		}
-		country_event = sor.6
+		country_event = som.6
 	}
 	if = {
 		limit = {

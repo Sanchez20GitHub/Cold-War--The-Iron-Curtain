@@ -1629,7 +1629,7 @@ SAF = {
 	callsigns = { }
 }
 
-SOR = {
+SOM = {
 	male = {
 		names = { Mukhtaar Sharmaarke Sugule Cagmadhige Xayd Shirwac Looshan "Hufane Huruuse" Aar Kaalim Naasif Muhyddee Abdul Bassaam 
 		Cawad Gurxan Haybe Maxamuud Saacid Sooraan Yoosuf Mohammed Saamir Galayax Hiraabe Culusow Andrew Shakir 

@@ -6,7 +6,7 @@ state={
 	history={
 		owner = SML
 		add_core_of = SML
-		add_core_of = SOR
+		add_core_of = SOM
 		victory_points = {
 			5068 10 
 		}
@@ -15,7 +15,7 @@ state={
 
 		}
 		1960.7.1 = {
-			owner = SOR
+			owner = SOM
 
 		}
 		1991.1.1 = {
