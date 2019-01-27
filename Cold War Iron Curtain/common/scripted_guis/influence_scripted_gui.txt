@@ -182,58 +182,18 @@ scripted_gui = {
 
 			#Positive Actions
 			economic_investments_click = {		
-				add_offsite_building = { type = industrial_complex level = 1 }
+				add_timed_idea = {
+					idea = foriegn_economic_investments
+					days = 900
+				}
 				ROOT = { 
-					add_political_power = -400
-					add_to_variable = { foriegnPowerProjection = -5 }
+					add_political_power = -100
+					add_to_variable = { foriegnPowerProjection = -3 }
 				}
 				fifty_point_influence_gain = yes
 				
 				recalculate_influence = yes
-				if = {
-					limit = {
-						check_variable = { influencer1 = ROOT }
-					}
-					add_to_variable = { influencer1_investment = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { influencer2 = ROOT }
-					}
-					add_to_variable = { influencer2_investment = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { influencer3 = ROOT }
-					}
-					add_to_variable = { influencer3_investment = 1 }
-					
-				}
-				if = {
-					limit = {
-						check_variable = { influencer4 = ROOT }
-					}
-					add_to_variable = { influencer4_investment = 1 }
-					
-				}
-				if = {
-					limit = {
-						check_variable = { influencer5 = ROOT }
-					}
-					add_to_variable = { influencer5_investment = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { influencer6 = ROOT }
-					}
-					add_to_variable = { influencer6_investment = 1 }
-				}
-				if = {
-					limit = {
-						check_variable = { influencer7 = ROOT }
-					}
-					add_to_variable = { influencer7_investment = 1 }
-				}					
+				
 			}
 			defense_treaty_click = {	
 				
@@ -431,9 +391,10 @@ scripted_gui = {
 		}
 		triggers = {
 			economic_investments_click_enabled = {
+				NOT = { has_idea = foriegn_economic_investments }
 				ROOT = {
-					check_variable = { foriegnPowerProjection > 4 }
-					has_political_power > 399
+					check_variable = { foriegnPowerProjection > 2 }
+					has_political_power > 99
 				}
 			}
 			defense_treaty_click_enabled = {
