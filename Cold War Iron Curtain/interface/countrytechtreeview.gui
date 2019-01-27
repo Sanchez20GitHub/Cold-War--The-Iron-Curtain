@@ -4640,6 +4640,30 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				instantTextBoxType = {
+					name = "industry_year13"
+					position = { x = 0 y = 1680 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2000"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_year14"
+					position = { x = 0 y = 1820 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2005"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			
 			}			
 
@@ -4647,7 +4671,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "engineering_year_center"
-				position = { x=1100 y=40 }
+				position = { x=1030 y=40 }
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
@@ -4793,6 +4817,30 @@ guiTypes = {
 					format = left
 					Orientation = "UPPER_LEFT"
 				}
+				instantTextBoxType = {
+					name = "industry_year13"
+					position = { x = 0 y = 1680 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2000"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_year14"
+					position = { x = 0 y = 1820 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2005"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			
 			}	
 
@@ -4800,7 +4848,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "engineering_year_right"
-				position = { x=1750 y=40 }
+				position = { x=1800 y=40 }
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
@@ -4947,8 +4995,209 @@ guiTypes = {
 					Orientation = "UPPER_LEFT"
 					pdx_tooltip = "egg_desc"
 				}
+				instantTextBoxType = {
+					name = "industry_year13"
+					position = { x = 0 y = 1680 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2000"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_year14"
+					position = { x = 0 y = 1820 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2005"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
 			
 			}
+			
+#####Years Third Positionist
+
+				containerWindowType = {
+				name = "engineering_year_third_positionist"
+				position = { x=3325 y=40 }
+				size = { width = 130 height = 100% }
+				orientation = upper_left
+			
+				instantTextBoxType = {
+					name = "industry_year2"
+					position = { x = 0 y = 140 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1945"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year3"
+					position = { x = 0 y = 280 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1950"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_year4"
+					position = { x = 0 y = 420 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1955"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year5"
+					position = { x = 0 y = 560 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1960"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year6"
+					position = { x = 0 y = 700 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1965"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year7"
+					position = { x = 0 y = 840 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1970"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}		
+			
+				instantTextBoxType = {
+					name = "industry_year8"
+					position = { x = 0 y = 980 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1975"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year9"
+					position = { x = 0 y = 1120 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1980"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year10"
+					position = { x = 0 y = 1260 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1985"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "industry_year11"
+					position = { x = 0 y = 1400 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1990"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}			
+			
+				instantTextBoxType = {
+					name = "industry_year12"
+					position = { x = 0 y = 1540 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "1995"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_year13"
+					position = { x = 0 y = 1680 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2000"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				instantTextBoxType = {
+					name = "industry_year14"
+					position = { x = 0 y = 1820 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "2005"
+					maxWidth = 130
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+			
+			}	
 				
 
 ####Titles			
@@ -4978,10 +5227,23 @@ guiTypes = {
 					format = center
 					Orientation = "UPPER_LEFT"
 				}
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_infrastructure"
+					position = { x = 2810 y = 50  }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "INFRASTRUCTURE & ENERGY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
 
 				instantTextBoxType = {
 					name = "industry_subtitle_construction"
-					position = { x = 1290 y = 50  }
+					position = { x = 1220 y = 50  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -5000,7 +5262,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Logistics"
+					text = "LOGISTICS"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -5013,7 +5275,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Management"
+					text = "MANAGEMENT"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -5022,11 +5284,11 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "industry_subtitle_agriculture"
-					position = { x = 1215 y = 220  }
+					position = { x = 1185 y = 220  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Agriculture"
+					text = "AGRICULTURE"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -5035,11 +5297,11 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "industry_subtitle_excavation"
-					position = { x = 1500 y = 390	  }
+					position = { x = 1580 y = 390	  }
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Excavation"
+					text = "EXCAVATION"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -5052,7 +5314,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Plastics"
+					text = "PLASTICS"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
@@ -5065,7 +5327,46 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_22tech"
 					borderSize = {x = 0 y = 4}
-					text = "Materials"
+					text = "MATERIALS"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_energy"
+					position = { x = 2585 y = 220	  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "ENERGY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_renewables"
+					position = { x = 2375 y = 400	  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "GREEN ENERGY"
+					maxWidth = 200
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "industry_subtitle_infra"
+					position = { x = 3025 y = 220	  }
+					textureFile = ""
+					font = "hoi_22tech"
+					borderSize = {x = 0 y = 4}
+					text = "INFRASTRUCTURE"
 					maxWidth = 200
 					maxHeight = 62
 					format = center
