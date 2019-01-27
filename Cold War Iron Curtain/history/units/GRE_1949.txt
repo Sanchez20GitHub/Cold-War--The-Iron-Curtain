@@ -320,7 +320,7 @@ units = {
 	
 	division = {
 		name = "2on Elafru Suntagma Pezikou"
-		location = 3865
+		location = 3864
 		division_template = "Elafru Suntagma Pezikou" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.8
@@ -508,7 +508,7 @@ units = {
 	}
 	division = {
 		name = "IX Suntagma Anagnwrisis"
-		location = 1249
+		location = 3864
 		division_template = "Suntagma Anagnwrisis" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.9
