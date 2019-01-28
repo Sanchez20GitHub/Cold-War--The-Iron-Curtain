@@ -1,0 +1,83 @@
+buildings = {
+
+	# show_on_map:
+	#    if provincial = yes, then show_on_map = X is amount per each province
+	#    if provincial = no, then show_on_map = X is amount per state
+
+#####AGRI-INDUSTRIAL#####
+	
+	farm = {
+		base_cost = 4000
+		icon_frame = 3
+		infrastructure = no
+		max_level = 12 # This is the max unlock level
+		value = 1
+		shares_slots = no
+		infrastructure_construction_effect = yes
+	}
+	water_infrastructure = {
+		base_cost = 10000
+		icon_frame = 3
+		infrastructure = yes
+		max_level = 12 # This is the max unlock level
+		value = 1
+		shares_slots = no
+		infrastructure_construction_effect = yes
+	}
+#####INFRASTRUCTURE#####
+	state_infrastructure = {
+		base_cost = 6000
+		icon_frame = 3
+		infrastructure = yes
+		max_level = 8 # This is the max unlock level
+		value = 1
+	}
+	municipal_infrastructure = {
+		base_cost = 6000
+		icon_frame = 3
+		infrastructure = yes
+		max_level = 8 # This is the max unlock level
+		value = 1
+	}
+	civilian_air_base = {
+		show_on_map = 1
+		base_cost = 5000
+		icon_frame = 5
+		air_base = yes
+		shares_slots = no
+		max_level = 2 # This is the max unlock level
+		value = 1
+		infrastructure_construction_effect = yes
+	}
+#####ENERGY#####
+	fossil_fuel_powerplant = {
+		show_on_map = 0
+		base_cost = 8000
+		icon_frame = 1
+		local_resources_electricity = 10
+		local_resources_oil = -1
+		refinery = yes
+		max_level = 5 # This is the max unlock level
+		shares_slots = no
+		value = 10
+		infrastructure_construction_effect = yes
+	}
+	renewable_powerplant = {
+		show_on_map = 0
+		base_cost = 12000
+		icon_frame = 1
+		local_resources_electricity = 10
+		refinery = yes
+		max_level = 5 # This is the max unlock level
+		shares_slots = no
+		value = 10
+		infrastructure_construction_effect = yes
+	}
+	
+
+
+
+
+
+
+}
