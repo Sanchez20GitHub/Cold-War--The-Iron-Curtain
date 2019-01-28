@@ -3,6 +3,7 @@ ideas = {
 	
 		Globalist_advisor = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Smith
@@ -11,6 +12,7 @@ ideas = {
 		}
 		Foreign_Aid_Advocate = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = GreatMonarch
@@ -19,6 +21,7 @@ ideas = {
 		}
 		Tax_Shelterer = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Miamoto
@@ -27,6 +30,7 @@ ideas = {
 		}
 		Nationalist_advisor = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Morsay
@@ -35,6 +39,7 @@ ideas = {
 		}
 		International_Scammer = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Personn
@@ -45,6 +50,7 @@ ideas = {
 	education_advisor = {
 		Progressive_Educator = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Todd
@@ -53,6 +59,7 @@ ideas = {
 		}	
 		Conservative_Educator = { 
 			allowed = {
+				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 			}
 			picture = Dany
@@ -62,6 +69,7 @@ ideas = {
 		Traditional_Educator = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Gabe
 			
@@ -70,6 +78,7 @@ ideas = {
 		Militarist_Educator = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Renzi
 			
@@ -78,6 +87,7 @@ ideas = {
 		Radical_Educator = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Shigeru
 			
@@ -88,6 +98,7 @@ ideas = {
 		Welfare_Statist = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = BernardHL
 			
@@ -96,6 +107,7 @@ ideas = {
 		Welfare_Advocate = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Yost
 			
@@ -104,6 +116,7 @@ ideas = {
 		Cost_Cutter = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Benalla
 			
@@ -112,6 +125,7 @@ ideas = {
 		Financial_Hawk = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Attali
 			
@@ -122,6 +136,7 @@ ideas = {
 		Police_Statist = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Willy_Shatner
 			
@@ -130,6 +145,7 @@ ideas = {
 		Auditor = {
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Dan_Jonson
 			
@@ -138,6 +154,7 @@ ideas = {
 		Intelligence_Specialist = {
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = John_Nasa
 			
@@ -146,6 +163,7 @@ ideas = {
 		Cultural_Militarist = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = GRE }
 			}
 			picture = Ulk_Khogan
 			

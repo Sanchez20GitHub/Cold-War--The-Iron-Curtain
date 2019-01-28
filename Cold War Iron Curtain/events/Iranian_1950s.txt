@@ -424,7 +424,7 @@ news_event = {
 
 news_event = {
 	id = AJAX.11
-	title = "[GetNewspaperHeader]Flight_of_the_Shah"
+	title = "[GetNewspaperHeader]Flight of the Shah"
 	desc = AJAX.11.d
 	picture = GFX_NEWS_REPORT
 	

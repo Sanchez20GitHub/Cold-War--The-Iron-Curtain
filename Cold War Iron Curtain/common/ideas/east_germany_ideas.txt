@@ -1084,7 +1084,6 @@ ideas = {
 		
 		heinz_hoffmann = {
 
-
 		picture = heinz_hoffman
 
 			allowed = {
@@ -1362,22 +1361,5 @@ ideas = {
 				factor = 0.1
 			}
 		}
-
-		Wilhelm_Adam = {
-
-		picture = Wilhem_Adam
-
-			allowed = {
-				original_tag = DDR
-			}
-						
-			traits = { army_chief_drill_2 }
-			
-			ai_will_do = {
-				factor = 0.1
-			}
-		}
-
-
 	}
 }
