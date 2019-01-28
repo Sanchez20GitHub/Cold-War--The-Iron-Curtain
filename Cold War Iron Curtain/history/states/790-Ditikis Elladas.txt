@@ -9,6 +9,9 @@ state={
 
 	history={
 		owner = GRE
+		victory_points = {
+			7211 5 
+		}
 		1949.1.1 = {
 			PDG = {
 				set_province_controller = 11786
@@ -24,9 +27,6 @@ state={
 
 			}
 
-		}
-		victory_points = {
-			1205 1 
 		}
 		buildings = {
 			infrastructure = 2
