@@ -136,6 +136,22 @@ technologies = {
 			infrastructure
 			energy
 		}
+		enable_building = {
+			building = municipal_infrastructure
+			level = 4
+		}
+		enable_building = {
+			building = state_infrastructure
+			level = 4
+		}
+		enable_building = {
+			building = water_infrastructure
+			level = 1
+		}
+		enable_building = {
+			building = civilian_air_base
+			level = 1
+		}
 		
 		ai_will_do = {
 			factor = 75
@@ -1743,6 +1759,8 @@ technologies = {
 		}
 		dependencies = {
 			agriculture_I = 1
+			ww_infra = 1
+			ww_oil = 1
 		}
 	
 		research_cost = 1.5
@@ -1760,6 +1778,10 @@ technologies = {
 			agriculture
 			water
 			rgo
+		}
+		enable_building = {
+			building = water_infrastructure
+			level = 2
 		}
 	}
 	
@@ -1792,6 +1814,10 @@ technologies = {
 			agriculture
 			water
 			rgo
+		}
+		enable_building = {
+			building = water_infrastructure
+			level = 3
 		}
 	}
 	
@@ -1854,6 +1880,10 @@ technologies = {
 			agriculture
 			water
 			rgo
+		}
+		enable_building = {
+			building = water_infrastructure
+			level = 4
 		}
 	}
 	
@@ -3091,6 +3121,11 @@ technologies = {
 			energy
 			renewables
 		}
+		
+		enable_building = {
+			building = renewable_powerplant
+			level = 1
+		}
 	}
 	
 
@@ -3125,6 +3160,10 @@ technologies = {
 			energy
 			renewables
 		}
+		enable_building = {
+			building = renewable_powerplant
+			level = 2
+		}
 	}
 	
 	renewables_III = {
@@ -3158,6 +3197,10 @@ technologies = {
 			energy
 			renewables
 		}
+		enable_building = {
+			building = renewable_powerplant
+			level = 3
+		}
 	}
 	
 	renewables_IV = {
@@ -3190,6 +3233,10 @@ technologies = {
 			infrastructure
 			energy
 			renewables
+		}
+		enable_building = {
+			building = renewable_powerplant
+			level = 4
 		}
 	}
 	
@@ -3510,6 +3557,10 @@ technologies = {
 	
 	inframanagement_I = {
 	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
+	
 		path = {
 			leads_to_tech = inframanagement_II 
 			research_cost_coeff = 1.0
@@ -3534,6 +3585,10 @@ technologies = {
 	
 
 	inframanagement_II = {
+	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
 		
 		path = {
 			leads_to_tech = inframanagement_III 
@@ -3559,6 +3614,10 @@ technologies = {
 	
 	inframanagement_III = {
 	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
+	
 		path = {
 			leads_to_tech = inframanagement_IV 
 			research_cost_coeff = 1.0
@@ -3582,6 +3641,10 @@ technologies = {
 	}
 	
 	inframanagement_IV = {
+	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
 	
 		path = {
 			leads_to_tech = inframanagement_V 
@@ -3607,6 +3670,10 @@ technologies = {
 	
 	inframanagement_V = {
 	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
+	
 		path = {
 			leads_to_tech = inframanagement_VI 
 			research_cost_coeff = 1.0
@@ -3630,6 +3697,10 @@ technologies = {
 	}
 	
 	inframanagement_VI = {
+	
+		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_state_infrastructure_factor = 0.05
+		production_speed_water_infrastructure_factor = 0.05
 	
 		research_cost = 1.5
 		start_year = 2005
@@ -3670,6 +3741,10 @@ technologies = {
 			infrastructure
 			inframunicipal
 		}
+		enable_building = {
+			building = municipal_infrastructure
+			level = 5
+		}
 	}
 	
 
@@ -3695,6 +3770,10 @@ technologies = {
 			infrastructure
 			inframunicipal
 		}
+		enable_building = {
+			building = municipal_infrastructure
+			level = 6
+		}
 	}
 	
 	inframunicipal_III = {
@@ -3713,6 +3792,14 @@ technologies = {
 		categories = {
 			infrastructure
 			inframunicipal
+		}
+		enable_building = {
+			building = municipal_infrastructure
+			level = 8
+		}
+		enable_building = {
+			building = civilian_air_base
+			level = 2
 		}
 	}
 	
@@ -3737,6 +3824,10 @@ technologies = {
 		categories = {
 			infrastructure
 			infrastate
+		}
+		enable_building = {
+			building = state_infrastructure
+			level = 5
 		}
 	}
 	
@@ -3763,6 +3854,10 @@ technologies = {
 			infrastructure
 			infrastate
 		}
+		enable_building = {
+			building = state_infrastructure
+			level = 6
+		}
 	}
 	
 	infrastate_III = {
@@ -3781,6 +3876,10 @@ technologies = {
 		categories = {
 			infrastructure
 			infrastate
+		}
+		enable_building = {
+			building = state_infrastructure
+			level = 8
 		}
 	}
 	electriccars = {
