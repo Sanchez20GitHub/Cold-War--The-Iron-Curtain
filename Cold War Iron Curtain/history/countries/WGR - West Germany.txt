@@ -275,7 +275,6 @@ create_country_leader = {
 }
 
 1949.1.1 = {
-    capital = 42
     oob = "WGR_1949"
 	drop_cosmetic_tag = yes
 	add_to_tech_sharing_group = marshall_plan
