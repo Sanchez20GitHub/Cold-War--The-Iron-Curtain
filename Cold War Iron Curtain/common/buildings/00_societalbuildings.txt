@@ -26,18 +26,12 @@ buildings = {
 	}
 #####INFRASTRUCTURE#####
 	state_infrastructure = {
-		base_cost = 6000
+		base_cost = 4000
 		icon_frame = 3
 		infrastructure = yes
 		max_level = 8 # This is the max unlock level
 		value = 1
-	}
-	municipal_infrastructure = {
-		base_cost = 6000
-		icon_frame = 3
-		infrastructure = yes
-		max_level = 8 # This is the max unlock level
-		value = 1
+		local_resources_factor = 0.10
 	}
 	civilian_air_base = {
 		show_on_map = 1

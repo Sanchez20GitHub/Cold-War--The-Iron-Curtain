@@ -137,7 +137,7 @@ technologies = {
 			energy
 		}
 		enable_building = {
-			building = municipal_infrastructure
+			building = infrastructure
 			level = 4
 		}
 		enable_building = {
@@ -3557,7 +3557,7 @@ technologies = {
 	
 	inframanagement_I = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 	
@@ -3586,7 +3586,7 @@ technologies = {
 
 	inframanagement_II = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 		
@@ -3614,7 +3614,7 @@ technologies = {
 	
 	inframanagement_III = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 	
@@ -3642,7 +3642,7 @@ technologies = {
 	
 	inframanagement_IV = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 	
@@ -3670,7 +3670,7 @@ technologies = {
 	
 	inframanagement_V = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 	
@@ -3698,7 +3698,7 @@ technologies = {
 	
 	inframanagement_VI = {
 	
-		production_speed_municipal_infrastructure_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
 		production_speed_state_infrastructure_factor = 0.05
 		production_speed_water_infrastructure_factor = 0.05
 	
@@ -3742,7 +3742,7 @@ technologies = {
 			inframunicipal
 		}
 		enable_building = {
-			building = municipal_infrastructure
+			building = infrastructure
 			level = 5
 		}
 	}
@@ -3771,7 +3771,7 @@ technologies = {
 			inframunicipal
 		}
 		enable_building = {
-			building = municipal_infrastructure
+			building = infrastructure
 			level = 6
 		}
 	}
@@ -3794,7 +3794,7 @@ technologies = {
 			inframunicipal
 		}
 		enable_building = {
-			building = municipal_infrastructure
+			building = infrastructure
 			level = 8
 		}
 		enable_building = {
