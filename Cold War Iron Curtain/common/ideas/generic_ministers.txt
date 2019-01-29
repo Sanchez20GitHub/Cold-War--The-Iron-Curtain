@@ -41,6 +41,14 @@ ideas = {
 				picture = Sreten_Zujovic
 				traits = { trotskyism_revolutionary }
 			}
+			revsoc = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { conservative_reformer }
+			}
 	}
 	foriegn_advisor	= {
 	
