@@ -348,6 +348,7 @@ focus_tree = {
 		x = 24
 		y = 1
 			completion_reward = {
+			set_cosmetic_tag = DDR_1949
 					news_event = ddr.3
 					create_country_leader = {
 							name = "Wilhelm Pieck"
