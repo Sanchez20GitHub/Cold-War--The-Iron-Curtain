@@ -630,18 +630,18 @@ focus_tree = {
 		y = 7
 		completion_reward = {
 			add_equipment_to_stockpile = {
-				type = infantry_equipment
+				type = infantry_equipment_1
 				amount = 5000
 				producer = SOV
 			}	
 			add_equipment_to_stockpile = {
-				type = mbt_equipment
-				amount = 300
+				type = mbt_equipment_1
+				amount = 20
 				producer = SOV
 			}	
 			add_equipment_to_stockpile = {
 				type = motorized_equipment_2
-				amount = 500
+				amount = 100
 				producer = SOV
 			}			
 		}
@@ -1140,7 +1140,8 @@ focus_tree = {
 					target = NIA
 					modifier = large_decrease
 				}
-			}NIA = {
+			}
+			NIA = {
 				add_opinion_modifier = {
 					target = NIG
 					modifier = large_decrease
