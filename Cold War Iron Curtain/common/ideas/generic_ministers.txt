@@ -1,4 +1,47 @@
 ideas = {
+	political_advisor = {
+		
+			commie = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { communist_believer }
+			}
+			monarchy = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { monarchist_advisor }
+			}
+			market_soc = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { market_socialist_activist }
+			}
+			market_soc = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { market_socialist_activist }
+			}
+			revsoc = {
+				allowed = {
+					NOT = { original_tag = GRE }
+					NOT = { original_tag = USA }
+				}
+				picture = Sreten_Zujovic
+				traits = { trotskyism_revolutionary }
+			}
+	}
 	foriegn_advisor	= {
 	
 		Globalist_advisor = { 
