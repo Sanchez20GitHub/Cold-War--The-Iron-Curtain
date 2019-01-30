@@ -120,11 +120,7 @@ create_country_leader = {
 	ideology = monarchy
 }
 
-create_country_leader = {
-	name = "Muammar Gaddafi"
-	picture = "Muammar_Gaddafi.dds"
-	ideology = pan_arabism
-}
+
 
 1951.1.1 = {
     capital = 448
@@ -135,7 +131,35 @@ create_country_leader = {
 		oob = "LBA_1960"
 
 }
-1969.1.1 = {
+
+1965.1.1 = {
+
+	create_country_leader = {
+		name = "Muammar Gaddafi"
+		picture = "Muammar_Gaddafi.dds"
+		ideology = pan_arabism
+	}
+
+	create_country_leader = {
+	    name = "Hasan as-Senussi"
+	    picture = "Hasan_as_Senussi.dds"
+	    ideology = monarchy
+    }
+	
+}
+
+1968.1.1 = {
+
+		create_country_leader = {
+		name = "Ahmed Al Senussi"
+		picture = "ahmed_al_senussi.dds"
+		ideology = monarchy
+	}
+
+}
+
+
+1969.9.1 = {
 	set_politics = {
 	    parties = {
             democratic = { popularity = 0 }
@@ -161,15 +185,11 @@ create_country_leader = {
 
 	    }
 	    ruling_party = nationalism
-	    last_election = "1969.1.1"
+	    last_election = "1951.1.1"
 	    election_frequency = 48
 	    elections_allowed = no
     }
-	create_country_leader = {
-	    name = "Hasan as-Senussi"
-	    picture = "Hasan_as_Senussi.dds"
-	    ideology = monarchy
-    }
+
 }
 
 1977.1.1 = {
