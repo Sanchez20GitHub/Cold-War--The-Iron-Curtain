@@ -156,9 +156,9 @@ guiTypes = {
 			name ="FPP_var_text"
 			position = { x=190 y = 0 }
 			font = "hoi_16mbs"
-			text = "[?ROOT.foriegnPowerProjection]"
+			text = "[?ROOT.gdp]"
 			format = centre
-			maxWidth = 35
+			maxWidth = 50
 			maxHeight = 18
 			fixedsize = yes
 			
