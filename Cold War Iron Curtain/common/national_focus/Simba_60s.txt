@@ -99,10 +99,11 @@ focus_tree = {
 		x = 1
 		y = 4
 		completion_reward = {
-			add_manpower = 20000
+			add_manpower = 5000
 			capital_scope = { 
 				create_unit = { division = "name = \"5th Simba Division\" division_template = \"Tribal Fighters\" start_experience_factor = 0.1" owner = THIS } 
-				create_unit = { division = "name = \"6th Simba Division\" division_template = \"Tribal Fighters\" start_experience_factor = 0.1" owner = THIS }  			}	
+				create_unit = { division = "name = \"6th Simba Division\" division_template = \"Tribal Fighters\" start_experience_factor = 0.1" owner = THIS }
+				}	
 		}
 	}
 	focus = {

@@ -846,8 +846,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -1636,8 +1636,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -2428,8 +2428,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -3217,8 +3217,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -4006,8 +4006,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -4795,8 +4795,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"
@@ -5584,8 +5584,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = NIA } }
      localization_key = "[NIA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = SOR } }
-     localization_key = "[SOR.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = SOM } }
+     localization_key = "[SOM.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = CYP } }
      localization_key = "[CYP.GetNameWithFlag]"

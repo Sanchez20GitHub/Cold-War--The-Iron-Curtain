@@ -1084,7 +1084,8 @@ ideas = {
 		
 		heinz_hoffmann = {
 
-			
+		picture = heinz_hoffman
+
 			allowed = {
 				original_tag = DDR
 			}
@@ -1305,6 +1306,7 @@ ideas = {
 	high_command = {
 		Heinz_Hoffmann2 = {
 
+        picture = heinz_hoffman
 			
 			allowed = {
 				original_tag = DDR
@@ -1318,7 +1320,8 @@ ideas = {
 		}
 		Rudolf_Bamler = {
 
-			
+		picture = Rudolf_Bamler
+
 			allowed = {
 				original_tag = DDR
 			}
@@ -1332,6 +1335,7 @@ ideas = {
 		
 		Arno_von_Lenski = {
 
+        picture = von_lenski
 			
 			allowed = {
 				original_tag = DDR
@@ -1345,7 +1349,8 @@ ideas = {
 		}
 		Vincenz_Muller = {
 
-			
+	    picture = Vincenz_Mueller
+
 			allowed = {
 				original_tag = DDR
 			}
@@ -1356,21 +1361,5 @@ ideas = {
 				factor = 0.1
 			}
 		}
-
-		Wilhelm_Adam = {
-
-			
-			allowed = {
-				original_tag = DDR
-			}
-						
-			traits = { army_chief_drill_2 }
-			
-			ai_will_do = {
-				factor = 0.1
-			}
-		}
-
-
 	}
 }

@@ -8,6 +8,12 @@ state={
 
 	history={
 		owner = GRE
+		victory_points = {
+			8435 1 
+		}
+		victory_points = {
+			6550 1 
+		}
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 2
@@ -34,7 +40,7 @@ state={
 	provinces={
 		3988 6550 8435 
 	}
-	manpower=322600
+	manpower=281327
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

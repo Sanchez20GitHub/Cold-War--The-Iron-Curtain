@@ -1,9 +1,9 @@
-﻿ add_namespace = sor
+﻿ add_namespace = som
  
   country_event = {
- 	id = sor.1
+ 	id = som.1
  	title = "Execution of Siad Barre"
- 	desc = sor.1.d
+ 	desc = som.1.d
  
  	is_triggered_only = yes
  
@@ -11,14 +11,14 @@
  		name = "A necessary sacrifice"
 			add_stability = -0.01
 			add_political_power = 50
-			news_event = sor.2
+			news_event = som.2
  	}
 }
 
 news_event = {
-	id = sor.2
+	id = som.2
 	title = "[GetNewspaperHeader]Siad Barre Executed in Somalia"
-	desc = sor.2.d
+	desc = som.2.d
 	picture = GFX_news_event_execution
 	
 	is_triggered_only = yes
@@ -30,9 +30,9 @@ news_event = {
 }
 
   country_event = {
- 	id = sor.3
+ 	id = som.3
  	title = "Barre Has Couped The Government"
- 	desc = sor.3.d
+ 	desc = som.3.d
  
  	is_triggered_only = yes
  
@@ -42,9 +42,9 @@ news_event = {
  	}
 
   country_event = {
- 	id = sor.4
+ 	id = som.4
  	title = "Barre Has Banished"
- 	desc = sor.4.d
+ 	desc = som.4.d
  
  	is_triggered_only = yes
  
@@ -54,7 +54,7 @@ news_event = {
  	}
 
 	country_event = {
-	id = sor.5
+	id = som.5
 	title = "A New Leader?"
 	desc = "Some doubt Barres ability lead. Is this true?"
 	picture = GFX_report_event_political_deal
@@ -85,7 +85,7 @@ news_event = {
 }
 
 	country_event = {
-	id = sor.6
+	id = som.6
 	title = "Man ded"
 	desc = "President has died from assasin"
 	picture = GFX_report_event_political_deal

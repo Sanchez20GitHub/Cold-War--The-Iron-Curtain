@@ -1,0 +1,67 @@
+ideas = {
+  
+        army_chief = {
+
+Georgios_Mauros  = {
+
+        picture = Georgios_Mauros
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { army_chief_drill_2 }
+		}
+Alexandros_Papagos  = {
+
+        picture = Alexandros_Papagos
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { army_cavalry_2 }
+		}
+
+Sofoklis_Venizelos   = {
+
+        picture = Sofoklis_Venizelos
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { army_infantry_2 }
+		}
+    }
+
+education_advisor = {
+
+Nikolaos_Mpakopoulos = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { Traditional_Educator_minister }
+		}
+
+Minas_Patrikios = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { Militarist_Educator_minister }
+		}
+
+Georgios_Vogiatzis = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { Conservative_Educator_minister }
+		}
+    }
+}

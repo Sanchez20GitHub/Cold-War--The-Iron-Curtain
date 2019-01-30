@@ -5138,4 +5138,16 @@ spriteTypes = {
 		name = "GFX_idea_GRE_communism_banned"
 		texturefile = "gfx/interface/ideas/law509.dds"
     }
+    spriteType = {
+		name = "GFX_idea_Alexandros_Papagos"
+		texturefile = "gfx/interface/ideas/Alexandros_Papagos.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Georgios_Mauros"
+		texturefile = "gfx/interface/ideas/Georgios_Mauros.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Sofoklis_Venizelos"
+		texturefile = "gfx/interface/ideas/Sofoklis_Venizelos.tga"
+    }
 }

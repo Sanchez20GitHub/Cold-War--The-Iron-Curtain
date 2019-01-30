@@ -1218,34 +1218,29 @@ focus_tree = {
 		y = 1
 			available = {
 					ENG = {
-							owns_state = 559
-							owns_state = 1243
-							owns_state = 1240
+					owns_state = 1158
+					owns_state = 1240
+					owns_state = 559
+					owns_state = 794
+					owns_state = 880
+					owns_state = 988
 						}
 				}
 			bypass = {
-					owns_state = 559
-					owns_state = 1243
+					owns_state = 1158
 					owns_state = 1240
+					owns_state = 559
+					owns_state = 794
+					owns_state = 880
+					owns_state = 988
 				}
 			completion_reward = {
-					transfer_state = 559
-					transfer_state = 1243
+					transfer_state = 1158
 					transfer_state = 1240
-					release_puppet = SOR
-					SOR = {
-							set_cosmetic_tag = SOR_ITA
-							set_politics = {
-									ruling_party = neutrality
-									elections_allowed = no
-								}
-							create_country_leader = {
-									name = "Giovanni Fornari"
-									picture = "UN.dds"
-									expire = "1953.1.1"
-									ideology = colonial_regime
-								}
-						}
+					transfer_state = 559
+					transfer_state = 794
+					transfer_state = 880
+					transfer_state = 988
 				}
 
 	}
@@ -1259,7 +1254,7 @@ focus_tree = {
 		x = 18
 		y = 2
 			completion_reward = {
-				SOR = {
+				SOM = {
 					559 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
@@ -1282,7 +1277,7 @@ focus_tree = {
 		x = 20
 		y = 2
 			completion_reward = {
-				SOR = {
+				SOM = {
 					559 = {
 							add_extra_state_shared_building_slots = 2
 							add_building_construction = {
@@ -1311,12 +1306,12 @@ focus_tree = {
 					has_full_control_of_state = 559
 				}
 			bypass = {
-					SOR = {
+					SOM = {
 							owns_state = 559
 						}
 				}
 			completion_reward = {
-					SOR = {
+					SOM = {
 							transfer_state = 559
 						}
 				}

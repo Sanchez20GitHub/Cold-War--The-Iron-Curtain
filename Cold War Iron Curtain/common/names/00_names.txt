@@ -257,7 +257,7 @@ FIN = {
 
 	surnames = { Pertola Törni Marttinen Arjanen Rajala Ryti Juutilanen Virtanen Korhonen Nieminen Laine Järvinen Karhu Kari Markkula Matilla Luoma Heikkinen Helminen Lahti Olli Oksanen Jaakola Janhunen Mäkelä Mäkinen Karppi Helmi Jutila Nyman Lindeman
 	  }
-	  callsigns = {Salama Kotka Viima Ukko Tursas Kuha }
+	  callsigns = {Salama Kotka Viima Ukko Ylijumala Kuha }
 }
 
 
@@ -1629,7 +1629,7 @@ SAF = {
 	callsigns = { }
 }
 
-SOR = {
+SOM = {
 	male = {
 		names = { Mukhtaar Sharmaarke Sugule Cagmadhige Xayd Shirwac Looshan "Hufane Huruuse" Aar Kaalim Naasif Muhyddee Abdul Bassaam 
 		Cawad Gurxan Haybe Maxamuud Saacid Sooraan Yoosuf Mohammed Saamir Galayax Hiraabe Culusow Andrew Shakir 

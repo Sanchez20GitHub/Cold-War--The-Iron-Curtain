@@ -717,7 +717,7 @@ focus_tree = {
 						}
 					create_wargoal = {
 							type = annex_everything
-							target = SOR
+							target = SOM
 						}
 					SML = {
 							every_owned_state = {
@@ -969,7 +969,7 @@ focus_tree = {
 						}
 					create_wargoal = {
 							type = annex_everything
-							target = SOR
+							target = SOM
 						}
 					SML = {
 							every_owned_state = {
@@ -1001,7 +1001,7 @@ focus_tree = {
 						}
 					create_wargoal = {
 							type = annex_everything
-							target = SOR
+							target = SOM
 						}
 					SML = {
 							every_owned_state = {
