@@ -3,7 +3,7 @@ ideas = {
         army_chief = {
 
 Georgios_Mauros  = {
-
+    
         picture = Georgios_Mauros
 
 			allowed = {
@@ -62,6 +62,33 @@ Georgios_Vogiatzis = {
 			}
 			
 			traits = { Conservative_Educator_minister }
+		}
+    }
+
+	air_chief = {
+Xaralampos_Potamianos = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { victory_through_airpower }
+		}
+Emmanouil_Kelaidis = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { close_air_support_proponent }
+		}
+Konstantinos_Margaritis = {
+
+			allowed = {
+				original_tag = GRE
+			}
+			
+			traits = { assault_avaition }
 		}
     }
 }

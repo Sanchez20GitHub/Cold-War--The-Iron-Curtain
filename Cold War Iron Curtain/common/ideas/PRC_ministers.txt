@@ -1,0 +1,42 @@
+idea = {
+	air_chief = {
+        Liu_Yalou = {
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_chief_old_guard }
+		}
+        Wu_Faxian = {
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_chief_ground_support_1 }
+		}
+
+        Zhang_Tingfa = {
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { air_chief_all_weather_1 }
+		}
+   }
+   	navy_chief = {
+        Zhou_Xihan = {
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_chief_maneuver_1 }
+		}
+        Luo_Shunchu = {
+			allowed = {
+				original_tag = PRC
+			}
+			
+			traits = { navy_fleet_logistics_1 }
+		}
+	}
+}
