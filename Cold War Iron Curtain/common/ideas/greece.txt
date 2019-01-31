@@ -183,7 +183,47 @@ ideas = {
 			}
 		}
 		
-	   GRE_war_devastation_harsh = {
+		GRE_imported_food = {
+            picture = GRE_imported_food
+			removal_cost = -1
+			allowed = {
+				always = no
+		    }
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GRE_imported_food
+			
+			modifier = {
+				consumer_goods_factor = 0.50
+			}
+		}
+		
+		GRE_disorganized_health = {
+            picture = GRE_disorganized_health
+			removal_cost = -1
+			allowed = {
+				always = no
+		    }
+
+			allowed_civil_war = {
+			    always = yes
+			}
+
+			removal_cost = -1
+
+			picture = GRE_disorganized_health
+			
+			modifier = {
+				MONTHLY_POPULATION = -0.2
+			}
+		}
+		
+	    GRE_war_devastation_harsh = {
             picture = GRE_war_devastation
 			removal_cost = -1
 			allowed = {
@@ -292,24 +332,6 @@ ideas = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}
-		}
-		
-		GRE_MP_healthcare = {
-		    picture = GRE_MP_healthcare
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-            
-			modifier = { 
-                MONTHLY_POPULATION = 0.1
-			}
-
 		}
 		
 		GRE_State_Intelligence_Agency = {

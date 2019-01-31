@@ -68,6 +68,7 @@ set_technology = {
 
 add_ideas = {
 	population_growth_rapid
+	limited_conscription
 }
 
 set_cosmetic_tag = LBA_CYN
@@ -129,7 +130,11 @@ create_country_leader = {
     capital = 448
     drop_cosmetic_tag = yes	
 }
+1960.1.1 = {
+          
+		oob = "LBA_1960"
 
+}
 1969.1.1 = {
 	set_politics = {
 	    parties = {

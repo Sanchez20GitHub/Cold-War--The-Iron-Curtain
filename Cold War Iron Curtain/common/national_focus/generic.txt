@@ -1465,7 +1465,7 @@ focus_tree = {
 				popularity = 0.01
 			}
 			add_popularity = {
-				ideology = conservative_liberalism
+				ideology = Liberal_Conservatism
 				popularity = 0.01
 			}
 				}
