@@ -170,3 +170,114 @@ GRE_MP_category = {
 	}
 	
 }
+
+GRE_1st_energy_program_category = {
+
+    GRE_aliberi = {
+		icon = generic_construction
+		allowed = {
+				tag = GRE
+		    }
+		available = {
+			1249 = { is_owned_and_controlled_by = GRE }
+		}
+		visible = {
+				has_completed_focus = GRE_1st_energy_program
+			
+			}
+		fire_only_once = yes
+		cost = 5
+		days_remove = 360
+		ai_will_do = { factor = 100 }
+	
+		remove_effect = {
+				1249 = {
+					add_building_construction = {
+					type = coal_plant
+					level = 1
+						}
+					}
+		}
+	}
+	
+	GRE_louros = {
+		icon = generic_construction
+		allowed = {
+				tag = GRE
+		    }
+		available = {
+			185 = { is_owned_and_controlled_by = GRE }
+		}
+		visible = {
+				has_completed_focus = GRE_contineu_1st_energy
+			
+			}
+		fire_only_once = yes
+		cost = 5
+		days_remove = 360
+		ai_will_do = { factor = 100 }
+	
+		remove_effect = {
+				185 = {
+					add_resource = {
+							type = electricity
+							amount = 5
+							}
+					}
+		}
+	}
+	
+	GRE_agra = {
+		icon = generic_construction
+		allowed = {
+				tag = GRE
+		    }
+		available = {
+			731 = { is_owned_and_controlled_by = GRE }
+		}
+		visible = {
+				has_completed_focus = GRE_contineu_1st_energy
+			
+			}
+		fire_only_once = yes
+		cost = 5
+		days_remove = 360
+		ai_will_do = { factor = 100 }
+	
+		remove_effect = {
+				731 = {
+					add_resource = {
+							type = electricity
+							amount = 5
+							}
+					}
+		}
+	}
+	
+	GRE_ladonas = {
+		icon = generic_construction
+		allowed = {
+				tag = GRE
+		    }
+		available = {
+			186 = { is_owned_and_controlled_by = GRE }
+		}
+		visible = {
+				has_completed_focus = GRE_contineu_1st_energy
+			
+			}
+		fire_only_once = yes
+		cost = 5
+		days_remove = 360
+		ai_will_do = { factor = 100 }
+	
+		remove_effect = {
+				186 = {
+					add_resource = {
+							type = electricity
+							amount = 5
+							}
+					}
+		}
+	}
+}
