@@ -1,5 +1,5 @@
 state_categories={
 	river = {
-		color = (0, 204, 204)
+		color = {0, 204, 204}
 	}
 }

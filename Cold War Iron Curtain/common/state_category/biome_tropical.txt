@@ -1,0 +1,5 @@
+state_categories={
+	tropical = {
+		color = {0, 102, 0}
+	}
+}

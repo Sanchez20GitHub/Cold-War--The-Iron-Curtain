@@ -1,0 +1,5 @@
+state_categories={
+	mountains = {
+		color = {128, 128, 128}
+	}
+}

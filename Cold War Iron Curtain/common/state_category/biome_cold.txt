@@ -1,0 +1,5 @@
+state_categories={
+	cold = {
+		color = {102, 255, 255}
+	}
+}

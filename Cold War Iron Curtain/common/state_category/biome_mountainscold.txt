@@ -1,0 +1,5 @@
+state_categories={
+	mountainscold = {
+		color = {240, 240, 240}
+	}
+}

@@ -1,0 +1,29 @@
+state_categories={
+	cold = {
+		color = {102, 255, 255}
+	}
+	mountainscold = {
+		color = {240, 240, 240}
+	}
+	boreal = {
+		color = {0, 255, 204}
+	}
+	temperate = {
+		color = {0, 204, 0}
+	}
+	mountainshot = {
+		color = {179, 134, 0}
+	}
+	mountains = {
+		color = {128, 128, 128}
+	}
+	lushdesert = {
+		color = {255, 255, 102}
+	}
+	desert = {
+		color = {255, 191, 0}
+	}
+	tropical = {
+		color = {0, 102, 0}
+	}
+}

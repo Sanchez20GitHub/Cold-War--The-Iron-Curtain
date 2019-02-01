@@ -1,5 +1,5 @@
 state_categories={
-	freshwatersea = {
+	boreal = {
 		color = {0, 255, 204}
 	}
 }

@@ -1,5 +1,5 @@
 state_categories={
 	lakes = {
-		color = (0, 153, 153)
+		color = {0, 153, 153}
 	}
 }
