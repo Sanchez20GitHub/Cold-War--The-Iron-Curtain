@@ -1,0 +1,5 @@
+state_categories={
+	riverlarge = {
+		color = (0, 255, 255)
+	}
+}

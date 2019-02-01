@@ -1,0 +1,5 @@
+state_categories={
+	freshwatersea = {
+		color = (0, 255, 204)
+	}
+}

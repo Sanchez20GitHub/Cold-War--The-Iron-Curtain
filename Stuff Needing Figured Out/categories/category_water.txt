@@ -1,0 +1,17 @@
+state_categories={
+	basic = {
+		color = (0, 102, 102)
+	}
+	lakes = {
+		color = (0, 153, 153)
+	}
+	river = {
+		color = (0, 204, 204)
+	}
+	riverlarge = {
+		color = (0, 255, 255)
+	}
+	freshwatersea = {
+		color = (0, 255, 204)
+	}
+}

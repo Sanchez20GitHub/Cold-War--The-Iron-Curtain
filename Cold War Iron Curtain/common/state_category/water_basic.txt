@@ -1,0 +1,5 @@
+state_categories={
+	basic = {
+		color = (0, 102, 102)
+	}
+}
