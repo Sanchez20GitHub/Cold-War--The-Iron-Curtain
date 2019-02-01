@@ -223,7 +223,7 @@ ideas = {
 		}
 		
 		PER_form_savak_focus = {
-			picture = generic_spy_intel
+			picture = PER_Savak
 			removal_cost = -1
 			
 			allowed = { always = no}
