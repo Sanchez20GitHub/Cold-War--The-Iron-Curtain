@@ -68,6 +68,8 @@ Georgios_Vogiatzis = {
 	air_chief = {
 Xaralampos_Potamianos = {
 
+        picture = potamianos
+
 			allowed = {
 				original_tag = GRE
 			}
@@ -76,6 +78,8 @@ Xaralampos_Potamianos = {
 		}
 Emmanouil_Kelaidis = {
 
+        picture = kelaidis
+
 			allowed = {
 				original_tag = GRE
 			}
@@ -83,6 +87,8 @@ Emmanouil_Kelaidis = {
 			traits = { close_air_support_proponent }
 		}
 Konstantinos_Margaritis = {
+
+        picture = margaritis
 
 			allowed = {
 				original_tag = GRE
