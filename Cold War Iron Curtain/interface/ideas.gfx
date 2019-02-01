@@ -1,7 +1,4 @@
-spriteTypes = {	
-
-
-
+spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
@@ -5133,7 +5130,6 @@ spriteTypes = {
 		name = "GFX_idea_jim_jones"
 		texturefile = "gfx/interface/ideas/jim_jones.dds"
     }
-	###GREECE
     spriteType = {
 		name = "GFX_idea_GRE_communism_banned"
 		texturefile = "gfx/interface/ideas/law509.dds"
@@ -5159,7 +5155,8 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/kelaidis.dds"
     }
     spriteType = {
-		name = "GFX_idea_potamianos"
-		texturefile = "gfx/interface/ideas/potamianos.dds"
+		name = "GFX_idea_Xaralampos_Potamianos"
+		texturefile = "gfx/interface/ideas/Xaralampos_Potamianos.dds"
     }
+}
 }
