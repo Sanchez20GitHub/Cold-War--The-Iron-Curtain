@@ -1,0 +1,50 @@
+state_categories={
+	1mil = {
+		local_building_slots = 2
+		color = {230, 243, 255}
+	}
+	2mil = {
+		local_building_slots = 3
+		color = {204, 230, 255}
+	}
+	3mil = {
+		local_building_slots = 4
+		color = {179, 218, 255}
+	}
+	4mil = {
+		local_building_slots = 5
+		color = {153, 206, 255}
+	}
+	5mil = {
+		local_building_slots = 6
+		color = {128, 193, 255}
+	}
+	7mil = {
+		local_building_slots = 8
+		color = {102, 181, 255}
+	}
+	10mil = {
+		local_building_slots = 11
+		color = {51, 156, 255}
+	}
+	15mil = {
+		local_building_slots = 16
+		color = {0, 132, 255}
+	}
+	20mil = {
+		local_building_slots = 21
+		color = {0, 119, 230}
+	}
+	25mil = {
+		local_building_slots = 26
+		color = {0, 92, 179}
+	}
+	35mil = {
+		local_building_slots = 36
+		color = {0, 66, 128}
+	}
+	50mil = {
+		local_building_slots = 51
+		color = {0, 40, 77}
+	}
+}

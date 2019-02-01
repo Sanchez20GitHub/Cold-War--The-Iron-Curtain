@@ -1,0 +1,6 @@
+state_categories={
+	7mil = {
+		local_building_slots = 8
+		color = {102, 181, 255}
+	}
+}
