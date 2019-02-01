@@ -433,7 +433,7 @@ ideas = {
 			}
 		
 			modifier = {
-				MONTHLY_POPULATION = 0.01
+				MONTHLY_POPULATION = 0.05
 				stability_factor = 0.025
 			}
 		}
@@ -505,7 +505,7 @@ ideas = {
 			}
 			
             visible = {
-				has_completed_focus = GRE_OTE
+				has_completed_focus = GRE_ote
 			}
 			
 			research_bonus = {

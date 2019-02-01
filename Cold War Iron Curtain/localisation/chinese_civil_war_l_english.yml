@@ -23,7 +23,7 @@
  chinese_civil_war.1.t:0 "End of the Ma Clique"
  chinese_civil_war.1.d:0 "We have defeated the forces of Ma Bufang and captured Qinghai. This means that ROC supply lines to Xinjiang are cut, and their administration in the province is quickly collapsing. Remaining Ma forces are defecting to us."
  chinese_civil_war.1.a:0 "The end of Chiang is near."
- chinese_civil_war.2.t:0 "End of the Ma Clique"
+ chinese_civil_war.2.t:0 "[GetNewspaperHeader]End of the Ma Clique"
  chinese_civil_war.2.d:0 "The Communist Party of China has occupied Qinghai and the forces of Ma Bufang have surrendered. This is a major blow to the Republic of China, as this means that their rule in Xinjiang has collapsed. Even more so, as Ma Bufang's remaining forces are now joining the CPC."
  chinese_civil_war.2.a:0 "Rest in peace!"
 
