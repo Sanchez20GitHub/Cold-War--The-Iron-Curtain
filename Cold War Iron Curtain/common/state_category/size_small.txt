@@ -1,0 +1,5 @@
+state_categories={
+	small = {
+		color = {80, 80, 124}
+	}
+}

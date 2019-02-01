@@ -1,0 +1,5 @@
+state_categories={
+	medium = {
+		color = {131, 131, 175}
+	}
+}

@@ -1,0 +1,5 @@
+state_categories={
+	nominal = {
+		color = {99, 99, 156}
+	}
+}

@@ -1,0 +1,5 @@
+state_categories={
+	sprawling = {
+		color = {224, 224, 235}
+	}
+}

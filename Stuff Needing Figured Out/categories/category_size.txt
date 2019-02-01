@@ -1,0 +1,23 @@
+state_categories={
+	micro = {
+		color = {60, 60, 93}
+	}
+	small = {
+		color = {80, 80, 124}
+	}
+	nominal = {
+		color = {99, 99, 156}
+	}
+	medium = {
+		color = {131, 131, 175}
+	}
+	large = {
+		color = {162, 162, 195}
+	}
+	gigantic = {
+		color = {193, 193, 215}
+	}
+	sprawling = {
+		color = {224, 224, 235}
+	}
+}
