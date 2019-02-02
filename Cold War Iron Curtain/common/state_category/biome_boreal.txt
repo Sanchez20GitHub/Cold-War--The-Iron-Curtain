@@ -1,5 +1,0 @@
-state_categories={
-	boreal = {
-		color = {0, 255, 204}
-	}
-}

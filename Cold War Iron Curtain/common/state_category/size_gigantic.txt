@@ -1,5 +1,0 @@
-state_categories={
-	gigantic = {
-		color = {193, 193, 215}
-	}
-}

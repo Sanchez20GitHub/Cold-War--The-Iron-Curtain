@@ -1,5 +1,0 @@
-state_categories={
-	mountainshot = {
-		color = {179, 134, 0}
-	}
-}

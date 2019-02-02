@@ -1,5 +1,0 @@
-state_categories={
-	micro = {
-		color = {60, 60, 93}
-	}
-}

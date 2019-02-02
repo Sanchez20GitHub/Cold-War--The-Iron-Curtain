@@ -1,5 +1,0 @@
-state_categories={
-	large = {
-		color = {162, 162, 195}
-	}
-}

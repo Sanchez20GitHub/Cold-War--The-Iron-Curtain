@@ -1,5 +1,0 @@
-state_categories={
-	lushdesert = {
-		color = {255, 255, 102}
-	}
-}

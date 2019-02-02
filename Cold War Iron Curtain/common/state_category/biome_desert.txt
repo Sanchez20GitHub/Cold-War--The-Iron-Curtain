@@ -1,5 +1,0 @@
-state_categories={
-	desert = {
-		color = {255, 191, 0}
-	}
-}

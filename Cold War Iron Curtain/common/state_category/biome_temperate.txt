@@ -1,5 +1,0 @@
-state_categories={
-	temperate = {
-		color = {0, 204, 0}
-	}
-}
