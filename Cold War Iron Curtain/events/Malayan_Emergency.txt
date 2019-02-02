@@ -1,0 +1,62 @@
+﻿ add_namespace = malayan_emergency
+ 
+country_event = {
+ 	id = malayan_emergency.2
+ 	title = "Penang Ambush"
+ 	desc = malayan_emergency.2.d
+ 
+ 	is_triggered_only = yes
+ 
+ 	option = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.12
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 25 }
+		}		
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.3
+ 	title = "Penang Ambush"
+ 	desc = malayan_emergency.3.d
+ 
+ 	is_triggered_only = yes
+ 
+ 	option = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.13
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 25 }
+		}
+ 	}
+}
+
+
+
+
+
+
+
+
+
+news_event = {
+	id = malayan_emergency.12
+	title = "[GetNewspaperHeader]Siad Barre Executed in Somalia"
+	desc = som.12.d
+	picture = GFX_news_event_execution
+	
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = "Oh my"
+	}
+}
+
