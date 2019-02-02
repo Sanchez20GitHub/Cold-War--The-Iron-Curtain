@@ -944,227 +944,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = FIN_nationalistic_waves
-		icon = GFX_focus_hun_elect_a_king
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_fourth_option
-		}
-		mutually_exclusive = {
-			focus = FIN_fascism_rises
-		}
-		x = 37
-		y = 3
-		completion_reward = {
-			swap_ideas = { remove_idea = traditionalist_influence add_idea = monarchist_influence }	
-		}
-	}
-	focus = {
-		id = FIN_public_opinions
-		icon = GFX_goal_generic_position_armies
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_nationalistic_waves
-		}
-		x = 37
-		y = 4
-		completion_reward = {
-			add_political_power = 300
-		}
-	}
-	focus = {
-		id = FIN_preperations_for_kingdom
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_public_opinions
-		}
-		x = 37
-		y = 5
-
-	}
-	focus = {
-		id = FIN_king_Hessen
-		icon = GFX_focus_puppet_monarchy
-		cost = 1.00
-		prerequisite = {
-			focus = FIN_preperations_for_kingdom
-		}
-		mutually_exclusive = {
-			focus = FIN_king_Fredrik 
-			focus = FIN_king_Vilhelm
-			focus = FIN_king_kekkonen
-		}
-		x = 34
-		y = 6
-		completion_reward = {
-			set_politics = { ruling_party = monarchism elections_allowed = no }	
-			create_country_leader = {
-				name = "Philipp I"
-				desc = ""
-				picture = "hesse.dds"
-				expire = "1980.1.1"
-				ideology = monarchy
-			}			
-		}
-	}
-	focus = {
-		id = FIN_king_Fredrik 
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = FIN_preperations_for_kingdom
-		}
-		mutually_exclusive = {
-			focus = FIN_king_Hessen
-			focus = FIN_king_Vilhelm
-			focus = FIN_king_kekkonen
-		}
-		x = 36
-		y = 6
-		completion_reward = {
-			set_politics = { ruling_party = monarchism elections_allowed = no }	
-			create_country_leader = {
-				name = "Aadolf I"
-				desc = ""
-				picture = "fredrik.dds"
-				expire = "1969.8.5"
-				ideology = monarchy
-			}			
-		}
-	}
-	focus = {
-		id = FIN_king_Vilhelm
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = FIN_preperations_for_kingdom
-		}
-		mutually_exclusive = {
-			focus = FIN_king_Hessen
-			focus = FIN_king_Fredrik 
-			focus = FIN_king_kekkonen
-		}
-		x = 38
-		y = 6
-		completion_reward = {
-			set_politics = { ruling_party = monarchism elections_allowed = no }	
-			create_country_leader = {
-				name = "Fredrik I"
-				desc = ""
-				picture = "Vilhelm.dds"
-				expire = "1965.1.1"
-				ideology = monarchy
-			}			
-		}
-	}
-	focus = {
-		id = FIN_king_kekkonen
-		icon = GFX_goal_unknown
-		cost = 1.00
-		prerequisite = {
-			focus = FIN_preperations_for_kingdom
-		}
-		mutually_exclusive = {
-			focus = FIN_king_Hessen
-			focus = FIN_king_Fredrik 
-			focus = FIN_king_Vilhelm
-		}
-		x = 40
-		y = 6
-		completion_reward = {
-			set_politics = { ruling_party = monarchism elections_allowed = no }	
-			create_country_leader = {
-				name = "Urho I"
-				desc = ""
-				picture = "kekkonen.dds"
-				expire = "1965.1.1"
-				ideology = monarchy
-				traits = {
-					#
-				}
-			}			
-		}
-	}
-	focus = {
-		id = FIN_strenghten_monarchy
-		icon = GFX_focus_hun_elect_a_king
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_king_Hessen
-			focus = FIN_king_Fredrik 
-			focus = FIN_king_Vilhelm
-			focus = FIN_king_kekkonen
-		}
-		x = 37
-		y = 7
-		completion_reward = {
-			add_popularity = { ideology = monarchism popularity = 0.15 }	
-			add_stability = 0.05
-		}
-	}
-	focus = {
-		id = FIN_imperial_army
-		icon = GFX_focus_generic_little_entente
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_strenghten_monarchy
-		}
-		x = 37
-		y = 8
-		completion_reward = {
-			add_ideas = militarism_focus
-		}
-	}
-	focus = {
-		id = FIN_Royal_academies
-		icon = GFX_focus_research
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_imperial_army
-		}
-		x = 37
-		y = 9
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = FIN_demand_old_borders_kingdom
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_strenghten_monarchy
-		}
-		x = 40
-		y = 8
-		completion_reward = {
-			722 = { add_core_of = FIN }
-			147 = { add_core_of = FIN }
-			146 = { add_core_of = FIN }		
-			SOV = { country_event = swfs.7 }
-		}
-	}
-	focus = {
-		id = FIN_fortify_borders
-		icon = GFX_goal_generic_defence
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_demand_old_borders_kingdom
-		}
-		x = 40
-		y = 9
-
-	}
-	focus = {
 		id = FIN_fascism_rises
 		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
 			focus = FIN_fourth_option
-		}
-		mutually_exclusive = {
-			focus = FIN_nationalistic_waves
 		}
 		x = 55
 		y = 3
@@ -1266,10 +1050,9 @@ focus_tree = {
 		x = 55
 		y = 7
 		completion_reward = {
-			set_autonomy = { target = FIN autonomy_state = autonomy_free }
 			set_politics = { ruling_party = fascism elections_allowed = no }
 			add_popularity = { ideology = fascism popularity = 0.10 }	
-			add_political_power = 200
+			add_political_power = 50
 		}
 	}
 	focus = {
@@ -1292,45 +1075,10 @@ focus_tree = {
 		prerequisite = {
 			focus = FIN_fuhrer
 		}
-		mutually_exclusive = {
-			focus = FIN_german_fascism
-		}
 		x = 60
 		y = 9
 		completion_reward = {
 			add_ideas = ideological_fanaticism_focus
-		}
-	}
-	focus = {
-		id = FIN_german_fascism
-		icon = GFX_goal_generic_attack_allies
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_fuhrer
-		}
-		mutually_exclusive = {
-			focus = FIN_our_own_fascism
-		}
-		x = 50
-		y = 9
-		completion_reward = {
-			add_ideas = militarism_focus
-			add_manpower = -2500
-			add_political_power = 120
-		}
-	}
-	focus = {
-		id = FIN_racial_laws
-		icon = GFX_focus_internal_dissent
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_german_fascism
-		}
-		x = 47
-		y = 10
-		completion_reward = {
-			add_manpower = -10000
-			add_political_power = 150
 		}
 	}
 	focus = {
@@ -2493,63 +2241,6 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = FIN_greater_finland
-		icon = GFX_Finnish_Spirit
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_german_fascism
-		}
-		x = 50
-		y = 10
-		completion_reward = {
-			add_stability = 0.10
-			add_political_power = 200
-		}
-	}
-	focus = {
-		id = FIN_death_camps
-		icon = GFX_Prison_Camps
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_racial_laws
-		}
-		x = 47
-		y = 11
-		completion_reward = {
-			add_ideas = leftist_persecution_fin
-			add_manpower = -5000
-			add_political_power = 120
-		}
-	}
-	focus = {
-		id = FIN_salainen_valtionpoliisi
-		icon = GFX_Camp_Rafidah
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_german_fascism
-		}
-		x = 53
-		y = 10
-		completion_reward = {
-			add_ideas = repression
-			add_ideas = death_squads
-		}
-	}
-	focus = {
-		id = FIN_suojajoukot
-		icon = GFX_reign_of_terror
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_salainen_valtionpoliisi
-		}
-		x = 53
-		y = 11
-		completion_reward = {
-					add_manpower = 40000
-					load_oob = FIN_suojajoukot
-				}
-	}
-	focus = {
 		id = FIN_nordic_relations
 		icon = GFX_goal_NOR_scandinavia
 		cost = 10.00
@@ -2646,115 +2337,6 @@ focus_tree = {
 		y = 10
 		completion_reward = {
 			add_to_tech_sharing_group = nordic_research_group
-		}
-	}
-	focus = {
-		id = FIN_claim_former_terrotories
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_greater_finland
-		}
-		x = 50
-		y = 11
-		completion_reward = {
-			722 = { add_core_of = FIN }
-			147 = { add_core_of = FIN }
-			146 = { add_core_of = FIN }		
-			SOV = { country_event = swfs.7 }
-		}
-	}
-	focus = {
-		id = FIN_even_greater
-		icon = GFX_FascistTreaties
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_forgive_war_responsibles
-		}
-		prerequisite = {
-			focus = FIN_integrate_old_areas
-		}
-		prerequisite = {
-			focus = FIN_sinimustat
-		}
-		mutually_exclusive = {
-			focus = FIN_enough_is_enough
-		}
-		x = 49
-		y = 13
-		completion_reward = {
-			FIN = { add_state_claim = 216 }
-			FIN = { add_state_claim = 13 }
-			FIN = { add_state_claim = 191 }
-			FIN = { add_state_claim = 208 }
-			FIN = { add_state_claim = 195 }
-			FIN = { add_state_claim = 215 }
-			FIN = { add_state_claim = 213 }
-			SOV = { country_event = swfs.8 }
-		}
-	}
-	focus = {
-		id = FIN_enough_is_enough
-		icon = GFX_Cash_for_Forts
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_forgive_war_responsibles
-		}
-		prerequisite = {
-			focus = FIN_integrate_old_areas
-		}
-		prerequisite = {
-			focus = FIN_sinimustat
-		}
-		mutually_exclusive = {
-			focus = FIN_even_greater
-		}
-		x = 51
-		y = 13
-		completion_reward = {
-			add_stability = 0.3
-			add_ideas = recruitment_propaganda
-		}
-	}
-	focus = {
-		id = FIN_sinimustat
-		icon = GFX_RecruitmentDrive
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_suojajoukot
-		}
-		x = 53
-		y = 12
-		completion_reward = {
-			add_manpower = 150000
-			add_stability = 0.05
-			add_political_power = 100
-		}
-	}
-	focus = {
-		id = FIN_integrate_old_areas
-		icon = GFX_prioritize_western_education
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_claim_former_terrotories
-		}
-		x = 50
-		y = 12
-	
-	}
-	focus = {
-		id = FIN_forgive_war_responsibles
-		icon = GFX_Paper
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_death_camps
-		}
-		x = 47
-		y = 12
-		completion_reward = {
-			add_manpower  = 1000
-			add_stability = 0.05
-			add_political_power = -200
 		}
 	}
 	focus = {
@@ -3103,30 +2685,6 @@ focus_tree = {
 		y = 6
 		completion_reward = {
 			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = FIN_support_monarchy_sweden
-		icon = GFX_focus_hun_elect_a_king
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_strenghten_monarchy
-		}
-		x = 34
-		y = 8
-
-	}
-	focus = {
-		id = FIN_imperial_faction
-		icon = GFX_goal_generic_major_alliance
-		cost = 10.00
-		prerequisite = {
-			focus = FIN_support_monarchy_sweden
-		}
-		x = 34
-		y = 9
-		completion_reward = {
-			create_faction = "Imperial League"	
 		}
 	}
 	focus = {
