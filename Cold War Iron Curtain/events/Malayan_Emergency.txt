@@ -179,7 +179,8 @@ country_event = {
 
 country_event = {
  	id = malayan_emergency.100
- 	hidden = yes
+	title = "Successful Anglo-Malayan Counter Insurgency Raid"
+	desc = ""
  
  	is_triggered_only = yes
  
@@ -196,7 +197,8 @@ country_event = {
 
 country_event = {
  	id = malayan_emergency.101
- 	hidden = yes
+	title = "Failed Anglo-Malayan Counter Insurgency Raid"
+	desc = ""
  
  	is_triggered_only = yes
  
@@ -213,7 +215,8 @@ country_event = {
 
 country_event = {
  	id = malayan_emergency.201
- 	hidden = yes
+	title = "Failed Communist Raid"
+	desc = ""
  
  	is_triggered_only = yes
  
@@ -230,11 +233,11 @@ country_event = {
 
 country_event = {
  	id = malayan_emergency.200
- 	hidden = yes
- 
+	title = "Successful Communist Raid"
+	desc = ""
  	is_triggered_only = yes
  
- 	immediate = {
+ 	option = {
  		name = "Intersting"
 		if = {
 			limit = {
