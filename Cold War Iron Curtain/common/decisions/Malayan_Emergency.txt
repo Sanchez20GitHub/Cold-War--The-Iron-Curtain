@@ -191,7 +191,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.100
 					on_lose = malayan_emergency.101
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -199,7 +199,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.101
 					on_lose = malayan_emergency.100
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }
@@ -230,7 +230,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.100
 					on_lose = malayan_emergency.101
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -238,7 +238,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.101
 					on_lose = malayan_emergency.100
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }
@@ -269,7 +269,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.100
 					on_lose = malayan_emergency.101
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -277,7 +277,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.101
 					on_lose = malayan_emergency.100
-					on_cancel = malayan_emergency.102
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }
@@ -307,7 +307,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.200
 					on_lose = malayan_emergency.201
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -315,7 +315,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.200
 					on_lose = malayan_emergency.201
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }
@@ -345,7 +345,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.200
 					on_lose = malayan_emergency.201
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -353,7 +353,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.201
 					on_lose = malayan_emergency.200
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }
@@ -383,7 +383,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.200
 					on_lose = malayan_emergency.201
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 							
 				defender = {
@@ -391,7 +391,7 @@ malaysian_emergency = {
 					num_provinces = 1
 					on_win = malayan_emergency.201
 					on_lose = malayan_emergency.200
-					on_cancel = malayan_emergency.202
+					on_cancel = malayan_emergency.4
 				}
 			}            
         }

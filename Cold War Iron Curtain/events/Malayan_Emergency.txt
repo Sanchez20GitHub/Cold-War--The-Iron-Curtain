@@ -2,12 +2,11 @@
  
 country_event = {
  	id = malayan_emergency.2
- 	title = "Penang Ambush"
- 	desc = malayan_emergency.2.d
+ 	hidden = yes
  
  	is_triggered_only = yes
  
- 	option = {
+ 	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.12
 		if = {
@@ -21,12 +20,11 @@ country_event = {
 
 country_event = {
  	id = malayan_emergency.3
- 	title = "Penang Ambush"
- 	desc = malayan_emergency.3.d
+ 	hidden = yes
  
  	is_triggered_only = yes
  
- 	option = {
+ 	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.13
 		if = {
@@ -38,18 +36,219 @@ country_event = {
  	}
 }
 
+country_event = {
+ 	id = malayan_emergency.4
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+}
+
+country_event = {
+ 	id = malayan_emergency.5
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.15
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 25 }
+		}		
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.6
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.16
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 25 }
+		}
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.7
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+}
+country_event = {
+ 	id = malayan_emergency.8
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.18
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 25 }
+		}		
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.9
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.19
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 25 }
+		}
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.10
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+}
+
+country_event = {
+ 	id = malayan_emergency.11
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.111
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 200 }
+		}		
+ 	}
+}
+
+country_event = {
+ 	id = malayan_emergency.12
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.122
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 200 }
+		}
+ 	}
+}
 
 
+country_event = {
+ 	id = malayan_emergency.13
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+}
 
 
+country_event = {
+ 	id = malayan_emergency.100
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 10 }
+		}
+ 	}
+}
 
+country_event = {
+ 	id = malayan_emergency.101
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 10 }
+		}
+ 	}
+}
 
+country_event = {
+ 	id = malayan_emergency.201
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		if = {
+			limit = {
+				tag = MAL
+			}
+			add_to_variable = { victory_points = 10 }
+		}
+ 	}
+}
 
+country_event = {
+ 	id = malayan_emergency.200
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		if = {
+			limit = {
+				tag = MLA
+			}
+			add_to_variable = { victory_points = 10 }
+		}
+ 	}
+}
 
 news_event = {
 	id = malayan_emergency.12
 	title = "[GetNewspaperHeader]Siad Barre Executed in Somalia"
-	desc = som.12.d
+	desc = malayan_emergency.12.d
 	picture = GFX_news_event_execution
 	
 	is_triggered_only = yes
