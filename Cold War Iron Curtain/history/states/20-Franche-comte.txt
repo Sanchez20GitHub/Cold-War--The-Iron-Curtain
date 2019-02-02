@@ -12,7 +12,6 @@ state={
 		victory_points = {
 			9559 10 
 		}
-
 		buildings = {
 			infrastructure = 5
 			arms_factory = 1
@@ -28,13 +27,14 @@ state={
 				bunker = 4
 
 			}
+
 		}
 		add_core_of = FRA
 
 	}
 
 	provinces={
-		3560 3629 6955 9559 11488 11502 11516 11642 
+		3560 3629 6529 6955 9559 11488 11502 11516 11642 
 	}
 	manpower=2349816
 	buildings_max_level_factor=1.000

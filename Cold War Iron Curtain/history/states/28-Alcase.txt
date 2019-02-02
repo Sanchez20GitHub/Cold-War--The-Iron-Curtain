@@ -22,7 +22,6 @@ state={
 				bunker = 4
 
 			}
-
 			6529 = {
 				bunker = 4
 
@@ -31,8 +30,6 @@ state={
 				bunker = 4
 
 			}
-
-
 			anti_air_building = 5
 
 		}
@@ -75,7 +72,7 @@ state={
 	}
 
 	provinces={
-		521 678 6529 9503 
+		521 678 9503 
 	}
 	manpower=1915600
 	buildings_max_level_factor=1.000
