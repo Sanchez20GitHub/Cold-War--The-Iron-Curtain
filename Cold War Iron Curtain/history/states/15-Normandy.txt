@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = {
 			9434 5 
 		}
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=2332100
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2
 }

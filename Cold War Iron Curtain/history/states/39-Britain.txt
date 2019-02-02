@@ -4,7 +4,7 @@ state={
 	name="STATE_39" # South Tyrol
 	manpower = 641650
 	
-	state_category = town
+	state_category = pop1
 	
 	resources={
 		aluminium=22
@@ -12,6 +12,10 @@ state={
 
 	history={
 		owner = ITA
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = decent
 		victory_points = {
 			11598 5
 		}	

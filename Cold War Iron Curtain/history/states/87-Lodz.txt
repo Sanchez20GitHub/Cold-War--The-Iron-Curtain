@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = POL
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -23,5 +27,5 @@ state={
 	}
 	manpower=2632000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2
 }
