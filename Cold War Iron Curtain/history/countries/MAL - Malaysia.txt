@@ -173,7 +173,9 @@ create_country_leader = {
 	picture = "Tunku_Abdul_Rahman.dds"
 	ideology = conservatism
 }
-
+1948.1.1 = {
+	set_variable = { victory_points = 500 } 
+}
 1957.1.1 = {
     drop_cosmetic_tag = yes
 	set_politics = {

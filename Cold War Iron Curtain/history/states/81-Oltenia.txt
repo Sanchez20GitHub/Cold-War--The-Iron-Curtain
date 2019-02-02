@@ -2,13 +2,17 @@ state={
 	id=81
 	name="STATE_81"
 	manpower=1519300
-	state_category = large_town
+	state_category = pop1
 	resources = {
 		steel = 6
 	}
 	
 	history={
 		owner = ROM
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1

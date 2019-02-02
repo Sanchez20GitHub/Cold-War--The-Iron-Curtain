@@ -18,9 +18,9 @@ bookmarks = {
 				UN_Security_Council_Member_Perm
 			}
 			focuses = {
-				
-				
-				USA_eisenhower_presidency
+				USA_TRUMAN_Mutual_Security_Act
+				USA_TRUMAN_McCarran_Internal_Security_Act
+				USA_TRUMAN_Calm_Political_Tensions
 			}
 		}
 		
@@ -261,7 +261,7 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_GATHERING_STORM_DESC"
+			history = "OTHER_DESC"
 		}
 
 		effect = {

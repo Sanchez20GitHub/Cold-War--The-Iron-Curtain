@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = BUL
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = decent
 		victory_points = {
 			949 15 
 		}
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=1681592
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1
 }

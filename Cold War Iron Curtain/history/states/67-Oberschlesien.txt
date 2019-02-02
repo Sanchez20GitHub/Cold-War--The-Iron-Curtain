@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = POL
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = decent
 		add_core_of = POL
 		victory_points = {
 			6464 5 
@@ -25,5 +29,5 @@ state={
 	}
 	manpower=297197
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1
 }

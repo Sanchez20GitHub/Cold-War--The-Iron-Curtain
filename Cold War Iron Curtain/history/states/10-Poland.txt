@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = POL
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = decent
 		victory_points = {
 			3544 20 
 		}
@@ -26,5 +30,5 @@ state={
 	}
 	manpower=5384617
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop5
 }

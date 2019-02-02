@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			11479 5 
 		}
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=2534174
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2
 }

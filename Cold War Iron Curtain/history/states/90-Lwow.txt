@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = POL
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = {
 			9427 20 
 		}
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=2135700
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop2
 }
