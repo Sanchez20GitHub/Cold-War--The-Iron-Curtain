@@ -1,5 +1,0 @@
-state_categories={
-	river = {
-		color = {0, 204, 204}
-	}
-}
