@@ -1,10 +1,8 @@
-malaysian_emergency = {
-	icon = generic_propaganda
+malaysian_emergency_category = {
+	visible = {
 
+	}
 	allowed = {
-        OR = {
-		    original_tag = MAL
-			original_tag = MLA
-		}
+		always = yes
 	}
 }
