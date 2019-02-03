@@ -9,12 +9,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.12
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 25 }
-		}		
+		add_to_variable = { MLA.victory_points = 25 }
  	}
 }
 
@@ -27,12 +22,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.13
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 25 }
-		}
+		add_to_variable = { MAL.victory_points = 25 }
  	}
 }
 
@@ -53,12 +43,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.15
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 25 }
-		}		
+		add_to_variable = { MLA.victory_points = 25 }
  	}
 }
 
@@ -71,12 +56,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.16
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 25 }
-		}
+		add_to_variable = { MAL.victory_points = 25 }
  	}
 }
 
@@ -96,12 +76,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.18
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 25 }
-		}		
+		add_to_variable = { MAL.victory_points = 25 }
  	}
 }
 
@@ -114,12 +89,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.19
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 25 }
-		}
+		add_to_variable = { MLA.victory_points = 25 }
  	}
 }
 
@@ -140,12 +110,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.111
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 200 }
-		}		
+		add_to_variable = { MAL.victory_points = 200 }
  	}
 }
 
@@ -158,12 +123,7 @@ country_event = {
  	immediate = {
  		name = "Intersting"
 		news_event = malayan_emergency.122
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 200 }
-		}
+		add_to_variable = { MLA.victory_points = 200 }
  	}
 }
 
@@ -176,7 +136,31 @@ country_event = {
  
 }
 
+country_event = {
+ 	id = malayan_emergency.14
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.114
+		add_to_variable = { MLA.victory_points = 150 }
+ 	}
+}
 
+country_event = {
+ 	id = malayan_emergency.15
+ 	hidden = yes
+ 
+ 	is_triggered_only = yes
+ 
+ 	immediate = {
+ 		name = "Intersting"
+		news_event = malayan_emergency.115
+		add_to_variable = { MAL.victory_points = 50 }
+ 	}
+}
 country_event = {
  	id = malayan_emergency.100
 	title = "Successful Anglo-Malayan Counter Insurgency Raid"
@@ -186,12 +170,7 @@ country_event = {
  
  	immediate = {
  		name = "Intersting"
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 10 }
-		}
+		add_to_variable = { MAL.victory_points = 10 }
  	}
 }
 
@@ -204,12 +183,7 @@ country_event = {
  
  	immediate = {
  		name = "Intersting"
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 10 }
-		}
+		add_to_variable = { MLA.victory_points = 10 }
  	}
 }
 
@@ -222,12 +196,7 @@ country_event = {
  
  	immediate = {
  		name = "Intersting"
-		if = {
-			limit = {
-				tag = MAL
-			}
-			add_to_variable = { victory_points = 10 }
-		}
+		MAL = { add_to_variable = { victory_points = 10 } }
  	}
 }
 
@@ -239,19 +208,14 @@ country_event = {
  
  	option = {
  		name = "Intersting"
-		if = {
-			limit = {
-				tag = MLA
-			}
-			add_to_variable = { victory_points = 10 }
-		}
+		MLA = { add_to_variable = { victory_points = 10 } }
  	}
 }
 
 news_event = {
-	id = malayan_emergency.12
+	id = malayan_emergency.122
 	title = "[GetNewspaperHeader]Siad Barre Executed in Somalia"
-	desc = malayan_emergency.12.d
+	desc = malayan_emergency.122.d
 	picture = GFX_news_event_execution
 	
 	is_triggered_only = yes
