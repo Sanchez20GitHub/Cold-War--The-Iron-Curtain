@@ -1,18 +1,22 @@
-malaysian_emergency = {
+malaysian_emergency_category = {
 
    Penang_Ambush = {
 
         allowed = {
-            tag = MLA
-            country_exists = MAL
+			 date > 1950.1.1
+
+			 has_border_war = no
+
         }
 
        available = {
-			 date > 1950.1.1
+            tag = MLA
+            country_exists = MAL
 			 date < 1960.1.1
-			 has_border_war = no
 		}
-
+		visible = {
+			date < 1960.1.1
+		}
         cost = 0
 
         fire_only_once = yes
@@ -177,9 +181,10 @@ malaysian_emergency = {
         }
 
        available = {
-			 date > 1954.1.1
-			 date < 1960.1.1
 			 has_border_war = no
+			 check_variable = { MLA.victory_points > 650 }
+			 check_variable = { MLA.victory_points > MAL.victory_points }
+
 		}
 
         cost = 0
@@ -211,6 +216,7 @@ malaysian_emergency = {
             factor = 1 
         }
     }
+
    Raid_Jungle_Bases_from_Kuala_Lumpur = {
 
         allowed = {
@@ -355,8 +361,8 @@ malaysian_emergency = {
 				defender = {
 					state = 784
 					num_provinces = 1
-					on_win = malayan_emergency.200
-					on_lose = malayan_emergency.201
+					on_win = malayan_emergency.201
+					on_lose = malayan_emergency.200
 					on_cancel = malayan_emergency.4
 				}
 			}            
@@ -440,6 +446,64 @@ malaysian_emergency = {
 
         ai_will_do = {
             factor = 0.10
+        }
+    }
+   Exile_the_MNLA_to_Thailand = {
+
+        allowed = {
+            tag = MAL
+            country_exists = MLA
+        }
+
+       available = {
+			 has_border_war = no
+			 check_variable = { MAL.victory_points > 1000 }
+			 check_variable = { MLA.victory_points < MAL.victory_points }
+
+		}
+
+        cost = 0
+
+        fire_only_once = yes
+
+        complete_effect = {
+			annex_country = {
+				target = MLA
+			}
+			news_event = malayan_emergency.300
+        }
+
+        ai_will_do = {
+            factor = 1 
+        }
+    }
+   The_Liberation_of_Malaya = {
+
+        allowed = {
+            tag = MLA
+            country_exists = MAL
+        }
+
+       available = {
+			 has_border_war = no
+			 check_variable = { MAL.victory_points > 800 }
+			 check_variable = { MLA.victory_points < MAL.victory_points }
+		}
+
+        cost = 0
+
+        fire_only_once = yes
+
+        complete_effect = {
+			annex_country = {
+				target = MAL
+			}
+			news_event = malayan_emergency.301
+        }
+
+
+        ai_will_do = {
+            factor = 1 
         }
     }
 }

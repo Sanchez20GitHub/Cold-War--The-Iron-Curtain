@@ -577,12 +577,6 @@ set_politics = {
 }
 
 1949.1.1 = {
-	MLA = { 
-		declare_war_on = {
-			target = MAL
-			type = civil_war
-		}
-	}
 	set_autonomy = { target = JOR autonomy_state = autonomy_free }	
 	set_autonomy = { target = PAL autonomy_state = autonomy_free }	
 	set_autonomy = { target = WGR autonomy_state = autonomy_free }	
@@ -595,7 +589,7 @@ set_politics = {
 }
 
 1951.1.1 = {
-	white_peace = MLA
+	 
     set_autonomy = { target = RAJ autonomy_state = autonomy_free }		
 }
 
