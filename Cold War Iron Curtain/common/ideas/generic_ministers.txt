@@ -56,6 +56,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Smith
 			
@@ -65,6 +66,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = GreatMonarch
 			
@@ -74,6 +76,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Miamoto
 			
@@ -83,6 +86,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Morsay
 			
@@ -92,6 +96,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Personn
 			
@@ -103,6 +108,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Todd
 			
@@ -112,6 +118,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 			}
 			picture = Dany
 			
@@ -121,6 +128,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Gabe
 			
@@ -129,6 +137,7 @@ ideas = {
 		Militarist_Educator = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = PRC }
 				NOT = { original_tag = GRE }
 			}
 			picture = Renzi
@@ -139,6 +148,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Shigeru
 			
@@ -150,6 +160,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = BernardHL
 			
@@ -159,6 +170,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Yost
 			
@@ -168,6 +180,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Benalla
 			
@@ -177,6 +190,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Attali
 			
@@ -188,6 +202,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Willy_Shatner
 			
@@ -197,6 +212,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Dan_Jonson
 			
@@ -206,6 +222,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = John_Nasa
 			
@@ -215,6 +232,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+				NOT = { original_tag = PRC }
 			}
 			picture = Ulk_Khogan
 			

@@ -7,10 +7,14 @@ state={
 		aluminium=87
 	}
 	
-	state_category = large_city
+	state_category = pop3
 
 	history={
 		owner = HUN
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 5
 			arms_factory =1

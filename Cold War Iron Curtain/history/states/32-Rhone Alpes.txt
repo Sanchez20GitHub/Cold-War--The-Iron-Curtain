@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = mountains
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = developed
 		victory_points = {
 			778 1 
 		}
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=6449000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop5
 }

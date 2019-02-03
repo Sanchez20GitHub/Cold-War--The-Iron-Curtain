@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = BAV
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = developed
 		add_core_of = BAV
 		1949.1.1 = {
 			owner = WGR
@@ -35,5 +39,5 @@ state={
 	}
 	manpower=671489
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=pop1
 }

@@ -2,10 +2,14 @@ state={
 	id=167
 	name="STATE_167"
 	manpower = 1979294
-	state_category = large_town
+	state_category = pop1
 
 	history={
 		owner = SPR
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = decent
 		victory_points = {
 			6906 5 
 		}

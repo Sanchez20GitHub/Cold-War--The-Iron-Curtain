@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ITA
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		victory_points = {
 			9907 3 
 		}
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=3084933
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop3
 }

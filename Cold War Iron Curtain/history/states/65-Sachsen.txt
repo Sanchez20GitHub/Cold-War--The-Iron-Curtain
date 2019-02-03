@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = DDR
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		1990.10.3 = {
 			owner = WGR
 
@@ -45,5 +49,5 @@ state={
 	}
 	manpower=5592576
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop5
 }

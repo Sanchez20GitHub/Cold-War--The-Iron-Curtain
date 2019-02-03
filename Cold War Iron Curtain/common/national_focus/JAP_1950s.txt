@@ -74,9 +74,6 @@ focus_tree = {
 		cost = 10.00
 		x = 22
 		y = 0
-		available = {
-			always = no
-		}
 			completion_reward = {
 					add_manpower = 50000
 					army_experience = 25

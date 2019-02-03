@@ -1266,6 +1266,9 @@ focus_tree = {
 		id = PER_Shah_Refuses
 		icon = GFX_IntotheFlames
 		cost = 10.00
+		prerequisite = {
+			focus = PER_Operation_Ajax
+		}
 		x = 48
 		y = 22
 		available = {

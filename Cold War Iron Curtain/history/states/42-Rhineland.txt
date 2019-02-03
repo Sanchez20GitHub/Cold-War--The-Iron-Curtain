@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = GER
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = decent
 		add_core_of = GER
 		1949.1.1 = {
 			owner = WGR
@@ -36,5 +40,5 @@ state={
 	}
 	manpower=3027739
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop3
 }

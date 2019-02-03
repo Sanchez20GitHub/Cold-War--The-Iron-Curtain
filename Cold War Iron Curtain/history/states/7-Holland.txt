@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = HOL
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = wealthy
 		add_core_of = HOL
 		victory_points = {
 			391 30 
@@ -44,5 +48,5 @@ state={
 	}
 	manpower=4123000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop4
 }

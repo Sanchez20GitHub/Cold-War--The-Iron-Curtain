@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = YUG
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			9809 2 
 		}
@@ -36,5 +40,5 @@ state={
 	}
 	manpower=895500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = GRE
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = decent
 		victory_points = {
 			11905 1
 		}
@@ -42,5 +46,5 @@ state={
 	}
 	manpower=593783
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

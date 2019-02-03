@@ -4,7 +4,7 @@ state={
 	name="STATE_136"
 	manpower = 745466
 	
-	state_category = town
+	state_category = pop1
 	resources={
 		tungsten=60
 		aluminium=4
@@ -12,6 +12,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = mountains
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 6
 			dockyard = 2

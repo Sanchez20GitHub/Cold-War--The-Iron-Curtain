@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = rich
 		victory_points = {
 			11333 50 
 		}
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=9824296
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pop7
 }

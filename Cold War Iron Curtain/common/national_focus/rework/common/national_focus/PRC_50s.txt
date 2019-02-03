@@ -413,6 +413,11 @@ herfocus_tree = {
 		}
 		x = 13
 		y = 5
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_political_power = 50
+			add_stability = 0.01
+		}
 
 	}
 	focus = {
@@ -425,7 +430,12 @@ herfocus_tree = {
 		x = 13
 		y = 6
 		completion_reward = {
-		
+			news_event = landlord_classicide.1
+			add_political_power = 150
+			add_stability = 0.05
+			every_owned_state = {
+				add_manpower = -2500
+			}
 		}
 	}
 	focus = {
@@ -963,7 +973,18 @@ herfocus_tree = {
 		}
 		x = 7
 		y = 8
-
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = maoism
+				popularity = 0.02
+			}
+			add_timed_idea = {
+				idea = repression
+				days = 365 
+			}
+			news_event = rural_society.1
+		}
 	}
 	focus = {
 		id = PRC_The_First_FIve_Year_Plan
@@ -990,6 +1011,48 @@ herfocus_tree = {
 		}
 		x = 7
 		y = 10
+			completion_reward = {
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 3
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = infrastructure
+									level = 3
+									instant_build = yes
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -1558,6 +1621,74 @@ herfocus_tree = {
 		}
 		x = 9
 		y = 18
+		completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									free_building_slots = {
+											building = industrial_complex
+											size > 0
+											include_locked = yes
+										}
+									OR = {
+											is_in_home_area = yes
+											NOT = {
+													owner = {
+															any_owned_state = {
+																	free_building_slots = {
+																			building = industrial_complex
+																			size > 0
+																			include_locked = yes
+																		}
+																	is_in_home_area = yes
+																}
+														}
+												}
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.15
+							uses = 1
+							category = industry
+						}
+				}
 
 	}
 	focus = {
@@ -1648,7 +1779,17 @@ herfocus_tree = {
 		}
 		x = 33
 		y = 1
-
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = {
+				ideology = nationalism
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = socialist
+				popularity = 0.05
+			}
+		}
 	}
 	focus = {
 		id = PRC_Moderate_Agrarian_Reform
@@ -1659,7 +1800,12 @@ herfocus_tree = {
 		}
 		x = 33
 		y = 2
-
+		completion_reward = {
+			add_political_power = -200
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 1
+			}
+		}
 	}
 	focus = {
 		id = PRC_The_New_Democracy
@@ -1671,7 +1817,9 @@ herfocus_tree = {
 		}
 		x = 31
 		y = 3
-
+		completion_reward = {
+			add_ideas = peoples_democracy
+		}
 	}
 	focus = {
 		id = PRC_End_the_Feudal_Family
@@ -1906,7 +2054,9 @@ herfocus_tree = {
 		}
 		x = 29
 		y = 14
-
+		completion_reward = {
+			add_ideas = art_and_liberalization
+		}
 	}
 	focus = {
 		id = PRC_Counter_Offensive_on_the_Counter_Revolutionary

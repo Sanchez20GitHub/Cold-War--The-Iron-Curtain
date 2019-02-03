@@ -1,7 +1,7 @@
 state={
 	id=8
 	name="STATE_8"
-	state_category = town
+	state_category = pop1
 	manpower = 294748
 	resources={
 		steel= 48
@@ -10,6 +10,10 @@ state={
 	history=
 	{
 		owner = LUX
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = rich
 		buildings = {
 			infrastructure =8
 			air_base =4

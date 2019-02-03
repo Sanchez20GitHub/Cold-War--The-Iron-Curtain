@@ -1,0 +1,8 @@
+malaysian_emergency_category = {
+	visible = {
+
+	}
+	allowed = {
+		always = yes
+	}
+}

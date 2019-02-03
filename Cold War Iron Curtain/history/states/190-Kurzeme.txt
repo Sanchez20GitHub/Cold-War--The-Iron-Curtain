@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = poor
 		victory_points = {
 			9262 1 
 		}
@@ -33,5 +37,5 @@ state={
 	}
 	manpower=379500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

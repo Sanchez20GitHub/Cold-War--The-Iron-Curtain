@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = ITA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			819 20 
 		}
@@ -30,9 +34,9 @@ state={
 	}
 
 	provinces={
-		819 851 883 955 3923 3958 3966 6939 6980 9826 11803 
+		819 851 955 9826 11803 
 	}
 	manpower=5333611
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop5
 }
