@@ -67,7 +67,17 @@ buildings = {
 		value = 10
 		infrastructure_construction_effect = yes
 	}
-	
+#####SHARED INDUSTRY
+	office_park = {
+		base_cost = 25000
+		general_production = 1
+		icon_frame = 1
+		infrastructure = no
+		max_level = 40 # This is the max unlock level
+		value = 5
+		shares_slots = yes
+		infrastructure_construction_effect = yes
+	}
 
 
 
