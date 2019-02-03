@@ -4,13 +4,17 @@ state={
 	name="STATE_128"
 	manpower = 3685235
 	
-	state_category = metropolis
+	state_category = pop3
 	resources={
 		steel=48
 	}
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = developed
 		buildings = {
 			infrastructure = 8
 			arms_factory = 2

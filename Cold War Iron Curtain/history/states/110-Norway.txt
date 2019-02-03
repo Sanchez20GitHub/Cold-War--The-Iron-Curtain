@@ -11,6 +11,10 @@ state={
 			6115 15 
 		}
 		owner = NOR
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = wealthy
 		buildings = {
 			infrastructure = 6
 			arms_factory = 2
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=1410219
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1
 }

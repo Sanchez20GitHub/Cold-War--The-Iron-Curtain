@@ -4,7 +4,7 @@ state={
 	name="STATE_133" # Lanark
 	manpower = 2257723
 	
-	state_category = city
+	state_category = pop2
 	
 	resources={
 		steel=36
@@ -12,6 +12,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = {
 			3273 15
 		}

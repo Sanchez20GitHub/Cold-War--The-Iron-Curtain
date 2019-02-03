@@ -4,11 +4,15 @@ state=
 	name="STATE_114"
 	manpower = 991921
 	
-	state_category = town
+	state_category = pop1
 	
 	history=
 	{
 		owner = ITA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		victory_points = {
 			11773 3 
 		}
