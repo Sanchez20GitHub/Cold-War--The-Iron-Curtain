@@ -1,5 +1,5 @@
 resources = {
-
+#####Old Shit#####
 	oil = {
 		icon_frame = 1
 		cic = 0.125
@@ -35,7 +35,48 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}
+#####New Shit#####
+	con_metal = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	light_metal = {
+		icon_frame = 2
+		cic = 0.125
+		convoys = 0.1
+	}
+	adv_metal = {
+		icon_frame = 4
+		cic = 0.125
+		convoys = 0.1
+	}
+	fossil_fuel = {
+		icon_frame = 1
+		cic = 0.125
+		convoys = 0.1
+	}
 	electricity = {
+		icon_frame = 7
+		cic = 0.025
+		convoys = 0.1
+	}
+	water = { 
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+	food = { 
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+	con_goods = { 
+		icon_frame = 6
+		cic = 0.125
+		convoys = 0.1
+	}
+	nuclear_material = {
 		icon_frame = 7
 		cic = 0.025
 		convoys = 0.1
