@@ -5758,6 +5758,14 @@ ic_pulse = {
 		}
 		country_event = india.1
 	}
+	if = {
+		limit = {
+			original_tag = PAK
+			date > 1956.08.13
+			date < 1957.01.01
+		}
+		country_event = pakistan.1
+	}
     if = {
 		limit = {
 			original_tag = CHI
