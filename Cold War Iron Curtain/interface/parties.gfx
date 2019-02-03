@@ -381,6 +381,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_EGY_nationalism_group"
+		texturefile = "gfx/interface/ideologies/EGY/arab_socialist_union.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_EGY_monarchism_group"
 		texturefile = "gfx/interface/ideologies/EGY/muhammad_ali.dds"
 	}
