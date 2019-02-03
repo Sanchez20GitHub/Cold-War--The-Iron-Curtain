@@ -1,84 +1,23 @@
-﻿###########################
-# Pakistan Events
-###########################
+﻿add_namespace = pakistan
 
-add_namespace = pakistan
-
-#Surrender when India has taken too much land
+#The Islamic Republic of Pakistan
 country_event = {
 	id = pakistan.1
-	title = pakistan.1.t
-	desc = pakistan.1.d
-	picture = GFX_report_event_soviet_tanks_snow
-
-	is_triggered_only = yes
-
-	fire_only_once = yes
-
-	#Surrender and offer territory
-	option = {
-		name = pakistan.1.a
-
-		PAK = {
-			country_event = pakistan.2
-		}
-		custom_effect_tooltip = pakistan.1.a_tt
-		effect_tooltip = {
-			PAK = { 
-				white_peace = {
-					tag = RAJ 
-					message = RAJ_agree_peace 
-				} 
-			}
-
-		}
-	}
-}
-
-#Pakistan response to India surrender
-country_event = {
-	id = pakistan.2
-	title = pakistan.2.t
-	desc = pakistan.2.d
-	picture = GFX_report_event_finnish_soldiers_snow
+	title = "The Islamic Republic of Pakistan"
+	desc = "After a period as the Dominion of Pakistan, we have now followed in the footsteps of India and declared ourself a republic. London has accepted our declaration and the Indian subcontinent is now free from the influence of Britain. A new president will be sworn in shortly."
 	
 	is_triggered_only = yes
-
-	#Accept surrender
-	option = {
-		name = pakistan.2.a
-
-		white_peace = PAK
-	}
-}
-
-#Surrender when India has taken too much land
-country_event = {
-	id = pakistan.3
-	title = pakistan.3.t
-	desc = pakistan.3.d
-	picture = GFX_report_event_soviet_tanks_snow
-
-	is_triggered_only = yes
-
 	fire_only_once = yes
-
-	#Surrender and offer territory
+	
 	option = {
-		name = pakistan.3.a
-
-		PAK = {
-			country_event = pakistan.2
-		}
-		custom_effect_tooltip = pakistan.3.a_tt
-		effect_tooltip = {
-			PAK = { 
-				white_peace = {
-					tag = RAJ 
-					message = RAJ_agree_peace 
-				} 
-			}
-
-		}
+		name = pakistan.1.a
+		set_global_flag = islamic_republic_of_pakistan
+		drop_cosmetic_tag = yes
+		ENG = { set_autonomy = { target = ROOT autonomy_state = autonomy_free } }
+		create_country_leader = {
+	        name = "Iskander Mirza"
+	        picture = "Iskander_Mirza.dds"
+	        ideology = national_conservatism
+        }
 	}
 }
