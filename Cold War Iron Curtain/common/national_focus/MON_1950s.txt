@@ -233,7 +233,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_International_Recognition_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_BullishDiplomacy
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Stalin_of_Mongolia
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Deepen_Soviet_Economic_Dependency
-		icon = GFX_goal_unknown
+		icon = GFX_comecon_goal
 		cost = 10.00
 		prerequisite = {
 			focus = MON_International_Recognition_Campaign
@@ -259,7 +259,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_A_Cult_of_Personality
-		icon = GFX_goal_unknown
+		icon = GFX_AppealtoStalin
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Stalin_of_Mongolia
@@ -272,7 +272,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Desire_for_Unification
-		icon = GFX_goal_unknown
+		icon = GFX_fist
 		cost = 10.00
 		prerequisite = {
 			focus = MON_A_Cult_of_Personality
@@ -305,7 +305,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Modernization_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_Sacrifce_to_Progress
 		cost = 10.00
 		prerequisite = {
 			focus = MON_A_Cult_of_Personality
@@ -353,7 +353,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Rebuke_Soviet_Unificaiton_Activitists
-		icon = GFX_goal_unknown
+		icon = GFX_Backstab
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Desire_for_Unification
@@ -369,7 +369,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Death_of_Choibalsan
-		icon = GFX_goal_unknown
+		icon = GFX_franco_muerto
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Rebuke_Soviet_Unificaiton_Activitists
@@ -385,7 +385,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Power_Sharing
-		icon = GFX_goal_unknown
+		icon = GFX_Paper_Two
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Death_of_Choibalsan
@@ -399,7 +399,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Emulate_Soviet_Political_Systems
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Bastion
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Death_of_Choibalsan
@@ -424,7 +424,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = MON_Livestock_Initiatives
-		icon = GFX_goal_unknown
+		icon = GFX_focus_tribal_politics
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Economy
@@ -437,7 +437,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Naushk_Ulaanbaatar_Railway
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRailroads
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Livestock_Initiatives
@@ -456,7 +456,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Electrification_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_idea
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Economy
@@ -492,7 +492,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Establish_the_First_Mongol_Univeristy
-		icon = GFX_goal_unknown
+		icon = GFX_CommunistScientists
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Electrification_Campaign
@@ -508,7 +508,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Increase_Health_Services
-		icon = GFX_goal_unknown
+		icon = GFX_healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Establish_the_First_Mongol_Univeristy
@@ -611,7 +611,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Zuun_Bayan_Petroleum_Factory
-		icon = GFX_goal_unknown
+		icon = GFX_oil
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Electrification_Campaign
@@ -630,10 +630,10 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Modernize_Mining_Operations
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_construction2 
 		cost = 10.00
 		prerequisite = {
-			focus = MON_Züün_Bayan_Petroleum_Factory
+			focus = MON_Zuun_Bayan_Petroleum_Factory
 		}
 		prerequisite = {
 			focus = MON_Establish_the_First_Mongol_Univeristy
@@ -646,7 +646,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Develop_a_Modern_Education_System
-		icon = GFX_goal_unknown
+		icon = GFX_TechnologicalSupremacy
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Modernize_Mining_Operations
