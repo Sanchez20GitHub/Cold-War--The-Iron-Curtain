@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = {
 			540 10 
 		}
@@ -46,5 +50,5 @@ state={
 	}
 	manpower=5289000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop5
 }

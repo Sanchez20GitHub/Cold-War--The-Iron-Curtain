@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = DDR
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = decent
 		1990.10.3 = {
 			owner = WGR
 
@@ -31,9 +35,9 @@ state={
 	}
 
 	provinces={
-		3522 6487 6582 9456 9560 11359 
+		3522 6487 6582 9456 9560 11359 11468 
 	}
 	manpower=2245470
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2
 }

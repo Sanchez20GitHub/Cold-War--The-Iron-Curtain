@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ITA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = {
 			9904 40 
 		}
@@ -32,9 +36,9 @@ state={
 	}
 
 	provinces={
-		923 6862 9904 11751 11846 11882 
+		923 6862 9904 11751 11846 
 	}
 	manpower=2781971
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop2
 }

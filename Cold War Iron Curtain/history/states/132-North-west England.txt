@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = decent
 		victory_points = {
 			6384 30 
 		}
@@ -44,5 +48,5 @@ state={
 	}
 	manpower=5770454
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop5
 }

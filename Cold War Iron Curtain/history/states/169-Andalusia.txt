@@ -10,6 +10,10 @@ state={
 
 	history={
 		owner = SPR
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = medium
+		set_state_flag = semideveloped
 		victory_points = {
 			1048 1 
 		}
@@ -53,5 +57,5 @@ state={
 	}
 	manpower=8388107
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=8mil
 }

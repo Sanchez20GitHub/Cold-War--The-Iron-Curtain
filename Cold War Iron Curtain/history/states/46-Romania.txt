@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = ROM
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = wealthy
 		victory_points = { 9617 30 }
 		victory_points = { 3663 5 }
 		victory_points = { 11636 5 }
@@ -29,5 +33,5 @@ state={
 	}
 	manpower=4461400
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop4
 }

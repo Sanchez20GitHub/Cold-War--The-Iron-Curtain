@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = YUG
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = decent
 		1991.6.25 = {
 			owner = CRO
 
@@ -24,5 +28,5 @@ state={
 	}
 	manpower=806192
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1
 }

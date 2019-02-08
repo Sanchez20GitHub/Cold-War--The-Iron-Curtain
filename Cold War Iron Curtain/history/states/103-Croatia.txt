@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = YUG
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			3924 1 
 		}
@@ -44,5 +48,5 @@ state={
 	}
 	manpower=1431700
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop1
 }

@@ -150,12 +150,13 @@ country_event = {
 		hidden_effect = {
 			kill_country_leader = yes
 		}
+		complete_national_focus = SAF_strijdom_takes_over
 		create_country_leader = {
 			name = "Johannes Strijdom"
 			desc = "POLITICS_STRIJDOM_DESC"
 			picture = "Strijdom.dds"
 			expire = "1990.1.1"
-			ideology = reactionary
+			ideology = national_democrat
 		}
 	}
 }
@@ -171,7 +172,6 @@ country_event = {
 	
 	option = { #kk
 		name = cw_saf.3.a
-		complete_national_focus = SAF_strijdom_takes_over
 		set_country_flag = saf_verwoerd
 		clr_country_flag = saf_strijdom
 		hidden_effect = {
@@ -182,7 +182,7 @@ country_event = {
 			desc = "POLITICS_VERWOERD_DESC"
 			picture = "Verwoerd.dds"
 			expire = "1990.1.1"
-			ideology = reactionary
+			ideology = national_democrat
 		}
 	}
 }

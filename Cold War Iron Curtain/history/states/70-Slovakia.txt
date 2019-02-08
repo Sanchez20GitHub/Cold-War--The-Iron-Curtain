@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = CZE
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = wealthy
 		victory_points = {
 			9692 10 
 		}
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=1230500
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1
 }

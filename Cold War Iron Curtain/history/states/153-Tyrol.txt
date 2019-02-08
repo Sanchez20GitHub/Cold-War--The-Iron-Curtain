@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = mountains
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			673 5 
 		}
@@ -29,5 +33,5 @@ state={
 	}
 	manpower=746153
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

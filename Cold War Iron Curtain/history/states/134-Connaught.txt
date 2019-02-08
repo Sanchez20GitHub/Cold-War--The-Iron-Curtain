@@ -11,11 +11,15 @@ state=
 		
 	}
 	
-	state_category = town
+	state_category = pop1
 
 	history=
 	{
 		owner = IRE
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 6
 		}
