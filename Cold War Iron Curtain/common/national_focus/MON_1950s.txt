@@ -41,7 +41,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Mongolian_Peoples_Revolutionary_Army
-		icon = GFX_goal_unknown
+		icon = GFX_Mongolia_Star
 		cost = 10.00
 		x = 43
 		y = 0
@@ -91,7 +91,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Encourage_Russian_Language_Education
-		icon = GFX_goal_unknown
+		icon = GFX_soviet_culture
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Socialist_Realism
@@ -166,7 +166,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Literacy_Campaigns
-		icon = GFX_goal_unknown
+		icon = GFX_focus_red_propaganda
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Young_Pioneers
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Deepen_Soviet_Economic_Dependency
-		icon = GFX_comecon_goal
+		icon = GFX_Soviet_Investments 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_International_Recognition_Campaign
@@ -544,7 +544,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Chinese_Economic_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_goal_PRC_great_leap_forwards 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Accension_of_Yumjaagiin_Tsedenbal
@@ -558,7 +558,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Request_Accension_of_Mongolia_into_the_Soviet_Union
-		icon = GFX_goal_unknown
+		icon = GFX_join_the_ussr
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Accension_of_Yumjaagiin_Tsedenbal
@@ -571,7 +571,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Promote_Usage_of_Cyrillic
-		icon = GFX_goal_unknown
+		icon = GFX_TheRussianBear
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Request_Accension_of_Mongolia_into_the_Soviet_Union
@@ -598,7 +598,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Negotiations_with_Mao
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Comrade_Mao
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Chinese_Economic_Aid
@@ -662,7 +662,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Inner_Mongolian_Counteroffer
-		icon = GFX_goal_unknown
+		icon = GFX_Room_Meeting
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Negotiations_with_Mao
@@ -678,7 +678,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Chinese_Rejection
-		icon = GFX_goal_unknown
+		icon = GFX_goal_PRC_Crush
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Inner_Mongolian_Counteroffer
@@ -694,7 +694,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Chinese_Threat
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRC_red_army
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Chinese_Rejection
@@ -722,7 +722,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Preserve_our_Independence_from_China
-		icon = GFX_goal_unknown
+		icon = GFX_FortificationEffort
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Chinese_Rejection
@@ -737,7 +737,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Deteriotartion_of_Sino_Mongol_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_BurningGlobe
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Chinese_Threat
@@ -795,7 +795,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Mao_Accepts
-		icon = GFX_goal_unknown
+		icon = GFX_focus_world_peace 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Inner_Mongolian_Counteroffer
@@ -811,7 +811,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Industrial_Windfall
-		icon = GFX_goal_unknown
+		icon = GFX_FactoryTown
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Mao_Accepts
@@ -889,7 +889,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Urbanization_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_Urbanisation
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Mao_Accepts
@@ -903,7 +903,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Rapid_Population_Increase
-		icon = GFX_goal_unknown
+		icon = GFX_focus_public_housing
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Industrial_Windfall
@@ -922,7 +922,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Housing_Expansion
-		icon = GFX_goal_unknown
+		icon = GFX_Focus_RuralHousing
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Rapid_Population_Increase
@@ -937,7 +937,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Political_Indoctrination
-		icon = GFX_goal_unknown
+		icon = GFX_generic_communism
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Army_Ground_Forces
@@ -951,7 +951,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Complete_the_Motorization_Modernization
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRoads
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Political_Indoctrination
@@ -971,7 +971,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_goal_SOV_deal
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Complete_the_Motorization_Modernization
@@ -985,7 +985,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Surplus_Equipment
-		icon = GFX_goal_unknown
+		icon = GFX_goal_BEL_WW2Weapons
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Complete_the_Motorization_Modernization
@@ -1003,7 +1003,7 @@ focus_tree = {
 		}
 	focus = {
 		id = MON_Defensive_Posturing
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Bastion
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Surplus_Equipment
@@ -1019,7 +1019,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Cavalry_Expertise
-		icon = GFX_goal_unknown
+		icon = GFX_mongol_with_sword
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Revolutionary_Army
@@ -1089,7 +1089,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Lessons_from_the_Battle_of_Khalkhin_Gol
-		icon = GFX_goal_unknown
+		icon = GFX_goal_unknown 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Air_Force
@@ -1204,7 +1204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Accept_Maos_Offer
-		icon = GFX_goal_unknown
+		icon = GFX_goal_PRC_deal
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Negotiations_with_Mao
@@ -1222,7 +1222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Growing_Chinese_Influence
-		icon = GFX_goal_unknown
+		icon = GFX_prc_influence
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Accept_Maos_Offer
@@ -1249,7 +1249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Accension_into_the_PRC
-		icon = GFX_prc_influence
+		icon = GFX_goal_PRC_Proclamation 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Growing_Chinese_Influence
@@ -1313,7 +1313,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Death_of_Stalin
-		icon = GFX_goal_unknown
+		icon = GFX_Stalin_Cult
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Accension_of_Yumjaagiin_Tsedenbal
@@ -1520,7 +1520,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Increase_Diplomatic_Ties_with_India
-		icon = GFX_goal_unknown
+		icon = GFX_goal_RAJ_Proclamation
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Death_of_Stalin
@@ -1544,7 +1544,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Improve_Sino_Mongolian_Relations
-		icon = GFX_goal_unknown
+		icon = GFX_focus_PRC_great_movement
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Increase_Diplomatic_Ties_with_India
@@ -1568,7 +1568,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Condemn_the_PRC
-		icon = GFX_goal_unknown
+		icon = GFX_goal_PRC_Crush
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Depose_General_Secretary_Dashiin_Damba
@@ -1592,7 +1592,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Commence_Renewed_Political_Purges
-		icon = GFX_goal_unknown
+		icon = GFX_Camp_Rafidah
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Depose_General_Secretary_Dashiin_Damba
@@ -1675,7 +1675,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Continue_Destalinization_Programme
-		icon = GFX_goal_unknown
+		icon = GFX_CrushResistance
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Deposition_of_Yumjaagiin_Tsedenbal
@@ -1688,7 +1688,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Accept_Soviet_Economic_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_comecon_goal
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Deposition_of_Yumjaagiin_Tsedenbal
@@ -1717,7 +1717,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Tone_Down_Censorship
-		icon = GFX_goal_unknown
+		icon = GFX_goal_freedom_of_the_press
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Cultural_Liberalization
@@ -1730,7 +1730,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Relax_Religous_Repression
-		icon = GFX_goal_unknown
+		icon = GFX_communist_buddhism
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Cultural_Liberalization
@@ -1743,7 +1743,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Assert_Geopolitical_Independence
-		icon = GFX_goal_unknown
+		icon = GFX_goal_big_news
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Tone_Down_Censorship
