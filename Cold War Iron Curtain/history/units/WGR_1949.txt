@@ -20,7 +20,7 @@ division_template = {
 }
 division_template = {
 	name = "Polizei"
-	is_locked = yes
+	is_locked = no
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
