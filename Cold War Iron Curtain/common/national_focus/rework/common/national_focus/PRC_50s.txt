@@ -2574,7 +2574,12 @@ herfocus_tree = {
 		}
 		x = 74
 		y = 3
-
+			completion_reward = {
+					add_timed_idea = {
+							idea = fortification_build_up
+							days = 900
+						}
+				}
 	}
 	focus = {
 		id = PRC_Naval_Air_Forces
@@ -2588,7 +2593,14 @@ herfocus_tree = {
 		}
 		x = 73
 		y = 4
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 0.15
+							uses = 2
+							category = naval_bomber
+						}
+				}
 	}
 	focus = {
 		id = PRC_Indoctrinate_the_Peasents
@@ -2602,7 +2614,9 @@ herfocus_tree = {
 		}
 		x = 61
 		y = 5
-
+		completion_reward = {
+			add_ideas = rural_vanguard 
+		}
 	}
 	focus = {
 		id = PRC_Development_of_Armored_Troops
