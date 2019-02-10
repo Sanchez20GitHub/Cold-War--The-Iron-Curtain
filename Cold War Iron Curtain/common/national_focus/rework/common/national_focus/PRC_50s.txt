@@ -2318,4 +2318,312 @@ herfocus_tree = {
 			country_event = lushan_conference.1
 		}
 	}
+	####PLA Branch
+	focus = {
+		id = PRC_Lessons_from_the_Liberation_War
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 61
+		y = 0
+
+	}
+	focus = {
+		id = PRC_Establish_the_Peoples_Liberation_Army_Airforce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Lessons_from_the_Liberation_War
+		}
+		x = 52
+		y = 1
+
+	}
+	focus = {
+		id = PRC_Appoint_Liu_Yalou_as_Chief_of_the_Airforce
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_the_Peoples_Liberation_Army_Airforce
+		}
+		x = 51
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Reuse_Old_Japanese_Aircraft
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Appoint_Liu_Yalou_as_Chief_of_the_Airforce
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Build_the_Airforce_Command
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_the_Peoples_Liberation_Army_Airforce
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Soviet_Assistance
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Appoint_Liu_Yalou_as_Chief_of_the_Airforce
+		}
+		prerequisite = {
+			focus = PRC_Build_the_Airforce_Command
+		}
+		x = 52
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Soviet_MIG_15s
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Soviet_Assistance
+		}
+		prerequisite = {
+			focus = PRC_Reuse_Old_Japanese_Aircraft
+		}
+		x = 50
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Soviet_Trainers
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Build_the_Airforce_Command
+		}
+		x = 55
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Shenyang_Aircraft_Corporation
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Soviet_Assistance
+		}
+		prerequisite = {
+			focus = PRC_Soviet_Trainers
+		}
+		x = 54
+		y = 4
+
+	}
+	focus = {
+		id = PRC_The_Peoples_Liberation_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Lessons_from_the_Liberation_War
+		}
+		x = 61
+		y = 1
+
+	}
+	focus = {
+		id = PRC_Transforming_our_Army
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_The_Peoples_Liberation_Army
+		}
+		x = 61
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Artillery_Developments
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Transforming_our_Army
+		}
+		x = 58
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Establish_the_Work_Soldier_Militia
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Transforming_our_Army
+		}
+		x = 61
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Establish_Air_Defense_Troops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Artillery_Developments
+		}
+		prerequisite = {
+			focus = PRC_Establish_the_Work_Soldier_Militia
+		}
+		x = 59
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Men_Over_Material
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Transforming_our_Army
+		}
+		x = 64
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Establish_the_Public_Security_Forces
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Men_Over_Material
+		}
+		prerequisite = {
+			focus = PRC_Establish_the_Work_Soldier_Militia
+		}
+		x = 63
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Establish_the_Peoples_Liberation_Navy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Lessons_from_the_Liberation_War
+		}
+		x = 71
+		y = 1
+
+	}
+	focus = {
+		id = PRC_Oppose_the_Imperialist_Oppression
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_the_Peoples_Liberation_Navy
+		}
+		x = 71
+		y = 2
+
+	}
+	focus = {
+		id = PRC_Dalian_Naval_Academy
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Oppose_the_Imperialist_Oppression
+		}
+		x = 68
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Soviet_Naval_Advisors
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Oppose_the_Imperialist_Oppression
+		}
+		x = 71
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Old_KMT_Boats
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Dalian_Naval_Academy
+		}
+		prerequisite = {
+			focus = PRC_Soviet_Naval_Advisors
+		}
+		x = 69
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Fortify_the_Coasts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Oppose_the_Imperialist_Oppression
+		}
+		x = 74
+		y = 3
+
+	}
+	focus = {
+		id = PRC_Naval_Air_Forces
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Fortify_the_Coasts
+		}
+		prerequisite = {
+			focus = PRC_Soviet_Naval_Advisors
+		}
+		x = 73
+		y = 4
+
+	}
+	focus = {
+		id = PRC_Indoctrinate_the_Peasents
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_the_Public_Security_Forces
+		}
+		prerequisite = {
+			focus = PRC_Establish_Air_Defense_Troops
+		}
+		x = 61
+		y = 5
+
+	}
+	focus = {
+		id = PRC_Development_of_Armored_Troops
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_Air_Defense_Troops
+		}
+		x = 57
+		y = 5
+
+	}
+	focus = {
+		id = PRC_Human_Wave_Tactics
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = PRC_Establish_the_Public_Security_Forces
+		}
+		x = 65
+		y = 5
+
+	}
 }
