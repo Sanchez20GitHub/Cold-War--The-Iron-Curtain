@@ -1100,7 +1100,7 @@
  STATE_1099:0 "Tigray"
  STATE_1100:0 "Afar"
  STATE_1101:0 "Amhara"
- STATE_1102:0 "Ad Dakhiliyah"
+ STATE_1102:0 "Oman"
  STATE_1103:0 "Uttarakhand"
  STATE_1104:0 "Pará"
  STATE_1105:0 "Southern Cameroons"
@@ -1256,3 +1256,4 @@
  STATE_1255:0 "Puglia"
  STATE_1256:0 "Basilicata"
  STATE_1257:0 "Molise"
+ STATE_1258:0 "Al Abr"
