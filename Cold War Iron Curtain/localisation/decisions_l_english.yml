@@ -49,7 +49,7 @@
  build_tokyo_tower:0 "Open Tokyo Tower"
  
  ##us of a
- PBSUCCESS:0 "Operation PBSUCCES"
+ PBSUCCESS:0 "Operation PBSUCCESS"
  PBSUCCESS_desc:0 "Actions related to starting a revolution in Guatemala."
  contact_carlos_armas:0 "Contact Carlos Armas"
  criticize_gua_gov:0 "Criticize The Guetemalan Government"
