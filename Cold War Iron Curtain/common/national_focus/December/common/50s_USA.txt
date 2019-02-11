@@ -5385,17 +5385,15 @@ focus_tree = {
 		y = 2
 			available = {
 					country_exists = GUA
+					GUA = {
+						has_government = Social_Democratic
+						}
 				}
 			allow_branch = {
 					
 				}
 			completion_reward = {
-					GUA = {
-							set_politics = {
-									ruling_party = neutrality
-									elections_allowed = no
-								}
-						}
+					custom_effect_tooltip = "Unlocks Operation PBSUCCESS Decisions"
 				}
 
 	}

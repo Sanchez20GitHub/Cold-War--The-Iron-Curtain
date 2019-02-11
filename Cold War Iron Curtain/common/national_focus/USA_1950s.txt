@@ -4226,9 +4226,9 @@
 						add_to_variable = { var = influencer2_amount value = 200 }
 		}
 	}
-	shared_focus = {
+		shared_focus = {
 		id = USA_PBSUCCESS
-		icon = GFX_Death_or_Dishonor
+		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10.00
 		prerequisite = {
 			focus = USA_Creation_of_the_CIA
@@ -4237,105 +4237,19 @@
 		y = 2
 			available = {
 					country_exists = GUA
+					GUA = {
+						has_government = Social_Democratic
+						}
 				}
 			allow_branch = {
 					
 				}
 			completion_reward = {
-					GUA = {
-							set_politics = {
-									ruling_party = neutrality
-									elections_allowed = no
-								}
-						}
+					custom_effect_tooltip = "Unlocks Operation PBSUCCESS Decisions"
 				}
 
 	}
-	shared_focus = {
-		id = USA_democratic_regime_gua
-		icon = GFX_Leading_Torch
-		cost = 10.00
-		prerequisite = {
-			focus = USA_PBSUCCESS
-		}
-		mutually_exclusive = {
-			focus = USA_gua_military_junta
-			focus = USA_gua_corporate_puppet
-		}
-		x = 85
-		y = 3
-			available = {
-					country_exists = GUA
-				}
-			allow_branch = {
-					
-				}
-			completion_reward = {
-					GUA = {
-							set_politics = {
-									ruling_party = democratic
-									elections_allowed = yes
-								}
-						}
-				}
-
-	}
-	shared_focus = {
-		id = USA_gua_military_junta
-		icon = GFX_Junta_Focus
-		cost = 10.00
-		prerequisite = {
-			focus = USA_PBSUCCESS
-		}
-		mutually_exclusive = {
-			focus = USA_democratic_regime_gua
-			focus = USA_gua_corporate_puppet
-		}
-		x = 87
-		y = 3
-			available = {
-					country_exists = GUA
-				}
-			allow_branch = {
-					
-				}
-			completion_reward = {
-					GUA = {
-							set_politics = {
-									ruling_party = nationalism
-									elections_allowed = no
-								}
-						}
-				}
-
-	}
-	shared_focus = {
-		id = USA_gua_corporate_puppet
-		icon = GFX_Money
-		cost = 10.00
-		prerequisite = {
-			focus = USA_PBSUCCESS
-		}
-		mutually_exclusive = {
-			focus = USA_democratic_regime_gua
-			focus = USA_gua_military_junta
-		}
-		x = 89
-		y = 3
-			allow_branch = {
-					
-				}
-			completion_reward = {
-					GUA = {
-							set_politics = {
-									ruling_party = neutrality
-									elections_allowed = no
-								}
-						}
-					puppet = GUA
-				}
-
-	}
+	
 	shared_focus = {
 		id = USA_Preparation_for_Honduras_Coup
 		icon = GFX_SwingtheSword
