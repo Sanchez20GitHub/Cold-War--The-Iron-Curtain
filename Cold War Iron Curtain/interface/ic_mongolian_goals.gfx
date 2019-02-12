@@ -43,4 +43,20 @@ spriteTypes = {
 		name = "GFX_Mongolia_Star"
 		texturefile = "gfx/interface/goals/Mongolia_Star.dds"
 	}
+	SpriteType = {
+		name = "GFX_Mongolian_Political_Investigations"
+		texturefile = "gfx/interface/goals/Mongolian_Political_Investigations.tga"
+	}
+	SpriteType = {
+		name = "GFX_Reject_Comecon"
+		texturefile = "gfx/interface/goals/Reject_Comecon.tga"
+	}
+	SpriteType = {
+		name = "GFX_Communist_Liberalization"
+		texturefile = "gfx/interface/goals/Communist_Liberalization.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Agriculture"
+		texturefile = "gfx/interface/goals/Soviet_Agriculture.tga"
+	}	
 }
