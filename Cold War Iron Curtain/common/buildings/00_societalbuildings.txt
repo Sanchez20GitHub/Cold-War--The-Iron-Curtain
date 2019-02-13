@@ -44,36 +44,12 @@ buildings = {
 		infrastructure_construction_effect = yes
 	}
 #####ENERGY#####
-	fossil_fuel_oil_powerplant = {
+	fossil_fuel_powerplant = {
 		show_on_map = 0
 		base_cost = 8000
 		icon_frame = 1
 		local_resources_electricity = 10
 		local_resources_oil = -1
-		refinery = yes
-		max_level = 3 # This is the max unlock level
-		shares_slots = no
-		value = 10
-		infrastructure_construction_effect = yes
-	}
-	fossil_fuel_coal_powerplant = {
-		show_on_map = 0
-		base_cost = 6000
-		icon_frame = 1
-		local_resources_electricity = 10
-		local_resources_oil = -1.5
-		refinery = yes
-		max_level = 3 # This is the max unlock level
-		shares_slots = no
-		value = 10
-		infrastructure_construction_effect = yes
-	}
-	fossil_fuel_gas_powerplant = {
-		show_on_map = 0
-		base_cost = 10000
-		icon_frame = 1
-		local_resources_electricity = 10
-		local_resources_oil = -0.5
 		refinery = yes
 		max_level = 3 # This is the max unlock level
 		shares_slots = no
