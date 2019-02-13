@@ -5,6 +5,10 @@ set_research_slots = 2
 oob = "CRO_1949"
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	CAS1 = 1
 	CAS2 = 1
 	CAS3 = 1

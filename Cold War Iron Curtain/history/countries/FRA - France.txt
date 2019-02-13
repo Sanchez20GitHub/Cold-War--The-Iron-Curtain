@@ -7,6 +7,10 @@ set_research_slots = 4
 # Starting tech
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -270,6 +274,10 @@ add_ideas = {
 	set_autonomy = { target = CMR autonomy_state = autonomy_free }	
 
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

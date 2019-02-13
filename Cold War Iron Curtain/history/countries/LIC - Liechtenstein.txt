@@ -1,6 +1,10 @@
 ﻿capital = 994
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 ##Infantry##
 	

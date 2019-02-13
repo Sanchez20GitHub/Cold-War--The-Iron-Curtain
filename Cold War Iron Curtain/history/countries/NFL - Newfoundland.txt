@@ -3,6 +3,10 @@
 oob = "NFL_1945"
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Tech ##
 	radio = 1
 

@@ -11,7 +11,9 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			arms_factory = 4
 			industrial_complex = 6
 			dockyard = 3

@@ -9,7 +9,9 @@ state={
 			9149 5
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			coal_plant = 1
 
 		}

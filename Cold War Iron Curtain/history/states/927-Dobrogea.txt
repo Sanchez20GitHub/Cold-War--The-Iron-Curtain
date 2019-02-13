@@ -5,7 +5,9 @@ state={
 		owner = ROM
 		victory_points = { 9635 5 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 2
 			coal_plant = 1
 			9635 = { naval_base = 8 }

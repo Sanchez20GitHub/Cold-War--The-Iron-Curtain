@@ -9,6 +9,10 @@ oob = "DRY_1949"
 set_research_slots = 2
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 ##Infantry##
 	

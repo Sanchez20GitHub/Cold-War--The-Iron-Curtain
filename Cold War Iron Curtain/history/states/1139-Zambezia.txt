@@ -7,7 +7,9 @@ state={
 		owner = POR
 		add_core_of = MZB
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 		1975.1.1 = {

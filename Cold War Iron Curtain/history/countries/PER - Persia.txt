@@ -4,6 +4,10 @@ oob = "PER_1949"
 
 # Starting tech
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 ##Infantry##
 	
@@ -178,6 +182,10 @@ create_corps_commander = {
 	#load_focus_tree = IRAN_1960s
 	remove_ideas = entrenched_aristocracy
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Tech ##
 		

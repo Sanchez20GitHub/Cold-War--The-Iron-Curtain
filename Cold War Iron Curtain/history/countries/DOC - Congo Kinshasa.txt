@@ -5,6 +5,10 @@ oob = "DOC_1949"
 # Starting tech
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 

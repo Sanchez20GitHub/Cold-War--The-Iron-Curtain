@@ -13,6 +13,8 @@ state={
 		add_core_of = INO
 		buildings = {
 			infrastructure = 1
+			state_infrastructure = 1
+
 
 		}
 		1950.1.1 = {
