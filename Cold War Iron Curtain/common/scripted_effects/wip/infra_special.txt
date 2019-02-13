@@ -17,6 +17,42 @@
 			}
 			remove_state_infra_2_effect = yes
 		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_3
+			}
+			remove_state_infra_3_effect = yes
+		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_4
+			}
+			remove_state_infra_4_effect = yes
+		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_5
+			}
+			remove_state_infra_5_effect = yes
+		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_6
+			}
+			remove_state_infra_6_effect = yes
+		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_7
+			}
+			remove_state_infra_7_effect = yes
+		}
+		if = {
+			limit = {
+				has_state_flag = state_infra_8
+			}
+			remove_state_infra_8_effect = yes
+		}
 	}
 	if = {	
 		limit = {
