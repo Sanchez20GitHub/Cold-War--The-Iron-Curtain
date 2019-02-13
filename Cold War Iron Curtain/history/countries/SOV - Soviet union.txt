@@ -6,6 +6,10 @@ set_research_slots = 5
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 	## Tech ##
 	ww_production = 1
 	ww_construction = 1
@@ -194,6 +198,10 @@ set_technology = {
     set_research_slots = 5
     oob = "SOV_1960"
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Tech ##
 		atgm_1 = 1

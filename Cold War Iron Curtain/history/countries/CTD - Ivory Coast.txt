@@ -8,6 +8,10 @@ oob = "CTD_1949"
 
 # Starting tech
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 ##Infantry##
 	

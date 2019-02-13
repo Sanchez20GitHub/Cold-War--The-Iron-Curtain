@@ -13,7 +13,9 @@ state={
 			6712 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 
 		}
 		add_core_of = WGR

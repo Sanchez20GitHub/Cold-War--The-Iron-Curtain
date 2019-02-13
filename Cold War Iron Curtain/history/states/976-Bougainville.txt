@@ -7,7 +7,9 @@ state={
 		owner = AST
 		add_core_of = PAP
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			4226 = {
 				naval_base = 1
 

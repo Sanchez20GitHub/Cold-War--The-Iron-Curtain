@@ -18,7 +18,9 @@ state={
 		set_state_flag = nominal
 		set_state_flag = developed
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
+			state_infrastructure = 3
+
 			industrial_complex = 3
 			dockyard = 2
 			coal_plant = 2

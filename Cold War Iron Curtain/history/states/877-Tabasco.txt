@@ -11,7 +11,9 @@ state={
 		owner = MEX
 		add_core_of = MEX
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 
 		}
 

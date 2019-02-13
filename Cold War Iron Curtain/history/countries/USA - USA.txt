@@ -6,6 +6,10 @@ set_research_slots = 4
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -658,6 +662,10 @@ complete_national_focus = USA_EISENHOWER56_The_Eisenhower_Administration_1956
 		set_variable = { socialist_workers_supportive_senators = 0 }		
 	}
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Tech ##
 		atgm_1 = 1

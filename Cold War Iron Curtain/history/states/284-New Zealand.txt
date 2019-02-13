@@ -6,7 +6,9 @@ state={
 	history={
 		owner = NZL
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			arms_factory = 1
 			industrial_complex = 2
 			coal_plant = 1

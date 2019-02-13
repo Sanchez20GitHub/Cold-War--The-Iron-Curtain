@@ -10,7 +10,9 @@ state={
 		owner = DOC
 		add_core_of = DOC
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 
 		}

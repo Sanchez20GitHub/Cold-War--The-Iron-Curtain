@@ -7,7 +7,9 @@ state={
 		owner = USA
 		buildings = {
 			arms_factory = 1
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 2
 			coal_plant = 2
 			radar_station = 1

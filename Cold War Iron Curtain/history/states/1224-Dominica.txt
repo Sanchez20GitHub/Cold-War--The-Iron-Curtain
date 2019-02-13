@@ -4,7 +4,9 @@ state={
 	history={
 		owner = GND
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			7123 = {
 				naval_base = 1
 			}

@@ -8,7 +8,9 @@ state={
 	history={
 		owner = DOM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			air_base = 1
 			7632 = {
 				naval_base = 1

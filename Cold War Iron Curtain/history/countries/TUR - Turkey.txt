@@ -10,6 +10,10 @@ add_ideas = {
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -114,6 +118,10 @@ set_variable = { var = influencer2_amount value = 150 }
 
 # Add this if the nation has bigger (but not modern) navy building capabilites (for example Netherlands) #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## NAVY ##
 	frigate_1 = 1
 	frigate_2 = 1
@@ -129,6 +137,10 @@ set_technology = {
 
 # Add this if the nation has marines #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## NAVY ##
 	landing_craft = 1
 
@@ -138,6 +150,10 @@ set_technology = {
 
 # Add this if the nation built it's own aircraft (Belgium had, Portugal hadn't so shouldn't have the tech...) #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## AIR ##
 	early_bomber = 1
 	early_fighter = 1
@@ -160,6 +176,10 @@ set_technology = {
 
 # Add this if the nation could build tanks at some point #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Armor ## 
 	main_battle_tanks = 1
 	light_tanks_1 = 1

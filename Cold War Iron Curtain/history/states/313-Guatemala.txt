@@ -13,7 +13,9 @@ state={
 	history={
 		owner = GUA
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 3
                         coal_plant = 1
 			air_base = 1
