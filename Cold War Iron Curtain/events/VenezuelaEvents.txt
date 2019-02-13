@@ -3,13 +3,9 @@ country_event = {
 	id = VEN_event.0
 	title = VEN_event.0.t
 	picture = GFX_event_test
-	desc = {
-		text = namespace.count.d.desc_id
-		trigger = {
-
-}
-
-	}
+	is_triggered_only = yes
+	desc = VEN_event.0.d
+	
 	option = {
 	name = namespace.count.a
 
@@ -20,13 +16,9 @@ country_event = {
 	id = VEN_event.1
 	title = VEN_event.1.t
 	picture = GFX_event_test
-	desc = {
-		text = namespace.count.d.desc_id
-		trigger = {
+	is_triggered_only = yes
+	desc = VEN_event.1.d
 
-}
-
-	}
 	option = {
 	name = namespace.count.a
 
@@ -37,13 +29,9 @@ country_event = {
 	id = VEN_event.2
 	title = VEN_event.2.t
 	picture = GFX_event_test
-	desc = {
-		text = namespace.count.d.desc_id
-		trigger = {
+	is_triggered_only = yes
+	desc = VEN_event.2.d
 
-}
-
-	}
 	option = {
 	name = namespace.count.a
 
