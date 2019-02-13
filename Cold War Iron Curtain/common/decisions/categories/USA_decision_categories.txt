@@ -28,3 +28,12 @@ CONGRESS_US = {
         original_tag = USA
     }
 }
+
+PBSUCCESS = {
+	icon = generic_propaganda
+	picture = GFX_decision_cat_cia	
+	allowed = {
+		original_tag = USA
+		has_completed_focus = USA_PBSUCCESS
+	}
+}

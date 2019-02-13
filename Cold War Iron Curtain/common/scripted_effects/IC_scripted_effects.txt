@@ -6,6 +6,9 @@ ic_pulse = {
 		min = 0
 		max = 2000000
 	}	
+	every_owned_state = {
+		state_infra_modifier_setup = yes
+	}
 	if = {
 		limit = {
 			tag = USA
@@ -5757,6 +5760,23 @@ ic_pulse = {
 			date < 1951.01.01
 		}
 		country_event = india.1
+	}
+	if = {
+		limit = {
+			original_tag = PAK
+			date > 1956.08.13
+			date < 1957.01.01
+		}
+		country_event = pakistan.1
+	}
+	if = {
+		limit = {
+			original_tag = FRA
+			SAR = { exists = yes has_cosmetic_tag = SAR_FRA }
+			date > 1957.01.01
+			date < 1958.01.01
+		}
+		country_event = saarland.1
 	}
     if = {
 		limit = {

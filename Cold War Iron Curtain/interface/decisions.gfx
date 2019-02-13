@@ -479,6 +479,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_decision_cat_cia"
+		texturefile = "gfx/interface/decisions/cia.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_decision_cat_picture_inf"
 		texturefile = "gfx/interface/decisions/inf_equip.dds"
 	}

@@ -118,6 +118,12 @@ create_country_leader = {
 		#
 	}
 }
+create_country_leader = {
+	name = "Carlos Castillo Armas"
+	desc = "POLITICS_JORGE_UBICO_DESC"
+	picture = "Carlos.dds"
+	ideology = corporatism
+}
 
 1958.1.1 = {
 
