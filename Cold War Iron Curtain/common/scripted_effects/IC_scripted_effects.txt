@@ -6,6 +6,9 @@ ic_pulse = {
 		min = 0
 		max = 2000000
 	}	
+	every_owned_state = {
+		state_infra_modifier_setup = yes
+	}
 	if = {
 		limit = {
 			tag = USA
