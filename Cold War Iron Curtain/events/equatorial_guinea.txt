@@ -1,4 +1,4 @@
-add_namespace = egi
+﻿add_namespace = egi
 
 country_event = {
 	id = egi.1
