@@ -9,7 +9,9 @@ state={
 	history={
 		owner = ETH
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			arms_factory = 1
 			industrial_complex = 2
 			air_base = 1

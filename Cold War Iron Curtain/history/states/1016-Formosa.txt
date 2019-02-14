@@ -7,7 +7,9 @@ state={
 		owner = ARG
 		add_core_of = ARG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 

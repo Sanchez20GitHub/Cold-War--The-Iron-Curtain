@@ -10,6 +10,10 @@ add_ideas = {
 }
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 	##Industry##
 	
@@ -237,6 +241,10 @@ create_country_leader = {
 		#set_country_flag = focus_tree_60_reset
 		#load_focus_tree = BUL_60s    
 		set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

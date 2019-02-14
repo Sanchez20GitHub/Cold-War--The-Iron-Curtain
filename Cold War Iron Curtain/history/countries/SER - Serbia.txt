@@ -5,6 +5,10 @@ oob = "SER_1949"
 set_research_slots = 3
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	CAS1 = 1
 	CAS2 = 1
 	CAS3 = 1

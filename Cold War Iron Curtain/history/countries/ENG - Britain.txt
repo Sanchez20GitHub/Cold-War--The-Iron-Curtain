@@ -8,6 +8,10 @@ set_stability = 0.1
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ## Tech ##
 	ww_production = 1
 	ww_construction = 1
@@ -583,9 +587,6 @@ set_politics = {
 	set_autonomy = { target = NFL autonomy_state = autonomy_free }	
 	set_autonomy = { target = SKK autonomy_state = autonomy_free }	
     set_autonomy = { target = NZL autonomy_state = autonomy_free }     
-	ENG = { 
-		add_to_war = { targeted_alliance = MAL enemy = MLA } 
-	}
 }
 
 1951.1.1 = {
@@ -708,6 +709,10 @@ set_politics = {
 oob = "ENG_1960"
 
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 		atgm_1 = 1
 		## Engineering + Industry ##
 		ww_production = 1

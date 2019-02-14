@@ -7,6 +7,10 @@ set_research_slots = 3
 ## Countries with relatively small military industry (Belgium, Poland, ...) ##
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -82,6 +86,10 @@ set_technology = {
 
 # Add this if the nation has proper army structures #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Support ##
 	tech_field_hospital = 1
 	tech_logistics_company = 1
@@ -91,6 +99,10 @@ set_technology = {
 
 # Add this if the nation has small navy building capabilites (for example Belgium) #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## NAVY ##
 	frigate_1 = 1
 	early_destroyer = 1
@@ -101,6 +113,10 @@ set_technology = {
 
 # Add this if the nation built it's own aircraft (Belgium had, Portugal hadn't so shouldn't have the tech...) #
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## AIR ##
 	early_bomber = 1
 	early_fighter = 1
@@ -219,6 +235,10 @@ create_navy_leader = {
 
 1960.1.1 = {
     set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

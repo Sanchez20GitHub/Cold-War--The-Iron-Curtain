@@ -17,7 +17,9 @@ state=
 			9228 2
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 1
 			9228 = {

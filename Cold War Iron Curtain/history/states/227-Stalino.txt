@@ -13,7 +13,9 @@ state={
 			set_province_name = { id = 6474 name = "Donetsk" }
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 2
 			arms_factory = 1
 			air_base = 2

@@ -5,7 +5,9 @@ state={
 		owner = GND
 		victory_points = {13009 1}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			13009 = {
 				naval_base = 1
 			}

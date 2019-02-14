@@ -2325,7 +2325,10 @@ herfocus_tree = {
 		cost = 10.00
 		x = 61
 		y = 0
-
+		completion_reward = {
+			army_experience = 50
+			air_experience = 25
+		}
 	}
 	focus = {
 		id = PRC_Establish_the_Peoples_Liberation_Army_Airforce
@@ -2336,7 +2339,10 @@ herfocus_tree = {
 		}
 		x = 52
 		y = 1
-
+		completion_reward = {
+			air_experience = 50
+			add_offsite_building = { type = arms_factory level = 1 }			
+		}
 	}
 	focus = {
 		id = PRC_Appoint_Liu_Yalou_as_Chief_of_the_Airforce
@@ -2358,6 +2364,13 @@ herfocus_tree = {
 		}
 		x = 49
 		y = 3
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_2
+				amount = 500
+				producer = JAP
+			}		
+		}
 
 	}
 	focus = {
@@ -2383,7 +2396,13 @@ herfocus_tree = {
 		}
 		x = 52
 		y = 3
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_3
+				amount = 350
+				producer = SOV
+			}		
+		}
 	}
 	focus = {
 		id = PRC_Soviet_MIG_15s
@@ -2397,7 +2416,13 @@ herfocus_tree = {
 		}
 		x = 50
 		y = 4
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = jet_multirole_equipment_2
+				amount = 200
+				producer = SOV
+			}		
+		}
 	}
 	focus = {
 		id = PRC_Soviet_Trainers
@@ -2408,7 +2433,9 @@ herfocus_tree = {
 		}
 		x = 55
 		y = 3
-
+		completion_reward = {
+			air_experience = 25
+		}
 	}
 	focus = {
 		id = PRC_Shenyang_Aircraft_Corporation
@@ -2455,7 +2482,14 @@ herfocus_tree = {
 		}
 		x = 58
 		y = 3
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_artillery_bonus
+							bonus = 0.15
+							uses = 2
+							category = artillery
+						}
+				}
 	}
 	focus = {
 		id = PRC_Establish_the_Work_Soldier_Militia
@@ -2516,6 +2550,109 @@ herfocus_tree = {
 		}
 		x = 71
 		y = 1
+			completion_reward = {
+					navy_experience = 25
+					if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													dockyard > 0
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+									any_owned_state = {
+											is_coastal = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_coastal = yes
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									any_owned_state = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+								}
+							random_state = {
+									limit = {
+											controller = {
+													tag = ROOT
+												}
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+						}
+				}
 
 	}
 	focus = {
@@ -2549,7 +2686,9 @@ herfocus_tree = {
 		}
 		x = 71
 		y = 3
-
+		completion_reward = {
+			add_ideas = soviet_naval_advisors
+		}
 	}
 	focus = {
 		id = PRC_Old_KMT_Boats
@@ -2574,7 +2713,12 @@ herfocus_tree = {
 		}
 		x = 74
 		y = 3
-
+			completion_reward = {
+					add_timed_idea = {
+							idea = fortification_build_up
+							days = 900
+						}
+				}
 	}
 	focus = {
 		id = PRC_Naval_Air_Forces
@@ -2588,7 +2732,14 @@ herfocus_tree = {
 		}
 		x = 73
 		y = 4
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = nav_bomber_bonus
+							bonus = 0.15
+							uses = 2
+							category = naval_bomber
+						}
+				}
 	}
 	focus = {
 		id = PRC_Indoctrinate_the_Peasents
@@ -2602,7 +2753,9 @@ herfocus_tree = {
 		}
 		x = 61
 		y = 5
-
+		completion_reward = {
+			add_ideas = rural_vanguard 
+		}
 	}
 	focus = {
 		id = PRC_Development_of_Armored_Troops
@@ -2613,6 +2766,14 @@ herfocus_tree = {
 		}
 		x = 57
 		y = 5
+			completion_reward = {
+					add_tech_bonus = {
+							name = armor_bonus
+							bonus = 0.15
+							uses = 2
+							category = armor
+						}
+				}
 
 	}
 	focus = {
@@ -2624,6 +2785,14 @@ herfocus_tree = {
 		}
 		x = 65
 		y = 5
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = doctrine_bonus
+							bonus = 0.15
+							uses = 2
+							category = cat_mass_assault
+						}
+					add_ideas = fra_conscription_effort
+				}
 	}
 }

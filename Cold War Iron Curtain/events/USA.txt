@@ -4,7 +4,45 @@
 
 add_namespace = usa
 add_namespace = focus_check
+add_namespace = pbsuccess
 
+country_event = {
+	id = pbsuccess.1
+	title = "Contact Established With Carlos Castillo Armas"
+	desc = pbsuccess.1.d
+	picture = report_event_notecrisis7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "One Step Closer To Our Goal"
+	}
+}
+
+country_event = {
+	id = pbsuccess.2
+	title = "Coup d'état Attempt"
+	desc = pbsuccess.2.d
+	picture = report_event_notecrisis7
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Avoid A Bloody Conflict"
+		set_politics = {
+		ruling_party = conservative
+		elections_allowed = yes
+}
+	}
+	option = {
+		name = "Never Surrender!"
+		start_civil_war = {
+    ruling_party = Social_Democratic
+    ideology = conservative
+    size = 0.5
+}
+	}
+}
 
 country_event = {
 	id = focus_check.1

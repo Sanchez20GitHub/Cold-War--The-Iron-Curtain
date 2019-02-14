@@ -22,7 +22,9 @@ state={
 			1128 2 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 

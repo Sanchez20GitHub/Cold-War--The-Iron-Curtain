@@ -198,7 +198,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Launch_the_Cultural_Campaigns
-		icon = GFX_goal_unknown
+		icon = GFX_red_world
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Literacy_Campaigns
@@ -985,7 +985,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Surplus_Equipment
-		icon = GFX_goal_BEL_WW2Weapons
+		icon = GFX_FocusAK47s
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Complete_the_Motorization_Modernization
@@ -1003,7 +1003,7 @@ focus_tree = {
 		}
 	focus = {
 		id = MON_Defensive_Posturing
-		icon = GFX_Soviet_Bastion
+		icon = GFX_focus_bulwark_against_nato 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Surplus_Equipment
@@ -1032,7 +1032,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Advisors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_soviet_advisors 
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Cavalry_Expertise
@@ -1045,7 +1045,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Cold_Weather_Expertise
-		icon = GFX_goal_unknown
+		icon = GFX_RedArmy
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Advisors
@@ -1071,7 +1071,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Air_Trainers
-		icon = GFX_goal_unknown
+		icon = GFX_Communist_Loyalty
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Air_Force
@@ -1089,7 +1089,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Lessons_from_the_Battle_of_Khalkhin_Gol
-		icon = GFX_goal_unknown 
+		icon = GFX_FocusKampfgruppenDerArbeiterklasse
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Air_Force
@@ -1107,7 +1107,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Surplus_Soviet_Aircraft
-		icon = GFX_goal_unknown
+		icon = GFX_FocusLavochkinLa_9s
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Lessons_from_the_Battle_of_Khalkhin_Gol
@@ -1127,7 +1127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Import_Soviet_MIG_15s
-		icon = GFX_goal_unknown
+		icon = GFX_focus_soviet_mig_15
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Surplus_Soviet_Aircraft
@@ -1144,7 +1144,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Helicoptors
-		icon = GFX_goal_unknown
+		icon = GFX_Helicoptor_Production
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Surplus_Soviet_Aircraft
@@ -1162,7 +1162,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Anti_AIr_Defense_Cooperation
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Bastion
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Import_Soviet_MIG_15s
@@ -1264,7 +1264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Deepen_Reliance_on_Soviet_Military
-		icon = GFX_goal_unknown
+		icon = GFX_Commie_Treaty
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Request_Accension_of_Mongolia_into_the_Soviet_Union
@@ -1349,7 +1349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Begin_Destalinization
-		icon = GFX_goal_unknown
+		icon = GFX_Communist_Discourse
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Death_of_Stalin
@@ -1606,7 +1606,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Soviet_Political_Support
-		icon = GFX_goal_unknown
+		icon = GFX_Communist_Subterfuge
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Condemn_the_PRC
@@ -1622,7 +1622,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Condemn_Mongolian_Nationalism
-		icon = GFX_goal_unknown
+		icon = GFX_legacy_of_the_khan
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Political_Support
@@ -1643,7 +1643,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Dreams_of_an_Industrialized_Countryside
-		icon = GFX_goal_unknown
+		icon = GFX_FactoryTown
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Political_Support
@@ -1659,7 +1659,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Political_Machiavellianism
-		icon = GFX_goal_unknown
+		icon = GFX_Into_the_Flames_of_Glory
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Dreams_of_an_Industrialized_Countryside
@@ -1701,7 +1701,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Cultural_Liberalization
-		icon = GFX_goal_unknown
+		icon = GFX_Financial_Domination
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Continue_Destalinization_Programme

@@ -21,7 +21,9 @@ state={
 		}
 		buildings = {
 			air_base = 1
-			infrastructure = 5
+			infrastructure = 3
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 2
 			377 = {

@@ -12,6 +12,8 @@ state={
 		add_core_of = CAN
 		buildings = {
 			infrastructure = 1
+			state_infrastructure = 1
+
 
 		}
 		victory_points = {

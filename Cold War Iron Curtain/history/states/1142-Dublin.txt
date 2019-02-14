@@ -10,7 +10,9 @@ state={
 			11293 5 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 5
+			state_infrastructure = 4
+
             11293 = {
 			    naval_base = 2
 			}

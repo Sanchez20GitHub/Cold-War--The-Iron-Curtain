@@ -13,7 +13,9 @@ state={
 		set_state_flag = nominal
 		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 3
 			arms_factory = 2
 			air_base = 5

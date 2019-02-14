@@ -9,6 +9,10 @@ oob = "BRA_1949"
 # Starting tech
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 
 ##Infantry##
 	
@@ -301,6 +305,10 @@ create_navy_leader = {
 
 1960.1.1 = {
     set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

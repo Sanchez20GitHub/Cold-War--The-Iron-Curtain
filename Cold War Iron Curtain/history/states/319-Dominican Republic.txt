@@ -9,7 +9,9 @@ state={
 	history={
 		owner = DOM
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 3
 			air_base = 1
 			arms_factory = 1

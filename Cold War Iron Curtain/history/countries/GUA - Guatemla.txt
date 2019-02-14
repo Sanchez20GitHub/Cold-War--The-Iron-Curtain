@@ -5,6 +5,10 @@ oob = "GUA_1949"
 # Starting tech
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -117,6 +121,12 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_country_leader = {
+	name = "Carlos Castillo Armas"
+	desc = "POLITICS_JORGE_UBICO_DESC"
+	picture = "Carlos.dds"
+	ideology = corporatism
 }
 
 1958.1.1 = {

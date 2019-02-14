@@ -3,6 +3,10 @@
 oob = "CZE_1949"
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	##Industry##
 	
 	ww_production = 1
@@ -259,6 +263,10 @@ add_ideas = {
 	oob = "CZE_1960"
 drop_cosmetic_tag = yes
     set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

@@ -11,6 +11,10 @@ add_ideas = {
 	YUG_ora
 }
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	
 	##Industry##
 	

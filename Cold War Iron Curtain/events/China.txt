@@ -147,4 +147,3 @@ news_event = {
 		set_country_flag = yellow_riv_flood
 	   }
 	}
-}

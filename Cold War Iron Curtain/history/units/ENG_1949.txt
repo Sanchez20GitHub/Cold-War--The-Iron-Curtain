@@ -387,7 +387,7 @@ units = {
 	}
 	### British Forces Germany (CO: Keightley) ###
 	division= {	
-		name = "1st 'Berlin' Infantry Brigade"
+		name = "Berlin Infantry Brigade"
 		location = 6521
 		division_template = "Infantry Brigade"
 		start_experience_factor = 0.5
