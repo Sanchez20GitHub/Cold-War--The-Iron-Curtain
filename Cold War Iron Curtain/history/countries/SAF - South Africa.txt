@@ -1,4 +1,4 @@
-capital = 1233
+﻿capital = 1233
 
 oob = "SAF_1949"
 
