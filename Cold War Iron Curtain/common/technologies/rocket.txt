@@ -3287,6 +3287,10 @@ technologies = {
 		}
 		
 		enable_subunits = {
+			atgm_airborne
+		}
+		
+		enable_subunits = {
 			atgm_support
 		}
 		
@@ -3323,6 +3327,10 @@ technologies = {
         
 		enable_subunits = {
 			atgm_carrier
+		}
+		
+		enable_subunits = {
+			atgm_carrier_airborne
 		}
 		
 		enable_equipments = {

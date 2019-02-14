@@ -14,6 +14,10 @@ technologies = {
 			auto_cannon_support
 		}
 		
+		enable_subunits = {
+			auto_cannon_airborne
+		}
+		
 		enable_equipments = {
 			auto_cannon_equipment_1
 		}
@@ -994,6 +998,10 @@ technologies = {
 		}
 		
 		enable_subunits = {
+			light_artillery_airborne
+		}
+		
+		enable_subunits = {
 			light_artillery_support
 		}
 		
@@ -1043,6 +1051,10 @@ technologies = {
         
 		enable_subunits = {
 			light_sp_artillery
+		}
+		
+		enable_subunits = {
+			light_sp_artillery_airborne
 		}
 		
 		enable_equipments = {
@@ -2790,6 +2802,10 @@ technologies = {
 		
 		enable_subunits = {
 			direct_fire_gun
+		}
+		
+		enable_subunits = {
+			direct_fire_gun_airborne
 		}
 		
 		enable_subunits = {
