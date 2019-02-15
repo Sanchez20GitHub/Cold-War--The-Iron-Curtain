@@ -10,6 +10,10 @@ state={
 
 	history={
 		owner = GHA
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = abjectpoor
 		victory_points = {
 			11088 5 
 		}
@@ -35,5 +39,5 @@ state={
 	}
 	manpower=4010054
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop4
 }

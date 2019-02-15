@@ -4,10 +4,14 @@ state={
 	name="STATE_258"
 	manpower = 1282096
 	
-	state_category = town
+	state_category = pop1
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

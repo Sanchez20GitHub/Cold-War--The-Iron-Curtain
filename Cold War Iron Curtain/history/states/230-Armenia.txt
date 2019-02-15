@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = mountainshot
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = undeveloped
 		add_core_of = ARM
 		add_core_of = SOV
 		victory_points = {
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=1485293
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1
 }

@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = boreal
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2

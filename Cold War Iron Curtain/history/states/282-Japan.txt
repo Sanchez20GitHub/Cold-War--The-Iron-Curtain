@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = JAP
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = rich
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 3
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=13773000
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pop10
 }

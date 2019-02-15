@@ -2,12 +2,16 @@ state={
 	id=228
 	name="STATE_228" # Voroshilovgrad
 	manpower = 2167411
-	state_category = city
+	state_category = pop2
 	resources = {
 		steel = 14
 	}
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = undeveloped
 		1958.3.5 ={
 		    set_state_name = "Luhansk"
 			set_province_name = { id = 9461 name = "Luhansk" }
