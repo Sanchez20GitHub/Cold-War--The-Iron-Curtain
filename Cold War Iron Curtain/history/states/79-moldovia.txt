@@ -2,7 +2,7 @@ state={
 	id=79
 	name="STATE_79"
 	manpower = 2406400
-	state_category =pop2
+	state_category =pop2dev2
 	resources = {
 		steel = 12
 	}

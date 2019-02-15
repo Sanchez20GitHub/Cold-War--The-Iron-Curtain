@@ -3,7 +3,7 @@ state=
 	id=100
 	name="STATE_100"
 	manpower =142655
-	state_category = pop1
+	state_category = pop1dev3
 	resources = {
 		aluminium = 16
 	}

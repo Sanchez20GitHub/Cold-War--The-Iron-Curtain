@@ -7,7 +7,7 @@ state={
 		aluminium=87
 	}
 	
-	state_category = pop3
+	state_category = pop3dev3
 
 	history={
 		owner = HUN

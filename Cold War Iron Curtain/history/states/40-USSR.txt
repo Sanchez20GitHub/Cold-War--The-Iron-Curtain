@@ -4,7 +4,7 @@ state={
 	name="STATE_40" # Barnaul
 	manpower = 2107451
 	
-	state_category = pop2
+	state_category = pop2dev1
 
 	history={
 		owner = SOV

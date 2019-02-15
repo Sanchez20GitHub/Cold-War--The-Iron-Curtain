@@ -54,5 +54,5 @@ state={
 	}
 	manpower=17614000
 	buildings_max_level_factor=1.000
-	state_category=1pop5
+	state_category=pop5dev2
 }
