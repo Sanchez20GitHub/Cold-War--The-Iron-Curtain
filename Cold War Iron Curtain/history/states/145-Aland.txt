@@ -4,7 +4,7 @@ state=
 	name="STATE_145"
 	manpower = 27400
 	
-	state_category = pop1
+	state_category = pop1dev1
 	
 	history=
 	{
