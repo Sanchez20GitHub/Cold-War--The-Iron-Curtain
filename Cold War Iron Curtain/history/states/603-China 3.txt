@@ -17,7 +17,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
-
 			industrial_complex = 1
 			coal_plant = 1
 
@@ -29,7 +28,7 @@ state={
 	}
 
 	provinces={
-		1884 4192 4325 4504 4532 7521 7549 7577 8095 10616 10763 
+		1884 4192 4325 4504 4532 7521 7549 7577 8095 10616 10763 10819 
 	}
 	manpower=9043200
 	buildings_max_level_factor=1.000
