@@ -3,10 +3,14 @@ state={
 	id=220
 	name="STATE_220"
 	manpower = 1680086
-	state_category = city
+	state_category = pop1
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			3580 5
 		}

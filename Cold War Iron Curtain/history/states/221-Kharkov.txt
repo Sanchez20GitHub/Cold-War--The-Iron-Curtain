@@ -3,7 +3,7 @@ state={
 	name="STATE_221"
 	manpower = 2227520
 	
-	state_category = city
+	state_category = pop2
 	
 	resources={
 		steel=34
@@ -11,6 +11,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			418 10
 		}
