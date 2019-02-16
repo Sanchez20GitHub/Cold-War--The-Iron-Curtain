@@ -3762,7 +3762,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/generic_Tourism.dds" 
 	}
 	SpriteType = {
-		name = "GFX_be_a_man_among_man"
+		name = "GFX_be_a_man_among_man" 
 		texturefile = "gfx/interface/goals/higuys2d.dds" 
+	}
+	SpriteType = {
+		name = "GFX_ita_commie_coalition"
+		texturefile = "gfx/interface/goals/ita_commie_coalition.tga" 
+	}
+	SpriteType = {
+		name = "GFX_ita_pizza"
+		texturefile = "gfx/interface/goals/ItalianPizzaFocus.dds" 
 	}
 }

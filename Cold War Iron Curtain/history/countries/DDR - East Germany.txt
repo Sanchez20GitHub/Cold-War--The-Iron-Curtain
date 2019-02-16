@@ -365,38 +365,6 @@ create_country_leader = {
     }
 }
 
-create_corps_commander = {
-	name = "Rudolf Bamler"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
-	traits = { legacy_of_the_reich }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Arno von Lenski"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = { panzer_leader legacy_of_the_reich }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Vincenz Müller"
-	picture = "Vincenz_Muller.dds"
-	traits = { panzer_leader legacy_of_the_reich }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
 
 create_corps_commander = {
 	name = "Heinrich Heitsch"

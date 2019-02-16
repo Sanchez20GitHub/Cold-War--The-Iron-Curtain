@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_PCI_Coalition
-		icon = GFX_communism
+		icon = GFX_ita_commie_coalition
 		cost = 10.00
 		x = 30
 		y = 0
@@ -943,7 +943,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_Promote_Traditional_Culture
-		icon = GFX_CollaboratewithLocalElites_2
+		icon = GFX_ita_pizza
 		cost = 10.00
 		prerequisite = {
 			focus = ITA_Anti_Communist_Legislation
