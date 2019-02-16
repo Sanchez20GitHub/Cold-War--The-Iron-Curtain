@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = developed
 		add_core_of = SGP
 		add_core_of = MAL
 		add_core_of = MLA
@@ -47,5 +51,5 @@ state={
 	}
 	manpower=3439200
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop3dev3
 }

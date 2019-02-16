@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = mountains
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=445031
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

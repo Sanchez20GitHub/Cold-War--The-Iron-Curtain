@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = HOL
+		set_state_flag = tropical
+		set_state_flag = river
+		set_state_flag = large
+		set_state_flag = poor
 		victory_points = {
 			12828 5 
 		}
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=214999
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

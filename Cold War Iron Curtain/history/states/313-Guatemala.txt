@@ -8,10 +8,14 @@ state={
 		oil = 2
 	}
 	
-	state_category =city
+	state_category =pop3dev2
 
 	history={
 		owner = GUA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

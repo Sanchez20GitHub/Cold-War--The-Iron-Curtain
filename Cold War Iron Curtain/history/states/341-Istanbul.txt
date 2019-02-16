@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = TUR
+		set_state_flag = tropical
+		set_state_flag = freshwatersea
+		set_state_flag = micro
+		set_state_flag = developed
 		victory_points = {
 			9833 25 
 		}
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=1404509
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop1dev3
 }
