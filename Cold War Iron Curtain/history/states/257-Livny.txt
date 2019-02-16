@@ -4,7 +4,7 @@ state={
 	name="STATE_257" # Tambov
 	manpower = 1779583
 	
-	state_category =pop1
+	state_category = pop1dev2
 	
 	resources={
 		chromium=10

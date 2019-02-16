@@ -7,7 +7,7 @@ state={
 		owner = FRA
 		set_state_flag = temperate
 		set_state_flag = basic
-		set_state_flag = small
+		set_state_flag = nominal
 		set_state_flag = wealthy
 		victory_points = {
 			3552 20 

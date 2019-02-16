@@ -8,7 +8,7 @@ state={
 		steel = 47
 	}
 	
-	state_category = pop2
+	state_category = pop2dev2
 
 	history={
 		owner = SOV

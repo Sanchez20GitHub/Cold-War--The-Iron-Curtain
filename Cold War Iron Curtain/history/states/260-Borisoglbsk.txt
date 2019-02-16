@@ -4,7 +4,7 @@ state={
 	name="STATE_260" # Voronezh
 	manpower = 2567983
 	
-	state_category = pop2
+	state_category = pop2dev2
 
 	history={
 		owner = SOV

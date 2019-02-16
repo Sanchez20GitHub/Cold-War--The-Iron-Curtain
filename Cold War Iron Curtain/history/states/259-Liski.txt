@@ -6,7 +6,7 @@ state={
 		oil=2
 		steel=8
 	}
-	state_category = pop1
+	state_category = pop1dev1
 
 	history={
 		owner = SOV

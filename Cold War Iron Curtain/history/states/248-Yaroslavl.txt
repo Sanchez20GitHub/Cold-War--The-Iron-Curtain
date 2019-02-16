@@ -9,7 +9,7 @@ state={
 		set_state_flag = boreal
 		set_state_flag = freshwatersea
 		set_state_flag = nominal
-		set_state_flag = developed
+		set_state_flag = semideveloped
 		victory_points = {
 			121 5 
 		}
@@ -28,5 +28,5 @@ state={
 	}
 	manpower=1664541
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev3
 }

@@ -3,7 +3,7 @@ state={
 	name="STATE_201"
 	manpower = 1417834
 	
-	state_category = pop1
+	state_category = pop1dev1
 
 	history={
 		owner = SOV

@@ -11,7 +11,7 @@ state={
 		set_state_flag = boreal
 		set_state_flag = river
 		set_state_flag = large
-		set_state_flag = developed
+		set_state_flag = decent
 		1990.7.17 = {
 			set_state_name = Tver
 			set_province_name = {
@@ -45,5 +45,5 @@ state={
 	}
 	manpower=1353392
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev3
 }

@@ -4,14 +4,14 @@ state={
 	name="STATE_254"
 	manpower = 1824120
 	
-	state_category = pop1
+	state_category = pop1dev3
 
 	history={
 		owner = SOV
 		set_state_flag = boreal
 		set_state_flag = riverlarge
 		set_state_flag = medium
-		set_state_flag = decent
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
