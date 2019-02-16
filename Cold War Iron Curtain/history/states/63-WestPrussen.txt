@@ -22,7 +22,9 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			coal_plant = 1
 			11372 = {
 				naval_base = 1
@@ -44,5 +46,5 @@ state={
 	}
 	manpower=1124417
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev2
 }

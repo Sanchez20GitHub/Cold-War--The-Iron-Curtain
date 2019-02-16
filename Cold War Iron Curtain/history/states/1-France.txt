@@ -4,7 +4,7 @@ state={
 	name="STATE_1" # Corsica
 	manpower = 322900
 	
-	state_category = pop1
+	state_category = pop1dev3
 
 	history={
 		owner = FRA
@@ -14,7 +14,9 @@ state={
 		set_state_flag = developed
 		victory_points = { 3838 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 1
 			air_base = 1

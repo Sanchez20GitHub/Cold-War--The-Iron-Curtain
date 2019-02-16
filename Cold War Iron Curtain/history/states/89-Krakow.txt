@@ -13,7 +13,9 @@ state={
 		set_state_flag = small
 		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			air_base = 1
 
 		}
@@ -31,5 +33,5 @@ state={
 	}
 	manpower=2180300
 	buildings_max_level_factor=1.000
-	state_category=pop2
+	state_category=pop2dev2
 }

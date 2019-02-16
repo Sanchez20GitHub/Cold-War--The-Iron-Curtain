@@ -14,7 +14,9 @@ state={
 		set_state_flag = micro
 		set_state_flag = decent
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 2
 			3790 = {
@@ -32,5 +34,5 @@ state={
 	}
 	manpower=451006 
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev2
 }

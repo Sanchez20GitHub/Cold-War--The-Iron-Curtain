@@ -5,8 +5,14 @@ state={
 
 	history={
 		owner = VIE
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 5
 			air_base = 2
 			arms_factory = 3
@@ -40,5 +46,5 @@ state={
 	}
 	manpower=7420000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop7dev2
 }

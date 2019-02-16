@@ -2,15 +2,21 @@ state={
 	id=389
 	name="STATE_389"
 	manpower = 680844
-	state_category = rural
+	state_category = pop1dev1
 	resources = {
 		steel = 7
 		oil = 2
 	}
 	history={
 		owner = USA
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = decent
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
                         coal_plant = 1
 		}

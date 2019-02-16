@@ -8,15 +8,21 @@ state={
 		steel = 42
 	}
 	
-	state_category = city
+	state_category = pop1dev2
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = medium
+		set_state_flag = decent
 		victory_points = {
 			7892 1
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			arms_factory = 2
 			industrial_complex = 2
                         coal_plant = 1

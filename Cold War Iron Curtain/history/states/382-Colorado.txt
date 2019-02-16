@@ -9,8 +9,14 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 1
 

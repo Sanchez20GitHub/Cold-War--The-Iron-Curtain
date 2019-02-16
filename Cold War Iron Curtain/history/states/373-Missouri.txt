@@ -9,8 +9,14 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = developed
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 4
 			arms_factory = 2
 			coal_plant = 2
@@ -39,5 +45,5 @@ state={
 	}
 	manpower=3629365
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop3dev3
 }

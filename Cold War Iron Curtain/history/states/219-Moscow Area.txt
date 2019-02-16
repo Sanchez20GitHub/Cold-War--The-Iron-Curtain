@@ -8,11 +8,17 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = decent
 		victory_points = {
 			6380 50 
 		}
 		buildings = {
-			infrastructure = 9
+			infrastructure = 5
+			state_infrastructure = 4
+
 			arms_factory = 4
 			industrial_complex = 5
 			coal_plant = 4
@@ -27,5 +33,5 @@ state={
 	}
 	manpower=12506468
 	buildings_max_level_factor=1.000
-	state_category=megalopolis
+	state_category=pop10dev3
 }

@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = developed
 		victory_points = {
 			10407 1 
 		}
@@ -15,7 +19,9 @@ state={
 			7388 2 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 3
 			arms_factory = 1
 			radar_station = 1
@@ -52,5 +58,5 @@ state={
 	}
 	manpower=1468210
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev2
 }

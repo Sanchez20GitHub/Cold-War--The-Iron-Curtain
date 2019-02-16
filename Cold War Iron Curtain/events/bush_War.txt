@@ -1,4 +1,4 @@
-add_namespace = bush_war
+﻿add_namespace = bush_war
 
 
 country_event = {

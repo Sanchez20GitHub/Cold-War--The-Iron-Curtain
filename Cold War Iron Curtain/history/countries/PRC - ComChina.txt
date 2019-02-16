@@ -6,6 +6,10 @@ set_research_slots = 3
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -333,6 +337,10 @@ create_corps_commander = {
 	     ideology = democratic_socialist
     }
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 		heavy_artillery_1 = 1
 		## Engineering + Industry ##
 		ww_production = 1

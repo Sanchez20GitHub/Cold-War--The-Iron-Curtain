@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = rich
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = HOK
@@ -16,7 +20,9 @@ state={
 			10062 15 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			air_base = 4
 			industrial_complex = 2
 			coal_plant = 1
@@ -34,5 +40,5 @@ state={
 	}
 	manpower=1973998
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev4
 }

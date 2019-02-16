@@ -14,7 +14,9 @@ state={
 		set_state_flag = small
 		set_state_flag = decent
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
+			state_infrastructure = 2
+
 
 		}
 		victory_points = { 3696 2 }
@@ -28,5 +30,5 @@ state={
 	}
 	manpower=632900
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev2
 }

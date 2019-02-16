@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = boreal
+		set_state_flag = river
+		set_state_flag = large
+		set_state_flag = decent
 		1990.7.17 = {
 			set_state_name = Tver
 			set_province_name = {
@@ -24,7 +28,9 @@ state={
 			11349 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			air_base = 2
 			industrial_complex = 1
 			coal_plant = 1
@@ -39,5 +45,5 @@ state={
 	}
 	manpower=1353392
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop1dev3
 }

@@ -10,8 +10,14 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 1
 			arms_factory = 1
@@ -32,5 +38,5 @@ state={
 	}
 	manpower=537605
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

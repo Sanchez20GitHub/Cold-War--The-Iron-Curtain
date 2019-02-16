@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = EGI
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = undeveloped
 		add_core_of = EGI
 		1946.1.1 = {
 			owner = SPR
@@ -31,7 +35,9 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			coal_plant = 1
 			1903 = {
 				naval_base = 1
@@ -50,5 +56,5 @@ state={
 	}
 	manpower=334463
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pop1dev1
 }

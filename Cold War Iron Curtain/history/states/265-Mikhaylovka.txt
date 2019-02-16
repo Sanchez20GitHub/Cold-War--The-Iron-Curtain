@@ -5,11 +5,17 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = undeveloped
 		victory_points = {
 			11609 1
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 		add_core_of = SOV
@@ -21,5 +27,5 @@ state={
 	}
 	manpower=412529
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pop1dev1
 }

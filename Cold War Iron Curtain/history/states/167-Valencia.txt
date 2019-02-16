@@ -2,7 +2,7 @@ state={
 	id=167
 	name="STATE_167"
 	manpower = 1979294
-	state_category = pop1
+	state_category = pop1dev2
 
 	history={
 		owner = SPR
@@ -14,7 +14,9 @@ state={
 			6906 5 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
+			state_infrastructure = 2
+
 			industrial_complex = 1
             coal_plant = 1
 			dockyard = 1

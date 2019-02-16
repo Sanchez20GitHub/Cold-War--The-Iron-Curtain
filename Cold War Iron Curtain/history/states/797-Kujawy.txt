@@ -6,7 +6,9 @@ state={
 	history={
 		owner = POL
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			industrial_complex = 1
 
 		}

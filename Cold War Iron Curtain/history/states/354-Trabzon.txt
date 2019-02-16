@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = TUR
+		set_state_flag = mountains
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			9932 5 
 		}
@@ -15,7 +19,9 @@ state={
 			11753 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			9932 = {
 				naval_base = 2
@@ -39,5 +45,5 @@ state={
 	}
 	manpower=1031129
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

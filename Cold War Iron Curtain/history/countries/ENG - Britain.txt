@@ -8,6 +8,10 @@ set_stability = 0.1
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ## Tech ##
 	ww_production = 1
 	ww_construction = 1
@@ -705,6 +709,10 @@ set_politics = {
 oob = "ENG_1960"
 
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 		atgm_1 = 1
 		## Engineering + Industry ##
 		ww_production = 1

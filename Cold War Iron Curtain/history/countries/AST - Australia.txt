@@ -4,6 +4,10 @@ oob = "AST_1949"
 
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 

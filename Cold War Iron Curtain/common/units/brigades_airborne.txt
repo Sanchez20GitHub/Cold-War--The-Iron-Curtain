@@ -1,6 +1,6 @@
 sub_units = {
 
-		ffl = {
+	ffl = {
 		sprite = infantry
 		map_icon_category = infantry
 
@@ -46,6 +46,7 @@ sub_units = {
 	
 		need = {
 			infantry_equipment = 120
+			support_equipment = 15
 		}
 		
 		hills = {
@@ -208,6 +209,7 @@ sub_units = {
 
 		need = {
 			lt_equipment = 60
+			support_equipment = 15
 		}
 
 		forest = {
@@ -280,6 +282,7 @@ sub_units = {
 		
 		need = {
 			auto_cannon_equipment = 36
+			support_equipment = 15
 		}
 
 		forest = {
@@ -349,6 +352,7 @@ sub_units = {
 		
 		need = {
 			light_artillery_equipment = 48
+			support_equipment = 15
 		}
 		
 		forest = {
@@ -387,6 +391,315 @@ sub_units = {
 			attack = -0.2
 		}
 	}
+	direct_fire_gun_airborne = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 300
+		ai_priority = 200
+		active = no
+		
+		type = {
+			infantry
+			anti_tank
+			airborne
+		}
+		
+		group = airborne
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_artillery_antitank
+			category_towed
+			category_airborne
+		}		
+		
+		manpower = 500
+		training_time = 120
+		supply_consumption = 0.1
+		weight = 0.5
+		combat_width = 1		
+		max_organisation = 0	
+		default_morale = 0.1		
+		max_strength = 0.6
+		suppression = 0	
+		
+		essential = {
+			direct_fire_gun_equipment
+		}				
+
+		need = {
+			direct_fire_gun_equipment = 36
+			support_equipment = 15
+		}
+
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}
+	atgm_airborne = {
+		sprite = anti_tank
+		map_icon_category = infantry
+		priority = 300
+		ai_priority = 200
+		active = no
+		
+		type = {
+			infantry
+			anti_tank
+			airborne
+		}
+		
+		group = airborne
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_artillery_antitank
+			category_rockets
+			category_towed
+			category_airborne
+		}		
+		
+		manpower = 500
+		training_time = 120
+		supply_consumption = 0.1
+		weight = 0.5
+		combat_width = 2		
+		max_organisation = 0	
+		default_morale = 0.1		
+		max_strength = 0.6
+		suppression = 0	
+		
+		essential = {
+			atgm_equipment
+		}			
+
+		need = {
+			atgm_equipment = 36
+			support_equipment = 15
+		}
+
+		forest = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		hills = {
+			movement = -0.05
+		}
+
+		mountain = {
+			movement = -0.2
+		}
+
+		jungle = {
+			attack = -0.25
+			movement = -0.2
+		}
+
+		marsh = {
+			attack = -0.2
+			movement = -0.3
+		}
+
+		fort = {
+			attack = 0.1
+		}
+
+		river = {
+			attack = -0.2
+			movement = -0.2
+		}
+
+		amphibious = {
+			attack = -0.4
+		}
+	}	
+	light_sp_artillery_airborne = {
+		sprite = light_armor
+		map_icon_category = armored
+		priority = 500
+		ai_priority = 200
+		active = no
+		
+		type = {
+			armor
+			artillery
+			airborne
+		}
+		
+		group = airborne
+
+		categories = {
+			category_army
+			category_line_artillery
+			category_artillery
+			category_artillery_indirect
+			category_self_propelled
+			category_front_line
+			category_all_armor
+			category_airborne
+		}		
+
+		manpower = 500
+		training_time = 180
+		supply_consumption = 0.30
+		weight = 1.0
+		combat_width = 3	
+		max_organisation = 0	
+		default_morale = 0.1		
+		max_strength = 0.6
+		suppression = 0
+
+		essential = {
+			light_sp_artillery_equipment
+		}			
+		
+		need = {
+			light_sp_artillery_equipment = 60
+			support_equipment = 15
+		}
+
+		forest = {
+		    attack = -0.2
+			movement = -0.4
+		}
+		mountain = 	{
+		    attack = -0.1
+		}
+		jungle = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = -0.1
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.6
+		}
+	}
+	
+	atgm_carrier_airborne = {
+		sprite = "medium_armor"
+		map_icon_category = armored
+		priority = 500
+		ai_priority = 200
+		active = no
+		
+		type = {
+			armor
+			anti_tank
+			airborne
+		}
+		
+		group = airborne
+		
+		categories = {
+			category_front_line
+			category_army
+			category_line_artillery
+			category_artillery_antitank
+			category_rockets
+			category_self_propelled
+			category_all_armor
+			category_airborne
+		}
+
+		manpower = 500
+		training_time = 180
+		supply_consumption = 0.25
+		weight = 1.0
+		combat_width = 2		
+		max_organisation = 0	
+		default_morale = 0.3		
+		max_strength = 0.6
+		suppression = 0	
+		
+		essential = {
+			atgm_carrier_equipment
+		}			
+
+		need = {
+			atgm_carrier_equipment = 40
+			support_equipment = 15
+		}
+
+		forest = {
+		    attack = -0.3
+			movement = -0.4
+		}
+		hills = 	{
+		    attack = -0.1
+		}
+		mountain = 	{
+		    attack = -0.2
+		}
+		jungle = {
+		    attack = -0.4
+			movement = -0.4
+		}
+		marsh = {
+		    attack = -0.1 
+			movement = -0.1
+		}
+		urban = {
+			attack = -0.4
+			defence = 0.1
+			movement = -0.3
+		}
+		river = { 
+			attack = -0.2 
+			movement = -0.2
+		}
+		amphibious = { 
+			attack = -0.7
+		}
+	}
+	
 	airborne = {
 		sprite = infantry
 		map_icon_category = infantry

@@ -24,7 +24,9 @@ state={
 			9498 20 
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 4
+			state_infrastructure = 4
+
 			air_base = 4
 			industrial_complex = 4
 			arms_factory = 2
@@ -48,5 +50,5 @@ state={
 	}
 	manpower=4123000
 	buildings_max_level_factor=1.000
-	state_category=pop4
+	state_category=pop4dev3
 }

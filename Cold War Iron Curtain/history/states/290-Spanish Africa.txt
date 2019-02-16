@@ -8,10 +8,16 @@ state={
 
 	history={
 		owner = RIF
+		set_state_flag = lushdesert
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = undeveloped
 		add_core_of = RIF
 		add_core_of = MOR
 		buildings = {
-		infrastructure = 3
+		infrastructure = 2
+			state_infrastructure = 2
+
 		industrial_complex = 1
         coal_plant = 1
 		air_base = 1
@@ -34,5 +40,5 @@ state={
 	}
 	manpower=744000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev2
 }

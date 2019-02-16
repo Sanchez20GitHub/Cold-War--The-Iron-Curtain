@@ -4,7 +4,7 @@ state={
 	name="STATE_374"
 	manpower = 2396039
 	
-	state_category = city
+	state_category = pop2dev2
 	
 	resources={
 		oil=156
@@ -14,8 +14,14 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 2 
                         coal_plant = 1
 			air_base = 2

@@ -4,7 +4,7 @@ state={
 	name="STATE_39" # South Tyrol
 	manpower = 641650
 	
-	state_category = pop1
+	state_category = pop1dev2
 	
 	resources={
 		aluminium=22
@@ -20,7 +20,9 @@ state={
 			11598 5
 		}	
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			coal_plant = 1
 			industrial_complex = 1
 		}

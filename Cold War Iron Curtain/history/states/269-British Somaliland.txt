@@ -8,13 +8,19 @@ state={
 
 	history={
 		owner = SML
+		set_state_flag = lushdesert
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = poor
 		add_core_of = SML
 		add_core_of = SOM
 		victory_points = {
 			10833 5 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			coal_plant = 1
 			10833 = {
 				naval_base = 1
@@ -38,5 +44,5 @@ state={
 	}
 	manpower=744700
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

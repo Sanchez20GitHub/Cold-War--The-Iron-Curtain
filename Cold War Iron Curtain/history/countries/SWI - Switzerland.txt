@@ -5,6 +5,10 @@ oob = "SWI_1949"
 set_research_slots = 3
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Engineering ##
 	
 	ww_pc = 1 

@@ -3,7 +3,7 @@ state=
 	id=100
 	name="STATE_100"
 	manpower =142655
-	state_category = pop1
+	state_category = pop1dev3
 	resources = {
 		aluminium = 16
 	}
@@ -18,7 +18,9 @@ state=
 		set_state_flag = developed
 		victory_points = { 12674 5 }
 		buildings = {
-		infrastructure = 3
+		infrastructure = 2
+			state_infrastructure = 2
+
 		industrial_complex =1
 		coal_plant = 1 
 		air_base = 3

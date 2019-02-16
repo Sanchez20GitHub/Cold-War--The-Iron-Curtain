@@ -6,12 +6,14 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 
 		}
 		add_core_of = SOV
 		add_core_of = LAT
-		1985.1.1 ={
+		1990.5.1 ={
 		    owner = LAT
 			remove_core_of = SOV
 		}

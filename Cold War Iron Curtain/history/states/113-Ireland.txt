@@ -14,7 +14,9 @@ state={
 		set_state_flag = small
 		set_state_flag = developed
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
+			state_infrastructure = 3
+
 			arms_factory = 1
 			industrial_complex = 5
 			air_base = 4
@@ -28,5 +30,5 @@ state={
 	}
 	manpower=643750
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev3
 }

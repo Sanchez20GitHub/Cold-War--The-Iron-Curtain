@@ -3,6 +3,10 @@
 oob = "NAU_1949"
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Tech ##
 	radio = 1
 

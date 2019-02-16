@@ -10,7 +10,9 @@ state={
 		set_state_flag = small
 		set_state_flag = poor
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 			dockyard = 2
 
 		}
@@ -29,5 +31,5 @@ state={
 	}
 	manpower=896311
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev1
 }

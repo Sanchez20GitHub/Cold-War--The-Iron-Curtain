@@ -7,6 +7,10 @@ set_research_slots = 3
 # Starting tech
 set_technology = {
 
+##### INFRA #####
+	ww_infra = 1
+
+
 ##Infantry##
 	
 	infantry_equip_1 = 1 
@@ -312,6 +316,10 @@ set_variable = { var = influencer3_amount value = 300 }
 	#load_focus_tree = VIE_60s
 	#set_country_flag = focus_tree_60_reset
 	set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 
 		## Engineering + Industry ##
 		ww_production = 1

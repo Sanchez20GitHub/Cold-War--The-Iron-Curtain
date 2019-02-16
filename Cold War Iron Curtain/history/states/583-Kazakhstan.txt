@@ -11,6 +11,8 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 1
+			state_infrastructure = 1
+
 			coal_plant = 1
 
 		}

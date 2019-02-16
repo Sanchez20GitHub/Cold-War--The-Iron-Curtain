@@ -3,7 +3,7 @@ state= {
 	name="STATE_120"
 	manpower = 265873
 	
-	state_category = pop1
+	state_category = pop1dev2
 
 	resources={
 		chromium=2
@@ -20,7 +20,9 @@ state= {
 		set_state_flag = semideveloped
 		victory_points = { 11064 1 }
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			anti_air_building = 2
 			industrial_complex = 1
 			coal_plant = 1

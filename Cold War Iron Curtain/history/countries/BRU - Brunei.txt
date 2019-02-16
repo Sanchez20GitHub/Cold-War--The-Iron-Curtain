@@ -7,6 +7,10 @@ set_research_slots = 2
 set_stability = 0.9
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Tech ##
 	radio = 1
 

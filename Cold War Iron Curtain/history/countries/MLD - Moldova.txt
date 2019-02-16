@@ -3,6 +3,10 @@
 set_research_slots = 3
 
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Tech ##
 	radio = 1
 

@@ -4,7 +4,7 @@ state=
 	name="STATE_114"
 	manpower = 991921
 	
-	state_category = pop1
+	state_category = pop1dev2
 	
 	history=
 	{
@@ -17,7 +17,9 @@ state=
 			11773 3 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
+			state_infrastructure = 2
+
 			arms_factory = 0
 			industrial_complex = 1
 			coal_plant = 1

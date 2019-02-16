@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = large
+		set_state_flag = semideveloped
 		1961.11.10 = {
 			set_state_name = Volgograd
 			set_province_name = {
@@ -21,7 +25,9 @@ state={
 			3529 30 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 3
@@ -37,5 +43,5 @@ state={
 	}
 	manpower=2610161
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop2dev3
 }

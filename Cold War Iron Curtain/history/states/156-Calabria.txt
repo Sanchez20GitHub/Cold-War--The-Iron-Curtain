@@ -13,7 +13,9 @@ state={
 		set_state_flag = nominal
 		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			air_base = 5
 
 		}
@@ -26,5 +28,5 @@ state={
 	}
 	manpower=1980533
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev2
 }

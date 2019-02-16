@@ -8,8 +8,14 @@ state={
 
 	history={
 		owner = NIC
+		set_state_flag = tropical
+		set_state_flag = freshwatersea
+		set_state_flag = medium
+		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			arms_factory = 1
 			industrial_complex = 2
 			coal_plant = 1
@@ -43,5 +49,5 @@ state={
 	}
 	manpower=1294993
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

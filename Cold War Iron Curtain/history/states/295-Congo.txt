@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = DOC
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		add_core_of = DOC
 		1966.1.1 = {
 			set_province_name = {
@@ -27,7 +31,9 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			arms_factory = 2
 			industrial_complex = 1
 			coal_plant = 2
@@ -48,5 +54,5 @@ state={
 	}
 	manpower=1540948
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev2
 }

@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = XSM
+		set_state_flag = mountains
+		set_state_flag = basic
+		set_state_flag = large
+		set_state_flag = abjectpoor
 		add_core_of = CHI
 		add_core_of = PRC
 		1949.1.1 = {
@@ -31,7 +35,9 @@ state={
 			12732 5 
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 
@@ -42,5 +48,5 @@ state={
 	}
 	manpower=6705400
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop6
 }

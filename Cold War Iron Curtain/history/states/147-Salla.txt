@@ -13,7 +13,9 @@ state={
 		set_state_flag = small
 		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
+			infrastructure = 1
+			state_infrastructure = 2
+
 
 		}
 		add_core_of = FIN
@@ -25,5 +27,5 @@ state={
 	}
 	manpower=75415
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev1
 }

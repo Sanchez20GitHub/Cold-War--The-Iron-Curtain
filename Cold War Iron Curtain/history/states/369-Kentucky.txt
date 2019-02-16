@@ -3,15 +3,21 @@ state={
 	id=369
 	name="STATE_369"
 	manpower = 2614588
-	state_category = city
+	state_category = pop2dev2
 	resources = {
 		aluminium = 32
 	}
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 2
 			arms_factory = 1
                         coal_plant = 2

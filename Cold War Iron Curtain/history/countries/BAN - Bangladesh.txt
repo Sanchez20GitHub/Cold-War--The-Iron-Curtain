@@ -4,6 +4,10 @@ oob = "BAN_1949"
 
 # Starting tech
 set_technology = {
+
+##### INFRA #####
+	ww_infra = 1
+
 	## Tech ##
 	radio = 1
 

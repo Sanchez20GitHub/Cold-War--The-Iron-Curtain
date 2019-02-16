@@ -19,7 +19,9 @@ state={
 			9503 5 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 3
+			state_infrastructure = 3
+
 			air_base = 5
 			industrial_complex = 1
 			678 = {
@@ -40,7 +42,9 @@ state={
 		add_core_of = FRA
 		1969.1.1 = {
 			buildings = {
-				infrastructure = 6
+				infrastructure = 3
+			state_infrastructure = 3
+
 				air_base = 5
 				industrial_complex = 1
 				anti_air_building = 5
@@ -80,5 +84,5 @@ state={
 	}
 	manpower=1915600
 	buildings_max_level_factor=1.000
-	state_category=pop1
+	state_category=pop1dev2
 }

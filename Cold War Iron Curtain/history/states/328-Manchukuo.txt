@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = medium
+		set_state_flag = undeveloped
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = MAN
@@ -16,7 +20,9 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
+			state_infrastructure = 2
+
 			industrial_complex = 1
 			coal_plant = 1
 
@@ -35,5 +41,5 @@ state={
 	}
 	manpower=7536266
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop7
 }

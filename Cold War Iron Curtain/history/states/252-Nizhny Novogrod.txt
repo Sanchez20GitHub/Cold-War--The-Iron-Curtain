@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = boreal
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = semideveloped
 		1990.7.17 = {
 			set_state_name = "Nizhny Novgorod" 
 			set_province_name = {
@@ -17,7 +21,9 @@ state={
 			11375 10 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
+			state_infrastructure = 2
+
 			air_base = 1
 			industrial_complex = 2
 			arms_factory = 1
@@ -33,5 +39,5 @@ state={
 	}
 	manpower=3378176
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop3dev3
 }
