@@ -33,7 +33,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = The_Israeli_Defense_Forces
+		id = ISR_Mapam_Victory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 9
+		y = 8
+
+	}
+	focus = {
+		id = The_Israeli Defense Forces
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 44
@@ -44,11 +52,16 @@ focus_tree = {
 		id = Tanks_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
-		prerequisite = {
-			focus =The_Israeli_Defense_Forces
-		}
 		x = 44
 		y = 2
+
+	}
+	focus = {
+		id = Herut_victory_1955
+		icon = GFX_goal_unknown
+		cost = 10.00
+		x = 29
+		y = 17
 
 	}
 	focus = {
@@ -96,17 +109,6 @@ focus_tree = {
 		}
 		x = 19
 		y = 3
-
-	}
-	focus = {
-		id = ISR_Mapam_Victory
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = ISR_Lusanne_Talks
-		}
-		x = 9
-		y = 4
 
 	}
 	focus = {
@@ -337,11 +339,236 @@ focus_tree = {
 
 	}
 	focus = {
+		id = Land_reclamation_Projects
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Herut_victory_1955
+		}
+		x = 27
+		y = 18
+
+	}
+	focus = {
+		id = Expand_israeli_Settlements
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Herut_victory_1955
+		}
+		x = 31
+		y = 18
+
+	}
+	focus = {
+		id = Expand_Farms
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Land_reclamation_Projects
+		}
+		prerequisite = {
+			focus = Expand_israeli_Settlements
+		}
+		x = 25
+		y = 19
+
+	}
+	focus = {
+		id = Raise_Living_Standards
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Land_reclamation_Projects
+		}
+		prerequisite = {
+			focus = Expand_israeli_Settlements
+		}
+		x = 29
+		y = 19
+
+	}
+	focus = {
+		id = Fund_Development_Projects
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Expand_israeli_Settlements
+		}
+		prerequisite = {
+			focus = Land_reclamation_Projects
+		}
+		x = 33
+		y = 19
+
+	}
+	focus = {
+		id = Tax_cuts
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Expand_Farms
+		}
+		prerequisite = {
+			focus = Raise_Living_Standards
+		}
+		prerequisite = {
+			focus = Fund_Development_Projects
+		}
+		x = 27
+		y = 20
+
+	}
+	focus = {
+		id = Herut_Victory
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = ISR_The_Election_of_1951
+		}
+		x = 30
+		y = 8
+
+	}
+	focus = {
+		id = Secularize_Israel
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Herut_Victory
+		}
+		x = -2
+		y = 1
+		relative_position_id = Herut_Victory
+
+	}
+	focus = {
+		id = Start_Nationalize_Israel
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Herut_Victory
+		}
+		x = 32
+		y = 9
+
+	}
+	focus = {
+		id = Nationalize_railways
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Secularize_Israel
+		}
+		prerequisite = {
+			focus = Secularize_Israel
+		}
+		prerequisite = {
+			focus = Start_Nationalize_Israel
+		}
+		x = 30
+		y = 10
+
+	}
+	focus = {
+		id = Refuse_recognize_Jordan
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Secularize_Israel
+		}
+		prerequisite = {
+			focus = Start_Nationalize_Israel
+		}
+		x = 26
+		y = 10
+
+	}
+	focus = {
+		id = Tensions_with_arab_states+
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Fund_Development_Projects
+		}
+		prerequisite = {
+			focus = Raise_Living_Standards
+		}
+		prerequisite = {
+			focus = Expand_Farms
+		}
+		x = 31
+		y = 20
+
+	}
+	focus = {
+		id = Emphasize_Zionism
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Start_Nationalize_Israel
+		}
+		prerequisite = {
+			focus = Secularize_Israel
+		}
+		x = 34
+		y = 10
+
+	}
+	focus = {
+		id = Reclaim_west_bank
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Emphasize_Zionism
+		}
+		prerequisite = {
+			focus = Nationalize_railways
+		}
+		prerequisite = {
+			focus = Refuse_recognize_Jordan
+		}
+		x = 32
+		y = 11
+
+	}
+	focus = {
+		id = Reclaim_Gaza
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Refuse_recognize_Jordan
+		}
+		prerequisite = {
+			focus = Nationalize_railways
+		}
+		prerequisite = {
+			focus = Emphasize_Zionism
+		}
+		x = 28
+		y = 11
+
+	}
+	focus = {
+		id = A_United_Israel
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Reclaim_Gaza
+		}
+		prerequisite = {
+			focus = Reclaim_west_bank
+		}
+		x = 30
+		y = 12
+
+	}
+	focus = {
 		id = Small_Conflicts_Traininig
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = The_Israeli_Defense_Forces
+			focus = The_Israeli Defense Forces
 		}
 		x = 40
 		y = 2
@@ -352,7 +579,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus =The_Israeli_Defense_Forces
+			focus = The_Israeli Defense Forces
 		}
 		x = 48
 		y = 2
@@ -595,6 +822,20 @@ focus_tree = {
 			focus = ISR_Expand_the_National_Telephone_Lines
 		}
 		x = 17
+		y = 21
+
+	}
+	focus = {
+		id = Free_Market_Reforms
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = Tax_cuts
+		}
+		prerequisite = {
+			focus = Tensions_with_arab_states+
+		}
+		x = 29
 		y = 21
 
 	}
