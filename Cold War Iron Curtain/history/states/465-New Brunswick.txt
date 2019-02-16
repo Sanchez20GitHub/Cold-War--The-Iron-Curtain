@@ -3,13 +3,17 @@ state={
 	id=465
 	name="STATE_465"
 	manpower = 475020
-	state_category = rural
+	state_category = pop1dev2
 	resources = {
 		steel = 7
 	}
 
 	history={
 		owner = CAN
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = developed
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		add_core_of = SLK
 		1948.1.1 = {
 			owner = SLK
@@ -48,5 +52,5 @@ state={
 	}
 	manpower=8075810
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop7dev1
 }

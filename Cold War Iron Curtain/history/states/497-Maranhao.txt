@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = BRA
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=2950100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop2dev1
 }

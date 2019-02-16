@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = CAN
+		set_state_flag = boreal
+		set_state_flag = freshwatersea
+		set_state_flag = large
+		set_state_flag = developed
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -26,5 +30,5 @@ state={
 	}
 	manpower=865605
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

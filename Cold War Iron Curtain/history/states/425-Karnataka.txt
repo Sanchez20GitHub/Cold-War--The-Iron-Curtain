@@ -11,6 +11,10 @@ state={
 
 	history={
 		owner = RAJ
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = large
+		set_state_flag = abjectpoor
 		victory_points = {
 			8011 1 
 		}
@@ -31,5 +35,5 @@ state={
 	}
 	manpower=11348200
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop10
 }
