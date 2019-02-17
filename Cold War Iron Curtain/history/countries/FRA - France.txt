@@ -1085,7 +1085,7 @@ set_variable = { var = FRA.Rda_Support value = 0 }
 	create_country_leader = {
 		name = "Valéry Giscard d'Estaing"
 		picture = "Portrait_France_Valery_Giscard_dEstaing.dds"
-		ideology = christian_centrist
+		ideology = centrism
 	}
 }
 
