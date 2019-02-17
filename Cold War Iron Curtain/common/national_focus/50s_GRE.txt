@@ -1991,8 +1991,8 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 42
-		y = 8
+		x = 48
+		y = 10
         
 		available = {
 					has_global_flag = greek_elections_1956
@@ -2016,9 +2016,11 @@ focus_tree = {
 		available = {
 					always = no
 				}
+				
+		relative_position_id = GRE_Elections_of_1956
 		
-		x = 37
-		y = 9
+		x = -4
+		y = 1
         
 	}
 	
@@ -2036,8 +2038,10 @@ focus_tree = {
 					add_political_power = -100
 		}
 		
-		x = 39
-		y = 11
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -2
+		y = 2
         
 	}
 	
@@ -2067,8 +2071,10 @@ focus_tree = {
 						}
 				}
 		
-		x = 39
-		y = 12
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -2
+		y = 3
         
 	}
 	
@@ -2088,8 +2094,10 @@ focus_tree = {
 		    }		
 		}
 		
-		x = 39
-		y = 13
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -2
+		y = 4
         
 	}
 	
@@ -2106,8 +2114,10 @@ focus_tree = {
                 remove_ideas = GRE_war_devastation_small
 		}
 		
-		x = 35
-		y = 10
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -6
+		y = 2
         
 	}
 	
@@ -2127,8 +2137,10 @@ focus_tree = {
 						}
 				}
 		
-		x = 34
-		y = 11
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -7
+		y = 3
         
 	}
 	
@@ -2178,8 +2190,10 @@ focus_tree = {
 						}
 				}
 		
-		x = 34
-		y = 12
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -7
+		y = 4
         
 	}
 	
@@ -2212,8 +2226,11 @@ focus_tree = {
 						}
 					}
 		        }
-		x = 36
-		y = 11
+				
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -5
+		y = 3
         
 	}
 	
@@ -2247,8 +2264,10 @@ focus_tree = {
 					}
 		        }
 		
-		x = 36
-		y = 12
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -5
+		y = 4
         
 	}
 	
@@ -2264,8 +2283,10 @@ focus_tree = {
 			focus = GRE_Tourism_Investments_1956
 		}
 		
-		x = 35
-		y = 13
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = -6
+		y = 5
         
 	}
 	
@@ -2284,14 +2305,16 @@ focus_tree = {
 					always = no
 				}
 		
-		x = 47
-		y = 9
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 4
+		y = 1
         
 	}
 	
 	focus = {
-		id = GRE_land_reform_p
-		icon = GFX_Gre_Land_Redistribution
+		id = GRE_support_farmers_56
+		icon = GFX_GRE_support_farmers
 		cost = 10.00
 		
 		prerequisite = {
@@ -2306,26 +2329,63 @@ focus_tree = {
 						}
 				}
 		
-		x = 50
-		y = 10
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 5
+		y = 2
         
 	}
 	
 	focus = {
-		id = GRE_education_reform_p
-		icon = GFX_Gre_Education_Reform
+		id = GRE_support_employees_56
+		icon = GFX_GRE_support_employees
 		cost = 10.00
 		
 		prerequisite = {
-			focus = GRE_land_reform_p
+			focus = GRE_Papandreou_1956
 		}
 		
-		completion_reward = {
-					add_research_slot = 1
-				}
-				
-		x = 50
-		y = 11
+
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 7
+		y = 2
+        
+	}
+	
+	focus = {
+		id = GRE_increasing_living_standards_56
+		icon = GFX_increasing_living_standards
+		cost = 10.00
+		
+		prerequisite = {
+			focus = GRE_support_farmers_56
+		}
+		
+		prerequisite = {
+			focus = GRE_support_employees_56
+		}
+
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 6
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_subsidize_small_businesses_56 
+		icon = GFX_GRE_subsidize_small_businesses
+		cost = 10.00
+		
+		prerequisite = {
+			focus = GRE_increasing_living_standards_56
+		}
+
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 6
+		y = 4
         
 	}
 	
@@ -2335,7 +2395,7 @@ focus_tree = {
 		cost = 10.00
 		
 		prerequisite = {
-			focus = GRE_education_reform_p
+			focus = GRE_subsidize_small_businesses_56 
 		}
 		
 		completion_reward = {
@@ -2343,82 +2403,95 @@ focus_tree = {
 		}
 		
 		
-		x = 50
-		y = 12
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 6
+		y = 5
         
 	}
 	
-	
 	focus = {
-		id = GRE_Pap_consolidates_power_1956
-		icon = GFX_Papandreou_Consolidates_Power
+		id = GRE_Pap_equality_restoration
+		icon = GFX_Pap_equality_restoration
 		cost = 10.00
 		
 		prerequisite = {
 			focus = GRE_Papandreou_1956
 		}
 		
-		completion_reward = {
-					add_political_power = 100
-					add_stability = 0.1
-				}
+	
+		relative_position_id = GRE_Elections_of_1956
 		
-		x = 46
-		y = 10
+		x = 2
+		y = 2
         
 	}
 	
 	focus = {
-		id = GRE_Pap_denies_MRBM_bases
-		icon = GFX_US_MRBM_installation_Greece_denied
+		id = GRE_abolish_political_displacements
+		icon = GFX_GRE_abolish_displacements
 		cost = 10.00
 		
 		prerequisite = {
-			focus = GRE_Pap_consolidates_power_1956
+			focus = GRE_Pap_equality_restoration
 		}
 		
-		completion_reward = {
-					add_political_power = 150
-					add_stability = 0.05
-					GRE = {
-							add_opinion_modifier = {
-									target = USA
-									modifier = large_decrease
-								}
-						}
-					USA = {
-							add_opinion_modifier = {
-									target = GRE
-									modifier = large_decrease
-								}
-						}
-				}
 		
-		x = 45
-		y = 11
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 1
+		y = 3
         
 	}
 	
 	focus = {
-		id = GRE_Pap_loosens_left_prosecutions
-		icon = GFX_Decrease_Communists_Prosecutions
+		id = GRE_abolish_pistopoiitiko_56
+		icon = GFX_GRE_abolish_pistopoiitiko_56
 		cost = 10.00
 		
 		prerequisite = {
-			focus = GRE_Pap_consolidates_power_1956
+			focus = GRE_abolish_political_displacements
 		}
 		
-		completion_reward = {
-			add_political_power = 100
-		    add_stability = 0.05
-			add_popularity = {
-                ideology = socialist
-                popularity = 0.1
-		    }
+		
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 1
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_Pap_amnesty
+		icon = GFX_GRE_Pap_amnesty
+		cost = 10.00
+		
+		prerequisite = {
+			focus = GRE_Pap_equality_restoration
 		}
-				
-		x = 47
-		y = 11
+		
+			
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 3
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_Pap_restore_persecuted_cs
+		icon = GFX_GRE_Pap_restore_persecuted_cs
+		cost = 10.00
+		
+		prerequisite = {
+			focus = GRE_Pap_amnesty
+		}
+		
+			
+		relative_position_id = GRE_Elections_of_1956
+		
+		x = 3
+		y = 4
         
 	}
 	
@@ -2427,10 +2500,10 @@ focus_tree = {
 		icon = GFX_Electoral_Reform
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Pap_denies_MRBM_bases
+			focus = GRE_abolish_pistopoiitiko_56
 		}
 		prerequisite = {
-			focus = GRE_Pap_loosens_left_prosecutions
+			focus = GRE_Pap_restore_persecuted_cs
 		}
 		
 		completion_reward = {
@@ -2444,29 +2517,10 @@ focus_tree = {
 		    }
 		}
 		
-		x = 46
-		y = 12
-        
-	}
-	
-	focus = {
-		id = GRE_Palace_signals_disappoinment
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Pap_electoral_reform
-		}
+		relative_position_id = GRE_Elections_of_1956
 		
-		completion_reward = {
-		    add_stability = -0.05
-			add_popularity = {
-                ideology = centrist
-                popularity = 0.05
-		    }
-		}
-		
-		x = 46
-		y = 13
+		x = 2
+		y = 5
         
 	}
 	
@@ -2479,8 +2533,8 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 44
-		y = 15
+		x = 48
+		y = 17
         
 		available = {
 					has_global_flag = greek_elections_1958
