@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = RAJ
+		set_state_flag = 
+		set_state_flag = 
+		set_state_flag = medium
+		set_state_flag = verypoor
 		add_core_of = RAJ
 		victory_points = {
 			9975 1 
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=9590200
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop7dev1
 }

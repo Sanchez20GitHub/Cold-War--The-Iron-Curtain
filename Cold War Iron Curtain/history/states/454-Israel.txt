@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ENG
+		set_state_flag = lushdesert
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = wealthy
 		1949.1.1 = {
 			owner = ISR
 
@@ -37,5 +41,5 @@ state={
 	}
 	manpower=1069323
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop1dev4
 }

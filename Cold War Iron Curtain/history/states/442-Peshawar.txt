@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = RAJ
+		set_state_flag = mountains
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = poor
 		victory_points = {
 			4998 5 
 		}
@@ -31,5 +35,5 @@ state={
 	}
 	manpower=4684400
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop4dev1
 }

@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = EGY
+		set_state_flag = lushdesert
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = undeveloped
 		victory_points = {
 			12071 1 
 		}
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=5224516
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop5dev1
 }
