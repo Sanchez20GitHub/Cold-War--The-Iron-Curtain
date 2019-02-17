@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = NZL
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = decent
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -50,5 +54,5 @@ state={
 	}
 	manpower=1115800
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

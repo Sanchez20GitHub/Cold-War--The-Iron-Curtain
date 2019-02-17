@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = TRI
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = wealthy
 		set_demilitarized_zone = yes
 		buildings = {
 			infrastructure = 3
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=374829
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

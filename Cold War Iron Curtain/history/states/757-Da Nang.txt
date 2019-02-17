@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = VIE
+		set_state_flag = tropical
+		set_state_flag = rivers
+		set_state_flag = medium
+		set_state_flag = undeveloped
 		1946.1.1 = {
 			VIN = {
 				set_province_controller = 4334
@@ -59,5 +63,5 @@ state={
 	}
 	manpower=7420000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop7
 }

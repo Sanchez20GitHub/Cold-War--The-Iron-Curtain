@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = KOR
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=2850384
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev2
 }

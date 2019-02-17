@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = KPA
+		set_state_flag = mountains
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = poor
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -41,5 +45,5 @@ state={
 	}
 	manpower=488346
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }
