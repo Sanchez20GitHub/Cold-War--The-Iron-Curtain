@@ -9,8 +9,73 @@ focus_tree = {
 	}
 	default = no
 
-	shared_focus = GRE_lessons_from_the_civil_war
+	shared_focus = GRE_establishing_ministry_of_defence
 
+###Marshall plan
+
+    focus = {
+		id = GRE_Marshall_plan
+		icon = GFX_GRE_Marshall_plan
+		cost = 10.00
+		
+		completion_reward = {
+					add_timed_idea = {
+							idea = fra_amhelp_1
+							days = 720
+					}
+				}
+		
+	
+		x = 19
+		y = 0
+
+	}
+	
+	focus = {
+		id = GRE_MP_infastructure_projects
+		icon = GFX_GRE_Marshall_plan
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Marshall_plan
+		}
+        
+		completion_reward = {
+			custom_effect_tooltip = GRE_MP_INFASTRUCTURE
+		}
+		
+		relative_position_id = GRE_Marshall_plan
+		
+		x = 0
+		y = 1
+        
+	}
+
+	
+	focus = {
+		id = GRE_ote
+		icon = GFX_OTE
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_MP_infastructure_projects
+		}
+		
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics
+				bonus = 0.25
+				uses = 1
+				category = electronics
+			}
+			custom_effect_tooltip = GRE_OTE
+		}
+
+		relative_position_id = GRE_Marshall_plan
+		
+		x = 0
+		y = 2
+	}
+	
+	
 
 ###Elections of 1950###
 
@@ -18,7 +83,7 @@ focus_tree = {
 		id = GRE_Elections_of_1950
 		icon = GFX_Greek_election
 		cost = 10.00
-		x = 23
+		x = 28
 		y = 0
 			available = {
 					has_global_flag = greek_elections_1950
@@ -39,7 +104,9 @@ focus_tree = {
 			focus = GRE_Elections_of_1950
 		}
 	
-		x = 27
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 4
 		y = 1
 			available = {
 					always = no
@@ -63,7 +130,9 @@ focus_tree = {
 				}
 		
 	
-		x = 27
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 4
 		y = 2
 
 	}
@@ -83,7 +152,9 @@ focus_tree = {
             }
 		}
 	
-		x =26
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 3
 		y = 3
 
 	}
@@ -103,7 +174,9 @@ focus_tree = {
 					}
 				}
 	
-		x = 28
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 5
 		y = 3
 
 	}
@@ -123,7 +196,9 @@ focus_tree = {
 					add_stability = 0.05
 				}
 	
-		x = 27
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 4
 		y = 4
 
 	}
@@ -138,7 +213,9 @@ focus_tree = {
 			focus = GRE_Elections_of_1950
 		}
 	
-		x = 19
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -4
 		y = 1
 			available = {
 					always = no
@@ -161,7 +238,9 @@ focus_tree = {
 		}
 				}
 		
-		x = 19
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -4
 		y = 2
 
 	}
@@ -182,7 +261,9 @@ focus_tree = {
 		    add_stability = 0.05
 		}
 		
-		x = 20
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -3
 		y = 3
 
 	}
@@ -202,7 +283,9 @@ focus_tree = {
             }
 		}
 		
-		x = 18
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -5
 		y = 3
 
 	}
@@ -223,7 +306,9 @@ focus_tree = {
 				}
 
 		
-		x = 19
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -4
 		y = 4
 
 	}
@@ -258,48 +343,26 @@ focus_tree = {
 						}
 					random_owned_controlled_state = {
 							limit = {
-									industrial_complex > 0
+									arms_factory > 0
 									free_building_slots = {
-											building = industrial_complex
+											building = arms_factory
 											size > 1
 											include_locked = yes
 										}
 								}
 							add_extra_state_shared_building_slots = 1
 							add_building_construction = {
-									type = industrial_complex
+									type = arms_factory
 									level = 1
 									instant_build = yes
 								}
 						}
 				}
 		
-		x = 23
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
 		y = 2
-
-	}
-	
-	focus = {
-		id = GRE_Infastructure_athens_1
-		icon = GFX_Infrastructure_Athens
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Industrialization_1950
-		}
-		
-		completion_reward = {
-					47 = {
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-		
-		x = 23
-		y = 3
 
 	}
 	
@@ -308,63 +371,117 @@ focus_tree = {
 		icon = GFX_DEH
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Infastructure_athens_1
+			focus = GRE_Industrialization_1950
+		}
+		available = {
+			has_completed_focus = GRE_Marshall_plan
 		}
 		
 		completion_reward = {
-					47 = {
-							add_resource = {
-									type = electricity
-									amount = 10
-								}
-						}
+					custom_effect_tooltip = GRE_DEH
 				}
 		
-		x = 24
-		y = 4
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
+		y = 3
 
 	}
 	
-	focus = {
+    focus = {
 		id = GRE_Cablel
 		icon = GFX_Cablel
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Infastructure_athens_1
+			focus = GRE_Deh
 		}
 		
 		completion_reward = {
 					47 = {
-							add_resource = {
-									type = steel
-									amount = 10
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = steel_factory
+									level = 1
+									instant_build = yes
 								}
 						}
 				}
 		
-		x = 22
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -1
 		y = 4
 
 	}
 	
 	focus = {
-		id = GRE_KKE_arrests
-		icon = GFX_KKE_arrests
+		id = GRE_IGME_research
+		icon = GFX_DEH
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Consolidation_of_Venizelists
-			focus = GRE_Strenghten_Ties_With_Palace
+			focus = GRE_Deh
 		}
 		
 		completion_reward = {
-					add_political_power = 100
-					add_stability = 0.05
+					add_tech_bonus = {
+							name = excavation_bonus
+							bonus = 0.75
+							uses = 1
+							technology = excavation_I
+						}
 				}
+		
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 1
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_MP_agriculture
+		icon = GFX_GRE_MP_agriculture
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_IGME_research
+		}
+		prerequisite = {
+			focus = GRE_Cablel
+		}
+		available = { date > 1950.1.1 }
+		
+		completion_reward = {
+                remove_ideas = GRE_imported_food
+		}
 				
-		x = 23
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
 		y = 5
 
 	}
+	
+	focus = {
+		id = GRE_MP_healthcare
+		icon = GFX_GRE_MP_healthcare
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_MP_agriculture
+		}
+		available = { date > 1951.1.1 }
+		
+		completion_reward = {
+                remove_ideas = GRE_disorganized_health
+		}
+				
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
+		y = 6
+
+	}
+	
+	
 	
 	focus = {
 		id = GRE_Papagos_Resigns
@@ -384,8 +501,10 @@ focus_tree = {
 					country_event = greece.junta.1 
 				}
 		
-		x = 23
-		y = 6
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
+		y = 7
 
 	}
 
@@ -404,8 +523,10 @@ focus_tree = {
 					always = no
 				}
 		
-		x = 23
-		y = 7
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 0
+		y = 8
 
 	}
 	
@@ -428,8 +549,32 @@ focus_tree = {
 					add_stability = 0.05
 				}
 		
-		x = 17
-		y = 8
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = -2
+		y = 9
+
+	}
+	
+	focus = {
+		id = GRE_IDEA_seizes_power
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Officers_Coup_Attempt_1951
+		}
+		mutually_exclusive = {
+			focus = GRE_Papagos_Intervenes 
+		}
+		
+		available = {
+					always = no
+				}
+		
+		relative_position_id = GRE_Elections_of_1950
+		
+		x = 2
+		y = 9
 
 	}
 
@@ -441,8 +586,8 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 17
-		y = 11
+		x = 28
+		y = 10
         
 		available = {
 					has_global_flag = greek_elections_1951
@@ -462,8 +607,10 @@ focus_tree = {
 			focus = GRE_Elections_of_1951
 		}
 	
-		x = 20
-		y = 12
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 3
+		y = 1
 			available = {
 					always = no
 				}
@@ -471,22 +618,217 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = GRE_Seek_help_Abroad
-		icon = GFX_Greek_Invest
+		id = GRE_consolidate_power_papagos_1951
+		icon = GFX_Papagos_Consolidates_power
 		cost = 8.00
 		prerequisite = {
 			focus = GRE_Papagos
 		}
 		
 		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_foreign_investment
-							days = 900
-						}
+					add_political_power = 150
+					add_stability = 0.05
 				}
 	
-		x = 20
-		y = 13
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 5
+		y = 2
+
+	}
+	
+	focus = {
+		id = GRE_Adopt_Majority_System
+		icon = GFX_Adopt_Enhanced_Majority_System
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_consolidate_power_papagos_1951
+		}
+		
+		completion_reward = {
+			add_popularity = {
+                ideology = conservative
+                popularity = 0.1
+		    }
+            add_popularity = {
+                ideology = socialist
+                popularity = -0.05
+		    }			
+		}
+	
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 5
+		y = 3
+
+	}
+	
+
+##Plastiras 1951
+
+	focus = {
+		id = GRE_Plastiras
+		icon = GFX_plastiras
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Elections_of_1951
+		}
+	
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -3
+		y = 1
+			available = {
+					always = no
+				}
+
+	}
+	
+	
+	
+	focus = {
+		id = GRE_Policy_of_Reconciliation
+		icon = GFX_Policy_of_reconciliation
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Plastiras
+		}
+		
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = GRE_law_511_harsh
+                add_idea = GRE_law_511
+            }
+			add_stability = 0.1
+		}
+		
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -5
+		y = 2
+
+	}
+	
+	focus = {
+		id = GRE_Plastiras_electoral_system
+		icon = GFX_Election_system_Debate
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Policy_of_Reconciliation
+		}
+		
+		completion_reward = {
+					add_stability = 0.05
+					country_event = greece.4 
+				}
+				
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -5
+		y = 3
+
+	}
+	
+##Common
+    
+	focus = {
+		id = GRE_Start_Economic_Recovery
+		icon = GFX_Economic_reconstruction_1951
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Plastiras
+			focus = GRE_Papagos
+		}
+		
+		completion_reward = {
+					random_owned_controlled_state = {
+							limit = {
+									industrial_complex > 0
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									arms_factory > 0
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = arms_factory
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 0
+		y = 3
+
+	}
+	
+	focus = {
+		id = GRE_Nationalization_Program
+		icon = GFX_Greek_nationalization
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Start_Economic_Recovery
+		}
+		
+		available = {
+			has_completed_focus = GRE_Plastiras
+		}
+		
+	    completion_reward = {
+		            add_timed_idea = {
+							idea = GRE_nationalizations
+							days = 1500
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -3
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_Tavropos_Dam
+		icon = GFX_FocusHydroelectricDams
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Nationalization_Program
+		}
+		
+		completion_reward = {
+					790 = {
+							add_resource = {
+									type = electricity
+									amount = 10
+								}
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -3
+		y = 5
 
 	}
 	
@@ -495,7 +837,11 @@ focus_tree = {
 		icon = GFX_Greek_usa_invest
 		cost = 8.00
 		prerequisite = {
-			focus = GRE_Seek_help_Abroad
+			focus = GRE_Start_Economic_Recovery
+		}
+		
+		available = {
+			has_completed_focus = GRE_Papagos
 		}
 		
 		completion_reward = {
@@ -535,19 +881,19 @@ focus_tree = {
 						}
 				}
 	
-		x = 19
-		y = 14
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 3
+		y = 4
 
 	}
-	
-	
 	
 	focus = {
 		id = GRE_Invite_USA_con_companies
 		icon = GFX_USA_con_companies
 		cost = 8.00
 		prerequisite = {
-			focus = GRE_Seek_help_Abroad
+			focus = GRE_USA_Loans
 		}
 		
 		completion_reward = {
@@ -559,118 +905,23 @@ focus_tree = {
 			}
 		}
 	
-		x = 21
-		y = 14
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 3
+		y = 5
 
 	}
 	
 	focus = {
-		id = GRE_USA_army_investments
-		icon = GFX_AmericanEagle
+		id = GRE_RAM
+		icon = GFX_GRE_RAM
 		cost = 8.00
 		prerequisite = {
-			focus = GRE_Invite_USA_con_companies
-		}
-		prerequisite = {
-			focus = GRE_USA_Loans
+			focus = GRE_Start_Economic_Recovery
 		}
 		
 		completion_reward = {
-					random_owned_controlled_state = {
-							limit = {
-									arms_factory > 0
-									free_building_slots = {
-											building = arms_factory
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-	
-		x = 20
-		y = 15
-
-	}
-
-	
-	focus = {
-		id = GRE_consolidate_power_papagos_1951
-		icon = GFX_Papagos_Consolidates_power
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Papagos
-		}
-		
-		completion_reward = {
-					add_political_power = 150
-					add_stability = 0.05
-				}
-	
-		x = 23
-		y = 13
-
-	}
-	
-	focus = {
-		id = GRE_Adopt_Majority_System
-		icon = GFX_Adopt_Enhanced_Majority_System
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_consolidate_power_papagos_1951
-		}
-		
-		completion_reward = {
-			add_popularity = {
-                ideology = conservative
-                popularity = 0.1
-		    }
-            add_popularity = {
-                ideology = socialist
-                popularity = -0.05
-		    }			
-		}
-	
-		x = 23
-		y = 14
-
-	}
-	
-
-##Plastiras 1951
-
-	focus = {
-		id = GRE_Plastiras
-		icon = GFX_plastiras
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Elections_of_1951
-		}
-	
-		x = 14
-		y = 12
-			available = {
-					always = no
-				}
-
-	}
-	
-	focus = {
-		id = GRE_Start_Economic_Recovery
-		icon = GFX_Economic_reconstruction_1951
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Plastiras
-		}
-		
-		completion_reward = {
-					random_owned_controlled_state = {
+					1249 = {
 							limit = {
 									industrial_complex > 0
 									free_building_slots = {
@@ -686,136 +937,53 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-					random_owned_controlled_state = {
-							limit = {
-									arms_factory > 0
-									free_building_slots = {
-											building = arms_factory
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = arms_factory
-									level = 1
-									instant_build = yes
-								}
-						}
 				}
+	
+		relative_position_id = GRE_Elections_of_1951
 		
-		x = 14
-		y = 13
+		x = 1
+		y = 5
 
 	}
 	
 	focus = {
-		id = GRE_Nationalization_Program
-		icon = GFX_Greek_nationalization
+		id = GRE_IKY
+		icon = GFX_GRE_IKY
 		cost = 8.00
 		prerequisite = {
 			focus = GRE_Start_Economic_Recovery
 		}
+	    
+		completion_reward = {
+			add_research_slot = 1
+		}
 		
-	    completion_reward = {
-		            add_timed_idea = {
-							idea = GRE_nationalizations
-							days = 1500
-						}
-				}
-				
-		x = 13
-		y = 14
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = -1
+		y = 5
 
 	}
 	
 	focus = {
-		id = GRE_Land_Redistribution
-		icon = GFX_Gre_Land_Redistribution
+		id = GRE_1st_energy_program
+		icon = GFX_GRE_1st_energy_program
 		cost = 8.00
 		prerequisite = {
 			focus = GRE_Start_Economic_Recovery
 		}
-		
+	    
 		completion_reward = {
-					add_stability = 0.05
-					add_timed_idea = {
-							idea = GRE_agrarian_reform
-							days = 1500
-						}
-				}
+			custom_effect_tooltip = GRE_1st_energy_program
+		}
 		
-		x = 15
-		y = 14
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 0
+		y = 4
 
 	}
 	
-	focus = {
-		id = GRE_Tavropos_Dam
-		icon = GFX_FocusHydroelectricDams
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Nationalization_Program
-		}
-		prerequisite = {
-			focus = GRE_Land_Redistribution
-		}
-		
-		completion_reward = {
-					790 = {
-							add_resource = {
-									type = electricity
-									amount = 10
-								}
-						}
-				}
-				
-		x = 14
-		y = 15
-
-	}
-	
-	focus = {
-		id = GRE_Policy_of_Reconciliation
-		icon = GFX_Policy_of_reconciliation
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Plastiras
-		}
-		
-		completion_reward = {
-		    swap_ideas = {
-                remove_idea = GRE_indoctrination_camps_harsh
-                add_idea = GRE_indoctrination_camps_normal
-            }
-			add_stability = 0.1
-		}
-		
-		x = 11
-		y = 13
-
-	}
-	
-	focus = {
-		id = GRE_Plastiras_electoral_system
-		icon = GFX_Election_system_Debate
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Policy_of_Reconciliation
-		}
-		
-		completion_reward = {
-					add_stability = 0.05
-					country_event = greece.4 
-				}
-				
-		x = 11
-		y = 14
-
-	}
-	
-##Common
-    
 	focus = {
 		id = GRE_closer_ties_USA
 		icon = GFX_focus_chi_mission_to_the_us
@@ -840,25 +1008,10 @@ focus_tree = {
 						}
 				}
 	
-		x = 17
-		y = 14
-
-	}
-	
-    focus = {
-		id = GRE_joins_NATO
-		icon = GFX_nato
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_closer_ties_USA
-		}
+		relative_position_id = GRE_Elections_of_1951
 		
-		completion_reward = {
-					add_ideas = nato_member
-				}
-	
-		x = 16
-		y = 15
+		x = -2
+		y = 2
 
 	}
 	
@@ -867,230 +1020,22 @@ focus_tree = {
 		icon = GFX_Gre_send_support_Korea
 		cost = 8.00
 		prerequisite = {
-			focus = GRE_closer_ties_USA
+			focus = GRE_Plastiras
+			focus = GRE_Papagos 
 		}
 		
 		available = {
             has_global_flag = korean_war_begun
         }
 		
-		x = 18
-		y = 15
+		relative_position_id = GRE_Elections_of_1951
+		
+		x = 2
+		y = 2
 		
 	}
 	
-##JUNTA
-		
-	focus = {
-		id = GRE_IDEA_seizes_power
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Officers_Coup_Attempt_1951
-		}
-		mutually_exclusive = {
-			focus = GRE_Papagos_Intervenes 
-		}
-		
-		available = {
-					always = no
-				}
-		
-		x = 29
-		y = 8
 
-	}
-	
-	focus = {
-		id = GRE_Establish_Junta_1950
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_IDEA_seizes_power
-		}
-
-		x = 29
-		y = 9
-
-	}
-	
-	focus = {
-		id = GRE_Compromise_with_Palace_junta_1951
-		icon = GFX_King_compromises_with_Junta
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Establish_Junta_1950
-		}
-		
-		mutually_exclusive = {
-			focus = GRE_Try_Expel_Royal_Family_1951
-		}
-
-		x = 31
-		y = 10
-
-	}
-	
-	focus = {
-		id = GRE_King_Speech_1951
-		icon = GFX_The_Kings_Speech
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Compromise_with_Palace_junta_1951
-		}
-
-		x = 31
-		y = 11
-
-	}
-	
-	focus = {
-		id = GRE_Try_Expel_Royal_Family_1951
-		icon = GFX_CrushtheMonarchy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Establish_Junta_1950
-		}
-		
-		mutually_exclusive = {
-			focus = GRE_Compromise_with_Palace_junta_1951 
-		}
-
-		x = 27
-		y = 10
-
-	}
-	
-	focus = {
-		id = GRE_Royalist_Countercoup
-		icon = GFX_GRE_Royalist_Counter_Coup
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Try_Expel_Royal_Family_1951
-		}
-
-		x = 27
-		y = 11
-
-	}
-	
-	focus = {
-		id = GRE_Royalist_Countercoup_Suc
-		icon = GFX_GRE_Countercoup_Succeed
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Royalist_Countercoup
-		}
-		
-		mutually_exclusive = {
-			focus = GRE_Royalist_Countercoup_Fail 
-		}
-
-		x = 26
-		y = 12
-
-	}
-	
-	focus = {
-		id = GRE_Call_Political_Leaders
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Royalist_Countercoup_Suc
-		}
-
-		x = 26
-		y = 13
-
-	}
-	
-	focus = {
-		id = GRE_Restore_Con_Monarchy
-		icon = GFX_GRE_Restore_Constitutional_Monarchy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Call_Political_Leaders
-		}
-
-		x = 26
-		y = 14
-
-	}
-	
-	focus = {
-		id = GRE_Purge_Military_1952
-
-		icon = GFX_GRE_Purge_Military_Plotters
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Restore_Con_Monarchy
-		}
-
-		x = 25
-		y = 15
-
-	}
-	
-	focus = {
-		id = GRE_Purge_Security_Forces_1952
-
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Restore_Con_Monarchy
-		}
-
-		x = 27
-		y = 15
-
-	}
-	
-	focus = {
-		id = GRE_Call_Elections_1952
-
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Purge_Security_Forces_1952
-		}
-		prerequisite = {
-			focus = GRE_Purge_Military_1952
-		}
-
-		x = 26
-		y = 16
-
-	}
-	
-	focus = {
-		id = GRE_Royalist_Countercoup_Fail
-		icon = GFX_GRE_Countercoup_Fail
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Royalist_Countercoup
-		}
-		
-		mutually_exclusive = {
-			focus = GRE_Royalist_Countercoup_Suc 
-		}
-
-		x = 28
-		y = 12
-
-	}
-	
-	focus = {
-		id = GRE_Expel_royal_family_1951
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Royalist_Countercoup_Fail
-		}
-
-		x = 28
-		y = 13
-
-	}
 
 ###Election of 1952###
 
@@ -1099,7 +1044,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 42
+		x = 48
 		y = 0
         
 		available = {
@@ -1120,12 +1065,162 @@ focus_tree = {
 			focus = GRE_Elections_of_1952
 		}
 	
-		x = 37
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -7
 		y = 1
 			available = {
 					always = no
 				}
 
+	}
+	
+	focus = {
+		id = GRE_officers_retired_Papagos
+		icon = GFX_GRE_officers_retired_Papagos
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Papagos_1952
+		}
+		
+		completion_reward = {
+		    add_stability = 0.025
+			add_manpower = -1000
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 2
+
+	}
+	
+	focus = {
+		id = GRE_nomos_509_reestablished
+		icon = GFX_GRE_nomos_509
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_officers_retired_Papagos
+		}
+
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 3
+
+	}
+	
+	focus = {
+		id = GRE_recall_political_prisoners
+		icon = GFX_GRE_nomos_509
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_nomos_509_reestablished
+		}
+
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -9
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_hunt_intellectuals
+		icon = GFX_GRE_nomos_509
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_nomos_509_reestablished
+		}
+
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -7
+		y = 4
+
+	}
+	
+    focus = {
+		id = GRE_dimotikes_1954
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_hunt_intellectuals
+		}
+		prerequisite = {
+			focus = GRE_recall_political_prisoners
+		}
+		available = {
+					always = no
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 5
+
+	}
+	
+	focus = {
+		id = GRE_dimotikes_1954_arrests
+		icon = GFX_goal_support_democracy
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_dimotikes_1954
+		}
+		
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 6
+
+	}
+	
+	focus = {
+		id = GRE_Papagos_Death
+		icon = GFX_franco_muerto
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Papagos_1952
+		}
+		available = {
+					always = no
+				}
+				
+		completion_reward = {
+		    add_stability = -0.05
+			country_event = greece.7
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 7
+	}
+	
+	focus = {
+		id = GRE_Karamanlis_in_charge
+		icon = GFX_karamanlis
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Papagos_Death
+		}
+		
+		completion_reward = {
+					add_political_power = 100
+					add_stability = 0.05
+					
+				}
+		
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -8
+		y = 8
 	}
 	
 	focus = {
@@ -1151,7 +1246,9 @@ focus_tree = {
 						}
 				}
 	
-		x = 39
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -11
 		y = 2
 
 	}
@@ -1164,8 +1261,10 @@ focus_tree = {
 			focus = GRE_Recognize_USA
 		}
 	
-		x = 39
-		y = 4
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -12
+		y = 3
 
 	}
 	
@@ -1174,488 +1273,22 @@ focus_tree = {
 		icon = GFX_KYP
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_USA_bases_1
+			focus =  GRE_Recognize_USA
 		}
+		
 		
 		completion_reward = {
 		    add_ideas = GRE_State_Intelligence_Agency
 		}
 	
-		x = 39
-		y = 5
-
-	}
-	
-	focus = {
-		id = GRE_Cyprus_question
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Papagos_1952
-			focus = GRE_Plastiras_1952
-		}
+		relative_position_id = GRE_Elections_of_1952
 		
-		completion_reward = {
-					GRE = {
-							add_opinion_modifier = {
-									target = ENG
-									modifier = medium_decrease
-								}
-						}
-					ENG = {
-							add_opinion_modifier = {
-									target = GRE
-									modifier = medium_decrease
-								}
-						}
-				}
-	
-		x = 42
-		y = 2
-
-	}
-	
-	focus = {
-		id = GRE_Greece_wants_union
-		icon = GFX_Enosis
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Cyprus_question
-		}
-		
-		completion_reward = {
-					GRE = {
-							add_opinion_modifier = {
-									target = ENG
-									modifier = medium_decrease
-								}
-						}
-					ENG = {
-							add_opinion_modifier = {
-									target = GRE
-									modifier = medium_decrease
-								}
-						}
-				}
-	
-		x = 41
+		x = -10
 		y = 3
 
 	}
 	
-	focus = {
-		id = GRE_Tension_with_Turkey_rise 
-		icon = GFX_Tension_with_Turkey_rise
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Cyprus_question
-		}
-		
-		completion_reward = {
-					
-					GRE = {
-							add_opinion_modifier = {
-									target = TUR
-									modifier = medium_decrease
-								}
-						}
-					TUR = {
-							add_opinion_modifier = {
-									target = TUR
-									modifier = medium_decrease
-								}
-						}
-				}
-	
-		x = 43
-		y = 3
 
-	}
-	
-	focus = {
-		id = GRE_Greece_resort_to_UN
-		icon = GFX_Greece_resort_to_UN
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Greece_wants_union
-		}
-		prerequisite = {
-			focus = GRE_Tension_with_Turkey_rise
-		}
-		
-		completion_reward = {
-					GRE = {
-							add_opinion_modifier = {
-									target = ENG
-									modifier = medium_decrease
-								}
-						}
-					ENG = {
-							add_opinion_modifier = {
-									target = GRE
-									modifier = medium_decrease
-								}
-						}
-					GRE = {
-							add_opinion_modifier = {
-									target = USA
-									modifier = medium_decrease
-								}
-						}
-					USA = {
-							add_opinion_modifier = {
-									target = GRE
-									modifier = medium_decrease
-								}
-						}
-				}
-	
-		x = 42
-		y = 4
-
-	}
-	
-	focus = {
-		id = GRE_Economic_reconstruction
-		icon = GFX_Economic_reconstruction_1952
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Papagos_1952
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = urban_planning
-							days = 1400
-						}
-				}
-	
-		x = 34
-		y = 2
-
-	}
-	
-	focus = {
-		id = GRE_Attract_Foreign_Capital
-		icon = GFX_Greek_foreign_inv
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Papagos_1952
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_foreign_investment
-							days = 900
-						}
-				}
-
-		x = 36
-		y = 2
-	}
-	
-	focus = {
-		id = GRE_Infastructure_1952_1
-		icon = GFX_SAU_develop_the_heavy_industry
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Attract_Foreign_Capital
-		}
-		prerequisite = {
-			focus = GRE_Economic_reconstruction
-		}
-		
-		completion_reward = {
-					47 = {
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					186 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-		x = 35
-		y = 3
-	}
-	
-	focus = {
-		id = GRE_Infastructure_1952_2
-		icon = GFX_SAU_develop_the_heavy_industry
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Attract_Foreign_Capital
-		}
-		prerequisite = {
-			focus = GRE_Economic_reconstruction
-		}
-		
-		completion_reward = {
-					977 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					790 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-		x = 37
-		y = 3
-	}
-	
-	focus = {
-		id = GRE_Degrade_Drachma
-		icon = GFX_Drachma_dev
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Economic_reconstruction
-		}
-		
-		completion_reward = {
-		    remove_ideas = GRE_hyperinflation
-		}
-	
-		x = 33
-		y = 3
-	}
-	
-	focus = {
-	    id = GRE_start_housing_program 
-		icon = GFX_gre_housing_1
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Infastructure_1952_1
-		}
-	    prerequisite = {
-			focus = GRE_Infastructure_1952_2
-		}
-		prerequisite = {
-			focus = GRE_Degrade_Drachma
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_expanded_housing
-							days = 1200
-						}
-				}
-	
-		x = 37
-		y = 4
-	}
-	
-	focus = {
-	    id = GRE_country_starts_recover 
-		icon = GFX_Economic_reconstruction_1951
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Infastructure_1952_1
-		}
-	    prerequisite = {
-			focus = GRE_Infastructure_1952_2
-		}
-		prerequisite = {
-			focus = GRE_Degrade_Drachma
-		}
-		
-		completion_reward = {
-		    swap_ideas = {
-                remove_idea = GRE_war_devastation_harsh 
-                add_idea = GRE_war_devastation_medium
-            }
-		}
-	
-		x = 35
-		y = 4
-	}
-	
-	focus = {
-		id = GRE_Infastructure_1952_3
-		icon = GFX_SAU_develop_the_heavy_industry
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_country_starts_recover 
-		}
-		
-		completion_reward = {
-					731 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					185 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-		x = 34
-		y = 5
-	}
-	
-	focus = {
-		id = GRE_Infastructure_1952_4
-		icon = GFX_SAU_develop_the_heavy_industry
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_country_starts_recover 
-		}
-		
-		completion_reward = {
-					164 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-					182 = {
-							add_building_construction = {
-									type = infrastructure
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-
-		x = 36
-		y = 5
-	}
-	
-	focus = {
-		id = GRE_LIPTOL
-		icon = GFX_goal_generic_construction2
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Infastructure_1952_3
-		}
-		prerequisite = {
-			focus = GRE_Infastructure_1952_4
-		}
-		
-		completion_reward = {
-					185 = {
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = coal_plant
-									level = 1
-									instant_build = yes
-								}
-						}
-				}
-	
-		x = 33
-		y = 6
-	}
-	
-	
-	
-	focus = {
-		id = GRE_Greek_Oil_Company
-		icon = GFX_oil
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Infastructure_1952_3
-		}
-		prerequisite = {
-			focus = GRE_Infastructure_1952_4
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = oil
-									amount = 5
-								}
-						}
-				}
-	
-		x = 37
-		y = 6
-	}
-	
-	focus = {
-		id = GRE_Start_economic_growth
-		icon = GFX_Economic_reconstruction_1952
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Greek_Oil_Company
-		}
-		prerequisite = {
-			focus = GRE_LIPTOL
-		}
-		
-		completion_reward = {
-		    swap_ideas = {
-                remove_idea = GRE_war_devastation_medium 
-                add_idea = GRE_war_devastation_small
-            }
-		}
-	
-		x = 35
-		y = 7
-	}
-	
-	focus = {
-		id = GRE_Papagos_Death
-		icon = GFX_franco_muerto
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_KYP
-		}
-		available = {
-					always = no
-				}
-				
-		completion_reward = {
-		    add_stability = -0.05
-			country_event = greece.7
-		}
-	
-		x = 39
-		y = 6
-	}
-	
-	focus = {
-		id = GRE_Karamanlis_in_charge
-		icon = GFX_karamanlis
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Papagos_Death
-		}
-		
-		completion_reward = {
-					add_political_power = 100
-					add_stability = 0.05
-					
-				}
-		
-	
-		x = 39
-		y = 7
-	}
-	
 ###Plastiras 1952
 
 	focus = {
@@ -1666,7 +1299,9 @@ focus_tree = {
 			focus = GRE_Elections_of_1952
 		}
 	
-		x = 47
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 7
 		y = 1
 			available = {
 					always = no
@@ -1674,159 +1309,7 @@ focus_tree = {
 
 	}
 	
-	focus = {
-		id = GRE_continue_economic_recovery
-		icon = GFX_Economic_reconstruction_1951
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_Plastiras_1952
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = urban_planning
-							days = 1400
-						}
-				}
 	
-		x = 50
-		y = 2
-
-	}
-	
-	focus = {
-		id = GRE_welfare_program_1952
-		icon = GFX_healthcare
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_continue_economic_recovery
-		}
-		
-		completion_reward = {
-		    add_popularity = {
-                ideology = Social_Liberalism
-                popularity = 0.05
-		    }
-		    add_stability = 0.05
-		}
-
-		x = 49
-		y = 3
-
-	}
-	
-	focus = {
-		id = GRE_plastiras_housing_program_1952
-		icon = GFX_gre_housing_1
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_welfare_program_1952
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_expanded_housing
-							days = 1600
-						}
-				}
-	
-		x = 49
-		y = 4
-
-	}
-	
-	focus = {
-		id = GRE_invite_foreign_invstors
-		icon = GFX_Greek_foreign_inv
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_continue_economic_recovery
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_foreign_investment
-							days = 900
-						}
-				}
-	
-		x = 51
-		y = 3
-
-	}
-	
-	focus = {
-		id = GRE_Crete_investments
-		icon = GFX_goal_generic_construct_civ_factory
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_invite_foreign_invstors
-		}
-		
-		completion_reward = {
-					182 = {
-						if = {
-							limit = {
-									industrial_complex > 0
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-					}
-	            }
-		x = 51
-		y = 4
-
-	}
-	
-	focus = {
-		id = GRE_fight_hyperinflation
-		icon = GFX_Fight_Hyperinflation
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_plastiras_housing_program_1952
-		}
-		prerequisite = {
-			focus = GRE_Crete_investments
-		}
-		
-		completion_reward = {
-		    remove_ideas = GRE_hyperinflation
-		}
-	
-		x = 50
-		y = 5
-
-	}
-	
-	focus = {
-		id = GRE_start_economic_recov
-		icon = GFX_Economic_reconstruction_1952
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_fight_hyperinflation
-		}
-		
-		completion_reward = {
-		    swap_ideas = {
-                remove_idea = GRE_war_devastation_harsh
-                add_idea = GRE_war_devastation_medium 
-            }
-		}
-	
-		x = 50
-		y = 6
-
-	}
 	
 	focus = {
 		id = GRE_close_military_tribunals
@@ -1845,7 +1328,9 @@ focus_tree = {
 		    }
 		}
 	
-		x = 45
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 8
 		y = 2
 
 	}
@@ -1862,14 +1347,18 @@ focus_tree = {
                 remove_ideas = GRE_indoctrination_camps_normal
 		}
 	
-		x = 47
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 10
 		y = 2
 
 	}
 	
+	
+	
 	focus = {
-		id = GRE_bur_reforms_1952
-		icon = GFX_focus_generic_treaty 
+		id = GRE_Further_decrease_political_prosecutions
+		icon = GFX_Decrease_Communists_Prosecutions
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_close_military_tribunals
@@ -1879,42 +1368,31 @@ focus_tree = {
 		}
 		
 		completion_reward = {
-					add_political_power = 120
-					add_stability = -0.05
-				}
+                remove_ideas = GRE_repression
+		}
 	
-		x = 46
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 8
 		y = 3
 
 	}
 	
 	focus = {
-		id = GRE_Further_decrease_political_prosecutions
-		icon = GFX_Decrease_Communists_Prosecutions
-		cost = 10.00
-		prerequisite = {
-			focus = GRE_bur_reforms_1952
-		}
-		
-		completion_reward = {
-                remove_ideas = GRE_repression
-		}
-	
-		x = 45
-		y = 4
-
-	}
-	
-	focus = {
-		id = GRE_steps_towards_liberal_society
+		id = GRE_repeal_law_509
 		icon = GFX_focus_peace_talks 
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_bur_reforms_1952
+			focus = GRE_close_military_tribunals
+		}
+		prerequisite = {
+			focus = GRE_close_exile_camps  
 		}
 	
-		x = 47
-		y = 4
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 10
+		y = 3
 
 	}
 	
@@ -1926,7 +1404,7 @@ focus_tree = {
 			focus = GRE_Further_decrease_political_prosecutions
 		}
 		prerequisite = {
-			focus = GRE_steps_towards_liberal_society
+			focus = GRE_repeal_law_509
 		}
 		
 		available = {
@@ -1937,8 +1415,10 @@ focus_tree = {
 		    add_stability = -0.05
 		}
 	
-		x = 46
-		y = 5
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 9
+		y = 4
 
 	}
 	
@@ -1955,8 +1435,10 @@ focus_tree = {
 					add_stability = 0.05
 				}
 	
-		x = 46
-		y = 6
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 9
+		y = 5
 
 	}
 	
@@ -1983,8 +1465,10 @@ focus_tree = {
 						}
 				}
 	
-		x = 46
-		y = 7
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 8
+		y = 6
 
 	}
 	
@@ -1993,10 +1477,12 @@ focus_tree = {
 		icon = GFX_goal_support_democracy 
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Venizelos_in_charge
+			focus = GRE_fix_relations_USA
 		}
 	
-		x = 44
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 7
 		y = 7
 
 	}
@@ -2006,16 +1492,496 @@ focus_tree = {
 		icon = GFX_KYP 
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Venizelos_in_charge
+			focus = GRE_fix_relations_USA
 		}
 		
 		completion_reward = {
 		    add_ideas = GRE_State_Intelligence_Agency
 		}
 	
-		x = 48
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 9
 		y = 7
 
+	}
+	
+	focus = {
+		id = GRE_bur_reforms_1952
+		icon = GFX_focus_generic_treaty 
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Venizelos_in_charge 
+		}
+		
+		completion_reward = {
+					add_political_power = 120
+					add_stability = -0.05
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 10
+		y = 6
+
+	}
+	
+###Common
+	
+    focus = {
+		id = GRE_Economic_reconstruction
+		icon = GFX_Economic_reconstruction_1952
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Papagos_1952
+			focus = GRE_Plastiras_1952
+		}
+		
+		completion_reward = {
+					add_timed_idea = {
+							idea = urban_planning
+							days = 1400
+						}
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 0
+		y = 2
+
+	}
+	
+	focus = {
+		id = GRE_KTEL
+		icon = GFX_GRE_KTEL
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Economic_reconstruction
+		}
+		
+		completion_reward = {
+		    add_stability = 0.05
+		}
+
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 0
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_contineu_1st_energy
+		icon = GFX_GRE_KTEL
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_KTEL
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = GRE_con_1st_energy
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 0
+		y = 5
+
+	}
+	
+	focus = {
+		id = GRE_LIPTOL
+		icon = GFX_goal_generic_construction2
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_contineu_1st_energy
+		}
+		
+		completion_reward = {
+					731 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = coal_plant
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -1
+		y = 6
+	}
+	
+	focus = {
+		id = GRE_Greek_Oil_Company
+		icon = GFX_oil
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_contineu_1st_energy
+		}
+		
+		completion_reward = {
+					47 = {
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = synthetic_refinery
+									level = 1
+									instant_build = yes
+								}
+						}
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 1
+		y = 6
+	}
+	
+	focus = {
+		id = GRE_2nd_energy_program
+		icon = GFX_1st_energy
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_LIPTOL
+		}
+		prerequisite = {
+			focus = GRE_Greek_Oil_Company
+		}
+		
+		completion_reward = {
+			custom_effect_tooltip = GRE_2nd_energy
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 0
+		y = 7
+
+	}
+	
+	focus = {
+		id = GRE_Attract_Foreign_Capital
+		icon = GFX_Greek_foreign_inv
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Economic_reconstruction
+		}
+		available = {
+			has_completed_focus = GRE_Papagos_1952
+		}
+		
+		completion_reward = {
+					add_timed_idea = {
+							idea = GRE_foreign_investment
+							days = 900
+						}
+				}
+
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -5
+		y = 3
+	}
+	
+	focus = {
+		id = GRE_Degrade_Drachma
+		icon = GFX_Drachma_dev
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Economic_reconstruction
+		}
+		available = {
+			has_completed_focus = GRE_Papagos_1952
+		}
+		available = { date > 1953.4.1 }
+		completion_reward = {
+		    remove_ideas = GRE_hyperinflation
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -3
+		y = 3
+	}
+	
+	focus = {
+	    id = GRE_start_housing_program 
+		icon = GFX_gre_housing_1
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Infastructure_1952_1
+		}
+	    prerequisite = {
+			focus = GRE_Infastructure_1952_2
+		}
+		prerequisite = {
+			focus = GRE_Degrade_Drachma
+		}
+		
+		completion_reward = {
+					add_timed_idea = {
+							idea = GRE_expanded_housing
+							days = 1200
+						}
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -2
+		y = 4
+	}
+	
+	focus = {
+	    id = GRE_country_starts_recover 
+		icon = GFX_Economic_reconstruction_1951
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Attract_Foreign_Capital
+		}
+		prerequisite = {
+			focus = GRE_Degrade_Drachma
+		}
+		
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = GRE_war_devastation_harsh 
+                add_idea = GRE_war_devastation_medium
+            }
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -4
+		y = 4
+	}
+	
+	focus = {
+		id = GRE_Infastructure_1952_north
+		icon = GFX_SAU_develop_the_heavy_industry
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_country_starts_recover
+		}
+
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -5
+		y = 5
+	}
+	
+	focus = {
+		id = GRE_Infastructure_1952_central
+		icon = GFX_SAU_develop_the_heavy_industry
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_country_starts_recover
+		}
+
+
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -3
+		y = 5
+	}
+	
+	focus = {
+		id = GRE_Infastructure_1952_south
+		icon = GFX_SAU_develop_the_heavy_industry
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Infastructure_1952_north 
+		}
+        prerequisite = {
+			focus = GRE_Infastructure_1952_central
+		}
+		
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -4
+		y = 6
+	}
+	
+	focus = {
+		id = GRE_Infastructure_1952_crete
+		icon = GFX_SAU_develop_the_heavy_industry
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Infastructure_1952_south
+		}
+
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = -4
+		y = 7
+	}
+	
+	focus = {
+		id = GRE_plastiras_housing_program_1952
+		icon = GFX_gre_housing_1
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Economic_reconstruction
+		}
+		available = {
+			has_completed_focus = GRE_Plastiras_1952
+		}
+		
+		completion_reward = {
+					add_timed_idea = {
+							idea = GRE_expanded_housing
+							days = 1600
+						}
+				}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 3
+		y = 3
+	}
+	
+	focus = {
+		id = GRE_welfare_program_1952
+		icon = GFX_healthcare
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_plastiras_housing_program_1952
+		}
+		
+		completion_reward = {
+		    add_popularity = {
+                ideology = Social_Liberalism
+                popularity = 0.05
+		    }
+		    add_stability = 0.05
+		}
+
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 3
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_infastructure_plastiras_south
+		icon = GFX_GRE_infastructure_plastiras
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_Economic_reconstruction
+		}
+		available = {
+			has_completed_focus = GRE_Plastiras_1952
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = GRE_infastructure_plastiras_west
+		icon = GFX_GRE_infastructure_plastiras
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_infastructure_plastiras_south
+		}
+		
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = GRE_focus_tourism_plastiras
+		icon = GFX_GRE_focus_tourism_plastiras
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_infastructure_plastiras_west
+		}
+		
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 4
+		y = 5
+
+	}
+	
+	focus = {
+		id = GRE_fight_hyperinflation
+		icon = GFX_Fight_Hyperinflation
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_welfare_program_1952
+		}
+		prerequisite = {
+			focus = GRE_focus_tourism_plastiras
+		}
+		
+		completion_reward = {
+		    remove_ideas = GRE_hyperinflation
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 4
+		y = 6
+
+	}
+	
+	focus = {
+		id = GRE_start_economic_recov
+		icon = GFX_Economic_reconstruction_1952
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_fight_hyperinflation
+		}
+		
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = GRE_war_devastation_harsh
+                add_idea = GRE_war_devastation_medium 
+            }
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 4
+		y = 7
+
+	}
+	
+	focus = {
+		id = GRE_Start_economic_growth
+		icon = GFX_Economic_reconstruction_1952
+		cost = 10.00
+		prerequisite = {
+			focus = GRE_2nd_energy_program
+		}
+		
+		prerequisite = {
+			focus = GRE_start_economic_recov
+			focus = GRE_Infastructure_1952_crete
+		}
+		
+		completion_reward = {
+		    swap_ideas = {
+                remove_idea = GRE_war_devastation_medium 
+                add_idea = GRE_war_devastation_small
+            }
+		}
+	
+		relative_position_id = GRE_Elections_of_1952
+		
+		x = 0
+		y = 8
 	}
 	
 ###Election 1956
@@ -2506,36 +2472,6 @@ focus_tree = {
 	
 ##Common
 
-	focus = {
-		id = GRE_Cyprus_Question_Contineus
-		icon = GFX_goal_support_democracy
-		cost = 10.00
-		
-		prerequisite = {
-			focus = GRE_Karamanlis_1956
-			focus = GRE_Papandreou_1956
-			
-		}
-		
-		x = 42
-		y = 10
-        
-	}
-	
-	focus = {
-		id = GRE_Protest_for_Cyprus_Self-determination
-		icon = GFX_Protest_in_favor_of_Cyprus
-		cost = 10.00
-		
-		prerequisite = {
-			focus = GRE_Cyprus_Question_Contineus
-		}
-		
-		x = 42
-		y = 11
-        
-	}
-
 ###Election 1958
 
       focus = {
@@ -2543,8 +2479,8 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 42
-		y = 14
+		x = 44
+		y = 15
         
 		available = {
 					has_global_flag = greek_elections_1958
@@ -2568,434 +2504,27 @@ focus_tree = {
 					always = no
 				}
 				
-		x = 37
-		y = 15
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -5
+		y = 1
         
 	}
 	
-	focus = {
-		id = GRE_20_Industrial_Areas
-		icon = GFX_20_Industrial_Areas
-		cost = 4.00
-		prerequisite = {
-			focus = GRE_Karamanlis_1958
-		}
-		
-		completion_reward = {
-				add_tech_bonus = {
-				name = industrial_bonus
-				bonus = 0.5
-				uses = 2
-				category = industry
-			}
-		}
-		
-		x = 35
-		y = 16
-        
-	}
-	
-	focus = {
-		id = GRE_Automobile_Industry
-		icon = GFX_GRE_Automobile_Industry
-		cost = 6.00
-		prerequisite = {
-			focus = GRE_20_Industrial_Areas
-		}
-		
-		completion_reward = {
-		    add_ideas = GRE_automobile_industry
-		}
-		
-		x = 34
-		y = 17
-        
-	}
-	
-	focus = {
-		id = GRE_Pirelli_Hellas
-		icon = GFX_Pirelli_Hellas
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Automobile_Industry
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = rubber
-									amount = 5
-								}
-						}
-				}
-		
-		x = 33
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_Aspropyrgos_Oil_Refinery
-		icon = GFX_oil
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Automobile_Industry
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = oil
-									amount = 5
-								}
-						}
-				}
-				
-		x = 35
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_Neotex
-		icon = GFX_RubberExpansion
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_Pirelli_Hellas
-		}
-		prerequisite = {
-			focus = GRE_Aspropyrgos_Oil_Refinery
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = rubber
-									amount = 5
-								}
-						}
-				}
-		
-		x = 34
-		y = 19
-        
-	}
-	
-	focus = {
-		id = GRE_DEH_buys_LIPTOL
-		icon = GFX_goal_generic_construction2
-		cost = 4.00
-		prerequisite = {
-			focus = GRE_20_Industrial_Areas
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = electricity
-									amount = 10
-								}
-						}
-				}
-				
-		x = 37
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_Ptolemaida_Plant_1
-		icon = GFX_goal_generic_construction2
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_DEH_buys_LIPTOL
-		}
-		
-		completion_reward = {
-					185 = {
-							add_resource = {
-									type = electricity
-									amount = 10
-								}
-						}
-				}
-		
-		x = 37
-		y = 19
-        
-	}
-	
-	focus = {
-		id = GRE_Skaramangkas_Shipyards
-		icon = GFX_NavalOperations
-		cost = 8.00
-		prerequisite = {
-			focus = GRE_20_Industrial_Areas
-		}
-		
-		completion_reward = {
-					47 = {
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = dockyard
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-		
-		x = 36
-		y = 17
-        
-	}
-	
-	
-##Papandreou 1958 
-    
-	focus = {
-		id = GRE_Papandreou_1958
-		icon = GFX_Papandreou
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Elections_of_1958
-		}
-		
-		available = {
-					always = no
-				}
-				
-		x = 47
-		y = 15
-        
-	}
-	
-	focus = {
-		id = GRE_Pap_economic_plan_1958
-		icon = GFX_Greece_Construction_Development
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Papandreou_1958
-		}
-		
-		completion_reward = {
-					add_political_power = -50
-					random_owned_controlled_state = {
-							limit = {
-									industrial_complex > 0
-									free_building_slots = {
-											building = industrial_complex
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-									type = industrial_complex
-									level = 1
-									instant_build = yes
-								}
-						}
-					random_owned_controlled_state = {
-							limit = {
-									arms_factory > 0
-									free_building_slots = {
-											building = arms_factory
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-		
-		x = 49
-		y = 16
-        
-	}
-	
-	focus = {
-		id = GRE_Pap_nationalize_LIPTOL
-		icon = GFX_PlannedEconomy
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Pap_economic_plan_1958
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = electricity 
-									amount = 10
-								}
-						}
-				}
-		
-		x = 48
-		y = 17
-        
-	}
-	
-	focus = {
-		id = GRE_Construction_Development_1958
-		icon = GFX_Greece_Construction_Development
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Pap_economic_plan_1958
-		}
-		
-		completion_reward = {
-				add_ideas = GRE_urbanisme
-		}
-		
-		x = 47
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_house_expansion_1958
-		icon = GFX_gre_housing_1
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Construction_Development_1958
-		}
-		
-		completion_reward = {
-					add_timed_idea = {
-							idea = GRE_expanded_housing
-							days = 1200
-						}
-				}
-		
-		x = 47
-		y = 19
-        
-	}
-	
-	focus = {
-		id = GRE_Autarkey_focus_1958
-		icon = GFX_Greek_Autarky
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Pap_economic_plan_1958
-		}
-		
-		completion_reward = {
-		    add_ideas = GRE_Autarky 
-		}
-		
-		x = 50
-		y = 17
-        
-	}
-	
-	focus = {
-		id = GRE_Statefunded_Oil_Refinery
-		icon = GFX_Goal_gre_oil_refinery
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Autarkey_focus_1958
-		}
-		
-		completion_reward = {
-					47 = {
-							add_resource = {
-									type = oil
-									amount = 5
-								}
-						}
-				}
-		
-		x = 49
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_Small_arms_industry_1
-		icon = GFX_Small_arms_industry_1
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Autarkey_focus_1958
-		}
-		
-		completion_reward = {
-					random_owned_controlled_state = {
-							limit = {
-									arms_factory > 0
-									free_building_slots = {
-											building = arms_factory
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-	
-		x = 51
-		y = 18
-        
-	}
-	
-	focus = {
-		id = GRE_arty_industry_1
-		icon = GFX_arty_industry_1
-		cost = 10.0
-		prerequisite = {
-			focus = GRE_Small_arms_industry_1
-		}
-
-		completion_reward = {
-					random_owned_controlled_state = {
-							limit = {
-									arms_factory > 0
-									free_building_slots = {
-											building = arms_factory
-											size > 1
-											include_locked = yes
-										}
-								}
-							add_extra_state_shared_building_slots = 2
-							add_building_construction = {
-									type = arms_factory
-									level = 2
-									instant_build = yes
-								}
-						}
-				}
-		
-	
-		x = 51
-		y = 19
-        
-	}
-	
-##Common	
-
     focus = {
 		id = GRE_EDA_takes_24
 		icon = GFX_Communist_Discourse
 		cost = 4.00
 		prerequisite = {
 			focus = GRE_Karamanlis_1958
-			focus = GRE_Papandreou_1958
 		}
 		completion_reward = {
 			add_stability = -0.1
 		}
-		x = 45
-		y = 16
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -10
+		y = 2
         
 	}
 	
@@ -3005,10 +2534,6 @@ focus_tree = {
 		cost = 6.00
 		prerequisite = {
 			focus = GRE_EDA_takes_24
-		}
-		
-		mutually_exclusive = {
-			focus = GRE_ask_left_support
 		}
 		
 		completion_reward = {
@@ -3028,80 +2553,87 @@ focus_tree = {
 		    }
 		}
 		
-		x = 44
-		y = 17
+		relative_position_id = GRE_EDA_takes_24
+		
+		x = 0
+		y = 1
         
-	}
+	}	
 	
+	
+##Papandreou 1958 
+    
 	focus = {
-		id = GRE_ask_left_support
-		icon = GFX_Left_towards_center
-		cost = 6.00
+		id = GRE_Papandreou_1958
+		icon = GFX_Papandreou
+		cost = 10.0
 		prerequisite = {
-			focus = GRE_EDA_takes_24
+			focus = GRE_Elections_of_1958
 		}
+		
 		available = {
-			has_completed_focus = GRE_Papandreou_1958
-		}
-		mutually_exclusive = {
-			focus = GRE_General_Directorate_National_Security
-		}
+					always = no
+				}
+				
+		relative_position_id = GRE_Elections_of_1958
 		
-		completion_reward = {
-		            add_political_power = 100
-		            add_stability = 0.05
-		}
-		
-		x = 46
-		y = 17
+		x = 5
+		y = 1
         
 	}
 	
+
+	
+##Common	
+
+    
+
 	focus = {
-		id = GRE_Start_Cyprus_Negotiations
-		icon = GFX_Cyprus_neg
+		id = GRE_Gree_EEC
+		icon = GRE_Gree_EEC
 		cost = 10.00
 		prerequisite = {
 			focus = GRE_Karamanlis_1958
 			focus = GRE_Papandreou_1958
 		}
 		
-		x = 42
-		y = 18
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -8
+		y = 3
         
 	}
 	
 	focus = {
-		id = GRE_Zurich_London_Agreement
-		icon = GFX_Zurich_London
+		id = GRE_Gree_EIB
+		icon = GRE_Gree_EIB
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Start_Cyprus_Negotiations
+			focus = GRE_Gree_EEC
 		}
 		
-		mutually_exclusive = {
-			focus = GRE_negotiations_hard_line
-		}
 		
-		x = 41
-		y = 19
+		relative_position_id = GRE_Gree_EEC
+		
+		x = -1
+		y = 1
         
 	}
 	
 	focus = {
-		id = GRE_negotiations_hard_line
-		icon = GFX_Enosis
+		id = GRE_Gree_notariff_agr
+		icon = GRE_Gree_notariff_agr
 		cost = 10.00
 		prerequisite = {
-			focus = GRE_Start_Cyprus_Negotiations
+			focus = GRE_Gree_EEC
 		}
 		
-		mutually_exclusive = {
-			focus = GRE_Zurich_London_Agreement
-		}
 		
-		x = 43
-		y = 19
+		relative_position_id = GRE_Gree_EEC
+		
+		x = 1
+		y = 1
         
 	}
 
@@ -3131,8 +2663,10 @@ focus_tree = {
 						}
 				}
 		
-		x = 39
-		y = 16
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 8
+		y = 3
         
 	}
 	
@@ -3185,8 +2719,10 @@ focus_tree = {
 						}
 				}
 		
-		x = 38
-		y = 17
+		relative_position_id = GRE_Merten_Affair
+		
+		x = -1
+		y = 1
         
 	}
 	
@@ -3218,8 +2754,508 @@ focus_tree = {
 								}
 						}
 		}
-		x = 40
-		y = 17
+		
+		relative_position_id = GRE_Merten_Affair
+		
+		x = 1
+		y = 1
+        
+	}
+	
+###ECONOMIC
+	
+	focus = {
+		id = GRE_20_Industrial_Areas
+		icon = GFX_20_Industrial_Areas
+		cost = 4.00
+		prerequisite = {
+			focus = GRE_Karamanlis_1958
+		}
+		
+		completion_reward = {
+				add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 2
+				category = industry
+			}
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -2
+		y = 2
+        
+	}
+	
+	focus = {
+		id = GRE_kalpinis_metal
+		icon = GFX_GRE_kalpinis_metal
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_20_Industrial_Areas
+		}
+		
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -3
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_rokas
+		icon = GFX_GRE_rokas
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_20_Industrial_Areas
+		}
+		
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -5
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_Aspropyrgos_Oil_Refinery
+		icon = GFX_oil
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_kalpinis_metal
+		}
+		
+		prerequisite = {
+			focus = GRE_rokas
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = oil
+									amount = 5
+								}
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -4
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_Neotex
+		icon = GFX_RubberExpansion
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Aspropyrgos_Oil_Refinery
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = rubber
+									amount = 5
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -4
+		y = 5
+        
+	}
+	
+	focus = {
+		id = GRE_Pirelli_Hellas
+		icon = GFX_Pirelli_Hellas
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Neotex
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = rubber
+									amount = 5
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -3
+		y = 6
+        
+	}
+	
+	focus = {
+		id = GRE_DOW
+		icon = GFX_RubberExpansion
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Neotex
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = rubber
+									amount = 5
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -5
+		y = 6
+        
+	}
+	
+	focus = {
+		id = GRE_phillips
+		icon = GFX_GRE_phillips
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_DOW
+		}
+		prerequisite = {
+			focus = GRE_Pirelli_Hellas
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -4
+		y = 7
+        
+	}
+	
+	focus = {
+		id = GRE_vernilac
+		icon = GFX_GRE_vernilac
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_DOW
+		}
+		prerequisite = {
+			focus = GRE_Pirelli_Hellas
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -6
+		y = 7
+        
+	}
+	
+	focus = {
+		id = GRE_petzetakis
+		icon = GFX_GRE_petzetakis
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_DOW
+		}
+		prerequisite = {
+			focus = GRE_Pirelli_Hellas
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -2
+		y = 7
+        
+	}
+	
+	focus = {
+		id = GRE_Pap_economic_plan_1958
+		icon = GFX_Greece_Construction_Development
+		cost = 10.0
+		prerequisite = {
+			focus = GRE_Papandreou_1958
+		}
+		
+		completion_reward = {
+					add_political_power = -50
+					random_owned_controlled_state = {
+							limit = {
+									industrial_complex > 0
+									free_building_slots = {
+											building = industrial_complex
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+									type = industrial_complex
+									level = 1
+									instant_build = yes
+								}
+						}
+					random_owned_controlled_state = {
+							limit = {
+									arms_factory > 0
+									free_building_slots = {
+											building = arms_factory
+											size > 1
+											include_locked = yes
+										}
+								}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = arms_factory
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 2
+		y = 2
+        
+	}
+	
+	
+	focus = {
+		id = GRE_cement_1958
+		icon = GFX_GRE_cement
+		cost = 10.0
+		prerequisite = {
+			focus = GRE_Pap_economic_plan_1958
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 4
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_Statefunded_Oil_Refinery
+		icon = GFX_Goal_gre_oil_refinery
+		cost = 10.0
+		prerequisite = {
+			focus = GRE_cement_1958
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = oil
+									amount = 5
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 3
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_Statefunded_rubber
+		icon = GFX_GRE_Statefunded_rubber
+		cost = 10.0
+		prerequisite = {
+			focus = GRE_cement_1958
+		}
+
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 5
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_small_bus_1958
+		icon = GFX_GRE_small_bus_1958
+		cost = 10.0
+		prerequisite = {
+			focus = GRE_Statefunded_Oil_Refinery
+		}
+		prerequisite = {
+			focus = GRE_Statefunded_rubber
+		}
+		
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 4
+		y = 5
+        
+	}
+
+	
+##COMMON EC
+
+	focus = {
+		id = GRE_Automobile_Industry
+		icon = GFX_GRE_Automobile_Industry
+		cost = 6.00
+		prerequisite = {
+			focus = GRE_20_Industrial_Areas
+			focus = GRE_Pap_economic_plan_1958
+		}
+		
+		completion_reward = {
+		    add_ideas = GRE_automobile_industry
+		}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 0
+		y = 3
+        
+	}
+	
+	focus = {
+		id = GRE_Skaramangkas_Shipyards
+		icon = GFX_NavalOperations
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Automobile_Industry
+		}
+		
+		completion_reward = {
+					47 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -1
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_evoia_Shipyards
+		icon = GFX_NavalOperations
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_Skaramangkas_Shipyards
+		}
+		
+		completion_reward = {
+					1249 = {
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+									type = dockyard
+									level = 2
+									instant_build = yes
+								}
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = -1
+		y = 5
+        
+	}
+	
+	focus = {
+		id = GRE_DEH_buys_LIPTOL
+		icon = GFX_goal_generic_construction2
+		cost = 4.00
+		prerequisite = {
+			focus = GRE_Automobile_Industry
+		}
+		
+		completion_reward = {
+					47 = {
+							add_resource = {
+									type = electricity
+									amount = 10
+								}
+						}
+				}
+				
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 1
+		y = 4
+        
+	}
+	
+	focus = {
+		id = GRE_Ptolemaida_Plant_1
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_DEH_buys_LIPTOL
+		}
+		
+		completion_reward = {
+					185 = {
+							add_resource = {
+									type = electricity
+									amount = 10
+								}
+						}
+				}
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 1
+		y = 5
+        
+	}
+	
+	
+	focus = {
+		id = GRE_aluminum_hellas
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_evoia_Shipyards
+		}
+		prerequisite = {
+			focus = GRE_Ptolemaida_Plant_1
+		}
+
+		
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 0
+		y = 6
+        
+	}
+	
+	focus = {
+		id = GRE_Greek_sugar_industry
+		icon = GFX_goal_generic_construction2
+		cost = 8.00
+		prerequisite = {
+			focus = GRE_aluminum_hellas
+		}
+
+
+		relative_position_id = GRE_Elections_of_1958
+		
+		x = 0
+		y = 7
         
 	}
 	
