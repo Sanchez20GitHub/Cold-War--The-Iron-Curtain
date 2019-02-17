@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = SUD
+		set_state_flag = lushdesert
+		set_state_flag = riverlarge
+		set_state_flag = large
+		set_state_flag = poor
 		add_core_of = SUD
 		buildings = {
 			infrastructure = 2
@@ -47,5 +51,5 @@ state={
 	}
 	manpower=2993507
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev2
 }

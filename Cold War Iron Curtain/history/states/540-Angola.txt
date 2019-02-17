@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = POR
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = micro
+		set_state_flag = verypoor
 		add_core_of = POR
 		add_core_of = ANG
 		1975.1.1 = {
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=7976907
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop7
 }

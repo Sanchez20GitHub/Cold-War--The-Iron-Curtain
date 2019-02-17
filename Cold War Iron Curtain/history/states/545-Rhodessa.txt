@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ZIM
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = undeveloped
 		add_core_of = ZIM
 		buildings = {
 			infrastructure = 2
@@ -60,5 +64,5 @@ state={
 	}
 	manpower=1606000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev2
 }

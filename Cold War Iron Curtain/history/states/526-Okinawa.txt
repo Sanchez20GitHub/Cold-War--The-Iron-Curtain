@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = decent
 		add_core_of = JAP
 		1972.1.1 = {
 			owner = JAP
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=578000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = BRA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		victory_points = {
 			10513 20
 		}
@@ -31,7 +35,7 @@ state={
 	provinces={
 		1583 5112 5167 5186 7553 7636 10360 10432 10513 10947 10994 11003 11008 12438 12937 12972 
 	}
-	manpower=45595497
+	manpower=2595497
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev2
 }

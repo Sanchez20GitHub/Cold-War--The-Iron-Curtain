@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = JAP
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		add_core_of = JAP
 		buildings = {
 			infrastructure = 1
@@ -40,5 +44,5 @@ state={
 	}
 	manpower=9069000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=pop7dev2
 }
