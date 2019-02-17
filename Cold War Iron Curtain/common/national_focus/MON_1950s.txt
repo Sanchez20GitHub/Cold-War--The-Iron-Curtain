@@ -1257,9 +1257,14 @@ focus_tree = {
 		x = 28
 		y = 11
 		completion_reward = {
+			custom_effect_tooltip = "Mongolia Shall Unite With PRC"
+			hidden_effect = {
 			news_event = mongolia_prc.100
+			PRC = {
 			annex_country = { target = PRC transfer_troops = yes }
-			change_tag_from = PRC
+			change_tag_from = MON
+			}
+		}
 		}
 	}
 	focus = {
