@@ -5,13 +5,16 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = tropical
+		set_state_flag = freshwatersea
+		set_state_flag = micro
+		set_state_flag = semideveloped
 		victory_points = {
 			7617 5 
 		}
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1
-0
 			air_base = 6
 			7617 = {
 				naval_base = 4
@@ -32,5 +35,5 @@ state={
 	}
 	manpower=39467
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=pop1
 }

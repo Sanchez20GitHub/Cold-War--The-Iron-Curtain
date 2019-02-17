@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = abjectpoor
 		add_core_of = PLU
 		1986.1.1 = {
 		    owner = PLU
@@ -31,5 +35,5 @@ state={
 	}
 	manpower=7441
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pop1
 }

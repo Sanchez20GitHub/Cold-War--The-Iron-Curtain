@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = CHI
+		set_state_flag = desertlush
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		add_core_of = CHI
 		add_core_of = PRC
 		add_core_of = SIK
@@ -32,7 +36,7 @@ state={
 	provinces={
 		1838 4704 4709 4788 4843 7732 10614 10674 10691 10839 12524 12598 12656 12671 
 	}
-	manpower=1780500
+	manpower=1280500
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop1
 }

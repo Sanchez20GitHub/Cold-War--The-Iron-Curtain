@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = UAE
+		set_state_flag = desert
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		add_core_of = UAE
 		victory_points = {
 			7960 5 
@@ -33,5 +37,5 @@ state={
 	}
 	manpower=220000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

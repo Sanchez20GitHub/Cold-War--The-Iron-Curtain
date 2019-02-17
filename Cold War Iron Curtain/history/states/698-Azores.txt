@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = POR
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = poor
 		victory_points = {
 			1751 5 
 		}
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=212012
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }
