@@ -34,12 +34,8 @@ set_technology = {
 
 	iw_armored_vehicles = 1
 	light_tanks_1 = 1
-	light_tanks_2 = 1
 	main_battle_tanks = 1
-	main_battle_tanks_1 = 1
 	
-	mechanized_infantry = 1
-	mechanized_infantry2 = 1
 	motorised_infantry = 1
 	
 	sp_rocket1 = 1
@@ -108,7 +104,7 @@ set_technology = {
 
 add_ideas = {
 	population_growth_explosion
-	limited_conscription
+	service_by_requirement
 	foreign_aggression_policy_6
 	soviet_client
 }
