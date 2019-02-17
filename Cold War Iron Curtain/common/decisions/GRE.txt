@@ -139,7 +139,7 @@ GRE_MP_category = {
 	
 }
 
-GRE_1st_energy_program_category = {
+GRE_energy_program_category = {
 
     GRE_aliberi = {
 		icon = generic_construction
