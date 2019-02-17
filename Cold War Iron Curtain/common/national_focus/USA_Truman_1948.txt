@@ -19,19 +19,7 @@ focus_tree = {
 		y = 0
 		completion_reward = {
 			add_political_power = 200
-			every_country = {
-				set_variable = { cgBase = modifier@consumer_goods_factor  } 
-				set_variable = { peBase = modifier@production_factory_max_efficiency_factor } 
-				add_to_variable = { peBase = 1 } 
-				set_variable = { totCiv = num_of_civilian_factories  } 
 
-				divide_variable = { cgBase = peBase } 
-				multiply_variable = { totCiv = cgBase }
-				multiply_variable = { totCiv = 4 }
-				set_variable = { gdp = totCiv  } 
-						
-			}
-			#70,300M.$	
 		}
 	}
 	focus = {

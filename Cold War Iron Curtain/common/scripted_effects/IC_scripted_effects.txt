@@ -9,6 +9,7 @@ ic_pulse = {
 	every_owned_state = {
 		state_infra_modifier_setup = yes
 	}
+	gdpCalc = yes
 	if = {
 		limit = {
 			tag = USA
