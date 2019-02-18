@@ -14,7 +14,9 @@ focus_tree = {
 		cost = 5,00
 		x = 14
 		y = 0
-
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = PAK_assesment_of_the_military_situation
@@ -48,14 +50,16 @@ focus_tree = {
 	}
 	focus = {
 		id = PAK_new_blood_in_the_bureaucracy
-		icon = GFX_goal_unknown
+		icon = GFX_Kitchen_Cabinet
 		cost = 10,00
 		prerequisite = {
 			focus = PAK_road_to_decolonization
 		}
 		x = 6
 		y = 2
-
+		completion_reward = {
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = PAK_the_acts
@@ -70,14 +74,16 @@ focus_tree = {
 	}
 	focus = {
 		id = PAK_state_bank_of_pakistan
-		icon = GFX_goal_unknown
+		icon = GFX_Money
 		cost = 10,00
 		prerequisite = {
 			focus = PAK_the_acts
 		}
 		x = 4
 		y = 4
-
+		completion_reward = {
+			add_ideas = centralise_banks
+		}
 	}
 	focus = {
 		id = PAK_strengthening_the_new_nation
@@ -1119,14 +1125,16 @@ focus_tree = {
 	}
 	focus = {
 		id = PAK_develop_the_rural_land
-		icon = GFX_goal_unknown
+		icon = GFX_Focus_RuralHousing
 		cost = 10,00
 		prerequisite = {
 			focus = PAK_stability_in_the_border_region
 		}
 		x = 7
 		y = 10
-
+		completion_reward = {
+			add_ideas = rural_development_spirit
+		}
 	}
 	focus = {
 		id = PAK_create_assembly_of_weapon_smiths
