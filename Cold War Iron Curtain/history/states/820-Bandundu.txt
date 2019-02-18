@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = DOC
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = undeveloped
 		add_core_of = DOC
 		buildings = {
 			infrastructure = 2
@@ -24,5 +28,5 @@ state={
 	}
 	manpower=440948
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

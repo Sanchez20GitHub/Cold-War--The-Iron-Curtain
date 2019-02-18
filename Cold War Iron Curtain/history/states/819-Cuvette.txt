@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ROC
+		set_state_flag = tropical
+		set_state_flag = river
+		set_state_flag = large
+		set_state_flag = poor
 		add_core_of = ROC
 		buildings = {
 			infrastructure = 1
@@ -24,5 +28,5 @@ state={
 	}
 	manpower=156044
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pop1
 }
