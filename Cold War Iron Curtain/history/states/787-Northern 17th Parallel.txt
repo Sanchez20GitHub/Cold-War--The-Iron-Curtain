@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = VIE
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = verypoor
 		add_core_of = VIE
 		add_core_of = VIN
 		buildings = {
@@ -30,7 +34,7 @@ state={
 	provinces={
 		7280 
 	}
-	manpower=200000
+	manpower=13000
 	buildings_max_level_factor=1.000
-	state_category=enclave
+	state_category=pop1
 }

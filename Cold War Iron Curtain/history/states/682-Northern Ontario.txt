@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = CAN
+		set_state_flag = boreal
+		set_state_flag = freshwatersea
+		set_state_flag = large
+		set_state_flag = developed
 		victory_points = {
 			3778 20 
 		}
@@ -29,5 +33,5 @@ state={
 	}
 	manpower=13448494
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop10dev1
 }

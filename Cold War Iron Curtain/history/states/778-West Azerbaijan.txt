@@ -4,10 +4,14 @@ state={
 	name="STATE_778"
 	manpower = 207583
 	
-	state_category = rural
+	state_category = pop1dev1
 
 	history={
 		owner = PER
+		set_state_flag = desert
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2

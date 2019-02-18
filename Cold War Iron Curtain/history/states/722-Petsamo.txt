@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = NOR
+		set_state_flag = cold
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			9116 3 
 		}

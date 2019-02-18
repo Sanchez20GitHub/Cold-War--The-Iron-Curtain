@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = poor
 		1986.1.1 = {
 			add_core_of = USA
 
@@ -35,5 +39,5 @@ state={
 	}
 	manpower=21657
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pop1
 }

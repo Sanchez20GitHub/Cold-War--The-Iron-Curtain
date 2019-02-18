@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = poor
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -25,5 +29,5 @@ state={
 	}
 	manpower=275918
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pop1
 }

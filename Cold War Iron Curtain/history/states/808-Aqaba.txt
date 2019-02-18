@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = JOR
+		set_state_flag = desert
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=432000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

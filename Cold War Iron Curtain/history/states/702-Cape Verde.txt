@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = POR
+		set_state_flag = desertlush
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		1951.1.1 = {
 			add_core_of = POR
 
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=178066
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

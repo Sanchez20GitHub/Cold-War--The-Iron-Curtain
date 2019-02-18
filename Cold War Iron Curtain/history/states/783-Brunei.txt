@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = BRU
+		set_state_flag = tropical
+		set_state_flag = river
+		set_state_flag = micro
+		set_state_flag = poor
 		add_core_of = BRU
 		victory_points = {
 			7387 5 
@@ -42,5 +46,5 @@ state={
 	}
 	manpower=417200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

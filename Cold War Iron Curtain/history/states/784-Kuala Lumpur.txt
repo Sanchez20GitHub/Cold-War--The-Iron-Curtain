@@ -10,6 +10,10 @@ state={
 
 	history={
 		owner = MAL
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		add_core_of = MAL
 		add_core_of = MLA
 		1960.7.1 = {
@@ -47,5 +51,5 @@ state={
 	}
 	manpower=3653325
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop3dev2
 }

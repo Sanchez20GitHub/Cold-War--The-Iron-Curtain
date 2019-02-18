@@ -6,6 +6,10 @@ state={
 	}
 	history={
 		owner = TUN
+		set_state_flag = desert
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		victory_points = {
 			11935 1 
 		}
@@ -25,5 +29,5 @@ state={
 	}
 	manpower=427824
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }
