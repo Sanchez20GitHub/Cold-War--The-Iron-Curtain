@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = DRY
+		set_state_flag = desert
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = semideveloped
 		1990.5.22 ={
 		    owner = YEM
 		    remove_core_of = DRY
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=875000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

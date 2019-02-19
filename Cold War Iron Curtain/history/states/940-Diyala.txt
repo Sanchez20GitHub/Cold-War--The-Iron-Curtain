@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = IRQ
+		set_state_flag = desert
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = poor
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -21,7 +25,7 @@ state={
 	provinces={
 		10793 13354 
 	}
-	manpower=1443200
+	manpower=443200
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1
 }
