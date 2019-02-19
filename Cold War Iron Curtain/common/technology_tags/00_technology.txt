@@ -116,6 +116,21 @@ technology_categories = {
 	interwebs_tech
 	transistor_tech
 	supercomputer_tech
+	infrastructure
+	inframanagement
+	infrastate
+	inframunicipal
+	energy
+	rgo
+	grid
+	renewables
+	gas
+	ecoenergy
+	water
+	organic
+	agriculture
+	altvehicles
+	biofuels
 }
 
 technology_folders = {

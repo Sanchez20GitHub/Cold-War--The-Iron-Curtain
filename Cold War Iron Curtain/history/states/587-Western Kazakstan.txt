@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = lushdesert
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=245133
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

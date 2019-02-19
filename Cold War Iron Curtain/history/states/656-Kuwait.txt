@@ -3,7 +3,7 @@ state={
 	name="STATE_656"
 	manpower =152249
 	
-	state_category =rural
+	state_category = pop1dev2
 
 		resources = {
 		oil = 146
@@ -11,6 +11,10 @@ state={
 	
 	history={
 		owner = KUW
+		set_state_flag = desert
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = semideveloped
 		add_core_of = KUW
 		add_core_of = IRQ
 		victory_points = {

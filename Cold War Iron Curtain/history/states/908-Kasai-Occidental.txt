@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = DOC
+		set_state_flag = tropical
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = poor
 		add_core_of = DOC
 	    1998.1.1 = {
 			add_core_of = COG
@@ -26,7 +30,7 @@ state={
 	provinces={
 		2024 4128 7716 9986 13565 13566 13571 13574 
 	}
-	manpower=5366068
+	manpower=1366068
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

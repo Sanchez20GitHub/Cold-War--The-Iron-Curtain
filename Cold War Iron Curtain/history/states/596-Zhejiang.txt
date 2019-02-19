@@ -11,6 +11,10 @@ state={
 
 	history={
 		owner = CHI
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = medium
+		set_state_flag = abjectpoor
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -63,7 +67,7 @@ state={
 	provinces={
 		1055 1096 1168 1195 4013 4042 4099 7058 7086 7146 7174 7191 9944 9972 9974 10014 10058 10086 10101 11920 11947 11991 12059 
 	}
-	manpower=21230700
+	manpower=14530700
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop10
 }

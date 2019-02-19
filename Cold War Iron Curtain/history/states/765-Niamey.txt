@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SEN
+		set_state_flag = desertlush
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -38,5 +42,5 @@ state={
 	}
 	manpower=2559702
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop2dev1
 }

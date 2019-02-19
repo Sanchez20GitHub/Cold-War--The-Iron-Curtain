@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = IRQ
+		set_state_flag = desertlush
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -21,5 +25,5 @@ state={
 	}
 	manpower=770500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

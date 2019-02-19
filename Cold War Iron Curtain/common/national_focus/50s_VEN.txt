@@ -875,7 +875,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ven_50_farms
-		icon = GFX_goal_unknown
+		icon = GFX_plantations
 		cost = 10.00
 		prerequisite = {
 			focus = ven_50_venmilcomplex

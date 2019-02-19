@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = FRA
+		set_state_flag = desert
+		set_state_flag = river
+		set_state_flag = micro
+		set_state_flag = semideveloped
 		1946.1.1 = {
 			owner = SYR
 
@@ -35,5 +39,5 @@ state={
 	}
 	manpower=312994
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

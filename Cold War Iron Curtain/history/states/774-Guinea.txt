@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SEN
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -36,5 +40,5 @@ state={
 	}
 	manpower=3094000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop3dev1
 }

@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = SIK
+		set_state_flag = desertlush
+		set_state_flag = basic
+		set_state_flag = medium
+		set_state_flag = poor
 		victory_points = {
 			4823 1 
 		}
@@ -39,5 +43,5 @@ state={
 	}
 	manpower=670800
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

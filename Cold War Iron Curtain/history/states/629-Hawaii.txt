@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = developed
 		1959.1.1 = {
 			add_core_of = USA
 
@@ -36,5 +40,5 @@ state={
 	}
 	manpower=498000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev3
 }

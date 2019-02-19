@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ROC
+		set_state_flag = desertlush
+		set_state_flag = lakes
+		set_state_flag = large
+		set_state_flag = undeveloped
 		victory_points = {
 			2081 10 
 		}
@@ -42,5 +46,5 @@ state={
 	}
 	manpower=2502314
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev2
 }

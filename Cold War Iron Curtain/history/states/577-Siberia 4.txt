@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = cold
+		set_state_flag = riverlarge
+		set_state_flag = large
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -24,5 +28,5 @@ state={
 	}
 	manpower=29299
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

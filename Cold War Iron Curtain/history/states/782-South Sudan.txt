@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SUD
+		set_state_flag = desertlush
+		set_state_flag = riverlarge
+		set_state_flag = large
+		set_state_flag = poor
 		add_core_of = SUD
 		add_core_of = SSU
 		victory_points = {
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=2582929
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2dev1
 }

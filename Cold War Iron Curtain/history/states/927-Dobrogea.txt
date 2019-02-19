@@ -3,6 +3,10 @@ state={
 	name="STATE_927"
 		history={
 		owner = ROM
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = developed
 		victory_points = { 9635 5 }
 		buildings = {
 			infrastructure = 3
@@ -23,5 +27,5 @@ state={
 	}
 	manpower=684082
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev3
 }

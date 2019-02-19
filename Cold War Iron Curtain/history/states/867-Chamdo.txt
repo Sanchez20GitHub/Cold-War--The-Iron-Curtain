@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = TIB
+		set_state_flag = mountains
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = poor
 		add_core_of = CHI
 		add_core_of = TIB
 		add_core_of = PRC
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=168200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pop1dev1
 }

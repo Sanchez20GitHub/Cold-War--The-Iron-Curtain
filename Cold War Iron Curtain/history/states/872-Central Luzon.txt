@@ -1,13 +1,17 @@
 state={
 	id=872
 	name="STATE_872"
-	state_category =town
+	state_category =pop1dev2
 	resources={
 		rubber =9
 		oil = 1
 	}
 	history={
 		owner = PHI
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

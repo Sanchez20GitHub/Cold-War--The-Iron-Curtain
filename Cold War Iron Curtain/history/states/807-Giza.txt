@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = EGY
+		set_state_flag = desertlush
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=2286596
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop2dev1
 }

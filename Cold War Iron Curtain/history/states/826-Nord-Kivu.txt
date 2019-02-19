@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = DOC
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = poor
 		add_core_of = DOC
 		add_core_of = COG
 		1965.1.1 = {
@@ -36,5 +40,5 @@ state={
 	}
 	manpower=876567
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

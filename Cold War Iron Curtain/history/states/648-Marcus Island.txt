@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = preindustrial
 		add_core_of = JAP
 		1968.1.1 = {
 			owner = JAP
@@ -29,5 +33,5 @@ state={
 	}
 	manpower=42
 	buildings_max_level_factor=1.000
-	state_category=tiny_island
+	state_category=pop1
 }

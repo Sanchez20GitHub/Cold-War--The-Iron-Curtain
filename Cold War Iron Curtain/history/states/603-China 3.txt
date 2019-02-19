@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = CHI
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = medium
+		set_state_flag = abjectpoor
 		add_core_of = CHI
 		add_core_of = PRC
 		1950.3.1 = {
@@ -30,7 +34,7 @@ state={
 	provinces={
 		1884 4192 4325 4504 4532 7521 7549 7577 8095 10616 10763 10819 
 	}
-	manpower=9043200
+	manpower=6143200
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop5
 }

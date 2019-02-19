@@ -4,7 +4,7 @@ state={
 	name="STATE_868"
 	manpower = 977100
 	
-	state_category = city
+	state_category = pop1dev2
 	
 	resources={
 		oil=1
@@ -12,6 +12,10 @@ state={
 
 	history={
 		owner = SKK
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = semideveloped
 		add_core_of = SKK
 		add_core_of = RAJ
 		1975.1.1 = {
