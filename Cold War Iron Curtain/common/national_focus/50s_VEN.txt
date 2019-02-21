@@ -85,6 +85,7 @@ focus_tree = {
 				}
 
 	}
+	
 	focus = {
 		id = ven_50_paez
 		icon = GFX_focus_generic_navy_battleship2
@@ -734,9 +735,10 @@ focus_tree = {
 		y = 1
 
 	}
+	
 	focus = {
 		id = ven_50_expand_dong
-		icon = GFX_GFX_industrial_methods
+		icon = GFX_industrial_methods
 		cost = 10.00
 		prerequisite = {
 			focus = ven_50_rentier_state
@@ -1309,9 +1311,10 @@ focus_tree = {
 		y = 15
 
 	}
+	
 	focus = {
 		id = ven_50_ban_opposition
-		icon = GFX_GFX_american_fascism
+		icon = GFX_american_fascism
 		cost = 10.00
 		prerequisite = {
 			focus = ven_50_suppression
@@ -1337,6 +1340,7 @@ focus_tree = {
 		y = 15
 
 	}
+	
 	focus = {
 		id = ven_50_reverse_course
 		icon = GFX_focus_cze_german_puppet
