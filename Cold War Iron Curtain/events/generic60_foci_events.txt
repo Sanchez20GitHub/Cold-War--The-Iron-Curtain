@@ -1,4 +1,4 @@
-add_namespace = ic_generic60_events
+﻿add_namespace = ic_generic60_events
 news_event = {
 	id = ic_generic60_events.1
 	title = ic_generic60_events.1.t

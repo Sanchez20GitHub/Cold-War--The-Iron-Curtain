@@ -1,4 +1,4 @@
-add_namespace = VEN_event
+﻿add_namespace = VEN_event
 country_event = {
 	id = VEN_event.0
 	title = VEN_event.0.t

@@ -19,7 +19,6 @@ equipments = {
 
 		defense = 15
 		breakthrough = 7
-		soft_attack = 40
 		
 		build_cost_ic = 3.25
 		#Defensive Abilities

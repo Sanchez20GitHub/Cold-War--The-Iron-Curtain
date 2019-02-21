@@ -664,6 +664,9 @@ technologies = {
 		enable_subunits = {
 			light_armor
 		}
+		enable_subunits = {
+			light_armor_airborne
+		}
 		
 		research_cost = 2
 		start_year = 1942
