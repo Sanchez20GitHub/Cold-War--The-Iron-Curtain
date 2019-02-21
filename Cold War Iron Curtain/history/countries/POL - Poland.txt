@@ -210,7 +210,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Stanisław Mikolajczyk"
 	picture = "Stanislaw_Mikolajczyk.dds"
-	ideology = christian_centrist
+	ideology = centrism
 }
 
 create_country_leader = {
