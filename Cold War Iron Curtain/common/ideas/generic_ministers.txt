@@ -6,7 +6,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { communist_believer }
 			}
 			monarchy = {
@@ -14,7 +14,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { monarchist_advisor }
 			}
 			market_soc = {
@@ -22,7 +22,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { market_socialist_activist }
 			}
 			market_soc = {
@@ -30,7 +30,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { market_socialist_activist }
 			}
 			revsoc = {
@@ -38,7 +38,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { trotskyism_revolutionary }
 			}
 			revsoc = {
@@ -46,7 +46,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				}
-				picture = Sreten_Zujovic
+				picture = mr_bean
 				traits = { conservative_reformer }
 			}
 	}
@@ -58,7 +58,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Smith
+			picture = mr_bean
 			
 			traits = { Globalist_minister  }
 		}
@@ -68,7 +68,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = GreatMonarch
+			picture = mr_bean
 			
 			traits = { Foreign_Aid_Advocate_minister  }
 		}
@@ -78,7 +78,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Miamoto
+			picture = mr_bean
 			
 			traits = { Tax_Shelterer_minister  }
 		}
@@ -88,7 +88,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Morsay
+			picture = mr_bean
 			
 			traits = { Nationalist_minister  }
 		}
@@ -98,7 +98,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Personn
+			picture = mr_bean
 			
 			traits = { International_Scammer_minister  }
 		}
@@ -110,7 +110,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Todd
+			picture = mr_bean
 			
 			traits = { Progressive_Educator_minister  }
 		}	
@@ -120,7 +120,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			}
-			picture = Dany
+			picture = mr_bean
 			
 			traits = { Conservative_Educator_minister  }
 		}	
@@ -130,7 +130,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Gabe
+			picture = mr_bean
 			
 			traits = { Traditional_Educator_minister  }
 		}	
@@ -140,7 +140,7 @@ ideas = {
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = GRE }
 			}
-			picture = Renzi
+			picture = mr_bean
 			
 			traits = { Militarist_Educator_minister  }
 		}	
@@ -150,7 +150,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Shigeru
+			picture = mr_bean
 			
 			traits = { Radical_Educator_minister  }
 		}	
@@ -162,7 +162,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = BernardHL
+			picture = mr_bean
 			
 			traits = { Welfare_Statist_minister  }
 		}	
@@ -172,7 +172,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Yost
+			picture = mr_bean
 			
 			traits = { Welfare_Advocate_minister  }
 		}	
@@ -182,7 +182,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Benalla
+			picture = mr_bean
 			
 			traits = { Cost_Cutter_minister  }
 		}	
@@ -192,7 +192,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Attali
+			picture = mr_bean
 			
 			traits = { Financial_Hawk_minister  }
 		}	
@@ -204,7 +204,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Willy_Shatner
+			picture = mr_bean
 			
 			traits = { Police_Statist_minister  }
 		}	
@@ -214,7 +214,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Dan_Jonson
+			picture = mr_bean
 			
 			traits = { Auditor_minister  }
 		}	
@@ -224,7 +224,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = John_Nasa
+			picture = mr_bean
 			
 			traits = { Intelligence_Specialist_minister  }
 		}	
@@ -234,7 +234,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			}
-			picture = Ulk_Khogan
+			picture = mr_bean
 			
 			traits = { Cultural_Militarist_minister  }
 		}	

@@ -15,8 +15,9 @@ focus_tree = {
 		cost = 10.00
 		x = 6
 		y = 0
-		completion_reward = {
-		}
+			available = {
+					always = no
+				}
 	}
 	focus = {
 		id = FRA_RPF_1953
@@ -27,8 +28,9 @@ focus_tree = {
 		cost = 10.00
 		x = 4
 		y = 1
-		completion_reward = {
-		}
+ 			available = {
+					always = no
+				}
 	}
 	focus = {
 		id = FRA_Strategic_Nationalization_1953
@@ -41,6 +43,8 @@ focus_tree = {
 		x = 7
 		y = 2
 		completion_reward = {
+
+		    add_ideas = fra_nationalizations
 		}
 	}
 	focus = {
@@ -54,6 +58,8 @@ focus_tree = {
 		x = 5
 		y = 2
 		completion_reward = {
+
+		    add_ideas = welfare_state_plus
 		}
 	}
 	focus = {
@@ -181,8 +187,9 @@ focus_tree = {
 		cost = 10.00
 		x = 8
 		y = 1
-		completion_reward = {
-		}
+			available = {
+					always = no
+				}
 	}
 	focus = {
 		id = FRA_Anti_Communism_1953
@@ -212,6 +219,9 @@ focus_tree = {
 		x = 8
 		y = 3
 		completion_reward = {
+
+            add_ideas = European_political_Cooperation
+
 		}
 	}
 	focus = {
@@ -224,6 +234,9 @@ focus_tree = {
 		x = 8
 		y = 4
 		completion_reward = {
+
+            add_ideas = gen_pro_employer_1       
+
 		}
 	}
 	focus = {
@@ -248,8 +261,9 @@ focus_tree = {
 		cost = 10.00
 		x = 11
 		y = 1
-		completion_reward = {
-		}
+			available = {
+					always = no
+				}
 	}
 	focus = {
 		id = FRA_Protect_Small_Buisness_1953
@@ -261,6 +275,9 @@ focus_tree = {
 		x = 10
 		y = 2
 		completion_reward = {
+
+        add_ideas = fra_small_buisness
+
 		}
 	}
 	focus = {

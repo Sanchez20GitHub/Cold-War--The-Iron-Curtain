@@ -68,9 +68,6 @@ ideologies = {
 			liberal_conservatism = {
 			}
 			
-			conservative_liberalism = {
-			}
-			
 		}
 		
 		dynamic_faction_names = {
@@ -399,9 +396,6 @@ ideologies = {
 	
 		types = {
 			centrism = {
-			}
-			
-			christian_centrist = {
 			}
 		}
 		

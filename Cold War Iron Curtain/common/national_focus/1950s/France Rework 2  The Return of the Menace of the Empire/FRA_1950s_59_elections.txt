@@ -176,6 +176,11 @@ focus_tree = {
 		x = 7
 		y = 2
 		completion_reward = {
+			FRA = {
+				add_opinion_modifier = {
+					target = PRC
+					modifier = large_increase
+				}
 		}
 	}
 	focus = {
