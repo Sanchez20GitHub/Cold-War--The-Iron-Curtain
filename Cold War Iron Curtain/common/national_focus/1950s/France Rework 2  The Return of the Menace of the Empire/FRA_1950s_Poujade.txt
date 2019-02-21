@@ -4,15 +4,12 @@ focus_tree = {
 		factor = 0
 	}
 	default = no
-	shared_focus = FRA_60s_The_French_Military
-	shared_focus = FRA_60s_Urbanization
+	
 	focus = {
-		id = FRA_1960s_1966_Elections
+		id = FRA_1950s_Poujadists_Majority_56
 		icon = GFX_unknown
 		cost = 10.00
 		x = 15
 		y = 0
-		completion_reward = {
-		}
 	}
 }

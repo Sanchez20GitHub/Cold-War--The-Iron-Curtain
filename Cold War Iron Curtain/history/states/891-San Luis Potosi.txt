@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = MEX
+		set_state_flag = desertlush
+		set_state_flag = river
+		set_state_flag = medium
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -20,5 +24,5 @@ state={
 	}
 	manpower=4584471
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop4dev2
 }
