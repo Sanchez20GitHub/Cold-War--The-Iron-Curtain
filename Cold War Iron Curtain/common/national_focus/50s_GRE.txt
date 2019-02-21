@@ -10,7 +10,8 @@ focus_tree = {
 	default = no
 
 	shared_focus = GRE_establishing_ministry_of_defence
-
+    shared_focus = GRE_Cyprus_Question 
+	
 ###Marshall plan
 
     focus = {
@@ -26,7 +27,7 @@ focus_tree = {
 				}
 		
 	
-		x = 19
+		x = 29
 		y = 0
 
 	}
@@ -83,7 +84,7 @@ focus_tree = {
 		id = GRE_Elections_of_1950
 		icon = GFX_Greek_election
 		cost = 10.00
-		x = 28
+		x = 38
 		y = 0
 			available = {
 					has_global_flag = greek_elections_1950
@@ -586,7 +587,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 28
+		x = 38
 		y = 10
         
 		available = {
@@ -1044,7 +1045,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 48
+		x = 58
 		y = 0
         
 		available = {
@@ -1991,7 +1992,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 48
+		x = 58
 		y = 10
         
 		available = {
@@ -2533,7 +2534,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 48
+		x = 58
 		y = 17
         
 		available = {
