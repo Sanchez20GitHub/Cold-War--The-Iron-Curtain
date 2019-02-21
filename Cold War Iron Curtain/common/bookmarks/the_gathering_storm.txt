@@ -110,7 +110,9 @@ bookmarks = {
                 comecon_member				
 			}
 			focuses = {
-				
+			DDR_formally_establish_the_ddr
+			DDR_Cultural_Policies
+			DDR_Ulbricht_Consolidates_Power
 			}
 		}
 		

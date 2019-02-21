@@ -8,7 +8,7 @@ GRE_MP_category = {
 	}
 }
 
-GRE_1st_energy_program_category = {
+GRE_energy_program_category = {
 	icon = generic
 
 	picture = GFX_decision_cat_generic_mefo_bills

@@ -139,17 +139,6 @@ form_persian_empire_category = {
 	}
 }
 
-form_byzantine_empire_category = {
-
-	icon = generic_formable_nations
-
-	picture = GFX_decision_cat_generic_byzantine_empire
-
-	allowed = {
-		has_dlc = "Waking the Tiger"
-	}
-}
-
 form_arabia_category = {
 
 	icon = generic_formable_nations
