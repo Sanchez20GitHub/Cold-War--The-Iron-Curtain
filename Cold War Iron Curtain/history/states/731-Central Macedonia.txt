@@ -16,7 +16,9 @@ state={
 			PDG = {
 				set_province_controller = 3526
 				set_province_controller = 3844
-
+                set_province_controller = 9837
+				set_province_controller = 841
+				set_province_controller = 3980
 			}
 
 		}
@@ -24,6 +26,9 @@ state={
 			GRE = {
 				set_province_controller = 3526
 				set_province_controller = 3844
+                set_province_controller = 9837
+				set_province_controller = 841
+				set_province_controller = 3980
 
 			}
 
