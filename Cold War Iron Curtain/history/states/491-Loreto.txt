@@ -4,10 +4,14 @@ state={
 	name="STATE_491"
 	manpower = 176626
 
-	state_category = pastoral
+	state_category = pop1
 
 	history={
 		owner = PRU
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = large
+		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2

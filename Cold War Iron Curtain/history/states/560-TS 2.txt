@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = mountainshot
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = undeveloped
 		add_core_of = ARM
 		add_core_of = SOV
 		buildings = {
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=141771
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

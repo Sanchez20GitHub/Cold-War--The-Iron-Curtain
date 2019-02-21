@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = IRQ
+		set_state_flag = mountainshot
+		set_state_flag = river
+		set_state_flag = micro
+		set_state_flag = semideveloped
 		add_core_of = KUR
 		1976.1.1 = {
 			set_state_name = "At-Ta'mim"
@@ -41,5 +45,5 @@ state={
 	}
 	manpower=382741
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

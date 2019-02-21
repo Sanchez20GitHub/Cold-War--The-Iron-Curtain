@@ -8,6 +8,13 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = cold
+		set_state_flag = freshwatersea
+		set_state_flag = massive
+		set_state_flag = verypoor
+		resources={
+		oil=87.000
+	}
 		victory_points = {
 			10641 1 
 		}
@@ -29,5 +36,5 @@ state={
 	}
 	manpower=407866
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pop1
 }

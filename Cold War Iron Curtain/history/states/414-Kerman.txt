@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = PER
+		set_state_flag = mountainshot
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1
@@ -23,5 +27,5 @@ state={
 	}
 	manpower=486013
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pop1
 }

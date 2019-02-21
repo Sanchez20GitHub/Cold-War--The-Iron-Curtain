@@ -4,10 +4,14 @@ state={
 	name="STATE_654" # Gorno-Altaysk
 	manpower = 153510
 	
-	state_category = wasteland
+	state_category = pop1
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = preindustrial
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1

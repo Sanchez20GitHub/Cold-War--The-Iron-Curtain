@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = CHI
+		set_state_flag = temperate
+		set_state_flag = freshwatersea
+		set_state_flag = small
+		set_state_flag = abjectpoor
 		add_core_of = CHI
 		add_core_of = PRC
 		1949.1.1 = {
@@ -40,7 +44,7 @@ state={
 	provinces={
 		7014 12076 
 	}
-	manpower=24115000
+	manpower=16515000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop15
 }

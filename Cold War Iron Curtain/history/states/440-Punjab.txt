@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = RAJ
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = poor
 		1947.1.1 = {
 			owner = PAK
 
@@ -50,5 +54,5 @@ state={
 	}
 	manpower=13665000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pop10
 }

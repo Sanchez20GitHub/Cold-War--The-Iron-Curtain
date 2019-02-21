@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = RAJ
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = verypoor
 		1947.1.1 = {
 			owner = PAK
 
@@ -28,7 +32,7 @@ state={
 	provinces={
 		2843 7078 7124 9935 10035 11911 
 	}
-	manpower=15687759
+	manpower=5687759
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop5
 }

@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = INS
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		add_core_of = INS
 		add_core_of = INO
 		add_core_of = DAR
@@ -58,5 +62,5 @@ state={
 	}
 	manpower=4403490
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop4dev1
 }

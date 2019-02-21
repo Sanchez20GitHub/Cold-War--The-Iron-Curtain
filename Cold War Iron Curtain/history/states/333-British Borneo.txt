@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = SWK
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = medium
+		set_state_flag = verypoor
 		add_core_of = MAL
 		add_core_of = SWK
 		1946.1.1 = {
@@ -49,5 +53,5 @@ state={
 	}
 	manpower=2770000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2
 }

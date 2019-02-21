@@ -3,13 +3,17 @@ state={
 	id=502
 	name="STATE_502"
 	manpower = 2959600
-	state_category = town
+	state_category = pop2dev2
 	resources = {
 		steel = 23
 	}
 
 	history={
 		owner = BRA
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

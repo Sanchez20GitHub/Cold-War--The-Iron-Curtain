@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = semideveloped
 		add_core_of = SOV
 		add_core_of = MLD
 		victory_points = { 6600 5 }
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=502457
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

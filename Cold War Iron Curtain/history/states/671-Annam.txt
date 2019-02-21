@@ -10,6 +10,10 @@ state={
 
 	history={
 		owner = VIN
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = poor
 		1946.1.1 = {
 			owner = VIE
 			VIN = {
@@ -51,5 +55,5 @@ state={
 	}
 	manpower=2370000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev1
 }

@@ -1,13 +1,17 @@
 state={
 	id=625
 	name="STATE_625"
-	manpower = 7138724
+	manpower = 3638724
 	resources = {
 		chromium = 13
 	}
-	state_category =town
+	state_category =pop3dev1
 	history={
 		owner = PHI
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure =1
 		}

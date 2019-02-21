@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = micro
+		set_state_flag = developed
 		victory_points = {
 			11370 20 
 		}
@@ -34,5 +38,5 @@ state={
 	}
 	manpower=1163163
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop1dev3
 }

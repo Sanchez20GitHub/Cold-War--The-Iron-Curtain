@@ -11,7 +11,7 @@ state=
 		
 	}
 	
-	state_category = pop1
+	state_category = pop1dev2
 
 	history=
 	{

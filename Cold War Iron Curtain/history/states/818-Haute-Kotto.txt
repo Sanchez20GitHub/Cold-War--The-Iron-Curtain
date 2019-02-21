@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ROC
+		set_state_flag = temperate
+		set_state_flag = basic
+		set_state_flag = large
+		set_state_flag = verypoor
 		add_core_of = CAR
 		add_core_of = ROC
 		buildings = {
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=482744
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

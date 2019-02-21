@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ETH
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = poor
 		buildings = {
 			infrastructure = 3
 			state_infrastructure = 3
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=3384569
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop3dev1
 }

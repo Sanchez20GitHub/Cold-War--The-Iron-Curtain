@@ -4,7 +4,7 @@ state={
 	name="STATE_121" # Lothian
 	manpower = 1431624
 	
-	state_category = pop1
+	state_category = pop1dev2
 
 	history={
 		owner = ENG

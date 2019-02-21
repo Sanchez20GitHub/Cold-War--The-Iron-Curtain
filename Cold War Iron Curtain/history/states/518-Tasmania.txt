@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = AST
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = decent
 		victory_points = {
 			2189 1 
 		}
@@ -33,5 +37,5 @@ state={
 	}
 	manpower=224000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }

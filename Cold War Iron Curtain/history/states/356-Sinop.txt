@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = TUR
+		set_state_flag = lushdesert
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		victory_points = {
 			6938 5 
 		}
@@ -32,5 +36,5 @@ state={
 	}
 	manpower=860589
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev2
 }

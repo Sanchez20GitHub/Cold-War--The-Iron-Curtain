@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SOL
+		set_state_flag = tropical
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = semideveloped
 		add_core_of = SOL
 		buildings = {
 			infrastructure = 1
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=89792
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1
 }

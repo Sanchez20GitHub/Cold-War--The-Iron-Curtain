@@ -2,12 +2,16 @@ state={
 	id=227
 	name="STATE_227"
 	manpower = 3767336
-	state_category = city
+	state_category = pop3dev2
 	resources = {
 		steel = 23
 	}
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		1961.11.10 ={
 		    set_state_name = "Donetsk"
 			set_province_name = { id = 6474 name = "Donetsk" }

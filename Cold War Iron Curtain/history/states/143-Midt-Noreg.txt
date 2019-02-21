@@ -4,7 +4,7 @@ state={
 	name="STATE_143"
 	manpower = 280271
 	
-	state_category = pop1
+	state_category = pop1dev1
 
 	history={
 		owner = NOR

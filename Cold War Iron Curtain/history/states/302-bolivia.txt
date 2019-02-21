@@ -9,6 +9,10 @@ state={
 
 	history={
 		owner = BOL
+		set_state_flag = desertlush
+		set_state_flag = lakes
+		set_state_flag = large
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -31,5 +35,5 @@ state={
 	}
 	manpower=2044500
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop2dev2
 }

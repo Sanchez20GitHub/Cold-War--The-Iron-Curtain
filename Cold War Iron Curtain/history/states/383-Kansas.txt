@@ -8,10 +8,14 @@ state={
 		steel = 42
 	}
 	
-	state_category = city
+	state_category = pop1dev2
 
 	history={
 		owner = USA
+		set_state_flag = temperate
+		set_state_flag = river
+		set_state_flag = medium
+		set_state_flag = decent
 		victory_points = {
 			7892 1
 		}

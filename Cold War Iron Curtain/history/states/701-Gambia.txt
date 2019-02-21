@@ -3,9 +3,13 @@ state={
 	name="STATE_701"
 	manpower =271372
 	
-	state_category = rural
+	state_category = pop1
 	history={
         owner = GAM
+		set_state_flag = tropical
+		set_state_flag = freshwatersea
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		victory_points = {
 			4989 5 
 }

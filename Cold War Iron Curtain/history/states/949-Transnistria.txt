@@ -3,6 +3,10 @@ state={
 	name="STATE_949"
 	history={
 		owner = SOV
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = decent
 		add_core_of = SOV
 		add_core_of = MLD
 		add_core_of = PMR
@@ -30,5 +34,5 @@ state={
 	}
 	manpower=475665
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev2
 }

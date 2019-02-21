@@ -2,13 +2,17 @@ state={
 	id=570
 	name="STATE_570" # Novosibirsk
 	manpower = 1765369
-	state_category =large_town
+	state_category =pop1dev2
 	resources = {
 		tungsten=13
 	}
 
 	history={
 		owner = SOV
+		set_state_flag = boreal
+		set_state_flag = river
+		set_state_flag = medium
+		set_state_flag = semideveloped
 		victory_points = {
 			7274 5 
 		}

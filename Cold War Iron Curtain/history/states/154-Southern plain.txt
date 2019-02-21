@@ -3,7 +3,7 @@ state = {
 	name="STATE_154"
 	manpower = 2735383
 
-	state_category = pop2
+	state_category = pop2dev2
 
 	history = {
 		owner = HUN

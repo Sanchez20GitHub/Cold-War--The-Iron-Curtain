@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = DOM
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -41,5 +45,5 @@ state={
 	}
 	manpower=2908607
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2dev1
 }

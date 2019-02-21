@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = PER
+		set_state_flag = desert
+		set_state_flag = basic
+		set_state_flag = small
+		set_state_flag = preindustrial
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1
@@ -20,5 +24,5 @@ state={
 	}
 	manpower=332362
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pop1
 }

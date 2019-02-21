@@ -10,6 +10,10 @@ state={
 
 	history={
 		owner = SIA
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = small
+		set_state_flag = semideveloped
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -35,5 +39,5 @@ state={
 	}
 	manpower=4105600
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=pop4dev2
 }

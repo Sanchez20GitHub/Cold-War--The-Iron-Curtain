@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = ECU
+		set_state_flag = tropical
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = undeveloped
 	    victory_points = {
 			12798 10 
 		}
@@ -23,5 +27,5 @@ state={
 	}
 	manpower=83933
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pop1
 }

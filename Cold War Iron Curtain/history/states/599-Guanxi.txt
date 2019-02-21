@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = GHA
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = medium
+		set_state_flag = abjectpoor
 		add_core_of = GHA
 		buildings = {
 			infrastructure = 2
@@ -18,7 +22,7 @@ state={
 	provinces={
 		334 9059 9217 10862 12742 12787 
 	}
-	manpower=4780380
+	manpower=2380380
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop2
 }

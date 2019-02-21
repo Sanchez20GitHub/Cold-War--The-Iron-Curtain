@@ -2,9 +2,16 @@
 state={
 	id=575
 	name="STATE_575"
+	resources={
+		steel=87.000
+	}
 
 	history={
 		owner = ZAM
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = verypoor
 		add_core_of = ZAM
 		1951.1.1 = {
 			owner = ZIM
@@ -30,5 +37,5 @@ state={
 	}
 	manpower=2542132
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2dev3
 }
