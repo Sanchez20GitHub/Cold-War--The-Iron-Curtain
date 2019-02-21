@@ -2,7 +2,11 @@
 focus_tree = {
 	id = FRA_1950s_58_Crisis
 	country = {
-		factor = 100
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
 	}
 	default = no
 	shared_focus = FRA_1956_Elections

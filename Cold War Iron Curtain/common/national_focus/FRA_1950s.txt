@@ -1,7 +1,7 @@
 focus_tree = {
 	id = FRA_1950s
 	country = {
-		factor = 100
+		factor = 0
 		modifier = {
 			add = 10
 			tag = FRA
