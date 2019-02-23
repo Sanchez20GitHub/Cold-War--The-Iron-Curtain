@@ -3773,4 +3773,8 @@ spriteTypes = {
 		name = "GFX_ita_pizza"
 		texturefile = "gfx/interface/goals/ItalianPizzaFocus.dds" 
 	}
+	SpriteType = {
+		name = "GFX_Ben_Gurion"
+		texturefile = "gfx/interface/goals/ben_gurion.dds" 
+	}
 }
