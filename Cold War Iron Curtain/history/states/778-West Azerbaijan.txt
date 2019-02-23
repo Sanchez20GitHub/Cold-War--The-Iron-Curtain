@@ -7,7 +7,11 @@ state={
 	state_category = pop1dev1
 
 	history={
-		owner = PER
+		owner = KUR
+		1946.1.1 = {
+			owner = PER
+
+		}
 		set_state_flag = desert
 		set_state_flag = lakes
 		set_state_flag = nominal

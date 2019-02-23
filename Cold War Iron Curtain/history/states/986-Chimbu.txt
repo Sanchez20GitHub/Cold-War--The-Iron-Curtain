@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = AST
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = preindustrial
 		add_core_of = PAP
 		buildings = {
 			infrastructure = 2
@@ -21,5 +25,5 @@ state={
 	}
 	manpower=2854874
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop2
 }

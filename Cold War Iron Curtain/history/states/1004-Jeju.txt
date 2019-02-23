@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = KOR
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = small
+		set_state_flag = semideveloped
 		victory_points = {
 			1177 4
 		}
@@ -26,5 +30,5 @@ state={
 	}
 	manpower=621550
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pop1dev1
 }

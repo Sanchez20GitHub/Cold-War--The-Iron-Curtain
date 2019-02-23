@@ -86,7 +86,13 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Abdullah Öcalan"
+	name = "Qazi Muhammad"
+	picture = "Qazi_Muhammad.dds"
+	ideology = democratic_socialist
+}
+
+create_country_leader = {
+    name = "Abdullah Öcalan"
 	picture = "Abdullah_Ocalan.dds"
 	ideology = marxism_leninism
 }

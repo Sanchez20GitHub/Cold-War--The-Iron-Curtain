@@ -3,6 +3,10 @@ state={
 	name="STATE_1025"
 	history={
 		owner = PRU
+		set_state_flag = mountains
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = undeveloped
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
@@ -15,5 +19,5 @@ state={
 	}
 	manpower=274496
 	buildings_max_level_factor=1.000
-    state_category=pastoral
+    state_category=pop1
 }

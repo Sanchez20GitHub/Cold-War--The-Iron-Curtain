@@ -81,8 +81,8 @@ guiTypes = {
 	containerWindowType = {
 		name = "countrydivisiondesignerview"
 		position = { x=0 y=0}	
-		size = { width = 1092 height = 553 }
-		margin = { left = 10 right = 10 top = 10 bottom = 8 }
+		size = { width = 1080 height = 556 }
+		margin = { left = 0 right =  top = 0 bottom = 0 }
 		moveable = yes
 		fade_time = 500
 		fade_type = linear
@@ -93,8 +93,9 @@ guiTypes = {
 		
 			background = {
 				name = "division_Designer_view"
-				quadTextureSprite = "GFX_tiled_window_2b_border_crt"
+				quadTextureSprite = "GFX_tiled_window_2b_border_crt2"
 			}
+			
 			iconType = {
 				name = "crt_filter_designer"
 				spriteType = "GFX_tech_bg"
@@ -104,7 +105,7 @@ guiTypes = {
 			iconType = {
 				name = "designer_view_act"
 				spriteType = "GFX_big_division_designer_popup_bg"
-				allwaystransparent = no
+				allwaystransparent = yes
 			}			
 
 		
@@ -150,12 +151,13 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "division_title"
-			position = { x = 335 y = 6 }
+			position = { x = 330 y = 0}
 			textureFile = ""
-			font = "hoi_36header"
+			font = "hoi_20bs"
 			borderSize = {x = 0 y = 0}
-			text = "DIVISION_DIVISION"
+			text = "Division_Designer.dos"
 			maxWidth = 400
+			
 			maxHeight = 20
 			format = centre
 		}
@@ -699,8 +701,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -44 y = 6 }
-			quadTextureSprite ="GFX_closebutton"
+			position = { x = -32 y = -1 }
+			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"

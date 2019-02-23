@@ -3,6 +3,10 @@ state={
 	name="STATE_993"
 	history={
 		owner = SNM
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = micro
+		set_state_flag = wealthy
 		victory_points = {
 			13239 5
 		}
@@ -20,5 +24,5 @@ state={
 	}
 	manpower=33300
 	buildings_max_level_factor=1.000
-                state_category=town
+    state_category=pop1dev1
 }

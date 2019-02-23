@@ -90,13 +90,7 @@ guiTypes = {
 			size = { width=550 height=-86 }
 			verticalScrollbar = "right_vertical_slider"
 			margin = { top = 0 bottom = 0 }
-			
-			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
-			}
-
-			
+		
 			gridboxType = {
 				name = "research_slots_grid"
 				position = { x = 0 y=20 }
@@ -186,13 +180,6 @@ guiTypes = {
 			quadTextureSprite ="GFX_research_line_bg"
 			clicksound = click_default
 		}
-		
-#		iconType = {
-#			name = "folder"
-#			position = { x=12 y=12 }
-#			spriteType = "GFX_research_folder_strip"
-#			alwaystransparent = yes
-#		}
 	
 		iconType = {
 			name = "technology"

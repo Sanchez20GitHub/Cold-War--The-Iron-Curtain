@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = DEN
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		add_core_of = DEN
 		buildings = {
 			infrastructure = 3
@@ -31,5 +35,5 @@ state={
 	}
 	manpower=1222370
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }

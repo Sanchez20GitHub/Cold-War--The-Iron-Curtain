@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = URG
+		set_state_flag = temperate
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = semideveloped
 		victory_points = {
 			10502 1 
 		}
@@ -23,5 +27,5 @@ state={
 	}
 	manpower=113124
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pop1dev1
 }
