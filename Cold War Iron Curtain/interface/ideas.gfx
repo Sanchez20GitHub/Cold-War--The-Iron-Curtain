@@ -5158,4 +5158,44 @@ spriteTypes = {
 		name = "GFX_idea_Xaralampos_Potamianos"
 		texturefile = "gfx/interface/ideas/Xaralampos_Potamianos.dds"
     }
+    spriteType = {
+		name = "GFX_idea_Fincantieri"
+		texturefile = "gfx/interface/ideas/fincantieri.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Eni"
+		texturefile = "gfx/interface/ideas/eni.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Enel"
+		texturefile = "gfx/interface/ideas/enel.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_John_Hartley"
+		texturefile = "gfx/interface/ideas/zim/John_Hartley.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_henry_everard"
+		texturefile = "gfx/interface/ideas/zim/henry_everard.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_ian_smith"
+		texturefile = "gfx/interface/ideas/zim/ian_smith.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_P_K_van_der_Byl"
+		texturefile = "gfx/interface/ideas/zim/P.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_peter_walls"
+		texturefile = "gfx/interface/ideas/zim/peter_walls.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_Air_Marshal_Norman_Walsh"
+		texturefile = "gfx/interface/ideas/zim/Air_Marshal_Norman_Walsh.dds"
+    }
+    spriteType = {
+		name = "GFX_idea_C_Dupont"
+		texturefile = "gfx/interface/ideas/zim/C_Dupont.dds"
+    }
 }

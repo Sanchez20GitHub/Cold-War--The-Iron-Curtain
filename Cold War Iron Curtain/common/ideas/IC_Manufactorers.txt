@@ -380,6 +380,7 @@ ideas = {
 		
 		Fincantieri = {
 			
+			picture = Fincantieri
 			
 			allowed = {
 				original_tag = ITA
@@ -1265,6 +1266,7 @@ ideas = {
 	}
 	industrial_concern = {
 		Eni = {
+
 			
 			allowed = {
 				original_tag = ITA
@@ -1281,6 +1283,7 @@ ideas = {
 			traits = { refinery_concern }
 		}		
 		Enel = {
+
 			
 			allowed = {
 				original_tag = ITA
@@ -1296,7 +1299,7 @@ ideas = {
 			picture = mitsubishi
 			
 			allowed = {
-				original_tag = ITA
+				original_tag = JAP
 			}
 			research_bonus = {
 			}
