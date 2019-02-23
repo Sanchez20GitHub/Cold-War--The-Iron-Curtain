@@ -488,10 +488,6 @@ focus_tree = {
 		id = GRE_Papagos_Resigns
 		icon = GFX_Papagos_Resigns
 		cost = 2.00
-
-		prerequisite = {
-			focus = GRE_KKE_arrests
-		}
 		
 		available = {
 					always = no
@@ -1704,12 +1700,6 @@ focus_tree = {
 	    id = GRE_start_housing_program 
 		icon = GFX_gre_housing_1
 		cost = 10.00
-		prerequisite = {
-			focus = GRE_Infastructure_1952_1
-		}
-	    prerequisite = {
-			focus = GRE_Infastructure_1952_2
-		}
 		prerequisite = {
 			focus = GRE_Degrade_Drachma
 		}
