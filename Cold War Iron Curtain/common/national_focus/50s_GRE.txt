@@ -84,7 +84,7 @@ focus_tree = {
 		id = GRE_Elections_of_1950
 		icon = GFX_Greek_election
 		cost = 10.00
-		x = 38
+		x = 42
 		y = 0
 			available = {
 					has_global_flag = greek_elections_1950
@@ -583,7 +583,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 38
+		x = 42
 		y = 10
         
 		available = {
@@ -1033,7 +1033,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 58
+		x = 62
 		y = 0
         
 		available = {
@@ -1974,7 +1974,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 58
+		x = 62
 		y = 10
         
 		available = {
@@ -2516,7 +2516,7 @@ focus_tree = {
 		icon = GFX_Greek_election
 		cost = 10.00
 		
-		x = 58
+		x = 62
 		y = 17
         
 		available = {

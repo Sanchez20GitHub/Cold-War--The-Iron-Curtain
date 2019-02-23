@@ -318,3 +318,241 @@
 		y = 6
 		
 	}
+	
+###Rebuilding Cyprus
+
+    shared_focus = {
+		id = GRE_Cyprus_building_effort
+		icon = GFX_GRE_Cyprus_building_effort
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_enosis_1
+			focus = GRE_enosis_2
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 7
+		y = 7
+		
+	}
+
+###Cyprus_normal
+	
+    shared_focus = {
+		id = GRE_Cyprus_normal
+		icon = GFX_GRE_Cyprus_normal
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_building_effort
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_economic
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_carrier
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 7
+		y = 8
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_infa
+		icon = GFX_GRE_Cyprus_normal
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_normal
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 6
+		y = 9
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_tourism_big
+		icon = GFX_GRE_Cyprus_tourism_big
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_normal
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 8
+		y = 9
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_forts
+		icon = GFX_GRE_Cyprus_tourism_big
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_tourism_big
+		}
+		prerequisite = {
+			focus = GRE_Cyprus_infa
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 7
+		y = 10
+		
+	}
+
+###Cyprus_economic
+
+	shared_focus = {
+		id = GRE_Cyprus_economic
+		icon = GFX_GRE_Cyprus_carrier
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_building_effort
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_carrier
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_normal
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 3
+		y = 8
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_infastructure
+		icon = GFX_GRE_Cyprus_infastructure
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_economic
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 3
+		y = 9
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_industry
+		icon = GFX_GRE_Cyprus_industry
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_infastructure
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 2
+		y = 10
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_tourism
+		icon = GFX_GRE_Cyprus_tourism
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_infastructure
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 4
+		y = 10
+		
+	}
+	
+###Cyprus_carrier	
+
+	shared_focus = {
+		id = GRE_Cyprus_carrier
+		icon = GFX_GRE_Cyprus_carrier
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_building_effort
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_economic
+		}
+		mutually_exclusive = {
+			focus = GRE_Cyprus_normal
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 11
+		y = 8
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_army_infa
+		icon = GFX_GRE_Cyprus_army_infa
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_carrier
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 11
+		y = 9
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_airfields_1
+		icon = GFX_GRE_Cyprus_airfields_1
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_army_infa
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 10
+		y = 10
+		
+	}
+	
+	shared_focus = {
+		id = GRE_Cyprus_fortify
+		icon = GFX_GRE_Cyprus_fortify
+		cost = 8.00
+		
+		prerequisite = {
+			focus = GRE_Cyprus_army_infa
+		}
+		
+		relative_position_id = GRE_Cyprus_Question
+		
+		x = 12
+		y = 10
+		
+	}
