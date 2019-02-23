@@ -291,7 +291,7 @@ units = {
 	}
 	division= {	
 		name = "1st Zhuāngjiǎ Shi"
-		location = 7191
+		location = 1195
 		division_template = "Zhōngxíng Zhuāngjiǎ Shī"
 		start_experience_factor = 0.7
 		start_equipment_factor = 1.0
@@ -312,7 +312,7 @@ units = {
 	}
 	division= {	
 		name = "1st Shi"
-		location = 11991
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -340,7 +340,7 @@ units = {
 	}
 	division= {	
 		name = "5th Shi"
-		location = 7191
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -355,7 +355,7 @@ units = {
 	}
 	division= {	
 		name = "7th Shi"
-		location = 10101
+		location = 10086
 		division_template = "Juntuán"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -383,7 +383,7 @@ units = {
 	}
 	division= {	
 		name = "11th Shi"
-		location = 9974
+		location = 4013
 		division_template = "Juntuán"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -404,7 +404,7 @@ units = {
 	}
 	division= {	
 		name = "14th Shi"
-		location = 7191
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -559,7 +559,7 @@ units = {
 	}
 	division= {	
 		name = "36th 'Tungan' Shi"
-		location = 10101
+		location = 10086
 		division_template = "Juntuán"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0
@@ -657,7 +657,7 @@ units = {
 	}
 	division= {	
 		name = "51st Shi"
-		location = 9972
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
@@ -848,7 +848,7 @@ units = {
 	}
 	division= {	
 		name = "78th Shi"
-		location = 1168
+		location = 4013
 		division_template = "Juntuán"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -869,7 +869,7 @@ units = {
 	}
 	division= {	
 		name = "81st Shi"
-		location = 9972
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.5
 		start_equipment_factor = 1.0
@@ -912,7 +912,7 @@ units = {
 	}
 	division= {	
 		name = "87th Shi"
-		location = 10014
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
@@ -961,14 +961,14 @@ units = {
 	}
 	division= {	
 		name = "94th Shi"
-		location = 10101
+		location = 10086
 		division_template = "Juntuán"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
 	}
 	division= {	
 		name = "95th Shi"
-		location = 7191
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.4
 		start_equipment_factor = 1.0
@@ -989,14 +989,14 @@ units = {
 	}
 	division= {	
 		name = "98th Shi"
-		location = 11991
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
 	}
 	division= {	
 		name = "99th Shi"
-		location = 7191
+		location = 1195
 		division_template = "Juntuán"
 		start_experience_factor = 0.6
 		start_equipment_factor = 1.0

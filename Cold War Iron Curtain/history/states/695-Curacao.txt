@@ -12,7 +12,6 @@ state={
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
-
 			153 = {
 				naval_base = 1
 
@@ -27,7 +26,7 @@ state={
 	}
 
 	provinces={
-		153 13415 
+		153 13415 13681 
 	}
 	manpower=76299
 	buildings_max_level_factor=1.000
