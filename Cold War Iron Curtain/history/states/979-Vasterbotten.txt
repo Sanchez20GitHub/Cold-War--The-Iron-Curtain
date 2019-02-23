@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = SWE
+		set_state_flag = boreal
+		set_state_flag = lakes
+		set_state_flag = nominal
+		set_state_flag = undeveloped
 		victory_points = {
 			3113 3 
 		}
@@ -28,5 +32,5 @@ state={
 	}
 	manpower=220175
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=pop1dev1
 }

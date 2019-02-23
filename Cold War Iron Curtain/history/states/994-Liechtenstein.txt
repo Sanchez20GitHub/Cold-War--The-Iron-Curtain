@@ -3,6 +3,10 @@ state={
 	name="STATE_994"
 	history={
 		owner = LIC
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = micro
+		set_state_flag = wealthy
 		victory_points = {
 			13241 5 
 		}
@@ -20,5 +24,5 @@ state={
 	}
 	manpower=37340
 	buildings_max_level_factor=1.000
-                state_category=town
+    state_category=pop1dev1
 }

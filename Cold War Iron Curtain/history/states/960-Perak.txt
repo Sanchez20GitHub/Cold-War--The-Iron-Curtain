@@ -5,6 +5,10 @@ state={
 
 	history={
 		owner = MAL
+		set_state_flag = tropical
+		set_state_flag = river
+		set_state_flag = small
+		set_state_flag = poor
 		add_core_of = MAL
 		buildings = {
 			infrastructure = 2
@@ -20,5 +24,5 @@ state={
 	}
 	manpower=2480000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop2dev1
 }

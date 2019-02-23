@@ -8,6 +8,10 @@ state={
 
 	history={
 		owner = ZIM
+		set_state_flag = temperate
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = poor
 		add_core_of = ZIM
 		victory_points = {
 			2151 5 
@@ -27,5 +31,5 @@ state={
 	}
 	manpower=1205675
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pop1dev1
 }
