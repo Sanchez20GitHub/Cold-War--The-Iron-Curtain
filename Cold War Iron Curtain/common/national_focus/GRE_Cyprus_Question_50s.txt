@@ -14,14 +14,18 @@
 	}
 	
 	shared_focus = {
-		id = GRE_Greece_interferes
-		icon = GFX_GRE_Greece_interferes
+		id = GRE_greek_proposal
+		icon = GFX_GRE_greek_proposal
 		cost = 8.00
 		
 		prerequisite = {
-			focus = GRE_Cyprus_Question
+			focus = GRE_Cyprus_Question 
 		}
 		
+		completion_reward = {
+					ENG = { country_event = cyprus.4 }
+				}
+				
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = 0
@@ -29,54 +33,20 @@
 		
 	}
 	
-	shared_focus = {
-		id = GRE_greek_proposal
-		icon = GFX_GRE_greek_proposal
-		cost = 8.00
-		
-		prerequisite = {
-			focus = GRE_Greece_interferes
-		}
-		
-		relative_position_id = GRE_Cyprus_Question
-		
-		x = 0
-		y = 2
-		
-	}
-	
-	shared_focus = {
-		id = GRE_no_enosis_1
-		icon = GFX_GRE_no_enosis_1
-		cost = 8.00
-		
-		prerequisite = {
-			focus = GRE_greek_proposal
-		}
-		mutually_exclusive = {
-			focus = GRE_enosis_1
-		}
-		
-		relative_position_id = GRE_Cyprus_Question
-		
-		x = -2
-		y = 3
-		
-	}
 	
 	shared_focus = {
 		id = GRE_resort_UN
 		icon = GFX_GRE_resort_UN
 		cost = 8.00
-		
+		available = {has_country_flag = UK_rejects_enosis_1}
 		prerequisite = {
-			focus = GRE_no_enosis_1
+			focus = GRE_greek_proposal
 		}
 		
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -2
-		y = 4
+		y = 2
 		
 	}
 	
@@ -95,7 +65,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -4
-		y = 5
+		y = 4
 		
 	}
 	
@@ -111,7 +81,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -4
-		y = 6
+		y = 5
 		
 	}
 	
@@ -127,7 +97,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -4
-		y = 7
+		y = 6
 		
 	}
 	
@@ -146,7 +116,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -2
-		y = 8
+		y = 7
 		
 	}
 	
@@ -165,7 +135,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -6
-		y = 8
+		y = 7
 		
 	}
 	
@@ -181,7 +151,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -6
-		y = 9
+		y = 8
 		
 	}
 	
@@ -200,7 +170,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -7
-		y = 10
+		y = 9
 		
 	}
 	
@@ -219,7 +189,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -5
-		y = 10
+		y = 9
 		
 	}
 	
@@ -235,7 +205,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -7
-		y = 11
+		y = 10
 		
 	}
 
@@ -245,6 +215,7 @@
 		id = GRE_enosis_1
 		icon = GFX_GRE_enosis
 		cost = 8.00
+		available = {has_country_flag = UK_accept_enosis_1}
 		
 		prerequisite = {
 			focus = GRE_greek_proposal
@@ -253,10 +224,16 @@
 			focus = GRE_no_enosis_1
 		}
 		
+		completion_reward = {
+					GRE = { transfer_state = 183
+                transfer_state = 912}
+				}
+		
+		
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = 2
-		y = 3
+		y = 2
 		
 	}
 	
@@ -277,7 +254,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = 0
-		y = 5
+		y = 4
 		
 	}
 	
@@ -296,7 +273,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = -1
-		y = 6
+		y = 5
 		
 	}
 	
@@ -315,7 +292,7 @@
 		relative_position_id = GRE_Cyprus_Question
 		
 		x = 1
-		y = 6
+		y = 5
 		
 	}
 	
