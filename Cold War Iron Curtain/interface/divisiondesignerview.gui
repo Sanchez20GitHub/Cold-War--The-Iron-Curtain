@@ -82,7 +82,7 @@ guiTypes = {
 		name = "countrydivisiondesignerview"
 		position = { x=0 y=0}	
 		size = { width = 1080 height = 556 }
-		margin = { left = 0 right =  top = 0 bottom = 0 }
+		margin = { left = 0 right = 2 top = 0 bottom = 3 }
 		moveable = yes
 		fade_time = 500
 		fade_type = linear
@@ -409,7 +409,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "reset_button"
-			position = { x=20 y=500 }
+			position = { x=20 y=501 }
 			quadTextureSprite ="GFX_button_reset_123x34"
 			buttonText = "DESIGNER_RESET"
 			pdx_tooltip = "DESIGNER_RESET_DESC"
@@ -419,7 +419,7 @@ guiTypes = {
 
 		ButtonType = {
 			name = "save_button"
-			position = { x=392 y=500 }
+			position = { x=375 y=500 }
 			quadTextureSprite ="GFX_ic_button_ic_221x36"
 			buttonText = "DESIGNER_ARMY_SAVE"
 			buttonFont = "hoi_18mbs"
@@ -701,7 +701,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -32 y = -1 }
+			position = { x = -30 y = 0 }
 			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
