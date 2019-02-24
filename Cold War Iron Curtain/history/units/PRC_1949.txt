@@ -513,7 +513,7 @@ units = {
 	}
 	division= {	
 		name = "30th Shī"
-		location = 5030
+		location = 1612
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -654,7 +654,7 @@ units = {
 	}
 	division= {	
 		name = "79th Shī"
-		location = 7948
+		location = 8072
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -662,14 +662,14 @@ units = {
 	}
 	division= {	
 		name = "80th Shī"
-		location = 12086
+		location = 4130
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
 	}
 	division= {	
 		name = "81st Shī"
-		location = 7201
+		location = 1612
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -753,7 +753,7 @@ units = {
 	}
 	division= {	
 		name = "122nd Shī"
-		location = 10757
+		location = 7596
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -802,7 +802,7 @@ units = {
 	}
 	division= {	
 		name = "148th Shī"
-		location = 12414
+		location = 7596
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -816,7 +816,7 @@ units = {
 	}
 	division= {	
 		name = "150th Shī"
-		location = 7948
+		location = 8072
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -830,7 +830,7 @@ units = {
 	}
 	division= {	
 		name = "154h Shī"
-		location = 5030
+		location = 1612
 		division_template = "Renmin Jundui"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1
@@ -956,7 +956,7 @@ units = {
 	}
 	division= {	
 		name = "212th Juntuán"
-		location = 7948
+		location = 8072
 		division_template = "Juntuán"			
 		start_experience_factor = 0.6
 		start_equipment_factor = 1

@@ -1773,8 +1773,7 @@ technologies = {
 	tech_field_hospital2 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			experience_loss_factor = -0.05
 		}
 		
 		enable_subunits = {
@@ -1807,13 +1806,13 @@ technologies = {
 	tech_field_hospital3 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		helicopter_medical_support = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		path = {
@@ -1841,13 +1840,13 @@ technologies = {
 	tech_field_hospital4 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		helicopter_medical_support = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 
 		path = {
@@ -1875,13 +1874,13 @@ technologies = {
 	tech_field_hospital5 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		helicopter_medical_support = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		path = {
@@ -1909,13 +1908,13 @@ technologies = {
 	tech_field_hospital6 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		helicopter_medical_support = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		path = {
@@ -1943,13 +1942,13 @@ technologies = {
 	tech_field_hospital7 = {
 
 		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 		
 		helicopter_medical_support = {
-			casualty_trickleback = 0.10
-			experience_loss_factor = -0.10
+			casualty_trickleback = 0.05
+			experience_loss_factor = -0.05
 		}
 
 

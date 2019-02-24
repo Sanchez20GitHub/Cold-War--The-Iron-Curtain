@@ -701,13 +701,13 @@ guiTypes = {
 		iconType = {
 			name = "army_equipment"
 			spriteType = "GFX_equipment_state_icon"
-			position = { x=215 y=7 }		
+			position = { x=216 y=9 }		
 		}
 		
 		iconType = {
 			name = "equipment_progressbar"
 			spriteType = "GFX_deployment_entry_progressbar"
-			position = { x=237 y=9 }
+			position = { x=237 y=10 }
 		}
 		
 		buttonType = {
@@ -819,25 +819,25 @@ guiTypes = {
 		iconType = {
 			name = "army_equipment"
 			spriteType = "GFX_equipment_state_icon"
-			position = { x=214 y=12 }		
+			position = { x=214 y=11 }		
 		}
 		
 		iconType = {
 			name = "equipment_progressbar_two"
 			spriteType = "GFX_deployment_entry_progressbar"
-			position = { x=235 y=13 }
+			position = { x=235 y=12 }
 		}
 		
 		iconType = {
 			name = "army_training"
 			spriteType = "GFX_army_experience"
-			position = { x=312 y=13 }		
+			position = { x=313 y=13 }		
 		}
 		
 		iconType = {
 			name = "equipment_progressbar"
 			spriteType = "GFX_deployment_entry_progressbar"
-			position = { x=235 y=13 }
+			position = { x=237 y=12 }
 		}
 		
 		instantTextboxType = {
@@ -855,14 +855,14 @@ guiTypes = {
 		
 		buttonType = {
 			name = "deploy_line_button"
-			position = { x=458 y=7 }
+			position = { x=463 y=9 }
 			quadTextureSprite = "GFX_deploy_unit"
 			clicksound = click_default
 		}
 		
 		buttonType = {
 			name = "cancel_line_button"
-			position = { x=480 y=5 }
+			position = { x=487 y=7 }
 			quadTextureSprite = "GFX_delete_template_button"
 			pdx_tooltip = "CONVEYOR_LINE_CANCEL_DESC"
 			clicksound = click_close
@@ -965,7 +965,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "decrease_amount"
-			position = { x = 327 y = 18 }
+			position = { x = 328 y = 18 }
 			quadTextureSprite = "GFX_deploy_minus"
 			pdx_tooltip = "CONVEYOR_SERIES_DECREASE_DESC"
 			font = "hoi_18b"
@@ -974,7 +974,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "amount"
-			position = { x = 351 y = 18 }
+			position = { x = 350 y = 19 }
 			font = "hoi_18b"
 			text = "INFINITY"
 			maxWidth = 33
@@ -1058,14 +1058,14 @@ guiTypes = {
 				
 		buttonType = {
 			name = "deploy_conveyor_button"
-			position = { x=425 y=47 }
+			position = { x=425 y=50 }
 			quadTextureSprite = "GFX_deploy_unit"
 			clicksound = click_default
 		}
 		
 		buttonType = {
 			name = "cancel_conveyor_button"
-			position = { x=448 y=45 }
+			position = { x=448 y=48 }
 			quadTextureSprite = "GFX_delete_template_button"
 			pdx_tooltip = "CANCEL_CONVEYOR_TOOLTIP"
 			clicksound = click_close

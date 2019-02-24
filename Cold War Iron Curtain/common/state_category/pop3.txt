@@ -2,6 +2,6 @@ state_categories={
 	pop3 = {
 		local_building_slots = 7
 		
-		color = {179 218 255}
+		color = {0 128 128}
 	}
 }

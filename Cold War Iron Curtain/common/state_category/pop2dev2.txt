@@ -2,6 +2,6 @@ state_categories={
 	pop2dev2 = {
 		local_building_slots = 10
 		
-		color = {204 230 255}
+		color = {0 184 230}
 	}
 }
