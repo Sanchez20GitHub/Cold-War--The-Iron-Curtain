@@ -551,73 +551,6 @@
 
 	}
 	shared_focus = {
-		id = SOV_communist_austria
-		icon = GFX_focus_prc_agrarian_socialism
-		cost = 7.00
-		prerequisite = {
-			focus = SOV_Fund_PCF
-		}
-		mutually_exclusive = {
-			focus = SOV_neutral_austria
-		}
-		x = 20
-		y = 4
-			available = {
-					NOT = {
-							country_exists = AUS
-						}
-					NOT = {
-							country_exists = ADR
-						}
-				}
-			bypass = {
-					country_exists = AUS
-					country_exists = ADR
-				}
-			completion_reward = {
-					set_global_flag = aus_questions_over
-					release = ADR
-					puppet = ADR
-					ADR = {
-							load_oob = "ADR_1949"
-							set_politics = {
-									parties = {
-											communism = {
-													popularity = 43.5
-												}
-											democratic = {
-													popularity = 4
-												}
-											socialist = {
-													popularity = 25
-												}
-											Christian_Democratic = {
-													popularity = 13
-												}
-											conservative = {
-													popularity = 2
-												}
-											Liberal_Conservatism = {
-													popularity = 12.5
-												}
-										}
-									ruling_party = communism
-									last_election = "1949.1.1"
-									election_frequency = 48
-									elections_allowed = no
-								}
-						}
-				}
-			ai_will_do = {
-					factor = 1
-					modifier = {
-							is_historical_focus_on = yes
-							factor = 0
-						}
-				}
-
-	}
-	shared_focus = {
 		id = SOV_Infilitrate_American_Civil_Rights_Movement
 		icon = GFX_american_coat_of_arms
 		cost = 10.00
@@ -775,43 +708,6 @@
 								}
 						}
 					add_threat = 75
-				}
-
-	}
-	shared_focus = {
-		id = SOV_neutral_austria
-		icon = GFX_goal_molotov_ribbentrop_pact
-		cost = 7.00
-		prerequisite = {
-			focus = SOV_Fund_PCF
-		}
-		mutually_exclusive = {
-			focus = SOV_communist_austria
-		}
-		x = 24
-		y = 4
-			available = {
-					NOT = {
-							country_exists = AUS
-						}
-				}
-			bypass = {
-					country_exists = AUS
-				}
-			completion_reward = {
-					USA = {
-							country_event = usa.701
-						}
-					SOV = {
-							country_event = sov.3
-						}
-					FRA = {
-							country_event = fra.1
-						}
-					ENG = {
-							country_event = eng.1
-						}
-					set_global_flag = aus_questions_over
 				}
 
 	}
