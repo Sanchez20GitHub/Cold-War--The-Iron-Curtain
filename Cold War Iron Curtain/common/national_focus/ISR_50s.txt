@@ -49,14 +49,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ISR__Copy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 44
-		y = 18
-
-	}
-	focus = {
 		id = ISR_Hula_Valley_Reclamation
 		icon = GFX_goal_unknown
 		cost = 10.00
