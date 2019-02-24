@@ -2,6 +2,6 @@ state_categories={
 	pop15dev3 = {
 		local_building_slots = 76
 		
-		color = {0 132 255}
+		color = {255 163 26}
 	}
 }
