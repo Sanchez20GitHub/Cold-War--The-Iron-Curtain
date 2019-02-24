@@ -77,7 +77,7 @@ news_event = {
 	major = yes
 
 	option = {
-		name = "interesting"
+		name = "Interesting"
 	}
 }
 	

@@ -329,7 +329,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = "interesting"
+		name = "Interesting"
 		trigger = {
 			NOT = {
 				tag = ZIM
