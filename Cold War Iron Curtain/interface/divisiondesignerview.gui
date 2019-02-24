@@ -845,7 +845,7 @@ guiTypes = {
 				size = { x=504 y=23 }
 				font = "hoi_16mbs"				
 				buttontext = "BACK"
-				quadTextureSprite = "GFX_ic_button_ic_221x36"
+				quadTextureSprite = "GFX_button_reset_123x34"
 				clicksound = click_default
 			}			
 
