@@ -4475,6 +4475,10 @@ spriteTypes = {
 		name = "GFX_idea_Yugoslavian_Constiutionalism"
 		texturefile = "gfx/interface/ideas/Yugoslavian_Constiutionalism.dds"
 	}	
+	spriteType = {
+		name = "GFX_idea_Yugoslavia_Railways"
+		texturefile = "gfx/interface/ideas/yugoslavia_railways.dds"
+	}
 	
 	######################################################################################################################################################
 	# North Korean Ideas
@@ -4978,11 +4982,11 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_zastava"
-		texturefile = "gfx/interface/ideas/yug/zastava.dds"
+		texturefile = "gfx/interface/ideas/yug/zastava.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_tam"
-		texturefile = "gfx/interface/ideas/yug/tam.dds"
+		texturefile = "gfx/interface/ideas/yug/tam.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_Edvard_Kardelj"
@@ -5002,15 +5006,15 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_IMK"
-		texturefile = "gfx/interface/ideas/yug/IMK.dds"
+		texturefile = "gfx/interface/ideas/yug/IMK.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_Iskra"
-		texturefile = "gfx/interface/ideas/yug/Iskra.dds"
+		texturefile = "gfx/interface/ideas/yug/Iskra.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_Ikarus"
-		texturefile = "gfx/interface/ideas/yug/Ikarus.dds"
+		texturefile = "gfx/interface/ideas/yug/Ikarus.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_Svetislav_Stefanovic"
