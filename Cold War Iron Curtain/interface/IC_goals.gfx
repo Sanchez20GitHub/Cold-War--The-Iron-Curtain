@@ -3781,4 +3781,16 @@ spriteTypes = {
 		name = "GFX_soviet_diplomacy"
 		texturefile = "gfx/interface/goals/focus_chi_mission_to_the_soviet_union.dds" 
 	}
+	SpriteType = {
+		name = "GFX_europe_trade"
+		texturefile = "gfx/interface/goals/europe_trade.tga" 
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_support_democracy"
+		texturefile = "gfx/interface/goals/goal_generic_support_democracy.dds" 
+	}
+	SpriteType = {
+		name = "GFX_jordan"
+		texturefile = "gfx/interface/goals/jordan_flag.tga" 
+	}
 }

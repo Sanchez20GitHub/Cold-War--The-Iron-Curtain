@@ -204,7 +204,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Left_Faction_1955_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_ally_with_the_leftists
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Elections_of_1955
@@ -345,7 +345,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Nationalize_Healthcare
-		icon = GFX_goal_unknown
+		icon = GFX_healthcare
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Enter_Coalition_with_Maki
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_State_Atheism
-		icon = GFX_goal_unknown
+		icon = GFX_focus_atheism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ties_With_East_Germany
@@ -367,7 +367,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Promote_Womens_Rights
-		icon = GFX_goal_unknown
+		icon = GFX_femicon
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Mapam_Victory
@@ -456,7 +456,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Soviet_Economic_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Investments
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Lift_Martial_Law
@@ -502,7 +502,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Complete_The_Paramilitary_Integration
-		icon = GFX_goal_unknown
+		icon = GFX_paratrooper
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Israeli_Army
@@ -513,7 +513,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Super_Sherman
-		icon = GFX_goal_unknown
+		icon = GFX_Sandy_Tanks
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Establish_Unit_101
@@ -552,7 +552,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Prepare_for_the_Worst
-		icon = GFX_goal_unknown
+		icon = GFX_SwingtheSword
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Super_Sherman
@@ -569,7 +569,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Collab_With_France
-		icon = GFX_goal_unknown
+		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Prepare_for_the_Worst
@@ -2141,7 +2141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Secret_French_Arms_Deal
-		icon = GFX_goal_unknown
+		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Operation_Elkayam
@@ -2432,7 +2432,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Negotiatie_with_Jordan
-		icon = GFX_goal_unknown
+		icon = GFX_jordan
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ties_With_India
@@ -2497,7 +2497,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Promote_Capitalism
-		icon = GFX_goal_unknown
+		icon = GFX_CapitalistSystems
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Enshrine_Democratic_Values
@@ -2542,7 +2542,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Beacon_of_Freedom
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_support_democracy
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Develop_Ashdod
@@ -2559,7 +2559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Enshrine_Democratic_Values
-		icon = GFX_goal_unknown
+		icon = 
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_End_Histadrut_Economic_Control
@@ -2573,7 +2573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_European_Trade_Deals
-		icon = GFX_goal_unknown
+		icon = GFX_europe_trade
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Enshrine_Democratic_Values
