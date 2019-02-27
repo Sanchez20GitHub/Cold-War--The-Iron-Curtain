@@ -39,7 +39,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = The_Israeli Defense Forces
+		id = The_Israeli_Defense_Forces
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 19
@@ -89,7 +89,14 @@ focus_tree = {
 		}
 		x = 6
 		y = 1
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = Nuclear_bonus
+				bonus = 0.25
+				uses = 1
+				category = nuclear
+			}
+		}
 	}
 	focus = {
 		id = ISR_Tel_Aviv_Savidor_Central_Railway_Station
@@ -131,7 +138,14 @@ focus_tree = {
 		}
 		x = 3
 		y = 4
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = Nuclear_bonus
+				bonus = 0.25
+				uses = 1
+				category = nuclear
+			}
+		}
 	}
 	focus = {
 		id = ISR_Create_the_City_of_Ofakim
@@ -208,7 +222,20 @@ focus_tree = {
 		}
 		x = 9
 		y = 18
-
+        completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = USA
+									modifier = large_decrease
+								}
+						}
+					USA = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_decrease
+								}
+						}
+				}
 	}
 	focus = {
 		id = ISR_Ties_With_East_Germany
@@ -219,18 +246,33 @@ focus_tree = {
 		}
 		x = 11
 		y = 19
-
+        completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = DDR
+									modifier = large_increase
+								}
+						}
+					DDR = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+				}        
 	}
 	focus = {
 		id = ISR_The_Israeli_Airforce
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = The_Israeli Defense Forces
+			focus = The_Israeli_Defense_Forces
 		}
 		x = 12
 		y = 1
-
+		completion_reward = {
+			air_experience = 25
+		}
 	}
 	focus = {
 		id = ISR_Czechsovakian_Planes
@@ -428,11 +470,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = The_Israeli Defense Forces
+			focus = The_Israeli_Defense_Forces
 		}
 		x = 19
 		y = 1
-
+		completion_reward = {
+			army_experience = 25
+		}
 	}
 	focus = {
 		id = ISR_Establish_Unit_101
@@ -753,11 +797,13 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = The_Israeli Defense Forces
+			focus = The_Israeli_Defense_Forces
 		}
 		x = 26
 		y = 1
-
+		completion_reward = {
+			navy_experience = 25
+		}
 	}
 	focus = {
 		id = ISR_Purchase_Destroyers

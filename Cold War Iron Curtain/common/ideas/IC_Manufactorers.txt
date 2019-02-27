@@ -1309,7 +1309,19 @@ ideas = {
 			}
 			traits = { industrial_concern }
 		}		
+		yugoslavia_railways = {
+
+		picture = Yugoslavia_Railways
 		
+			allowed = {
+				original_tag = YUG
+			}
+			research_bonus = {
+				production_speed_infrastructure_factor = 0.10
+			}
+			
+			traits = { industrial_concern }
+		}		
 	}
 	
 	materiel_manufacturer = {

@@ -1,4 +1,4 @@
-﻿add_namespace = rho
+add_namespace = rho
 
 country_event = {
 	id = rho.1
@@ -329,7 +329,7 @@ news_event = {
 		}
 	}
 	option = {
-		name = "Intresting"
+		name = "Interesting"
 		trigger = {
 			NOT = {
 				tag = ZIM

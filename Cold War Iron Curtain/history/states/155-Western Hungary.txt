@@ -1,8 +1,9 @@
+
 state={
 	id=155
 	name="STATE_155"
 	resources={
-		oil=3
+		oil=3.000
 	}
 
 	history={
@@ -11,13 +12,16 @@ state={
 		set_state_flag = riverlarge
 		set_state_flag = nominal
 		set_state_flag = semideveloped
-		victory_points = {11610 5}
-		victory_points = {9676 5}
-		victory_points = {11627 1}
+		victory_points = {
+			9676 5 
+		}
+		victory_points = {
+			11627 1 
+		}
 		buildings = {
-			infrastructure =3
+			infrastructure = 4
 			industrial_complex = 1
-            coal_plant = 1
+			coal_plant = 1
 			air_base = 2
 
 		}
@@ -26,9 +30,9 @@ state={
 	}
 
 	provinces={
-		682 686 701 3670 3680 3683 6685 6703 6720 9624 9643 9676 11610 11627 11663 
+		686 701 3683 6703 6720 9676 11627 11663 
 	}
-	manpower=2197605
+	manpower=997939
 	buildings_max_level_factor=1.000
-	state_category=pop2dev2
+	state_category=pop1dev2
 }
