@@ -2559,7 +2559,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Enshrine_Democratic_Values
-		icon = 
+		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_End_Histadrut_Economic_Control
