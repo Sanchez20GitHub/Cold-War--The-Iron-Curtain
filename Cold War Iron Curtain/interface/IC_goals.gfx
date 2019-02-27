@@ -3777,4 +3777,8 @@ spriteTypes = {
 		name = "GFX_Ben_Gurion"
 		texturefile = "gfx/interface/goals/ben_gurion.dds" 
 	}
+	SpriteType = {
+		name = "GFX_soviet_diplomacy"
+		texturefile = "gfx/interface/goals/focus_chi_mission_to_the_soviet_union.dds" 
+	}
 }
