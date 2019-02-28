@@ -10,9 +10,9 @@ state={
 		set_state_flag = small
 		set_state_flag = semideveloped
 		add_core_of = SOV
-		add_core_of = MLD
+		add_core_of = MOL
 		1990.6.1 = {
-			owner = MLD
+			owner = MOL
 			remove_core_of = SOV
 
 		}

@@ -10,10 +10,10 @@ state={
 		set_state_flag = small
 		set_state_flag = semideveloped
 		add_core_of = SOV
-		add_core_of = MLD
+		add_core_of = MOL
 		victory_points = { 6600 5 }
 		1990.6.1 = {
-			owner = MLD
+			owner = MOL
 			remove_core_of = SOV
 
 		}

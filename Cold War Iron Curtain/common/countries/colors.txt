@@ -80,7 +80,7 @@ INO = {
 	color = rgb { 191 46 37 }
 	color_ui = rgb { 255 255 255 }
 }
-MLD = {
+MOL = {
 	color = rgb { 200 210 110 }
 	color_ui = rgb { 200 210 110 }
 }

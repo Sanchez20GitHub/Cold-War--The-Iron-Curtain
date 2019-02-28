@@ -4,10 +4,10 @@ state={
 	history={
 		owner = SOV
 		add_core_of = SOV
-		add_core_of = MLD
+		add_core_of = MOL
 		add_core_of = GAG
 		1990.6.1 ={
-		    owner = MLD
+		    owner = MOL
 			remove_core_of = SOV
 		}
 		victory_points = {
