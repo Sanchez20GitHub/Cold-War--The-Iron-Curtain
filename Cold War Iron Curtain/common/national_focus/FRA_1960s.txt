@@ -1456,11 +1456,11 @@ focus_tree = {
 						}
 					FRA = {
 							add_opinion_modifier = {
-									target = BRK
+									target = VOL
 									modifier = large_increase
 								}
 						}
-					BRK = {
+					VOL = {
 							add_opinion_modifier = {
 									target = FRA
 									modifier = large_increase

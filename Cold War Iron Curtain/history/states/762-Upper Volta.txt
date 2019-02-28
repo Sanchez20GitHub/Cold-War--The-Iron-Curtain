@@ -21,9 +21,9 @@ state={
 			10836 5 
 		}
 		add_core_of = SEN
-		add_core_of = BRK
+		add_core_of = VOL
 		1960.1.1 = {
-			owner = BRK
+			owner = VOL
 			remove_core_of = SEN
 
 		}

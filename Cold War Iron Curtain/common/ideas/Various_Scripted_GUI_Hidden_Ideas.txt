@@ -189,7 +189,7 @@ ideas = {
 		trade_treaty_BRU = { targeted_modifier = { tag = BRU trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MLI = { targeted_modifier = { tag = MLI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_NIG = { targeted_modifier = { tag = NIG trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_BRK = { targeted_modifier = { tag = BRK trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_VOL = { targeted_modifier = { tag = VOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GUI = { targeted_modifier = { tag = GUI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MAU = { targeted_modifier = { tag = MAU trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TOG = { targeted_modifier = { tag = TOG trade_cost_for_target_factor = -0.5 } }

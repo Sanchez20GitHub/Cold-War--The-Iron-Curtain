@@ -52,9 +52,9 @@ country_event = {
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = BRK
+			        is_core_of = VOL
 		        }
-		        BRK = { transfer_state = PREV }
+		        VOL = { transfer_state = PREV }
 	        }
 		}
     }
