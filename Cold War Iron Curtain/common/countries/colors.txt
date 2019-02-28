@@ -92,7 +92,7 @@ UZB = {
 	color = rgb { 121 73 175 }
 	color_ui = rgb { 121 73 175 }
 }
-TJK = {
+TAJ = {
 	color = rgb { 172 212 13 }
 	color_ui = rgb { 172 212 13 }
 }
