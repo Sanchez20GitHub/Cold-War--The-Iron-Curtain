@@ -49,28 +49,28 @@ ideas = {
 		creative_education = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				consumer_goods_factor = 0.01
 			}
 		}
 		academic_state = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.04
+				research_speed_factor = 0.04
 				consumer_goods_factor = 0.02
 			}
 		}
 		more_escuelas = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				consumer_goods_factor = 0.01
 			}
 		}
 		patriotic_schools = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				consumer_goods_factor = 0.01
 				stability_factor = 0.05
 			}
@@ -139,13 +139,13 @@ ideas = {
 		medical_science = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 		}
 		medical_apotheosis = {
 			removal_cost = -1
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		reduce_medical_bills = {
