@@ -71,7 +71,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				research_time_factor = 0.1
+				research_speed_factor = -0.1
 			}
 
 			picture = generic_research_bonus
@@ -86,7 +86,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 			}
 
 			picture = generic_research_bonus
@@ -478,7 +478,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 
 			picture = generic_research_bonus
@@ -493,7 +493,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = { 
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 
 			picture = generic_research_bonus
@@ -669,7 +669,7 @@ ideas = {
 				political_power_gain = 0.1
 				local_resources_factor = 0.15
 				trade_opinion_factor = 0.05
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 
 			picture = generic_europe
@@ -701,7 +701,7 @@ ideas = {
 
 			modifier = { 
 				trade_opinion_factor = 0.2
-			    research_time_factor = -0.03
+			    research_speed_factor = 0.03
 			    political_power_gain = 0.2
 			}
 

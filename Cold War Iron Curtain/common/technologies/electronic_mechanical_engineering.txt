@@ -4,7 +4,7 @@ technologies = {
 	
 	ww_pc = {
 	
-		research_time_factor = -0.025
+		research_speed_factor = 0.025
 	
 		path = {
 			leads_to_tech = hardware_I 
@@ -680,7 +680,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_time_factor = -0.005
+		research_speed_factor = 0.005
 	
 		research_cost = 1
 		start_year = 1990
@@ -708,7 +708,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_time_factor = -0.005
+		research_speed_factor = 0.005
 	
 		research_cost = 1
 		start_year = 1990
@@ -2090,7 +2090,7 @@ technologies = {
 
 	supercomputer_I = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		
 		dependencies = {
@@ -2118,7 +2118,7 @@ technologies = {
 	
 	supercomputer_II = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		dependencies = {
 			hardware_IV = 1
@@ -2147,7 +2147,7 @@ technologies = {
 	
 	supercomputer_III = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		dependencies = {
 			hardware_VII = 1
@@ -2177,7 +2177,7 @@ technologies = {
 	
 	supercomputer_IV = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		dependencies = {
 			hardware_IX = 1
@@ -2205,7 +2205,7 @@ technologies = {
 	
 	supercomputer_V = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		dependencies = {
 			hardware_XI = 1
@@ -2233,7 +2233,7 @@ technologies = {
 	
 	supercomputer_VI = {
 		
-		research_time_factor = -0.033
+		research_speed_factor = 0.033
 	
 		dependencies = {
 			hardware_XII = 1

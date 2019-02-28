@@ -41,7 +41,7 @@ ideas = {
 			modifier = {
 				MONTHLY_POPULATION = 0.05
 				consumer_goods_factor = 0.020
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 
 			picture = generic_manpower_bonus
