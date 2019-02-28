@@ -322,7 +322,7 @@ focus_tree = {
 									days = 700
 								}
 						}
-					TRK = {
+					TMS = {
 							add_timed_idea = {
 									idea = islamism_drift
 									days = 700
@@ -931,7 +931,7 @@ focus_tree = {
 								}
 							add_stability = -0.25
 						}
-					TRK = {
+					TMS = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200

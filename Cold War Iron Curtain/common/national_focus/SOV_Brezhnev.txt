@@ -822,7 +822,7 @@ focus_tree = {
 								}
 							add_stability = -0.25
 						}
-					TRK = {
+					TMS = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200
