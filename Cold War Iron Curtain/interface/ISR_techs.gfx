@@ -1450,7 +1450,7 @@ spriteTypes = {
 	# }	
 	SpriteType = {
 		name = "GFX_ISR_infantry_equip_1_medium"
-		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_1.dds"
+		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_1.tga"
 	}
 
 	SpriteType = {
@@ -1460,12 +1460,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_ISR_infantry_equip_3_medium"
-		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_3.dds"
+		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_3.tga"
 	}
 
 	SpriteType = {
 		name = "GFX_ISR_infantry_equip_5_medium"
-		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_5.dds"
+		texturefile = "gfx/interface/technologies/infantry/ISR_infantry_equip_5.tga"
 	}
 
 	SpriteType = {
