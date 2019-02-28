@@ -285,7 +285,7 @@ ideas = {
 		trade_treaty_FLA = { targeted_modifier = { tag = FLA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_WAL = { targeted_modifier = { tag = WAL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_DMN = { targeted_modifier = { tag = DMN trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_ULS = { targeted_modifier = { tag = ULS trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_NIR = { targeted_modifier = { tag = NIR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_REN = { targeted_modifier = { tag = REN trade_cost_for_target_factor = -0.5 } }
 
 		infantry_payments_USA = {

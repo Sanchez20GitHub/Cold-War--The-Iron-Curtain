@@ -1091,7 +1091,7 @@ DMN = {
     color_ui = rgb { 152 130 191 }
 }
 
-ULS = {
+NIR = {
     color = rgb { 213 213 0 }
     color_ui = rgb { 213 213 0 }
 }
@@ -1106,7 +1106,7 @@ DMN = {
     color_ui = rgb { 152 130 191 }
 }
 
-ULS = {
+NIR = {
     color = rgb { 213 213 0 }
     color_ui = rgb { 213 213 0 }
 }
