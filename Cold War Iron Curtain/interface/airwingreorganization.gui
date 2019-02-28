@@ -145,11 +145,6 @@ guiTypes = {
 		moveable = yes
 		fade_time = 200
 		fade_type = linear
-		
-		background = {
-			name = "Background"	
-			quadTextureSprite ="GFX_tiled_window_w_close"
-		}
 
 		iconType = {
 			name ="reorganize_airwings_win_top"
@@ -160,8 +155,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "close_button"
-			position = { x = -54 y = 15 }
-			quadTextureSprite ="GFX_closebutton"
+			position = { x = -41 y = 2 }
+			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "hoi_16mbs"
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_RIGHT"
@@ -171,7 +166,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "action_name"
-			position = {x=160 y=22}
+			position = {x=160 y=3}
 			font = "hoi_20bs"
 			maxWidth = 410
 			maxHeight = 23
@@ -192,7 +187,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "header_left"
-			position = {x=15 y=50}
+			position = {x=11 y=20}
 			orientation = upper_left
 			size = {width=200 height=45}
 
@@ -289,7 +284,7 @@ guiTypes = {
 		
 		containerWindowType = {
 			name = "header_right"
-			position = {x=360 y=50}
+			position = {x=363 y=20}
 			orientation = upper_left
 			size = {width=200 height=45}
 
@@ -392,11 +387,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			margin = {top=13 left=0 bottom=13 right=0}
 			
-			background = {
-				name = "Background"	
-				quadTextureSprite ="GFX_tiled_window2_1b_border"
-			}
-			
 			gridBoxType = {
 				name ="list"
 				position = { x=0 y=0 }
@@ -414,11 +404,6 @@ guiTypes = {
 			verticalScrollbar = "right_vertical_slider"
 			margin = {top=13 left=0 bottom=13 right=0}
 
-			background = {
-				name = "Background"	
-				quadTextureSprite ="GFX_tiled_window2_1b_border"
-			}
-			
 			gridBoxType = {
 				name ="list"
 				position = { x=0 y=0 }
@@ -431,7 +416,7 @@ guiTypes = {
 		iconType = {
 			name ="reorganize_airwings_bottom"
 			spriteType = "GFX_reorganize_airwings_bottom"	
-			position = { x=10 y=624 }
+			position = { x=12 y=622 }
 		}
 
 		iconType = {
@@ -480,8 +465,8 @@ guiTypes = {
 		
 		buttonType = {
 			name = "confirm_btn"
-			position = {x=303 y=632}
-			spriteType = "GFX_button_123x34"
+			position = {x=300 y=635}
+			spriteType = "GFX_button_reset_123x34"
 			#quadTextureSprite ="button_type_7"	
 			#buttonText = "AIRWING_SPLIT_CONFIRM"
 			buttonFont = "hoi_20b"
@@ -499,7 +484,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "bg"
-			position = {x=-6 y=0}	
+			position = {x=-8 y=0}	
 			spriteType = "GFX_reorganize_wing_entry"
 		}
 		
@@ -579,7 +564,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "bg"
-			position = {x=-6 y=0}	
+			position = {x=-3 y=0}	
 			spriteType = "GFX_reorganize_wing_entry"
 		}
 		
