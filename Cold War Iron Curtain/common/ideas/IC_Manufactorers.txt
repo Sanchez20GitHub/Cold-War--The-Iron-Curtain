@@ -437,17 +437,17 @@ ideas = {
 			
 			equipment_bonus = {
 				carrier = {
-					attack = 0.10
+				
 					build_cost_ic = -0.10
 					instant = yes
 				}
 				capital_ship = {
-					attack = 0.10
+					
 					build_cost_ic = -0.10
 					instant = yes
 				}
 				screen_ship = {
-					attack = 0.10
+			
 					build_cost_ic = -0.10
 					instant = yes
 				}
@@ -468,17 +468,17 @@ ideas = {
 			
 			equipment_bonus = {
 				carrier = {
-					attack = 0.10
+					
 					build_cost_ic = -0.10
 					instant = yes
 				}
 				capital_ship = {
-					attack = 0.10
+					
 					build_cost_ic = -0.10
 					instant = yes
 				}
 				screen_ship = {
-					attack = 0.10
+					
 					build_cost_ic = -0.10
 					instant = yes
 				}

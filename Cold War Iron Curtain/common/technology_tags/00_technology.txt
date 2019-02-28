@@ -135,6 +135,9 @@ technology_categories = {
 	naval_minesweeping
 	naval_minelaying
 	naval_mines
+	category_nav_bomber
+	category_tac_bomber
+	category_strat_bomber
 }
 
 technology_folders = {
