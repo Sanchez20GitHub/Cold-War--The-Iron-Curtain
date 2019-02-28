@@ -42,10 +42,7 @@ ideas = {
 			}
 			
 			traits = { coastal_defence_naval_manufacturer }
-			
-			equipment_bonus = {
-				
-			}
+							
 		}
 	}
 	
@@ -143,16 +140,13 @@ ideas = {
 		}
 	}
 	
-	#industrial_concern = {
-	#	
-	#}
-	
 	materiel_manufacturer = {
 		
 		designer = yes
 		
 		IMI = {
-			picture = IMI
+		
+			picture = Israel_Military_Industries
 			
 			cost = 150
 			

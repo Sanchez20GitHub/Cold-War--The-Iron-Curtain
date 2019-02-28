@@ -4477,9 +4477,8 @@ spriteTypes = {
 	}	
 	spriteType = {
 		name = "GFX_idea_Yugoslavia_Railways"
-		texturefile = "gfx/interface/ideas/yugoslavia_railways.dds"
+		texturefile = "gfx/interface/ideas/yug/yugoslavia_railways.tga"
 	}
-	
 	######################################################################################################################################################
 	# North Korean Ideas
 	######################################################################################################################################################
@@ -5201,5 +5200,28 @@ spriteTypes = {
     spriteType = {
 		name = "GFX_idea_C_Dupont"
 		texturefile = "gfx/interface/ideas/zim/C_Dupont.dds"
+    }
+	######################################################################################################################################################
+	# israel Ideas
+	######################################################################################################################################################
+    spriteType = {
+		name = "GFX_idea_MANTAK"
+		texturefile = "gfx/interface/ideas/isr/MANTAK.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Israel_Shipyards"
+		texturefile = "gfx/interface/ideas/isr/Israel_Shipyards.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Rafael"
+		texturefile = "gfx/interface/ideas/isr/rafael.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_IAI"
+		texturefile = "gfx/interface/ideas/isr/IAI.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Israel_Military_Industries"
+		texturefile = "gfx/interface/ideas/isr/IMI.tga"
     }
 }

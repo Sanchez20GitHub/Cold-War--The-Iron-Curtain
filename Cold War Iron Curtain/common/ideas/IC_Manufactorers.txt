@@ -1323,7 +1323,6 @@ ideas = {
 			traits = { industrial_concern }
 		}		
 	}
-	
 	materiel_manufacturer = {
 		
 		designer = yes
