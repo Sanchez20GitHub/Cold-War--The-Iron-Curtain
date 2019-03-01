@@ -8,10 +8,10 @@ state={
 		set_state_flag = small
 		set_state_flag = decent
 		add_core_of = SOV
-		add_core_of = MLD
+		add_core_of = MOL
 		add_core_of = PMR
 		1990.6.1 ={
-		    owner = MLD
+		    owner = MOL
 			remove_core_of = SOV
 		}
 		1992.1.1 = {

@@ -462,8 +462,8 @@ create_field_marshal = {
 	skill = 2
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
+	#planning_skill = 5
+	#logistics_skill = 5
 }
 create_field_marshal = {
 	name = "Sam Manekshaw"
@@ -472,8 +472,8 @@ create_field_marshal = {
 	skill = 4
 	attack_skill = 5
 	defense_skill = 5
-	planning_skill = 5
-	logistics_skill = 5
+	#planning_skill = 5
+	#logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Rajendrasinhji Jadeja"
@@ -483,8 +483,8 @@ create_corps_commander = {
 	
 	attack_skill = 6
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
+	#planning_skill = 3
+	#logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Satyawant Mallanna Shrinagesh"
@@ -494,8 +494,8 @@ create_corps_commander = {
 	
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	#planning_skill = 4
+	#logistics_skill = 4
 }
 create_corps_commander = {
 	name = "Kodandera Subayya Thimayya"
@@ -505,8 +505,8 @@ create_corps_commander = {
 	
 	attack_skill = 5
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 5
+	#planning_skill = 4
+	#logistics_skill = 5
 }
 create_corps_commander = {
 	name = "Pran Nath Thapar"
@@ -516,8 +516,8 @@ create_corps_commander = {
 	
 	attack_skill = 5
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 5
+	#planning_skill = 4
+	#logistics_skill = 5
 }
 
 set_variable = { var = domestic_influence_amount value = 10000 }

@@ -80,7 +80,7 @@ INO = {
 	color = rgb { 191 46 37 }
 	color_ui = rgb { 255 255 255 }
 }
-MLD = {
+MOL = {
 	color = rgb { 200 210 110 }
 	color_ui = rgb { 200 210 110 }
 }
@@ -92,7 +92,7 @@ UZB = {
 	color = rgb { 121 73 175 }
 	color_ui = rgb { 121 73 175 }
 }
-TJK = {
+TAJ = {
 	color = rgb { 172 212 13 }
 	color_ui = rgb { 172 212 13 }
 }
@@ -100,7 +100,7 @@ KRG = {
 	color = rgb { 199 160 32 }
 	color_ui = rgb { 199 160 32 }
 }
-TRK = {
+TMS = {
 	color = rgb { 255 159 74 }
 	color_ui = rgb { 255 159 74 }
 }
@@ -1091,7 +1091,7 @@ DMN = {
     color_ui = rgb { 152 130 191 }
 }
 
-ULS = {
+NIR = {
     color = rgb { 213 213 0 }
     color_ui = rgb { 213 213 0 }
 }
@@ -1106,7 +1106,7 @@ DMN = {
     color_ui = rgb { 152 130 191 }
 }
 
-ULS = {
+NIR = {
     color = rgb { 213 213 0 }
     color_ui = rgb { 213 213 0 }
 }

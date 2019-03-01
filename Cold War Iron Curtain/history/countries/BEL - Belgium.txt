@@ -275,8 +275,8 @@ create_corps_commander = {
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	#planning_skill = 4
+	#logistics_skill = 4
 }
 
 create_navy_leader = {
@@ -286,8 +286,8 @@ create_navy_leader = {
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	#planning_skill = 4
+	#logistics_skill = 4
 }
 
 create_country_leader = {

@@ -4638,7 +4638,7 @@ focus_tree = {
 									size = 0.65
 								}
 						}
-					BRK = {
+					VOL = {
 							start_civil_war = {
 									ideology = trotskyism
 									size = 0.65
@@ -6255,11 +6255,11 @@ focus_tree = {
 						}
 					FRA = {
 							add_opinion_modifier = {
-									target = BRK
+									target = VOL
 									modifier = large_increase
 								}
 						}
-					BRK = {
+					VOL = {
 							add_opinion_modifier = {
 									target = FRA
 									modifier = large_increase

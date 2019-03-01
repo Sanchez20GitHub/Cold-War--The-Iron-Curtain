@@ -189,7 +189,7 @@ ideas = {
 		trade_treaty_BRU = { targeted_modifier = { tag = BRU trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MLI = { targeted_modifier = { tag = MLI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_NIG = { targeted_modifier = { tag = NIG trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_BRK = { targeted_modifier = { tag = BRK trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_VOL = { targeted_modifier = { tag = VOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GUI = { targeted_modifier = { tag = GUI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MAU = { targeted_modifier = { tag = MAU trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TOG = { targeted_modifier = { tag = TOG trade_cost_for_target_factor = -0.5 } }
@@ -198,12 +198,12 @@ ideas = {
 		trade_treaty_CHA = { targeted_modifier = { tag = CHA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CTD = { targeted_modifier = { tag = CTD trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_NYA = { targeted_modifier = { tag = NYA trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_MLD = { targeted_modifier = { tag = MLD trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_MOL = { targeted_modifier = { tag = MOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KAZ = { targeted_modifier = { tag = KAZ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_UZB = { targeted_modifier = { tag = UZB trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_TJK = { targeted_modifier = { tag = TJK trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_TAJ = { targeted_modifier = { tag = TAJ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KRG = { targeted_modifier = { tag = KRG trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_TRK = { targeted_modifier = { tag = TRK trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_TMS = { targeted_modifier = { tag = TMS trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KRL = { targeted_modifier = { tag = KRL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TAL = { targeted_modifier = { tag = TAL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_ADR = { targeted_modifier = { tag = ADR trade_cost_for_target_factor = -0.5 } }
@@ -285,7 +285,7 @@ ideas = {
 		trade_treaty_FLA = { targeted_modifier = { tag = FLA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_WAL = { targeted_modifier = { tag = WAL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_DMN = { targeted_modifier = { tag = DMN trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_ULS = { targeted_modifier = { tag = ULS trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_NIR = { targeted_modifier = { tag = NIR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_REN = { targeted_modifier = { tag = REN trade_cost_for_target_factor = -0.5 } }
 
 		infantry_payments_USA = {

@@ -228,7 +228,7 @@ ideas = {
 			}	
 
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				drift_defence_factor = 0.15			
 			}			
 			ai_will_do = {
@@ -242,7 +242,7 @@ ideas = {
 			}	
 
 			modifier = {
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 				drift_defence_factor = 0.15			
 			}			
 			ai_will_do = {
@@ -256,7 +256,7 @@ ideas = {
 			}	
 
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}			
 			ai_will_do = {
 				factor = 0
@@ -686,7 +686,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 			}
 		}
 		Arianespace = {
@@ -699,7 +699,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		socialist_realism = {
@@ -712,7 +712,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 				conscription_factor = 0.05
 			}
 		}	
@@ -726,7 +726,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = 0.15
+				research_speed_factor = -0.15
 				stability_factor = 0.05
 				political_power_factor = 0.1
 			}
@@ -741,7 +741,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		increased_pensions = {
@@ -791,7 +791,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = 0.025
+				research_speed_factor = -0.025
 				stability_factor = 0.05
 			}
 		}
@@ -899,7 +899,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
+				research_speed_factor = 0.025
 			}
 		}
 		american_intel_sharing = {
@@ -1168,7 +1168,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.025
+				research_speed_factor = 0.025
 			}
 		}
 		
@@ -1224,7 +1224,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_buildings_factor = 0.05
-				research_time_factor = -0.03
+				research_speed_factor = 0.03
 			}
 		}
 		catholic_missionaries = {
@@ -1242,7 +1242,7 @@ ideas = {
 			
 			modifier = {
 				MONTHLY_POPULATION = 0.02
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 		}		
 			
@@ -1640,7 +1640,7 @@ ideas = {
 				conscription_factor = -0.10
 				production_speed_buildings_factor = 0.05
 				consumer_goods_factor = 0.01
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 		}
 		Bastion_of_Democracy = {
@@ -2217,7 +2217,7 @@ ideas = {
 			allowed = { always = no }			
 			modifier = { 
 				stability_factor = -0.15
-				research_time_factor = 0.015
+				research_speed_factor = -0.015
 				consumer_goods_factor = 0.01
 				conscription_factor = -0.05
 			}
@@ -2281,7 +2281,7 @@ ideas = {
 			
 			modifier = { 
 				MONTHLY_POPULATION = -1.50
-				research_time_factor = 0.06
+				research_speed_factor = -0.06
 				consumer_goods_factor = 0.15
 			}
 			
@@ -2927,7 +2927,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 				MONTHLY_POPULATION = 0.03
 			}
 		}
@@ -2942,7 +2942,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 
@@ -2957,7 +2957,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		Bantu_Education_Act = {
@@ -2971,7 +2971,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				stability_factor = -0.02
 			}
 		}
@@ -2986,7 +2986,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		education_reform_3 = {
@@ -3000,7 +3000,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.04
+				research_speed_factor = 0.04
 			}
 		}
 		KOR_new_civil_service_exam_focus = {
@@ -3014,7 +3014,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		KOR_revolution_in_the_rice_paddies_focus = {
@@ -3069,7 +3069,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				industrial_capacity_factory = 0.05
@@ -3085,7 +3085,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				#research_time_factor = -0.02
+				#research_speed_factor = 0.02
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				#industrial_capacity_factory = 0.05
@@ -3101,7 +3101,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				industrial_capacity_factory = 0.05
 			}
 		}
@@ -3116,7 +3116,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				industrial_capacity_factory = 0.05
 			}
 		}
@@ -3130,7 +3130,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = 0.15
+				research_speed_factor = -0.15
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = 0.1
 				industrial_capacity_factory = -0.15
@@ -3242,7 +3242,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = -0.15
-				research_time_factor = 0.03
+				research_speed_factor = -0.03
 				consumer_goods_factor = 0.05
 				drift_defence_factor = -0.30
 			}
@@ -3256,7 +3256,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = -0.125
-				research_time_factor = 0.025
+				research_speed_factor = -0.025
 				consumer_goods_factor = 0.035
 				drift_defence_factor = -0.22
 			}
@@ -3270,7 +3270,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = -0.10
-				research_time_factor = 0.02
+				research_speed_factor = -0.02
 				consumer_goods_factor = 0.03
 				drift_defence_factor = -0.15
 			}
@@ -3296,7 +3296,7 @@ ideas = {
 			modifier = { 
 				stability_factor = -0.05
 				consumer_goods_factor = 0.01
-				research_time_factor = 0.01
+				research_speed_factor = -0.01
 			}
 			
 		}	
@@ -3406,7 +3406,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = -0.025
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 				drift_defence_factor = -0.15			
 				MONTHLY_POPULATION = -0.02
 			}			
@@ -3422,7 +3422,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.05
-				research_time_factor = 0.10
+				research_speed_factor = -0.10
 				conscription_factor = 0.10
 				drift_defence_factor = 0.33			
 				MONTHLY_POPULATION = 0.05
@@ -4126,7 +4126,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = -0.15
-				research_time_factor = 0.015
+				research_speed_factor = -0.015
 				consumer_goods_factor = 0.10
 				conscription_factor = -0.05
 			}
@@ -4140,7 +4140,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = 0.05
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 				conscription_factor = 0.005
 			}
 			
@@ -4153,7 +4153,7 @@ ideas = {
 			
 			modifier = { 
 				stability_factor = -0.05
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 			
 		}	
@@ -4244,7 +4244,7 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				political_power_factor = 0.05
 			}
 		}
@@ -4261,7 +4261,7 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				political_power_factor = 0.05
 			}
 		}
@@ -4279,7 +4279,7 @@ ideas = {
 			picture = generic_research_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 
@@ -4376,7 +4376,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		vietnam_war_draft = {
@@ -4402,7 +4402,7 @@ ideas = {
 			picture = pan_arabism_drift_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				conscription_factor = 0.15
 				MONTHLY_POPULATION = -0.05
 			}
@@ -4549,7 +4549,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				stability_factor = -0.05
 			}
 		}
@@ -4567,7 +4567,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 				stability_factor = -0.05
 			}
 		}
@@ -4585,7 +4585,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		la_violencia = {
@@ -4696,7 +4696,7 @@ ideas = {
 				MONTHLY_POPULATION = 0.05
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
-				research_time_factor = 0.05
+				research_speed_factor = -0.05
 			}			
 			ai_will_do = {
 				factor = 0
@@ -4809,7 +4809,7 @@ ideas = {
 				ai_badass_factor = 0.01    # Will receive 1% of the threat from others
 				ai_get_ally_desire_factor = -100
 				stability_factor = 0.05
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		high_quotas = {
@@ -4992,7 +4992,7 @@ ideas = {
 			
 			modifier = {
 				production_factory_max_efficiency_factor = 0.05
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 				political_power_factor = 0.05
 			}
 		}
@@ -5042,7 +5042,7 @@ ideas = {
 			
 			modifier = {
 				MONTHLY_POPULATION = 0.01
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 				political_power_factor = 0.05
 			}
 		}
@@ -5396,7 +5396,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				industrial_capacity_factory = 0.05
 			}
 		}
@@ -5456,7 +5456,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 			}
 		}
 		thai_advisors = {
@@ -5569,7 +5569,7 @@ ideas = {
 				army_defence_factor = 2 
 				global_building_slots_factor = 1
 				consumer_goods_factor = -1
-				research_time_factor = -0.95
+				research_speed_factor = 0.95
 				MONTHLY_POPULATION = 0.5
 				production_speed_arms_factory_factor = 1 
 				production_speed_industrial_complex_factor = 1 
@@ -5686,7 +5686,7 @@ ideas = {
 			picture = generic_manpower_bonus
 			
 			modifier = {
-				research_time_factor = -0.02
+				research_speed_factor = 0.02
 				production_speed_industrial_complex_factor = 0.05
 				production_speed_arms_factory_factor = 0.05
 				industrial_capacity_factory = 0.05
@@ -5795,7 +5795,7 @@ ideas = {
 			
 			modifier = {
 				MONTHLY_POPULATION = 0.02
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 		}
 		Campaign_Finance_Reform = {
