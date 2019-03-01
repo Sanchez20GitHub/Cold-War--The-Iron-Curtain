@@ -159,7 +159,7 @@ ideas = {
 		trade_treaty_PDG = { targeted_modifier = { tag = PDG trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_INO = { targeted_modifier = { tag = INO trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_VIE = { targeted_modifier = { tag = VIE trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_MYR = { targeted_modifier = { tag = MYR trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_BRM = { targeted_modifier = { tag = BRM trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_PAK = { targeted_modifier = { tag = PAK trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KPA = { targeted_modifier = { tag = KPA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CHE = { targeted_modifier = { tag = CHE trade_cost_for_target_factor = -0.5 } }

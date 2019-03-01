@@ -68,7 +68,7 @@ VIE = {
 	color = rgb { 50 154 206 }
 	color_ui = rgb { 255 255 255 }
 }
-MYR = {
+BRM = {
 	color = rgb { 52 178 51 }
 	color_ui = rgb { 52 178 51 }
 }

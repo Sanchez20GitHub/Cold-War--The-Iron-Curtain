@@ -1,6 +1,6 @@
 ﻿capital = 288
 
-oob = "MYR_1949"
+oob = "BRM_1949"
 
 set_technology = {
 
@@ -102,10 +102,10 @@ set_convoys = 20
 add_ideas = {
 	limited_conscription
 	population_growth_explosion
-	MYR_internal_conflict_1
+	BRM_internal_conflict_1
 }
 
-set_cosmetic_tag = MYR_ENG
+set_cosmetic_tag = BRM_ENG
 
 set_politics = {
 

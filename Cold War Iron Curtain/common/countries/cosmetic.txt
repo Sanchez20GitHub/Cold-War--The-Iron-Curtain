@@ -33,7 +33,7 @@ UGA_ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 
-MYR_ENG = {
+BRM_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }

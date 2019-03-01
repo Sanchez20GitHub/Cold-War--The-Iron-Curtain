@@ -2778,7 +2778,7 @@ ROC = {
 	callsigns = { }
 }
 
-MYR = {
+BRM = {
 	male = {
 		names = {  
 			Kaung Kyaw Win Zin Naing Htun Myint Linn Thuta Yarzar Wunna Thawda Nyan Pyay Phyoe Kan Ag Htun 		

@@ -4271,19 +4271,19 @@ focus_tree = {
 		y = 11
 		
 		complete_tooltip = {
-			MYR = {
+			BRM = {
 				add_opinion_modifier = { target = PRC modifier = democratic_leanings_good }
 			}
 			PRC = {
-				add_opinion_modifier = { target = MYR modifier = democratic_leanings_good }
+				add_opinion_modifier = { target = BRM modifier = democratic_leanings_good }
 			}
 		}
 		completion_reward = {
-			MYR = {
+			BRM = {
 				add_opinion_modifier = { target = PRC modifier = democratic_leanings_good }
 			}
 			PRC = {
-				add_opinion_modifier = { target = MYR modifier = democratic_leanings_good }
+				add_opinion_modifier = { target = BRM modifier = democratic_leanings_good }
 			}
 		}
 
@@ -4362,7 +4362,7 @@ focus_tree = {
 		y = 12
 		
 		completion_reward = {
-			MYR = {
+			BRM = {
 				start_civil_war = {
 					ideology = communism
 					size = 0.5
