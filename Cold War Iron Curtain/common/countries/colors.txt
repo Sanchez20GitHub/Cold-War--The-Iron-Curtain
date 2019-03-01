@@ -731,7 +731,7 @@ WES = {
     color_ui = rgb { 107 155 127 }
 }
 
-PRT = {
+PUE = {
     color = rgb { 0 119 206 }
     color_ui = rgb { 0 119 206 }
 }

@@ -508,7 +508,7 @@ scripted_gui = {
 				}
 				AND = {
 						OR = {
-							tag = PRT
+							tag = PUE
 							tag = STL
 							tag = JAM
 							tag = TAT
@@ -523,7 +523,7 @@ scripted_gui = {
 						}
 					ROOT = {
 						OR = {
-							tag = PRT
+							tag = PUE
 							tag = STL
 							tag = JAM
 							tag = TAT

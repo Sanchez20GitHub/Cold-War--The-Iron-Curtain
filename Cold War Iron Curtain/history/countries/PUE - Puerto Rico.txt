@@ -1,6 +1,6 @@
 ﻿capital = 686
 
-oob = "PRT_1949"
+oob = "PUE_1949"
 
 set_technology = {
 

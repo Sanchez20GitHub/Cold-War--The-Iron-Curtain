@@ -227,7 +227,7 @@ eastern_asia_trigger = {
 }
 
 carribean_trigger = {
-	tag = PRT
+	tag = PUE
 	tag = STL
 	tag = JAM
 	tag = TAT

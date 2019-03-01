@@ -659,7 +659,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = TOA } ROOT = { add_ideas = trade_treaty_TOA	}	}
 	if = { limit = { tag = GRN } ROOT = { add_ideas = trade_treaty_GRN	}	}
 	if = { limit = { tag = WES } ROOT = { add_ideas = trade_treaty_WES	}	}
-	if = { limit = { tag = PRT } ROOT = { add_ideas = trade_treaty_PRT	}	}
+	if = { limit = { tag = PUE } ROOT = { add_ideas = trade_treaty_PUE	}	}
 	if = { limit = { tag = FCB } ROOT = { add_ideas = trade_treaty_FCB	}	}
 	if = { limit = { tag = MLA } ROOT = { add_ideas = trade_treaty_MLA	}	}
 	if = { limit = { tag = SLV } ROOT = { add_ideas = trade_treaty_SLV	}	}
@@ -921,7 +921,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = TOA } } add_ideas = trade_treaty_TOA	}	
 	if = { limit = { ROOT = { tag = GRN } } add_ideas = trade_treaty_GRN	}	
 	if = { limit = { ROOT = { tag = WES } } add_ideas = trade_treaty_WES	}	
-	if = { limit = { ROOT = { tag = PRT } } add_ideas = trade_treaty_PRT	}	
+	if = { limit = { ROOT = { tag = PUE } } add_ideas = trade_treaty_PUE	}	
 	if = { limit = { ROOT = { tag = FCB } } add_ideas = trade_treaty_FCB	}	
 	if = { limit = { ROOT = { tag = MLA } } add_ideas = trade_treaty_MLA	}	
 	if = { limit = { ROOT = { tag = SLV } } add_ideas = trade_treaty_SLV	}	
