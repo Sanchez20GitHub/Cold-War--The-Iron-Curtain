@@ -283,7 +283,7 @@ RIF_SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 
-EGI_SPR = {
+EQG_SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
 }

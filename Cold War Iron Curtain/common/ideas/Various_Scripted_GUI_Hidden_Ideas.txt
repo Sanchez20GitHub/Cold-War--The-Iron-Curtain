@@ -222,7 +222,7 @@ ideas = {
 		trade_treaty_CAR = { targeted_modifier = { tag = CAR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CMR = { targeted_modifier = { tag = CMR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_DOC = { targeted_modifier = { tag = DOC trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_EGI = { targeted_modifier = { tag = EGI trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_EQG = { targeted_modifier = { tag = EQG trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MAD = { targeted_modifier = { tag = MAD trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GAB = { targeted_modifier = { tag = GAB trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_ROC = { targeted_modifier = { tag = ROC trade_cost_for_target_factor = -0.5 } }

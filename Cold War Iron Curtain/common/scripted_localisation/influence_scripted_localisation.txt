@@ -993,8 +993,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -1783,8 +1783,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -2575,8 +2575,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -3364,8 +3364,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -4153,8 +4153,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -4942,8 +4942,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"
@@ -5731,8 +5731,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = DOC } }
      localization_key = "[DOC.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = EGI } }
-     localization_key = "[EGI.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = EQG } }
+     localization_key = "[EQG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = MAD } }
      localization_key = "[MAD.GetNameWithFlag]"

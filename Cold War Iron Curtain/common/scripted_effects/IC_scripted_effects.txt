@@ -1227,7 +1227,7 @@ ic_pulse = {
 					NOT = { tag = UGA }
 					NOT = { tag = CAR }
 					NOT = { tag = DOC }
-					NOT = { tag = EGI }
+					NOT = { tag = EQG }
 				}
 				load_focus_tree = generic_focus_60
 				set_country_flag = focus_tree_60_reset
@@ -1270,7 +1270,7 @@ ic_pulse = {
 						tag = UGA
 						tag = CAR
 						tag = DOC
-						tag = EGI
+						tag = EQG
 					}
 				}
 				set_country_flag = focus_tree_60_reset		
@@ -4265,9 +4265,9 @@ ic_pulse = {
 		}
 		#news_event = por_colonial_news.2
 		POR = {
-			release = EGI
-			EGI = { set_politics = { ruling_party = communism elections_allowed = no } }
-			declare_war_on = { target = EGI type = annex_everything }	
+			release = EQG
+			EQG = { set_politics = { ruling_party = communism elections_allowed = no } }
+			declare_war_on = { target = EQG type = annex_everything }	
 		}
 		set_global_flag = Guinea_Bissau_War
 	}
@@ -5263,7 +5263,7 @@ ic_pulse = {
 				has_cosmetic_tag = ZIM_ENG
 				has_cosmetic_tag = NYA_ENG
 				has_cosmetic_tag = RIF_SPR 
-				has_cosmetic_tag = EGI_SPR
+				has_cosmetic_tag = EQG_SPR
 				has_cosmetic_tag = KPA_SOV
 				has_cosmetic_tag = KOR_USA
 			}
