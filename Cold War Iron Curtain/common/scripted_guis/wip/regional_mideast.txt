@@ -615,7 +615,7 @@ scripted_gui = {
 							tag = NZL
 							tag = BRT
 							tag = HWI
-							tag = PAP
+							tag = PNG
 							tag = SKS
 							tag = SOL
 						}
@@ -626,7 +626,7 @@ scripted_gui = {
 							tag = NZL
 							tag = BRT
 							tag = HWI
-							tag = PAP
+							tag = PNG
 							tag = SKS
 							tag = SOL
 						}

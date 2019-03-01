@@ -276,7 +276,7 @@ oceania_trigger = {
 	tag = NZL
 	tag = BRT
 	tag = HWI
-	tag = PAP
+	tag = PNG
 	tag = SKS
 	tag = SOL
 }

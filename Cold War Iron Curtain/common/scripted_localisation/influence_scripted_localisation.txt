@@ -1062,8 +1062,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -1852,8 +1852,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -2644,8 +2644,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -3433,8 +3433,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -4222,8 +4222,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -5011,8 +5011,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = GND } }
      localization_key = "[GND.GetNameWithFlag]"
@@ -5800,8 +5800,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = FIJ } }
      localization_key = "[FIJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = PAP } }
-     localization_key = "[PAP.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = PNG } }
+     localization_key = "[PNG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = GND } }
      localization_key = "[GND.GetNameWithFlag]"

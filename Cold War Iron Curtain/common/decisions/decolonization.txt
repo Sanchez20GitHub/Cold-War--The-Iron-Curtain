@@ -241,7 +241,7 @@ colonial_affairs = {
 		icon = GFX_mandates
 
 		available = {
-			NOT = { country_exists = PAP }
+			NOT = { country_exists = PNG }
 			owns_state = 976
 			owns_state = 737
 			owns_state = 523
@@ -251,7 +251,7 @@ colonial_affairs = {
 		
 		visible = {
 			original_tag = AST
-			NOT = { country_exists = PAP }
+			NOT = { country_exists = PNG }
 			owns_state = 976
 			owns_state = 737
 			owns_state = 523
@@ -265,7 +265,7 @@ colonial_affairs = {
 
 		complete_effect = {
 			add_political_power = 50
-			release = PAP
+			release = PNG
 		}
 
 		ai_will_do = {

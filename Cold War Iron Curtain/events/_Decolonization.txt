@@ -172,7 +172,7 @@ country_event = {
 	
 	option = {
 		name = decolonization.9.a
-		release = PAP
+		release = PNG
 	}
 }
 

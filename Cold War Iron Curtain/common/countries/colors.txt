@@ -866,7 +866,7 @@ HWI = {
     color_ui = rgb { 13 242 133 }
 }
 
-PAP = {
+PNG = {
     color = rgb { 60 70 120 }
     color_ui = rgb { 60 70 120 }
 }

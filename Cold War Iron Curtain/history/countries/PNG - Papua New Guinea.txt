@@ -1,6 +1,6 @@
 ﻿capital = 523
 
-oob = "PAP_1949"
+oob = "PNG_1949"
 
 set_technology = {
 

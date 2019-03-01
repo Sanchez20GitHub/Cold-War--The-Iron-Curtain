@@ -5534,7 +5534,7 @@ ic_pulse = {
 			original_tag = AST
 			date > 1975.09.15
 			date < 1976.01.01
-			NOT = { country_exists = PAP }
+			NOT = { country_exists = PNG }
 			owns_state = 976
 			owns_state = 737
 			owns_state = 523
