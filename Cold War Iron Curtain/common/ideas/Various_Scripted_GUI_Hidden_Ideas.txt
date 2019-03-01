@@ -202,7 +202,7 @@ ideas = {
 		trade_treaty_KAZ = { targeted_modifier = { tag = KAZ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_UZB = { targeted_modifier = { tag = UZB trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TAJ = { targeted_modifier = { tag = TAJ trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_KRG = { targeted_modifier = { tag = KRG trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_KYR = { targeted_modifier = { tag = KYR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TMS = { targeted_modifier = { tag = TMS trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KRL = { targeted_modifier = { tag = KRL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TAL = { targeted_modifier = { tag = TAL trade_cost_for_target_factor = -0.5 } }

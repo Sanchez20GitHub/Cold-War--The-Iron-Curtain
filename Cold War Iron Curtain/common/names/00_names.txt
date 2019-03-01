@@ -2162,7 +2162,7 @@ VIN = {
 	callsigns = { }
 }
 
-KRG = {
+KYR = {
 	male = {
 		names = {  Daulet Madi Taalay Kasym Orzubek Oboi Sonin Songgotu Suksaha  }
 	}

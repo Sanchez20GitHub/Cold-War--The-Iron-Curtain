@@ -334,7 +334,7 @@ focus_tree = {
 									days = 700
 								}
 						}
-					KRG = {
+					KYR = {
 							add_timed_idea = {
 									idea = islamism_drift
 									days = 700
@@ -945,7 +945,7 @@ focus_tree = {
 								}
 							add_stability = -0.25
 						}
-					KRG = {
+					KYR = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200

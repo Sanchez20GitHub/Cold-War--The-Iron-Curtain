@@ -933,8 +933,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -1723,8 +1723,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -2515,8 +2515,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -3304,8 +3304,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -4093,8 +4093,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -4882,8 +4882,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
@@ -5671,8 +5671,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = TAJ } }
      localization_key = "[TAJ.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = KRG } }
-     localization_key = "[KRG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = KYR } }
+     localization_key = "[KYR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = TMS } }
      localization_key = "[TMS.GetNameWithFlag]"
