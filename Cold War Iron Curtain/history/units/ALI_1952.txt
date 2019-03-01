@@ -384,31 +384,7 @@ units = {
 		
 	##### NAVAL UNITS #####
 	### Northern Fleet -- Murmansk
-	navy = {	
-		name = "Alien Earth-Sea Flot"
-		base = 3154
-		location = 3154 # Murmansk
-		#ship = { name = "Dzerzhinskiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Gordy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Gromky" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Grozny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Gremyashchiy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Sokrushitelny" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Razyaryonnyy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Razumnyy" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SOV } } }
-		ship = { name = "Stalin" definition = destroyer equipment = { destroyer_3 = { amount = 1 owner = SOV } } }
-		ship = { name = "S-14" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-56" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-101" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-15" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-16" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-103" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "S-104" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "S Class" } } }
-		ship = { name = "K-21" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "K Class" } } }
-		ship = { name = "K-51" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "K Class" } } }
-		ship = { name = "K-52" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "K Class" } } }
-		ship = { name = "K-57" definition = submarine equipment = { submarine_1 = { amount = 1 owner = SOV version_name = "K Class" } } }
-	}	
+	
 }	
 		
 					
