@@ -108,7 +108,7 @@ ideas = {
 		trade_treaty_RAJ = { targeted_modifier = { tag = RAJ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CRO = { targeted_modifier = { tag = CRO trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_PRC = { targeted_modifier = { tag = PRC trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_SLK = { targeted_modifier = { tag = SLK trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_SRL = { targeted_modifier = { tag = SRL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_BAH = { targeted_modifier = { tag = BAH trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_RIF = { targeted_modifier = { tag = RIF trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_ICE = { targeted_modifier = { tag = ICE trade_cost_for_target_factor = -0.5 } }

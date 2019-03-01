@@ -577,12 +577,12 @@ focus_tree = {
 			focus = RAJ_relations_with_nepal
 		}
 		available = {
-			SLK = { exists = yes }
+			SRL = { exists = yes }
 		}
 		x = 47
 		y = 5
 		completion_reward = {
-			create_wargoal = { type = annex_everything target = SLK }
+			create_wargoal = { type = annex_everything target = SRL }
 		}
 		ai_will_do = {
 			factor = 1
@@ -1609,7 +1609,7 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = { type = annex_everything target = PAK }
 			create_wargoal = { type = annex_everything target = BAN }
-			create_wargoal = { type = annex_everything target = SLK }
+			create_wargoal = { type = annex_everything target = SRL }
 		}
 		ai_will_do = {
 			factor = 1

@@ -569,15 +569,15 @@ set_politics = {
 		    has_dlc = "Together for Victory"
 	    }
         set_autonomy = {
-            target = SLK
+            target = SRL
             autonomous_state = autonomy_dominion
             freedom_level = 0.1
         }
   	    else = {
-		    puppet = SLK
+		    puppet = SRL
 	    }
     }
-	SLK = { set_politics = { parties = { conservative = { popularity = 100 } } ruling_party = conservative elections_allowed = no } }
+	SRL = { set_politics = { parties = { conservative = { popularity = 100 } } ruling_party = conservative elections_allowed = no } }
 }
 
 1949.1.1 = {
@@ -681,7 +681,7 @@ set_politics = {
 }
 
 1972.1.1 = {
-    set_autonomy = { target = SLK autonomy_state = autonomy_free }    
+    set_autonomy = { target = SRL autonomy_state = autonomy_free }    
 }
 
 1963.1.1 = {

@@ -1061,7 +1061,7 @@ ALN = {
 	color_ui = rgb { 0 128 192 }
 }
 
-SLK = {
+SRL = {
 	color = rgb { 225 204 71 }
 	color_ui = rgb { 225 204 71 }
 }

@@ -12,9 +12,9 @@ state={
 		set_state_flag = lakes
 		set_state_flag = nominal
 		set_state_flag = verypoor
-		add_core_of = SLK
+		add_core_of = SRL
 		1948.1.1 = {
-			owner = SLK
+			owner = SRL
 
 		}
 		victory_points = {
