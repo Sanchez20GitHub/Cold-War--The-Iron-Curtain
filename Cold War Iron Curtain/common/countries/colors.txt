@@ -921,7 +921,7 @@ VOJ = {
     color_ui = rgb { 51 41 169 }
 }
 
-GUY = {
+GYA = {
     color = rgb { 220 160 130 }
     color_ui = rgb { 220 160 130 }
 }

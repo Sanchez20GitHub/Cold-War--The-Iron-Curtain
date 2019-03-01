@@ -760,7 +760,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = MLT } ROOT = { add_ideas = trade_treaty_MLT	}	}
 	if = { limit = { tag = PLU } ROOT = { add_ideas = trade_treaty_PLU	}	}
 	if = { limit = { tag = VOJ } ROOT = { add_ideas = trade_treaty_VOJ	}	}
-	if = { limit = { tag = GUY } ROOT = { add_ideas = trade_treaty_GUY	}	}
+	if = { limit = { tag = GYA } ROOT = { add_ideas = trade_treaty_GYA	}	}
 	if = { limit = { tag = SRP } ROOT = { add_ideas = trade_treaty_SRP	}	}
 	if = { limit = { tag = BOS } ROOT = { add_ideas = trade_treaty_BOS	}	}
 	if = { limit = { tag = BAD } ROOT = { add_ideas = trade_treaty_BAD	}	}
@@ -1022,7 +1022,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = MLT } } add_ideas = trade_treaty_MLT	}	
 	if = { limit = { ROOT = { tag = PLU } } add_ideas = trade_treaty_PLU	}	
 	if = { limit = { ROOT = { tag = VOJ } } add_ideas = trade_treaty_VOJ	}	
-	if = { limit = { ROOT = { tag = GUY } } add_ideas = trade_treaty_GUY	}	
+	if = { limit = { ROOT = { tag = GYA } } add_ideas = trade_treaty_GYA	}	
 	if = { limit = { ROOT = { tag = SRP } } add_ideas = trade_treaty_SRP	}	
 	if = { limit = { ROOT = { tag = BOS } } add_ideas = trade_treaty_BOS	}	
 	if = { limit = { ROOT = { tag = BAD } } add_ideas = trade_treaty_BAD	}	

@@ -1,6 +1,6 @@
 ﻿capital = 687
 
-oob = "GUY_1949"
+oob = "GYA_1949"
 
 set_technology = {
 

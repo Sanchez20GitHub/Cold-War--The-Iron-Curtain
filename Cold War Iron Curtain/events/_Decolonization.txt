@@ -304,7 +304,7 @@ country_event = {
 	
 	option = {
 		name = decolonization.12.a
-		release = GUY
+		release = GYA
 	}
 }
 

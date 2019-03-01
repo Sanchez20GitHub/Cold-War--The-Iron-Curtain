@@ -124,7 +124,7 @@ scripted_gui = {
 						tag = MEX
 						tag = NIC
 						tag = PAN
-						tag = GUY
+						tag = GYA
 						tag = PAR
 						tag = BLZ
 						tag = BAD
@@ -151,7 +151,7 @@ scripted_gui = {
 							tag = MEX
 							tag = NIC
 							tag = PAN
-							tag = GUY
+							tag = GYA
 							tag = PAR
 							tag = BLZ
 							tag = BAD
@@ -518,7 +518,7 @@ scripted_gui = {
 							tag = VEN
 							tag = MEX
 							tag = COL
-							tag = GUY
+							tag = GYA
 							tag = USA
 						}
 					ROOT = {
@@ -533,7 +533,7 @@ scripted_gui = {
 							tag = VEN
 							tag = MEX
 							tag = COL
-							tag = GUY
+							tag = GYA
 							tag = USA
 						}
 					}

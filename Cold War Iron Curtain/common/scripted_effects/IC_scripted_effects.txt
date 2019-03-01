@@ -5570,7 +5570,7 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1966.05.25
 			date < 1967.01.01
-			NOT = { country_exists = GUY }
+			NOT = { country_exists = GYA }
 			owns_state = 687
 			owns_state = 1202
 			owns_state = 1203
