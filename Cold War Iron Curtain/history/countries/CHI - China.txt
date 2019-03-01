@@ -214,7 +214,7 @@ create_field_marshal = {
 	attack_skill = 4
 	defense_skill = 4
 	#planning_skill = 4
-	logistics_skill = 4
+	#logistics_skill = 4
 }
 
 create_field_marshal = {
@@ -225,7 +225,7 @@ create_field_marshal = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 
 create_field_marshal = {
@@ -236,7 +236,7 @@ create_field_marshal = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 
 create_field_marshal = {
@@ -247,7 +247,7 @@ create_field_marshal = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -258,7 +258,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 4
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -269,7 +269,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -280,7 +280,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 1949.1.1 = {

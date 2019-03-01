@@ -153,7 +153,7 @@ create_country_leader = {
 		attack_skill = 2
 		defense_skill = 2
 		#planning_skill = 2
-		logistics_skill = 2
+		#logistics_skill = 2
 	}
 }
 

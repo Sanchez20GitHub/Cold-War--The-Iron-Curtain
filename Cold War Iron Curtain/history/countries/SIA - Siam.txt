@@ -200,7 +200,7 @@ create_field_marshal = {
 	attack_skill = 6
 	defense_skill = 6
 	#planning_skill = 6
-	logistics_skill = 6
+	#logistics_skill = 6
 
 }
 
@@ -212,7 +212,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 5
 	#planning_skill = 5
-	logistics_skill = 5
+	#logistics_skill = 5
 }
 
 create_corps_commander = {
@@ -223,7 +223,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 5
 	#planning_skill = 5
-	logistics_skill = 5
+	#logistics_skill = 5
 }
 1958.1.1 = {
 		set_politics = {

@@ -277,7 +277,7 @@ create_field_marshal = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Sakari Simelius"
@@ -287,7 +287,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Kaarlo Heiskanen"
@@ -297,7 +297,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 create_corps_commander = {
 	name = "Yrjö Keinonen"
@@ -307,7 +307,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 create_corps_commander = {
 	name = "Aarne Sihvo"
@@ -317,7 +317,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 1
 	#planning_skill = 1
-	logistics_skill = 1
+	#logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Oiva Olenius"
@@ -327,7 +327,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	#planning_skill = 1
-	logistics_skill = 1
+	#logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Kustaa Tapola"
@@ -337,7 +337,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	#planning_skill = 1
-	logistics_skill = 1
+	#logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Jarl Lundqvist"
@@ -347,7 +347,7 @@ create_corps_commander = {
 	attack_skill = 1
 	defense_skill = 1
 	#planning_skill = 1
-	logistics_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -358,7 +358,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 create_corps_commander = {
@@ -369,7 +369,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 1954.1.1 = {
 	remove_ideas = soviet_reparations

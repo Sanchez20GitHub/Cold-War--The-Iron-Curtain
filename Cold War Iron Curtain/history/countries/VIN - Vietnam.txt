@@ -192,7 +192,7 @@ create_field_marshal = {
 	attack_skill = 4
 	defense_skill = 4
 	#planning_skill = 5
-	logistics_skill = 5 
+	#logistics_skill = 5 
 }
 set_variable = { var = domestic_influence_amount value = 2500 }
 set_variable = { var = influencer1 value = SOV.id }
@@ -294,7 +294,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 2
 	#planning_skill = 4
-	logistics_skill = 3 
+	#logistics_skill = 3 
 }
 
 1986.1.1 = {
@@ -310,7 +310,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 5
 	#planning_skill = 3
-	logistics_skill = 5 
+	#logistics_skill = 5 
 }
 
 1986.1.1 = {
@@ -326,7 +326,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 4
-	logistics_skill = 4
+	#logistics_skill = 4
 }
 
 1986.1.1 = {
@@ -342,7 +342,7 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 1986.1.1 = {
@@ -358,7 +358,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 
 1995.1.1 = {
@@ -374,7 +374,7 @@ create_navy_leader = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 1971.1.1 = {
@@ -390,7 +390,7 @@ create_navy_leader = {
 	attack_skill = 2
 	defense_skill = 2
 	#planning_skill = 2
-	logistics_skill = 2
+	#logistics_skill = 2
 }
 
 1976.1.1 = {

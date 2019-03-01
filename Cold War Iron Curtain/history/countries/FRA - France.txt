@@ -870,7 +870,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	#planning_skill = 4
-	logistics_skill = 4
+	#logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -881,7 +881,7 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 4
 	#planning_skill = 4
-	logistics_skill = 4
+	#logistics_skill = 4
 }
 
 create_corps_commander = {
@@ -892,7 +892,7 @@ create_corps_commander = {
 	attack_skill = 3
 	defense_skill = 3
 	#planning_skill = 3
-	logistics_skill = 3
+	#logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -903,7 +903,7 @@ create_corps_commander = {
 	attack_skill = 5
 	defense_skill = 5
 	#planning_skill = 5
-	logistics_skill = 5
+	#logistics_skill = 5
 }
 
 1949.1.1 = {
