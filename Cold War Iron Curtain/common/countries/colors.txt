@@ -981,7 +981,7 @@ SLE = {
     color_ui = rgb { 130 250 230 }
 }
 
-DJB = {
+DJI = {
     color = rgb { 230 0 230 }
     color_ui = rgb { 230 0 230 }
 }

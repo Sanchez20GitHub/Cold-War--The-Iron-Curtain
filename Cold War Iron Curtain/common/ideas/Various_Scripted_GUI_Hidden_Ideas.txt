@@ -260,7 +260,7 @@ ideas = {
 		trade_treaty_SLE = { targeted_modifier = { tag = SLE trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SOL = { targeted_modifier = { tag = SOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_STL = { targeted_modifier = { tag = STL trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_DJB = { targeted_modifier = { tag = DJB trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_DJI = { targeted_modifier = { tag = DJI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_HOK = { targeted_modifier = { tag = HOK trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_AGN = { targeted_modifier = { tag = AGN trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GAG = { targeted_modifier = { tag = GAG trade_cost_for_target_factor = -0.5 } }

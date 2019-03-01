@@ -183,7 +183,7 @@ eastern_africa_trigger = {
 	tag = SML
 	tag = RWA
 	tag = BUR
-	tag = DJB
+	tag = DJI
 	tag = ZAZ
 }
 westerm_africa_trigger = {

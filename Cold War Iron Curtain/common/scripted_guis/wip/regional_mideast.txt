@@ -399,7 +399,7 @@ scripted_gui = {
 							tag = SML
 							tag = RWA
 							tag = BUR
-							tag = DJB
+							tag = DJI
 					}
 					ROOT = {
 						OR = {
@@ -418,7 +418,7 @@ scripted_gui = {
 							tag = SML
 							tag = RWA
 							tag = BUR
-							tag = DJB
+							tag = DJI
 						}
 					}
 				}

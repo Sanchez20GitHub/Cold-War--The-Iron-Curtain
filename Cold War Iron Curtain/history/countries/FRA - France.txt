@@ -567,7 +567,7 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = DJB
+		target = DJI
 		autonomous_state = autonomy_colony
 		freedom_level = 0.4
 	}
@@ -623,7 +623,7 @@ if = {
 		puppet = LOS
 		puppet = CMR
 		puppet = MAD
-		puppet = DJB
+		puppet = DJI
 	}
 }
 1949.1.1 = {
@@ -653,7 +653,7 @@ add_to_tech_sharing_group = marshall_plan
 }
 
 1946.1.1 = {
-	set_autonomy = { target = DJB autonomy_state = autonomy_free }	
+	set_autonomy = { target = DJI autonomy_state = autonomy_free }	
 }
 
 ### Ship Variants ###
