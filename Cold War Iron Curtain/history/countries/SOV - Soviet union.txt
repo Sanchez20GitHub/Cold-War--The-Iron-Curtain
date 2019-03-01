@@ -954,40 +954,7 @@ create_navy_leader = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "S Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 0
-		sub_engine_upgrade = 0
-		sub_stealth_upgrade = 0
-		sub_torpedo_upgrade = 0
-	}
-	obsolete = yes
-}
 
-create_equipment_variant = {
-	name = "K Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 0
-		sub_engine_upgrade = 0
-		sub_stealth_upgrade = 0
-		sub_torpedo_upgrade = 0
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Whiskey V Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 3
-		sub_engine_upgrade = 3
-		sub_stealth_upgrade = 3
-		sub_torpedo_upgrade = 3
-	}
-}
 		
 create_equipment_variant = {
 	name = "Yak-9"

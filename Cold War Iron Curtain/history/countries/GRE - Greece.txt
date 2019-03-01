@@ -413,10 +413,6 @@ create_corps_commander = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Hydra Class"
-	type = destroyer_1
-}
 
 1960.1.1 = {
 	#load_focus_tree = GRE_60s
