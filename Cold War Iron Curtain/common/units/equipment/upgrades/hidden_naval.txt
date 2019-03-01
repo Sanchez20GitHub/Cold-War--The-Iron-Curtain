@@ -70,12 +70,10 @@
 #	hidden_ship_bombardment_upgrade = {
 #		max_level = 100
 #		cost = naval
-#		shore_bombardment = 0.01
 #	}
 #	hidden_ship_bombardment_downgrade = {
 #		max_level = 100
 #		cost = naval
-#		shore_bombardment = -0.01
 #	}
 #	hidden_ship_fire_range_upgrade = {
 #		max_level = 100

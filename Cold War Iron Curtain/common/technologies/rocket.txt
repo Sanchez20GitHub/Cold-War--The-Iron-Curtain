@@ -1171,21 +1171,6 @@ technologies = {
 			cruisemissile_equipment_2
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}
 		
 		submarine = {
 			ap_attack = 0.1
@@ -1232,21 +1217,6 @@ technologies = {
 			cruisemissile_equipment_3
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}	
 		
 		submarine = {
 			ap_attack = 0.1
@@ -1293,21 +1263,6 @@ technologies = {
 			cruisemissile_equipment_4
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}	
 		
 		submarine = {
 			ap_attack = 0.1
@@ -1354,21 +1309,6 @@ technologies = {
 			cruisemissile_equipment_5
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}	
 		
 		submarine = {
 			ap_attack = 0.1
@@ -1414,21 +1354,6 @@ technologies = {
 			cruisemissile_equipment_6
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}	
 		
 		submarine = {
 			ap_attack = 0.1
@@ -1474,21 +1399,6 @@ technologies = {
 			cruisemissile_equipment_7
 		}
 		
-		ddg = {
-			shore_bombardment = 0.1
-		}
-		cg = {
-			shore_bombardment = 0.1
-		}
-		heavy_cruiser = {
-			shore_bombardment = 0.1
-		}
-		bcg = {
-			shore_bombardment = 0.1
-		}
-		bbg = {
-			shore_bombardment = 0.1
-		}	
 		
 		submarine = {
 			ap_attack = 0.1

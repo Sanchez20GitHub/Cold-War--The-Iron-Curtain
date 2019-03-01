@@ -221,7 +221,6 @@ technologies = {
 	manpats_1 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -259,7 +258,6 @@ technologies = {
 	hmg_1 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -297,7 +295,6 @@ technologies = {
 	protection_equip_1 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -566,7 +563,6 @@ technologies = {
 	manpats_2 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -608,7 +604,6 @@ technologies = {
 	manpads_1 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -646,7 +641,6 @@ technologies = {
 	protection_equip_2 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -917,7 +911,6 @@ technologies = {
 	manpats_3 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -959,7 +952,6 @@ technologies = {
 	manpads_2 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1001,7 +993,6 @@ technologies = {
 	protection_equip_3 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1272,7 +1263,6 @@ technologies = {
 	manpats_4 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1314,7 +1304,6 @@ technologies = {
 	manpads_3 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1356,7 +1345,6 @@ technologies = {
 	protection_equip_4 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1622,7 +1610,6 @@ technologies = {
 	manpats_5 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1664,7 +1651,6 @@ technologies = {
 	manpads_4 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -1706,7 +1692,6 @@ technologies = {
 	protection_equip_5 = {	
 	
 		on_research_complete = {
-			custom_effect_tooltip = inf_equip_tooltip
 		}		
 		
 		research_cost = 2
@@ -2089,7 +2074,6 @@ technologies = {
 			hidden_effect = {
 				load_oob = "unlock_mountineers"
 			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
         path = {
@@ -2174,7 +2158,6 @@ technologies = {
 	
 	mountain_warfare_4 = {
 	
-		custom_effect_tooltip = <advanced_mountain_warfare_desc>
         
 		mountaineers = {
 		    hills = { 
@@ -2243,7 +2226,6 @@ technologies = {
 	
 	mountain_warfare_6 = {
 	
-		custom_effect_tooltip = <modern_mountain_warfare_desc>
 		
 		mountaineers = {
 		    hills = { 
@@ -2293,7 +2275,6 @@ technologies = {
 			hidden_effect = {
 				load_oob = "unlock_marines"
 			}			
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
 			
@@ -2330,7 +2311,6 @@ technologies = {
 	
 	amphibious_warfare_2 = {
 	
-		custom_effect_tooltip = <littoral_combat_tip>
 
 		marine = {
 		    river = { 
@@ -2400,7 +2380,6 @@ technologies = {
 	
 	amphibious_warfare_4 = {
 	
-		custom_effect_tooltip = <littoral_combat_tip>
 		
 		marine = {
 		    marsh = { 
@@ -2456,7 +2435,6 @@ technologies = {
 	
 	amphibious_warfare_5 = {
 	
-		custom_effect_tooltip = <littoral_combat_tip>
 		
 		mechanized_marine = {
 		    marsh = { 
@@ -2500,7 +2478,6 @@ technologies = {
 	
 	amphibious_warfare_6 = {
 	
-		custom_effect_tooltip = <littoral_combat_tip>
         
 		marine = {
 		    marsh = { 
@@ -2880,7 +2857,6 @@ technologies = {
 			hidden_effect = {
 				load_oob = "unlock_paratroopers"
 			}
-			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 		
 		categories = {
@@ -3003,7 +2979,6 @@ technologies = {
 	
 	airborne_operations_6 = {
 	
-		custom_effect_tooltip = <advanced_air_assault_operations_tip>
         
 		mechanized_airborne = {
             hills = { 
@@ -3150,7 +3125,6 @@ technologies = {
 	
 	air_assault_operations_2 = {
 	
-		custom_effect_tooltip = <vertical_envolopment_tactics_tip>
 		
 		mechanized_airborne = {
             hills = { 
@@ -3219,7 +3193,6 @@ technologies = {
 	
 	air_assault_operations_3 = {
 	
-		custom_effect_tooltip = <modern_vertical_envolopment_tactics_tip>
 		
 		mechanized_airborne = {
             hills = { 

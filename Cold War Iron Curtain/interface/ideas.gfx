@@ -5129,6 +5129,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_reparations"
 		texturefile = "gfx/interface/ideas/Reparations.tga"
+	}
 	spriteType = {
 		name = "GFX_idea_jim_jones"
 		texturefile = "gfx/interface/ideas/jim_jones.dds"

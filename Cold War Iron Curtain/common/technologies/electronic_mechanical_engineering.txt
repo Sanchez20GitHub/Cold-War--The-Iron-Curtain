@@ -589,7 +589,7 @@ technologies = {
 	software_VIII = {
 		
 		electronics_research_time_factor = -0.02
-		consumer_electronics_research_time_factor = -0.02
+		consumer_electronics_tech_research_time_factor = -0.02
 	
 		path = {
 			leads_to_tech = software_IX
@@ -646,7 +646,7 @@ technologies = {
 	software_X = {
 		
 		electronics_research_time_factor = -0.02
-		consumer_electronics_research_time_factor = -0.02
+		consumer_electronics_tech_research_time_factor = -0.02
 		
 		path = {
 			leads_to_tech = software_XI
@@ -994,7 +994,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			coms_tech
 		}
@@ -1026,7 +1026,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			coms_tech
 		}
@@ -1058,7 +1058,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			coms_tech
 		}
@@ -1090,7 +1090,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			coms_tech
 		}
@@ -1117,7 +1117,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			coms_tech
 		}
@@ -1151,7 +1151,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			consumer_electronics_tech
 		}
@@ -1183,7 +1183,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			consumer_electronics_tech
 		}
@@ -1215,7 +1215,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			consumer_electronics_tech
 		}
@@ -1247,7 +1247,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			consumer_electronics_tech
 		}
@@ -1279,7 +1279,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			consumer_electronics_tech
 		}
@@ -1410,7 +1410,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			encryption_tech
 		}
@@ -1432,7 +1432,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			encryption_tech
 		}
@@ -1454,7 +1454,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			encryption_tech
 		}
@@ -1476,7 +1476,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			encryption_tech
 		}
@@ -1498,7 +1498,7 @@ technologies = {
 		}
 		
 		categories = {
-			consumer_electronics
+			consumer_electronics_tech
 			electronics
 			encryption_tech
 		}
