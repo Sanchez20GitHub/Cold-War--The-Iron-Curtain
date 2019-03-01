@@ -19,12 +19,6 @@ add_ideas = {
 	GRE_imported_food
 	GRE_disorganized_health
 }
-1946.1.1 = {
-	declare_war_on = {
-		target = PDG
-		type = civil_war
-	}
-}
 
 set_technology = {
 	
