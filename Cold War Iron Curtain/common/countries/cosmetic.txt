@@ -83,7 +83,7 @@ RHO = {
 	color_ui = rgb { 187 255 160 }
 }
 
-NYA_ENG = {
+MLW_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }

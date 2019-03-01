@@ -326,7 +326,7 @@ if = {
 		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = NYA
+		target = MLW
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.1
 	}
@@ -455,7 +455,7 @@ if = {
 		puppet = MAL
 		puppet = ZIM
 		puppet = ZAM
-		puppet = NYA
+		puppet = MLW
 		puppet = NIA
 		puppet = BOT
 		puppet = BRU
@@ -647,7 +647,7 @@ set_politics = {
 
 1964.1.1 = {
     set_autonomy = { target = ZAM autonomy_state = autonomy_free }
-	set_autonomy = { target = NYA autonomy_state = autonomy_free }
+	set_autonomy = { target = MLW autonomy_state = autonomy_free }
 }
 
 1965.2.1 = {

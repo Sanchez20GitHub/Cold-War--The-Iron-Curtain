@@ -197,7 +197,7 @@ ideas = {
 		trade_treaty_SEN = { targeted_modifier = { tag = SEN trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CHA = { targeted_modifier = { tag = CHA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_IVO = { targeted_modifier = { tag = IVO trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_NYA = { targeted_modifier = { tag = NYA trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_MLW = { targeted_modifier = { tag = MLW trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MOL = { targeted_modifier = { tag = MOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KAZ = { targeted_modifier = { tag = KAZ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_UZB = { targeted_modifier = { tag = UZB trade_cost_for_target_factor = -0.5 } }

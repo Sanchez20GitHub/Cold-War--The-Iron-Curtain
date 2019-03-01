@@ -571,8 +571,8 @@ country_event = {
 	
 	option = {
 		name = decolonization.23.a
-	    set_autonomy = { target = NYA autonomy_state = autonomy_free }
-		NYA	= {
+	    set_autonomy = { target = MLW autonomy_state = autonomy_free }
+		MLW	= {
 		    drop_cosmetic_tag = yes
 	        create_country_leader = {
 	            name = "Hastings Banda"

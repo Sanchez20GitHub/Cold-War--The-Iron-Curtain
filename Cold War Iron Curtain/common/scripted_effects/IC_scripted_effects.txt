@@ -5261,7 +5261,7 @@ ic_pulse = {
 				has_cosmetic_tag = SKK_RAJ
 				has_cosmetic_tag = SKK_ENG
 				has_cosmetic_tag = ZIM_ENG
-				has_cosmetic_tag = NYA_ENG
+				has_cosmetic_tag = MLW_ENG
 				has_cosmetic_tag = RIF_SPR 
 				has_cosmetic_tag = EQG_SPR
 				has_cosmetic_tag = KPA_SOV
@@ -5688,8 +5688,8 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1964.07.05
 			date < 1965.01.01
-			country_exists = NYA
-			NYA = { is_subject_of = ENG }
+			country_exists = MLW
+			MLW = { is_subject_of = ENG }
 		}
 		country_event = decolonization.23
 	}

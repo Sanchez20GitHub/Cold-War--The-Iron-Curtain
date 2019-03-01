@@ -2296,7 +2296,7 @@ KUW = {
 	callsigns = { }
 }
 
-NYA = {
+MLW = {
 	male = {
 		names = { 
 			Desmond Abel Kadungure Sekuru Robert Lobengula Joshua Dumiso Leopold Joseph Gabriel Mqabuko Nyongolo Thomas Letswansto Ndabaningi

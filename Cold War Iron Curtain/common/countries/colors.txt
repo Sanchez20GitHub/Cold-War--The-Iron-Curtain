@@ -776,7 +776,7 @@ MZB = {
 	color_ui = rgb { 0 113 104 }
 }
 
-NYA = {
+MLW = {
 	color = rgb { 206 17 38 }
 	color_ui = rgb { 206 17 38 }
 }

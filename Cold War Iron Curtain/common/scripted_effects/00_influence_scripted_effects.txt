@@ -705,7 +705,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = SEN } ROOT = { add_ideas = trade_treaty_SEN	}	}
 	if = { limit = { tag = CHA } ROOT = { add_ideas = trade_treaty_CHA	}	}
 	if = { limit = { tag = IVO } ROOT = { add_ideas = trade_treaty_IVO	}	}
-	if = { limit = { tag = NYA } ROOT = { add_ideas = trade_treaty_NYA	}	}
+	if = { limit = { tag = MLW } ROOT = { add_ideas = trade_treaty_MLW	}	}
 	if = { limit = { tag = MOL } ROOT = { add_ideas = trade_treaty_MOL	}	}
 	if = { limit = { tag = KAZ } ROOT = { add_ideas = trade_treaty_KAZ	}	}
 	if = { limit = { tag = UZB } ROOT = { add_ideas = trade_treaty_UZB	}	}
@@ -967,7 +967,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = SEN } } add_ideas = trade_treaty_SEN	}	
 	if = { limit = { ROOT = { tag = CHA } } add_ideas = trade_treaty_CHA	}	
 	if = { limit = { ROOT = { tag = IVO } } add_ideas = trade_treaty_IVO	}	
-	if = { limit = { ROOT = { tag = NYA } } add_ideas = trade_treaty_NYA	}	
+	if = { limit = { ROOT = { tag = MLW } } add_ideas = trade_treaty_MLW	}	
 	if = { limit = { ROOT = { tag = MOL } } add_ideas = trade_treaty_MOL	}	
 	if = { limit = { ROOT = { tag = KAZ } } add_ideas = trade_treaty_KAZ	}	
 	if = { limit = { ROOT = { tag = UZB } } add_ideas = trade_treaty_UZB	}	

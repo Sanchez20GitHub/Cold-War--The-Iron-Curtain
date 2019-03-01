@@ -918,8 +918,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -1708,8 +1708,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -2500,8 +2500,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -3289,8 +3289,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -4078,8 +4078,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -4867,8 +4867,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
@@ -5656,8 +5656,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = IVO } }
      localization_key = "[IVO.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = NYA } }
-     localization_key = "[NYA.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = MLW } }
+     localization_key = "[MLW.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = MOL } }
      localization_key = "[MOL.GetNameWithFlag]"
