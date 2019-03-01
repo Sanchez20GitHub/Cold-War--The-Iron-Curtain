@@ -571,16 +571,6 @@ instant_effect = {
 		progress = 0.4
 		efficiency = 100
 	}
-	# Colbert
-	add_equipment_production = {
-		equipment = {
-			type = light_cruiser_2
-			creator = "FRA" 
-		}
-		requested_factories = 1
-		progress = 0.15
-		amount = 1
-	}
 
 }
 ###################
