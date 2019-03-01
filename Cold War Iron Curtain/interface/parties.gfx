@@ -236,11 +236,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_ideology_KRG_communism_group"
-		texturefile = "gfx/interface/ideologies/KRG/cpk.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_ideology_SWE_Liberal_Conservatism_group"
 		texturefile = "gfx/interface/ideologies/SWE/moderaterna.dds"
 	}

@@ -2555,10 +2555,10 @@ focus_tree = {
 		y = 16
 		completion_reward = {
 			set_autonomy = {
-				target = NAM
+				target = NMB
 				autonomy_state = autonomy_dominion
 			}			
-			NAM = {
+			NMB = {
 				drop_cosmetic_tag = yes
 			}
 		}

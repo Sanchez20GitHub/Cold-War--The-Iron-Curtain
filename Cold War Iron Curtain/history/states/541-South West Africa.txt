@@ -12,7 +12,7 @@ state={
 		set_state_flag = basic
 		set_state_flag = medium
 		set_state_flag = poor
-		add_core_of = NAM
+		add_core_of = NMB
 		victory_points = {
 			4879 15 
 		}
@@ -26,7 +26,7 @@ state={
 			2229 1 
 		}
 		1990.2.1 = {
-			owner = NAM
+			owner = NMB
 
 		}
 		buildings = {

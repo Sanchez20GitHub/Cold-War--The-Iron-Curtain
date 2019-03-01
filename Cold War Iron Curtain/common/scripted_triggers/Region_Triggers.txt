@@ -245,7 +245,7 @@ southern_africa_trigger = {
 	tag = ZIM
 	tag = ANG
 	tag = REN
-	tag = NAM
+	tag = NMB
 	tag = BOT
 	tag = CAB
 }

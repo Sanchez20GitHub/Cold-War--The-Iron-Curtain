@@ -235,7 +235,7 @@ ideas = {
 		trade_treaty_KEN = { targeted_modifier = { tag = KEN trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MAN = { targeted_modifier = { tag = MAN trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_QBC = { targeted_modifier = { tag = QBC trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_NAM = { targeted_modifier = { tag = NAM trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_NMB = { targeted_modifier = { tag = NMB trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_BHR = { targeted_modifier = { tag = BHR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SOS = { targeted_modifier = { tag = SOS trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_ABK = { targeted_modifier = { tag = ABK trade_cost_for_target_factor = -0.5 } }

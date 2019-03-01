@@ -548,7 +548,7 @@ scripted_gui = {
 							tag = ZIM
 							tag = ANG
 							tag = REN
-							tag = NAM
+							tag = NMB
 							tag = BOT
 						}
 					ROOT = {
@@ -561,7 +561,7 @@ scripted_gui = {
 							tag = ZIM
 							tag = ANG
 							tag = REN
-							tag = NAM
+							tag = NMB
 							tag = BOT
 						}
 					}

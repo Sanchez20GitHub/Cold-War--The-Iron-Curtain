@@ -743,7 +743,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = KEN } ROOT = { add_ideas = trade_treaty_KEN	}	}
 	if = { limit = { tag = MAN } ROOT = { add_ideas = trade_treaty_MAN	}	}
 	if = { limit = { tag = QBC } ROOT = { add_ideas = trade_treaty_QBC	}	}
-	if = { limit = { tag = NAM } ROOT = { add_ideas = trade_treaty_NAM	}	}
+	if = { limit = { tag = NMB } ROOT = { add_ideas = trade_treaty_NMB	}	}
 	if = { limit = { tag = BHR } ROOT = { add_ideas = trade_treaty_BHR	}	}
 	if = { limit = { tag = SOS } ROOT = { add_ideas = trade_treaty_SOS	}	}
 	if = { limit = { tag = ABK } ROOT = { add_ideas = trade_treaty_ABK	}	}
@@ -1005,7 +1005,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = KEN } } add_ideas = trade_treaty_KEN	}	
 	if = { limit = { ROOT = { tag = MAN } } add_ideas = trade_treaty_MAN	}	
 	if = { limit = { ROOT = { tag = QBC } } add_ideas = trade_treaty_QBC	}	
-	if = { limit = { ROOT = { tag = NAM } } add_ideas = trade_treaty_NAM	}	
+	if = { limit = { ROOT = { tag = NMB } } add_ideas = trade_treaty_NMB	}	
 	if = { limit = { ROOT = { tag = BHR } } add_ideas = trade_treaty_BHR	}	
 	if = { limit = { ROOT = { tag = SOS } } add_ideas = trade_treaty_SOS	}	
 	if = { limit = { ROOT = { tag = ABK } } add_ideas = trade_treaty_ABK	}	

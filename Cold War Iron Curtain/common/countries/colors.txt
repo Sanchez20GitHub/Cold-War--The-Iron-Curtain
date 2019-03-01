@@ -796,7 +796,7 @@ QBC = {
     color_ui = rgb { 0 51 153 }
 }
 
-NAM = {
+NMB = {
     color = rgb { 30 50 100 }
     color_ui = rgb { 30 50 100 }
 }
