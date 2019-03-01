@@ -150,7 +150,7 @@ ideas = {
 		trade_treaty_SMO = { targeted_modifier = { tag = SMO trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TOA = { targeted_modifier = { tag = TOA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GRN = { targeted_modifier = { tag = GRN trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_SRW = { targeted_modifier = { tag = SRW trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_WES = { targeted_modifier = { tag = WES trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_PRT = { targeted_modifier = { tag = PRT trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_FCB = { targeted_modifier = { tag = FCB trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MLA = { targeted_modifier = { tag = MLA trade_cost_for_target_factor = -0.5 } }

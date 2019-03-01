@@ -777,8 +777,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -1567,8 +1567,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -2359,8 +2359,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -3148,8 +3148,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -3937,8 +3937,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -4726,8 +4726,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"
@@ -5515,8 +5515,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = GRN } }
      localization_key = "[GRN.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = SRW } }
-     localization_key = "[SRW.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = WES } }
+     localization_key = "[WES.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = PRT } }
      localization_key = "[PRT.GetNameWithFlag]"

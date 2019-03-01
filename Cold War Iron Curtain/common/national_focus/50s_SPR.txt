@@ -1606,7 +1606,7 @@ focus_tree = {
 				ruling_party = trotskyism
 				}
 			}
-			release = SRW
+			release = WES
 			MOR = {
 				transfer_state = 290
 				transfer_state = 1003

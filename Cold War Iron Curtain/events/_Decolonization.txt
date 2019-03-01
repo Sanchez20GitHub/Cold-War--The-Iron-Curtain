@@ -353,7 +353,7 @@ country_event = {
 			factor = 100
 		}
 		set_global_flag = western_sahara_decolonized
-		release = SRW
+		release = WES
 	}
 	
 	option = {

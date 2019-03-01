@@ -5602,7 +5602,7 @@ ic_pulse = {
 			original_tag = SPR
 			date > 1975.11.13
 			date < 1976.01.01
-			NOT = { country_exists = SRW }
+			NOT = { country_exists = WES }
 			owns_state = 699
 			owns_state = 1001
 		}
