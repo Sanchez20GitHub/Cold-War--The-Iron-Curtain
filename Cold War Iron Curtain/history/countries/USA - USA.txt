@@ -167,7 +167,7 @@ set_technology = {
     cv_CAS1 = 1
 	cv_CAS2 = 1
 	cv_CAS3 = 1
-	cv_CAS4 = 1	
+	#cv_CAS4 = 1	
 	cv_jet_CAS1 = 1
 	
 ##Air##
@@ -805,7 +805,7 @@ complete_national_focus = USA_EISENHOWER56_The_Eisenhower_Administration_1956
 		cv_CAS1 = 1
 		cv_CAS2 = 1
 		cv_CAS3 = 1
-		cv_CAS4 = 1
+		#cv_CAS4 = 1
 		cv_early_fighter = 1
 		cv_fighter1 = 1
 		cv_fighter2 = 1

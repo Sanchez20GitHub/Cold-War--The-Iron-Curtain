@@ -124,7 +124,7 @@ set_technology = {
 	cv_CAS1 = 1
 	cv_CAS2 = 1
 	cv_CAS3 = 1
-	cv_CAS4 = 1
+	#cv_CAS4 = 1
 
 	fighter1 = 1
 	fighter2 = 1

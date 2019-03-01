@@ -378,7 +378,7 @@ create_country_leader = {
 	ideology = maoist
 }	
 
-
+}
 1956.1.1 = {
 create_corps_commander = {
 	name = "Adolf Heusinger"
