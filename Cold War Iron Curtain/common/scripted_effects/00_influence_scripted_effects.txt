@@ -617,7 +617,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = CRO } ROOT = { add_ideas = trade_treaty_CRO	}	}
 	if = { limit = { tag = PRC } ROOT = { add_ideas = trade_treaty_PRC	}	}
 	if = { limit = { tag = SLK } ROOT = { add_ideas = trade_treaty_SLK	}	}
-	if = { limit = { tag = BHM } ROOT = { add_ideas = trade_treaty_BHM	}	}
+	if = { limit = { tag = BAH } ROOT = { add_ideas = trade_treaty_BAH	}	}
 	if = { limit = { tag = RIF } ROOT = { add_ideas = trade_treaty_RIF	}	}
 	if = { limit = { tag = ICE } ROOT = { add_ideas = trade_treaty_ICE	}	}
 	if = { limit = { tag = LEB } ROOT = { add_ideas = trade_treaty_LEB	}	}
@@ -704,7 +704,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = BEN } ROOT = { add_ideas = trade_treaty_BEN	}	}
 	if = { limit = { tag = SEN } ROOT = { add_ideas = trade_treaty_SEN	}	}
 	if = { limit = { tag = CHA } ROOT = { add_ideas = trade_treaty_CHA	}	}
-	if = { limit = { tag = CTD } ROOT = { add_ideas = trade_treaty_CTD	}	}
+	if = { limit = { tag = IVO } ROOT = { add_ideas = trade_treaty_IVO	}	}
 	if = { limit = { tag = NYA } ROOT = { add_ideas = trade_treaty_NYA	}	}
 	if = { limit = { tag = MOL } ROOT = { add_ideas = trade_treaty_MOL	}	}
 	if = { limit = { tag = KAZ } ROOT = { add_ideas = trade_treaty_KAZ	}	}
@@ -879,7 +879,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = CRO } } add_ideas = trade_treaty_CRO	}	
 	if = { limit = { ROOT = { tag = PRC } } add_ideas = trade_treaty_PRC	}	
 	if = { limit = { ROOT = { tag = SLK } } add_ideas = trade_treaty_SLK	}	
-	if = { limit = { ROOT = { tag = BHM } } add_ideas = trade_treaty_BHM	}	
+	if = { limit = { ROOT = { tag = BAH } } add_ideas = trade_treaty_BAH	}	
 	if = { limit = { ROOT = { tag = RIF } } add_ideas = trade_treaty_RIF	}	
 	if = { limit = { ROOT = { tag = ICE } } add_ideas = trade_treaty_ICE	}	
 	if = { limit = { ROOT = { tag = LEB } } add_ideas = trade_treaty_LEB	}	
@@ -966,7 +966,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = BEN } } add_ideas = trade_treaty_BEN	}	
 	if = { limit = { ROOT = { tag = SEN } } add_ideas = trade_treaty_SEN	}	
 	if = { limit = { ROOT = { tag = CHA } } add_ideas = trade_treaty_CHA	}	
-	if = { limit = { ROOT = { tag = CTD } } add_ideas = trade_treaty_CTD	}	
+	if = { limit = { ROOT = { tag = IVO } } add_ideas = trade_treaty_IVO	}	
 	if = { limit = { ROOT = { tag = NYA } } add_ideas = trade_treaty_NYA	}	
 	if = { limit = { ROOT = { tag = MOL } } add_ideas = trade_treaty_MOL	}	
 	if = { limit = { ROOT = { tag = KAZ } } add_ideas = trade_treaty_KAZ	}	

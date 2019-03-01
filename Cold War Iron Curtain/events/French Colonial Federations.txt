@@ -46,9 +46,9 @@ country_event = {
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = CTD
+			        is_core_of = IVO
 		        }
-		        CTD = { transfer_state = PREV }
+		        IVO = { transfer_state = PREV }
 	        }
 			every_owned_state = {
 		        limit = {

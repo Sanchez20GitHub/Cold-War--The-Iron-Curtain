@@ -1,6 +1,6 @@
 ﻿capital = 690
 
-oob = "BHM_1949"
+oob = "BAH_1949"
 
 set_technology = {
 

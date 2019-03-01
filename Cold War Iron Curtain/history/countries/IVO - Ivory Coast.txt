@@ -1,6 +1,6 @@
 ﻿capital = 556
 
-oob = "CTD_1949"
+oob = "IVO_1949"
 
 1983.1.1 = {
     capital = 1252

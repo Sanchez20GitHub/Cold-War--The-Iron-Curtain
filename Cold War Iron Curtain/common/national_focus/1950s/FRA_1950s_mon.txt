@@ -3439,7 +3439,7 @@ focus_tree = {
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = CTD
+							target = IVO
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {

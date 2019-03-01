@@ -5646,7 +5646,7 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1973.07.09
 			date < 1974.01.01
-			NOT = { country_exists = BHM }
+			NOT = { country_exists = BAH }
 			owns_state = 690
 		}
 		country_event = decolonization.19

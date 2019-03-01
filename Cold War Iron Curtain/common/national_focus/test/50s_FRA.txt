@@ -1084,7 +1084,7 @@ focus_tree = {
 		completion_reward = {
 		set_autonomy = { target = MOR autonomy_state = autonomy_free }	
 		set_autonomy = { target = TUN autonomy_state = autonomy_free }	
-		set_autonomy = { target = CTD autonomy_state = autonomy_free }	
+		set_autonomy = { target = IVO autonomy_state = autonomy_free }	
 		set_autonomy = { target = CHA autonomy_state = autonomy_free }	
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = BEN autonomy_state = autonomy_free }	
@@ -2443,7 +2443,7 @@ focus_tree = {
 		completion_reward = {
 		set_autonomy = { target = MOR autonomy_state = autonomy_free }	
 		set_autonomy = { target = TUN autonomy_state = autonomy_free }	
-		set_autonomy = { target = CTD autonomy_state = autonomy_free }	
+		set_autonomy = { target = IVO autonomy_state = autonomy_free }	
 		set_autonomy = { target = CHA autonomy_state = autonomy_free }	
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = BEN autonomy_state = autonomy_free }	

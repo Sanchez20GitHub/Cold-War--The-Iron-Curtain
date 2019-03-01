@@ -654,8 +654,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -915,8 +915,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -1444,8 +1444,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -1705,8 +1705,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -2236,8 +2236,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -2497,8 +2497,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -3025,8 +3025,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -3286,8 +3286,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -3814,8 +3814,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -4075,8 +4075,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -4603,8 +4603,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -4864,8 +4864,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
@@ -5392,8 +5392,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = SLK } }
      localization_key = "[SLK.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = BHM } }
-     localization_key = "[BHM.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = BAH } }
+     localization_key = "[BAH.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = RIF } }
      localization_key = "[RIF.GetNameWithFlag]"
@@ -5653,8 +5653,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = CHA } }
      localization_key = "[CHA.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = CTD } }
-     localization_key = "[CTD.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = IVO } }
+     localization_key = "[IVO.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = NYA } }
      localization_key = "[NYA.GetNameWithFlag]"
