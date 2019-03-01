@@ -15,10 +15,10 @@ state={
 
 
 		}
-		add_core_of = MAU
+		add_core_of = MRT
 		add_core_of = SEN
 		1960.1.1 = {
-			owner = MAU
+			owner = MRT
 			remove_core_of = SEN
 
 		}

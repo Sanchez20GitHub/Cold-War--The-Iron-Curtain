@@ -362,10 +362,10 @@ country_event = {
 			factor = 0
 		}
 	    trigger = { 
-			country_exists = MAU
+			country_exists = MRT
 		}
 		add_political_power = -50
-		MAU = { transfer_state = 1001 }
+		MRT = { transfer_state = 1001 }
 	}
 	
 	option = {

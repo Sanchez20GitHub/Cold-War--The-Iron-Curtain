@@ -1089,7 +1089,7 @@ focus_tree = {
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = BEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = TOG autonomy_state = autonomy_free }	
-		set_autonomy = { target = MAU autonomy_state = autonomy_free }	
+		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
 		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
 		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
@@ -2448,7 +2448,7 @@ focus_tree = {
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = BEN autonomy_state = autonomy_free }	
 		set_autonomy = { target = TOG autonomy_state = autonomy_free }	
-		set_autonomy = { target = MAU autonomy_state = autonomy_free }	
+		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
 		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
 		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
