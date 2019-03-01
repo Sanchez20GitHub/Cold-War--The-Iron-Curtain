@@ -9,8 +9,6 @@ state={
 
 	history={
 		owner = RAJ
-		set_state_flag = 
-		set_state_flag = 
 		set_state_flag = medium
 		set_state_flag = verypoor
 		add_core_of = RAJ
