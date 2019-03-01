@@ -1,6 +1,6 @@
 ﻿capital = 700
 
-oob = "SLE_1949"
+oob = "SIE_1949"
 
 set_technology = {
 

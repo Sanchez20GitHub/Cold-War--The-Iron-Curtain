@@ -203,7 +203,7 @@ country_event = {
 				transfer_troops = no
 			}
 			annex_country = {
-				target = SLE
+				target = SIE
 				transfer_troops = no
 			}
 		}

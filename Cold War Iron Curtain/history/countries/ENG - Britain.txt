@@ -381,7 +381,7 @@ if = {
 		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = SLE
+		target = SIE
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.1
 	}
@@ -467,7 +467,7 @@ if = {
 		puppet = SML
         puppet = TOA
 		puppet = GAM
-		puppet = SLE
+		puppet = SIE
 		puppet = SWA
 		puppet = SOL
 		puppet = JAM
@@ -631,7 +631,7 @@ set_politics = {
 
 1961.1.1 = {
     set_autonomy = { target = SAF autonomy_state = autonomy_free } 
-    set_autonomy = { target = SLE autonomy_state = autonomy_free }
+    set_autonomy = { target = SIE autonomy_state = autonomy_free }
 	set_autonomy = { target = KUW autonomy_state = autonomy_free }	
 }
 

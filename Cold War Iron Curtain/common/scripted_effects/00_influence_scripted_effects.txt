@@ -765,7 +765,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = BOS } ROOT = { add_ideas = trade_treaty_BOS	}	}
 	if = { limit = { tag = BAD } ROOT = { add_ideas = trade_treaty_BAD	}	}
 	if = { limit = { tag = SVI } ROOT = { add_ideas = trade_treaty_SVI	}	}
-	if = { limit = { tag = SLE } ROOT = { add_ideas = trade_treaty_SLE	}	}
+	if = { limit = { tag = SIE } ROOT = { add_ideas = trade_treaty_SIE	}	}
 	if = { limit = { tag = SOL } ROOT = { add_ideas = trade_treaty_SOL	}	}
 	if = { limit = { tag = STL } ROOT = { add_ideas = trade_treaty_STL	}	}
 	if = { limit = { tag = DJI } ROOT = { add_ideas = trade_treaty_DJI	}	}
@@ -1027,7 +1027,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = BOS } } add_ideas = trade_treaty_BOS	}	
 	if = { limit = { ROOT = { tag = BAD } } add_ideas = trade_treaty_BAD	}	
 	if = { limit = { ROOT = { tag = SVI } } add_ideas = trade_treaty_SVI	}	
-	if = { limit = { ROOT = { tag = SLE } } add_ideas = trade_treaty_SLE	}	
+	if = { limit = { ROOT = { tag = SIE } } add_ideas = trade_treaty_SIE	}	
 	if = { limit = { ROOT = { tag = SOL } } add_ideas = trade_treaty_SOL	}	
 	if = { limit = { ROOT = { tag = STL } } add_ideas = trade_treaty_STL	}	
 	if = { limit = { ROOT = { tag = DJI } } add_ideas = trade_treaty_DJI	}	

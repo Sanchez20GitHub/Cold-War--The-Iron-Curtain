@@ -1098,8 +1098,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -1888,8 +1888,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -2680,8 +2680,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -3469,8 +3469,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -4258,8 +4258,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -5047,8 +5047,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"
@@ -5836,8 +5836,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = SVI } }
      localization_key = "[SVI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = SLE } }
-     localization_key = "[SLE.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = SIE } }
+     localization_key = "[SIE.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = SOL } }
      localization_key = "[SOL.GetNameWithFlag]"

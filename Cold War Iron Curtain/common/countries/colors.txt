@@ -976,7 +976,7 @@ ZAR = {
     color_ui = rgb { 140 183 154 }
 }
 
-SLE = {
+SIE = {
     color = rgb { 130 250 230 }
     color_ui = rgb { 130 250 230 }
 }

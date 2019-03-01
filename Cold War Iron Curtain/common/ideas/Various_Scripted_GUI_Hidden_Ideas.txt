@@ -257,7 +257,7 @@ ideas = {
 		trade_treaty_BOS = { targeted_modifier = { tag = BOS trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_BAD = { targeted_modifier = { tag = BAD trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SVI = { targeted_modifier = { tag = SVI trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_SLE = { targeted_modifier = { tag = SLE trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_SIE = { targeted_modifier = { tag = SIE trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SOL = { targeted_modifier = { tag = SOL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_STL = { targeted_modifier = { tag = STL trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_DJI = { targeted_modifier = { tag = DJI trade_cost_for_target_factor = -0.5 } }
