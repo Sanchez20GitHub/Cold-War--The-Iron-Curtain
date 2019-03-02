@@ -738,11 +738,11 @@ focus_tree = {
 		completion_reward = {
 			NIG = {
 				add_opinion_modifier = {
-					target = NIA
+					target = NGA
 					modifier = small_increase
 				}
 			}
-			NIA = {
+			NGA = {
 				add_opinion_modifier = {
 					target = NIG
 					modifier = small_increase
@@ -1137,11 +1137,11 @@ focus_tree = {
 		completion_reward = {
 			NIG = {
 				add_opinion_modifier = {
-					target = NIA
+					target = NGA
 					modifier = large_decrease
 				}
 			}
-			NIA = {
+			NGA = {
 				add_opinion_modifier = {
 					target = NIG
 					modifier = large_decrease
@@ -1229,14 +1229,14 @@ focus_tree = {
 		x = 6
 		y = 16
 			completion_reward = {
-				NIA = {
+				NGA = {
 					every_owned_state = {
 						add_core_of = ROOT
 					}
 				}	
 				create_wargoal = {
 						type = annex_everything
-						target = NIA
+						target = NGA
 					}
 			}
 	}
@@ -1300,11 +1300,11 @@ focus_tree = {
 		completion_reward = {
 			NIG = {
 				add_opinion_modifier = {
-					target = NIA
+					target = NGA
 					modifier = large_increase
 				}
 			}
-			NIA = {
+			NGA = {
 				add_opinion_modifier = {
 					target = NIG
 					modifier = large_increase

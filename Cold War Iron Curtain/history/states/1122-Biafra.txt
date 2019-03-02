@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = NIA
-		add_core_of = NIA
+		owner = NGA
+		add_core_of = NGA
 		add_core_of = BFR
 		buildings = {
 			infrastructure = 2

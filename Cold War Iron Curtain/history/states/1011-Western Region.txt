@@ -9,7 +9,7 @@ state={
 	}
 
 	history={
-		owner = NIA
+		owner = NGA
 		set_state_flag = tropical
 		set_state_flag = lakes
 		set_state_flag = small
@@ -32,7 +32,7 @@ state={
 			}
 
 		}
-		add_core_of = NIA
+		add_core_of = NGA
 
 	}
 

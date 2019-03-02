@@ -202,7 +202,7 @@ westerm_africa_trigger = {
 	tag = GAM
 	tag = SIE
 	tag = GHA
-	tag = NIA
+	tag = NGA
 	tag = LIB
 }
 

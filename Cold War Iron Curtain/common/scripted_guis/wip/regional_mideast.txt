@@ -439,7 +439,7 @@ scripted_gui = {
 							tag = GAM
 							tag = SIE
 							tag = GHA
-							tag = NIA
+							tag = NGA
 							tag = LIB
 						}
 					ROOT = {
@@ -459,7 +459,7 @@ scripted_gui = {
 							tag = GAM
 							tag = SIE
 							tag = GHA
-							tag = NIA
+							tag = NGA
 							tag = LIB
 						}
 					}

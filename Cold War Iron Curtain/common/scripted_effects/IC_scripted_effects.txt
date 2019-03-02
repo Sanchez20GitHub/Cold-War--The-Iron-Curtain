@@ -1206,7 +1206,7 @@ ic_pulse = {
 					NOT = { tag = PRC }
 					NOT = { tag = SPR }
 					NOT = { tag = POR }
-					NOT = { tag = NIA }
+					NOT = { tag = NGA }
 					NOT = { tag = POL }
 					NOT = { tag = SOM }
 					NOT = { tag = TUR }
@@ -1254,7 +1254,7 @@ ic_pulse = {
 						tag = YUG
 						tag = PRC
 						tag = POR
-						tag = NIA
+						tag = NGA
 						tag = POL
 						tag = SAF
 						tag = KOR
@@ -1413,9 +1413,9 @@ ic_pulse = {
 				}						
 				if = {
 					limit = {
-						tag = NIA
+						tag = NGA
 					}
-					load_focus_tree = NIA_1960s
+					load_focus_tree = NGA_1960s
 				}
 				if = {
 					limit = {
@@ -5237,7 +5237,7 @@ ic_pulse = {
 				has_cosmetic_tag = GND_ENG
 				has_cosmetic_tag = BOT_ENG
 				has_cosmetic_tag = GAM_ENG
-				has_cosmetic_tag = NIA_ENG
+				has_cosmetic_tag = NGA_ENG
 				has_cosmetic_tag = SWA_ENG
 				has_cosmetic_tag = SOL_ENG
 				has_cosmetic_tag = JAM_ENG
@@ -5460,7 +5460,7 @@ ic_pulse = {
 		    original_tag = ENG
 			date > 1961.05.30
 			date < 1962.01.01
-		    OR = { country_exists = NIA country_exists = CMR }
+		    OR = { country_exists = NGA country_exists = CMR }
 			owns_state = 1105
 			owns_state = 1106
 		}

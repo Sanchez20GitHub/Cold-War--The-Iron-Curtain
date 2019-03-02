@@ -1,12 +1,12 @@
 focus_tree = {
-	id = NIA_1960s
+	id = NGA_1960s
 	country = {
 		factor = 0
 
 	}
 	default = no
 	focus = {
-		id = NIA_1960s_naval_effort
+		id = NGA_1960s_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10.00
 		x = 34
@@ -133,7 +133,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_industrial_effort
+		id = NGA_1960s_industrial_effort
 		icon = GFX_goal_generic_production
 		cost = 10.00
 		x = 4
@@ -153,12 +153,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_non_aligned
+		id = NGA_1960s_non_aligned
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 10.00
 		mutually_exclusive = {
-			focus = NIA_1960s_soviet_alignment
-			focus = NIA_1960s_american_alignment
+			focus = NGA_1960s_soviet_alignment
+			focus = NGA_1960s_american_alignment
 		}
 		x = 12
 		y = 0
@@ -169,17 +169,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_alignment
+		id = NGA_1960s_soviet_alignment
 		icon = GFX_goal_support_communism
 		cost = 10.00
 		mutually_exclusive = {
-			focus = NIA_1960s_non_aligned
-			focus = NIA_1960s_american_alignment
+			focus = NGA_1960s_non_aligned
+			focus = NGA_1960s_american_alignment
 		}
 		x = 20
 		y = 0
 			completion_reward = {
-					NIA = {
+					NGA = {
 							add_opinion_modifier = {
 									target = SOV
 									modifier = large_increase
@@ -187,7 +187,7 @@ focus_tree = {
 						}
 					SOV = {
 							add_opinion_modifier = {
-									target = NIA
+									target = NGA
 									modifier = large_increase
 								}
 						}
@@ -195,17 +195,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_alignment
+		id = NGA_1960s_american_alignment
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		mutually_exclusive = {
-			focus = NIA_1960s_soviet_alignment
-			focus = NIA_1960s_non_aligned
+			focus = NGA_1960s_soviet_alignment
+			focus = NGA_1960s_non_aligned
 		}
 		x = 28
 		y = 0
 			completion_reward = {
-					NIA = {
+					NGA = {
 							add_opinion_modifier = {
 									target = USA
 									modifier = large_increase
@@ -213,7 +213,7 @@ focus_tree = {
 						}
 					USA = {
 							add_opinion_modifier = {
-									target = NIA
+									target = NGA
 									modifier = large_increase
 								}
 						}
@@ -221,13 +221,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_equipment_effort
+		id = NGA_1960s_equipment_effort
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		x = 9
 		y = 2
 		prerequisite = {
-			focus = NIA_1960s_non_aligned
+			focus = NGA_1960s_non_aligned
 		}
 			available_if_capitulated = yes
 			completion_reward = {
@@ -242,11 +242,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_construction_effort
+		id = NGA_1960s_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_industrial_effort
+			focus = NGA_1960s_industrial_effort
 		}
 		x = 2
 		y = 1
@@ -309,11 +309,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_construction_effort_2
+		id = NGA_1960s_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_construction_effort
+			focus = NGA_1960s_construction_effort
 		}
 		x = 2
 		y = 2
@@ -376,11 +376,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_infrastructure_effort
+		id = NGA_1960s_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_construction_effort_2
+			focus = NGA_1960s_construction_effort_2
 		}
 		x = 2
 		y = 3
@@ -467,11 +467,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_construction_effort_3
+		id = NGA_1960s_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_infrastructure_effort
+			focus = NGA_1960s_infrastructure_effort
 		}
 		x = 2
 		y = 4
@@ -534,11 +534,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_production_effort
+		id = NGA_1960s_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_industrial_effort
+			focus = NGA_1960s_industrial_effort
 		}
 		x = 4
 		y = 1
@@ -601,11 +601,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_production_effort_2
+		id = NGA_1960s_production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_production_effort
+			focus = NGA_1960s_production_effort
 		}
 		x = 4
 		y = 2
@@ -668,11 +668,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_production_effort_3
+		id = NGA_1960s_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_production_effort_2
+			focus = NGA_1960s_production_effort_2
 		}
 		x = 4
 		y = 3
@@ -735,14 +735,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_infrastructure_effort_2
+		id = NGA_1960s_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_infrastructure_effort
+			focus = NGA_1960s_infrastructure_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_production_effort_3
+			focus = NGA_1960s_production_effort_3
 		}
 		x = 4
 		y = 4
@@ -829,14 +829,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_secret_weapons
+		id = NGA_1960s_secret_weapons
 		icon = GFX_goal_generic_secret_weapon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_infrastructure_effort_2
+			focus = NGA_1960s_infrastructure_effort_2
 		}
 		prerequisite = {
-			focus = NIA_1960s_construction_effort_3
+			focus = NGA_1960s_construction_effort_3
 		}
 		x = 1
 		y = 5
@@ -854,14 +854,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_nuclear_effort
+		id = NGA_1960s_nuclear_effort
 		icon = GFX_focus_wonderweapons
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_infrastructure_effort_2
+			focus = NGA_1960s_infrastructure_effort_2
 		}
 		prerequisite = {
-			focus = NIA_1960s_construction_effort_3
+			focus = NGA_1960s_construction_effort_3
 		}
 		x = 3
 		y = 5
@@ -876,14 +876,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_extra_tech_slot
+		id = NGA_1960s_extra_tech_slot
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_infrastructure_effort_2
+			focus = NGA_1960s_infrastructure_effort_2
 		}
 		prerequisite = {
-			focus = NIA_1960s_construction_effort_3
+			focus = NGA_1960s_construction_effort_3
 		}
 		x = 5
 		y = 5
@@ -894,33 +894,33 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_mining_development
+		id = NGA_1960s_mining_development
 		icon = GFX_goal_generic_construction2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_industrial_effort
+			focus = NGA_1960s_industrial_effort
 		}
 		x = 6
 		y = 1
 
 	}
 	focus = {
-		id = NIA_1960s_steel_industry
+		id = NGA_1960s_steel_industry
 		icon = GFX_goal_generic_construction2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_mining_development
+			focus = NGA_1960s_mining_development
 		}
 		x = 6
 		y = 2
 
 	}
 	focus = {
-		id = NIA_1960s_oil_development
+		id = NGA_1960s_oil_development
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_steel_industry
+			focus = NGA_1960s_steel_industry
 		}
 		x = 6
 		y = 3
@@ -935,22 +935,22 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_chromium_development
+		id = NGA_1960s_chromium_development
 		icon = GFX_goal_generic_construction2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_oil_development
+			focus = NGA_1960s_oil_development
 		}
 		x = 6
 		y = 4
 
 	}
 	focus = {
-		id = NIA_1960s_equipment_effort_2
+		id = NGA_1960s_equipment_effort_2
 		icon = GFX_goal_generic_army_artillery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_equipment_effort
+			focus = NGA_1960s_equipment_effort
 		}
 		x = 9
 		y = 4
@@ -967,11 +967,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_equipment_effort_3
+		id = NGA_1960s_equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_equipment_effort_2
+			focus = NGA_1960s_equipment_effort_2
 		}
 		x = 9
 		y = 6
@@ -988,11 +988,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_army_effort
+		id = NGA_1960s_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_non_aligned
+			focus = NGA_1960s_non_aligned
 		}
 		x = 10
 		y = 1
@@ -1009,11 +1009,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_doctrine_effort
+		id = NGA_1960s_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_army_effort
+			focus = NGA_1960s_army_effort
 		}
 		x = 10
 		y = 3
@@ -1030,11 +1030,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_doctrine_effort_2
+		id = NGA_1960s_doctrine_effort_2
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_doctrine_effort
+			focus = NGA_1960s_doctrine_effort
 		}
 		x = 10
 		y = 5
@@ -1051,11 +1051,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_motorization_effort
+		id = NGA_1960s_motorization_effort
 		icon = GFX_goal_generic_army_motorized
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_army_effort
+			focus = NGA_1960s_army_effort
 		}
 		x = 11
 		y = 2
@@ -1073,11 +1073,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_mechanization_effort
+		id = NGA_1960s_mechanization_effort
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_motorization_effort
+			focus = NGA_1960s_motorization_effort
 		}
 		x = 11
 		y = 4
@@ -1093,11 +1093,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_armor_effort
+		id = NGA_1960s_armor_effort
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_mechanization_effort
+			focus = NGA_1960s_mechanization_effort
 		}
 		x = 11
 		y = 6
@@ -1113,17 +1113,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_special_forces
+		id = NGA_1960s_special_forces
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_equipment_effort_3
+			focus = NGA_1960s_equipment_effort_3
 		}
 		prerequisite = {
-			focus = NIA_1960s_doctrine_effort_2
+			focus = NGA_1960s_doctrine_effort_2
 		}
 		prerequisite = {
-			focus = NIA_1960s_armor_effort
+			focus = NGA_1960s_armor_effort
 		}
 		x = 10
 		y = 7
@@ -1140,11 +1140,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_aviation_effort
+		id = NGA_1960s_aviation_effort
 		icon = GFX_goal_generic_build_airforce
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_non_aligned
+			focus = NGA_1960s_non_aligned
 		}
 		x = 14
 		y = 1
@@ -1228,14 +1228,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_fighter_focus
+		id = NGA_1960s_fighter_focus
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_aviation_effort
+			focus = NGA_1960s_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_bomber_focus
+			focus = NGA_1960s_bomber_focus
 		}
 		x = 13
 		y = 2
@@ -1257,14 +1257,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_bomber_focus
+		id = NGA_1960s_bomber_focus
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_aviation_effort
+			focus = NGA_1960s_aviation_effort
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_fighter_focus
+			focus = NGA_1960s_fighter_focus
 		}
 		x = 15
 		y = 2
@@ -1283,12 +1283,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_aviation_effort_2
+		id = NGA_1960s_aviation_effort_2
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_bomber_focus
-			focus = NIA_1960s_fighter_focus
+			focus = NGA_1960s_bomber_focus
+			focus = NGA_1960s_fighter_focus
 		}
 		x = 14
 		y = 3
@@ -1378,11 +1378,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_CAS_effort
+		id = NGA_1960s_CAS_effort
 		icon = GFX_goal_generic_CAS
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_aviation_effort_2
+			focus = NGA_1960s_aviation_effort_2
 		}
 		x = 13
 		y = 4
@@ -1399,11 +1399,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_NAV_effort
+		id = NGA_1960s_NAV_effort
 		icon = GFX_goal_generic_air_naval_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_aviation_effort_2
+			focus = NGA_1960s_aviation_effort_2
 		}
 		x = 15
 		y = 4
@@ -1420,14 +1420,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_rocket_effort
+		id = NGA_1960s_rocket_effort
 		icon = GFX_focus_rocketry
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_CAS_effort
+			focus = NGA_1960s_CAS_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_NAV_effort
+			focus = NGA_1960s_NAV_effort
 		}
 		x = 14
 		y = 5
@@ -1451,11 +1451,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_advisors
+		id = NGA_1960s_soviet_advisors
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_alignment
+			focus = NGA_1960s_soviet_alignment
 		}
 		x = 18
 		y = 1
@@ -1465,11 +1465,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_surplus_soviet_equipment
+		id = NGA_1960s_surplus_soviet_equipment
 		icon = GFX_goal_continuous_reduce_training_time
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_advisors
+			focus = NGA_1960s_soviet_advisors
 		}
 		x = 17
 		y = 2
@@ -1499,11 +1499,11 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NIA_1960s_soviet_trainer_pilots
+		id = NGA_1960s_soviet_trainer_pilots
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_alignment
+			focus = NGA_1960s_soviet_alignment
 		}
 		x = 22
 		y = 1
@@ -1513,14 +1513,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_personel_exchanges
+		id = NGA_1960s_personel_exchanges
 		icon = GFX_focus_generic_little_entente
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_trainer_pilots
+			focus = NGA_1960s_soviet_trainer_pilots
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_advisors
+			focus = NGA_1960s_soviet_advisors
 		}
 		x = 20
 		y = 2
@@ -1531,14 +1531,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_army_doctrine
+		id = NGA_1960s_soviet_army_doctrine
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_personel_exchanges
+			focus = NGA_1960s_personel_exchanges
 		}
 		prerequisite = {
-			focus = NIA_1960s_surplus_soviet_equipment
+			focus = NGA_1960s_surplus_soviet_equipment
 		}
 		x = 19
 		y = 3
@@ -1554,11 +1554,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_more_surplus_equipment
+		id = NGA_1960s_more_surplus_equipment
 		icon = GFX_focus_secret_rearmament
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_army_doctrine
+			focus = NGA_1960s_soviet_army_doctrine
 		}
 		x = 17
 		y = 4
@@ -1587,11 +1587,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_fighters
+		id = NGA_1960s_soviet_fighters
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_trainer_pilots
+			focus = NGA_1960s_soviet_trainer_pilots
 		}
 		x = 23
 		y = 2
@@ -1610,14 +1610,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_bombers
+		id = NGA_1960s_soviet_bombers
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_fighters
+			focus = NGA_1960s_soviet_fighters
 		}
 		prerequisite = {
-			focus = NIA_1960s_personel_exchanges
+			focus = NGA_1960s_personel_exchanges
 		}
 		x = 21
 		y = 3
@@ -1636,14 +1636,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_air_doctrine
+		id = NGA_1960s_soviet_air_doctrine
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_fighters
+			focus = NGA_1960s_soviet_fighters
 		}
 		prerequisite = {
-			focus = NIA_1960s_personel_exchanges
+			focus = NGA_1960s_personel_exchanges
 		}
 		x = 23
 		y = 3
@@ -1658,14 +1658,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_airfield_development
+		id = NGA_1960s_soviet_airfield_development
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_air_doctrine
+			focus = NGA_1960s_soviet_air_doctrine
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_bombers
+			focus = NGA_1960s_soviet_bombers
 		}
 		x = 21
 		y = 4
@@ -1729,14 +1729,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_anti_air_defenses
+		id = NGA_1960s_soviet_anti_air_defenses
 		icon = GFX_focus_generic_air_defense
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_air_doctrine
+			focus = NGA_1960s_soviet_air_doctrine
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_bombers
+			focus = NGA_1960s_soviet_bombers
 		}
 		x = 23
 		y = 4
@@ -1777,14 +1777,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_research_advances_air
+		id = NGA_1960s_research_advances_air
 		icon = GFX_goal_continuous_air_production
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_airfield_development
+			focus = NGA_1960s_soviet_airfield_development
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_anti_air_defenses
+			focus = NGA_1960s_soviet_anti_air_defenses
 		}
 		x = 22
 		y = 5
@@ -1799,11 +1799,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_scuds
+		id = NGA_1960s_soviet_scuds
 		icon = GFX_focus_rocketry
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_research_advances_air
+			focus = NGA_1960s_research_advances_air
 		}
 		x = 22
 		y = 6
@@ -1817,11 +1817,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_advisors
+		id = NGA_1960s_american_advisors
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_alignment
+			focus = NGA_1960s_american_alignment
 		}
 		x = 26
 		y = 1
@@ -1831,11 +1831,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_surplus_equipment
+		id = NGA_1960s_american_surplus_equipment
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_advisors
+			focus = NGA_1960s_american_advisors
 		}
 		x = 25
 		y = 2
@@ -1864,12 +1864,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_aircraft_training
+		id = NGA_1960s_american_aircraft_training
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 
 		prerequisite = {
-			focus = NIA_1960s_american_alignment
+			focus = NGA_1960s_american_alignment
 		}
 		x = 30
 		y = 1
@@ -1879,14 +1879,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_weapon_sale
+		id = NGA_1960s_american_weapon_sale
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_aircraft_training
+			focus = NGA_1960s_american_aircraft_training
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_advisors
+			focus = NGA_1960s_american_advisors
 		}
 		x = 28
 		y = 2
@@ -1915,14 +1915,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_doctrine
+		id = NGA_1960s_american_doctrine
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_weapon_sale
+			focus = NGA_1960s_american_weapon_sale
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_surplus_equipment
+			focus = NGA_1960s_american_surplus_equipment
 		}
 		x = 27
 		y = 3
@@ -1938,11 +1938,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_intelligence_aid
+		id = NGA_1960s_american_intelligence_aid
 		icon = GFX_focus_generic_military_mission
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_doctrine
+			focus = NGA_1960s_american_doctrine
 		}
 
 		x = 26
@@ -1953,11 +1953,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_tanks
+		id = NGA_1960s_american_tanks
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_intelligence_aid
+			focus = NGA_1960s_american_intelligence_aid
 		}
 		x = 25
 		y = 5
@@ -1981,11 +1981,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_weapon_sale_Copy
+		id = NGA_1960s_american_weapon_sale_Copy
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_weapon_sale
+			focus = NGA_1960s_american_weapon_sale
 		}
 		x = 28
 		y = 4
@@ -2014,11 +2014,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_weapon_sale_Copy_Copy
+		id = NGA_1960s_american_weapon_sale_Copy_Copy
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_weapon_sale_Copy
+			focus = NGA_1960s_american_weapon_sale_Copy
 		}
 		x = 28
 		y = 6
@@ -2047,11 +2047,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_fighters
+		id = NGA_1960s_american_fighters
 		icon = GFX_goal_generic_air_fighter
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_aircraft_training
+			focus = NGA_1960s_american_aircraft_training
 		}
 		x = 31
 		y = 2
@@ -2070,14 +2070,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_bombers
+		id = NGA_1960s_american_bombers
 		icon = GFX_goal_generic_air_bomber
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_weapon_sale
+			focus = NGA_1960s_american_weapon_sale
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_fighters
+			focus = NGA_1960s_american_fighters
 		}
 		x = 29
 		y = 3
@@ -2096,11 +2096,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_doctrine_air
+		id = NGA_1960s_american_doctrine_air
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_fighters
+			focus = NGA_1960s_american_fighters
 		}
 		x = 31
 		y = 3
@@ -2115,14 +2115,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_anti_air_defences
+		id = NGA_1960s_american_anti_air_defences
 		icon = GFX_focus_generic_air_defense
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_bombers
+			focus = NGA_1960s_american_bombers
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_doctrine_air
+			focus = NGA_1960s_american_doctrine_air
 		}
 		x = 30
 		y = 4
@@ -2163,11 +2163,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_rocket_tech
+		id = NGA_1960s_american_rocket_tech
 		icon = GFX_focus_rocketry
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_anti_air_defences
+			focus = NGA_1960s_american_anti_air_defences
 		}
 		x = 29
 		y = 5
@@ -2181,11 +2181,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_airfield_development
+		id = NGA_1960s_american_airfield_development
 		icon = GFX_goal_generic_air_doctrine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_anti_air_defences
+			focus = NGA_1960s_american_anti_air_defences
 		}
 		x = 31
 		y = 5
@@ -2249,14 +2249,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_mic_contracts
+		id = NGA_1960s_american_mic_contracts
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_rocket_tech
+			focus = NGA_1960s_american_rocket_tech
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_airfield_development
+			focus = NGA_1960s_american_airfield_development
 		}
 		x = 30
 		y = 6
@@ -2266,11 +2266,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_reform_officer_corps
+		id = NGA_1960s_reform_officer_corps
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_mic_contracts
+			focus = NGA_1960s_american_mic_contracts
 		}
 		x = 28
 		y = 7
@@ -2280,14 +2280,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_flexible_navy
+		id = NGA_1960s_flexible_navy
 		icon = GFX_goal_generic_build_navy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_naval_effort
+			focus = NGA_1960s_naval_effort
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_large_navy
+			focus = NGA_1960s_large_navy
 		}
 		x = 33
 		y = 1
@@ -2319,14 +2319,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_large_navy
+		id = NGA_1960s_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_naval_effort
+			focus = NGA_1960s_naval_effort
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_flexible_navy
+			focus = NGA_1960s_flexible_navy
 		}
 		x = 35
 		y = 1
@@ -2354,12 +2354,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_submarine_effort
+		id = NGA_1960s_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_flexible_navy
-			focus = NIA_1960s_large_navy
+			focus = NGA_1960s_flexible_navy
+			focus = NGA_1960s_large_navy
 		}
 		x = 33
 		y = 2
@@ -2391,11 +2391,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_destroyer_effort
+		id = NGA_1960s_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_submarine_effort
+			focus = NGA_1960s_submarine_effort
 		}
 		x = 33
 		y = 3
@@ -2427,32 +2427,32 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_reform_officer_corps_2
+		id = NGA_1960s_reform_officer_corps_2
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_special_forces
+			focus = NGA_1960s_special_forces
 		}
 		prerequisite = {
-			focus = NIA_1960s_rocket_effort
+			focus = NGA_1960s_rocket_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_special_forces
+			focus = NGA_1960s_special_forces
 		}
 		prerequisite = {
-			focus = NIA_1960s_rocket_effort
+			focus = NGA_1960s_rocket_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_special_forces
+			focus = NGA_1960s_special_forces
 		}
 		prerequisite = {
-			focus = NIA_1960s_rocket_effort
+			focus = NGA_1960s_rocket_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_special_forces
+			focus = NGA_1960s_special_forces
 		}
 		prerequisite = {
-			focus = NIA_1960s_rocket_effort
+			focus = NGA_1960s_rocket_effort
 		}
 		x = 12
 		y = 8
@@ -2462,12 +2462,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_cruiser_effort
+		id = NGA_1960s_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_large_navy
-			focus = NIA_1960s_flexible_navy
+			focus = NGA_1960s_large_navy
+			focus = NGA_1960s_flexible_navy
 		}
 		x = 35
 		y = 2
@@ -2497,11 +2497,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_capital_ships_effort
+		id = NGA_1960s_capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_cruiser_effort
+			focus = NGA_1960s_cruiser_effort
 		}
 		x = 35
 		y = 3
@@ -2538,17 +2538,17 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_extra_tech_slot_2
+		id = NGA_1960s_extra_tech_slot_2
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_extra_tech_slot
+			focus = NGA_1960s_extra_tech_slot
 		}
 		prerequisite = {
-			focus = NIA_1960s_nuclear_effort
+			focus = NGA_1960s_nuclear_effort
 		}
 		prerequisite = {
-			focus = NIA_1960s_secret_weapons
+			focus = NGA_1960s_secret_weapons
 		}
 		x = 3
 		y = 6
@@ -2564,11 +2564,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_motorization_aid
+		id = NGA_1960s_soviet_motorization_aid
 		icon = GFX_goal_generic_army_motorized
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_army_doctrine
+			focus = NGA_1960s_soviet_army_doctrine
 		}
 
 		x = 19
@@ -2583,14 +2583,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_tanks
+		id = NGA_1960s_soviet_tanks
 		icon = GFX_goal_generic_army_tanks
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_motorization_aid
+			focus = NGA_1960s_soviet_motorization_aid
 		}
 		prerequisite = {
-			focus = NIA_1960s_more_surplus_equipment
+			focus = NGA_1960s_more_surplus_equipment
 		}
 		x = 17
 		y = 5
@@ -2614,14 +2614,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_soviet_mechanized_equipment
+		id = NGA_1960s_soviet_mechanized_equipment
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_more_surplus_equipment
+			focus = NGA_1960s_more_surplus_equipment
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_motorization_aid
+			focus = NGA_1960s_soviet_motorization_aid
 		}
 		x = 19
 		y = 5
@@ -2635,14 +2635,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_backwards_engineer_soviet_designs
+		id = NGA_1960s_backwards_engineer_soviet_designs
 		icon = GFX_focus_secret_rearmament
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_soviet_mechanized_equipment
+			focus = NGA_1960s_soviet_mechanized_equipment
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_tanks
+			focus = NGA_1960s_soviet_tanks
 		}
 		x = 18
 		y = 6
@@ -2652,14 +2652,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_purge_officer_corps
+		id = NGA_1960s_purge_officer_corps
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_backwards_engineer_soviet_designs
+			focus = NGA_1960s_backwards_engineer_soviet_designs
 		}
 		prerequisite = {
-			focus = NIA_1960s_soviet_scuds
+			focus = NGA_1960s_soviet_scuds
 		}
 		x = 20
 		y = 7
@@ -2669,11 +2669,11 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_mechanized_equipment
+		id = NGA_1960s_american_mechanized_equipment
 		icon = GFX_goal_generic_build_tank
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_intelligence_aid
+			focus = NGA_1960s_american_intelligence_aid
 		}
 		x = 27
 		y = 5
@@ -2692,21 +2692,21 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIA_1960s_american_license_agreements
+		id = NGA_1960s_american_license_agreements
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_american_mechanized_equipment
+			focus = NGA_1960s_american_mechanized_equipment
 		}
 		prerequisite = {
-			focus = NIA_1960s_american_tanks
+			focus = NGA_1960s_american_tanks
 		}
 		x = 26
 		y = 6
 			completion_reward = {
 				USA = {
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = motorized_equipment_2
@@ -2714,7 +2714,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = mechanized_equipment_3
@@ -2722,7 +2722,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = main_battle_tanks_3
@@ -2730,7 +2730,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = lt_equipment_2
@@ -2738,7 +2738,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = ht_equipment_3
@@ -2746,7 +2746,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = assault_rifle_equipment_2
@@ -2754,7 +2754,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = CAS_equipment_5
@@ -2762,7 +2762,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = jet_multirole_equipment_3
@@ -2770,7 +2770,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = jet_tac_bomber_equipment_3
@@ -2778,7 +2778,7 @@ focus_tree = {
 								}
 						}
 					create_production_license = {
-							target = NIA
+							target = NGA
 							cost_factor = 1.0
 							equipment = {
 									type = jet_strat_bomber_equipment_3
@@ -2790,7 +2790,7 @@ focus_tree = {
 
 	}	
 	focus = {
-		id = NIA_1960s_Oil_Exploration
+		id = NGA_1960s_Oil_Exploration
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		x = 45
@@ -2805,11 +2805,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Arm_the_Faithful
+		id = NGA_1960s_Arm_the_Faithful
 		icon = GFX_focus_secret_rearmament
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Decrees_of_the_Caliphate
+			focus = NGA_1960s_Decrees_of_the_Caliphate
 		}
 		x = 53
 		y = 11
@@ -2818,7 +2818,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Post_Colonial_Navy
+		id = NGA_1960s_Post_Colonial_Navy
 		icon = GFX_goal_generic_build_navy
 		cost = 10.00
 		x = 58
@@ -2838,16 +2838,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Colonial_Independence
+		id = NGA_1960s_Colonial_Independence
 		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Oil_Exploration
+			focus = NGA_1960s_Oil_Exploration
 		}
 		x = 45
 		y = 1
 		completion_reward = {
-				set_autonomy = { target = NIA_1960s autonomy_state = autonomy_free }	
+				set_autonomy = { target = NGA_1960s autonomy_state = autonomy_free }	
 				set_politics = {
 					ruling_party = democratic
 					elections_allowed = yes
@@ -2861,15 +2861,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Autonomous_Kings
+		id = NGA_1960s_Autonomous_Kings
 		icon = GFX_focus_rom_abdicate
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Colonial_Independence
+			focus = NGA_1960s_Colonial_Independence
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Subjugate_Kings
-			focus = NIA_1960s_Back_to_Our_Roots
+			focus = NGA_1960s_Subjugate_Kings
+			focus = NGA_1960s_Back_to_Our_Roots
 		}
 		x = 44
 		y = 2
@@ -2879,15 +2879,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Subjugate_Kings
+		id = NGA_1960s_Subjugate_Kings
 		icon = GFX_focus_rom_handle_king
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Colonial_Independence
+			focus = NGA_1960s_Colonial_Independence
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Autonomous_Kings
-			focus = NIA_1960s_Back_to_Our_Roots
+			focus = NGA_1960s_Autonomous_Kings
+			focus = NGA_1960s_Back_to_Our_Roots
 		}
 		x = 46
 		y = 2
@@ -2897,12 +2897,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Nigerian_First_Republic
+		id = NGA_1960s_Nigerian_First_Republic
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Subjugate_Kings
-			focus = NIA_1960s_Autonomous_Kings
+			focus = NGA_1960s_Subjugate_Kings
+			focus = NGA_1960s_Autonomous_Kings
 		}
 		x = 45
 		y = 3
@@ -2911,11 +2911,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Freedom_Charter
+		id = NGA_1960s_Freedom_Charter
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_First_Republic
+			focus = NGA_1960s_Nigerian_First_Republic
 		}
 		x = 45
 		y = 4
@@ -2924,11 +2924,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Chevron
+		id = NGA_1960s_Chevron
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Freedom_Charter
+			focus = NGA_1960s_Freedom_Charter
 		}
 		x = 45
 		y = 5
@@ -2942,11 +2942,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Ethnic_Clashes_rep
+		id = NGA_1960s_Ethnic_Clashes_rep
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Chevron
+			focus = NGA_1960s_Chevron
 		}
 		x = 45
 		y = 6
@@ -2957,11 +2957,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Republican_Constitution
+		id = NGA_1960s_Republican_Constitution
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Ethnic_Clashes_rep
+			focus = NGA_1960s_Ethnic_Clashes_rep
 		}
 		x = 45
 		y = 7
@@ -2970,11 +2970,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Tennecco
+		id = NGA_1960s_Tennecco
 		icon = GFX_goal_continuous_non_factory_construct
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Republican_Constitution
+			focus = NGA_1960s_Republican_Constitution
 		}
 		x = 45
 		y = 8
@@ -2990,11 +2990,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_NPC_Takes_Majority
+		id = NGA_1960s_NPC_Takes_Majority
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Tennecco
+			focus = NGA_1960s_Tennecco
 		}
 		x = 45
 		y = 9
@@ -3003,11 +3003,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Alienate_the_South
+		id = NGA_1960s_Alienate_the_South
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_NPC_Takes_Majority
+			focus = NGA_1960s_NPC_Takes_Majority
 		}
 		x = 44
 		y = 10
@@ -3017,11 +3017,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Alienate_the_East
+		id = NGA_1960s_Alienate_the_East
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_NPC_Takes_Majority
+			focus = NGA_1960s_NPC_Takes_Majority
 		}
 		x = 46
 		y = 10
@@ -3031,14 +3031,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Niger_Delta_Oil_fields
+		id = NGA_1960s_Niger_Delta_Oil_fields
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Alienate_the_East
+			focus = NGA_1960s_Alienate_the_East
 		}
 		prerequisite = {
-			focus = NIA_1960s_Alienate_the_South
+			focus = NGA_1960s_Alienate_the_South
 		}
 		x = 45
 		y = 11
@@ -3052,14 +3052,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Imprison_Opposition_Leaders
+		id = NGA_1960s_Imprison_Opposition_Leaders
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Niger_Delta_Oil_fields
+			focus = NGA_1960s_Niger_Delta_Oil_fields
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_CPN_Rising
+			focus = NGA_1960s_CPN_Rising
 		}
 		x = 45
 		y = 12
@@ -3071,11 +3071,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Election_of_1965
+		id = NGA_1960s_Election_of_1965
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Imprison_Opposition_Leaders
+			focus = NGA_1960s_Imprison_Opposition_Leaders
 		}
 		available = {
 			date > 1965.1.1
@@ -3087,14 +3087,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Young_Officers_Coup
+		id = NGA_1960s_Young_Officers_Coup
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Election_of_1965
+			focus = NGA_1960s_Election_of_1965
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Crush_the_Coup
+			focus = NGA_1960s_Crush_the_Coup
 		}
 		x = 46
 		y = 14
@@ -3106,7 +3106,7 @@ focus_tree = {
 				create_country_leader = { 
 					name = "Kaduna Nzeogwu"
 					desc = ""
-					picture = "Portrait_NIA_1960s_Nzeogwu.dds"
+					picture = "Portrait_NGA_1960s_Nzeogwu.dds"
 					ideology = military_junta
 					traits = {
 						#
@@ -3115,11 +3115,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Assasinate_Opposition_Figures
+		id = NGA_1960s_Assasinate_Opposition_Figures
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Young_Officers_Coup
+			focus = NGA_1960s_Young_Officers_Coup
 		}
 		x = 46
 		y = 15
@@ -3130,11 +3130,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Ironsi_Counter_Coup
+		id = NGA_1960s_Ironsi_Counter_Coup
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Assasinate_Opposition_Figures
+			focus = NGA_1960s_Assasinate_Opposition_Figures
 		}
 		x = 46
 		y = 16
@@ -3146,7 +3146,7 @@ focus_tree = {
 				create_country_leader = { 
 					name = "Johnson Aguiyi-Ironsi"
 					desc = ""
-					picture = "Portrait_NIA_1960s_Ironsi.dds"
+					picture = "Portrait_NGA_1960s_Ironsi.dds"
 					ideology = military_junta
 					traits = {
 						#
@@ -3155,11 +3155,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Detain_Coup_Plotters
+		id = NGA_1960s_Detain_Coup_Plotters
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Ironsi_Counter_Coup
+			focus = NGA_1960s_Ironsi_Counter_Coup
 		}
 		x = 46
 		y = 17
@@ -3171,11 +3171,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Unacceptable_Constitution
+		id = NGA_1960s_Unacceptable_Constitution
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Detain_Coup_Plotters
+			focus = NGA_1960s_Detain_Coup_Plotters
 		}
 		x = 46
 		y = 18
@@ -3188,11 +3188,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Decree_Number_34
+		id = NGA_1960s_Decree_Number_34
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Unacceptable_Constitution
+			focus = NGA_1960s_Unacceptable_Constitution
 		}
 		x = 46
 		y = 19
@@ -3202,14 +3202,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Keep_Ironsi_in_Power
+		id = NGA_1960s_Keep_Ironsi_in_Power
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Decree_Number_34
+			focus = NGA_1960s_Decree_Number_34
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Northern_Officers_Coup
+			focus = NGA_1960s_Northern_Officers_Coup
 		}
 		x = 47
 		y = 20
@@ -3219,11 +3219,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Join_OPEC
+		id = NGA_1960s_Join_OPEC
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Oil_Exploration
+			focus = NGA_1960s_Oil_Exploration
 		}
 		x = 49
 		y = 1
@@ -3232,14 +3232,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_CPN_Rising
+		id = NGA_1960s_CPN_Rising
 		icon = GFX_goal_support_communism
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Niger_Delta_Oil_fields
+			focus = NGA_1960s_Niger_Delta_Oil_fields
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Imprison_Opposition_Leaders
+			focus = NGA_1960s_Imprison_Opposition_Leaders
 		}
 		x = 49
 		y = 12
@@ -3255,11 +3255,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Nigerian_Youth_Congress
+		id = NGA_1960s_Nigerian_Youth_Congress
 		icon = GFX_focus_generic_soviet_politics
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_CPN_Rising
+			focus = NGA_1960s_CPN_Rising
 		}
 		x = 49
 		y = 13
@@ -3268,14 +3268,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Socialism
+		id = NGA_1960s_Socialism
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_Youth_Congress
+			focus = NGA_1960s_Nigerian_Youth_Congress
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Marxism
+			focus = NGA_1960s_Marxism
 		}
 		x = 48
 		y = 14
@@ -3287,14 +3287,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Marxism
+		id = NGA_1960s_Marxism
 		icon = GFX_focus_generic_join_comintern
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_Youth_Congress
+			focus = NGA_1960s_Nigerian_Youth_Congress
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Socialism
+			focus = NGA_1960s_Socialism
 		}
 		x = 50
 		y = 14
@@ -3306,12 +3306,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_AK47_The_Great_Equalizer
+		id = NGA_1960s_AK47_The_Great_Equalizer
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Marxism
-			focus = NIA_1960s_Socialism
+			focus = NGA_1960s_Marxism
+			focus = NGA_1960s_Socialism
 		}
 		x = 49
 		y = 15
@@ -3327,14 +3327,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Allow_Opposition
+		id = NGA_1960s_Allow_Opposition
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_AK47_The_Great_Equalizer
+			focus = NGA_1960s_AK47_The_Great_Equalizer
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Imprison_the_Opposition
+			focus = NGA_1960s_Imprison_the_Opposition
 		}
 		x = 50
 		y = 16
@@ -3344,14 +3344,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Imprison_the_Opposition
+		id = NGA_1960s_Imprison_the_Opposition
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_AK47_The_Great_Equalizer
+			focus = NGA_1960s_AK47_The_Great_Equalizer
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Allow_Opposition
+			focus = NGA_1960s_Allow_Opposition
 		}
 		x = 48
 		y = 16
@@ -3364,12 +3364,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Isolated_Party
+		id = NGA_1960s_Isolated_Party
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Allow_Opposition
-			focus = NIA_1960s_Imprison_the_Opposition
+			focus = NGA_1960s_Allow_Opposition
+			focus = NGA_1960s_Imprison_the_Opposition
 		}
 		x = 49
 		y = 17
@@ -3378,11 +3378,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = NIA_1960s_Draft_New_Constitution
+		id = NGA_1960s_Draft_New_Constitution
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Isolated_Party
+			focus = NGA_1960s_Isolated_Party
 		}
 		x = 49
 		y = 18
@@ -3391,11 +3391,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Massacre_Opposition
+		id = NGA_1960s_Massacre_Opposition
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Draft_New_Constitution
+			focus = NGA_1960s_Draft_New_Constitution
 		}
 		x = 49
 		y = 19
@@ -3405,11 +3405,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = NIA_1960s_Last_Hope_For_Democracy
+		id = NGA_1960s_Last_Hope_For_Democracy
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Massacre_Opposition
+			focus = NGA_1960s_Massacre_Opposition
 		}
 		x = 49
 		y = 20
@@ -3418,11 +3418,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = NIA_1960s_AK47_The_Great_Equalizer_Copy
+		id = NGA_1960s_AK47_The_Great_Equalizer_Copy
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Last_Hope_For_Democracy
+			focus = NGA_1960s_Last_Hope_For_Democracy
 		}
 		x = 50
 		y = 21
@@ -3438,11 +3438,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_One_Nigerian_Tribe
+		id = NGA_1960s_One_Nigerian_Tribe
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Last_Hope_For_Democracy
+			focus = NGA_1960s_Last_Hope_For_Democracy
 		}
 		x = 48
 		y = 21
@@ -3451,17 +3451,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_The_Workers_Revolution
+		id = NGA_1960s_The_Workers_Revolution
 		icon = GFX_focus_YUG_pan_slavic_congress
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_AK47_The_Great_Equalizer_Copy
+			focus = NGA_1960s_AK47_The_Great_Equalizer_Copy
 		}
 		prerequisite = {
-			focus = NIA_1960s_One_Nigerian_Tribe
+			focus = NGA_1960s_One_Nigerian_Tribe
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Join_Warsaw_Pact
+			focus = NGA_1960s_Join_Warsaw_Pact
 		}
 		x = 50
 		y = 22
@@ -3470,15 +3470,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Back_to_Our_Roots
+		id = NGA_1960s_Back_to_Our_Roots
 		icon = GFX_focus_generic_self_management
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Colonial_Independence
+			focus = NGA_1960s_Colonial_Independence
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Subjugate_Kings
-			focus = NIA_1960s_Autonomous_Kings
+			focus = NGA_1960s_Subjugate_Kings
+			focus = NGA_1960s_Autonomous_Kings
 		}
 		x = 53
 		y = 2
@@ -3490,11 +3490,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Glory_of_our_Past
+		id = NGA_1960s_Glory_of_our_Past
 		icon = GFX_focus_ger_reichskommisariats
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Back_to_Our_Roots
+			focus = NGA_1960s_Back_to_Our_Roots
 		}
 		x = 53
 		y = 3
@@ -3503,11 +3503,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = NIA_1960s_Past_Traditions
+		id = NGA_1960s_Past_Traditions
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Glory_of_our_Past
+			focus = NGA_1960s_Glory_of_our_Past
 		}
 		x = 53
 		y = 4
@@ -3516,11 +3516,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = NIA_1960s_Sokoto_Caliphate
+		id = NGA_1960s_Sokoto_Caliphate
 		icon = GFX_focus_rom_royal_dictatorship
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Past_Traditions
+			focus = NGA_1960s_Past_Traditions
 		}
 		x = 53
 		y = 5
@@ -3532,11 +3532,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Tribute_from_Kings
+		id = NGA_1960s_Tribute_from_Kings
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Sokoto_Caliphate
+			focus = NGA_1960s_Sokoto_Caliphate
 		}
 		x = 52
 		y = 6
@@ -3552,11 +3552,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Condemn_the_Infidels
+		id = NGA_1960s_Condemn_the_Infidels
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Sokoto_Caliphate
+			focus = NGA_1960s_Sokoto_Caliphate
 		}
 		x = 54
 		y = 6
@@ -3565,14 +3565,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Clash_with_Christians
+		id = NGA_1960s_Clash_with_Christians
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Condemn_the_Infidels
+			focus = NGA_1960s_Condemn_the_Infidels
 		}
 		prerequisite = {
-			focus = NIA_1960s_Tribute_from_Kings
+			focus = NGA_1960s_Tribute_from_Kings
 		}
 		x = 53
 		y = 7
@@ -3583,14 +3583,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Domestic_Oil_Production
+		id = NGA_1960s_Domestic_Oil_Production
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Clash_with_Christians
+			focus = NGA_1960s_Clash_with_Christians
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Foriegn_Oil_Drilling
+			focus = NGA_1960s_Foriegn_Oil_Drilling
 		}
 		x = 54
 		y = 8
@@ -3605,14 +3605,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Foriegn_Oil_Drilling
+		id = NGA_1960s_Foriegn_Oil_Drilling
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Clash_with_Christians
+			focus = NGA_1960s_Clash_with_Christians
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Domestic_Oil_Production
+			focus = NGA_1960s_Domestic_Oil_Production
 		}
 		x = 52
 		y = 8
@@ -3627,12 +3627,12 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Ethnic_Clashes
+		id = NGA_1960s_Ethnic_Clashes
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Domestic_Oil_Production
-			focus = NIA_1960s_Foriegn_Oil_Drilling
+			focus = NGA_1960s_Domestic_Oil_Production
+			focus = NGA_1960s_Foriegn_Oil_Drilling
 		}
 		x = 53
 		y = 9
@@ -3643,11 +3643,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Decrees_of_the_Caliphate
+		id = NGA_1960s_Decrees_of_the_Caliphate
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Ethnic_Clashes
+			focus = NGA_1960s_Ethnic_Clashes
 		}
 		x = 53
 		y = 10
@@ -3656,11 +3656,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Niger_Delta_Oil
+		id = NGA_1960s_Niger_Delta_Oil
 		icon = GFX_goal_generic_oil_refinery
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Arm_the_Faithful
+			focus = NGA_1960s_Arm_the_Faithful
 		}
 		x = 53
 		y = 12
@@ -3674,11 +3674,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Imprison_the_Opposition_Leaders
+		id = NGA_1960s_Imprison_the_Opposition_Leaders
 		icon = GFX_focus_generic_strike_at_democracy2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Niger_Delta_Oil
+			focus = NGA_1960s_Niger_Delta_Oil
 		}
 		x = 53
 		y = 13
@@ -3690,11 +3690,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Christian_Massacres
+		id = NGA_1960s_Christian_Massacres
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Imprison_the_Opposition_Leaders
+			focus = NGA_1960s_Imprison_the_Opposition_Leaders
 		}
 		x = 53
 		y = 14
@@ -3704,11 +3704,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_International_Pariah
+		id = NGA_1960s_International_Pariah
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Christian_Massacres
+			focus = NGA_1960s_Christian_Massacres
 		}
 		x = 54
 		y = 15
@@ -3718,11 +3718,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_No_Christian_Voice
+		id = NGA_1960s_No_Christian_Voice
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Christian_Massacres
+			focus = NGA_1960s_Christian_Massacres
 		}
 		x = 52
 		y = 15
@@ -3735,14 +3735,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Spread_Islamism
+		id = NGA_1960s_Spread_Islamism
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_International_Pariah
+			focus = NGA_1960s_International_Pariah
 		}
 		prerequisite = {
-			focus = NIA_1960s_No_Christian_Voice
+			focus = NGA_1960s_No_Christian_Voice
 		}
 		x = 53
 		y = 16
@@ -3768,11 +3768,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Sokoto_Hegemony
+		id = NGA_1960s_Sokoto_Hegemony
 		icon = GFX_focus_rom_royal_dictatorship
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Spread_Islamism
+			focus = NGA_1960s_Spread_Islamism
 		}
 		x = 53
 		y = 17
@@ -3781,14 +3781,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Flexible_Navy
+		id = NGA_1960s_Flexible_Navy
 		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Post_Colonial_Navy
+			focus = NGA_1960s_Post_Colonial_Navy
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Nigerian_Armada
+			focus = NGA_1960s_Nigerian_Armada
 		}
 		x = 55
 		y = 1
@@ -3802,11 +3802,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Nigerian_Black_Flag
+		id = NGA_1960s_Nigerian_Black_Flag
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Flexible_Navy
+			focus = NGA_1960s_Flexible_Navy
 		}
 		x = 55
 		y = 2
@@ -3825,14 +3825,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Nigerian_Armada
+		id = NGA_1960s_Nigerian_Armada
 		icon = GFX_focus_generic_navy_battleship2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Post_Colonial_Navy
+			focus = NGA_1960s_Post_Colonial_Navy
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Flexible_Navy
+			focus = NGA_1960s_Flexible_Navy
 		}
 		x = 57
 		y = 1
@@ -3851,11 +3851,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Convoy_System
+		id = NGA_1960s_Convoy_System
 		icon = GFX_goal_generic_build_navy
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_Armada
+			focus = NGA_1960s_Nigerian_Armada
 		}
 		x = 57
 		y = 2
@@ -3869,12 +3869,12 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Submarines
+		id = NGA_1960s_Submarines
 		icon = GFX_goal_generic_navy_submarine
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_Black_Flag
-			focus = NIA_1960s_Convoy_System
+			focus = NGA_1960s_Nigerian_Black_Flag
+			focus = NGA_1960s_Convoy_System
 		}
 		x = 55
 		y = 3
@@ -3888,12 +3888,12 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Destroyers
+		id = NGA_1960s_Destroyers
 		icon = GFX_focus_generic_destroyer
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Nigerian_Black_Flag
-			focus = NIA_1960s_Convoy_System
+			focus = NGA_1960s_Nigerian_Black_Flag
+			focus = NGA_1960s_Convoy_System
 		}
 		x = 57
 		y = 3
@@ -3907,14 +3907,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Cruiser
+		id = NGA_1960s_Cruiser
 		icon = GFX_focus_generic_cruiser2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Destroyers
+			focus = NGA_1960s_Destroyers
 		}
 		prerequisite = {
-			focus = NIA_1960s_Submarines
+			focus = NGA_1960s_Submarines
 		}
 		x = 56
 		y = 4
@@ -3928,11 +3928,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Naval_Infrastructure
+		id = NGA_1960s_Naval_Infrastructure
 		icon = GFX_goal_continuous_naval_production
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Post_Colonial_Navy
+			focus = NGA_1960s_Post_Colonial_Navy
 		}
 		x = 59
 		y = 1
@@ -3951,11 +3951,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Naval_Infrastructure_II
+		id = NGA_1960s_Naval_Infrastructure_II
 		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Naval_Infrastructure
+			focus = NGA_1960s_Naval_Infrastructure
 		}
 		x = 59
 		y = 2
@@ -3974,11 +3974,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Amphbious_Assault
+		id = NGA_1960s_Amphbious_Assault
 		icon = GFX_goal_generic_amphibious_assault
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Naval_Infrastructure_II
+			focus = NGA_1960s_Naval_Infrastructure_II
 		}
 		x = 59
 		y = 3
@@ -3995,17 +3995,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = NIA_1960s_Join_Warsaw_Pact
+		id = NGA_1960s_Join_Warsaw_Pact
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_One_Nigerian_Tribe
+			focus = NGA_1960s_One_Nigerian_Tribe
 		}
 		prerequisite = {
-			focus = NIA_1960s_AK47_The_Great_Equalizer_Copy
+			focus = NGA_1960s_AK47_The_Great_Equalizer_Copy
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_The_Workers_Revolution
+			focus = NGA_1960s_The_Workers_Revolution
 		}
 		x = 48
 		y = 22
@@ -4016,14 +4016,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Crush_the_Coup
+		id = NGA_1960s_Crush_the_Coup
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Election_of_1965
+			focus = NGA_1960s_Election_of_1965
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Young_Officers_Coup
+			focus = NGA_1960s_Young_Officers_Coup
 		}
 		x = 44
 		y = 14
@@ -4033,11 +4033,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Detain_Coup_Plotters2
+		id = NGA_1960s_Detain_Coup_Plotters2
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Crush_the_Coup
+			focus = NGA_1960s_Crush_the_Coup
 		}
 		x = 44
 		y = 15
@@ -4050,11 +4050,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Unchanged_Constitution
+		id = NGA_1960s_Unchanged_Constitution
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Detain_Coup_Plotters2
+			focus = NGA_1960s_Detain_Coup_Plotters2
 		}
 		x = 44
 		y = 16
@@ -4064,15 +4064,15 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Northern_Officers_Coup
+		id = NGA_1960s_Northern_Officers_Coup
 		icon = GFX_focus_generic_support_the_left_right
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Decree_Number_34
-			focus = NIA_1960s_Unchanged_Constitution
+			focus = NGA_1960s_Decree_Number_34
+			focus = NGA_1960s_Unchanged_Constitution
 		}
 		mutually_exclusive = {
-			focus = NIA_1960s_Keep_Ironsi_in_Power
+			focus = NGA_1960s_Keep_Ironsi_in_Power
 		}
 		x = 45
 		y = 20
@@ -4084,7 +4084,7 @@ focus_tree = {
 				create_country_leader = { 
 					name = "Yakubu Gowon"
 					desc = ""
-					picture = "Portrait_NIA_1960s_Gowon.dds"
+					picture = "Portrait_NGA_1960s_Gowon.dds"
 					ideology = military_junta
 					traits = {
 						#
@@ -4093,12 +4093,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Ibo_Massacres
+		id = NGA_1960s_Ibo_Massacres
 		icon = GFX_goal_continuous_suppression
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Northern_Officers_Coup
-			focus = NIA_1960s_Keep_Ironsi_in_Power
+			focus = NGA_1960s_Northern_Officers_Coup
+			focus = NGA_1960s_Keep_Ironsi_in_Power
 		}
 		x = 44
 		y = 21
@@ -4113,11 +4113,11 @@ focus_tree = {
 			}
 	}
 	focus = {
-		id = NIA_1960s_Biafran_War
+		id = NGA_1960s_Biafran_War
 		icon = GFX_focus_generic_strike_at_democracy1
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Ibo_Massacres
+			focus = NGA_1960s_Ibo_Massacres
 		}
 		x = 44
 		y = 22
@@ -4134,7 +4134,7 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					1106 = { is_owned_by = NIA }
+					1106 = { is_owned_by = NGA }
 				}
 				BFR = {
 					transfer_state = 1106
@@ -4144,11 +4144,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Militarize_the_North
+		id = NGA_1960s_Militarize_the_North
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Biafran_War
+			focus = NGA_1960s_Biafran_War
 		}
 		x = 42
 		y = 23
@@ -4164,11 +4164,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Militarize_the_South
+		id = NGA_1960s_Militarize_the_South
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Biafran_War
+			focus = NGA_1960s_Biafran_War
 		}
 		x = 46
 		y = 23
@@ -4192,11 +4192,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Israeli_Arms
+		id = NGA_1960s_Israeli_Arms
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Biafran_War
+			focus = NGA_1960s_Biafran_War
 		}
 		x = 44
 		y = 23
@@ -4209,17 +4209,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Center_of_Africa
+		id = NGA_1960s_Center_of_Africa
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Israeli_Arms
+			focus = NGA_1960s_Israeli_Arms
 		}
 		prerequisite = {
-			focus = NIA_1960s_Militarize_the_South
+			focus = NGA_1960s_Militarize_the_South
 		}
 		prerequisite = {
-			focus = NIA_1960s_Militarize_the_North
+			focus = NGA_1960s_Militarize_the_North
 		}
 		x = 44
 		y = 24
@@ -4228,11 +4228,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Third_Way
+		id = NGA_1960s_Third_Way
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Center_of_Africa
+			focus = NGA_1960s_Center_of_Africa
 		}
 		x = 45
 		y = 25
@@ -4243,11 +4243,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIA_1960s_Naval_Supremacy
+		id = NGA_1960s_Naval_Supremacy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Post_Colonial_Navy
+			focus = NGA_1960s_Post_Colonial_Navy
 		}
 		x = 61
 		y = 1
@@ -4270,11 +4270,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Carriers
+		id = NGA_1960s_Carriers
 		icon = GFX_goal_generic_navy_carrier
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Naval_Supremacy
+			focus = NGA_1960s_Naval_Supremacy
 		}
 		x = 61
 		y = 2
@@ -4297,11 +4297,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIA_1960s_Naval_Aviation
+		id = NGA_1960s_Naval_Aviation
 		icon = GFX_goal_generic_air_fighter2
 		cost = 10.00
 		prerequisite = {
-			focus = NIA_1960s_Carriers
+			focus = NGA_1960s_Carriers
 		}
 		x = 61
 		y = 3

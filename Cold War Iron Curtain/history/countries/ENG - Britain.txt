@@ -311,7 +311,7 @@ if = {
 		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = NIA
+		target = NGA
 		autonomous_state = autonomy_colony
 		freedom_level = 0.1
 	}
@@ -456,7 +456,7 @@ if = {
 		puppet = ZIM
 		puppet = ZAM
 		puppet = MLW
-		puppet = NIA
+		puppet = NGA
 		puppet = BOT
 		puppet = BRU
 		puppet = CAN
@@ -618,7 +618,7 @@ set_politics = {
 
 1960.10.1 = {
 	set_autonomy = { target = GHA autonomy_state = autonomy_free }
-	set_autonomy = { target = NIA autonomy_state = autonomy_free }
+	set_autonomy = { target = NGA autonomy_state = autonomy_free }
 }
 
 1960.7.26 = {

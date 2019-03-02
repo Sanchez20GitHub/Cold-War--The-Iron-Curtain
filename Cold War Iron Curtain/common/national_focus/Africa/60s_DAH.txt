@@ -1834,7 +1834,7 @@ focus_tree = {
 		x = 15
 		y = 44
 		completion_reward = {
-			NIA = {
+			NGA = {
 				transfer_state = 760
 			}
 		}

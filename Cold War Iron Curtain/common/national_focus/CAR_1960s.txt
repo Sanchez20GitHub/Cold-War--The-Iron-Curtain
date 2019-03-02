@@ -2073,11 +2073,11 @@ focus_tree = {
 						}
 					CAR = {
 							add_opinion_modifier = {
-									target = NIA
+									target = NGA
 									modifier = small_increase
 								}
 						}
-					NIA = {
+					NGA = {
 							add_opinion_modifier = {
 									target = CAR
 									modifier = small_increase

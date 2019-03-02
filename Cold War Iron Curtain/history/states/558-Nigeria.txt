@@ -8,12 +8,12 @@ state={
 	}
 
 	history={
-		owner = NIA
+		owner = NGA
 		set_state_flag = micro
 		set_state_flag = basic
 		set_state_flag = micro
 		set_state_flag = verypoor
-		add_core_of = NIA
+		add_core_of = NGA
 		victory_points = {
 			2025 5 
 		}

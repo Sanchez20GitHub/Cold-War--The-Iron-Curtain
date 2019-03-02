@@ -780,7 +780,7 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 1000
 			army_experience = 20
-			NIA = {
+			NGA = {
 				add_war_support = -0.05
 			}
 		}
@@ -1214,11 +1214,11 @@ focus_tree = {
 		completion_reward = {
 			BFR = {
 				add_opinion_modifier = {
-					target = NIA
+					target = NGA
 					modifier = large_increase
 				}
 			}
-			NIA = {
+			NGA = {
 				add_opinion_modifier = {
 					target = BFR
 					modifier = large_increase
@@ -1236,7 +1236,7 @@ focus_tree = {
 		x = 32
 		y = 15
 		completion_reward = {
-			NIA = {
+			NGA = {
 				puppet = BFR
 			}
 		}
@@ -1447,7 +1447,7 @@ focus_tree = {
 		x = 30
 		y = 21
 		completion_reward = {
-			NIA = {
+			NGA = {
 				every_owned_state = {
 					add_core_of = BFR
 				}
@@ -1491,7 +1491,7 @@ focus_tree = {
 		y = 12
 		completion_reward = {
 			add_political_power = 200
-			NIA = {
+			NGA = {
 				add_stability = -0.10
 			}
 			1011 = { add_core_of = BFR }

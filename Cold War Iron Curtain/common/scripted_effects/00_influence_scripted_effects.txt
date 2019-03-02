@@ -680,7 +680,7 @@ sign_trade_agreement = {
 	if = { limit = { tag = DRY } ROOT = { add_ideas = trade_treaty_DRY	}	}
 	if = { limit = { tag = SUD } ROOT = { add_ideas = trade_treaty_SUD	}	}
 	if = { limit = { tag = GHA } ROOT = { add_ideas = trade_treaty_GHA	}	}
-	if = { limit = { tag = NIA } ROOT = { add_ideas = trade_treaty_NIA	}	}
+	if = { limit = { tag = NGA } ROOT = { add_ideas = trade_treaty_NGA	}	}
 	if = { limit = { tag = SOM } ROOT = { add_ideas = trade_treaty_SOM	}	}
 	if = { limit = { tag = CYP } ROOT = { add_ideas = trade_treaty_CYP	}	}
 	if = { limit = { tag = UGA } ROOT = { add_ideas = trade_treaty_UGA	}	}
@@ -942,7 +942,7 @@ sign_trade_agreement_inv = {
 	if = { limit = { ROOT = { tag = DRY } } add_ideas = trade_treaty_DRY	}	
 	if = { limit = { ROOT = { tag = SUD } } add_ideas = trade_treaty_SUD	}	
 	if = { limit = { ROOT = { tag = GHA } } add_ideas = trade_treaty_GHA	}	
-	if = { limit = { ROOT = { tag = NIA } } add_ideas = trade_treaty_NIA	}	
+	if = { limit = { ROOT = { tag = NGA } } add_ideas = trade_treaty_NGA	}	
 	if = { limit = { ROOT = { tag = SOM } } add_ideas = trade_treaty_SOM	}	
 	if = { limit = { ROOT = { tag = CYP } } add_ideas = trade_treaty_CYP	}	
 	if = { limit = { ROOT = { tag = UGA } } add_ideas = trade_treaty_UGA	}	

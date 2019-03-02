@@ -2041,7 +2041,7 @@ focus_tree = {
 			every_owned_state = {
 				add_manpower = -25000
 			}
-			NIA = {
+			NGA = {
 				capital_scope = {
 					add_manpower = 75000
 				}

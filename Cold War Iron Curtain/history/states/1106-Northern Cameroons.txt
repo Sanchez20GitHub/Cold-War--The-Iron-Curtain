@@ -5,9 +5,9 @@ state={
 
 	history={
 		owner = ENG
-		add_core_of = NIA
+		add_core_of = NGA
 		1961.1.1 = {
-			owner = NIA
+			owner = NGA
 
 		}
 		buildings = {

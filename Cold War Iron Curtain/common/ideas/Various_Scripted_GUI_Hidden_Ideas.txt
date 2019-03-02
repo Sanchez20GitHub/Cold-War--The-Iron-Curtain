@@ -172,7 +172,7 @@ ideas = {
 		trade_treaty_DRY = { targeted_modifier = { tag = DRY trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SUD = { targeted_modifier = { tag = SUD trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GHA = { targeted_modifier = { tag = GHA trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_NIA = { targeted_modifier = { tag = NIA trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_NGA = { targeted_modifier = { tag = NGA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SOM = { targeted_modifier = { tag = SOM trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_CYP = { targeted_modifier = { tag = CYP trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_UGA = { targeted_modifier = { tag = UGA trade_cost_for_target_factor = -0.5 } }
