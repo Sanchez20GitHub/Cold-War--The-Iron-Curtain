@@ -1468,11 +1468,11 @@ focus_tree = {
 						}
 					FRA = {
 							add_opinion_modifier = {
-									target = MAU
+									target = MRT
 									modifier = large_increase
 								}
 						}
-					MAU = {
+					MRT = {
 							add_opinion_modifier = {
 									target = FRA
 									modifier = large_increase
@@ -1528,11 +1528,11 @@ focus_tree = {
 						}
 					FRA = {
 							add_opinion_modifier = {
-									target = CTD
+									target = IVO
 									modifier = large_increase
 								}
 						}
-					CTD = {
+					IVO = {
 							add_opinion_modifier = {
 									target = FRA
 									modifier = large_increase

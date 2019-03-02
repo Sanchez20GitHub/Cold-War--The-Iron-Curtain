@@ -1227,7 +1227,7 @@ ic_pulse = {
 					NOT = { tag = UGA }
 					NOT = { tag = CAR }
 					NOT = { tag = DOC }
-					NOT = { tag = EGI }
+					NOT = { tag = EQG }
 				}
 				load_focus_tree = generic_focus_60
 				set_country_flag = focus_tree_60_reset
@@ -1270,7 +1270,7 @@ ic_pulse = {
 						tag = UGA
 						tag = CAR
 						tag = DOC
-						tag = EGI
+						tag = EQG
 					}
 				}
 				set_country_flag = focus_tree_60_reset		
@@ -4265,9 +4265,9 @@ ic_pulse = {
 		}
 		#news_event = por_colonial_news.2
 		POR = {
-			release = EGI
-			EGI = { set_politics = { ruling_party = communism elections_allowed = no } }
-			declare_war_on = { target = EGI type = annex_everything }	
+			release = EQG
+			EQG = { set_politics = { ruling_party = communism elections_allowed = no } }
+			declare_war_on = { target = EQG type = annex_everything }	
 		}
 		set_global_flag = Guinea_Bissau_War
 	}
@@ -5224,7 +5224,7 @@ ic_pulse = {
 				has_cosmetic_tag = CMR_FRA
 				has_cosmetic_tag = MOR_FRA
 				has_cosmetic_tag = ROC_FRA
-				has_cosmetic_tag = DJB_FRA
+				has_cosmetic_tag = DJI_FRA
 				has_cosmetic_tag = TUN_FRA
 				has_cosmetic_tag = LOS_FRA
 				has_cosmetic_tag = LOS_FRA_COLOR
@@ -5249,7 +5249,7 @@ ic_pulse = {
 				has_cosmetic_tag = NFL_ENG
 				has_cosmetic_tag = BRU_ENG 
 				has_cosmetic_tag = ZAM_ENG
-				has_cosmetic_tag = SLK_ENG
+				has_cosmetic_tag = SRL_ENG
 				has_cosmetic_tag = PAK_ENG
 				has_cosmetic_tag = RAJ_ENG
 				has_cosmetic_tag = SAF_ENG
@@ -5261,9 +5261,9 @@ ic_pulse = {
 				has_cosmetic_tag = SKK_RAJ
 				has_cosmetic_tag = SKK_ENG
 				has_cosmetic_tag = ZIM_ENG
-				has_cosmetic_tag = NYA_ENG
+				has_cosmetic_tag = MLW_ENG
 				has_cosmetic_tag = RIF_SPR 
-				has_cosmetic_tag = EGI_SPR
+				has_cosmetic_tag = EQG_SPR
 				has_cosmetic_tag = KPA_SOV
 				has_cosmetic_tag = KOR_USA
 			}
@@ -5534,7 +5534,7 @@ ic_pulse = {
 			original_tag = AST
 			date > 1975.09.15
 			date < 1976.01.01
-			NOT = { country_exists = PAP }
+			NOT = { country_exists = PNG }
 			owns_state = 976
 			owns_state = 737
 			owns_state = 523
@@ -5570,7 +5570,7 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1966.05.25
 			date < 1967.01.01
-			NOT = { country_exists = GUY }
+			NOT = { country_exists = GYA }
 			owns_state = 687
 			owns_state = 1202
 			owns_state = 1203
@@ -5602,7 +5602,7 @@ ic_pulse = {
 			original_tag = SPR
 			date > 1975.11.13
 			date < 1976.01.01
-			NOT = { country_exists = SRW }
+			NOT = { country_exists = WES }
 			owns_state = 699
 			owns_state = 1001
 		}
@@ -5646,7 +5646,7 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1973.07.09
 			date < 1974.01.01
-			NOT = { country_exists = BHM }
+			NOT = { country_exists = BAH }
 			owns_state = 690
 		}
 		country_event = decolonization.19
@@ -5688,8 +5688,8 @@ ic_pulse = {
 			original_tag = ENG
 			date > 1964.07.05
 			date < 1965.01.01
-			country_exists = NYA
-			NYA = { is_subject_of = ENG }
+			country_exists = MLW
+			MLW = { is_subject_of = ENG }
 		}
 		country_event = decolonization.23
 	}

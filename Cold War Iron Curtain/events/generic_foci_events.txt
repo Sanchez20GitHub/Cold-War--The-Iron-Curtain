@@ -1,4 +1,5 @@
 ﻿add_namespace = ic_generic_events
+add_namespace = ic_generic60_events
 country_event = {
 	id = ic_generic_events.1
 	title = ic_generic_events.1.t

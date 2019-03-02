@@ -24,9 +24,9 @@ state={
 			}
 
 		}
-		add_core_of = GUY
+		add_core_of = GYA
 		1966.1.1 = {
-			owner = GUY
+			owner = GYA
 
 		}
 

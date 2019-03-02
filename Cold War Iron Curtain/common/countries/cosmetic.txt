@@ -33,7 +33,7 @@ UGA_ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 
-MYR_ENG = {
+BRM_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
@@ -83,7 +83,7 @@ RHO = {
 	color_ui = rgb { 187 255 160 }
 }
 
-NYA_ENG = {
+MLW_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
@@ -283,7 +283,7 @@ RIF_SPR = {
 	color_ui = rgb { 255 255 122 }
 }
 
-EGI_SPR = {
+EQG_SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
 }
@@ -328,7 +328,7 @@ EQU_ROC = {
 	color_ui = rgb { 9 20 63 }
 	}
 
-DJB_FRA = {
+DJI_FRA = {
 	color = rgb { 30 100 180 }
 	color_ui = rgb { 74 147 255 }
 }

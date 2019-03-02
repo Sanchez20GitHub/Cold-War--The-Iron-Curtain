@@ -70,7 +70,7 @@ light_sp_artillery_1 = 1
 	cv_CAS1 = 1
 	cv_CAS2 = 1
 	cv_CAS3 = 1
-	cv_CAS4 = 1
+	#cv_CAS4 = 1
 	cv_early_fighter = 1
 	cv_fighter1 = 1
 	cv_fighter2 = 1
@@ -326,7 +326,7 @@ if = {
 		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = NYA
+		target = MLW
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.1
 	}
@@ -381,7 +381,7 @@ if = {
 		freedom_level = 0.1
 	}
 	set_autonomy = {
-		target = SLE
+		target = SIE
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.1
 	}
@@ -455,7 +455,7 @@ if = {
 		puppet = MAL
 		puppet = ZIM
 		puppet = ZAM
-		puppet = NYA
+		puppet = MLW
 		puppet = NIA
 		puppet = BOT
 		puppet = BRU
@@ -467,7 +467,7 @@ if = {
 		puppet = SML
         puppet = TOA
 		puppet = GAM
-		puppet = SLE
+		puppet = SIE
 		puppet = SWA
 		puppet = SOL
 		puppet = JAM
@@ -569,15 +569,15 @@ set_politics = {
 		    has_dlc = "Together for Victory"
 	    }
         set_autonomy = {
-            target = SLK
+            target = SRL
             autonomous_state = autonomy_dominion
             freedom_level = 0.1
         }
   	    else = {
-		    puppet = SLK
+		    puppet = SRL
 	    }
     }
-	SLK = { set_politics = { parties = { conservative = { popularity = 100 } } ruling_party = conservative elections_allowed = no } }
+	SRL = { set_politics = { parties = { conservative = { popularity = 100 } } ruling_party = conservative elections_allowed = no } }
 }
 
 1949.1.1 = {
@@ -631,7 +631,7 @@ set_politics = {
 
 1961.1.1 = {
     set_autonomy = { target = SAF autonomy_state = autonomy_free } 
-    set_autonomy = { target = SLE autonomy_state = autonomy_free }
+    set_autonomy = { target = SIE autonomy_state = autonomy_free }
 	set_autonomy = { target = KUW autonomy_state = autonomy_free }	
 }
 
@@ -647,7 +647,7 @@ set_politics = {
 
 1964.1.1 = {
     set_autonomy = { target = ZAM autonomy_state = autonomy_free }
-	set_autonomy = { target = NYA autonomy_state = autonomy_free }
+	set_autonomy = { target = MLW autonomy_state = autonomy_free }
 }
 
 1965.2.1 = {
@@ -681,7 +681,7 @@ set_politics = {
 }
 
 1972.1.1 = {
-    set_autonomy = { target = SLK autonomy_state = autonomy_free }    
+    set_autonomy = { target = SRL autonomy_state = autonomy_free }    
 }
 
 1963.1.1 = {
@@ -829,7 +829,7 @@ oob = "ENG_1960"
 		cv_CAS1 = 1
 		cv_CAS2 = 1
 		cv_CAS3 = 1
-		cv_CAS4 = 1
+		#cv_CAS4 = 1
 		cv_early_fighter = 1
 		cv_fighter1 = 1
 		cv_fighter2 = 1
@@ -1888,137 +1888,8 @@ create_navy_leader = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Illustrious Class"
-	type = carrier_1
-	upgrades = {
-			ship_deckspace_upgrade = 0
-			carrier_armor_upgrade = 0
-			ship_engine_upgrade = 0
-			ship_reliability_upgrade = 0
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "Implacable(1948 refit) Class"
-	type = carrier_1
-	upgrades = {
-			ship_deckspace_upgrade = 2
-			carrier_armor_upgrade = 2
-			ship_engine_upgrade = 2
-			ship_reliability_upgrade = 2
-	}
-}
-create_equipment_variant = {
-	name = "Colossus Class"
-	type = light_carrier_1
-	upgrades = {
-			ship_deckspace_upgrade = 1
-			carrier_armor_upgrade = 1
-			ship_engine_upgrade = 1
-			ship_reliability_upgrade = 1
-	}
-}
 
-### Variants ###
-# Submarines #
-create_equipment_variant = {
-	name = "O/P/R Class"
-	type = submarine_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 3
-		sub_engine_upgrade = 2
-		sub_stealth_upgrade = 2
-		sub_torpedo_upgrade = 3
-	}
-}
-# Destroyers #
-create_equipment_variant = {
-	name = "M/O/P/Q/R Class"
-	type = destroyer_1
-	parent_version = 0
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "River Class"
-	type = frigate_1
-	parent_version = 0
-	upgrades = {
-		ship_torpedo_upgrade = 0
-		destroyer_engine_upgrade = 0
-		ship_ASW_upgrade = 0
-		ship_anti_air_upgrade = 0
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "S/T/U/V/W/Z Class"
-	type = destroyer_1
-	parent_version = 0
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 4
-		ship_ASW_upgrade = 3
-		ship_anti_air_upgrade = 2
-	}
-	obsolete = yes
-}
-# Light Cruisers #
-create_equipment_variant = {
-	name = "Bellona Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 2
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "Town Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 0
-		ship_engine_upgrade = 0
-		ship_gun_upgrade = 0
-		ship_anti_air_upgrade = 0
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "Dido(refit) Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "County Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 0
-		ship_engine_upgrade = 0
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 0
-	}
-	obsolete = yes
-}
+
 
 create_equipment_variant = {
 	name = "Spitfire Mk.21/22/24"

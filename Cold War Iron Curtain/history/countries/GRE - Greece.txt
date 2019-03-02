@@ -19,12 +19,6 @@ add_ideas = {
 	GRE_imported_food
 	GRE_disorganized_health
 }
-1946.1.1 = {
-	declare_war_on = {
-		target = PDG
-		type = civil_war
-	}
-}
 
 set_technology = {
 	
@@ -413,10 +407,6 @@ create_corps_commander = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Hydra Class"
-	type = destroyer_1
-}
 
 1960.1.1 = {
 	#load_focus_tree = GRE_60s

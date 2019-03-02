@@ -4379,7 +4379,7 @@ focus_tree = {
 		y = 8
 			available = {
 					NOT = {
-							country_exists = EGI
+							country_exists = EQG
 						}
 					296 = {
 							is_controlled_by = POR
@@ -4408,12 +4408,12 @@ focus_tree = {
 				date > 1974.1.1
 					296 = {
 							
-							is_controlled_by = EGI
+							is_controlled_by = EQG
 						}
 				}
 			bypass = {
 					296 = {
-							is_controlled_by = EGI
+							is_controlled_by = EQG
 						}
 				}
 

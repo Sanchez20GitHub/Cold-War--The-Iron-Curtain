@@ -1395,14 +1395,14 @@ focus_tree = {
 		x = 5
 		y = 27
 			completion_reward = {
-				CTD = {
+				IVO = {
 					every_owned_state = {
 						add_core_of = ROOT
 					}
 				}	
 				create_wargoal = {
 						type = annex_everything
-						target = CTD
+						target = IVO
 					}
 			}
 	}

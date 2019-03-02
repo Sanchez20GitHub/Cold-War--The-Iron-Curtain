@@ -10,12 +10,12 @@ state={
 		set_state_flag = micro
 		set_state_flag = semideveloped
 		add_core_of = SAF
-		add_core_of = NAM
+		add_core_of = NMB
 		victory_points = {
 			2207 5 
 		}
 		1994.1.1 = {
-			owner = NAM
+			owner = NMB
 			remove_core_of = SAF
 
 		}

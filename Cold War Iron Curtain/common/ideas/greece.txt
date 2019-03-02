@@ -504,7 +504,7 @@ ideas = {
 				original_tag = GRE
 			}
 			
-            visible = {
+            available = {
 				has_completed_focus = GRE_ote
 			}
 			

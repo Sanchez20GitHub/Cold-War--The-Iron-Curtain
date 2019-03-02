@@ -1599,14 +1599,14 @@ focus_tree = {
 		x = 38
 		y = 7
 		completion_reward = {
-			end_puppet = EGI
-			EGI = {
+			end_puppet = EQG
+			EQG = {
 				drop_cosmetic_tag = yes
 				set_politics = {
 				ruling_party = trotskyism
 				}
 			}
-			release = SRW
+			release = WES
 			MOR = {
 				transfer_state = 290
 				transfer_state = 1003

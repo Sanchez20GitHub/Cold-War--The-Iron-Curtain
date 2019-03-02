@@ -212,23 +212,6 @@ create_corps_commander = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Capitán O`Brien Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Serrano Class"
-	type = destroyer_1
-	upgrades = {
-	}
-}
 1958.1.1 = {
 	set_politics = {
 

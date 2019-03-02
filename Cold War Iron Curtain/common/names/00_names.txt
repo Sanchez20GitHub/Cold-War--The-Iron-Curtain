@@ -2162,7 +2162,7 @@ VIN = {
 	callsigns = { }
 }
 
-KRG = {
+KYR = {
 	male = {
 		names = {  Daulet Madi Taalay Kasym Orzubek Oboi Sonin Songgotu Suksaha  }
 	}
@@ -2296,7 +2296,7 @@ KUW = {
 	callsigns = { }
 }
 
-NYA = {
+MLW = {
 	male = {
 		names = { 
 			Desmond Abel Kadungure Sekuru Robert Lobengula Joshua Dumiso Leopold Joseph Gabriel Mqabuko Nyongolo Thomas Letswansto Ndabaningi
@@ -2424,7 +2424,7 @@ ALG = {
 	callsigns = { }
 }
 
-MAU = {
+MRT = {
 	male = {
 		names = {  
             Aminata Bakar Ramatulai  Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun
@@ -2778,7 +2778,7 @@ ROC = {
 	callsigns = { }
 }
 
-MYR = {
+BRM = {
 	male = {
 		names = {  
 			Kaung Kyaw Win Zin Naing Htun Myint Linn Thuta Yarzar Wunna Thawda Nyan Pyay Phyoe Kan Ag Htun 		

@@ -2423,3 +2423,44 @@ soundeffect =
 	max_audible = 1
 	max_audible_behaviour = fail
 }
+
+soundeffect =
+{
+	name = "alert_faction_assume_leadership_possible_sound"
+	volume = 0.35
+	sounds = {
+		sound = "low_alert_01"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect =
+{
+	name = "alert_faction_member_near_assuming_leadership_sound"
+	volume = 0.35
+	sounds = {
+		sound = "low_alert_01"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect =
+{
+	name = "alert_ally_pulling_its_expeditionaries_sound"
+	volume = 0.35
+	sounds = {
+		sound = "high_alert_01"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}
+soundeffect =
+{
+	name = "alert_is_spotting_sound"
+	volume = 0.35
+	sounds = {
+		sound = "mid_alert_01"
+	}
+	max_audible = 1
+	max_audible_behaviour = fail
+}

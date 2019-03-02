@@ -1456,7 +1456,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							SLK = {
+							SRL = {
 									add_timed_idea = {
 											idea = trotskyism_drift
 											days = 900
@@ -1527,7 +1527,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							SLK = {
+							SRL = {
 									add_timed_idea = {
 											idea = internationalism
 											days = 900

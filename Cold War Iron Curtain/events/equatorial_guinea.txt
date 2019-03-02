@@ -6,7 +6,7 @@ country_event = {
 	desc = "Atanasio Ndongo Miyone, the pan-africanist poet and writer has staged a coup against President Nguema following his passing of decree 415, granting all direct powers of Government and Institutions to Nguema"
 	
 	trigger = {	
-		tag = EGI
+		tag = EQG
 	}	
 	
 	mean_time_to_happen = { days = 1 }
@@ -22,7 +22,7 @@ country_event = {
 			elections_allowed = no
 		}
 		add_popularity = { ideology = nationalism popularity = 0.4 }
-		complete_national_focus = EGI_president_atanasio_ndongo_miyone
+		complete_national_focus = EQG_president_atanasio_ndongo_miyone
 		ai_chance = {
 			factor = 0
 			modifier = {
@@ -68,7 +68,7 @@ country_event = {
 	desc = "This marks the first ever general election in the newly independent Equatorial Guinea, who will the people choose?"
 	
 	trigger = {	
-		tag = EGI
+		tag = EQG
 	}	
 	
 	mean_time_to_happen = { days = 1 }
@@ -84,7 +84,7 @@ country_event = {
 			elections_allowed = yes
 		}
 		add_popularity = { ideology = conservative popularity = 0.2 }
-		complete_national_focus = EGI_president_bonifacio_ondo_edu
+		complete_national_focus = EQG_president_bonifacio_ondo_edu
 		ai_chance = {
 			factor = 0
 			modifier = {
@@ -110,7 +110,7 @@ country_event = {
 		}
 		add_popularity = { ideology = fascism 
 							popularity = 0.4 }
-		complete_national_focus = EGI_president_francisco_macias_nguema
+		complete_national_focus = EQG_president_francisco_macias_nguema
 
 		ai_chance = {
 			factor = 90
@@ -139,7 +139,7 @@ country_event = {
 		}
 		add_popularity = { ideology = nationalism 
 							popularity= 0.3 }
-		complete_national_focus = EGI_president_atanasio_ndongo_miyone
+		complete_national_focus = EQG_president_atanasio_ndongo_miyone
 
 		ai_chance = {
 			factor = 0

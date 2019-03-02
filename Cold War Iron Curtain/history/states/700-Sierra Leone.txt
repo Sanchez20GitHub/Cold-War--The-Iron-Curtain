@@ -12,9 +12,9 @@ state={
 		set_state_flag = river
 		set_state_flag = nominal
 		set_state_flag = verypoor
-		add_core_of = SLE
+		add_core_of = SIE
 		1961.1.1 = {
-		    owner = SLE
+		    owner = SIE
 		}
 		victory_points = {
 			2038 5 

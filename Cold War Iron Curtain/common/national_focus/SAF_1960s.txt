@@ -1442,7 +1442,7 @@ focus_tree = {
 		x = 36
 		y = 8
 			completion_reward = {
-					NYA = {
+					MLW = {
 							add_opinion_modifier = {
 									target = SAF
 									modifier = large_increase
@@ -1450,7 +1450,7 @@ focus_tree = {
 						}
 					SAF = {
 							add_opinion_modifier = {
-									target = NYA
+									target = MLW
 									modifier = large_increase
 								}
 						}
@@ -2555,10 +2555,10 @@ focus_tree = {
 		y = 16
 		completion_reward = {
 			set_autonomy = {
-				target = NAM
+				target = NMB
 				autonomy_state = autonomy_dominion
 			}			
-			NAM = {
+			NMB = {
 				drop_cosmetic_tag = yes
 			}
 		}

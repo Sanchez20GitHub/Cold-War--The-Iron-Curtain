@@ -167,7 +167,7 @@ set_technology = {
     cv_CAS1 = 1
 	cv_CAS2 = 1
 	cv_CAS3 = 1
-	cv_CAS4 = 1	
+	#cv_CAS4 = 1	
 	cv_jet_CAS1 = 1
 	
 ##Air##
@@ -805,7 +805,7 @@ complete_national_focus = USA_EISENHOWER56_The_Eisenhower_Administration_1956
 		cv_CAS1 = 1
 		cv_CAS2 = 1
 		cv_CAS3 = 1
-		cv_CAS4 = 1
+		#cv_CAS4 = 1
 		cv_early_fighter = 1
 		cv_fighter1 = 1
 		cv_fighter2 = 1
@@ -1559,109 +1559,4 @@ create_navy_leader = {
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Essex Class"
-	type = carrier_1
-	upgrades = {
-		ship_deckspace_upgrade = 0
-		carrier_armor_upgrade = 0
-		ship_engine_upgrade = 0
-		ship_reliability_upgrade = 0
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "Midway Class"
-	type = carrier_1
-	upgrades = {
-		ship_deckspace_upgrade = 1
-		carrier_armor_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_reliability_upgrade = 1
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "Independence Class"
-	type = light_carrier_1
-	upgrades = {
-		ship_deckspace_upgrade = 1
-		carrier_armor_upgrade = 0
-		ship_engine_upgrade = 0
-		ship_reliability_upgrade = 0
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "Avenger Class"
-	type = light_carrier_1
-	upgrades = {
-		ship_deckspace_upgrade = 0
-		carrier_armor_upgrade = 0
-		ship_engine_upgrade = 0
-		ship_reliability_upgrade = 0
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "South Dakota Class"
-	type = battleship_1
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_armor_upgrade = 2
-		ship_gun_upgrade = 0
-	}
-	obsolete = yes
-}	
-		
-create_equipment_variant = {
-	name = "Worcester Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 0
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 0
-		ship_anti_air_upgrade = 0
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "Tench Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 0
-		sub_engine_upgrade = 0
-		sub_stealth_upgrade = 0
-		sub_torpedo_upgrade = 0
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
-	name = "Balao Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 0
-		sub_engine_upgrade = 0
-		sub_stealth_upgrade = 0
-		sub_torpedo_upgrade = 0
-	}
-	obsolete = yes
-}
-	
-create_equipment_variant = {
-	name = "Tacoma Class"
-	type = frigate_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-	obsolete = yes
-}
+

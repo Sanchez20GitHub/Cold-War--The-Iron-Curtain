@@ -172,7 +172,7 @@ country_event = {
 	
 	option = {
 		name = decolonization.9.a
-		release = PAP
+		release = PNG
 	}
 }
 
@@ -304,7 +304,7 @@ country_event = {
 	
 	option = {
 		name = decolonization.12.a
-		release = GUY
+		release = GYA
 	}
 }
 
@@ -353,7 +353,7 @@ country_event = {
 			factor = 100
 		}
 		set_global_flag = western_sahara_decolonized
-		release = SRW
+		release = WES
 	}
 	
 	option = {
@@ -362,10 +362,10 @@ country_event = {
 			factor = 0
 		}
 	    trigger = { 
-			country_exists = MAU
+			country_exists = MRT
 		}
 		add_political_power = -50
-		MAU = { transfer_state = 1001 }
+		MRT = { transfer_state = 1001 }
 	}
 	
 	option = {
@@ -466,7 +466,7 @@ country_event = {
 	
 	option = {
 		name = decolonization.19.a
-		release = BHM
+		release = BAH
 	}
 }
 
@@ -571,8 +571,8 @@ country_event = {
 	
 	option = {
 		name = decolonization.23.a
-	    set_autonomy = { target = NYA autonomy_state = autonomy_free }
-		NYA	= {
+	    set_autonomy = { target = MLW autonomy_state = autonomy_free }
+		MLW	= {
 		    drop_cosmetic_tag = yes
 	        create_country_leader = {
 	            name = "Hastings Banda"

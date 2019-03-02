@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = MYR
+		owner = BRM
 		set_state_flag = tropical
 		set_state_flag = riverlarge
 		set_state_flag = nominal
 		set_state_flag = undeveloped
-		add_core_of = MYR
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
