@@ -34,9 +34,9 @@ country_event = {
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = GUI
+			        is_core_of = GNA
 		        }
-		        GUI = { transfer_state = PREV }
+		        GNA = { transfer_state = PREV }
 	        }
 			every_owned_state = {
 		        limit = {

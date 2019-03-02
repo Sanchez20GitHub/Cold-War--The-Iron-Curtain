@@ -3751,7 +3751,7 @@ focus_tree = {
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = GUI
+							target = GNA
 							autonomy_state = autonomy_free
 						}
 					LBA = {

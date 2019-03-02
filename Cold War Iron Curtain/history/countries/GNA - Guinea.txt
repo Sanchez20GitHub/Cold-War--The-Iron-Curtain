@@ -1,6 +1,6 @@
 ﻿capital = 774
 
-oob = "GUI_1949"
+oob = "GNA_1949"
 
 # Starting tech
 set_technology = {

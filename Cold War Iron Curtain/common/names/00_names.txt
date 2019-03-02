@@ -2441,7 +2441,7 @@ MRT = {
 	callsigns = { }
 }
 
-GUI = {
+GNA = {
 	male = {
 		names = {  
             Aminata Bakar Ramatulai  Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun

@@ -1126,7 +1126,7 @@ NIA = {
 	color_ui = rgb { 0 140 80 }
 }
 
-GUI = {
+GNA = {
 	color = rgb { 0 148 96 }
 	color_ui = rgb { 50 140 160 } 
 }
