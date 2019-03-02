@@ -176,14 +176,14 @@ colonial_affairs = {
 		icon = GFX_mandates
 
 		available  = {
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}
 		
 		visible = {
 			original_tag = BEL
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}
@@ -195,7 +195,7 @@ colonial_affairs = {
 		complete_effect = {
 		    add_political_power = 50
 			release = RWA
-			release = BUR
+			release = BRD
 		}
 
 		ai_will_do = {

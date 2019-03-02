@@ -5501,7 +5501,7 @@ ic_pulse = {
 			original_tag = BEL
 			date > 1962.06.30
 			date < 1963.03.01
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}

@@ -242,7 +242,7 @@ ideas = {
 		trade_treaty_ERI = { targeted_modifier = { tag = ERI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_GAM = { targeted_modifier = { tag = GAM trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_RWA = { targeted_modifier = { tag = RWA trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_BUR = { targeted_modifier = { tag = BUR trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_BRD = { targeted_modifier = { tag = BRD trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_HWI = { targeted_modifier = { tag = HWI trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_FIJ = { targeted_modifier = { tag = FIJ trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_PNG = { targeted_modifier = { tag = PNG trade_cost_for_target_factor = -0.5 } }

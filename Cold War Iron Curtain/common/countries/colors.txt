@@ -856,7 +856,7 @@ MAC = {
 	color_ui = rgb { 255 80 0 }
 }
 
-BUR = {
+BRD = {
     color = rgb { 220 180 0 }
     color_ui = rgb { 220 180 0 }
 }

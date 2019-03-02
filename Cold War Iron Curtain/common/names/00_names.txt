@@ -2836,7 +2836,7 @@ KUR = {
 	callsigns = { }
 }
 
-BUR = {
+BRD = {
 	male = {
 		names = { 
 			Aboubakar Aime Alexis Aloys Alphonse Arthemon Augustin Beni Bilgho Charles Cyprien Dani David Dieudonne Domitien Dramane Egide Ernest Evariste Faustin Francois Frédéric Gabriel Gael Gaston Gerard Germain Gilbert 

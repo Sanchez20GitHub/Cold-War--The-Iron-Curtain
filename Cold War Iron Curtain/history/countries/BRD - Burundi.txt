@@ -1,6 +1,6 @@
 ﻿capital = 825
 
-oob = "BUR_1949"
+oob = "BRD_1949"
 
 set_technology = {
 

@@ -398,7 +398,7 @@ scripted_gui = {
 							tag = KEN
 							tag = SML
 							tag = RWA
-							tag = BUR
+							tag = BRD
 							tag = DJI
 					}
 					ROOT = {
@@ -417,7 +417,7 @@ scripted_gui = {
 							tag = KEN
 							tag = SML
 							tag = RWA
-							tag = BUR
+							tag = BRD
 							tag = DJI
 						}
 					}

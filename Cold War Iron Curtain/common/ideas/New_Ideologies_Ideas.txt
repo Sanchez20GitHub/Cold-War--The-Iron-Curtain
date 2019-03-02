@@ -5467,7 +5467,7 @@ ideas = {
 
 			cancel = {
 				ROOT = {
-					has_war_with = BUR
+					has_war_with = BRD
 				}
 			}
 
