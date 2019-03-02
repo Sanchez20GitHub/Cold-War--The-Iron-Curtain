@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = ROC
+		owner = RCG
 		set_state_flag = desertlush
 		set_state_flag = lakes
 		set_state_flag = large
@@ -32,10 +32,10 @@ state={
 
 		}
 		add_core_of = CHA
-		add_core_of = ROC
+		add_core_of = RCG
 		1958.1.1 = {
 			owner = CHA
-			remove_core_of = ROC
+			remove_core_of = RCG
 
 		}
 
