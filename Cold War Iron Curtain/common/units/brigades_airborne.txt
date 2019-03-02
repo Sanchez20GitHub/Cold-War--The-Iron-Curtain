@@ -21,7 +21,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
-			category_airborne
+			
 		}
 		
 		manpower = 1000
@@ -112,7 +112,7 @@ sub_units = {
 			category_army
 			category_mounted
 			category_helicopters
-			category_airborne
+			
 		}
 
 		manpower = 1300
@@ -188,7 +188,7 @@ sub_units = {
 			category_front_line
 			category_all_armor
 			category_army
-			category_airborne
+			
 		}
 
 		manpower = 500
@@ -261,7 +261,7 @@ sub_units = {
 			category_front_line
 			category_artillery_antiair
 			category_towed
-			category_airborne
+			
 		}		
 		
 		manpower = 500
@@ -331,7 +331,7 @@ sub_units = {
 			category_artillery_indirect
 			category_towed
 			category_front_line
-			category_airborne
+			
 		}
 
 		manpower = 500
@@ -412,7 +412,7 @@ sub_units = {
 			category_line_artillery
 			category_artillery_antitank
 			category_towed
-			category_airborne
+			
 		}		
 		
 		manpower = 500
@@ -492,7 +492,7 @@ sub_units = {
 			category_artillery_antitank
 			category_rockets
 			category_towed
-			category_airborne
+			
 		}		
 		
 		manpower = 500
@@ -573,7 +573,7 @@ sub_units = {
 			category_self_propelled
 			category_front_line
 			category_all_armor
-			category_airborne
+			
 		}		
 
 		manpower = 500
@@ -646,7 +646,7 @@ sub_units = {
 			category_rockets
 			category_self_propelled
 			category_all_armor
-			category_airborne
+			
 		}
 
 		manpower = 500
@@ -721,7 +721,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_special_forces
-			category_airborne
+			
 		}
 		
 		manpower = 1000
@@ -768,7 +768,7 @@ sub_units = {
 			category_army
 			category_special_forces
 			category_mounted
-			category_airborne
+			
 		}
 
 		manpower = 1200
