@@ -8,7 +8,6 @@ strategic_region={
 	naval_terrain=water_deep_ocean
 	weather={
 		period={
-			arctic_water=0.000
 			between={ 0.0 30.0 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -22,7 +21,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.1 27.1 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -36,7 +34,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.2 30.2 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -50,7 +47,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.3 29.3 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -64,7 +60,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.4 30.4 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -78,7 +73,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.5 29.5 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -92,7 +86,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.6 30.6 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -106,7 +99,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.7 30.7 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -120,7 +112,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.8 29.8 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -134,7 +125,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.9 30.9 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -148,7 +138,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.10 29.10 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
@@ -162,7 +151,6 @@ strategic_region={
 			min_snow_level=0.000
 		}
 		period={
-			arctic_water=0.000
 			between={ 0.11 30.11 }
 			temperature={ -20.0 0.0 }
 			temperature_day_night={ -2.0 2.0 }
