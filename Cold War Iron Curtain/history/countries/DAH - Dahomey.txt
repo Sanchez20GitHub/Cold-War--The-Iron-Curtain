@@ -1,6 +1,6 @@
 ﻿capital = 760
 
-oob = "BEN_1949"
+oob = "DAH_1949"
 
 # Starting tech
 set_technology = {
@@ -74,7 +74,7 @@ add_ideas = {
 
 set_convoys = 0
 
-set_cosmetic_tag = BEN_DAH
+set_cosmetic_tag = DAH_DAH
 
 set_politics = {
 

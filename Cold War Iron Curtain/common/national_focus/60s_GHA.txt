@@ -1416,14 +1416,14 @@ focus_tree = {
 		x = 9
 		y = 27
 			completion_reward = {
-				BEN = {
+				DAH = {
 					every_owned_state = {
 						add_core_of = ROOT
 					}
 				}	
 				create_wargoal = {
 						type = annex_everything
-						target = BEN
+						target = DAH
 					}
 				TOG = {
 					every_owned_state = {

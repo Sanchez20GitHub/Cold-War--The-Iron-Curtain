@@ -1,15 +1,15 @@
 focus_tree = {
-	id = 70s_BEN
+	id = 70s_DAH
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = BEN
+			tag = DAH
 		}
 	}
 	default = no
 	focus = {
-		id = BEN_70s_President_Kerekou
+		id = DAH_70s_President_Kerekou
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 4
@@ -19,7 +19,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_President_Bob_Denard
+		id = DAH_70s_President_Bob_Denard
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 14
@@ -29,7 +29,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_President_Zinsou
+		id = DAH_70s_President_Zinsou
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 24
@@ -39,11 +39,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Dissolve_the_National_Assembly
+		id = DAH_70s_Dissolve_the_National_Assembly
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Kerekou
+			focus = DAH_70s_President_Kerekou
 		}
 		x = 2
 		y = 1
@@ -52,11 +52,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Northern_Bias
+		id = DAH_70s_Northern_Bias
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_National_Assembly
+			focus = DAH_70s_Dissolve_the_National_Assembly
 		}
 		x = 0
 		y = 2
@@ -66,11 +66,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Dissolve_the_Presidential_Council
+		id = DAH_70s_Dissolve_the_Presidential_Council
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Kerekou
+			focus = DAH_70s_President_Kerekou
 		}
 		x = 6
 		y = 1
@@ -80,14 +80,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Announce_the_New_Politics_of_National_Independence
+		id = DAH_70s_Announce_the_New_Politics_of_National_Independence
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_National_Assembly
+			focus = DAH_70s_Dissolve_the_National_Assembly
 		}
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_Presidential_Council
+			focus = DAH_70s_Dissolve_the_Presidential_Council
 		}
 		x = 3
 		y = 2
@@ -96,14 +96,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_End_of_Neutrality
+		id = DAH_70s_End_of_Neutrality
 		icon = GFX_HeavyStrike
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Announce_the_New_Politics_of_National_Independence
+			focus = DAH_70s_Announce_the_New_Politics_of_National_Independence
 		}
 		prerequisite = {
-			focus = BEN_70s_Northern_Bias
+			focus = DAH_70s_Northern_Bias
 		}
 		x = 2
 		y = 3
@@ -112,14 +112,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Arrest_the_Former_Presidents
+		id = DAH_70s_Arrest_the_Former_Presidents
 		icon = GFX_CrushResistance
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_Presidential_Council
+			focus = DAH_70s_Dissolve_the_Presidential_Council
 		}
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_National_Assembly
+			focus = DAH_70s_Dissolve_the_National_Assembly
 		}
 		x = 5
 		y = 2
@@ -128,11 +128,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Administrative_Reform
+		id = DAH_70s_Administrative_Reform
 		icon = GFX_Paper
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Dissolve_the_Presidential_Council
+			focus = DAH_70s_Dissolve_the_Presidential_Council
 		}
 		x = 8
 		y = 2
@@ -141,17 +141,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Replace_Traditional_Figures_with_Government_Officials
+		id = DAH_70s_Replace_Traditional_Figures_with_Government_Officials
 		icon = GFX_focus_atheism
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Administrative_Reform
+			focus = DAH_70s_Administrative_Reform
 		}
 		prerequisite = {
-			focus = BEN_70s_Announce_the_New_Politics_of_National_Independence
+			focus = DAH_70s_Announce_the_New_Politics_of_National_Independence
 		}
 		prerequisite = {
-			focus = BEN_70s_Arrest_the_Former_Presidents
+			focus = DAH_70s_Arrest_the_Former_Presidents
 		}
 		x = 6
 		y = 3
@@ -161,14 +161,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_The_Abomey_Speech
+		id = DAH_70s_The_Abomey_Speech
 		icon = GFX_red_world
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Replace_Traditional_Figures_with_Government_Officials
+			focus = DAH_70s_Replace_Traditional_Figures_with_Government_Officials
 		}
 		prerequisite = {
-			focus = BEN_70s_End_of_Neutrality
+			focus = DAH_70s_End_of_Neutrality
 		}
 		x = 4
 		y = 4
@@ -189,11 +189,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Legitimization_of_the_Regime
+		id = DAH_70s_Legitimization_of_the_Regime
 		icon = GFX_focus_red_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_The_Abomey_Speech
+			focus = DAH_70s_The_Abomey_Speech
 		}
 		x = 6
 		y = 5
@@ -203,11 +203,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Nationalize_Resources
+		id = DAH_70s_Nationalize_Resources
 		icon = GFX_StateControl
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Legitimization_of_the_Regime
+			focus = DAH_70s_Legitimization_of_the_Regime
 		}
 		x = 7
 		y = 6
@@ -216,11 +216,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Socialism_not_Tribalism
+		id = DAH_70s_Socialism_not_Tribalism
 		icon = GFX_focus_socialist_realism
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Nationalize_Resources
+			focus = DAH_70s_Nationalize_Resources
 		}
 		x = 8
 		y = 7
@@ -229,16 +229,16 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = BEN_70s_Ties_With_France
+		id = DAH_70s_Ties_With_France
 		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Bob_Denard
+			focus = DAH_70s_President_Bob_Denard
 		}
 		x = 12
 		y = 1
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = large_increase
@@ -246,18 +246,18 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_Open_up_to_Capitalism
+		id = DAH_70s_Open_up_to_Capitalism
 		icon = GFX_PileofMoney
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Bob_Denard
+			focus = DAH_70s_President_Bob_Denard
 		}
 		x = 16
 		y = 1
@@ -266,14 +266,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Privitize_the_Army
+		id = DAH_70s_Privitize_the_Army
 		icon = GFX_Money
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Open_up_to_Capitalism
+			focus = DAH_70s_Open_up_to_Capitalism
 		}
 		prerequisite = {
-			focus = BEN_70s_Ties_With_France
+			focus = DAH_70s_Ties_With_France
 		}
 		x = 14
 		y = 2
@@ -282,16 +282,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Recognize_Rhodesia
+		id = DAH_70s_Recognize_Rhodesia
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Privitize_the_Army
+			focus = DAH_70s_Privitize_the_Army
 		}
 		x = 10
 		y = 3
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = ZIM
 					modifier = large_increase
@@ -299,18 +299,18 @@ focus_tree = {
 			}
 			ZIM = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_American_Covert_Aid
+		id = DAH_70s_American_Covert_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Recognize_Rhodesia
+			focus = DAH_70s_Recognize_Rhodesia
 		}
 		x = 11
 		y = 4
@@ -319,11 +319,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Francafrique
+		id = DAH_70s_Francafrique
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Privitize_the_Army
+			focus = DAH_70s_Privitize_the_Army
 		}
 		x = 13
 		y = 3
@@ -332,11 +332,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Encourage_Mercenary_Immigration
+		id = DAH_70s_Encourage_Mercenary_Immigration
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Privitize_the_Army
+			focus = DAH_70s_Privitize_the_Army
 		}
 		x = 15
 		y = 3
@@ -348,14 +348,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Covert_French_Support
+		id = DAH_70s_Covert_French_Support
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Encourage_Mercenary_Immigration
+			focus = DAH_70s_Encourage_Mercenary_Immigration
 		}
 		prerequisite = {
-			focus = BEN_70s_Francafrique
+			focus = DAH_70s_Francafrique
 		}
 		x = 14
 		y = 4
@@ -364,11 +364,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Build_a_Palace
+		id = DAH_70s_Build_a_Palace
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Covert_French_Support
+			focus = DAH_70s_Covert_French_Support
 		}
 		x = 14
 		y = 5
@@ -380,14 +380,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Develop_Infrastructure
+		id = DAH_70s_Develop_Infrastructure
 		icon = GFX_FocusBuildRoads
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Build_a_Palace
+			focus = DAH_70s_Build_a_Palace
 		}
 		prerequisite = {
-			focus = BEN_70s_American_Covert_Aid
+			focus = DAH_70s_American_Covert_Aid
 		}
 		x = 13
 		y = 6
@@ -402,16 +402,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Ally_with_South_Africa
+		id = DAH_70s_Ally_with_South_Africa
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Privitize_the_Army
+			focus = DAH_70s_Privitize_the_Army
 		}
 		x = 18
 		y = 3
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = SAF
 					modifier = large_increase
@@ -419,18 +419,18 @@ focus_tree = {
 			}
 			SAF = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_Ban_Communism
+		id = DAH_70s_Ban_Communism
 		icon = GFX_TheRussianBearCurtailed
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Ally_with_South_Africa
+			focus = DAH_70s_Ally_with_South_Africa
 		}
 		x = 17
 		y = 4
@@ -439,14 +439,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Military_Expansionism
+		id = DAH_70s_Military_Expansionism
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Build_a_Palace
+			focus = DAH_70s_Build_a_Palace
 		}
 		prerequisite = {
-			focus = BEN_70s_Ban_Communism
+			focus = DAH_70s_Ban_Communism
 		}
 		x = 15
 		y = 6
@@ -455,14 +455,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Mercenary_Paradise
+		id = DAH_70s_Mercenary_Paradise
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Military_Expansionism
+			focus = DAH_70s_Military_Expansionism
 		}
 		prerequisite = {
-			focus = BEN_70s_Develop_Infrastructure
+			focus = DAH_70s_Develop_Infrastructure
 		}
 		x = 14
 		y = 7
@@ -503,11 +503,11 @@ focus_tree = {
 		}		
 	}
 	focus = {
-		id = BEN_70s_Restore_Political_Freedoms
+		id = DAH_70s_Restore_Political_Freedoms
 		icon = GFX_TorchofLiberty
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Zinsou
+			focus = DAH_70s_President_Zinsou
 		}
 		x = 22
 		y = 1
@@ -516,11 +516,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Release_Political_Prisoners
+		id = DAH_70s_Release_Political_Prisoners
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_President_Zinsou
+			focus = DAH_70s_President_Zinsou
 		}
 		x = 26
 		y = 1
@@ -532,14 +532,14 @@ focus_tree = {
 		
 	}
 	focus = {
-		id = BEN_70s_Economic_Reforms
+		id = DAH_70s_Economic_Reforms
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Release_Political_Prisoners
+			focus = DAH_70s_Release_Political_Prisoners
 		}
 		prerequisite = {
-			focus = BEN_70s_Restore_Political_Freedoms
+			focus = DAH_70s_Restore_Political_Freedoms
 		}
 		x = 24
 		y = 2
@@ -548,19 +548,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Ties_With_Morrocco
+		id = DAH_70s_Ties_With_Morrocco
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Restore_Political_Freedoms
+			focus = DAH_70s_Restore_Political_Freedoms
 		}
 		prerequisite = {
-			focus = BEN_70s_Economic_Reforms
+			focus = DAH_70s_Economic_Reforms
 		}
 		x = 20
 		y = 3
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = MOR
 					modifier = large_increase
@@ -568,18 +568,18 @@ focus_tree = {
 			}
 			MOR = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_Return_to_Francafrique
+		id = DAH_70s_Return_to_Francafrique
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Ties_With_Morrocco
+			focus = DAH_70s_Ties_With_Morrocco
 		}
 		x = 21
 		y = 4
@@ -588,11 +588,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Privitization
+		id = DAH_70s_Privitization
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Economic_Reforms
+			focus = DAH_70s_Economic_Reforms
 		}
 		x = 23
 		y = 3	
@@ -601,11 +601,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_French_Aid
+		id = DAH_70s_French_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Economic_Reforms
+			focus = DAH_70s_Economic_Reforms
 		}
 		x = 25
 		y = 3
@@ -614,14 +614,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Western_Investment
+		id = DAH_70s_Western_Investment
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_French_Aid
+			focus = DAH_70s_French_Aid
 		}
 		prerequisite = {
-			focus = BEN_70s_Privitization
+			focus = DAH_70s_Privitization
 		}
 		x = 24
 		y = 4
@@ -630,14 +630,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Accept_IMF_Proposals
+		id = DAH_70s_Accept_IMF_Proposals
 		icon = GFX_SAU_foreign_loans
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Economic_Reforms
+			focus = DAH_70s_Economic_Reforms
 		}
 		prerequisite = {
-			focus = BEN_70s_Release_Political_Prisoners
+			focus = DAH_70s_Release_Political_Prisoners
 		}
 		x = 28
 		y = 3
@@ -646,11 +646,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Demilitarization
+		id = DAH_70s_Demilitarization
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Accept_IMF_Proposals
+			focus = DAH_70s_Accept_IMF_Proposals
 		}
 		x = 27
 		y = 4
@@ -662,17 +662,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_National_Rehabilitation
+		id = DAH_70s_National_Rehabilitation
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Western_Investment
+			focus = DAH_70s_Western_Investment
 		}
 		prerequisite = {
-			focus = BEN_70s_Demilitarization
+			focus = DAH_70s_Demilitarization
 		}
 		prerequisite = {
-			focus = BEN_70s_Return_to_Francafrique
+			focus = DAH_70s_Return_to_Francafrique
 		}
 		x = 24
 		y = 5
@@ -681,11 +681,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Economic_Prosperity
+		id = DAH_70s_Economic_Prosperity
 		icon = GFX_Money
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_National_Rehabilitation
+			focus = DAH_70s_National_Rehabilitation
 		}
 		x = 25
 		y = 6
@@ -697,14 +697,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Change_Name_To_Benin
+		id = DAH_70s_Change_Name_To_Benin
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Socialism_not_Tribalism
+			focus = DAH_70s_Socialism_not_Tribalism
 		}
 		prerequisite = {
-			focus = BEN_70s_Death_Squads
+			focus = DAH_70s_Death_Squads
 		}
 		x = 6
 		y = 8
@@ -714,14 +714,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Political_Purges
+		id = DAH_70s_Political_Purges
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Peoples_Revolutionary_Party_of_Benin
+			focus = DAH_70s_Peoples_Revolutionary_Party_of_Benin
 		}
 		prerequisite = {
-			focus = BEN_70s_Legitimization_of_the_Regime
+			focus = DAH_70s_Legitimization_of_the_Regime
 		}
 		x = 4
 		y = 6
@@ -733,14 +733,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Death_Squads
+		id = DAH_70s_Death_Squads
 		icon = GFX_DeathTracks
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Political_Purges
+			focus = DAH_70s_Political_Purges
 		}
 		prerequisite = {
-			focus = BEN_70s_Nationalize_Resources
+			focus = DAH_70s_Nationalize_Resources
 		}
 		x = 5
 		y = 7
@@ -749,14 +749,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Indefinite_Detention
+		id = DAH_70s_Indefinite_Detention
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Nationalize_Banking
+			focus = DAH_70s_Nationalize_Banking
 		}
 		prerequisite = {
-			focus = BEN_70s_Political_Purges
+			focus = DAH_70s_Political_Purges
 		}
 		x = 3
 		y = 7
@@ -765,11 +765,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Peoples_Revolutionary_Party_of_Benin
+		id = DAH_70s_Peoples_Revolutionary_Party_of_Benin
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_The_Abomey_Speech
+			focus = DAH_70s_The_Abomey_Speech
 		}
 		x = 2
 		y = 5
@@ -778,14 +778,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Land_Reform
+		id = DAH_70s_Land_Reform
 		icon = GFX_PurgeKulaks
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Relations_with_the_DPRK
+			focus = DAH_70s_Relations_with_the_DPRK
 		}
 		prerequisite = {
-			focus = BEN_70s_Promote_Urbanization
+			focus = DAH_70s_Promote_Urbanization
 		}
 		x = 5
 		y = 11
@@ -794,11 +794,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Nationalize_Banking
+		id = DAH_70s_Nationalize_Banking
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Peoples_Revolutionary_Party_of_Benin
+			focus = DAH_70s_Peoples_Revolutionary_Party_of_Benin
 		}
 		x = 1
 		y = 6
@@ -808,11 +808,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = BEN_70s_The_Vanguard_Party
+		id = DAH_70s_The_Vanguard_Party
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Nationalize_Banking
+			focus = DAH_70s_Nationalize_Banking
 		}
 		x = 0
 		y = 7
@@ -821,19 +821,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Align_with_the_Soviet_Union
+		id = DAH_70s_Align_with_the_Soviet_Union
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Indefinite_Detention
+			focus = DAH_70s_Indefinite_Detention
 		}
 		prerequisite = {
-			focus = BEN_70s_The_Vanguard_Party
+			focus = DAH_70s_The_Vanguard_Party
 		}
 		x = 2
 		y = 8
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = SOV
 					modifier = large_increase
@@ -841,21 +841,21 @@ focus_tree = {
 			}
 			SOV = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_Crackdown_on_Vodun
+		id = DAH_70s_Crackdown_on_Vodun
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Death_Squads
+			focus = DAH_70s_Death_Squads
 		}
 		prerequisite = {
-			focus = BEN_70s_Indefinite_Detention
+			focus = DAH_70s_Indefinite_Detention
 		}
 		x = 4
 		y = 8
@@ -864,14 +864,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Industrialization_Initiative
+		id = DAH_70s_Industrialization_Initiative
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Change_Name_To_Benin
+			focus = DAH_70s_Change_Name_To_Benin
 		}
 		prerequisite = {
-			focus = BEN_70s_Crackdown_on_Vodun
+			focus = DAH_70s_Crackdown_on_Vodun
 		}
 		x = 5
 		y = 9
@@ -885,14 +885,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Cuban_Advisors
+		id = DAH_70s_Cuban_Advisors
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Crackdown_on_Vodun
+			focus = DAH_70s_Crackdown_on_Vodun
 		}
 		prerequisite = {
-			focus = BEN_70s_Align_with_the_Soviet_Union
+			focus = DAH_70s_Align_with_the_Soviet_Union
 		}
 		x = 3
 		y = 9
@@ -901,11 +901,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_East_German_Economic_Aid
+		id = DAH_70s_East_German_Economic_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Cuban_Advisors
+			focus = DAH_70s_Cuban_Advisors
 		}
 		x = 1
 		y = 10
@@ -914,16 +914,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Relations_with_the_DPRK
+		id = DAH_70s_Relations_with_the_DPRK
 		icon = GFX_goal_KPA_Proclamation
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Industrialization_Initiative
+			focus = DAH_70s_Industrialization_Initiative
 		}
 		x = 7
 		y = 10
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = KPA
 					modifier = large_increase
@@ -931,21 +931,21 @@ focus_tree = {
 			}
 			KPA = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_70s_Promote_Urbanization
+		id = DAH_70s_Promote_Urbanization
 		icon = GFX_focus_Urban_Development
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Industrialization_Initiative
+			focus = DAH_70s_Industrialization_Initiative
 		}
 		prerequisite = {
-			focus = BEN_70s_Cuban_Advisors
+			focus = DAH_70s_Cuban_Advisors
 		}
 		x = 4
 		y = 10
@@ -954,14 +954,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Import_New_Industrial_Techs
+		id = DAH_70s_Import_New_Industrial_Techs
 		icon = GFX_focus_generic_industry_1
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Promote_Urbanization
+			focus = DAH_70s_Promote_Urbanization
 		}
 		prerequisite = {
-			focus = BEN_70s_East_German_Economic_Aid
+			focus = DAH_70s_East_German_Economic_Aid
 		}
 		x = 3
 		y = 11
@@ -973,14 +973,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Socialism_as_a_Unifying_Force
+		id = DAH_70s_Socialism_as_a_Unifying_Force
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Land_Reform
+			focus = DAH_70s_Land_Reform
 		}
 		prerequisite = {
-			focus = BEN_70s_Import_New_Industrial_Techs
+			focus = DAH_70s_Import_New_Industrial_Techs
 		}
 		x = 4
 		y = 12
@@ -989,24 +989,24 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Operation_Shrimp
+		id = DAH_70s_Operation_Shrimp
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Socialism_as_a_Unifying_Force
+			focus = DAH_70s_Socialism_as_a_Unifying_Force
 		}
 		x = 4
 		y = 13
 		completion_reward = {
-			country_event = BEN.100
+			country_event = DAH.100
 		}
 	}
 	focus = {
-		id = BEN_70s_Failure_of_the_Coup
+		id = DAH_70s_Failure_of_the_Coup
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Operation_Shrimp
+			focus = DAH_70s_Operation_Shrimp
 		}
 		x = 2
 		y = 14
@@ -1015,11 +1015,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Coup_Success
+		id = DAH_70s_Coup_Success
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Operation_Shrimp
+			focus = DAH_70s_Operation_Shrimp
 		}
 		x = 6
 		y = 14
@@ -1028,14 +1028,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Bring_Back_Zinsou
+		id = DAH_70s_Bring_Back_Zinsou
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Coup_Success
+			focus = DAH_70s_Coup_Success
 		}
 		mutually_exclusive = {
-			focus = BEN_70s_Bob_Denard
+			focus = DAH_70s_Bob_Denard
 		}
 		x = 7
 		y = 15
@@ -1043,7 +1043,7 @@ focus_tree = {
 			always = no
 		}
 		completion_reward = {
-			complete_national_focus = BEN_70s_President_Zinsou
+			complete_national_focus = DAH_70s_President_Zinsou
 			set_politics = {
 				ruling_party = Social_Liberalism
 				elections_allowed = no
@@ -1055,19 +1055,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Bob_Denard
+		id = DAH_70s_Bob_Denard
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Coup_Success
+			focus = DAH_70s_Coup_Success
 		}
 		mutually_exclusive = {
-			focus = BEN_70s_Bring_Back_Zinsou
+			focus = DAH_70s_Bring_Back_Zinsou
 		}
 		x = 10
 		y = 15
 		completion_reward = {
-			complete_national_focus = BEN_70s_President_Bob_Denard
+			complete_national_focus = DAH_70s_President_Bob_Denard
 			set_politics = {
 				ruling_party = neutrality
 				elections_allowed = no
@@ -1084,11 +1084,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Further_Crackdowns
+		id = DAH_70s_Further_Crackdowns
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Failure_of_the_Coup
+			focus = DAH_70s_Failure_of_the_Coup
 		}
 		x = 4
 		y = 15
@@ -1098,11 +1098,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = BEN_70s_Rural_Development
+		id = DAH_70s_Rural_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Further_Crackdowns
+			focus = DAH_70s_Further_Crackdowns
 		}
 		x = 2
 		y = 16
@@ -1143,11 +1143,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = BEN_70s_Education_Initiative
+		id = DAH_70s_Education_Initiative
 		icon = GFX_CommunistScientists
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Further_Crackdowns
+			focus = DAH_70s_Further_Crackdowns
 		}
 		x = 6
 		y = 16
@@ -1156,14 +1156,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Establish_the_National_Revolutionary_Assembly
+		id = DAH_70s_Establish_the_National_Revolutionary_Assembly
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Education_Initiative
+			focus = DAH_70s_Education_Initiative
 		}
 		prerequisite = {
-			focus = BEN_70s_Rural_Development
+			focus = DAH_70s_Rural_Development
 		}
 		x = 4
 		y = 17
@@ -1176,7 +1176,7 @@ focus_tree = {
 		icon = GFX_focus_anti_tribal_politics
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Establish_the_National_Revolutionary_Assembly
+			focus = DAH_70s_Establish_the_National_Revolutionary_Assembly
 		}
 		x = 3
 		y = 18
@@ -1238,7 +1238,7 @@ focus_tree = {
 		icon = GFX_RootoutFunding
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Establish_the_National_Revolutionary_Assembly
+			focus = DAH_70s_Establish_the_National_Revolutionary_Assembly
 		}
 		x = 5
 		y = 18
@@ -1247,14 +1247,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Soviet_Aid
+		id = DAH_70s_Soviet_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Rural_Development
+			focus = DAH_70s_Rural_Development
 		}
 		prerequisite = {
-			focus = BEN_70s_Establish_the_National_Revolutionary_Assembly
+			focus = DAH_70s_Establish_the_National_Revolutionary_Assembly
 		}
 		x = 1
 		y = 18
@@ -1271,17 +1271,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Organize_Assembly_Elections
+		id = DAH_70s_Organize_Assembly_Elections
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
 			focus = BAN_70s_Industrial_Campaign
 		}
 		prerequisite = {
-			focus = BEN_70s_Cuban_Aid
+			focus = DAH_70s_Cuban_Aid
 		}
 		prerequisite = {
-			focus = BEN_70s_Soviet_Aid
+			focus = DAH_70s_Soviet_Aid
 		}
 		x = 4
 		y = 20
@@ -1291,14 +1291,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Cuban_Aid
+		id = DAH_70s_Cuban_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Education_Initiative
+			focus = DAH_70s_Education_Initiative
 		}
 		prerequisite = {
-			focus = BEN_70s_Establish_the_National_Revolutionary_Assembly
+			focus = DAH_70s_Establish_the_National_Revolutionary_Assembly
 		}
 		x = 7
 		y = 18
@@ -1307,11 +1307,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Begin_to_Moderate_Policies
+		id = DAH_70s_Begin_to_Moderate_Policies
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Organize_Assembly_Elections
+			focus = DAH_70s_Organize_Assembly_Elections
 		}
 		x = 4
 		y = 21
@@ -1322,11 +1322,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Free_Press
+		id = DAH_70s_Free_Press
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_National_Rehabilitation
+			focus = DAH_70s_National_Rehabilitation
 		}
 		x = 23
 		y = 6
@@ -1335,14 +1335,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_70s_Stability_Restored
+		id = DAH_70s_Stability_Restored
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_70s_Economic_Prosperity
+			focus = DAH_70s_Economic_Prosperity
 		}
 		prerequisite = {
-			focus = BEN_70s_Free_Press
+			focus = DAH_70s_Free_Press
 		}
 		x = 24
 		y = 7

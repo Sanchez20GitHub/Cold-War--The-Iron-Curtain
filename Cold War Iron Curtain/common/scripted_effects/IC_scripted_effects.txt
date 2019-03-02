@@ -757,11 +757,11 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
-				tag = BEN
+				tag = DAH
 				date > 1960.12.01
 				date < 1961.01.01
 			}
-		country_event = BEN.1
+		country_event = DAH.1
 	 }	
 	if = {
 		limit = {

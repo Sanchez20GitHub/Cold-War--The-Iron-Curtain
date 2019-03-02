@@ -1,15 +1,15 @@
 focus_tree = {
-	id = 60s_BEN
+	id = 60s_DAH
 	country = {
 		factor = 100
 		modifier = {
 			add = 10
-			tag = BEN
+			tag = DAH
 		}
 	}
 	default = no
 	focus = {
-		id = BEN_Premiership_of_Hubert_Maga
+		id = DAH_Premiership_of_Hubert_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 3
@@ -19,7 +19,7 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Election_of_1960
+		id = DAH_Election_of_1960
 		icon = GFX_focus_generic_election
 		cost = 10.00
 		x = 13
@@ -29,11 +29,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Forced_Labor
+		id = DAH_Forced_Labor
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Four_Year_Plan
+			focus = DAH_The_Four_Year_Plan
 		}
 		x = 10
 		y = 5
@@ -42,11 +42,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Economic_Crisis
+		id = DAH_Economic_Crisis
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Premiership_of_Hubert_Maga
+			focus = DAH_Premiership_of_Hubert_Maga
 		}
 		x = 1
 		y = 1
@@ -55,11 +55,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Condemn_Tribal_Conflicts
+		id = DAH_Condemn_Tribal_Conflicts
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Premiership_of_Hubert_Maga
+			focus = DAH_Premiership_of_Hubert_Maga
 		}
 		x = 5
 		y = 1
@@ -69,14 +69,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Cabinet_Shuffle
+		id = DAH_Cabinet_Shuffle
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Condemn_Tribal_Conflicts
+			focus = DAH_Condemn_Tribal_Conflicts
 		}
 		prerequisite = {
-			focus = BEN_Economic_Crisis
+			focus = DAH_Economic_Crisis
 		}
 		x = 3
 		y = 2
@@ -85,16 +85,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Negotiations_with_France
+		id = DAH_Negotiations_with_France
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Cabinet_Shuffle
+			focus = DAH_Cabinet_Shuffle
 		}
 		x = 2
 		y = 3
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = small_increase
@@ -102,18 +102,18 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = small_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_Encourage_Econmic_Investment
+		id = DAH_Encourage_Econmic_Investment
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Cabinet_Shuffle
+			focus = DAH_Cabinet_Shuffle
 		}
 		x = 4
 		y = 3
@@ -122,32 +122,32 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Independence_of_Benin
+		id = DAH_Independence_of_Benin
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Negotiations_with_France
+			focus = DAH_Negotiations_with_France
 		}
 		prerequisite = {
-			focus = BEN_Encourage_Econmic_Investment
+			focus = DAH_Encourage_Econmic_Investment
 		}
 		x = 3
 		y = 4
 		completion_reward = {
 			drop_cosmetic_tag = yes
-			set_cosmetic_tag = BEN_DAH
+			set_cosmetic_tag = DAH_DAH
 			set_autonomy = {
-				target = BEN
+				target = DAH
 				autonomy_state = autonomy_free
 			}		
 		}
 	}
 	focus = {
-		id = BEN_President_Maga
+		id = DAH_President_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Independence_of_Benin
+			focus = DAH_Independence_of_Benin
 		}
 		x = 3
 		y = 5
@@ -156,11 +156,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Formation_of_Front_d_Action_Patriotique
+		id = DAH_Formation_of_Front_d_Action_Patriotique
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_President_Maga
+			focus = DAH_President_Maga
 		}
 		x = 1
 		y = 6
@@ -172,11 +172,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_WIthdrawal_of_the_UDD 
+		id = DAH_WIthdrawal_of_the_UDD 
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Formation_of_Front_d_Action_Patriotique
+			focus = DAH_Formation_of_Front_d_Action_Patriotique
 		}
 		x = 2
 		y = 7
@@ -188,11 +188,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Economic_Recession
+		id = DAH_Economic_Recession
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_President_Maga
+			focus = DAH_President_Maga
 		}
 		x = 5
 		y = 6
@@ -204,11 +204,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Escalating_Strikes
+		id = DAH_Escalating_Strikes
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Economic_Recession
+			focus = DAH_Economic_Recession
 		}
 		x = 4
 		y = 7
@@ -217,14 +217,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Widesprad_Rioting
+		id = DAH_Widesprad_Rioting
 		icon = GFX_brinkofcollapse
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Escalating_Strikes
+			focus = DAH_Escalating_Strikes
 		}
 		prerequisite = {
-			focus = BEN_WIthdrawal_of_the_UDD 
+			focus = DAH_WIthdrawal_of_the_UDD 
 		}
 		x = 3
 		y = 8
@@ -236,11 +236,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Restore_Order
+		id = DAH_Restore_Order
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Widesprad_Rioting
+			focus = DAH_Widesprad_Rioting
 		}
 		x = 4
 		y = 9
@@ -249,14 +249,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Hubert_Maga
+		id = DAH_Hubert_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Election_of_1960
+			focus = DAH_Election_of_1960
 		}
 		mutually_exclusive = {
-			focus = BEN_Justin_Ahomadegbe_Tometin
+			focus = DAH_Justin_Ahomadegbe_Tometin
 		}
 		x = 10
 		y = 1
@@ -265,11 +265,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Press_Censorship
+		id = DAH_Press_Censorship
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Hubert_Maga
+			focus = DAH_Hubert_Maga
 		}
 		x = 8
 		y = 2
@@ -278,11 +278,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Repress_the_UDD
+		id = DAH_Repress_the_UDD
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Hubert_Maga
+			focus = DAH_Hubert_Maga
 		}
 		x = 12
 		y = 2
@@ -296,14 +296,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Arrest_Tometin
+		id = DAH_Arrest_Tometin
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Repress_the_UDD
+			focus = DAH_Repress_the_UDD
 		}
 		prerequisite = {
-			focus = BEN_Press_Censorship
+			focus = DAH_Press_Censorship
 		}
 		x = 10
 		y = 3
@@ -312,11 +312,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_Four_Year_Plan
+		id = DAH_The_Four_Year_Plan
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Arrest_Tometin
+			focus = DAH_Arrest_Tometin
 		}
 		x = 10
 		y = 4
@@ -328,11 +328,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_French_Investors
+		id = DAH_French_Investors
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Four_Year_Plan
+			focus = DAH_The_Four_Year_Plan
 		}
 		x = 8
 		y = 5
@@ -341,11 +341,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Agricultural_Investments
+		id = DAH_Agricultural_Investments
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Four_Year_Plan
+			focus = DAH_The_Four_Year_Plan
 		}
 		x = 12
 		y = 5
@@ -358,17 +358,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Commission_a_Palace
+		id = DAH_Commission_a_Palace
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Agricultural_Investments
+			focus = DAH_Agricultural_Investments
 		}
 		prerequisite = {
-			focus = BEN_Forced_Labor
+			focus = DAH_Forced_Labor
 		}
 		prerequisite = {
-			focus = BEN_French_Investors
+			focus = DAH_French_Investors
 		}
 		x = 10
 		y = 6
@@ -385,11 +385,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = BEN_Austerity
+		id = DAH_Austerity
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Commission_a_Palace
+			focus = DAH_Commission_a_Palace
 		}
 		x = 9
 		y = 7
@@ -398,11 +398,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Ethnic_Tensions
+		id = DAH_Ethnic_Tensions
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Commission_a_Palace
+			focus = DAH_Commission_a_Palace
 		}
 		x = 11
 		y = 7
@@ -412,14 +412,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_Bokhiri_Affair
+		id = DAH_The_Bokhiri_Affair
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Ethnic_Tensions
+			focus = DAH_Ethnic_Tensions
 		}
 		prerequisite = {
-			focus = BEN_Austerity
+			focus = DAH_Austerity
 		}
 		x = 10
 		y = 8
@@ -429,14 +429,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Justin_Ahomadegbe_Tometin
+		id = DAH_Justin_Ahomadegbe_Tometin
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Election_of_1960
+			focus = DAH_Election_of_1960
 		}
 		mutually_exclusive = {
-			focus = BEN_Hubert_Maga
+			focus = DAH_Hubert_Maga
 		}
 		x = 16
 		y = 1
@@ -445,11 +445,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Support_The_Unions
+		id = DAH_Support_The_Unions
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Justin_Ahomadegbe_Tometin
+			focus = DAH_Justin_Ahomadegbe_Tometin
 		}
 		x = 14
 		y = 2
@@ -458,11 +458,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Raise_The_Wages
+		id = DAH_Raise_The_Wages
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Justin_Ahomadegbe_Tometin
+			focus = DAH_Justin_Ahomadegbe_Tometin
 		}
 		x = 18
 		y = 2
@@ -471,14 +471,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Arrest_Maga
+		id = DAH_Arrest_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Raise_The_Wages
+			focus = DAH_Raise_The_Wages
 		}
 		prerequisite = {
-			focus = BEN_Support_The_Unions
+			focus = DAH_Support_The_Unions
 		}
 		x = 16
 		y = 3
@@ -487,11 +487,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Economic_Reforms
+		id = DAH_Economic_Reforms
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Arrest_Maga
+			focus = DAH_Arrest_Maga
 		}
 		x = 16
 		y = 4
@@ -507,11 +507,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Repress_The_Northerners
+		id = DAH_Repress_The_Northerners
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Economic_Reforms
+			focus = DAH_Economic_Reforms
 		}
 		x = 14
 		y = 5
@@ -520,11 +520,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Invest_in_the_South
+		id = DAH_Invest_in_the_South
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Economic_Reforms
+			focus = DAH_Economic_Reforms
 		}
 		x = 16
 		y = 5
@@ -545,11 +545,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Begin_Industrial_Reforms
+		id = DAH_Begin_Industrial_Reforms
 		icon = GFX_goal_unknown
 		cost = 10.006
 		prerequisite = {
-			focus = BEN_Economic_Reforms
+			focus = DAH_Economic_Reforms
 		}
 		x = 18
 		y = 5
@@ -563,22 +563,22 @@ focus_tree = {
 			}
 	}
 	focus = {
-		id = BEN_Improve_Relations_with_Mali_and_Niger
+		id = DAH_Improve_Relations_with_Mali_and_Niger
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Begin_Industrial_Reforms
+			focus = DAH_Begin_Industrial_Reforms
 		}
 		prerequisite = {
-			focus = BEN_Invest_in_the_South
+			focus = DAH_Invest_in_the_South
 		}
 		prerequisite = {
-			focus = BEN_Repress_The_Northerners
+			focus = DAH_Repress_The_Northerners
 		}
 		x = 16
 		y = 6
 		completion_reward = {
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = NIG
 					modifier = small_increase
@@ -586,11 +586,11 @@ focus_tree = {
 			}
 			NIG = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = small_increase
 				}
 			}
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = MLI
 					modifier = small_increase
@@ -598,18 +598,18 @@ focus_tree = {
 			}
 			MLI = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = small_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_Inflation_Crisis
+		id = DAH_Inflation_Crisis
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Improve_Relations_with_Mali_and_Niger
+			focus = DAH_Improve_Relations_with_Mali_and_Niger
 		}
 		x = 15
 		y = 7
@@ -625,7 +625,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Improve_Relations_with_Mali_and_Niger
+			focus = DAH_Improve_Relations_with_Mali_and_Niger
 		}
 		x = 17
 		y = 7
@@ -646,11 +646,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Northern_Seccessionist_Movement
+		id = DAH_Northern_Seccessionist_Movement
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Inflation_Crisis
+			focus = DAH_Inflation_Crisis
 		}
 		prerequisite = {
 			focus = Develop_Southern_Benin
@@ -662,13 +662,13 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Tentative_Power_Sharing_Agreement
+		id = DAH_Tentative_Power_Sharing_Agreement
 		icon = GFX_status
 		cost = 10.00
 		available = {
 			OR = { 
-				has_completed_focus = BEN_The_Bokhiri_Affair
-				has_completed_focus = BEN_Northern_Seccessionist_Movement
+				has_completed_focus = DAH_The_Bokhiri_Affair
+				has_completed_focus = DAH_Northern_Seccessionist_Movement
 			}
 		}
 		x = 13
@@ -678,11 +678,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Call_for_a_One_Party_State
+		id = DAH_Call_for_a_One_Party_State
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Widesprad_Rioting
+			focus = DAH_Widesprad_Rioting
 		}
 		x = 2
 		y = 9
@@ -691,11 +691,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Soglo_Military_Coup
+		id = DAH_Soglo_Military_Coup
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Tentative_Power_Sharing_Agreement
+			focus = DAH_Tentative_Power_Sharing_Agreement
 		}
 		x = 13
 		y = 10
@@ -716,11 +716,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Dissolve_The_PDU
+		id = DAH_Dissolve_The_PDU
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup
+			focus = DAH_Soglo_Military_Coup
 		}
 		x = 11
 		y = 11
@@ -737,11 +737,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Dissolve_the_National_Assembly
+		id = DAH_Dissolve_the_National_Assembly
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup
+			focus = DAH_Soglo_Military_Coup
 		}
 		x = 15
 		y = 11	
@@ -751,11 +751,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Corrpution_Trials
+		id = DAH_Corrpution_Trials
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Northern_Backlash
+			focus = DAH_Northern_Backlash
 		}
 		x = 11
 		y = 13
@@ -764,11 +764,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Exile_Maga
+		id = DAH_Exile_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Northern_Backlash
+			focus = DAH_Northern_Backlash
 		}
 		x = 15
 		y = 13
@@ -782,17 +782,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Northern_Backlash
+		id = DAH_Northern_Backlash
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Dissolve_the_National_Assembly
+			focus = DAH_Dissolve_the_National_Assembly
 		}
 		prerequisite = {
-			focus = BEN_Dissolve_The_PDU
+			focus = DAH_Dissolve_The_PDU
 		}
 		prerequisite = {
-			focus = BEN_Return_to_Order
+			focus = DAH_Return_to_Order
 		}
 		x = 13
 		y = 12
@@ -802,17 +802,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Appoint_Apithy_President
+		id = DAH_Appoint_Apithy_President
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Formation_of_Union_Nationale_Dahomeenne
+			focus = DAH_Formation_of_Union_Nationale_Dahomeenne
 		}
 		prerequisite = {
-			focus = BEN_Constitutiional_Reform
+			focus = DAH_Constitutiional_Reform
 		}
 		prerequisite = {
-			focus = BEN_Southern_Development
+			focus = DAH_Southern_Development
 		}
 		x = 13
 		y = 15
@@ -833,14 +833,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Constitutiional_Reform
+		id = DAH_Constitutiional_Reform
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Exile_Maga
+			focus = DAH_Exile_Maga
 		}
 		prerequisite = {
-			focus = BEN_Corrpution_Trials
+			focus = DAH_Corrpution_Trials
 		}
 		x = 13
 		y = 14
@@ -849,11 +849,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Formation_of_Union_Nationale_Dahomeenne
+		id = DAH_Formation_of_Union_Nationale_Dahomeenne
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Exile_Maga
+			focus = DAH_Exile_Maga
 		}
 		x = 17
 		y = 14
@@ -865,11 +865,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Return_to_Order
+		id = DAH_Return_to_Order
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup
+			focus = DAH_Soglo_Military_Coup
 		}
 		x = 13
 		y = 11
@@ -879,11 +879,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Southern_Development
+		id = DAH_Southern_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Corrpution_Trials
+			focus = DAH_Corrpution_Trials
 		}
 		x = 9
 		y = 14
@@ -899,11 +899,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Prepare_for_New_Elections
+		id = DAH_Prepare_for_New_Elections
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_Apithy_President
+			focus = DAH_Appoint_Apithy_President
 		}
 		x = 12
 		y = 16
@@ -912,11 +912,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = BEN_Rappoachment_With_Maga
+		id = DAH_Rappoachment_With_Maga
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_Apithy_President
+			focus = DAH_Appoint_Apithy_President
 		}
 		x = 14
 		y = 16
@@ -929,14 +929,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Soglo_Military_Coup_Two
+		id = DAH_Soglo_Military_Coup_Two
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Rappoachment_With_Maga
+			focus = DAH_Rappoachment_With_Maga
 		}
 		prerequisite = {
-			focus = BEN_Prepare_for_New_Elections
+			focus = DAH_Prepare_for_New_Elections
 		}
 		x = 13
 		y = 17
@@ -957,11 +957,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Ban_All_Political_Parties
+		id = DAH_Ban_All_Political_Parties
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup_Two
+			focus = DAH_Soglo_Military_Coup_Two
 		}
 		x = 13
 		y = 18
@@ -973,11 +973,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Dahomeyan_Charles_de_Gaulle
+		id = DAH_Dahomeyan_Charles_de_Gaulle
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup_Two
+			focus = DAH_Soglo_Military_Coup_Two
 		}
 		x = 11
 		y = 18
@@ -987,11 +987,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Establish_the_Military_as_a_Political_Force
+		id = DAH_Establish_the_Military_as_a_Political_Force
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Soglo_Military_Coup_Two
+			focus = DAH_Soglo_Military_Coup_Two
 		}
 		x = 15
 		y = 18
@@ -1004,14 +1004,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Regional_Military_Factions
+		id = DAH_Regional_Military_Factions
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Ban_All_Political_Parties
+			focus = DAH_Ban_All_Political_Parties
 		}
 		prerequisite = {
-			focus = BEN_Dahomeyan_Charles_de_Gaulle
+			focus = DAH_Dahomeyan_Charles_de_Gaulle
 		}
 		x = 12
 		y = 19
@@ -1022,14 +1022,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Abomey_Clique
+		id = DAH_Abomey_Clique
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Establish_the_Military_as_a_Political_Force
+			focus = DAH_Establish_the_Military_as_a_Political_Force
 		}
 		prerequisite = {
-			focus = BEN_Ban_All_Political_Parties
+			focus = DAH_Ban_All_Political_Parties
 		}
 		x = 14
 		y = 19
@@ -1041,14 +1041,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Kouandete_Coup
+		id = DAH_Kouandete_Coup
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Abomey_Clique
+			focus = DAH_Abomey_Clique
 		}
 		prerequisite = {
-			focus = BEN_Regional_Military_Factions
+			focus = DAH_Regional_Military_Factions
 		}
 		x = 13
 		y = 20
@@ -1061,11 +1061,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Kerekou_Coups
+		id = DAH_Kerekou_Coups
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Prepare_to_Execute_Kouandete
+			focus = DAH_Prepare_to_Execute_Kouandete
 		}
 		x = 9
 		y = 43
@@ -1078,12 +1078,12 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Appoint_Alphonse_Alley
+		id = DAH_Appoint_Alphonse_Alley
 		icon = GFX_goal_unknown
 		cost = 10.00
 		
 		available = {
-			has_completed_focus = BEN_Kouandete_Coup
+			has_completed_focus = DAH_Kouandete_Coup
 		}
 		x = 13
 		y = 21
@@ -1104,11 +1104,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Another_Constitution
+		id = DAH_Another_Constitution
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_Alphonse_Alley
+			focus = DAH_Appoint_Alphonse_Alley
 		}
 		x = 11
 		y = 22
@@ -1117,47 +1117,47 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = BEN_Organize_New_Elections
+		id = DAH_Organize_New_Elections
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_Alphonse_Alley
+			focus = DAH_Appoint_Alphonse_Alley
 		}
 		x = 15
 		y = 22
 
 	}
 	focus = {
-		id = BEN_Ban_Former_Leaders_Participation
+		id = DAH_Ban_Former_Leaders_Participation
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Organize_New_Elections
+			focus = DAH_Organize_New_Elections
 		}
 		prerequisite = {
-			focus = BEN_Another_Constitution
+			focus = DAH_Another_Constitution
 		}
 		x = 13
 		y = 23
 
 	}
 	focus = {
-		id = BEN_Electoral_Boycotts
+		id = DAH_Electoral_Boycotts
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Ban_Former_Leaders_Participation
+			focus = DAH_Ban_Former_Leaders_Participation
 		}
 		x = 12
 		y = 24
 
 	}
 	focus = {
-		id = BEN_Declining_Popularity
+		id = DAH_Declining_Popularity
 		icon = GFX_focus_internal_dissent
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Ban_Former_Leaders_Participation
+			focus = DAH_Ban_Former_Leaders_Participation
 		}
 		x = 14
 		y = 24
@@ -1170,14 +1170,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Appoint_emile_Derlin_Zinsou
+		id = DAH_Appoint_emile_Derlin_Zinsou
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Declining_Popularity
+			focus = DAH_Declining_Popularity
 		}
 		prerequisite = {
-			focus = BEN_Electoral_Boycotts
+			focus = DAH_Electoral_Boycotts
 		}
 		x = 13
 		y = 25
@@ -1193,11 +1193,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Indepence_From_the_Military
+		id = DAH_Indepence_From_the_Military
 		icon = GFX_Freedom
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_emile_Derlin_Zinsou
+			focus = DAH_Appoint_emile_Derlin_Zinsou
 		}
 		x = 13
 		y = 26
@@ -1208,11 +1208,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Tax_Reform
+		id = DAH_Tax_Reform
 		icon = GFX_PileofMoney
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_emile_Derlin_Zinsou
+			focus = DAH_Appoint_emile_Derlin_Zinsou
 		}
 		x = 11
 		y = 26
@@ -1224,11 +1224,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Anti_Strike_Legislation
+		id = DAH_Anti_Strike_Legislation
 		icon = GFX_Anti_Communist
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Appoint_emile_Derlin_Zinsou
+			focus = DAH_Appoint_emile_Derlin_Zinsou
 		}
 		x = 15
 		y = 26
@@ -1239,14 +1239,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Crack_Down_on_Smugglers
+		id = DAH_Crack_Down_on_Smugglers
 		icon = GFX_purge
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Indepence_From_the_Military
+			focus = DAH_Indepence_From_the_Military
 		}
 		prerequisite = {
-			focus = BEN_Tax_Reform
+			focus = DAH_Tax_Reform
 		}
 		x = 12
 		y = 27
@@ -1256,14 +1256,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Military_Discontent
+		id = DAH_Military_Discontent
 		icon = GFX_fist
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Anti_Strike_Legislation
+			focus = DAH_Anti_Strike_Legislation
 		}
 		prerequisite = {
-			focus = BEN_Indepence_From_the_Military
+			focus = DAH_Indepence_From_the_Military
 		}
 		x = 14
 		y = 27
@@ -1273,14 +1273,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Kouandete_Coup_Two
+		id = DAH_Kouandete_Coup_Two
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Military_Discontent
+			focus = DAH_Military_Discontent
 		}
 		prerequisite = {
-			focus = BEN_Crack_Down_on_Smugglers
+			focus = DAH_Crack_Down_on_Smugglers
 		}
 		x = 13
 		y = 28
@@ -1301,11 +1301,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_1970_Election_Campaign
+		id = DAH_1970_Election_Campaign
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Allow_All_Canidates
+			focus = DAH_Allow_All_Canidates
 		}
 		x = 13
 		y = 32
@@ -1314,11 +1314,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_Miltiary_Directorate
+		id = DAH_The_Miltiary_Directorate
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kouandete_Coup_Two
+			focus = DAH_Kouandete_Coup_Two
 		}
 		x = 13
 		y = 29
@@ -1328,11 +1328,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Organize_Elections_Attempt_Two
+		id = DAH_Organize_Elections_Attempt_Two
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Miltiary_Directorate
+			focus = DAH_The_Miltiary_Directorate
 		}
 		x = 11
 		y = 30
@@ -1342,11 +1342,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Chairman_Paul_Emile_de_Souza
+		id = DAH_Chairman_Paul_Emile_de_Souza
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Miltiary_Directorate
+			focus = DAH_The_Miltiary_Directorate
 		}
 		x = 15
 		y = 30
@@ -1367,14 +1367,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Allow_All_Canidates
+		id = DAH_Allow_All_Canidates
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Chairman_Paul_Emile_de_Souza
+			focus = DAH_Chairman_Paul_Emile_de_Souza
 		}
 		prerequisite = {
-			focus = BEN_Organize_Elections_Attempt_Two
+			focus = DAH_Organize_Elections_Attempt_Two
 		}
 		x = 13
 		y = 31
@@ -1391,11 +1391,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Campaign_Violence
+		id = DAH_Campaign_Violence
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_1970_Election_Campaign
+			focus = DAH_1970_Election_Campaign
 		}
 		x = 11
 		y = 33
@@ -1407,11 +1407,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Allegations_of_Fraud
+		id = DAH_Allegations_of_Fraud
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_1970_Election_Campaign
+			focus = DAH_1970_Election_Campaign
 		}
 		x = 15
 		y = 33
@@ -1423,14 +1423,14 @@ focus_tree = {
 
 
 	focus = {
-		id = BEN_Anulled_Results
+		id = DAH_Anulled_Results
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Campaign_Violence
+			focus = DAH_Campaign_Violence
 		}
 		prerequisite = {
-			focus = BEN_Allegations_of_Fraud
+			focus = DAH_Allegations_of_Fraud
 		}
 		x = 13
 		y = 34
@@ -1440,11 +1440,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_Presidential_Council
+		id = DAH_The_Presidential_Council
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Anulled_Results
+			focus = DAH_Anulled_Results
 		}
 		x = 13
 		y = 35
@@ -1453,11 +1453,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Strong_Central_Government
+		id = DAH_Strong_Central_Government
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Presidential_Council
+			focus = DAH_The_Presidential_Council
 		}
 		x = 13
 		y = 36
@@ -1466,11 +1466,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Economic_Recovery
+		id = DAH_Economic_Recovery
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Presidential_Council
+			focus = DAH_The_Presidential_Council
 		}
 		x = 9
 		y = 36
@@ -1491,14 +1491,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Entice_the_Unions
+		id = DAH_Entice_the_Unions
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Crackdown_on_Tax_Evasion
+			focus = DAH_Crackdown_on_Tax_Evasion
 		}
 		prerequisite = {
-			focus = BEN_Strong_Central_Government
+			focus = DAH_Strong_Central_Government
 		}
 		x = 15
 		y = 37
@@ -1529,14 +1529,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Budget_Surplus
+		id = DAH_Budget_Surplus
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Strong_Central_Government
+			focus = DAH_Strong_Central_Government
 		}
 		prerequisite = {
-			focus = BEN_Economic_Recovery
+			focus = DAH_Economic_Recovery
 		}
 		x = 11
 		y = 37
@@ -1545,11 +1545,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Crackdown_on_Tax_Evasion
+		id = DAH_Crackdown_on_Tax_Evasion
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Presidential_Council
+			focus = DAH_The_Presidential_Council
 		}
 		x = 17
 		y = 36
@@ -1558,20 +1558,20 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_Kutuklui_Affair
+		id = DAH_The_Kutuklui_Affair
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Entice_the_Unions
+			focus = DAH_Entice_the_Unions
 		}
 		prerequisite = {
-			focus = BEN_Budget_Surplus
+			focus = DAH_Budget_Surplus
 		}
 		x = 13
 		y = 38
 		completion_reward = {
 			add_stability = -0.05
-			BEN = {
+			DAH = {
 				add_opinion_modifier = {
 					target = TOG
 					modifier = small_increase
@@ -1579,18 +1579,18 @@ focus_tree = {
 			}
 			TOG = {
 				add_opinion_modifier = {
-					target = BEN
+					target = DAH
 					modifier = small_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = BEN_Dissolve_the_Radical_Youth_Groups
+		id = DAH_Dissolve_the_Radical_Youth_Groups
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Kutuklui_Affair
+			focus = DAH_The_Kutuklui_Affair
 		}
 		x = 12
 		y = 39
@@ -1600,11 +1600,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Military_Outrage
+		id = DAH_Military_Outrage
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_The_Kutuklui_Affair
+			focus = DAH_The_Kutuklui_Affair
 		}
 		x = 14
 		y = 39
@@ -1614,14 +1614,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Kouandete_Coup_3
+		id = DAH_Kouandete_Coup_3
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = BEN_Military_Outrage
+			focus = DAH_Military_Outrage
 		}
 		prerequisite = {
-			focus = BEN_Dissolve_the_Radical_Youth_Groups
+			focus = DAH_Dissolve_the_Radical_Youth_Groups
 		}
 		x = 13
 		y = 40
@@ -1630,14 +1630,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Coup_Three_Success
+		id = DAH_Coup_Three_Success
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kouandete_Coup_3
+			focus = DAH_Kouandete_Coup_3
 		}
 		mutually_exclusive = {
-			focus = BEN_Crush_the_Coup_Attempt
+			focus = DAH_Crush_the_Coup_Attempt
 		}
 		x = 17
 		y = 41
@@ -1658,14 +1658,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Crush_the_Coup_Attempt
+		id = DAH_Crush_the_Coup_Attempt
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kouandete_Coup_3
+			focus = DAH_Kouandete_Coup_3
 		}
 		mutually_exclusive = {
-			focus = BEN_Coup_Three_Success
+			focus = DAH_Coup_Three_Success
 		}
 		x = 9
 		y = 41
@@ -1675,11 +1675,11 @@ focus_tree = {
 		}	
 	}
 	focus = {
-		id = BEN_Prepare_to_Execute_Kouandete
+		id = DAH_Prepare_to_Execute_Kouandete
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Crush_the_Coup_Attempt
+			focus = DAH_Crush_the_Coup_Attempt
 		}
 		x = 9
 		y = 42
@@ -1689,14 +1689,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Assasination_of_Kouandete
+		id = DAH_Assasination_of_Kouandete
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Coup_Three_Success
+			focus = DAH_Coup_Three_Success
 		}
 		mutually_exclusive = {
-			focus = BEN_Military_Junta_Back_Again
+			focus = DAH_Military_Junta_Back_Again
 		}
 		x = 19
 		y = 42
@@ -1707,18 +1707,18 @@ focus_tree = {
 				picture = "Mathieu_Kerekou.dds"
 				ideology = military_junta
 			  }
-			complete_national_focus = BEN_Reappoint_Zinsou
+			complete_national_focus = DAH_Reappoint_Zinsou
 		}
 	}
 	focus = {
-		id = BEN_Military_Junta_Back_Again
+		id = DAH_Military_Junta_Back_Again
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Coup_Three_Success
+			focus = DAH_Coup_Three_Success
 		}
 		mutually_exclusive = {
-			focus = BEN_Assasination_of_Kouandete
+			focus = DAH_Assasination_of_Kouandete
 		}
 		x = 15
 		y = 42
@@ -1728,14 +1728,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Reappoint_Zinsou
+		id = DAH_Reappoint_Zinsou
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Consolidate_Power
+			focus = DAH_Consolidate_Power
 		}
 		prerequisite = {
-			focus = BEN_Crush_the_Northern_Cliques
+			focus = DAH_Crush_the_Northern_Cliques
 		}
 		x = 19
 		y = 44
@@ -1751,11 +1751,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Crush_the_Northern_Cliques
+		id = DAH_Crush_the_Northern_Cliques
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Assasination_of_Kouandete
+			focus = DAH_Assasination_of_Kouandete
 		}
 		x = 18
 		y = 43
@@ -1766,11 +1766,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Consolidate_Power
+		id = DAH_Consolidate_Power
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Assasination_of_Kouandete
+			focus = DAH_Assasination_of_Kouandete
 		}
 		x = 20
 		y = 43
@@ -1780,11 +1780,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Free_Kouandete
+		id = DAH_Free_Kouandete
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kerekou_Coups
+			focus = DAH_Kerekou_Coups
 		}
 		x = 8
 		y = 44
@@ -1795,11 +1795,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Execute_the_Presidential_Council
+		id = DAH_Execute_the_Presidential_Council
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Military_Junta_Back_Again
+			focus = DAH_Military_Junta_Back_Again
 		}
 		x = 14
 		y = 43
@@ -1808,11 +1808,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Kill_de_Souza
+		id = DAH_Kill_de_Souza
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Military_Junta_Back_Again
+			focus = DAH_Military_Junta_Back_Again
 		}
 		x = 16
 		y = 43
@@ -1822,14 +1822,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Nigerian_Intervention
+		id = DAH_Nigerian_Intervention
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kill_de_Souza
+			focus = DAH_Kill_de_Souza
 		}
 		prerequisite = {
-			focus = BEN_Execute_the_Presidential_Council
+			focus = DAH_Execute_the_Presidential_Council
 		}
 		x = 15
 		y = 44
@@ -1840,30 +1840,30 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_The_End_of_Dahomey
+		id = DAH_The_End_of_Dahomey
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Nigerian_Intervention
+			focus = DAH_Nigerian_Intervention
 		}
 		x = 15
 		y = 45
 		completion_reward = {
 			NIG = {
 				annex_country = {
-					target = BEN
+					target = DAH
 					transfer_troops = yes
 				}			
 			}
-			BEN = { change_tag_from = NIG }
+			DAH = { change_tag_from = NIG }
 		}
 	}
 	focus = {
-		id = BEN_Secure_Foriegn_Investment
+		id = DAH_Secure_Foriegn_Investment
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Reappoint_Zinsou
+			focus = DAH_Reappoint_Zinsou
 		}
 		x = 19
 		y = 45
@@ -1872,11 +1872,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Support_Pan_Africanism
+		id = DAH_Support_Pan_Africanism
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Kerekou_Coups
+			focus = DAH_Kerekou_Coups
 		}
 		x = 10
 		y = 44
@@ -1885,14 +1885,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Condemn_Foriegn_Ideologies
+		id = DAH_Condemn_Foriegn_Ideologies
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Support_Pan_Africanism
+			focus = DAH_Support_Pan_Africanism
 		}
 		prerequisite = {
-			focus = BEN_Free_Kouandete
+			focus = DAH_Free_Kouandete
 		}
 		x = 9
 		y = 45
@@ -1901,14 +1901,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = BEN_Attempt_to_Reduce_Regionalism
+		id = DAH_Attempt_to_Reduce_Regionalism
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = BEN_Restore_Order
+			focus = DAH_Restore_Order
 		}
 		prerequisite = {
-			focus = BEN_Call_for_a_One_Party_State
+			focus = DAH_Call_for_a_One_Party_State
 		}
 		x = 3
 		y = 10
