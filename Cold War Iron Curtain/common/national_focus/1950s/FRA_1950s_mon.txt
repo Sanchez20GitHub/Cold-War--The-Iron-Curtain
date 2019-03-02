@@ -3490,7 +3490,7 @@ focus_tree = {
 							transfer_state = 815
 							transfer_state = 539
 						}
-					ROC = {
+					RCG = {
 							transfer_state = 769
 							transfer_state = 819
 						}

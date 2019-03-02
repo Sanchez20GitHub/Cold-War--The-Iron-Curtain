@@ -12,7 +12,7 @@ FCB = {
 	color = rgb { 255 254 244 }
 	color_ui = rgb { 255 255 255 }
 }
-ROC = {
+RCG = {
 	color = rgb { 220 36 31 }
 	color_ui = rgb { 60 110 110 }
 }

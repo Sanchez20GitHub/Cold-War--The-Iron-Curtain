@@ -1,6 +1,6 @@
 ﻿capital = 769
 
-oob = "ROC_1949"
+oob = "RCG_1949"
 
 # Starting tech
 set_technology = {
@@ -69,7 +69,7 @@ add_ideas = {
 
 set_convoys = 7
 
-set_cosmetic_tag = ROC_FRA
+set_cosmetic_tag = RCG_FRA
 
 set_politics = {
 

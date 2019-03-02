@@ -283,7 +283,7 @@ oceania_trigger = {
 
 
 central_africa_trigger = {
-	tag = ROC
+	tag = RCG
 	tag = CAR
 	tag = CMR
 	tag = DOC

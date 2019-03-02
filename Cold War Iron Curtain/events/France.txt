@@ -292,7 +292,7 @@ country_event = {
 					white_peace = VIN			
 				}
 				release = CAR
-            	release = ROC
+            	release = RCG
                 release = GAB			
 		}
 	}

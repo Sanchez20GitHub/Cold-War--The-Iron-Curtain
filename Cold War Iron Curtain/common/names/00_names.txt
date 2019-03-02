@@ -2755,7 +2755,7 @@ DOC = {
 	callsigns = { }
 }
 
-ROC = {
+RCG = {
 	male = {
 		names = { 
 			Adolphe Alain Alex Andre Antoine "Antoine-Roger" Awilo Balufu Barly Bismack Bodys Bozi Buata Bulambo "Camille-Pierre" Cedric Christian Corneille Cyrille Danyo Denis Diblo Dieudonne Dikembe Edouard Emmanuel Empompo Eric

@@ -1002,8 +1002,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -1792,8 +1792,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -2584,8 +2584,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -3373,8 +3373,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -4162,8 +4162,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -4951,8 +4951,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"
@@ -5740,8 +5740,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = GAB } }
      localization_key = "[GAB.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = ROC } }
-     localization_key = "[ROC.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = RCG } }
+     localization_key = "[RCG.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = DAR } }
      localization_key = "[DAR.GetNameWithFlag]"

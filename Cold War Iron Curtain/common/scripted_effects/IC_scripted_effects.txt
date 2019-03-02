@@ -934,12 +934,12 @@ ic_pulse = {
 	 if = {
 		limit = {
 		 NOT = {
-            has_completed_focus = ROC_Administrative_Reform
+            has_completed_focus = RCG_Administrative_Reform
         }
         date > 1951.01.01 # put date here
 		date < 1953.01.01 # put date here
-		tag = ROC
-		NOT = { has_country_flag = ROC_Chauvet }
+		tag = RCG
+		NOT = { has_country_flag = RCG_Chauvet }
 		}
 		country_event = equ.1
 		}
@@ -1099,7 +1099,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = FRA
-			ROC = { is_subject_of = ROOT }
+			RCG = { is_subject_of = ROOT }
 			date > 1958.10.04
 			date < 1960.01.01
 		}
@@ -5223,7 +5223,7 @@ ic_pulse = {
 				has_cosmetic_tag = MAD_FRA
 				has_cosmetic_tag = CMR_FRA
 				has_cosmetic_tag = MOR_FRA
-				has_cosmetic_tag = ROC_FRA
+				has_cosmetic_tag = RCG_FRA
 				has_cosmetic_tag = DJI_FRA
 				has_cosmetic_tag = TUN_FRA
 				has_cosmetic_tag = LOS_FRA

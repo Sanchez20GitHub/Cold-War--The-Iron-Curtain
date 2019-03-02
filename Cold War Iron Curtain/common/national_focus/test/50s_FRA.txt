@@ -1097,7 +1097,7 @@ focus_tree = {
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }
 		GAB = { transfer_state = 815 transfer_state = 539 }
-		ROC = { transfer_state = 769 transfer_state = 819 }
+		RCG = { transfer_state = 769 transfer_state = 819 }
 		CAR = { transfer_state = 515 transfer_state = 818 }
 		MAD = { transfer_state = 543 transfer_state = 828 }
 		FRA = { release = ALG }
@@ -2456,7 +2456,7 @@ focus_tree = {
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }
 		GAB = { transfer_state = 815 transfer_state = 539 }
-		ROC = { transfer_state = 769 transfer_state = 819 }
+		RCG = { transfer_state = 769 transfer_state = 819 }
 		CAR = { transfer_state = 515 transfer_state = 818 }
 		MAD = { transfer_state = 543 transfer_state = 828 }
 		}
