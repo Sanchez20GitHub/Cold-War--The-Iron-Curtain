@@ -4,7 +4,7 @@ state={
 	name="STATE_756"
 
 	history={
-		owner = TRI
+		owner = TRS
 		set_state_flag = temperate
 		set_state_flag = basic
 		set_state_flag = micro
@@ -22,7 +22,7 @@ state={
 			6626 15 
 		}
 		add_core_of = ITA
-		add_core_of = TRI
+		add_core_of = TRS
 		1954.1.1 = {
 			owner = ITA
 			set_demilitarized_zone = no

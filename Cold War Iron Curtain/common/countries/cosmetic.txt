@@ -53,7 +53,7 @@ ZAZ_ENG = {
 	color_ui = rgb { 255 73 121 }
 }
 
-TAT_ENG = {
+TRI_ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
@@ -263,7 +263,7 @@ SOV_MEN = {
 	color_ui = rgb { 163 17 31 }
 }
 
-TRI_YUG = {
+TRS_YUG = {
 	color = rgb { 127 0 0 }
 	color_ui = rgb { 163 17 31 }
 }

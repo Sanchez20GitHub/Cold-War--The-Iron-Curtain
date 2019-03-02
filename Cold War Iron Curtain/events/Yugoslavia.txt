@@ -236,7 +236,7 @@ country_event = {
 					set_cosmetic_tag = SERBIA
 					release = CRO
 					release = BOS
-					release = TRI
+					release = TRS
 					CRO = {
 							set_politics = {
 									ruling_party = fascism
@@ -249,8 +249,8 @@ country_event = {
 									ideology = neo_nazism
 								}
 						}
-						TRI = {
-								set_cosmetic_tag = TRI_YUG
+						TRS = {
+								set_cosmetic_tag = TRS_YUG
 								create_country_leader = {
 									name = "Josip Broz Tito"
 									picture = "gfx/leaders/YUG/Tito.dds"

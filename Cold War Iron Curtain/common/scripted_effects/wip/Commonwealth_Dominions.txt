@@ -1675,7 +1675,7 @@ european_trade_agreement_check = {
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = CTL } } add_ideas = CTL_trade_agreement }
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = MAC } } add_ideas = MAC_trade_agreement }
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = AND } } add_ideas = AND_trade_agreement }
-	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = TRI } } add_ideas = TRI_trade_agreement }
+	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = TRS } } add_ideas = TRS_trade_agreement }
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = SLV } } add_ideas = SLV_trade_agreement }
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = KOS } } add_ideas = KOS_trade_agreement }
 	every_country = { limit = { has_idea = dominion_member_idea ROOT = { tag = PMR } } add_ideas = PMR_trade_agreement }
@@ -1771,7 +1771,7 @@ british_dominion_trade_removal_on_leave = {
 		remove_ideas = CTL_trade_agreement
 		remove_ideas = MAC_trade_agreement
 		remove_ideas = AND_trade_agreement
-		remove_ideas = TRI_trade_agreement
+		remove_ideas = TRS_trade_agreement
 		remove_ideas = SLV_trade_agreement
 		remove_ideas = KOS_trade_agreement
 		remove_ideas = PMR_trade_agreement
@@ -1864,7 +1864,7 @@ british_dominion_trade_removal_on_leave = {
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = CTL_trade_agreement } remove_ideas = CTL_trade_agreement }
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = MAC_trade_agreement } remove_ideas = MAC_trade_agreement }
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = AND_trade_agreement } remove_ideas = AND_trade_agreement }
-	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = TRI_trade_agreement } remove_ideas = TRI_trade_agreement }
+	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = TRS_trade_agreement } remove_ideas = TRS_trade_agreement }
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = SLV_trade_agreement } remove_ideas = SLV_trade_agreement }
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = KOS_trade_agreement } remove_ideas = KOS_trade_agreement }
 	every_country = { limit = { NOT = { has_idea = dominion_member_idea } has_idea = PMR_trade_agreement } remove_ideas = PMR_trade_agreement }

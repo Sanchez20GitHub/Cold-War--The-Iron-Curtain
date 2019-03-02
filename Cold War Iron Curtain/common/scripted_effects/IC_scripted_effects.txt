@@ -3346,7 +3346,7 @@ ic_pulse = {
 			limit = {
 				date > 1954.10.01
 				NOT = { has_global_flag = tri_questions_over }
-				country_exists = TRI
+				country_exists = TRS
 			}
 			country_event = tri.1
 		}

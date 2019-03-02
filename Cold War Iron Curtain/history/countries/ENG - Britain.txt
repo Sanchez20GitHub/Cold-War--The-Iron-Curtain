@@ -198,7 +198,7 @@ light_sp_artillery_1 = 1
 
 set_convoys = 745
 
-  ENG = { diplomatic_relation = { country = TRI relation = guarantee  active = yes } }
+  ENG = { diplomatic_relation = { country = TRS relation = guarantee  active = yes } }
   ENG = { diplomatic_relation = { country = TNG relation = guarantee  active = yes } }
   ENG = { diplomatic_relation = { country = POR relation = guarantee  active = yes } }
 
@@ -421,7 +421,7 @@ if = {
 		freedom_level = 0.1
 	}
     set_autonomy = {
-		target = TAT
+		target = TRI
 		autonomous_state = autonomy_colony
 		freedom_level = 0.1
 	}
@@ -479,7 +479,7 @@ if = {
 		puppet = QAT
 		puppet = UAE
 		puppet = GHA
-		puppet = TAT
+		puppet = TRI
 		puppet = SKK
 		puppet = GND
 		puppet = SWK
@@ -637,7 +637,7 @@ set_politics = {
 
 1962.1.1 = {
     set_autonomy = { target = JAM autonomy_state = autonomy_free } 	
-    set_autonomy = { target = TAT autonomy_state = autonomy_free } 	
+    set_autonomy = { target = TRI autonomy_state = autonomy_free } 	
     set_autonomy = { target = UGA autonomy_state = autonomy_free } 	
 }
 
