@@ -1,10 +1,10 @@
 focus_tree = {
-	id = 60s_NIG
+	id = 60s_NGR
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = NIG
+			tag = NGR
 		}
 	}
 	continuous_focus_position = { x = 0 y = 3000 }
@@ -18,7 +18,7 @@ focus_tree = {
 	shared_focus = GRE_1960s_american_alignment
 
 	focus = {
-		id = NIG_Prime_Minister_Diori
+		id = NGR_Prime_Minister_Diori
 		icon = GFX_FocusElectHamaniDiori
 		cost = 10.00
 		x = 14
@@ -28,17 +28,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Strengthen_French_Relations
+		id = NGR_Strengthen_French_Relations
 		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Prime_Minister_Diori
+			focus = NGR_Prime_Minister_Diori
 		}
 		x = 11
 		y = 1
 		completion_reward = {
 			add_stability = 0.02
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = small_increase
@@ -46,18 +46,18 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = small_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = NIG_Form_the_Nigerien_National_Assembly
+		id = NGR_Form_the_Nigerien_National_Assembly
 		icon = GFX_Paper_Two
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Strengthen_French_Relations
+			focus = NGR_Strengthen_French_Relations
 		}
 		x = 12
 		y = 2
@@ -66,11 +66,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = NIG_Ban_All_Opposition_Parties
+		id = NGR_Ban_All_Opposition_Parties
 		icon = GFX_Crush_the_Rebellion
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Prime_Minister_Diori
+			focus = NGR_Prime_Minister_Diori
 		}
 		x = 17
 		y = 1
@@ -79,11 +79,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Exile_Sawaba_Leaders
+		id = NGR_Exile_Sawaba_Leaders
 		icon = GFX_Court_Justice
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Ban_All_Opposition_Parties
+			focus = NGR_Ban_All_Opposition_Parties
 		}
 		x = 16
 		y = 2
@@ -92,14 +92,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Declare_Independence
+		id = NGR_Declare_Independence
 		icon = GFX_Freedom
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Exile_Sawaba_Leaders
+			focus = NGR_Exile_Sawaba_Leaders
 		}
 		prerequisite = {
-			focus = NIG_Form_the_Nigerien_National_Assembly
+			focus = NGR_Form_the_Nigerien_National_Assembly
 		}
 		x = 14
 		y = 3
@@ -107,20 +107,20 @@ focus_tree = {
 			add_to_variable = { var = domestic_influence_amount value = 250 }
 			recalculate_influence = yes
 			set_autonomy = {
-				target = NIG
+				target = NGR
 				autonomy_state = autonomy_free
 			}		
 		}
 	}
 	focus = {
-		id = NIG_Uranium_Mining
+		id = NGR_Uranium_Mining
 		icon = GFX_uranium_fever
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Strengthen_French_Relations
+			focus = NGR_Strengthen_French_Relations
 		}
 		prerequisite = {
-			focus = NIG_Declare_Independence
+			focus = NGR_Declare_Independence
 		}
 		x = 4
 		y = 4
@@ -136,11 +136,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Expand_Uranium_Production
+		id = NGR_Expand_Uranium_Production
 		icon = GFX_focus_uranium_mining
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Uranium_Mining
+			focus = NGR_Uranium_Mining
 		}
 		x = 5
 		y = 5
@@ -156,11 +156,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_The_French_Community
+		id = NGR_The_French_Community
 		icon = GFX_France_Flag_Focus
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Declare_Independence
+			focus = NGR_Declare_Independence
 		}
 		x = 12
 		y = 4
@@ -169,11 +169,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Preserve_Tradtional_Tribal_Power_Structures
+		id = NGR_Preserve_Tradtional_Tribal_Power_Structures
 		icon = GFX_focus_tribal_politics
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_The_French_Community
+			focus = NGR_The_French_Community
 		}
 		x = 10
 		y = 5
@@ -182,25 +182,25 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_French_Trade_Deal
+		id = NGR_French_Trade_Deal
 		icon = GFX_goal_endless_money
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_The_French_Community
+			focus = NGR_The_French_Community
 		}
 		x = 13
 		y = 5
 		completion_reward = {
 			add_ideas = trade_treaty_FRA
-			FRA = { add_ideas = trade_treaty_NIG }
+			FRA = { add_ideas = trade_treaty_NGR }
 		}
 	}
 	focus = {
-		id = NIG_Appoint_Diori_President
+		id = NGR_Appoint_Diori_President
 		icon = GFX_FocusElectHamaniDiori
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Declare_Independence
+			focus = NGR_Declare_Independence
 		}
 		x = 16
 		y = 4
@@ -209,11 +209,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_A_One_Man_State
+		id = NGR_A_One_Man_State
 		icon = GFX_Paper
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Appoint_Diori_President
+			focus = NGR_Appoint_Diori_President
 		}
 		x = 15
 		y = 5
@@ -223,14 +223,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_A_One_Party_State
+		id = NGR_A_One_Party_State
 		icon = GFX_focus_renounce_the_treaty_of_triannon
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_A_One_Man_State
+			focus = NGR_A_One_Man_State
 		}
 		prerequisite = {
-			focus = NIG_French_Trade_Deal
+			focus = NGR_French_Trade_Deal
 		}
 		x = 14
 		y = 6
@@ -239,11 +239,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Respected_Diplomatic_Atribator
+		id = NGR_Respected_Diplomatic_Atribator
 		icon = GFX_african_diplomacy
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Appoint_Diori_President
+			focus = NGR_Appoint_Diori_President
 		}
 		x = 18
 		y = 5
@@ -253,14 +253,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Figurehead_Assembly
+		id = NGR_Figurehead_Assembly
 		icon = GFX_Puppet_President
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_A_One_Party_State
+			focus = NGR_A_One_Party_State
 		}
 		prerequisite = {
-			focus = NIG_Respected_Diplomatic_Atribator
+			focus = NGR_Respected_Diplomatic_Atribator
 		}
 		x = 16
 		y = 7
@@ -270,14 +270,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Sawaba_Coup_Attempt
+		id = NGR_Sawaba_Coup_Attempt
 		icon = GFX_fist
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Figurehead_Assembly
+			focus = NGR_Figurehead_Assembly
 		}
 		prerequisite = {
-			focus = NIG_Tribal_Leaders_as_a_Political_Mouthpiece
+			focus = NGR_Tribal_Leaders_as_a_Political_Mouthpiece
 		}
 		x = 14
 		y = 8
@@ -286,14 +286,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Military_Coup_Attempt
+		id = NGR_Military_Coup_Attempt
 		icon = GFX_Junta_Focus
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Endemic_Corruption
+			focus = NGR_Endemic_Corruption
 		}
 		prerequisite = {
-			focus = NIG_Ethnic_Favoritism
+			focus = NGR_Ethnic_Favoritism
 		}
 		x = 14
 		y = 12
@@ -302,11 +302,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Run_Unopposed_a_Third_Time
+		id = NGR_Run_Unopposed_a_Third_Time
 		icon = GFX_Election_Rigging
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Political_Crisis
+			focus = NGR_Political_Crisis
 		}
 		x = 14
 		y = 17
@@ -315,14 +315,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Endemic_Corruption
+		id = NGR_Endemic_Corruption
 		icon = GFX_RootoutFunding
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Increase_Political_Repression
+			focus = NGR_Increase_Political_Repression
 		}
 		prerequisite = {
-			focus = NIG_Further_Reliance_on_Tribal_Leaders
+			focus = NGR_Further_Reliance_on_Tribal_Leaders
 		}
 		x = 11
 		y = 11
@@ -332,11 +332,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_French_Funding
+		id = NGR_French_Funding
 		icon = GFX_Money
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Uranium_Mining
+			focus = NGR_Uranium_Mining
 		}
 		x = 3
 		y = 5
@@ -350,14 +350,14 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIG_Accept_French_Economic_Interests
+		id = NGR_Accept_French_Economic_Interests
 		icon = GFX_European_Relations
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Expand_Uranium_Production
+			focus = NGR_Expand_Uranium_Production
 		}
 		prerequisite = {
-			focus = NIG_French_Funding
+			focus = NGR_French_Funding
 		}
 		x = 4
 		y = 6
@@ -371,20 +371,20 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIG_Accept_French_Dominance
+		id = NGR_Accept_French_Dominance
 		icon = GFX_Financial_Domination
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Accept_French_Economic_Interests
+			focus = NGR_Accept_French_Economic_Interests
 		}
 		mutually_exclusive = {
-			focus = NIG_Reject_French_Economic_Dominance
+			focus = NGR_Reject_French_Economic_Dominance
 		}
 		x = 6
 		y = 7
 		completion_reward = {
 			add_stability = -0.02
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = large_increase
@@ -392,21 +392,21 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = NIG_French_Advisors
+		id = NGR_French_Advisors
 		icon = GFX_European_Soldiers
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Popular_Discontent
+			focus = NGR_Popular_Discontent
 		}
 		prerequisite = {
-			focus = NIG_Left_Wing_Opposition
+			focus = NGR_Left_Wing_Opposition
 		}
 		x = 6
 		y = 10
@@ -415,11 +415,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Are_we_a_Neo_Colonial_State
+		id = NGR_Are_we_a_Neo_Colonial_State
 		icon = GFX_focus_rioting
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Accept_French_Dominance
+			focus = NGR_Accept_French_Dominance
 		}
 		x = 6
 		y = 8
@@ -430,11 +430,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Popular_Discontent
+		id = NGR_Popular_Discontent
 		icon = GFX_focus_internal_dissent
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Are_we_a_Neo_Colonial_State
+			focus = NGR_Are_we_a_Neo_Colonial_State
 		}
 		x = 7
 		y = 9
@@ -443,11 +443,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Left_Wing_Opposition
+		id = NGR_Left_Wing_Opposition
 		icon = GFX_Communist_Discourse
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Are_we_a_Neo_Colonial_State
+			focus = NGR_Are_we_a_Neo_Colonial_State
 		}
 		x = 5
 		y = 9
@@ -459,11 +459,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Crush_Dissent
+		id = NGR_Crush_Dissent
 		icon = GFX_CrushResistance
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_French_Advisors
+			focus = NGR_French_Advisors
 		}
 		x = 6
 		y = 11
@@ -472,19 +472,19 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Reject_French_Economic_Dominance
+		id = NGR_Reject_French_Economic_Dominance
 		icon = GFX_focus_SAF_colonialist_crusade
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Accept_French_Economic_Interests
+			focus = NGR_Accept_French_Economic_Interests
 		}
 		mutually_exclusive = {
-			focus = NIG_Accept_French_Dominance
+			focus = NGR_Accept_French_Dominance
 		}
 		x = 2
 		y = 7
 		completion_reward = {
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = large_decrease
@@ -492,18 +492,18 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_decrease
 				}
 			}
 		}
 	}
 	focus = {
-		id = NIG_Anglo_American_Investors
+		id = NGR_Anglo_American_Investors
 		icon = GFX_goal_USA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Reject_French_Economic_Dominance
+			focus = NGR_Reject_French_Economic_Dominance
 		}
 		x = 2
 		y = 8
@@ -512,11 +512,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Embrace_Free_Trade
+		id = NGR_Embrace_Free_Trade
 		icon = GFX_CapitalistSystems
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Anglo_American_Investors
+			focus = NGR_Anglo_American_Investors
 		}
 		x = 1
 		y = 9
@@ -525,14 +525,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_British_Advisors
+		id = NGR_British_Advisors
 		icon = GFX_LittleGreenMen
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Embrace_Free_Trade
+			focus = NGR_Embrace_Free_Trade
 		}
 		prerequisite = {
-			focus = NIG_British_Investors
+			focus = NGR_British_Investors
 		}
 		x = 2
 		y = 10
@@ -541,11 +541,11 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = NIG_American_Investors
+		id = NGR_American_Investors
 		icon = GFX_FocusRequestAmericanAid
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_British_Advisors
+			focus = NGR_British_Advisors
 		}
 		x = 2
 		y = 11
@@ -554,11 +554,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_British_Investors
+		id = NGR_British_Investors
 		icon = GFX_PileofMoney
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Anglo_American_Investors
+			focus = NGR_Anglo_American_Investors
 		}
 		x = 3
 		y = 9
@@ -567,14 +567,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Tribal_Leaders_as_a_Political_Mouthpiece
+		id = NGR_Tribal_Leaders_as_a_Political_Mouthpiece
 		icon = GFX_Nationalize_the_Press
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Preserve_Tradtional_Tribal_Power_Structures
+			focus = NGR_Preserve_Tradtional_Tribal_Power_Structures
 		}
 		prerequisite = {
-			focus = NIG_A_One_Party_State
+			focus = NGR_A_One_Party_State
 		}
 		x = 12
 		y = 7
@@ -585,11 +585,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Increase_Political_Repression
+		id = NGR_Increase_Political_Repression
 		icon = GFX_reign_of_terror
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Coup_Failure
+			focus = NGR_Coup_Failure
 		}
 		x = 10
 		y = 10
@@ -598,14 +598,14 @@ focus_tree = {
 			}
 	}
 	focus = {
-		id = NIG_Coup_Failure
+		id = NGR_Coup_Failure
 		icon = GFX_Army_Purge
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Sawaba_Coup_Attempt
+			focus = NGR_Sawaba_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_Sawaba_Takeover
+			focus = NGR_Sawaba_Takeover
 		}
 		x = 13
 		y = 9
@@ -614,14 +614,14 @@ focus_tree = {
 		}
 	}	
 	focus = {
-		id = NIG_Sawaba_Takeover
+		id = NGR_Sawaba_Takeover
 		icon = GFX_RedArmy
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Sawaba_Coup_Attempt
+			focus = NGR_Sawaba_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_Coup_Failure
+			focus = NGR_Coup_Failure
 		}
 		x = 15
 		y = 9
@@ -633,11 +633,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Further_Reliance_on_Tribal_Leaders
+		id = NGR_Further_Reliance_on_Tribal_Leaders
 		icon = GFX_RiskyDeal
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Coup_Failure
+			focus = NGR_Coup_Failure
 		}
 		x = 13
 		y = 10
@@ -646,11 +646,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Growing_Public_Anger
+		id = NGR_Growing_Public_Anger
 		icon = GFX_focus_rioting
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Run_Unopposed_a_Third_Time
+			focus = NGR_Run_Unopposed_a_Third_Time
 		}
 		x = 12
 		y = 18
@@ -660,11 +660,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Sahelian_Drought_Worsens
+		id = NGR_Sahelian_Drought_Worsens
 		icon = GFX_focus_drought
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Run_Unopposed_a_Third_Time
+			focus = NGR_Run_Unopposed_a_Third_Time
 		}
 		x = 16
 		y = 18
@@ -673,14 +673,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Government_in_Dissaray
+		id = NGR_Government_in_Dissaray
 		icon = GFX_focus_internal_dissent
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Sahelian_Drought_Worsens
+			focus = NGR_Sahelian_Drought_Worsens
 		}
 		prerequisite = {
-			focus = NIG_Growing_Public_Anger
+			focus = NGR_Growing_Public_Anger
 		}
 		x = 14
 		y = 19
@@ -692,11 +692,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Attempt_to_Control_the_Situation
+		id = NGR_Attempt_to_Control_the_Situation
 		icon = GFX_Purge_the_Revolution
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Government_in_Dissaray
+			focus = NGR_Government_in_Dissaray
 		}
 		x = 14
 		y = 20
@@ -706,11 +706,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Further_Crackdown_on_Sawaba
+		id = NGR_Further_Crackdown_on_Sawaba
 		icon = GFX_purge
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Coup_Failure
+			focus = NGR_Coup_Failure
 		}
 		x = 15
 		y = 10
@@ -722,14 +722,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Ethnic_Favoritism
+		id = NGR_Ethnic_Favoritism
 		icon = GFX_Room_Meeting
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Further_Crackdown_on_Sawaba
+			focus = NGR_Further_Crackdown_on_Sawaba
 		}
 		prerequisite = {
-			focus = NIG_Hausa_Discontent
+			focus = NGR_Hausa_Discontent
 		}
 		x = 17
 		y = 11
@@ -738,11 +738,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Hausa_Discontent
+		id = NGR_Hausa_Discontent
 		icon = GFX_shadow_government
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Coup_Failure
+			focus = NGR_Coup_Failure
 		}
 		x = 18
 		y = 10
@@ -752,14 +752,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Crush_the_Military_Coup
+		id = NGR_Crush_the_Military_Coup
 		icon = GFX_HeavyStrike
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Military_Coup_Attempt
+			focus = NGR_Military_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_Successful_Coup
+			focus = NGR_Successful_Coup
 		}
 		x = 15
 		y = 13
@@ -768,14 +768,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Successful_Coup
+		id = NGR_Successful_Coup
 		icon = GFX_Subterfuge
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Military_Coup_Attempt
+			focus = NGR_Military_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_Crush_the_Military_Coup
+			focus = NGR_Crush_the_Military_Coup
 		}
 		x = 13
 		y = 13
@@ -784,11 +784,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_President_Kountche
+		id = NGR_President_Kountche
 		icon = GFX_MilitaryGovernment
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Successful_Coup
+			focus = NGR_Successful_Coup
 		}
 		x = 5
 		y = 14
@@ -804,11 +804,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Distribute_Food_Relief
+		id = NGR_Distribute_Food_Relief
 		icon = GFX_focus_drought_relief
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_President_Kountche
+			focus = NGR_President_Kountche
 		}
 		x = 2
 		y = 15
@@ -817,11 +817,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Economic_Preoccupaitons
+		id = NGR_Economic_Preoccupaitons
 		icon = GFX_FocusSmallBusinesses
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_President_Kountche
+			focus = NGR_President_Kountche
 		}
 		x = 8
 		y = 15
@@ -830,17 +830,17 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Release_Political_Prisoners
+		id = NGR_Release_Political_Prisoners
 		icon = GFX_Freedom2
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Strengthen_Relations_with_Arab_States
+			focus = NGR_Strengthen_Relations_with_Arab_States
 		}
 		prerequisite = {
-			focus = NIG_Stabilize_Ties_With_France
+			focus = NGR_Stabilize_Ties_With_France
 		}
 		prerequisite = {
-			focus = NIG_Disband_the_National_Assembly
+			focus = NGR_Disband_the_National_Assembly
 		}
 		x = 5
 		y = 17
@@ -850,16 +850,16 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Strengthen_Relations_with_Arab_States
+		id = NGR_Strengthen_Relations_with_Arab_States
 		icon = GFX_goal_generic_neutrality_focus_Arabic
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Economic_Preoccupaitons
+			focus = NGR_Economic_Preoccupaitons
 		}
 		x = 7
 		y = 16
 		completion_reward = {
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = EGY
 					modifier = large_increase
@@ -867,12 +867,12 @@ focus_tree = {
 			}
 			EGY = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}
 			#
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = SAU
 					modifier = large_increase
@@ -880,12 +880,12 @@ focus_tree = {
 			}
 			SAU = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}			
 			#
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = IRQ
 					modifier = large_increase
@@ -893,12 +893,12 @@ focus_tree = {
 			}
 			IRQ = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}			
 			#
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = SYR
 					modifier = large_increase
@@ -906,12 +906,12 @@ focus_tree = {
 			}
 			SYR = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}			
 			#
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = JOR
 					modifier = large_increase
@@ -919,24 +919,24 @@ focus_tree = {
 			}
 			JOR = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = NIG_Stabilize_Ties_With_France
+		id = NGR_Stabilize_Ties_With_France
 		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Distribute_Food_Relief
+			focus = NGR_Distribute_Food_Relief
 		}
 		x = 3
 		y = 16
 		completion_reward = {
 			add_stability = 0.02
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = FRA
 					modifier = large_increase
@@ -944,21 +944,21 @@ focus_tree = {
 			}
 			FRA = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = large_increase
 				}
 			}
 		}
 	}
 	focus = {
-		id = NIG_Emphasize_Morality
+		id = NGR_Emphasize_Morality
 		icon = GFX_FocusQuran
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Release_Political_Prisoners
+			focus = NGR_Release_Political_Prisoners
 		}
 		prerequisite = {
-			focus = NIG_Stabilize_Ties_With_France
+			focus = NGR_Stabilize_Ties_With_France
 		}
 		x = 3
 		y = 18
@@ -967,11 +967,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Domestic_Stabilization
+		id = NGR_Domestic_Stabilization
 		icon = GFX_Political_Support
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_American_Food_Aid
+			focus = NGR_American_Food_Aid
 		}
 		x = 5
 		y = 20
@@ -981,14 +981,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Strengthen_ties_to_America
+		id = NGR_Strengthen_ties_to_America
 		icon = GFX_goal_USA_deal
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Release_Political_Prisoners
+			focus = NGR_Release_Political_Prisoners
 		}
 		prerequisite = {
-			focus = NIG_Strengthen_Relations_with_Arab_States
+			focus = NGR_Strengthen_Relations_with_Arab_States
 		}
 		x = 7
 		y = 18
@@ -1008,14 +1008,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_American_Food_Aid
+		id = NGR_American_Food_Aid
 		icon = GFX_american_coat_of_arms
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Strengthen_ties_to_America
+			focus = NGR_Strengthen_ties_to_America
 		}
 		prerequisite = {
-			focus = NIG_Emphasize_Morality
+			focus = NGR_Emphasize_Morality
 		}
 		x = 5
 		y = 19
@@ -1024,11 +1024,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Suspend_the_Constitution
+		id = NGR_Suspend_the_Constitution
 		icon = GFX_goal_big_news
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_President_Kountche
+			focus = NGR_President_Kountche
 		}
 		x = 5
 		y = 15
@@ -1037,11 +1037,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Disband_the_National_Assembly
+		id = NGR_Disband_the_National_Assembly
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Suspend_the_Constitution
+			focus = NGR_Suspend_the_Constitution
 		}
 		x = 5
 		y = 16	
@@ -1051,11 +1051,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Economic_Stagnation
+		id = NGR_Economic_Stagnation
 		icon = GFX_focus_economic_crash
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Crush_the_Military_Coup
+			focus = NGR_Crush_the_Military_Coup
 		}
 		x = 15
 		y = 14
@@ -1064,11 +1064,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Further_our_French_Dependence
+		id = NGR_Further_our_French_Dependence
 		icon = GFX_AfricainFlames
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Crush_the_Military_Coup
+			focus = NGR_Crush_the_Military_Coup
 		}
 		x = 18
 		y = 14
@@ -1080,11 +1080,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Military_Suspicions
+		id = NGR_Military_Suspicions
 		icon = GFX_Subterfuge
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Crush_the_Military_Coup
+			focus = NGR_Crush_the_Military_Coup
 		}
 		x = 13
 		y = 14
@@ -1094,14 +1094,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_The_Drought
+		id = NGR_The_Drought
 		icon = GFX_brinkofcollapse
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Further_our_French_Dependence
+			focus = NGR_Further_our_French_Dependence
 		}
 		prerequisite = {
-			focus = NIG_Economic_Stagnation
+			focus = NGR_Economic_Stagnation
 		}
 		x = 17
 		y = 15
@@ -1110,14 +1110,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Political_Crisis
+		id = NGR_Political_Crisis
 		icon = GFX_DeathTracks
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_The_Drought
+			focus = NGR_The_Drought
 		}
 		prerequisite = {
-			focus = NIG_Inflamation_of_Ethnic_Tensions
+			focus = NGR_Inflamation_of_Ethnic_Tensions
 		}
 		x = 14
 		y = 16
@@ -1126,11 +1126,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Political_Prisons
+		id = NGR_Political_Prisons
 		icon = GFX_Prison_Camps
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Crush_the_Military_Coup
+			focus = NGR_Crush_the_Military_Coup
 		}
 		x = 10
 		y = 14
@@ -1140,14 +1140,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_Inflamation_of_Ethnic_Tensions
+		id = NGR_Inflamation_of_Ethnic_Tensions
 		icon = GFX_brinkofcollapse
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Political_Prisons
+			focus = NGR_Political_Prisons
 		}
 		prerequisite = {
-			focus = NIG_Military_Suspicions
+			focus = NGR_Military_Suspicions
 		}
 		x = 11
 		y = 15

@@ -1,5 +1,5 @@
 focus_tree = {
-	id = NIG_1950s
+	id = NGR_1950s
 	country = {
 		factor = 0
 		modifier = {

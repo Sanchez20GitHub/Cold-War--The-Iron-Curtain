@@ -188,7 +188,7 @@ eastern_africa_trigger = {
 }
 westerm_africa_trigger = {
 	tag = MLI
-	tag = NIG
+	tag = NGR
 	tag = VOL
 	tag = GNA
 	tag = MRT

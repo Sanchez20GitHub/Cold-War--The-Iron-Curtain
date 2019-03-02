@@ -891,8 +891,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer1 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer1 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer1 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer1 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -1681,8 +1681,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer2 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer2 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer2 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer2 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -2473,8 +2473,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer3 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer3 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer3 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer3 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -3262,8 +3262,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer4 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer4 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer4 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer4 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -4051,8 +4051,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer5 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer5 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer5 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer5 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -4840,8 +4840,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer6 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer6 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer6 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer6 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"
@@ -5629,8 +5629,8 @@ defined_text = {
     text = { trigger = { check_variable = { influencer7 = MLI } }
      localization_key = "[MLI.GetNameWithFlag]"
     }
-    text = { trigger = { check_variable = { influencer7 = NIG } }
-     localization_key = "[NIG.GetNameWithFlag]"
+    text = { trigger = { check_variable = { influencer7 = NGR } }
+     localization_key = "[NGR.GetNameWithFlag]"
     }
     text = { trigger = { check_variable = { influencer7 = VOL } }
      localization_key = "[VOL.GetNameWithFlag]"

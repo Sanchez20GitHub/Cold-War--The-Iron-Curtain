@@ -1,15 +1,15 @@
 focus_tree = {
-	id = 70s_NIG
+	id = 70s_NGR
 	country = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = NIG
+			tag = NGR
 		}
 	}
 	default = no
 	focus = {
-		id = NIG_70s_Intensification_of_the_Political_Crisis
+		id = NGR_70s_Intensification_of_the_Political_Crisis
 		icon = GFX_goal_unknown
 		cost = 10.00
 		x = 9
@@ -17,539 +17,539 @@ focus_tree = {
 
 	}
 	focus = {
-		id = NIG_70s_French_Criticize_our_Uranium_Quality
+		id = NGR_70s_French_Criticize_our_Uranium_Quality
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Intensification_of_the_Political_Crisis
+			focus = NGR_70s_Intensification_of_the_Political_Crisis
 		}
 		x = 7
 		y = 1
 
 	}
 	focus = {
-		id = NIG_70s_Attempt_Power_Consolidation
+		id = NGR_70s_Attempt_Power_Consolidation
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_French_Criticize_our_Uranium_Quality
+			focus = NGR_70s_French_Criticize_our_Uranium_Quality
 		}
 		x = 5
 		y = 2
 
 	}
 	focus = {
-		id = NIG_70s_Growing_Paranoia
+		id = NGR_70s_Growing_Paranoia
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Intensification_of_the_Political_Crisis
+			focus = NGR_70s_Intensification_of_the_Political_Crisis
 		}
 		x = 11
 		y = 1
 
 	}
 	focus = {
-		id = NIG_70s_Fire_The_Cabinet
+		id = NGR_70s_Fire_The_Cabinet
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Growing_Paranoia
+			focus = NGR_70s_Growing_Paranoia
 		}
 		prerequisite = {
-			focus = NIG_70s_French_Criticize_our_Uranium_Quality
+			focus = NGR_70s_French_Criticize_our_Uranium_Quality
 		}
 		x = 9
 		y = 2
 
 	}
 	focus = {
-		id = NIG_70s_Ethnic_Discrimination
+		id = NGR_70s_Ethnic_Discrimination
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Fire_The_Cabinet
+			focus = NGR_70s_Fire_The_Cabinet
 		}
 		prerequisite = {
-			focus = NIG_70s_Attempt_Power_Consolidation
+			focus = NGR_70s_Attempt_Power_Consolidation
 		}
 		x = 7
 		y = 3
 
 	}
 	focus = {
-		id = NIG_70s_Worsening_Drought
+		id = NGR_70s_Worsening_Drought
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Growing_Paranoia
+			focus = NGR_70s_Growing_Paranoia
 		}
 		x = 13
 		y = 2
 
 	}
 	focus = {
-		id = NIG_70s_Stack_the_Cabinet
+		id = NGR_70s_Stack_the_Cabinet
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Fire_The_Cabinet
+			focus = NGR_70s_Fire_The_Cabinet
 		}
 		prerequisite = {
-			focus = NIG_70s_Worsening_Drought
+			focus = NGR_70s_Worsening_Drought
 		}
 		x = 11
 		y = 3
 
 	}
 	focus = {
-		id = NIG_70s_Corruption_Scandals
+		id = NGR_70s_Corruption_Scandals
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Stack_the_Cabinet
+			focus = NGR_70s_Stack_the_Cabinet
 		}
 		prerequisite = {
-			focus = NIG_70s_Ethnic_Discrimination
+			focus = NGR_70s_Ethnic_Discrimination
 		}
 		x = 9
 		y = 4
 
 	}
 	focus = {
-		id = NIG_70s_President_Kountche
+		id = NGR_70s_President_Kountche
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Military_Coup_Attempt
+			focus = NGR_70s_Military_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_70s_Resist_the_Coup
+			focus = NGR_70s_Resist_the_Coup
 		}
 		x = 5
 		y = 6
 
 	}
 	focus = {
-		id = NIG_70s_Distribute_Food_Relief
+		id = NGR_70s_Distribute_Food_Relief
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Suspend_the_Constitution
+			focus = NGR_70s_Suspend_the_Constitution
 		}
 		x = 9
 		y = 8
 
 	}
 	focus = {
-		id = NIG_70s_Economic_Preoccupaitons
+		id = NGR_70s_Economic_Preoccupaitons
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Disband_the_National_Assembly
+			focus = NGR_70s_Disband_the_National_Assembly
 		}
 		x = 1
 		y = 8
 
 	}
 	focus = {
-		id = NIG_70s_Release_Political_Prisoners
+		id = NGR_70s_Release_Political_Prisoners
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Disband_the_National_Assembly
+			focus = NGR_70s_Disband_the_National_Assembly
 		}
 		prerequisite = {
-			focus = NIG_70s_Suspend_the_Constitution
+			focus = NGR_70s_Suspend_the_Constitution
 		}
 		x = 5
 		y = 8
 
 	}
 	focus = {
-		id = NIG_70s_Strengthen_Relations_with_Arab_States
+		id = NGR_70s_Strengthen_Relations_with_Arab_States
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Economic_Preoccupaitons
+			focus = NGR_70s_Economic_Preoccupaitons
 		}
 		prerequisite = {
-			focus = NIG_70s_Release_Political_Prisoners
+			focus = NGR_70s_Release_Political_Prisoners
 		}
 		x = 7
 		y = 9
 
 	}
 	focus = {
-		id = NIG_70s_Stabilize_Ties_With_France
+		id = NGR_70s_Stabilize_Ties_With_France
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Distribute_Food_Relief
+			focus = NGR_70s_Distribute_Food_Relief
 		}
 		prerequisite = {
-			focus = NIG_70s_Release_Political_Prisoners
+			focus = NGR_70s_Release_Political_Prisoners
 		}
 		x = 3
 		y = 9
 
 	}
 	focus = {
-		id = NIG_70s_Emphasize_Morality
+		id = NGR_70s_Emphasize_Morality
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Franco_Nigerien_Defense_Agreement
+			focus = NGR_70s_Franco_Nigerien_Defense_Agreement
 		}
 		x = 3
 		y = 12
 
 	}
 	focus = {
-		id = NIG_70s_Domestic_Stabilization
+		id = NGR_70s_Domestic_Stabilization
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_The_Societe_de_Developpment
+			focus = NGR_70s_The_Societe_de_Developpment
 		}
 		prerequisite = {
-			focus = NIG_70s_The_Societe_de_Developpment
+			focus = NGR_70s_The_Societe_de_Developpment
 		}
 		x = 6
 		y = 18
 
 	}
 	focus = {
-		id = NIG_70s_Strengthen_ties_to_America
+		id = NGR_70s_Strengthen_ties_to_America
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Beginings_of_an_Economic_Recovery
+			focus = NGR_70s_Beginings_of_an_Economic_Recovery
 		}
 		x = 9
 		y = 13
 
 	}
 	focus = {
-		id = NIG_70s_American_Food_Aid
+		id = NGR_70s_American_Food_Aid
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Strengthen_ties_to_America
+			focus = NGR_70s_Strengthen_ties_to_America
 		}
 		prerequisite = {
-			focus = NIG_70s_Limited_Economic_Prosperity
+			focus = NGR_70s_Limited_Economic_Prosperity
 		}
 		x = 7
 		y = 14
 
 	}
 	focus = {
-		id = NIG_70s_Suspend_the_Constitution
+		id = NGR_70s_Suspend_the_Constitution
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_President_Kountche
+			focus = NGR_70s_President_Kountche
 		}
 		x = 3
 		y = 7
 
 	}
 	focus = {
-		id = NIG_70s_Disband_the_National_Assembly
+		id = NGR_70s_Disband_the_National_Assembly
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_President_Kountche
+			focus = NGR_70s_President_Kountche
 		}
 		x = 7
 		y = 7
 
 	}
 	focus = {
-		id = NIG_70s_Military_Coup_Attempt
+		id = NGR_70s_Military_Coup_Attempt
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Corruption_Scandals
+			focus = NGR_70s_Corruption_Scandals
 		}
 		x = 9
 		y = 5
 
 	}
 	focus = {
-		id = NIG_70s_Resist_the_Coup
+		id = NGR_70s_Resist_the_Coup
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Military_Coup_Attempt
+			focus = NGR_70s_Military_Coup_Attempt
 		}
 		mutually_exclusive = {
-			focus = NIG_70s_President_Kountche
+			focus = NGR_70s_President_Kountche
 		}
 		x = 17
 		y = 6
 
 	}
 	focus = {
-		id = NIG_70s_Popular_Revolution_Brewing
+		id = NGR_70s_Popular_Revolution_Brewing
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Resist_the_Coup
+			focus = NGR_70s_Resist_the_Coup
 		}
 		x = 17
 		y = 7
 
 	}
 	focus = {
-		id = NIG_70s_Sawaba_Takeover
+		id = NGR_70s_Sawaba_Takeover
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Popular_Revolution_Brewing
+			focus = NGR_70s_Popular_Revolution_Brewing
 		}
 		x = 17
 		y = 8
 
 	}
 	focus = {
-		id = NIG_70s_Indiscriminate_Killing
+		id = NGR_70s_Indiscriminate_Killing
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Emphasize_Morality
+			focus = NGR_70s_Emphasize_Morality
 		}
 		x = 1
 		y = 13
 
 	}
 	focus = {
-		id = NIG_70s_Beginings_of_an_Economic_Recovery
+		id = NGR_70s_Beginings_of_an_Economic_Recovery
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Franco_Nigerien_Defense_Agreement
+			focus = NGR_70s_Franco_Nigerien_Defense_Agreement
 		}
 		x = 7
 		y = 12
 
 	}
 	focus = {
-		id = NIG_70s_Silence_the_Population
+		id = NGR_70s_Silence_the_Population
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Indiscriminate_Killing
+			focus = NGR_70s_Indiscriminate_Killing
 		}
 		prerequisite = {
-			focus = NIG_70s_Limited_Economic_Prosperity
+			focus = NGR_70s_Limited_Economic_Prosperity
 		}
 		x = 3
 		y = 14
 
 	}
 	focus = {
-		id = NIG_70s_Internal_Policy_Disagreements
+		id = NGR_70s_Internal_Policy_Disagreements
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_The_Societe_de_Developpment
+			focus = NGR_70s_The_Societe_de_Developpment
 		}
 		x = 9
 		y = 18
 
 	}
 	focus = {
-		id = NIG_70s_Neotraditional_Corporatism
+		id = NGR_70s_Neotraditional_Corporatism
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_American_Food_Aid
+			focus = NGR_70s_American_Food_Aid
 		}
 		prerequisite = {
-			focus = NIG_70s_Silence_the_Population
+			focus = NGR_70s_Silence_the_Population
 		}
 		x = 5
 		y = 15
 
 	}
 	focus = {
-		id = NIG_70s_Limited_Economic_Prosperity
+		id = NGR_70s_Limited_Economic_Prosperity
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Beginings_of_an_Economic_Recovery
+			focus = NGR_70s_Beginings_of_an_Economic_Recovery
 		}
 		prerequisite = {
-			focus = NIG_70s_Emphasize_Morality
+			focus = NGR_70s_Emphasize_Morality
 		}
 		x = 5
 		y = 13
 
 	}
 	focus = {
-		id = NIG_70s_Rural_Reforms
+		id = NGR_70s_Rural_Reforms
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Neotraditional_Corporatism
+			focus = NGR_70s_Neotraditional_Corporatism
 		}
 		x = 7
 		y = 16
 
 	}
 	focus = {
-		id = NIG_70s_State_Legitimization
+		id = NGR_70s_State_Legitimization
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Neotraditional_Corporatism
+			focus = NGR_70s_Neotraditional_Corporatism
 		}
 		x = 3
 		y = 16
 
 	}
 	focus = {
-		id = NIG_70s_Promote_Islamic_Values
+		id = NGR_70s_Promote_Islamic_Values
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_The_Societe_de_Developpment
+			focus = NGR_70s_The_Societe_de_Developpment
 		}
 		x = 1
 		y = 18
 
 	}
 	focus = {
-		id = NIG_70s_The_Uranium_Economy
+		id = NGR_70s_The_Uranium_Economy
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Strengthen_Relations_with_Arab_States
+			focus = NGR_70s_Strengthen_Relations_with_Arab_States
 		}
 		prerequisite = {
-			focus = NIG_70s_Stabilize_Ties_With_France
+			focus = NGR_70s_Stabilize_Ties_With_France
 		}
 		x = 5
 		y = 10
 
 	}
 	focus = {
-		id = NIG_70s_Franco_Nigerien_Defense_Agreement
+		id = NGR_70s_Franco_Nigerien_Defense_Agreement
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_The_Uranium_Economy
+			focus = NGR_70s_The_Uranium_Economy
 		}
 		x = 5
 		y = 11
 
 	}
 	focus = {
-		id = NIG_Samariya_Youth_Organization
+		id = NGR_Samariya_Youth_Organization
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_End_the_Famine
+			focus = NGR_70s_End_the_Famine
 		}
 		x = 13
 		y = 10
 
 	}
 	focus = {
-		id = NIG_70s_Restore_the_Association_of_Traditional_Chiefs
+		id = NGR_70s_Restore_the_Association_of_Traditional_Chiefs
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Samariya_Youth_Organization
+			focus = NGR_Samariya_Youth_Organization
 		}
 		prerequisite = {
-			focus = NIG_70s_Austerity
+			focus = NGR_70s_Austerity
 		}
 		x = 10
 		y = 11
 
 	}
 	focus = {
-		id = NIG_70s_Establish_the_Islamic_Assocation_of_Niger
+		id = NGR_70s_Establish_the_Islamic_Assocation_of_Niger
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_Samariya_Youth_Organization
+			focus = NGR_Samariya_Youth_Organization
 		}
 		prerequisite = {
-			focus = NIG_70s_Austerity
+			focus = NGR_70s_Austerity
 		}
 		x = 14
 		y = 11
 
 	}
 	focus = {
-		id = NIG_70s_Restoration_of_the_Old_Order
+		id = NGR_70s_Restoration_of_the_Old_Order
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Establish_the_Islamic_Assocation_of_Niger
+			focus = NGR_70s_Establish_the_Islamic_Assocation_of_Niger
 		}
 		prerequisite = {
-			focus = NIG_70s_Restore_the_Association_of_Traditional_Chiefs
+			focus = NGR_70s_Restore_the_Association_of_Traditional_Chiefs
 		}
 		x = 12
 		y = 12
 
 	}
 	focus = {
-		id = NIG_70s_End_the_Famine
+		id = NGR_70s_End_the_Famine
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Distribute_Food_Relief
+			focus = NGR_70s_Distribute_Food_Relief
 		}
 		x = 12
 		y = 9
 
 	}
 	focus = {
-		id = NIG_70s_Austerity
+		id = NGR_70s_Austerity
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_End_the_Famine
+			focus = NGR_70s_End_the_Famine
 		}
 		x = 11
 		y = 10
 
 	}
 	focus = {
-		id = NIG_70s_Expand_Healthcare_Access
+		id = NGR_70s_Expand_Healthcare_Access
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Internal_Policy_Disagreements
+			focus = NGR_70s_Internal_Policy_Disagreements
 		}
 		prerequisite = {
-			focus = NIG_70s_Domestic_Stabilization
+			focus = NGR_70s_Domestic_Stabilization
 		}
 		x = 8
 		y = 19
 
 	}
 	focus = {
-		id = NIG_70s_Rural_Development
+		id = NGR_70s_Rural_Development
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Expand_Healthcare_Access
+			focus = NGR_70s_Expand_Healthcare_Access
 		}
 		prerequisite = {
-			focus = NIG_70s_Raise_Wages
+			focus = NGR_70s_Raise_Wages
 		}
 		prerequisite = {
-			focus = NIG_70s_Invest_in_Agriculture
+			focus = NGR_70s_Invest_in_Agriculture
 		}
 		prerequisite = {
-			focus = NIG_70s_Office_des_Produits_Vivreirs_Nigeriens
+			focus = NGR_70s_Office_des_Produits_Vivreirs_Nigeriens
 		}
 		x = 5
 		y = 21
@@ -590,11 +590,11 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = NIG_70s_Raise_Wages
+		id = NGR_70s_Raise_Wages
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Promote_Islamic_Values
+			focus = NGR_70s_Promote_Islamic_Values
 		}
 		x = 2
 		y = 19
@@ -603,25 +603,25 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_70s_The_Societe_de_Developpment
+		id = NGR_70s_The_Societe_de_Developpment
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Rural_Reforms
+			focus = NGR_70s_Rural_Reforms
 		}
 		prerequisite = {
-			focus = NIG_70s_State_Legitimization
+			focus = NGR_70s_State_Legitimization
 		}
 		x = 5
 		y = 17
 
 	}
 	focus = {
-		id = NIG_70s_Expand_Education
+		id = NGR_70s_Expand_Education
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_The_Societe_de_Developpment
+			focus = NGR_70s_The_Societe_de_Developpment
 		}
 		x = 4
 		y = 18
@@ -630,14 +630,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_70s_Housing_Expansion
+		id = NGR_70s_Housing_Expansion
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Domestic_Stabilization
+			focus = NGR_70s_Domestic_Stabilization
 		}
 		prerequisite = {
-			focus = NIG_70s_Expand_Education
+			focus = NGR_70s_Expand_Education
 		}
 		x = 5
 		y = 19
@@ -648,14 +648,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_70s_Invest_in_Agriculture
+		id = NGR_70s_Invest_in_Agriculture
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Housing_Expansion
+			focus = NGR_70s_Housing_Expansion
 		}
 		prerequisite = {
-			focus = NIG_70s_Raise_Wages
+			focus = NGR_70s_Raise_Wages
 		}
 		x = 4
 		y = 20
@@ -668,14 +668,14 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_70s_Office_des_Produits_Vivreirs_Nigeriens
+		id = NGR_70s_Office_des_Produits_Vivreirs_Nigeriens
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Expand_Healthcare_Access
+			focus = NGR_70s_Expand_Healthcare_Access
 		}
 		prerequisite = {
-			focus = NIG_70s_Housing_Expansion
+			focus = NGR_70s_Housing_Expansion
 		}
 		x = 6
 		y = 20
@@ -684,69 +684,69 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = NIG_70s_Economic_Crash
+		id = NGR_70s_Economic_Crash
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Rural_Development
+			focus = NGR_70s_Rural_Development
 		}
 		x = 5
 		y = 22
 
 	}
 	focus = {
-		id = NIG_70s_Debt_Crisis
+		id = NGR_70s_Debt_Crisis
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Economic_Crash
+			focus = NGR_70s_Economic_Crash
 		}
 		x = 3
 		y = 23
 
 	}
 	focus = {
-		id = NIG_70s_Restart_Agricultural_Exports
+		id = NGR_70s_Restart_Agricultural_Exports
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Economic_Crash
+			focus = NGR_70s_Economic_Crash
 		}
 		x = 7
 		y = 23
 
 	}
 	focus = {
-		id = NIG_70s_Reduce_Social_Spending
+		id = NGR_70s_Reduce_Social_Spending
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Restart_Agricultural_Exports
+			focus = NGR_70s_Restart_Agricultural_Exports
 		}
 		x = 6
 		y = 24
 
 	}
 	focus = {
-		id = NIG_70s_Reduce_Agricultural_Subsidies
+		id = NGR_70s_Reduce_Agricultural_Subsidies
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Debt_Crisis
+			focus = NGR_70s_Debt_Crisis
 		}
 		x = 4
 		y = 24
 
 	}
 	focus = {
-		id = NIG_70s_Build_Public_Support_for_the_Regime
+		id = NGR_70s_Build_Public_Support_for_the_Regime
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = NIG_70s_Reduce_Social_Spending
+			focus = NGR_70s_Reduce_Social_Spending
 		}
 		prerequisite = {
-			focus = NIG_70s_Reduce_Agricultural_Subsidies
+			focus = NGR_70s_Reduce_Agricultural_Subsidies
 		}
 		x = 5
 		y = 25

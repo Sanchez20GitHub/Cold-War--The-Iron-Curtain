@@ -580,11 +580,11 @@ focus_tree = {
 		completion_reward = {
 			DAH = {
 				add_opinion_modifier = {
-					target = NIG
+					target = NGR
 					modifier = small_increase
 				}
 			}
-			NIG = {
+			NGR = {
 				add_opinion_modifier = {
 					target = DAH
 					modifier = small_increase
@@ -1849,13 +1849,13 @@ focus_tree = {
 		x = 15
 		y = 45
 		completion_reward = {
-			NIG = {
+			NGR = {
 				annex_country = {
 					target = DAH
 					transfer_troops = yes
 				}			
 			}
-			DAH = { change_tag_from = NIG }
+			DAH = { change_tag_from = NGR }
 		}
 	}
 	focus = {

@@ -13,7 +13,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -152,7 +152,7 @@
 						tag = MOR
 						tag = GHA
 						tag = DAH
-						tag = NIG
+						tag = NGR
 
 					}
 				}
@@ -205,7 +205,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -234,7 +234,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -273,7 +273,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -314,7 +314,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -394,7 +394,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -474,7 +474,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -578,7 +578,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -658,7 +658,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -738,7 +738,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -818,7 +818,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -901,7 +901,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1008,7 +1008,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1046,7 +1046,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1081,7 +1081,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1109,7 +1109,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1144,7 +1144,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1175,7 +1175,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1207,7 +1207,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1241,7 +1241,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1275,7 +1275,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1309,7 +1309,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1343,7 +1343,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1377,7 +1377,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1411,7 +1411,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1446,7 +1446,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1479,7 +1479,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1518,7 +1518,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1552,7 +1552,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1656,7 +1656,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1698,7 +1698,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1735,7 +1735,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1842,7 +1842,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1876,7 +1876,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1913,7 +1913,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -1975,7 +1975,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2002,7 +2002,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2029,7 +2029,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2070,7 +2070,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2100,7 +2100,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2130,7 +2130,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2163,7 +2163,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2209,7 +2209,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2248,7 +2248,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2287,7 +2287,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2322,7 +2322,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2406,7 +2406,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2461,7 +2461,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2493,7 +2493,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -2524,7 +2524,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2553,7 +2553,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2600,7 +2600,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2632,7 +2632,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2683,7 +2683,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2718,7 +2718,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2747,7 +2747,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2790,7 +2790,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2838,7 +2838,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2886,7 +2886,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2927,7 +2927,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -2965,7 +2965,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3002,7 +3002,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3056,7 +3056,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3089,7 +3089,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3175,7 +3175,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3207,7 +3207,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3239,7 +3239,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3291,7 +3291,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3337,7 +3337,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3386,7 +3386,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3436,7 +3436,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3483,7 +3483,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3544,7 +3544,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3577,7 +3577,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3611,7 +3611,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3655,7 +3655,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3689,7 +3689,7 @@
 						tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
 					}
 				}
 			}
@@ -3716,7 +3716,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 
@@ -3757,7 +3757,7 @@
  tag = GHA
 						tag = DOC
 						tag = DAH
-						tag = NIG
+						tag = NGR
  tag = MOR 
  }
 

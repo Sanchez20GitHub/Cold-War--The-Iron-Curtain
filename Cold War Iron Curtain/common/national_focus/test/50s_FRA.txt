@@ -1092,7 +1092,7 @@ focus_tree = {
 		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
 		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
-		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
+		set_autonomy = { target = NGR autonomy_state = autonomy_free }	
 		set_autonomy = { target = GNA autonomy_state = autonomy_free }	
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }
@@ -2451,7 +2451,7 @@ focus_tree = {
 		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
 		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
-		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
+		set_autonomy = { target = NGR autonomy_state = autonomy_free }	
 		set_autonomy = { target = GNA autonomy_state = autonomy_free }	
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }

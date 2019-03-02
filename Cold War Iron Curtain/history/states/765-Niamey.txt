@@ -28,9 +28,9 @@ state={
 			8028 1 
 		}
 		add_core_of = SEN
-		add_core_of = NIG
+		add_core_of = NGR
 		1960.1.1 = {
-			owner = NIG
+			owner = NGR
 			remove_core_of = SEN
 
 		}
