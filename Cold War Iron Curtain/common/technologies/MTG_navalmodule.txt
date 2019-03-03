@@ -736,4 +736,971 @@ technologies = {
 			naval_antisub
 		}
 	}
+	ww_detection = {
+		enable_equipment_modules = { 
+			ww_detection
+		}
+		path = {
+			leads_to_tech = maritimeradar_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = maritimeantiair_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = maritimenavigation_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		
+		start_year = 1935
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sensors
+		}
+	}
+	maritimeradar_0 = {
+		enable_equipment_modules = { 
+			maritimeradar_0
+		}
+		path = {
+			leads_to_tech = maritimeradar_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1940
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_1 = {
+		enable_equipment_modules = { 
+			maritimeradar_1
+		}
+		path = {
+			leads_to_tech = maritimeradar_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1950
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_2 = {
+		enable_equipment_modules = { 
+			maritimeradar_2
+		}
+		path = {
+			leads_to_tech = maritimeradar_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_3 = {
+		enable_equipment_modules = { 
+			maritimeradar_3
+		}
+		path = {
+			leads_to_tech = maritimeradar_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ciws_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1970
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_4 = {
+		enable_equipment_modules = { 
+			maritimeradar_4
+		}
+		path = {
+			leads_to_tech = maritimeradar_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_5 = {
+		enable_equipment_modules = { 
+			maritimeradar_5
+		}
+		path = {
+			leads_to_tech = maritimeradar_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeradar_6 = {
+		enable_equipment_modules = { 
+			maritimeradar_6
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeradar
+			naval_sensors
+		}
+	}
+	maritimeantiair_0 = {
+		enable_equipment_modules = { 
+			maritimeantiair_0
+		}
+		path = {
+			leads_to_tech = maritimeantiair_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1945
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_1 = {
+		enable_equipment_modules = { 
+			maritimeantiair_1
+		}
+		path = {
+			leads_to_tech = maritimeantiair_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1955
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_2 = {
+		enable_equipment_modules = { 
+			maritimeantiair_2
+		}
+		path = {
+			leads_to_tech = maritimeantiair_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1965
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_3 = {
+		enable_equipment_modules = { 
+			maritimeantiair_3
+		}
+		path = {
+			leads_to_tech = maritimeantiair_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ciws_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1975
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_4 = {
+		enable_equipment_modules = { 
+			maritimeantiair_4
+		}
+		path = {
+			leads_to_tech = maritimeantiair_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1985
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_5 = {
+		enable_equipment_modules = { 
+			maritimeantiair_5
+		}
+		path = {
+			leads_to_tech = maritimeantiair_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1995
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimeantiair_6 = {
+		enable_equipment_modules = { 
+			maritimeantiair_6
+		}
+		dependencies = {
+            maritimeradar_6 = 1
+        }
+		
+		research_cost = 1.5
+		
+		start_year = 2005
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimeantiair
+			naval_sensors
+		}
+	}
+	maritimenavigation_0 = {
+		enable_equipment_modules = { 
+			maritimenavigation_0
+		}
+		path = {
+			leads_to_tech = maritimenavigation_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1940
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimenavigation
+			naval_sensors
+		}
+	}
+	maritimenavigation_1 = {
+		enable_equipment_modules = { 
+			maritimenavigation_1
+		}
+		path = {
+			leads_to_tech = maritimenavigation_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1955
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 2 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimenavigation
+			naval_sensors
+		}
+	}
+	maritimenavigation_2 = {
+		enable_equipment_modules = { 
+			maritimenavigation_2
+		}
+		path = {
+			leads_to_tech = maritimenavigation_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1970
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 2 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimenavigation
+			naval_sensors
+		}
+	}
+	maritimenavigation_3 = {
+		enable_equipment_modules = { 
+			maritimenavigation_3
+		}
+		path = {
+			leads_to_tech = maritimenavigation_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1985
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 2 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimenavigation
+			naval_sensors
+		}
+	}
+	maritimenavigation_4 = {
+		enable_equipment_modules = { 
+			maritimenavigation_4
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2005
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 2 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_maritimenavigation
+			naval_sensors
+		}
+	}
+	ww_armaments = {
+		enable_equipment_modules = { 
+			ww_light_armament_cwic
+		}
+		enable_equipment_modules = { 
+			ww_medium_armament_cwic
+		}
+		enable_equipment_modules = { 
+			ww_heavy_armament_cwic
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = medium_armament_cwic_0
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavy_armament_cwic_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 4
+		
+		start_year = 1935
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_weapon
+		}
+	}
+	light_armament_cwic_0 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_0
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1940
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_1 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_1
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1950
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_2 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_2
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_3 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_3
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1970
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_4 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_4
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_5 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_5
+		}
+		path = {
+			leads_to_tech = light_armament_cwic_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
+	light_armament_cwic_6 = {
+		enable_equipment_modules = { 
+			light_armament_cwic_6
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_light_armament_cwic
+			naval_weapon
+		}
+	}
 }
