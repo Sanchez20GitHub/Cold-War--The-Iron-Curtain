@@ -28,15 +28,15 @@ country_event = {
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = NIG
+			        is_core_of = NGR
 		        }
-		        NIG = { transfer_state = PREV }
+		        NGR = { transfer_state = PREV }
 	        }
 			every_owned_state = {
 		        limit = {
-			        is_core_of = GUI
+			        is_core_of = GNA
 		        }
-		        GUI = { transfer_state = PREV }
+		        GNA = { transfer_state = PREV }
 	        }
 			every_owned_state = {
 		        limit = {
@@ -80,9 +80,9 @@ country_event = {
 
 	option = { 
 		name = "We do not have the ability to preserve the colony. Dissolve!"
-		ROC = {
+		RCG = {
 			drop_cosmetic_tag = yes
-			set_autonomy = { target = ROC autonomy_state = autonomy_free } 
+			set_autonomy = { target = RCG autonomy_state = autonomy_free } 
 			every_owned_state = {
 		        limit = {
 			        is_core_of = CHA
@@ -101,7 +101,7 @@ country_event = {
 		        }
 		        CAR = { transfer_state = PREV }
 	        }
-			complete_national_focus = ROC_Dissolution_of_French_Equatorial_Africa
+			complete_national_focus = RCG_Dissolution_of_French_Equatorial_Africa
 		}
     }
 	option = {
@@ -109,10 +109,10 @@ country_event = {
 		trigger = {
 			has_completed_focus = FRA_Preserve_the_Empire
 		}
-		declare_war_on = { target = ROC type = annex_everything }
-		ROC = {
+		declare_war_on = { target = RCG type = annex_everything }
+		RCG = {
 			drop_cosmetic_tag = yes
-			set_autonomy = { target = ROC autonomy_state = autonomy_free } 
+			set_autonomy = { target = RCG autonomy_state = autonomy_free } 
 		}
 	}
 }
@@ -130,8 +130,8 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		ROC = {
-			complete_national_focus = ROC_France_Accepts
+		RCG = {
+			complete_national_focus = RCG_France_Accepts
 		}
      }
 	 option = {
@@ -139,8 +139,8 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}		
-		ROC = {
-			complete_national_focus = ROC_France_Rejects
+		RCG = {
+			complete_national_focus = RCG_France_Rejects
 		}
 	 }
 }
@@ -158,8 +158,8 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}
-		ROC = {
-			complete_national_focus = ROC_Autonomy_Accepted
+		RCG = {
+			complete_national_focus = RCG_Autonomy_Accepted
 		}
      }
 	 option = {
@@ -167,8 +167,8 @@ country_event = {
 		ai_chance = {
 			factor = 50
 		}		
-		ROC = {
-			complete_national_focus = ROC_Autonomy_Denied
+		RCG = {
+			complete_national_focus = RCG_Autonomy_Denied
 		}
 	 }
 }

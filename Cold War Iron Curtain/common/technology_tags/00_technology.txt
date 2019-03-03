@@ -39,6 +39,14 @@ technology_categories = {
 	cat_strategic_bomber
 	naval_bomber
 	cas_bomber
+	screen_tech
+	screen_tech_hull
+	screen_hull_large
+	screen_hull_medium
+	screen_hull_small
+	screen_tech_weapon
+	rhib_launch
+	screen_aviation
 	fg_tech
 	dd_tech
 	cl_tech
@@ -46,8 +54,17 @@ technology_categories = {
 	cv_tech
 	bc_tech
 	bb_tech
+	capital_tech
+	capital_tech_hull
 	shbb_tech
 	ss_tech
+	ss_tech_hull
+	sub_hull_large_double
+	sub_hull_large_single
+	sub_hull_small_single
+	ss_tech_weapon
+	torpedo
+	slbm
 	tp_tech
 	synth_resources
 	fleet_in_being_tree
@@ -153,6 +170,11 @@ technology_folders = {
 		}
 	}
 	mtgnavalfolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	mtgnavallargefolder = {
 		available = {
 			has_dlc = "Man the Guns"
 		}

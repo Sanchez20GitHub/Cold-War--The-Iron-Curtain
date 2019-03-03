@@ -36,14 +36,14 @@ colonial_affairs = {
 		icon = GFX_mandates
 
 		available  = {
-		    OR = { AND = { country_exists = NIA NIA = { is_subject = no } } country_exists = CMR }
+		    OR = { AND = { country_exists = NGA NGA = { is_subject = no } } country_exists = CMR }
 			owns_state = 1105
 			owns_state = 1106
 		}
 		
 		visible = {
 			original_tag = ENG
-			OR = { country_exists = NIA country_exists = CMR }
+			OR = { country_exists = NGA country_exists = CMR }
 			owns_state = 1105
 			owns_state = 1106
 		}
@@ -57,22 +57,22 @@ colonial_affairs = {
 			if = {
 	            limit = {
 		            country_exists = CMR
-					country_exists = NIA
+					country_exists = NGA
 	            }
 	            CMR = { transfer_state = 1105 }
-				NIA = { transfer_state = 1106 }
+				NGA = { transfer_state = 1106 }
             }
 			if = {
 	            limit = {
-		            country_exists = NIA
+		            country_exists = NGA
 					NOT = { country_exists = CMR }
 	            }
-	            NIA = { transfer_state = 1105 transfer_state = 1106 }
+	            NGA = { transfer_state = 1105 transfer_state = 1106 }
             }
 			if = {
 	            limit = {
 		            country_exists = CMR
-					NOT = { country_exists = NIA }
+					NOT = { country_exists = NGA }
 	            }
 	            CMR = { transfer_state = 1105 transfer_state = 1106 }
 
@@ -176,14 +176,14 @@ colonial_affairs = {
 		icon = GFX_mandates
 
 		available  = {
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}
 		
 		visible = {
 			original_tag = BEL
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}
@@ -195,7 +195,7 @@ colonial_affairs = {
 		complete_effect = {
 		    add_political_power = 50
 			release = RWA
-			release = BUR
+			release = BRD
 		}
 
 		ai_will_do = {

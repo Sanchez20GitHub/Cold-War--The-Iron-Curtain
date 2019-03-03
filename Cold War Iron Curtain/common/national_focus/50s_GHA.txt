@@ -1318,11 +1318,11 @@ focus_tree = {
 		completion_reward = {
 			GHA = {
 				add_opinion_modifier = {
-					target = NIA
+					target = NGA
 					modifier = large_decrease
 				}
 			}
-			NIA = {
+			NGA = {
 				add_opinion_modifier = {
 					target = GHA
 					modifier = large_decrease

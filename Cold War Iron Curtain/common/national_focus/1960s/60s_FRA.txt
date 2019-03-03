@@ -4632,7 +4632,7 @@ focus_tree = {
 									size = 0.65
 								}
 						}
-					"GUI" = {
+					"GNA" = {
 							start_civil_war = {
 									ideology = trotskyism
 									size = 0.65
@@ -6243,11 +6243,11 @@ focus_tree = {
 			completion_reward = {
 					FRA = {
 							add_opinion_modifier = {
-									target = "GUI"
+									target = "GNA"
 									modifier = large_increase
 								}
 						}
-					"GUI" = {
+					"GNA" = {
 							add_opinion_modifier = {
 									target = FRA
 									modifier = large_increase

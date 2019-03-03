@@ -757,11 +757,11 @@ ic_pulse = {
 	}
 	if = {
 		limit = {
-				tag = BEN
+				tag = DAH
 				date > 1960.12.01
 				date < 1961.01.01
 			}
-		country_event = BEN.1
+		country_event = DAH.1
 	 }	
 	if = {
 		limit = {
@@ -934,12 +934,12 @@ ic_pulse = {
 	 if = {
 		limit = {
 		 NOT = {
-            has_completed_focus = ROC_Administrative_Reform
+            has_completed_focus = RCG_Administrative_Reform
         }
         date > 1951.01.01 # put date here
 		date < 1953.01.01 # put date here
-		tag = ROC
-		NOT = { has_country_flag = ROC_Chauvet }
+		tag = RCG
+		NOT = { has_country_flag = RCG_Chauvet }
 		}
 		country_event = equ.1
 		}
@@ -1099,7 +1099,7 @@ ic_pulse = {
 	if = {
 		limit = {
 			original_tag = FRA
-			ROC = { is_subject_of = ROOT }
+			RCG = { is_subject_of = ROOT }
 			date > 1958.10.04
 			date < 1960.01.01
 		}
@@ -1206,7 +1206,7 @@ ic_pulse = {
 					NOT = { tag = PRC }
 					NOT = { tag = SPR }
 					NOT = { tag = POR }
-					NOT = { tag = NIA }
+					NOT = { tag = NGA }
 					NOT = { tag = POL }
 					NOT = { tag = SOM }
 					NOT = { tag = TUR }
@@ -1254,7 +1254,7 @@ ic_pulse = {
 						tag = YUG
 						tag = PRC
 						tag = POR
-						tag = NIA
+						tag = NGA
 						tag = POL
 						tag = SAF
 						tag = KOR
@@ -1266,7 +1266,7 @@ ic_pulse = {
 						tag = VIN
 						tag = MOR
 						tag = GHA
-						tag = NIG
+						tag = NGR
 						tag = UGA
 						tag = CAR
 						tag = DOC
@@ -1413,9 +1413,9 @@ ic_pulse = {
 				}						
 				if = {
 					limit = {
-						tag = NIA
+						tag = NGA
 					}
-					load_focus_tree = NIA_1960s
+					load_focus_tree = NGA_1960s
 				}
 				if = {
 					limit = {
@@ -3346,7 +3346,7 @@ ic_pulse = {
 			limit = {
 				date > 1954.10.01
 				NOT = { has_global_flag = tri_questions_over }
-				country_exists = TRI
+				country_exists = TRS
 			}
 			country_event = tri.1
 		}
@@ -5223,7 +5223,7 @@ ic_pulse = {
 				has_cosmetic_tag = MAD_FRA
 				has_cosmetic_tag = CMR_FRA
 				has_cosmetic_tag = MOR_FRA
-				has_cosmetic_tag = ROC_FRA
+				has_cosmetic_tag = RCG_FRA
 				has_cosmetic_tag = DJI_FRA
 				has_cosmetic_tag = TUN_FRA
 				has_cosmetic_tag = LOS_FRA
@@ -5237,7 +5237,7 @@ ic_pulse = {
 				has_cosmetic_tag = GND_ENG
 				has_cosmetic_tag = BOT_ENG
 				has_cosmetic_tag = GAM_ENG
-				has_cosmetic_tag = NIA_ENG
+				has_cosmetic_tag = NGA_ENG
 				has_cosmetic_tag = SWA_ENG
 				has_cosmetic_tag = SOL_ENG
 				has_cosmetic_tag = JAM_ENG
@@ -5460,7 +5460,7 @@ ic_pulse = {
 		    original_tag = ENG
 			date > 1961.05.30
 			date < 1962.01.01
-		    OR = { country_exists = NIA country_exists = CMR }
+		    OR = { country_exists = NGA country_exists = CMR }
 			owns_state = 1105
 			owns_state = 1106
 		}
@@ -5501,7 +5501,7 @@ ic_pulse = {
 			original_tag = BEL
 			date > 1962.06.30
 			date < 1963.03.01
-			NOT = { country_exists = RWA country_exists = BUR }
+			NOT = { country_exists = RWA country_exists = BRD }
 			owns_state = 907
 			owns_state = 825
 		}

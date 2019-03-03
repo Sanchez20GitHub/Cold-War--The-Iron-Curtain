@@ -4,13 +4,13 @@ state={
 	name="STATE_818"
 
 	history={
-		owner = ROC
+		owner = RCG
 		set_state_flag = temperate
 		set_state_flag = basic
 		set_state_flag = large
 		set_state_flag = verypoor
 		add_core_of = CAR
-		add_core_of = ROC
+		add_core_of = RCG
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1
@@ -21,7 +21,7 @@ state={
 		}
 		1958.1.1 = {
 			owner = CAR
-			remove_core_of = ROC
+			remove_core_of = RCG
 
 		}
 

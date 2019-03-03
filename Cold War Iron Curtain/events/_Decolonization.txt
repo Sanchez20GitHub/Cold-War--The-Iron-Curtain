@@ -29,22 +29,22 @@ country_event = {
 		if = {
 	        limit = {
 		        country_exists = CMR
-				country_exists = NIA
+				country_exists = NGA
 	        }
 	        CMR = { transfer_state = 1105 }
-			NIA = { transfer_state = 1106 }
+			NGA = { transfer_state = 1106 }
         }
 		if = {
 	        limit = {
-		        country_exists = NIA
+		        country_exists = NGA
 			    NOT = { country_exists = CMR }
 	        }
-	        NIA = { transfer_state = 1105 transfer_state = 1106 }
+	        NGA = { transfer_state = 1105 transfer_state = 1106 }
         }
 	    if = {
 	        limit = {
 		        country_exists = CMR
-			    NOT = { country_exists = NIA }
+			    NOT = { country_exists = NGA }
 	        }
 	        CMR = { transfer_state = 1105 transfer_state = 1106 }
         }
@@ -108,7 +108,7 @@ country_event = {
 	option = {
 		name = decolonization.6.a
 		release = RWA
-		release = BUR
+		release = BRD
 	}
 }
 

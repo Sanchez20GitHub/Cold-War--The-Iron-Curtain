@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ROC
+		owner = RCG
 		set_state_flag = tropical
 		set_state_flag = riverlarge
 		set_state_flag = small
 		set_state_flag = undeveloped
-		add_core_of = ROC
+		add_core_of = RCG
 		victory_points = {
 			12975 5 
 		}

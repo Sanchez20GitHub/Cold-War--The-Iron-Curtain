@@ -12,7 +12,7 @@ FCB = {
 	color = rgb { 255 254 244 }
 	color_ui = rgb { 255 255 255 }
 }
-ROC = {
+RCG = {
 	color = rgb { 220 36 31 }
 	color_ui = rgb { 60 110 110 }
 }
@@ -856,7 +856,7 @@ MAC = {
 	color_ui = rgb { 255 80 0 }
 }
 
-BUR = {
+BRD = {
     color = rgb { 220 180 0 }
     color_ui = rgb { 220 180 0 }
 }
@@ -1121,12 +1121,12 @@ LAO = {
 	color_ui = rgb { 140 95 0 }
 }
 
-NIA = {
+NGA = {
 	color = rgb { 0 135 81 }
 	color_ui = rgb { 0 140 80 }
 }
 
-GUI = {
+GNA = {
 	color = rgb { 0 148 96 }
 	color_ui = rgb { 50 140 160 } 
 }

@@ -1981,17 +1981,17 @@ focus_tree = {
 		x = 23
 		y = 1
 			available = {
-					TRI = {
+					TRS = {
 							exists = yes
 						}
 					NOT = {
-							has_war_with = TRI
+							has_war_with = TRS
 						}
 				}
 			cancel_if_invalid = yes
 			continue_if_invalid = no
 			completion_reward = {
-					TRI = {
+					TRS = {
 							add_opinion_modifier = {
 									target = ROOT
 									modifier = ITA_recognition_focus
@@ -2046,17 +2046,17 @@ focus_tree = {
 		x = 24
 		y = 2
 			available = {
-					TRI = {
+					TRS = {
 							exists = yes
 						}
 					NOT = {
-							has_war_with = TRI
+							has_war_with = TRS
 						}
 				}
 			cancel_if_invalid = yes
 			continue_if_invalid = no
 			completion_reward = {
-					give_guarantee = TRI
+					give_guarantee = TRS
 				}
 
 	}
@@ -3992,7 +3992,7 @@ focus_tree = {
 		x = 15
 		y = 18
 			completion_reward = {
-					TRI = {
+					TRS = {
 							country_event = generic.1
 						}
 				}

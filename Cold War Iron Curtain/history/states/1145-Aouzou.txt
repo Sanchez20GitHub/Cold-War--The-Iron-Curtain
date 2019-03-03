@@ -4,13 +4,13 @@ state={
 	name="STATE_1145"
 
 	history={
-		owner = ROC
+		owner = RCG
 		add_core_of = CHA
-		add_core_of = ROC
+		add_core_of = RCG
 		add_core_of = LBA
 		1958.1.1 = {
 			owner = CHA
-			remove_core_of = ROC
+			remove_core_of = RCG
 
 		}
 

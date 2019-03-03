@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = NIA
-		add_core_of = NIA
+		owner = NGA
+		add_core_of = NGA
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

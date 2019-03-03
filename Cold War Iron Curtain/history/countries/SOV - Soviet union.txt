@@ -495,7 +495,7 @@ set_technology = {
 
 set_convoys = 384
 set_stability = 0.55
-give_guarantee = TRI
+give_guarantee = TRS
 
 set_variable = { var = domestic_influence_amount value = 10000 }
 
