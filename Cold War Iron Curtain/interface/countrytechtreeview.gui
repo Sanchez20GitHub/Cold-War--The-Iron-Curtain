@@ -3790,24 +3790,8 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "screen_hull_medium_0_tree"
+				name = "post_ww2_screen_design_tree"
 				position = { x = 1750 y = 120 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			
-			gridboxtype = {
-				name = "screen_hull_small_0_tree"
-				position = { x = 1350 y = 120 }
-				size = { width = 100 height = 140 }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			
-			gridboxtype = {
-				name = "screen_hull_large_0_tree"
-				position = { x = 2150 y = 120 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
