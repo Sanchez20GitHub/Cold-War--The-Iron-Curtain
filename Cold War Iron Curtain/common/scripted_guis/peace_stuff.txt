@@ -1,0 +1,33 @@
+scripted_gui = {
+	peace_menu_select = {
+	
+		context_type = player_context
+		
+		window_name = "peace_menu_select"
+		
+		visible = {
+			always = no
+		}
+		effects = {
+			peace_list_click = {
+				set_variable = { currentTarget = enemies^i }
+				country_event = peace_deal.1
+			}	
+		}
+		dynamic_lists = {
+			peace_list = {
+				array = enemies
+				entry_container = peace_full_list
+			}
+		}	
+		properties = {
+			flag = {
+				image = "[This.GetFlag]"
+			}
+		}
+	}
+}
+
+
+
+
