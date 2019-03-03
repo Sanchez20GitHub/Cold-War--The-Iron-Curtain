@@ -29,7 +29,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			capital_tech
-			capital_Tech_hull
+			capital_tech_hull
 		}
 	}
 }

@@ -54,6 +54,8 @@ technology_categories = {
 	cv_tech
 	bc_tech
 	bb_tech
+	capital_tech
+	capital_tech_hull
 	shbb_tech
 	ss_tech
 	ss_tech_hull
