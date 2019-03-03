@@ -8,12 +8,6 @@ scripted_gui = {
 		visible = {
 			always = no
 		}
-		effects = {
-			peace_list_click = {
-				set_variable = { currentTarget = enemies^i }
-				country_event = peace_deal.1
-			}	
-		}
 		dynamic_lists = {
 			peace_list = {
 				array = enemies
@@ -24,6 +18,14 @@ scripted_gui = {
 			flag = {
 				image = "[This.GetFlag]"
 			}
+		}
+		effects = {
+			peace_list_click = {
+				set_variable = { currentTarget = enemies^i }
+				white_peace = var:enemies^i
+				white_peace = enemies^i
+				#country_event = peace_deal.1
+			}	
 		}
 	}
 }

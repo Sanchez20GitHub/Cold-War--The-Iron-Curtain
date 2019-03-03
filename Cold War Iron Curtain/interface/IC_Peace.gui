@@ -13,7 +13,7 @@ guiTypes = {
 			name = "name"
 			position = { x = 40 y = 15 }
 			font = "hoi_18mbs"
-			text = "[?this.GetName]"
+			text = "[?enemies^i]"
 			format = left
 			maxWidth = 200
 			maxHeight = 24
