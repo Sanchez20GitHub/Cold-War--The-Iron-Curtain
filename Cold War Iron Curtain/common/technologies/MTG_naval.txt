@@ -1238,7 +1238,7 @@ technologies = {
 			screen_hull_medium_0
 		}
 		enable_equipment_modules = { 
-			medium_screen_engine_0
+			screen_engine_0
 		}
 		path = {
 			leads_to_tech = screen_hull_medium_1
@@ -1284,7 +1284,7 @@ technologies = {
 			screen_hull_medium_1
 		}
 		enable_equipment_modules = { 
-			medium_screen_engine_1
+			screen_engine_1
 		}
 		path = {
 			leads_to_tech = rhib_launch_2
@@ -1326,7 +1326,7 @@ technologies = {
 			screen_hull_medium_2
 		}
 		enable_equipment_modules = { 
-			medium_screen_engine_2
+			screen_engine_2
 		}
 		path = {
 			leads_to_tech = screen_hull_medium_3
@@ -1372,7 +1372,7 @@ technologies = {
 			screen_hull_medium_3
 		}
 		enable_equipment_modules = { 
-			medium_screen_engine_3
+			screen_engine_3
 		}
 		path = {
 			leads_to_tech = screen_hull_medium_4
@@ -1418,7 +1418,7 @@ technologies = {
 			screen_hull_medium_4
 		}
 		enable_equipment_modules = { 
-			medium_screen_engine_4
+			screen_engine_4
 		}
 		
 		research_cost = 1.5
@@ -1653,7 +1653,7 @@ technologies = {
 			screen_hull_large_0
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_0
+			screen_engine_0
 		}
 		path = {
 			leads_to_tech = screen_hull_large_1
@@ -1691,7 +1691,7 @@ technologies = {
 			screen_hull_large_1
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_1
+			screen_engine_1
 		}
 		path = {
 			leads_to_tech = screen_hull_large_2
@@ -1733,7 +1733,7 @@ technologies = {
 			screen_hull_large_2
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_2
+			screen_engine_2
 		}
 		path = {
 			leads_to_tech = screen_hull_large_3
@@ -1775,7 +1775,7 @@ technologies = {
 			screen_hull_large_3
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_3
+			screen_engine_3
 		}
 		path = {
 			leads_to_tech = screen_hull_large_4
@@ -1817,7 +1817,7 @@ technologies = {
 			screen_hull_large_4
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_4
+			screen_engine_4
 		}
 		path = {
 			leads_to_tech = screen_aviation_4
@@ -1851,7 +1851,7 @@ technologies = {
 	}
 	
 	rhib_launch_1 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			rhib_launch_1
 		}
 		path = {
@@ -1890,7 +1890,7 @@ technologies = {
 	}
 	
 	rhib_launch_2 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			rhib_launch_2
 		}
 		path = {
@@ -1929,7 +1929,7 @@ technologies = {
 	}
 	
 	rhib_launch_3 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			rhib_launch_3
 		}
 		path = {
@@ -1968,7 +1968,7 @@ technologies = {
 	}
 	
 	rhib_launch_4 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			rhib_launch_4
 		}
 		path = {
@@ -2003,7 +2003,7 @@ technologies = {
 	}
 	
 	screen_aviation_1 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			screen_aviation_1
 		}
 		path = {
@@ -2042,7 +2042,7 @@ technologies = {
 	}
 	
 	screen_aviation_2 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			screen_aviation_2
 		}
 		path = {
@@ -2081,7 +2081,7 @@ technologies = {
 	}
 	
 	screen_aviation_3 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			screen_aviation_3
 		}
 		path = {
@@ -2120,7 +2120,7 @@ technologies = {
 	}
 	
 	screen_aviation_4 = {
-		enable_equipments = { 
+		enable_equipment_modules = { 
 			screen_aviation_4
 		}
 		path = {

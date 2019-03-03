@@ -4329,7 +4329,15 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "ww_capitals_tree"
-				position = { x = 100 y = 120}
+				position = { x = 150 y = 150}
+				size = { width = 100 height = 140 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "ww_carriers_tree"
+				position = { x = 850 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
