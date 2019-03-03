@@ -39,6 +39,7 @@ technology_categories = {
 	cat_strategic_bomber
 	naval_bomber
 	cas_bomber
+	naval_equipment
 	screen_tech
 	screen_tech_hull
 	screen_hull_large
@@ -64,6 +65,12 @@ technology_categories = {
 	capital_tech
 	capital_tech_hull
 	capital_tech_weapon
+	naval_modules_general
+	naval_countermeasures
+	naval_sonar
+	naval_antisub
+	naval_subkiller
+	ciws
 	shbb_tech
 	ss_tech
 	ss_tech_hull
@@ -183,6 +190,11 @@ technology_folders = {
 		}
 	}
 	mtgnavallargefolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+	}
+	mtgnavalmodulefolder = {
 		available = {
 			has_dlc = "Man the Guns"
 		}

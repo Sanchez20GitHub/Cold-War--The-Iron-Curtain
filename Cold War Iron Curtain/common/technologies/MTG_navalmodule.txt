@@ -1,0 +1,739 @@
+technologies = {
+	countermeasures_0 = {
+		enable_equipment_modules = { 
+			countermeasures_0
+		}
+		path = {
+			leads_to_tech = countermeasures_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1945
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_1 = {
+		enable_equipment_modules = { 
+			countermeasures_1
+		}
+		path = {
+			leads_to_tech = countermeasures_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1955
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_2 = {
+		enable_equipment_modules = { 
+			countermeasures_2
+		}
+		path = {
+			leads_to_tech = countermeasures_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1965
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_3 = {
+		enable_equipment_modules = { 
+			countermeasures_3
+		}
+		path = {
+			leads_to_tech = countermeasures_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ciws_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1975
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_4 = {
+		enable_equipment_modules = { 
+			countermeasures_4
+		}
+		path = {
+			leads_to_tech = countermeasures_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1985
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_5 = {
+		enable_equipment_modules = { 
+			countermeasures_5
+		}
+		path = {
+			leads_to_tech = countermeasures_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1995
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	countermeasures_6 = {
+		enable_equipment_modules = { 
+			countermeasures_6
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2005
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+		}
+	}
+	ciws_0 = {
+		enable_equipment_modules = { 
+			ciws_0
+		}
+		path = {
+			leads_to_tech = ciws_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+			ciws
+		}
+	}
+	ciws_1 = {
+		enable_equipment_modules = { 
+			ciws_1
+		}
+		path = {
+			leads_to_tech = ciws_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+			ciws
+		}
+	}
+	ciws_2 = {
+		enable_equipment_modules = { 
+			ciws_2
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = -2 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_countermeasures
+			ciws
+		}
+	}
+	sonar_0 = {
+		enable_equipment_modules = { 
+			sonar_0
+		}
+		path = {
+			leads_to_tech = sonar_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1945
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sonar
+			naval_antisub
+		}
+	}
+	sonar_1 = {
+		enable_equipment_modules = { 
+			sonar_1
+		}
+		path = {
+			leads_to_tech = sonar_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sonar
+			naval_antisub
+		}
+	}
+	sonar_2 = {
+		enable_equipment_modules = { 
+			sonar_2
+		}
+		path = {
+			leads_to_tech = sonar_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1975
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sonar
+			naval_antisub
+		}
+	}
+	sonar_3 = {
+		enable_equipment_modules = { 
+			sonar_3
+		}
+		path = {
+			leads_to_tech = sonar_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ciws_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sonar
+			naval_antisub
+		}
+	}
+	sonar_4 = {
+		enable_equipment_modules = { 
+			sonar_4
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2005
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_sonar
+			naval_antisub
+		}
+	}
+	subkiller_0 = {
+		enable_equipment_modules = { 
+			subkiller_0
+		}
+		path = {
+			leads_to_tech = subkiller_1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1940
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_1 = {
+		enable_equipment_modules = { 
+			subkiller_1
+		}
+		path = {
+			leads_to_tech = subkiller_2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1950
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_2 = {
+		enable_equipment_modules = { 
+			subkiller_2
+		}
+		path = {
+			leads_to_tech = subkiller_3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1960
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_3 = {
+		enable_equipment_modules = { 
+			subkiller_3
+		}
+		path = {
+			leads_to_tech = subkiller_4
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ciws_0
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1970
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 14 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_4 = {
+		enable_equipment_modules = { 
+			subkiller_4
+		}
+		path = {
+			leads_to_tech = subkiller_5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1980
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 18 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_5 = {
+		enable_equipment_modules = { 
+			subkiller_5
+		}
+		path = {
+			leads_to_tech = subkiller_6
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 1990
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 22 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+	subkiller_6 = {
+		enable_equipment_modules = { 
+			subkiller_6
+		}
+		
+		research_cost = 1.5
+		
+		start_year = 2000
+
+		folder = {
+			name = mtgnavalmodulefolder
+			position = { x = 0 y = 26 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 2
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			naval_modules_general
+			naval_subkiller
+			naval_antisub
+		}
+	}
+}
