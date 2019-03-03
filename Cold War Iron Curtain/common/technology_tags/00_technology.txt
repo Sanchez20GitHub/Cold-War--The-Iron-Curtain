@@ -172,6 +172,11 @@ technology_folders = {
 			has_dlc = "Man the Guns"
 		}
 	}
+	mtgnavallargefolder = {
+		available = {
+			has_dlc = "Man the Guns"
+		}
+	}
 	industry_folder
 	land_doctrine_folder
 	naval_doctrine_folder
