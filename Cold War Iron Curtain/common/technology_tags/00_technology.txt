@@ -72,9 +72,9 @@ technology_categories = {
 	naval_subkiller
 	ciws
 	naval_weapon
-	naval_light_armament_cwic
-	naval_medium_armament_cwic
-	naval_heavy_armament_cwic
+	naval_light_armament
+	naval_medium_armament
+	naval_heavy_armament
 	shbb_tech
 	ss_tech
 	ss_tech_hull
