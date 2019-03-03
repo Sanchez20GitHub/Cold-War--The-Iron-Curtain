@@ -13,6 +13,14 @@ state={
 			add_core_of = POR
 
 		}
+		1963.1.1 = {
+			owner = GNB
+
+		}
+		1974.1.1 = {
+			remove_core_of = POR
+
+		}
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -26,6 +34,7 @@ state={
 
 		}
 		add_core_of = POR
+		add_core_of = GNB
 		victory_points = {
 			12891 5 
 		}
