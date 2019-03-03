@@ -952,7 +952,7 @@ ideas = {
 			stability_factor = -0.20
 			maoism_drift = -0.002
 			communism_drift = -0.002
-			socialism_drift = -0.002
+			socialist_drift = -0.002
 			neutrality_drift = 0.003
 			}
 		}
