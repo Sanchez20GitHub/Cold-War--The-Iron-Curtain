@@ -665,7 +665,7 @@ technologies = {
 			carrier_deck_light_1
 		}
 		path = {
-			leads_to_tech = carrier_hull_1
+			leads_to_tech = carrier_hull_2
 			research_cost_coeff = 1
 		}
 		path = {
@@ -679,7 +679,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 10 }
+			position = { x = -2 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -716,7 +716,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 10 }
+			position = { x = 2 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -753,7 +753,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 16 }
+			position = { x = -2 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -790,7 +790,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 16 }
+			position = { x = 2 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -827,7 +827,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 22 }
+			position = { x = -2 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -864,7 +864,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 22 }
+			position = { x = 2 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -897,7 +897,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 28 }
+			position = { x = -2 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -930,7 +930,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 0 y = 28 }
+			position = { x = 2 y = 28 }
 		}
 		
 		ai_will_do = {
