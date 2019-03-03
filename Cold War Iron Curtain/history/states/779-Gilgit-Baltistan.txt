@@ -5,6 +5,9 @@ state={
 
 	history={
 		owner = RAJ
+		victory_points = {
+			2084 2
+		}
 		set_state_flag = mountainshot
 		set_state_flag = basic
 		set_state_flag = small
