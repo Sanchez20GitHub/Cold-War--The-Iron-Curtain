@@ -51,11 +51,15 @@ technology_categories = {
 	dd_tech
 	cl_tech
 	ca_tech
+	carrier_tech
+	carrier_tech_hull
+	carrier_tech_deck
 	cv_tech
 	bc_tech
 	bb_tech
 	capital_tech
 	capital_tech_hull
+	capital_tech_weapon
 	shbb_tech
 	ss_tech
 	ss_tech_hull

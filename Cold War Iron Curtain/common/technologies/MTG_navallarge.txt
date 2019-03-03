@@ -239,7 +239,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 2 y = 4 }
+			position = { x = 4 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -273,7 +273,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 2 y = 10 }
+			position = { x = 4 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -307,7 +307,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 2 y = 16 }
+			position = { x = 4 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -341,7 +341,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 2 y = 22 }
+			position = { x = 4 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -371,7 +371,7 @@ technologies = {
 
 		folder = {
 			name = mtgnavallargefolder
-			position = { x = 2 y = 28 }
+			position = { x = 4 y = 28 }
 		}
 		
 		ai_will_do = {
@@ -396,6 +396,9 @@ technologies = {
 		}
 		enable_equipment_modules = { 
 			capital_engine_ww
+		}
+		enable_equipment_modules = { 
+			carrier_deck_ww
 		}
 		path = {
 			leads_to_tech = carrier_hull_0
