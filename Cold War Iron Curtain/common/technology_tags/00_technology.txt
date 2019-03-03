@@ -54,6 +54,10 @@ technology_categories = {
 	carrier_tech
 	carrier_tech_hull
 	carrier_tech_deck
+	supercarrier_tech
+	amphibious_tech
+	helicarrier_tech
+	mediumcarrier_tech
 	cv_tech
 	bc_tech
 	bb_tech
