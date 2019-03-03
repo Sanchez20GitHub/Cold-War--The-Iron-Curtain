@@ -1395,14 +1395,14 @@ focus_tree = {
 		x = 5
 		y = 27
 			completion_reward = {
-				CTD = {
+				IVO = {
 					every_owned_state = {
 						add_core_of = ROOT
 					}
 				}	
 				create_wargoal = {
 						type = annex_everything
-						target = CTD
+						target = IVO
 					}
 			}
 	}
@@ -1416,14 +1416,14 @@ focus_tree = {
 		x = 9
 		y = 27
 			completion_reward = {
-				BEN = {
+				DAH = {
 					every_owned_state = {
 						add_core_of = ROOT
 					}
 				}	
 				create_wargoal = {
 						type = annex_everything
-						target = BEN
+						target = DAH
 					}
 				TOG = {
 					every_owned_state = {
@@ -1890,7 +1890,7 @@ focus_tree = {
 		y = 19
 		completion_reward = {
 			add_ideas = customs_union_guineau
-			"GUI" = {
+			"GNA" = {
 				add_ideas = customs_union_ghana
 			}
 		}
@@ -2041,7 +2041,7 @@ focus_tree = {
 			every_owned_state = {
 				add_manpower = -25000
 			}
-			NIA = {
+			NGA = {
 				capital_scope = {
 					add_manpower = 75000
 				}

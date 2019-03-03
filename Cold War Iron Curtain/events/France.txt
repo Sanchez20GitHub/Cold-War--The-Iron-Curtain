@@ -192,8 +192,8 @@ country_event = {
 			factor = 90
 		}
 		name = fra.8.a
-		"GUI" = {
-				set_autonomy = { target = GUI autonomy_state = autonomy_free }	
+		"GNA" = {
+				set_autonomy = { target = GNA autonomy_state = autonomy_free }	
 				if = {
 					limit = {
 						has_war_with = VIN
@@ -292,7 +292,7 @@ country_event = {
 					white_peace = VIN			
 				}
 				release = CAR
-            	release = ROC
+            	release = RCG
                 release = GAB			
 		}
 	}

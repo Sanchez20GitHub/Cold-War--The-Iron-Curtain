@@ -224,18 +224,18 @@ focus_tree = {
 		x = 2
 		y = 3
 			available = {
-					NIA = {
+					NGA = {
 							is_subject = no
 						}
 				}
 			completion_reward = {
 					ENG = {
 							add_opinion_modifier = {
-									target = NIA
+									target = NGA
 									modifier = large_increase
 								}
 						}
-					NIA = {
+					NGA = {
 							add_opinion_modifier = {
 									target = ENG
 									modifier = large_increase
@@ -365,7 +365,7 @@ focus_tree = {
 			completion_reward = {
 					create_wargoal = {
 							type = annex_everything
-							target = NIA
+							target = NGA
 						}
 				}
 
@@ -1438,7 +1438,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							NIA = {
+							NGA = {
 									add_timed_idea = {
 											idea = trotskyism_drift
 											days = 900
@@ -1456,7 +1456,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							SLK = {
+							SRL = {
 									add_timed_idea = {
 											idea = trotskyism_drift
 											days = 900
@@ -1509,7 +1509,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							NIA = {
+							NGA = {
 									add_timed_idea = {
 											idea = internationalism
 											days = 900
@@ -1527,7 +1527,7 @@ focus_tree = {
 											days = 900
 										}
 								}
-							SLK = {
+							SRL = {
 									add_timed_idea = {
 											idea = internationalism
 											days = 900

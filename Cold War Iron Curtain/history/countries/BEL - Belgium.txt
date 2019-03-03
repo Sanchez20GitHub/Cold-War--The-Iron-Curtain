@@ -238,13 +238,13 @@ if = {
 		freedom_level = 0.4
 	}
     set_autonomy = {
-		target = BUR
+		target = BRD
 		autonomous_state = autonomy_protectorate
 		freedom_level = 0.4
 	}		
 	else = {
 		puppet = DOC
-		puppet = BUR
+		puppet = BRD
 	}
 }
 
@@ -275,8 +275,8 @@ create_corps_commander = {
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	#planning_skill = 4
+	#logistics_skill = 4
 }
 
 create_navy_leader = {
@@ -286,8 +286,8 @@ create_navy_leader = {
 	skill = 4
 	attack_skill = 4
 	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 4
+	#planning_skill = 4
+	#logistics_skill = 4
 }
 
 create_country_leader = {
@@ -646,7 +646,7 @@ create_country_leader = {
 }
 
 1962.7.1 = {
-	set_autonomy = { target = BUR autonomy_state = autonomy_free }
+	set_autonomy = { target = BRD autonomy_state = autonomy_free }
 }
 
 1965.6.28 = {

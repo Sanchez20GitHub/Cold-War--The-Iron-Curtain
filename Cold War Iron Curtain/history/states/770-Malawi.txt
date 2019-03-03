@@ -4,12 +4,12 @@ state={
 	name="STATE_770"
 
 	history={
-		owner = NYA
+		owner = MLW
 		set_state_flag = mountains
 		set_state_flag = freshwatersea
 		set_state_flag = small
 		set_state_flag = poor
-		add_core_of = NYA
+		add_core_of = MLW
 		victory_points = {
 			12908 5 
 		}
@@ -28,7 +28,7 @@ state={
 
 		}
 		1963.1.1 = {
-			owner = NYA
+			owner = MLW
 			remove_core_of = ZIM
 
 		}

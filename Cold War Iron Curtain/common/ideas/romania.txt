@@ -657,7 +657,7 @@ ideas = {
 			equipment_bonus = {
 				heavy_cruiser = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
 					armor_value = 0.2
-					attack = 0.1
+					
 					build_cost_ic = -0.05
 					instant = yes
 				}
@@ -681,14 +681,14 @@ ideas = {
 			equipment_bonus = {
 				heavy_cruiser = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
 					armor_value = 0.2
-					attack = 0.1
+					
 					build_cost_ic = -0.05
 					instant = yes
 				}
 			
 				destroyer = { #If you change this - Change the custom tooltip too: ROM_coastal_defense_ships_tech_tt
 					torpedo_attack = 0.2
-					fire_range = -0.2
+					
 					instant = yes
 				}
 			}
@@ -1130,27 +1130,15 @@ ideas = {
 			
 			equipment_bonus = {
 				destroyer = {
-					attack = 0.1
+				
 					naval_range = -0.5
 					build_cost_ic = -0.20
 					instant = yes
 				}
 				light_cruiser = {
-					attack = 0.1
+				
 					naval_range = -0.5
 					build_cost_ic = -0.20
-					instant = yes
-				}
-				heavy_cruiser = {					
-					shore_bombardment = 0.1
-					instant = yes
-				}
-				battle_cruiser = {					
-					shore_bombardment = 0.1
-					instant = yes
-				}
-				battleship = { 					
-					shore_bombardment = 0.1
 					instant = yes
 				}
 			}
@@ -1180,19 +1168,19 @@ ideas = {
 			
 			equipment_bonus = {
 				heavy_cruiser = {
-					attack = 0.2
+				
 					naval_range = -0.5
 					armor_value = 0.2
 					instant = yes
 				}
 				battle_cruiser = {
-					attack = 0.2
+					
 					naval_range = -0.5
 					armor_value = 0.2
 					instant = yes
 				}
 				battleship = {
-					attack = 0.2
+				
 					naval_range = -0.5
 					armor_value = 0.2
 					instant = yes

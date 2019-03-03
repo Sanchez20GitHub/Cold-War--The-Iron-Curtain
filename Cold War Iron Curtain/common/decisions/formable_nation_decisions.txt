@@ -1591,7 +1591,7 @@ form_persian_empire_category = {
 			OR = {
 				original_tag = PER
 				original_tag = AFG
-				original_tag = TJK
+				original_tag = TAJ
 			}
 			has_dlc = "Waking the Tiger"
 		}

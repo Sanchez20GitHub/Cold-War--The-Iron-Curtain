@@ -4,13 +4,13 @@ state={
 	name="STATE_515"
 
 	history={
-		owner = ROC
+		owner = RCG
 		set_state_flag = tropical
 		set_state_flag = river
 		set_state_flag = medium
 		set_state_flag = abjectpoor
 		add_core_of = CAR
-		add_core_of = ROC
+		add_core_of = RCG
 		victory_points = {
 			12830 5 
 		}
@@ -27,7 +27,7 @@ state={
 		}
 		1958.1.1 = {
 			owner = CAR
-			remove_core_of = ROC
+			remove_core_of = RCG
 
 		}
 

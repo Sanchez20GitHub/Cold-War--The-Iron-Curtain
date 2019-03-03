@@ -190,11 +190,11 @@ focus_tree = {
 			add_stability = 0.03
 			UGA = {
 				add_opinion_modifier = {
-					target = TAZ
+					target = TZN
 					modifier = small_decrease
 				}
 			}
-			TAZ = {
+			TZN = {
 				add_opinion_modifier = {
 					target = UGA
 					modifier = small_decrease
@@ -919,11 +919,11 @@ focus_tree = {
 		completion_reward = {
 			UGA = {
 				add_opinion_modifier = {
-					target = TAZ
+					target = TZN
 					modifier = large_decrease
 				}
 			}
-			TAZ = {
+			TZN = {
 				add_opinion_modifier = {
 					target = UGA
 					modifier = large_decrease

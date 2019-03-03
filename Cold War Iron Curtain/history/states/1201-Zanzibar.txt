@@ -11,8 +11,8 @@ state={
 
 		}
 		1964.1.1 = {
-			owner = TAZ
-			add_core_of = TAZ
+			owner = TZN
+			add_core_of = TZN
 		}
     }
 	provinces={

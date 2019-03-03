@@ -56,7 +56,9 @@ focus_tree = {
 		cost = 10.00
 		x = 4
 		y = 0
-
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}	
 	}
 	focus = {
 		id = ISR_Hula_Valley_Reclamation
@@ -78,7 +80,9 @@ focus_tree = {
 		}
 		x = 1
 		y = 2
-
+		completion_reward = {
+			add_ideas = education_reform_2 
+		}
 	}
 	focus = {
 		id = ISR_Israeli_Atomic_Commission
@@ -211,7 +215,9 @@ focus_tree = {
 		}
 		x = 7
 		y = 17
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Condemn_American_Imperialism
@@ -283,7 +289,13 @@ focus_tree = {
 		}
 		x = 10
 		y = 2
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_3
+				amount = 350
+				producer = CZE
+			}		
+		}
 	}
 	focus = {
 		id = ISR_Domestic_Air_Manufacturing
@@ -294,7 +306,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 2
-
+		completion_reward = {
+			add_offsite_building = { type = arms_factory level = 3 }
+		}
 	}
 	focus = {
 		id = ISR_Develop_Former_British_Airfields
@@ -308,7 +322,22 @@ focus_tree = {
 		}
 		x = 12
 		y = 3
-
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}			
+			}
+			random_owned_controlled_state = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}			
+			}
+		}
 	}
 	focus = {
 		id = ISR_Israeli_Paratroopers
@@ -319,7 +348,14 @@ focus_tree = {
 		}
 		x = 12
 		y = 4
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = paratrooper_bonus
+							bonus = 0.5
+							uses = 2
+							category = sf_forces
+						}
+				}
 	}
 	focus = {
 		id = ISR_Mapam_Victory
@@ -330,7 +366,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 8
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Enter_Coalition_with_Maki
@@ -341,7 +379,13 @@ focus_tree = {
 		}
 		x = 12
 		y = 9
-
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = 0.02
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = ISR_Nationalize_Healthcare
@@ -352,7 +396,9 @@ focus_tree = {
 		}
 		x = 10
 		y = 10
-
+		completion_reward = {
+			add_ideas = socialism_healthcare
+		}	
 	}
 	focus = {
 		id = ISR_State_Atheism
@@ -363,7 +409,9 @@ focus_tree = {
 		}
 		x = 12
 		y = 20
-
+		completion_reward = {
+			add_ideas = state_atheism
+		}	
 	}
 	focus = {
 		id = ISR_Promote_Womens_Rights
@@ -374,7 +422,9 @@ focus_tree = {
 		}
 		x = 16
 		y = 9
-
+		completion_reward = {
+			add_ideas = womens_rights
+		}
 	}
 	focus = {
 		id = ISR_Empower_Labor_Unions
@@ -388,7 +438,9 @@ focus_tree = {
 		}
 		x = 14
 		y = 10
-
+			completion_reward = {
+					add_ideas = strengthened_labor_unions
+				}
 	}
 	focus = {
 		id = ISR_Promote_A_Secular_Society
@@ -399,7 +451,9 @@ focus_tree = {
 		}
 		x = 18
 		y = 10
-
+		completion_reward = {
+			add_ideas = secular_influence
+		}
 	}
 	focus = {
 		id = ISR_The_Slansky_Trial
@@ -441,7 +495,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 13
-
+		completion_reward = {
+			add_ideas = soviet_advisors
+		}
 	}
 	focus = {
 		id = ISR_Lift_Martial_Law
@@ -548,7 +604,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 3
-
+		completion_reward = {
+			army_experience = 50
+			air_experience = 25
+		}
 	}
 	focus = {
 		id = ISR_Prepare_for_the_Worst
@@ -679,7 +738,9 @@ focus_tree = {
 		}
 		x = 20
 		y = 17
-
+		available = {
+			always = no
+		}	
 	}
 	focus = {
 		id = ISR_Establish_State_Pensions

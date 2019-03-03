@@ -1365,7 +1365,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
-					is_core_of = NYA
+					is_core_of = MLW
 				}
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
@@ -1844,7 +1844,7 @@ focus_tree = {
 			drop_cosmetic_tag = yes
 			set_cosmetic_tag = ZIM_ENG
 			release = ZAM
-			release = NYA
+			release = MLW
 		}
 	}
 	focus = {
@@ -2281,7 +2281,7 @@ focus_tree = {
 		completion_reward = {
 			random_owned_controlled_state = {
 				limit = {
-					is_core_of = NYA
+					is_core_of = MLW
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

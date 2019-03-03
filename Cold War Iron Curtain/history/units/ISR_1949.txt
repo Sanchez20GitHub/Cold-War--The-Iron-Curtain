@@ -117,16 +117,8 @@ units = {
 	}
 	
 	##### Naval OOB #####
-	navy = {					
-		name = "Israeli Navy"				
-		base = 1015
-		location = 1015
-		ship = { name = "INS Wedgwood (K-18)" definition = destroyer equipment = { frigate_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "INS Haganah (K-20)" definition = destroyer equipment = { frigate_1 = { amount = 1 owner = ENG } } }
-		ship = { name = "INS Nogah (K-26)" definition = destroyer equipment = { frigate_2 = { amount = 1 owner = USA } } }
-		ship = { name = "INS Mivtach (K-28)" definition = destroyer equipment = { frigate_1 = { amount = 1 owner = CAN } } }
-   }
-    }
+
+}
 air_wings = {
 	454 = {														
 		fighter_equipment_1 =  { owner = "ISR" amount = 25 }

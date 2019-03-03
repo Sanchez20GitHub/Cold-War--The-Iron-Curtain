@@ -378,20 +378,7 @@ create_country_leader = {
 	ideology = maoist
 }	
 
-create_equipment_variant = {
-	name = "Königsberg Class"
-	type = light_cruiser_1
-	parent_version = 0
-	upgrades = {
-		ship_reliability_upgrade = 2
-		ship_engine_upgrade = 2
-		ship_gun_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-	obsolete = yes
-  }
 }
-
 1956.1.1 = {
 create_corps_commander = {
 	name = "Adolf Heusinger"
@@ -399,8 +386,8 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -409,8 +396,8 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -419,8 +406,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 create_corps_commander = {
 	name = "Johann von Kielmansegg"
@@ -428,8 +415,8 @@ create_corps_commander = {
 	skill = 2
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
  }
 }
 

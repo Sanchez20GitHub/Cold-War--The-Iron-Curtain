@@ -1017,7 +1017,7 @@ focus_tree = {
 			completion_reward = {
 					create_wargoal = {
 							type = puppet_wargoal_focus
-							target = MYR
+							target = BRM
 						}
 				}
 	}

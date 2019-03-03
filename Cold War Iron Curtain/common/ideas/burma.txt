@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 
-		MYR_internal_conflict_1 = {
+		BRM_internal_conflict_1 = {
 			
 			allowed = { always = yes }
 
@@ -18,7 +18,7 @@ ideas = {
 
 			picture = FRA_national_mobilization_focus
 		}
-		MYR_internal_conflict_2 = {
+		BRM_internal_conflict_2 = {
 			
 			allowed = { always = yes }
 
@@ -34,7 +34,7 @@ ideas = {
 
 			picture = FRA_national_mobilization_focus
 		}
-		MYR_internal_conflict_3 = {
+		BRM_internal_conflict_3 = {
 			
 			allowed = { always = yes }
 

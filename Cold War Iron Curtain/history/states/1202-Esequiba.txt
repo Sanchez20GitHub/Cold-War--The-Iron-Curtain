@@ -11,13 +11,13 @@ state={
 
 
 		}
-		add_core_of = GUY
+		add_core_of = GYA
 		1962.1.1 = {
 			add_claim_by = VEN
 
 		}
 		1966.1.1 = {
-			owner = GUY
+			owner = GYA
 
 		}
 

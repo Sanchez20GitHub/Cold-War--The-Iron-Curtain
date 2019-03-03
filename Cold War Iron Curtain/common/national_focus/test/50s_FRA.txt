@@ -1084,20 +1084,20 @@ focus_tree = {
 		completion_reward = {
 		set_autonomy = { target = MOR autonomy_state = autonomy_free }	
 		set_autonomy = { target = TUN autonomy_state = autonomy_free }	
-		set_autonomy = { target = CTD autonomy_state = autonomy_free }	
+		set_autonomy = { target = IVO autonomy_state = autonomy_free }	
 		set_autonomy = { target = CHA autonomy_state = autonomy_free }	
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
-		set_autonomy = { target = BEN autonomy_state = autonomy_free }	
+		set_autonomy = { target = DAH autonomy_state = autonomy_free }	
 		set_autonomy = { target = TOG autonomy_state = autonomy_free }	
-		set_autonomy = { target = MAU autonomy_state = autonomy_free }	
-		set_autonomy = { target = BRK autonomy_state = autonomy_free }	
+		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
+		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
-		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
-		set_autonomy = { target = GUI autonomy_state = autonomy_free }	
+		set_autonomy = { target = NGR autonomy_state = autonomy_free }	
+		set_autonomy = { target = GNA autonomy_state = autonomy_free }	
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }
 		GAB = { transfer_state = 815 transfer_state = 539 }
-		ROC = { transfer_state = 769 transfer_state = 819 }
+		RCG = { transfer_state = 769 transfer_state = 819 }
 		CAR = { transfer_state = 515 transfer_state = 818 }
 		MAD = { transfer_state = 543 transfer_state = 828 }
 		FRA = { release = ALG }
@@ -2443,20 +2443,20 @@ focus_tree = {
 		completion_reward = {
 		set_autonomy = { target = MOR autonomy_state = autonomy_free }	
 		set_autonomy = { target = TUN autonomy_state = autonomy_free }	
-		set_autonomy = { target = CTD autonomy_state = autonomy_free }	
+		set_autonomy = { target = IVO autonomy_state = autonomy_free }	
 		set_autonomy = { target = CHA autonomy_state = autonomy_free }	
 		set_autonomy = { target = SEN autonomy_state = autonomy_free }	
-		set_autonomy = { target = BEN autonomy_state = autonomy_free }	
+		set_autonomy = { target = DAH autonomy_state = autonomy_free }	
 		set_autonomy = { target = TOG autonomy_state = autonomy_free }	
-		set_autonomy = { target = MAU autonomy_state = autonomy_free }	
-		set_autonomy = { target = BRK autonomy_state = autonomy_free }	
+		set_autonomy = { target = MRT autonomy_state = autonomy_free }	
+		set_autonomy = { target = VOL autonomy_state = autonomy_free }	
 		set_autonomy = { target = MLI autonomy_state = autonomy_free }	
-		set_autonomy = { target = NIG autonomy_state = autonomy_free }	
-		set_autonomy = { target = GUI autonomy_state = autonomy_free }	
+		set_autonomy = { target = NGR autonomy_state = autonomy_free }	
+		set_autonomy = { target = GNA autonomy_state = autonomy_free }	
 		LBA = { transfer_state = 775 }
 		CMR = { transfer_state = 817 transfer_state = 816 transfer_state = 768 }
 		GAB = { transfer_state = 815 transfer_state = 539 }
-		ROC = { transfer_state = 769 transfer_state = 819 }
+		RCG = { transfer_state = 769 transfer_state = 819 }
 		CAR = { transfer_state = 515 transfer_state = 818 }
 		MAD = { transfer_state = 543 transfer_state = 828 }
 		}

@@ -26,9 +26,9 @@ state={
 			1909 5 
 		}
 		add_core_of = SEN
-		add_core_of = GUI
+		add_core_of = GNA
 		1960.1.1 = {
-			owner = GUI
+			owner = GNA
 			remove_core_of = SEN
 
 		}

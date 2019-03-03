@@ -5,9 +5,9 @@ state={
 
 	history={
 	    owner = ENG
-		add_core_of = TAZ
+		add_core_of = TZN
 		1961.1.1 = {
-			owner = TAZ
+			owner = TZN
 		}
 		buildings = {
 			infrastructure = 1

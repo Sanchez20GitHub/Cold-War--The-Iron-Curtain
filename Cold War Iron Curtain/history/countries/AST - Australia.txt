@@ -124,7 +124,7 @@ set_technology = {
 	cv_CAS1 = 1
 	cv_CAS2 = 1
 	cv_CAS3 = 1
-	cv_CAS4 = 1
+	#cv_CAS4 = 1
 
 	fighter1 = 1
 	fighter2 = 1
@@ -287,8 +287,8 @@ create_corps_commander = {
 	skill = 4
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_field_marshal = {
@@ -298,8 +298,8 @@ create_field_marshal = {
 	skill = 3
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -309,8 +309,8 @@ create_corps_commander = {
 	skill = 5
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -320,8 +320,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -331,8 +331,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -342,8 +342,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -353,58 +353,16 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Tribal Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 2
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-}
 
-create_equipment_variant = {
-	name = "Bathurst Class"
-	type = frigate_1
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 2
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 2
-	}
-}
-
-create_equipment_variant = {
-	name = "River Class"
-	type = frigate_1
-	upgrades = {
-		ship_torpedo_upgrade = 5
-		destroyer_engine_upgrade = 4
-		ship_ASW_upgrade = 5
-		ship_anti_air_upgrade = 5
-	}
-}
-
-create_equipment_variant = {
-	name = "County Class"
-	type = light_cruiser_1   # historically heavy cruiser
-	upgrades = {
-		ship_reliability_upgrade = 5
-		ship_engine_upgrade = 5
-		ship_gun_upgrade = 5
-		ship_anti_air_upgrade = 5
-	}
-}
 
 1975.1.1 = {
-	set_autonomy = { target = PAP autonomy_state = autonomy_free }	
+	set_autonomy = { target = PNG autonomy_state = autonomy_free }	
 }
 
 1949.1.1 = {

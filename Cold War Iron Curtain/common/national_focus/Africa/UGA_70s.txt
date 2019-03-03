@@ -804,11 +804,11 @@ focus_tree = {
 		completion_reward = {
 			UGA = {
 				add_opinion_modifier = {
-					target = TAZ
+					target = TZN
 					modifier = large_increase
 				}
 			}
-			TAZ = {
+			TZN = {
 				add_opinion_modifier = {
 					target = UGA
 					modifier = large_increase

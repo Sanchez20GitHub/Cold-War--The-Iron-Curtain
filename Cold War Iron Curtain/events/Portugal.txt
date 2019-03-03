@@ -199,11 +199,11 @@ country_event = {
 				transfer_troops = no
 			}
 			annex_country = {
-				target = SLK
+				target = SRL
 				transfer_troops = no
 			}
 			annex_country = {
-				target = SLE
+				target = SIE
 				transfer_troops = no
 			}
 		}
@@ -438,7 +438,7 @@ country_event = {
 		name = "Ok"
 		release_puppet = ANG
 		release_puppet = MZB
-		release_puppet = EGI
+		release_puppet = GNB
 	}
 }
 country_event = {
@@ -452,7 +452,7 @@ country_event = {
 		name = "Ok"
 		set_autonomy = { target = ANG autonomy_state = autonomy_free }	
 		set_autonomy = { target = MZB autonomy_state = autonomy_free }
-		set_autonomy = { target = EGI autonomy_state = autonomy_free }			
+		set_autonomy = { target = GNB autonomy_state = autonomy_free }			
 	}
 }
 country_event = {
@@ -466,7 +466,7 @@ country_event = {
 		name = "Ok"
 		release = ANG
 		release = MZB
-		release = EGI
+		release = GNB
 	}
 }
 country_event = {

@@ -310,7 +310,7 @@ focus_tree = {
 		x = 17
 		y = 6
 			completion_reward = {
-					TJK = {
+					TAJ = {
 							add_timed_idea = {
 									idea = islamism_drift
 									days = 700
@@ -322,7 +322,7 @@ focus_tree = {
 									days = 700
 								}
 						}
-					TRK = {
+					TMS = {
 							add_timed_idea = {
 									idea = islamism_drift
 									days = 700
@@ -334,7 +334,7 @@ focus_tree = {
 									days = 700
 								}
 						}
-					KRG = {
+					KYR = {
 							add_timed_idea = {
 									idea = islamism_drift
 									days = 700
@@ -917,7 +917,7 @@ focus_tree = {
 		x = 15
 		y = 6
 			completion_reward = {
-					TJK = {
+					TAJ = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200
@@ -931,7 +931,7 @@ focus_tree = {
 								}
 							add_stability = -0.25
 						}
-					TRK = {
+					TMS = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200
@@ -945,7 +945,7 @@ focus_tree = {
 								}
 							add_stability = -0.25
 						}
-					KRG = {
+					KYR = {
 							add_timed_idea = {
 									idea = repression
 									days = 1200

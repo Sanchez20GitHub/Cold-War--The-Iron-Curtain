@@ -1,0 +1,35 @@
+technologies = {
+
+	ww_capitals = {
+		enable_equipments = { 
+			capital_hull_ww
+		}
+		enable_equipment_modules = { 
+			ww_capital_engine
+		}
+		
+		research_cost = 4
+		
+		start_year = 1935
+
+		folder = {
+			name = mtgnavallargefolder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				has_war = yes
+				factor = 4
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			capital_tech
+			capital_tech_hull
+		}
+	}
+}

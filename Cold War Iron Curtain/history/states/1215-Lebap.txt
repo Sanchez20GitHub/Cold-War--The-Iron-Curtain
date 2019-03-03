@@ -8,10 +8,10 @@ state={
 
 	history={
 		owner = SOV
-		add_core_of = TRK
+		add_core_of = TMS
 		add_core_of = SOV
 		1990.8.1 = {
-			owner = TRK
+			owner = TMS
 			remove_core_of = SOV
 
 		}

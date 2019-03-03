@@ -211,8 +211,8 @@ create_field_marshal = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
 }
 
 create_corps_commander = {
@@ -222,8 +222,8 @@ create_corps_commander = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
 }
 
 create_navy_leader = {
@@ -233,8 +233,8 @@ create_navy_leader = {
 	skill = 3
 	attack_skill = 3
 	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
+	#planning_skill = 3
+	#logistics_skill = 3
 }
 
 1958.1.1 = {

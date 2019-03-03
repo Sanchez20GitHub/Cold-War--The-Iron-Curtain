@@ -9,9 +9,9 @@ state={
 		set_state_flag = lakes
 		set_state_flag = nominal
 		set_state_flag = poor
-		add_core_of = BHM
+		add_core_of = BAH
 		1973.7.1 = {
-			owner = BHM
+			owner = BAH
 
 		}
 		buildings = {

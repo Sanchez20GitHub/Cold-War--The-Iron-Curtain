@@ -7,12 +7,12 @@ state={
 	}
 
 	history={
-		owner = ROC
+		owner = RCG
 		set_state_flag = tropical
 		set_state_flag = river
 		set_state_flag = large
 		set_state_flag = poor
-		add_core_of = ROC
+		add_core_of = RCG
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 1

@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = MYR
+		owner = BRM
 		set_state_flag = tropical
 		set_state_flag = river
 		set_state_flag = micro
@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			1330 5 
 		}
-		add_core_of = MYR
+		add_core_of = BRM
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2

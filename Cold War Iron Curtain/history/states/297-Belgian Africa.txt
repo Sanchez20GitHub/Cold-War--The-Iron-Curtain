@@ -7,18 +7,18 @@ state={
 	}
 
 	history={
-		owner = EGI
+		owner = EQG
 		set_state_flag = tropical
 		set_state_flag = basic
 		set_state_flag = micro
 		set_state_flag = undeveloped
-		add_core_of = EGI
+		add_core_of = EQG
 		1946.1.1 = {
 			owner = SPR
 		    add_core_of = SPR
 		}
 		1959.1.1 = {
-		    owner = EGI
+		    owner = EQG
 			remove_core_of = SPR
 
 		}

@@ -4422,7 +4422,7 @@ focus_tree = {
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = CTD
+							target = IVO
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
@@ -4442,11 +4442,11 @@ focus_tree = {
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = MAU
+							target = MRT
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = BRK
+							target = VOL
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
@@ -4454,11 +4454,11 @@ focus_tree = {
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = NIG
+							target = NGR
 							autonomy_state = autonomy_free
 						}
 					set_autonomy = {
-							target = GUI
+							target = GNA
 							autonomy_state = autonomy_free
 						}
 					LBA = {
@@ -4473,7 +4473,7 @@ focus_tree = {
 							transfer_state = 815
 							transfer_state = 539
 						}
-					ROC = {
+					RCG = {
 							transfer_state = 769
 							transfer_state = 819
 						}

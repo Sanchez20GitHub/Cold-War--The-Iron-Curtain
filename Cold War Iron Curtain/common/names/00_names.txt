@@ -2162,7 +2162,7 @@ VIN = {
 	callsigns = { }
 }
 
-KRG = {
+KYR = {
 	male = {
 		names = {  Daulet Madi Taalay Kasym Orzubek Oboi Sonin Songgotu Suksaha  }
 	}
@@ -2296,7 +2296,7 @@ KUW = {
 	callsigns = { }
 }
 
-NYA = {
+MLW = {
 	male = {
 		names = { 
 			Desmond Abel Kadungure Sekuru Robert Lobengula Joshua Dumiso Leopold Joseph Gabriel Mqabuko Nyongolo Thomas Letswansto Ndabaningi
@@ -2333,7 +2333,7 @@ MLI = {
 	callsigns = { }
 }
 
-NIA = {
+NGA = {
 	male = {
 		names = { 
 			Abi-Bakr Abubakari Akoi Alayaman Ali_Ali Ali-Fay Ali-Kolon Ali-Zalil Badä Bakr Bakr-Kanbu Bamari Bankanu
@@ -2424,7 +2424,7 @@ ALG = {
 	callsigns = { }
 }
 
-MAU = {
+MRT = {
 	male = {
 		names = {  
             Aminata Bakar Ramatulai  Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun
@@ -2441,7 +2441,7 @@ MAU = {
 	callsigns = { }
 }
 
-GUI = {
+GNA = {
 	male = {
 		names = {  
             Aminata Bakar Ramatulai  Sare N'Diklam Tyukuli Leeyti Birayma Bukaar Leele al-Buri Lat Gireun
@@ -2516,7 +2516,7 @@ BEN = {
 	callsigns = { }
 }
 
-NIA = {
+NGA = {
 	male = {
 		names = {  
 			Abayomi Abegunde Abejide Abiade Abidemi Abidugun Abimbola Abiodun Abiola Abioye Adagba Ade Adeagbo Adebamgbe Adebayo Adebowale Adegbalu Adegoke Adejinle Adejola Ademilu Adeniyi Adetokunbo Adisa Afolabi Agbedegbede Ajimuda Akinmoyero Alayemore Amadi Anikulapo Aribiwoso Aworokolokin Ayetise Ayo Ayodele Ayokunle Ayomide Ayotunde Babafemi Babajide Babatunde Bamidele Bandele Bolade Ekun Ekundayo Eniola Enitan Femi Folami Gbanlare Gbegbaaje Gboonijio Giesi Idowu Ifedapo Kashimawo Kayin Kayode Kehinde Lafogido Lagunja Lajamisan Lajodoogun Larunnka Lugbade Lumobi Luwoo Oba Obafemi Obalufon Obamakin Odidimode Odudua Oduduwa Ogbogbodirin Ogboruu Ogun Ojelokunbirin Ojigidiri Okanlajosin Okiti Olabode Oladele Olamilekan Olanrewaju Olateju Olojo Oloyede Olufemi Olufunke Olufunmilola Olujimi Olukayode Olumide Olumuyiwa Oluremi Olusegun Oluwa Oluwafunmilayo Oluwanisola Oluwasegun Oluwaseun Oluwaseyi Oluwatoyin Oluwayemisi Oluyemi Omobolanle Omogbogbo Opeyemi Oranmiyan Oranyan Osangangan Osinkola Osinlade Oyin Remilekun Rogbeesin Taiwo Temiloluwa Tokunbo Wunmonije		
@@ -2716,7 +2716,7 @@ BRT = {
 	callsigns = { "Draco" "Fast" "Tiger" "Sparrow" "Ripper" "Sundance" "Toad" "Twitch" "Farmer" "Weasel" "Target Practice" "Invisible" "Beach Boy" "Princess" "The Mute" "Carpenter"}
 }
 
-NIA = {
+NGA = {
 	male = {
 		names = {  
 			Afamefula Jelani Ali Bakano Obiajulu Yusif Muhktar Jonathan Joseph Michael Uchechee Rabia Mansur Olatimbo Pamilekunayo Olugbenga Oluwatoyin Sunkanmi 		
@@ -2755,7 +2755,7 @@ DOC = {
 	callsigns = { }
 }
 
-ROC = {
+RCG = {
 	male = {
 		names = { 
 			Adolphe Alain Alex Andre Antoine "Antoine-Roger" Awilo Balufu Barly Bismack Bodys Bozi Buata Bulambo "Camille-Pierre" Cedric Christian Corneille Cyrille Danyo Denis Diblo Dieudonne Dikembe Edouard Emmanuel Empompo Eric
@@ -2778,7 +2778,7 @@ ROC = {
 	callsigns = { }
 }
 
-MYR = {
+BRM = {
 	male = {
 		names = {  
 			Kaung Kyaw Win Zin Naing Htun Myint Linn Thuta Yarzar Wunna Thawda Nyan Pyay Phyoe Kan Ag Htun 		
@@ -2836,7 +2836,7 @@ KUR = {
 	callsigns = { }
 }
 
-BUR = {
+BRD = {
 	male = {
 		names = { 
 			Aboubakar Aime Alexis Aloys Alphonse Arthemon Augustin Beni Bilgho Charles Cyprien Dani David Dieudonne Domitien Dramane Egide Ernest Evariste Faustin Francois Frédéric Gabriel Gael Gaston Gerard Germain Gilbert 

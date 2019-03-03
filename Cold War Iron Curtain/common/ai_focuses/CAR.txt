@@ -1,4 +1,4 @@
-ai_historical_focus_list_ROC = {
+ai_historical_focus_list_RCG = {
 	ai_national_focuses = {
 		CAR_60s_Independence_from_France
 		CAR_60s_The_Name

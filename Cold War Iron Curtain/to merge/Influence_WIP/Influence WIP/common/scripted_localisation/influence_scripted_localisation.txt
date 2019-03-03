@@ -545,8 +545,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer1 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer1 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer1 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer1 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -715,8 +715,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer2 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer2 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer2 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer2 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -885,8 +885,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer3 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer3 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer3 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer3 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -1055,8 +1055,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer4 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer4 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer4 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer4 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -1225,8 +1225,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer5 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer5 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer5 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer5 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -1395,8 +1395,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer6 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer6 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer6 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer6 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"
@@ -1565,8 +1565,8 @@ defined_text = {
 	text = { trigger = { check_variable = { influencer7 = SAF } }
         localization_key = "[SAF.GetNameWithFlag]"
     }
-	text = { trigger = { check_variable = { influencer7 = NIG } }
-        localization_key = "[NIG.GetNameWithFlag]"
+	text = { trigger = { check_variable = { influencer7 = NGR } }
+        localization_key = "[NGR.GetNameWithFlag]"
     }
 	text = { trigger = { check_variable = { influencer7 = ETH } }
         localization_key = "[ETH.GetNameWithFlag]"

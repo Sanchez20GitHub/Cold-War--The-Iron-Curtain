@@ -19,12 +19,6 @@ add_ideas = {
 	GRE_imported_food
 	GRE_disorganized_health
 }
-1946.1.1 = {
-	declare_war_on = {
-		target = PDG
-		type = civil_war
-	}
-}
 
 set_technology = {
 	
@@ -346,8 +340,8 @@ create_field_marshal = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_field_marshal = {
@@ -356,8 +350,8 @@ create_field_marshal = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -366,8 +360,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -376,8 +370,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -386,8 +380,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -396,8 +390,8 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -406,17 +400,13 @@ create_corps_commander = {
 	skill = 1
 	attack_skill = 1
 	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1
 }
 
 
 ### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Hydra Class"
-	type = destroyer_1
-}
 
 1960.1.1 = {
 	#load_focus_tree = GRE_60s

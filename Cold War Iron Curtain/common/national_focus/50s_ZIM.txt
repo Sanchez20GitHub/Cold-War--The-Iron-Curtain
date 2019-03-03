@@ -458,7 +458,7 @@ focus_tree = {
 							transfer_troops = yes
 						}
 					annex_country = {
-							target = NYA
+							target = MLW
 							transfer_troops = yes
 						}
 						news_event = {
@@ -657,7 +657,7 @@ focus_tree = {
 		x = 42
 		y = 13
 			completion_reward = {
-					release = NYA
+					release = MLW
 				}
 
 	}
@@ -1681,7 +1681,7 @@ focus_tree = {
 		x = 58
 		y = 14
 			completion_reward = {
-					release = NYA
+					release = MLW
 					add_threat = -5
 				}
 
