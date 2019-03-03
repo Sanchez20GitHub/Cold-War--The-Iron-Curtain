@@ -181,7 +181,7 @@ ideas = {
 		trade_treaty_LES = { targeted_modifier = { tag = LES trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_SWA = { targeted_modifier = { tag = SWA trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_ZAM = { targeted_modifier = { tag = ZAM trade_cost_for_target_factor = -0.5 } }
-		trade_treaty_TAZ = { targeted_modifier = { tag = TAZ trade_cost_for_target_factor = -0.5 } }
+		trade_treaty_TZN = { targeted_modifier = { tag = TZN trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_KUW = { targeted_modifier = { tag = KUW trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_MOR = { targeted_modifier = { tag = MOR trade_cost_for_target_factor = -0.5 } }
 		trade_treaty_TUN = { targeted_modifier = { tag = TUN trade_cost_for_target_factor = -0.5 } }

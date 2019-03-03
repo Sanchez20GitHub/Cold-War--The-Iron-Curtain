@@ -26,7 +26,7 @@ country_event = {
 				}
 				OR = {
 					date > 1961.1.1
-				    NOT = { is_core_of = TAZ }
+				    NOT = { is_core_of = TZN }
 				}
 				OR = {
 					date > 1960.1.1

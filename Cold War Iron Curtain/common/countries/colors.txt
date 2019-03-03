@@ -801,7 +801,7 @@ NMB = {
     color_ui = rgb { 30 50 100 }
 }
 
-TAZ = {
+TZN = {
     color = rgb { 200 70 40 }
     color_ui = rgb { 200 70 40 }
 }
