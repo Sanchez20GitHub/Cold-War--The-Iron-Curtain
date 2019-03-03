@@ -72,7 +72,7 @@ ideas = {
 				conscription = 0.015
 			}
 
-			picture = generic_manpower_bonus
+			picture = defend_israel
 		}
 		
 		idea_ISR_Infantery_equipment = {
@@ -144,12 +144,14 @@ ideas = {
 
 			picture = generic_manpower_bonus
 		}
-	}
+    }
 
 	political_advisor = {
 		
 		Pinchas_Rosen = {
 			
+        picture = pinchen_rosen
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -158,6 +160,8 @@ ideas = {
 		}		
 		
 		Israel_Rokah = {
+
+		picture = Israel_Rokah
 			
 			allowed = {
 				original_tag = ISR
@@ -165,23 +169,13 @@ ideas = {
 
 			traits = { silent_workhorse }
 		}		
-		
-		
-	#}
-	#intel_advisor = {
-		Isser_Harel = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-
-			traits = { extreme_state_security }
-		}		
-	#}
-	#economic_advisor = {		
+	}
+	economic_advisor = {		
 
 		Levi_Eshkol	= {
 			
+            picture = levy_eshkol
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -189,6 +183,8 @@ ideas = {
 			traits = { financial_expert }
 		}		
 		Mordechai_Bentov = {
+
+		picture = Mordechai_Bentov
 			
 			allowed = {
 				original_tag = ISR
@@ -198,6 +194,8 @@ ideas = {
 		}		
 		Peretz_Bernstein = {
 			
+        picture = Perets_Bernstein
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -205,24 +203,11 @@ ideas = {
 			traits = { captain_of_industry }
 		}	
 
-	#}
-	#foriegn_advisor = {
-		Moshe_Sharett = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-
-			traits = { highly_regarded_minister }
-		}			
-		Menachem_Begin = {
-			allowed = {
-				original_tag = ISR
-			}
-
-			traits = { interventionist_minister }		
-		}
+	}
+	foriegn_advisor = {
 		Golda_Meir = {
+
+		picture = golda_meir
 			
 			allowed = {
 				original_tag = ISR
@@ -230,38 +215,22 @@ ideas = {
 
 			traits = { tough_minister }
 		}	
-	#}
-	
-	#education_advisor = {
-		Yosef_Burg = {
+		Moshe_Sharett = {
+
+		picture = Moshe_Sharett
 			
 			allowed = {
 				original_tag = ISR
 			}
 
-			traits = { conservative_educator }
+			traits = { Foreign_Aid_Advocate_minister }
 		}	
-		Zalman_Shazar = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-
-			traits = { secular_educator }
-		}	
-		Ben_Zion_Dinur = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-
-			traits = { progressive_educator }
-		}	
-
 	}
 	army_chief = {
 		
 		Moshe_Dayan_chief = {
+
+		picture = Moshe_Dayan
 			
 			allowed = {
 				original_tag = ISR
@@ -270,6 +239,8 @@ ideas = {
 			traits = { army_chief_offensive_2 }
 		}
 		Yigael_Yadin_chief = {
+
+		picture = Ygal_Yadin
 			
 			allowed = {
 				original_tag = ISR
@@ -279,6 +250,8 @@ ideas = {
 		}
 
 		Yitzhak_Rabin_chief = {
+
+		picture = Rabin
 			
 			allowed = {
 				original_tag = ISR
@@ -287,6 +260,8 @@ ideas = {
 			traits = { army_chief_maneuver_2 }
 		}
 		Yaakov_Dori_chief = {
+
+		picture = Yaakov_Dori
 			
 			allowed = {
 				original_tag = ISR
@@ -296,6 +271,8 @@ ideas = {
 		}
 		Haim_Laskov_chief = {
 			
+        picture = Chaim_Laskov
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -303,6 +280,8 @@ ideas = {
 			traits = { army_chief_drill_2 }
 		}
 		Uzi_Narkiss = {
+
+		picture = Uzi_Narkis
 			
 			allowed = {
 				original_tag = ISR
@@ -312,102 +291,21 @@ ideas = {
 		}
 
 	}
-
-	navy_chief = {		
-
-		Gershon_Zak_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_chief_reform_2 }
-		}
-
-		Avraham_Botzer_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_chief_commerce_raiding_2 }
-		}
-		Paul_Shulman_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_chief_maneuver_2 }
-		}
-		Shmuel_Tankus_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_chief_naval_aviation_2 }
-		}
-
-		
-	}
-
-	air_chief = {
-
-		Shlomo_Shamir_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { air_chief_reform_2 }
-		}
-	
-		Mordechai_Hod_chief = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { air_chief_ground_support_2 }			
-		}
-		Ezer_Weizman_chief = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { air_air_combat_training_2 }			
-		}	
-	}
-
 	high_command = {
 		Paul_Shulman = {
 			
+		picture = Paul_Shulman
+
 			allowed = {
 				original_tag = ISR
 			}
 			
 			traits = { navy_screen_2 }
 		}
-		Yitzhak_Rabin = {
-			
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-
-			
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
 		
 		Ariel_Sharon = {
-			
+
+		picture = Sharon
 			
 			allowed = {
 				original_tag = ISR
@@ -424,6 +322,8 @@ ideas = {
 
 		Israel_Tal = {
 
+		picture = israel_tal
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -433,6 +333,8 @@ ideas = {
 		
 		Mordechai_Maklef = {
 
+		picture = Mordechai_Mantlev
+
 			allowed = {
 				original_tag = ISR
 			}
@@ -441,116 +343,23 @@ ideas = {
 		}
 		Moshe_Dayan = {
 
+		picture = Moshe_Dayan
+
 			allowed = {
 				original_tag = ISR
 			}
 			
 			traits = { army_infantry_2 }			
-		}		
-		
-
-		Haim_Laskov = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { army_cavalry_2 }			
-		}
-
-		Gershon_Zak = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_submarine_2 }			
-		}
-		
-		Avraham_Botzer = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { navy_amphibious_assault_2 }			
-		}
-
-		
-		Mordechai_Hod = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { air_air_superiority_2 }			
-		}		
-		
-		Tzvi_Tzur = {
-
-			allowed = {
-				original_tag = ISR
-			}
-			
-			traits = { army_commando_2 }	 		
-		}	
-
-		
-
+		}				
 		Mordechai_Gur = {
+
+        picture = Mordechai_Gur
+
 			allowed = {
 				original_tag = ISR
 			}
 			
 			traits = { air_airborne_2 }				
 		}
-		
-				
-		
+			
 	}
-
-	theorist = {
-
-		
-		Israel_Tal_theorist = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			research_bonus = {
-				land_doctrine = 0.15
-			}
-			
-			traits = { blitzkrieg_theorist }
-		}
-
-		Paul_Shulman_theorist = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-			
-			traits = { naval_theorist }
-		}
-
-		Mordechai_Hod_theorist = {
-			
-			allowed = {
-				original_tag = ISR
-			}
-			
-			research_bonus = {
-				air_warfare_doctrine = 0.07
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-
-	}
-}
-

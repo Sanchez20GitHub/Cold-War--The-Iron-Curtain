@@ -403,7 +403,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Slansky_Trial
-		icon = GFX_goal_unknown
+		icon = GFX_FocusFairTrials
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Empower_Labor_Unions
@@ -420,7 +420,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Ignore_the_Trials
-		icon = GFX_goal_unknown
+		icon = GFX_ignore_trials
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Slansky_Trial
@@ -527,7 +527,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Uzi
-		icon = GFX_goal_unknown
+		icon = GFX_uzi
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Small_Conflicts_Traininig
@@ -829,7 +829,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Egyptian_Israeli_Peace_Treaty
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Promote_International_Neutrality
@@ -879,7 +879,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Enter_the_UN
-		icon = GFX_goal_unknown
+		icon = GFX_un
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ben_Gurion_Rule
@@ -890,7 +890,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Government_Austerity
-		icon = GFX_goal_unknown
+		icon = GFX_Money
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Enter_the_UN
@@ -948,7 +948,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_British_Recognition
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_british_cooperation
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Designate_Jerusalem_as_the_Capital
@@ -1067,7 +1067,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Apply_for_American_Arms_Sales
-		icon = GFX_goal_unknown
+		icon = GFX_goal_USA_america_economic_miracle
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Mapai_Victory_1955
@@ -1100,7 +1100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Condemn_the_Slansky_Trial
-		icon = GFX_goal_unknown
+		icon = GFX_ignore_trials
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Talks_With_West_Germany
@@ -1195,7 +1195,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_End_Austerity
-		icon = GFX_goal_unknown
+		icon = GFX_SAU_foreign_loans
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_General_Zionist_Victory
@@ -1220,7 +1220,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Political_Freedom
-		icon = GFX_goal_unknown
+		icon = GFX_Freedom
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_General_Zionists_Victory_1955
@@ -1231,7 +1231,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Stregthen_French_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_goal_FRA_deal
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
@@ -1242,7 +1242,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Continue_The_Status_Quo
-		icon = GFX_goal_unknown
+		icon = GFX_Status
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
@@ -1253,7 +1253,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Stregthen_British_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_british_cooperation
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
@@ -1264,7 +1264,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Industrial_Growth
-		icon = GFX_goal_unknown
+		icon = GFX_20_Industrial_Areas
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Stregthen_French_Ties
@@ -1309,7 +1309,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_West_German_Reperations
-		icon = GFX_goal_unknown
+		icon = GFX_Greece_german_loan
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_End_Austerity
@@ -2001,7 +2001,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_West_German_Repperation_Treaty
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_treaty
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Swear_in_Yitzhak_Ben_Zvi_as_President
@@ -2267,7 +2267,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Ignore_the_Trials
-		icon = GFX_goal_unknown
+		icon = GFX_ignore_trials
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Slansky_Trial
@@ -2359,7 +2359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Begin_the_First_Five_Year_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_West_Germany
@@ -2401,7 +2401,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Legalize_Homosexuality
-		icon = GFX_goal_unknown
+		icon = GFX_gay_agenda
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_State_Atheism
@@ -2471,7 +2471,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Population_Expulsions
-		icon = GFX_goal_unknown
+		icon = GFX_pop_expulsion
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Tensions_with_arab_states+
@@ -2525,7 +2525,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Support_The_Middle_Class
-		icon = GFX_goal_unknown
+		icon = GFX_middle_class_power
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_European_Trade_Deals
@@ -2542,7 +2542,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Beacon_of_Freedom
-		icon = GFX_goal_generic_support_democracy
+		icon = GFX_isr_beacon_of_liberty
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Develop_Ashdod

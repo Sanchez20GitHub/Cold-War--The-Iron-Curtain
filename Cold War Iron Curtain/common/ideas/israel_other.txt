@@ -1,0 +1,37 @@
+ideas = {
+    country = {
+       idea_Chaim_Weizmann = {
+
+            allowed = {
+                original_tag = ISR
+            }
+            
+            removal_cost = -1
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Chaim_Weizmann
+
+            traits = { popular_figurehead }
+        }
+        
+        idea_Yitzhak_Ben_Zvi = {
+
+            allowed = {
+                original_tag = ISR
+            }
+            
+            removal_cost = -1
+
+            allowed_civil_war = {
+                always = yes
+            }
+
+            picture = Yitzhak_Ben_Zvi
+
+            traits = { popular_figurehead }
+        }
+    }
+}

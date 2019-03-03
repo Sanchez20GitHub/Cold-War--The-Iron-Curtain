@@ -5174,54 +5174,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/enel.tga"
     }
     spriteType = {
-		name = "GFX_idea_John_Hartley"
-		texturefile = "gfx/interface/ideas/zim/John_Hartley.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_henry_everard"
-		texturefile = "gfx/interface/ideas/zim/henry_everard.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_ian_smith"
-		texturefile = "gfx/interface/ideas/zim/ian_smith.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_P_K_van_der_Byl"
-		texturefile = "gfx/interface/ideas/zim/P.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_peter_walls"
-		texturefile = "gfx/interface/ideas/zim/peter_walls.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_Air_Marshal_Norman_Walsh"
-		texturefile = "gfx/interface/ideas/zim/Air_Marshal_Norman_Walsh.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_C_Dupont"
-		texturefile = "gfx/interface/ideas/zim/C_Dupont.dds"
-    }
-	######################################################################################################################################################
-	# israel Ideas
-	######################################################################################################################################################
-    spriteType = {
-		name = "GFX_idea_MANTAK"
-		texturefile = "gfx/interface/ideas/isr/MANTAK.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_Israel_Shipyards"
-		texturefile = "gfx/interface/ideas/isr/Israel_Shipyards.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_Rafael"
-		texturefile = "gfx/interface/ideas/isr/rafael.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_IAI"
-		texturefile = "gfx/interface/ideas/isr/IAI.tga"
-    }
-    spriteType = {
 		name = "GFX_idea_Israel_Military_Industries"
 		texturefile = "gfx/interface/ideas/isr/IMI.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Himush"
+		texturefile = "gfx/interface/ideas/isr/Himush.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_israel_electric_company"
+		texturefile = "gfx/interface/ideas/isr/Israel_electric_co.tga"
     }
 }

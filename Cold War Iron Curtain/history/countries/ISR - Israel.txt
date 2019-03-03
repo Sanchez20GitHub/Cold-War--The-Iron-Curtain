@@ -197,6 +197,7 @@ set_variable = { var = influencer3_amount value = 200 }
 add_ideas = {
 	idea_ISR_Defence_of_the_Sionist_Nation
 	population_growth_rapid
+	idea_Chaim_Weizmann
 }
 
 create_country_leader = {
@@ -308,7 +309,8 @@ create_corps_commander = {
 	logistics_skill = 1
 }
 
-1955.1.1 = {
+1955.1.1 = {  
+    remove_ideas = idea_Chaim_Weizmann
 	set_politics = {
 	    parties = {
             democratic = { popularity = 0 }
