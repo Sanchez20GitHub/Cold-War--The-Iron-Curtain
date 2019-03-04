@@ -27,8 +27,8 @@ technologies = {
 		}
 		
 		path = {
-				leads_to_tech = interwebs_I
-				research_cost_coeff = 1
+			leads_to_tech = interwebs_I
+			research_cost_coeff = 1
 		}
 	
 		research_cost = 4
@@ -532,6 +532,11 @@ technologies = {
 	
 		path = {
 			leads_to_tech = software_VI
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = interwebs_I
 			research_cost_coeff = 1
 		}
 	
@@ -1654,6 +1659,7 @@ technologies = {
 		
 		dependencies = {
 			coms_III = 1
+			software_V = 1
 		}
 	
 		research_cost = 1
