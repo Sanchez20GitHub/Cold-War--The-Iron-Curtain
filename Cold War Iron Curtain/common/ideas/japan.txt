@@ -244,7 +244,7 @@ ideas = {
 	
 		JAP_Inejiro_Asanuma = {
 			
-			picture = GFX_commieman
+			picture = commieman
 			allowed = {
 				original_tag = "JAP"
 			}

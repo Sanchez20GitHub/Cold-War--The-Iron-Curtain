@@ -3774,10 +3774,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/ItalianPizzaFocus.dds" 
 	}
 	SpriteType = {
-		name = "GFX_Ben_Gurion"
-		texturefile = "gfx/interface/goals/ben_gurion.dds" 
-	}
-	SpriteType = {
 		name = "GFX_soviet_diplomacy"
 		texturefile = "gfx/interface/goals/focus_chi_mission_to_the_soviet_union.dds" 
 	}
@@ -3828,5 +3824,33 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_focus_generic_treaty"
 		texturefile = "gfx/interface/goals/focus_generic_treaty.dds" 
+	}
+	SpriteType = {
+		name = "GFX_herut"
+		texturefile = "gfx/interface/goals/FocusElectHerut.dds" 
+	}
+	SpriteType = {
+		name = "GFX_mapai"
+		texturefile = "gfx/interface/goals/FocusElectMapai.dds" 
+	}
+	SpriteType = {
+		name = "GFX_mapam"
+		texturefile = "gfx/interface/goals/FocusElectMapam.dds" 
+	}
+	SpriteType = {
+		name = "GFX_ElectHapoelHaMizrachi"
+		texturefile = "gfx/interface/goals/FocusElectHapoelHaMizrachi.dds" 
+	}
+	SpriteType = {
+		name = "GFX_zionism"
+		texturefile = "gfx/interface/goals/Zionists.dds" 
+	}
+	SpriteType = {
+		name = "GFX_FocusIDFAirForce"
+		texturefile = "gfx/interface/goals/FocusIDFAirForce.dds" 
+	}
+	SpriteType = {
+		name = "GFX_FocusIDFNavy"
+		texturefile = "gfx/interface/goals/FocusIDFNavy.dds" 
 	}
 }

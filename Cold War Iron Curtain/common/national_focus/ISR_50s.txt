@@ -194,7 +194,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Expand_the_National_Telephone_Lines
-		icon = GFX_goal_unknown
+		icon = GFX_phone
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Complete_the_Huleh_Swamp_Drainage_Project
@@ -269,7 +269,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Israeli_Airforce
-		icon = GFX_goal_unknown
+		icon = GFX_FocusIDFAirForce
 		cost = 10.00
 		prerequisite = {
 			focus = The_Israeli_Defense_Forces
@@ -299,7 +299,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Domestic_Air_Manufacturing
-		icon = GFX_goal_unknown
+		icon = GFX_Aerial_Fleet
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Israeli_Airforce
@@ -359,7 +359,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Mapam_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_mapam
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Election_of_1951
@@ -714,7 +714,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Rappoachment_with_Mapai
-		icon = GFX_goal_unknown
+		icon = GFX_mapai
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Support_The_Kibbutz
@@ -731,7 +731,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Mapam_Victory_55
-		icon = GFX_goal_unknown
+		icon = GFX_mapam
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Elections_of_1955
@@ -755,7 +755,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Promote_Urbanization
-		icon = GFX_goal_unknown
+		icon = GFX_focus_Urban_Development
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Mapam_Victory_55
@@ -816,7 +816,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Expand_the_Power_Grid
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_idea
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Promote_Urbanization
@@ -855,7 +855,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Israeli_Navy
-		icon = GFX_goal_unknown
+		icon = GFX_FocusIDFNavy
 		cost = 10.00
 		prerequisite = {
 			focus = The_Israeli_Defense_Forces
@@ -1034,7 +1034,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Mapai_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_mapai
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Election_of_1951
@@ -1117,7 +1117,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Mapai_Victory_1955
-		icon = GFX_goal_unknown
+		icon = GFX_mapai
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Elections_of_1955
@@ -1212,7 +1212,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_General_Zionist_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_zionism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Election_of_1951
@@ -1234,7 +1234,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_General_Zionists_Victory_1955
-		icon = GFX_goal_unknown
+		icon = GFX_zionism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Elections_of_1955
@@ -1500,7 +1500,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Hapoel_HaMizrachi_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_ElectHapoelHaMizrachi
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Election_of_1951
@@ -1511,7 +1511,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_West_German_Reperations2
-		icon = GFX_goal_unknown
+		icon = GFX_Greece_german_loan
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Hapoel_HaMizrachi_Victory
@@ -1726,7 +1726,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Herut_victory_1955
-		icon = GFX_goal_unknown
+		icon = GFX_herut
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Elections_of_1955
@@ -1748,7 +1748,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Herut_Victory
-		icon = GFX_goal_unknown
+		icon = GFX_herut
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Election_of_1951
@@ -1911,7 +1911,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Emphasize_Zionism
-		icon = GFX_goal_unknown
+		icon = GFX_zionism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_West_Germany_Deal

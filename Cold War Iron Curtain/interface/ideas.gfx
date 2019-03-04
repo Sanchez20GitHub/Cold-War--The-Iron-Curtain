@@ -3665,7 +3665,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_sumitomo"
-		texturefile = "gfx/interface/ideas/idea_sumitomo.dds"
+		texturefile = "gfx/interface/ideas/jap/Sumitomo_Heavy_Industries_naval.tga"
 	}	
 	
 	spriteType = {
@@ -3815,9 +3815,12 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_idea_Sumitomo_Heavy_Industries_naval"
-		texturefile = "gfx/interface/ideas/jap/Sumitomo_Heavy_Industries_naval.dds"
+		texturefile = "gfx/interface/ideas/jap/Sumitomo_Heavy_Industries_naval.tga"
 	}
-
+	spriteType = {
+		name = "GFX_idea_"
+		texturefile = "gfx/interface/ideas/jap/.tga"
+	}
 	# New Idea GFXs
 
 	spriteType = {
@@ -3885,7 +3888,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_sumitomo"
-		texturefile = "gfx/interface/ideas/idea_sumitomo.dds"
+		texturefile = "gfx/interface/ideas/jap/Sumitomo_Heavy_Industries_naval.tga"
 	}	
 	
 	spriteType = {
@@ -4809,7 +4812,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_commieman"
+		name = "GFX_idea_commieman"
 		texturefile = "gfx/interface/ideas/jap/commieman.dds"
 	}
 	spriteType = {

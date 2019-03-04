@@ -105,4 +105,8 @@ spriteTypes = {
 		name = "GFX_idea_IWI"
 		texturefile = "gfx/interface/ideas/isr/iwi.tga"
     }
+	SpriteType = {
+		name = "GFX_Ben_Gurion"
+		texturefile = "gfx/interface/goals/ben_gurion.dds" 
+    }
 }
