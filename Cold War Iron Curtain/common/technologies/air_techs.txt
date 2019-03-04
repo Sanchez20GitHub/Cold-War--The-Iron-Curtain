@@ -248,6 +248,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_I = 1
+		}
+		
 		research_cost = 2
 		start_year = 1948
 		
@@ -271,7 +275,7 @@ technologies = {
 		}
 	}
 	cv_naval_bomber4 = {
-
+	
 		enable_equipments = {
 			cv_nav_bomber_equipment_4
 		}
@@ -318,6 +322,7 @@ technologies = {
 		
 		dependencies = {
 			jet_engines = 1
+			hardware_II = 1
 		}
 		
 		research_cost = 2
@@ -387,6 +392,10 @@ technologies = {
 		research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_IV = 1
+		}
+		
 		research_cost = 3
 		start_year = 1965
 		folder = {
@@ -413,7 +422,7 @@ technologies = {
 		enable_equipments = {
 			cv_nav_bomber_equipment_6
 		}
-				
+		
 		research_cost = 1.5
 		start_year = 1965
 		
@@ -452,6 +461,10 @@ technologies = {
 		path = {
 		leads_to_tech = naval_bomber8
 		research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_VI = 1
 		}
 		
 		research_cost = 4
@@ -516,6 +529,10 @@ technologies = {
 			nav_bomber_equipment_8
 		}
 		
+		dependencies = {
+			hardware_XI = 1
+		}
+		
 		
 		research_cost = 6
 		start_year = 2005
@@ -527,7 +544,7 @@ technologies = {
 		sub_technologies = {
 			cv_naval_bomber8
 		}
-				
+			
 		categories = {
 			naval_air
 			air_equipment
@@ -743,6 +760,10 @@ technologies = {
 		research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_I = 1
+		}
+		
 		research_cost = 2
 		start_year = 1948
 		folder = {
@@ -767,10 +788,14 @@ technologies = {
 		enable_equipments = {
 			jet_tac_bomber_equipment_3
 		}
-										
+		
 		path = {
 			leads_to_tech = jet_tactical_bomber4
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_II = 1
 		}
 		
 		research_cost = 2
@@ -797,10 +822,14 @@ technologies = {
 		enable_equipments = {
 			jet_tac_bomber_equipment_4
 		}
-										
+		
 		path = {
 			leads_to_tech = jet_tactical_bomber5
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_IV = 1
 		}
 		
 		research_cost = 3
@@ -827,15 +856,19 @@ technologies = {
 		enable_equipments = {
 			jet_tac_bomber_equipment_5
 		}
-										
+		
 		path = {
 			leads_to_tech = jet_tactical_bomber6
 			research_cost_coeff = 1
 		}
-				
+		
 		path = {
 			leads_to_tech = stealth_tactical_bomber1
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_V = 1
 		}
 
 		research_cost = 3
@@ -862,10 +895,14 @@ technologies = {
 		enable_equipments = {
 			jet_tac_bomber_equipment_6
 		}
-										
+		
 		path = {
 			leads_to_tech = jet_tactical_bomber7
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_VI = 1
 		}
 		
 		research_cost = 3
@@ -898,6 +935,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_VII = 1
+		}
+		
 		research_cost = 4
 		start_year = 1985
 		folder = {
@@ -918,6 +959,10 @@ technologies = {
 	}
 		
 	jet_tactical_bomber8 = {
+	
+		dependencies = {
+			hardware_IX = 1
+		}
 
 		enable_equipments = {
 			jet_tac_bomber_equipment_8
@@ -953,6 +998,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_VIII = 1
+		}
+		
 		research_cost = 5
 		start_year = 1980
 		folder = {
@@ -973,6 +1022,10 @@ technologies = {
 	}
 
 	stealth_tactical_bomber2 = {
+	
+		dependencies = {
+			hardware_XIII = 1
+		}
 
 		enable_equipments = {
 			stealth_tactical_bomber_equipment_2
@@ -1144,6 +1197,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_I = 1
 		}
 
 		folder = {
@@ -1192,6 +1246,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_II = 1
 		}
 
 		folder = {
@@ -1245,6 +1300,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_III = 1
 		}
 
 		folder = {
@@ -1297,6 +1353,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_IV = 1
 		}
 
 		folder = {
@@ -1345,6 +1402,7 @@ technologies = {
 		dependencies = {
 			jet_engines = 1
 			nuclear_reactor66 = 1
+			hardware_VII = 1
 		}
 
 		folder = {
@@ -1389,6 +1447,7 @@ technologies = {
 		dependencies = {
 			jet_engines = 1
 			nuclear_reactor74 = 1
+			hardware_XIII = 1
 		}
 
 		folder = {
@@ -1436,6 +1495,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_V = 1
 		}
 
 		folder = {
@@ -1484,6 +1544,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_XI = 1
 		}
 
 		folder = {
@@ -1522,6 +1583,7 @@ technologies = {
 		}	
 		dependencies = {
 			jet_engines = 1
+			hardware_X = 1
 		}
 
 		folder = {
@@ -1564,6 +1626,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_XIII = 1
 		}
 
 		folder = {
@@ -1609,6 +1672,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_IV = 1
 		}
 
 		folder = {
@@ -1656,6 +1720,7 @@ technologies = {
 		}		
 		dependencies = {
 			jet_engines = 1
+			hardware_V = 1
 		}
 
 		folder = {
@@ -1704,6 +1769,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_VI = 1
 		}
 
 		folder = {
@@ -1747,6 +1813,7 @@ technologies = {
 
 		dependencies = {
 			jet_engines = 1
+			hardware_XII = 1
 		}
 
 		folder = {
@@ -1911,6 +1978,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_I = 1
+		}
+		
 		research_cost = 2
 		start_year = 1955
 
@@ -1939,6 +2010,10 @@ technologies = {
 		path = {
 			leads_to_tech = transport7
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_III = 1
 		}
 		
 		research_cost = 3
@@ -1973,6 +2048,7 @@ technologies = {
 		
 		dependencies = {
 			jet_engines = 1
+			hardware_IV = 1
 		}
 		
 		research_cost = 3
@@ -2005,6 +2081,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			hardware_V = 1
+		}
+		
 		research_cost = 3
 		start_year = 1985
 
@@ -2028,6 +2108,10 @@ technologies = {
 
 		enable_equipments = {
 			transport_plane_equipment_10
+		}
+		
+		dependencies = {
+			hardware_VII = 1
 		}
 	
 		research_cost = 3

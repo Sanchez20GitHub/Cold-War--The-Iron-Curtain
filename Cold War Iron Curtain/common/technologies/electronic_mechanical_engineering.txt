@@ -1197,16 +1197,21 @@ technologies = {
 		political_power_gain = 0.1
 
 		path = {
-				leads_to_tech = decryption_I
-				research_cost_coeff = 1
+			leads_to_tech = decryption_I
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_I
-				research_cost_coeff = 1
+			leads_to_tech = enc_I
+			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		dependencies = {
+			hardware_I = 1
+			software_I = 1
+		}
+		
+		research_cost = 4
 		start_year = 1950
 		folder = {
 			name = electronics_folder
@@ -1229,16 +1234,21 @@ technologies = {
 		political_power_gain = 0.1
 		
 		path = {
-				leads_to_tech = decryption_II
-				research_cost_coeff = 1
+			leads_to_tech = decryption_II
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_II
-				research_cost_coeff = 1
+			leads_to_tech = enc_II
+			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_III = 1
+			software_III = 1
 		}
 
-		research_cost = 3
+		research_cost = 4
 		start_year = 1960
 		folder = {
 			name = electronics_folder
@@ -1261,16 +1271,21 @@ technologies = {
 		political_power_gain = 0.1
 
 		path = {
-				leads_to_tech = decryption_III
-				research_cost_coeff = 1
+			leads_to_tech = decryption_III
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_III
-				research_cost_coeff = 1
+			leads_to_tech = enc_III
+			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		dependencies = {
+			hardware_V = 1
+			software_V = 1
+		}
+		
+		research_cost = 4
 		start_year = 1970
 		folder = {
 			name = electronics_folder
@@ -1293,16 +1308,22 @@ technologies = {
 		political_power_gain = 0.1
 
 		path = {
-				leads_to_tech = decryption_IV 
-				research_cost_coeff = 1
+			leads_to_tech = decryption_IV 
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_IV 
-				research_cost_coeff = 1
+			leads_to_tech = enc_IV 
+			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		dependencies = {
+			hardware_VII = 1
+			software_VII = 1
+			interwebs_II = 1
+		}
+		
+		research_cost = 4
 		start_year = 1980
 		folder = {
 			name = electronics_folder
@@ -1325,16 +1346,22 @@ technologies = {
 		political_power_gain = 0.1
 
 		path = {
-				leads_to_tech = decryption_V 
-				research_cost_coeff = 1
+			leads_to_tech = decryption_V 
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_V 
-				research_cost_coeff = 1
+			leads_to_tech = enc_V 
+			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		dependencies = {
+			hardware_IX = 1
+			software_IX = 1
+			interwebs_III = 1
+		}
+		
+		research_cost = 4
 		start_year = 1990
 		folder = {
 			name = electronics_folder
@@ -1357,16 +1384,22 @@ technologies = {
 		political_power_gain = 0.1
 
 		path = {
-				leads_to_tech = decryption_VI
-				research_cost_coeff = 1
+			leads_to_tech = decryption_VI
+			research_cost_coeff = 1
 		}
 		
 		path = {
-				leads_to_tech = enc_VI
-				research_cost_coeff = 1
+			leads_to_tech = enc_VI
+			research_cost_coeff = 1
 		}
 		
-		research_cost = 3
+		dependencies = {
+			hardware_XI = 1
+			software_XI = 1
+			interwebs_V = 1
+		}
+		
+		research_cost = 4
 		start_year = 2000
 		folder = {
 			name = electronics_folder
