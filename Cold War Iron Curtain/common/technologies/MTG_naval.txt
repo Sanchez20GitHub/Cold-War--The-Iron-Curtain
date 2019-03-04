@@ -1207,6 +1207,22 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		enable_equipments = { 
+			ww_screen_hull_small
+		}
+		enable_equipments = { 
+			ww_screen_hull_medium
+		}
+		enable_equipments = { 
+			ww_screen_hull_large
+		}
+		enable_equipment_modules = { 
+			ww_screen_engine
+		}
+		enable_equipment_modules = { 
+			ww_screen_engine_small
+		}
+		
 		research_cost = 4
 		
 		start_year = 1935
