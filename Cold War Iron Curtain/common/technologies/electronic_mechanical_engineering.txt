@@ -25,6 +25,11 @@ technologies = {
 			leads_to_tech = supercomputer_I 
 			research_cost_coeff = 1
 		}
+		
+		path = {
+				leads_to_tech = interwebs_I
+				research_cost_coeff = 1
+		}
 	
 		research_cost = 4
 		start_year = 1945
@@ -52,12 +57,17 @@ technologies = {
 			leads_to_tech = hardware_II
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = supercomputer_I
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1945
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 2 }
+			position = { x = 0 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -83,7 +93,7 @@ technologies = {
 		start_year = 1950
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 4 }
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -110,7 +120,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 6 }
+			position = { x = 0 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -132,12 +142,17 @@ technologies = {
 			leads_to_tech = hardware_V
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = supercomputer_II
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1960
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 8 }
+			position = { x = 0 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -163,7 +178,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 10 }
+			position = { x = 0 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -189,7 +204,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 12 }
+			position = { x = 0 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -210,12 +225,17 @@ technologies = {
 			leads_to_tech = hardware_VIII
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = supercomputer_III
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1975
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 14 }
+			position = { x = 0 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -241,7 +261,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 16 }
+			position = { x = 0 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -262,12 +282,17 @@ technologies = {
 			leads_to_tech = hardware_X
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = supercomputer_IV
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1
 		start_year = 1985
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 18 }
+			position = { x = 0 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -293,7 +318,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 20}
+			position = { x = 0 y = 20}
 		}
 		
 		ai_will_do = {
@@ -314,12 +339,17 @@ technologies = {
 			leads_to_tech = hardware_XII
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = supercomputer_V
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1995
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 22}
+			position = { x = 0 y = 22}
 		}
 		
 		ai_will_do = {
@@ -345,7 +375,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 24}
+			position = { x = 0 y = 24}
 		}
 		
 		ai_will_do = {
@@ -360,12 +390,17 @@ technologies = {
 	}
 	
 	hardware_XIII = {
+	
+		path = {
+			leads_to_tech = supercomputer_VI
+			research_cost_coeff = 1
+		}
 			
 		research_cost = 1
 		start_year = 2005
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 26}
+			position = { x = 0 y = 26}
 		}
 		
 		ai_will_do = {
@@ -767,11 +802,6 @@ technologies = {
 				research_cost_coeff = 1
 		}
 		
-		path = {
-				leads_to_tech = interwebs_I
-				research_cost_coeff = 1
-		}
-		
 		research_cost = 4
 		start_year = 1940
 		
@@ -813,7 +843,7 @@ technologies = {
 		start_year = 1950
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 4}
+			position = { x = 2 y = 4}
 		}
 		
 		ai_will_do = {
@@ -842,7 +872,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 8}
+			position = { x = 2 y = 8}
 		}
 		
 		ai_will_do = {
@@ -871,7 +901,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 12}
+			position = { x = 2 y = 12}
 		}
 		
 		ai_will_do = {
@@ -900,7 +930,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 16}
+			position = { x = 2 y = 16}
 		}
 		
 		ai_will_do = {
@@ -929,7 +959,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 20}
+			position = { x = 2 y = 20}
 		}
 		
 		ai_will_do = {
@@ -953,7 +983,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = electronics_folder
-			position = { x = -2 y = 24}
+			position = { x = 2 y = 24}
 		}
 		
 		ai_will_do = {
@@ -986,7 +1016,7 @@ technologies = {
 		start_year = 1950
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 4}
+			position = { x = -2 y = 4}
 		}
 		
 		ai_will_do = {
@@ -1018,7 +1048,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 8}
+			position = { x = -2 y = 8}
 		}
 		
 		ai_will_do = {
@@ -1050,7 +1080,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 12}
+			position = { x = -2 y = 12}
 		}
 		
 		ai_will_do = {
@@ -1082,7 +1112,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 16}
+			position = { x = -2 y = 16}
 		}
 		
 		ai_will_do = {
@@ -1099,6 +1129,11 @@ technologies = {
 	coms_V = {
 		
 		max_command_power = 50
+		
+		path = {
+				leads_to_tech = coms_VI 
+				research_cost_coeff = 1
+		}
 
 		path = {
 				leads_to_tech = consumer_electronics_V 
@@ -1109,7 +1144,34 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = 2 y = 20}
+			position = { x = -2 y = 20}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		categories = {
+			consumer_electronics_tech
+			electronics
+			coms_tech
+		}
+	}
+	
+	coms_VI = {
+		
+		max_command_power = 50
+
+		path = {
+				leads_to_tech = consumer_electronics_VI
+				research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = electronics_folder
+			position = { x = -2 y = 24}
 		}
 		
 		ai_will_do = {
@@ -1283,7 +1345,39 @@ technologies = {
 			electronics
 			consumer_electronics_tech
 		}
-	}	
+	}
+
+	consumer_electronics_VI = {
+		
+		political_power_gain = 0.1
+
+		path = {
+				leads_to_tech = decryption_VI
+				research_cost_coeff = 1
+		}
+		
+		path = {
+				leads_to_tech = enc_VI
+				research_cost_coeff = 1
+		}
+		
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 24}
+		}
+		
+		ai_will_do = {
+			factor = 20
+		}
+		
+		categories = {
+			consumer_electronics_tech
+			electronics
+			consumer_electronics_tech
+		}
+	}
 	
 ###decodding 	
 	
@@ -1380,6 +1474,27 @@ technologies = {
 		folder = {
 			name = electronics_folder
 			position = { x = 0 y = 19}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+			decryption_tech
+		}
+	}
+	
+	decryption_VI = {
+		
+		decryption = 1
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 23}
 		}
 		
 		ai_will_do = {
@@ -1503,6 +1618,28 @@ technologies = {
 			encryption_tech
 		}
 	}	
+	
+	enc_VI = {
+		
+		encryption  = 1
+
+		research_cost = 3
+		start_year = 2000
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 25}
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			consumer_electronics_tech
+			electronics
+			encryption_tech
+		}
+	}
 
 ##### Interwebs
 
@@ -1514,12 +1651,16 @@ technologies = {
 			leads_to_tech = interwebs_II
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			coms_III = 1
+		}
 	
 		research_cost = 1
 		start_year = 1970
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 12 }
+			position = { x = 4 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -1546,7 +1687,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 14 }
+			position = { x = 4 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1569,12 +1710,16 @@ technologies = {
 			leads_to_tech = interwebs_IV
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			coms_IV = 1
+		}
 	
 		research_cost = 1
 		start_year = 1980
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 16 }
+			position = { x = 4 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -1597,12 +1742,16 @@ technologies = {
 			leads_to_tech = interwebs_V
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			coms_V = 1
+		}
 	
 		research_cost = 1
 		start_year = 1985
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 18 }
+			position = { x = 4 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -1629,7 +1778,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 20 }
+			position = { x = 4 y = 20 }
 		}
 		
 		ai_will_do = {
@@ -1651,12 +1800,16 @@ technologies = {
 			leads_to_tech = interwebs_VII
 			research_cost_coeff = 1
 		}
+		
+		dependencies = {
+			coms_VI = 1
+		}
 	
 		research_cost = 1
 		start_year = 1995
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 22 }
+			position = { x = 4 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -1683,7 +1836,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 24 }
+			position = { x = 4 y = 24 }
 		}
 		
 		ai_will_do = {
@@ -1705,7 +1858,7 @@ technologies = {
 		start_year = 2005
 		folder = {
 			name = electronics_folder
-			position = { x = 5 y = 26 }
+			position = { x = 4 y = 26 }
 		}
 		
 		ai_will_do = {
@@ -1738,7 +1891,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 2 }
+			position = { x = -6 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -1764,7 +1917,7 @@ technologies = {
 		start_year = 1950
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 4 }
+			position = { x = -6 y = 4 }
 		}
 		
 		ai_will_do = {
@@ -1791,7 +1944,7 @@ technologies = {
 		start_year = 1955
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 6 }
+			position = { x = -6 y = 6 }
 		}
 		
 		ai_will_do = {
@@ -1823,7 +1976,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 8 }
+			position = { x = -6 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -1849,7 +2002,7 @@ technologies = {
 		start_year = 1965
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 10 }
+			position = { x = -6 y = 10 }
 		}
 		
 		ai_will_do = {
@@ -1875,7 +2028,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 12 }
+			position = { x = -6 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -1906,7 +2059,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 14 }
+			position = { x = -6 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -1932,7 +2085,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 16 }
+			position = { x = -6 y = 16 }
 		}
 		
 		ai_will_do = {
@@ -1963,7 +2116,7 @@ technologies = {
 		start_year = 1985
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 18 }
+			position = { x = -6 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -1989,7 +2142,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 20}
+			position = { x = -6 y = 20}
 		}
 		
 		ai_will_do = {
@@ -2020,7 +2173,7 @@ technologies = {
 		start_year = 1995
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 22}
+			position = { x = -6 y = 22}
 		}
 		
 		ai_will_do = {
@@ -2046,7 +2199,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 24}
+			position = { x = -6 y = 24}
 		}
 		
 		ai_will_do = {
@@ -2072,7 +2225,7 @@ technologies = {
 		start_year = 2005
 		folder = {
 			name = electronics_folder
-			position = { x = -4 y = 26}
+			position = { x = -6 y = 26}
 		}
 		
 		ai_will_do = {
@@ -2102,7 +2255,7 @@ technologies = {
 		start_year = 1945
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 2 }
+			position = { x = -3 y = 2 }
 		}
 		
 		ai_will_do = {
@@ -2130,7 +2283,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 8 }
+			position = { x = -3 y = 8 }
 		}
 		
 		ai_will_do = {
@@ -2160,7 +2313,7 @@ technologies = {
 		start_year = 1975
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 14 }
+			position = { x = -3 y = 14 }
 		}
 		
 		ai_will_do = {
@@ -2189,7 +2342,7 @@ technologies = {
 		start_year = 1985
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 18 }
+			position = { x = -3 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -2217,7 +2370,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 22 }
+			position = { x = -3 y = 22 }
 		}
 		
 		ai_will_do = {
@@ -2245,7 +2398,7 @@ technologies = {
 		start_year = 2005
 		folder = {
 			name = electronics_folder
-			position = { x = 4 y = 26 }
+			position = { x = -3 y = 26 }
 		}
 		
 		ai_will_do = {
