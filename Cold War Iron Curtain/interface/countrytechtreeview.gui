@@ -7598,22 +7598,24 @@ guiTypes = {
 			horizontalScrollbar = "bottom_horizontal_slider"
 
 			background = {
-				name = "Background"
-				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+				name = "Backgrouns"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
 			}
+			
 				background = {
-					name ="supporttech_bg"
-					spriteType = "GFX_tech_bg"
-					position = { x=0 y=500 }
-					alwaystransparent = yes
-				}			
-
+                    name ="GFX_computersscan"
+                    spriteType = "GFX_tech_bg"
+                    position = { x=0 y=20 }
+                    alwaystransparent = yes
+                }
 				background = {
-					name ="supporttech_bg"
-					spriteType = "GFX_tech_bg"
-					position = { x=0 y=0 }
-					alwaystransparent = yes
-				}			
+                    name ="COM_BG"
+                    spriteType = "GFX_computers"
+                    position = { x=0 y=20 }
+                    alwaystransparent = yes
+                }	
+				
+				
 			
 ###Years radios				
 				
