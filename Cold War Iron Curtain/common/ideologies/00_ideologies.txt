@@ -664,6 +664,9 @@ ideologies = {
 			
 			baathism = {
 			}
+			
+			ku_klux_klan = {
+			}
 		}
 		
 		dynamic_faction_names = {
