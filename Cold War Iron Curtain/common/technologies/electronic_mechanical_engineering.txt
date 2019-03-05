@@ -88,6 +88,11 @@ technologies = {
 			leads_to_tech = hardware_III
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = transistor_III
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1950
@@ -114,6 +119,10 @@ technologies = {
 		path = {
 			leads_to_tech = hardware_IV
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			transistor_II = 1
 		}
 	
 		research_cost = 1
@@ -1951,6 +1960,11 @@ technologies = {
 			leads_to_tech = transistor_III
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = hardware_III
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1950
@@ -1977,6 +1991,10 @@ technologies = {
 		path = {
 			leads_to_tech = transistor_IV
 			research_cost_coeff = 1
+		}
+		
+		dependencies = {
+			hardware_II = 1
 		}
 	
 		research_cost = 1
