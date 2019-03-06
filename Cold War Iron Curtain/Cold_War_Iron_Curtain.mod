@@ -16,6 +16,4 @@ replace_path = "common/on_actions"
 replace_path = "common/ai_equipment"
 replace_path = "common/units/names_ships"
 replace_path = "common/bookmarks"
-replace_path = "common/countries"
-replace_path = "common/country_tags"
 
