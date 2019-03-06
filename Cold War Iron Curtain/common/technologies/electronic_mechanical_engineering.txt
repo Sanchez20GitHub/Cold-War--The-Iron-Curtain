@@ -404,6 +404,11 @@ technologies = {
 			leads_to_tech = supercomputer_VI
 			research_cost_coeff = 1
 		}
+		
+		path = {
+			leads_to_tech = hardware_XIV
+			research_cost_coeff = 1
+		}
 			
 		research_cost = 1
 		start_year = 2005
@@ -780,6 +785,11 @@ technologies = {
 	software_XIII = {
 		
 		consumer_goods_factor = -0.005
+		
+		path = {
+			leads_to_tech = software_XIV
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 1990
@@ -1901,6 +1911,11 @@ technologies = {
 	interwebs_VIII = {
 		
 		max_command_power = 50
+		
+		path = {
+			leads_to_tech = interwebs_IX
+			research_cost_coeff = 1
+		}
 	
 		research_cost = 1
 		start_year = 2005
@@ -2275,6 +2290,11 @@ technologies = {
 		
 		path = {
 			leads_to_tech = supercomputer_VI
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = supercomputer_XIV
 			research_cost_coeff = 1
 		}
 	
