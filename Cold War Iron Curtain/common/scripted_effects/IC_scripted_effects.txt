@@ -5923,6 +5923,14 @@ ic_pulse = {
 		country_event = spr.6
 	}
 	if = {
+				limit = {
+					tag = USA
+					date > 1970.9.16
+					date < 1970.9.30
+				}
+				country_event = { id = news.1513 days = 2 }
+			}
+	if = {
 		limit = {
 			original_tag = PRC
 			date > 1958.01.01

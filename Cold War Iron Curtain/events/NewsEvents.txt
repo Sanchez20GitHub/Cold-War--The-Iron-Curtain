@@ -1281,3 +1281,17 @@ news_event = {
 		name = news.1512.a
 	}
 }
+news_event = {
+	id = news.1513
+	title = news.1513.t
+	desc = news.1513.d
+	picture = GFX_news_event_hendrix
+	
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes	
+	
+	option = {
+		name = news.1513.a
+	}
+}
