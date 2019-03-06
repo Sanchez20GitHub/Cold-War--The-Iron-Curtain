@@ -109,4 +109,24 @@ spriteTypes = {
 		name = "GFX_Ben_Gurion"
 		texturefile = "gfx/interface/goals/ben_gurion.dds" 
     }
+	SpriteType = {
+		name = "GFX_treaty_syria"
+		texturefile = "gfx/interface/goals/syria_ceasefire_pre_1950.dds"
+	}
+	SpriteType = {
+		name = "GFX_Operation_Ezra"
+		texturefile = "gfx/interface/goals/Operation_Ezra.dds" 
+	}
+	SpriteType = {
+		name = "GFX_Law_of_Return"
+		texturefile = "gfx/interface/goals/Law_of_Return.dds" 
+	}
+	SpriteType = {
+		name = "GFX_lausanne_Treaty"
+		texturefile = "gfx/interface/goals/lausanne_Treaty.dds" 
+	}
+	SpriteType = {
+		name = "GFX_jereusalem"
+		texturefile = "gfx/interface/goals/Jerusalem_Capital_no_crown.dds" 
+	}
 }
