@@ -607,7 +607,15 @@ focus_tree = {
 		}
 		x = 17
 		y = 2
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = special_forces_bonus
+							bonus = 0.75
+							uses = 2
+							category = sf_forces
+							
+						}
+				}
 	}
 	focus = {
 		id = ISR_Small_Conflicts_Traininig
@@ -722,7 +730,12 @@ focus_tree = {
 		}
 		x = 20
 		y = 4
-
+		completion_reward = {
+			add_timed_idea = {
+				idea = fortification_build_up
+				days = 750
+			}
+		}
 	}
 	focus = {
 		id = ISR_Collab_With_France
@@ -736,7 +749,18 @@ focus_tree = {
 		}
 		x = 19
 		y = 5
-
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = mbt_equipment_2
+				amount = 250
+				producer = FRA
+			}		
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 10000
+				producer = FRA
+			}		
+		}
 	}
 	focus = {
 		id = ISR_Condemn_Soviet_Anti_Semetism
