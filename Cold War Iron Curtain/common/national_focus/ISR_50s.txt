@@ -69,7 +69,11 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
-
+		completion_reward = {
+			800 = {
+				add_extra_state_shared_building_slots = 4
+			}
+		}
 	}
 	focus = {
 		id = ISR_Barlan_University
@@ -136,7 +140,21 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
-
+		completion_reward = {
+			803 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+				}	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}					
+			}
+		}
 	}
 	focus = {
 		id = ISR_Dimona_Nuclear_Reactor
@@ -151,11 +169,12 @@ focus_tree = {
 		x = 3
 		y = 4
 		completion_reward = {
-			add_tech_bonus = {
-				name = Nuclear_bonus
-				bonus = 0.25
-				uses = 1
-				category = nuclear
+			803 = {
+				add_building_construction = {
+						type = nuclear_reactor
+						level = 1
+						instant_build = yes
+				}			
 			}
 		}
 	}
@@ -168,7 +187,21 @@ focus_tree = {
 		}
 		x = 7
 		y = 2
-
+		completion_reward = {
+			803 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+				}	
+				add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+				}					
+			}
+		}
 	}
 	focus = {
 		id = ISR_Tel_Aviv_University
@@ -198,7 +231,16 @@ focus_tree = {
 		}
 		x = 5
 		y = 4
-
+		completion_reward = {
+			800 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+				}
+			}
+		}
 	}
 	focus = {
 		id = ISR_Expand_the_National_Telephone_Lines
@@ -212,7 +254,21 @@ focus_tree = {
 		}
 		x = 4
 		y = 5
-
+		completion_reward = {
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}		
+			every_owned_state = {
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}		
+			}
+		}
 	}
 	focus = {
 		id = ISR_Left_Faction_1955_Victory
@@ -562,7 +618,15 @@ focus_tree = {
 		}
 		x = 16
 		y = 3
-
+			completion_reward = {
+					army_experience = 5
+					add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.15
+							uses = 1
+							category = land_doctrine
+						}
+				}
 	}
 	focus = {
 		id = ISR_Complete_The_Paramilitary_Integration
@@ -573,7 +637,9 @@ focus_tree = {
 		}
 		x = 21
 		y = 2
-
+		completion_reward = {
+			add_ideas = militarism_focus
+		}
 	}
 	focus = {
 		id = ISR_The_Super_Sherman
@@ -587,7 +653,26 @@ focus_tree = {
 		}
 		x = 19
 		y = 3
+			completion_reward = {
+					army_experience = 10
+					create_equipment_variant = { 
+						name = "Sherman M-50" 
+						type = mbt_equipment_0 
+						upgrades = { 
+							tank_reliability_upgrade = 5
+							tank_engine_upgrade = 4
+							tank_armor_upgrade = 5
+							tank_gun_upgrade = 7
+						}
+					}
 
+					add_tech_bonus = {
+							name = armor_bonus
+							bonus = 0.25
+							uses = 1
+							category = armor
+						}
+				}
 	}
 	focus = {
 		id = ISR_The_Uzi
@@ -601,7 +686,14 @@ focus_tree = {
 		}
 		x = 18
 		y = 4
-
+			completion_reward = {
+					add_tech_bonus = {
+							name = infantry_weapons_bonus
+							bonus = 0.25
+							uses = 2
+							category = infantry_weapons
+						}
+				}
 	}
 	focus = {
 		id = ISR_Lessons_from_the_Arab_Israeli_War
@@ -1134,7 +1226,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ISR_National_Insurance_Act
+		id = ISR_National_Insurance_Act_historical
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -1554,7 +1646,11 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = ISR_Fund_Egged_Bus_Corporation
+			focus = ISR_Support_Labour_Unions
+			
+		}
+		prerequisite = {
+			focus = ISR_Promote_Religous_Educaitonal_Curriculum
 		}
 		x = 58
 		y = 12
@@ -2116,7 +2212,7 @@ focus_tree = {
 			focus = ISR_Talks_With_West_Germany
 		}
 		prerequisite = {
-			focus = ISR_National_Insurance_Act
+			focus = ISR_National_Insurance_Act_historical
 		}
 		x = 30
 		y = 11
@@ -2198,7 +2294,22 @@ focus_tree = {
 		}
 		x = 4
 		y = 6
-
+		completion_reward = {
+			every_owned_state = {
+				add_building_construction = {
+					type = state_infrastructure
+					level = 1
+					instant_build = yes
+				}		
+			}
+			every_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}		
+			}
+		}
 	}
 	focus = {
 		id = ISR_Establish_the_Holocaust_Remembrance_Day
