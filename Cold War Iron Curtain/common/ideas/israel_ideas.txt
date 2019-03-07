@@ -145,7 +145,7 @@ ideas = {
 			picture = generic_manpower_bonus
 		}
     }
-
+    
 	political_advisor = {
 		
 		Pinchas_Rosen = {

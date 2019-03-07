@@ -957,7 +957,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 1
-
+			completion_reward = {
+					news_event = israel.5
+				}
 	}
 	focus = {
 		id = ISR_Government_Austerity
@@ -968,7 +970,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 2
-
+        completion_reward = {
+        add_ideas = british_austerity_idea
+        }
 	}
 	focus = {
 		id = ISR_Syrian_Armstice
@@ -979,7 +983,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 2
-
+			completion_reward = {
+					country_event = israel.7
+				}
 	}
 	focus = {
 		id = ISR_Lusanne_Talks
@@ -993,7 +999,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 3
-
+			completion_reward = {
+					country_event = israel.6
+				}
 	}
 	focus = {
 		id = ISR_Designate_Jerusalem_as_the_Capital
@@ -1004,7 +1012,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 4
-
+        completion_reward = {
+        set_capital = 921
+        }
 	}
 	focus = {
 		id = ISR_Benelux_Recognition
@@ -1015,7 +1025,26 @@ focus_tree = {
 		}
 		x = 30
 		y = 5
-
+			completion_reward = {
+					BEL = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+					HOL = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+					LUX = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+					}			
 	}
 	focus = {
 		id = ISR_British_Recognition
@@ -1026,7 +1055,20 @@ focus_tree = {
 		}
 		x = 33
 		y = 5
-
+		completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = ENG
+									modifier = large_increase
+								}
+						}
+					ENG = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+					}
 	}
 	focus = {
 		id = ISR_First_Nationwide_Munincipal_Elections
@@ -1040,7 +1082,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 6
-
+			completion_reward = {
+					country_event = israel.8
+				}
 	}
 	focus = {
 		id = ISR_Mapai_Victory
@@ -1109,7 +1153,13 @@ focus_tree = {
 		}
 		x = 36
 		y = 5
-
+        completion_reward = {
+        add_timed_idea = {
+        idea = idea_ISR_Impulse_Settlements
+        days = 100
+           
+            }
+        }
 	}
 	focus = {
 		id = ISR_Operation_Erza_and_Neremiah
@@ -1123,7 +1173,9 @@ focus_tree = {
 		}
 		x = 35
 		y = 6
-
+        completion_reward = {
+        add_manpower = 120000
+        }
 	}
 	focus = {
 		id = ISR_Mapai_Victory_1955
