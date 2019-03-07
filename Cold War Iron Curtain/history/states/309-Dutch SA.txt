@@ -28,6 +28,12 @@ state={
 
 		}
 		add_core_of = HOL
+		add_core_of = SUR
+		1975.1.1 = {
+			owner = SUR
+			remove_core_of = HOL
+
+		}
 
 	}
 
