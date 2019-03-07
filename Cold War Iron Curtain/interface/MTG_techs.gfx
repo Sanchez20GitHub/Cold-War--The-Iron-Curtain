@@ -1,5 +1,12 @@
 spriteTypes = {
 
+##### HULLS - SUBMARINES - OTHER #####
+
+	SpriteType = {
+		name = "GFX_sub_hull_ww_submarines_medium"
+		texturefile = "gfx/interface/technologies/MTG_wwsub_0.dds"
+	}
+
 ##### HULLS - SUBMARINES - LARGE SINGLE #####
 
 	SpriteType = {
