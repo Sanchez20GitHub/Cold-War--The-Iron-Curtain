@@ -5189,4 +5189,20 @@ spriteTypes = {
 		name = "GFX_idea_israel_electric_company"
 		texturefile = "gfx/interface/ideas/isr/Israel_electric_co.tga"
     }
+    spriteType = {
+		name = "GFX_idea_Fabricaciones_Militares"
+		texturefile = "gfx/interface/ideas/arg/Fabricaciones_Militares.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_fadeA"
+		texturefile = "gfx/interface/ideas/arg/fadeA.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_Bersa"
+		texturefile = "gfx/interface/ideas/arg/Bersa_Logo.tga"
+    }
+    spriteType = {
+		name = "GFX_idea_aereolinas"
+		texturefile = "gfx/interface/ideas/arg/aereolinas.tga"
+    }
 }

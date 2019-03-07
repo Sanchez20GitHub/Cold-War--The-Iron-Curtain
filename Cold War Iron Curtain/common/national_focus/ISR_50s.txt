@@ -108,7 +108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Tel_Aviv_Savidor_Central_Railway_Station
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRailroads
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Hula_Valley_Reclamation
@@ -158,7 +158,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Dimona_Nuclear_Reactor
-		icon = GFX_uranium_fever
+		icon = GFX_nuclear_Power
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Create_the_City_of_Dimona
@@ -346,7 +346,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Czechsovakian_Planes
-		icon = GFX_goal_unknown
+		icon = GFX_focus_generic_cze_deal
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Israeli_Airforce
@@ -508,7 +508,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Promote_A_Secular_Society
-		icon = GFX_goal_unknown
+		icon = GFX_Enshrine_Secularism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Promote_Womens_Rights
@@ -552,7 +552,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Soviet_Advisors
-		icon = GFX_goal_unknown
+		icon = GFX_focus_soviet_advisors
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ignore_the_Trials
@@ -600,7 +600,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Establish_Unit_101
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_The_Israeli_Army
@@ -789,7 +789,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Allow_Foriegn_Investment
-		icon = GFX_goal_unknown
+		icon = GFX_CapitalistSystems
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_Soviet_Anti_Semetism
@@ -963,7 +963,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Yugoslavian_Arms_Deals
-		icon = GFX_goal_unknown
+		icon = GFX_focus_yugoslavian_advisors
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ties_With_India
@@ -1001,7 +1001,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Belgrade_Accords
-		icon = GFX_goal_unknown
+		icon = GFX_goal_YUG_Proclamation
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Expand_the_Power_Grid
@@ -1224,7 +1224,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Fund_Egged_Bus_Corporation
-		icon = GFX_goal_unknown
+		icon = GFX_Egged_Bus
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Mapai_Victory
@@ -1235,7 +1235,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Talks_With_West_Germany
-		icon = GFX_goal_unknown
+		icon = GFX_Talks_with_West_Germany
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Palestinian_Concilation_Committee
@@ -1249,7 +1249,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_National_Insurance_Act_historical
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_national_unity
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Fund_Egged_Bus_Corporation
@@ -1326,7 +1326,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Failure_of_the_Palestinian_Talks
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_dangerous_deal
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Palestinian_Concilation_Committee
@@ -1472,6 +1472,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
+			focus = ISR_Promote_White_Collar_Enterprises
 		}
 		x = 50
 		y = 19
@@ -1483,6 +1484,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
+			focus = ISR_Promote_White_Collar_Enterprises
 		}
 		x = 46
 		y = 19
@@ -1494,6 +1496,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Political_Freedom
+			focus = ISR_Promote_White_Collar_Enterprises
 		}
 		x = 42
 		y = 19
@@ -1557,7 +1560,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Embrace_Free_Trade
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_positive_trade_relations
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_End_Government_Subsidies_to_the_Collectives
@@ -1571,7 +1574,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Promote_Industrial_Development
-		icon = GFX_goal_unknown
+		icon = GFX_industrial_methods
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Embrace_Free_Trade
@@ -1728,7 +1731,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Encourage_Charity
-		icon = GFX_goal_unknown
+		icon = GFX_Monetary_Reform
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Support_the_Histadrut
@@ -1764,7 +1767,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Military_Expansion
-		icon = GFX_goal_unknown
+		icon = GFX_military_service_reduction
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Encourage_Aliyah
@@ -1802,8 +1805,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ISR_Declare_Jerusalem_As_the_Capital
-		icon = GFX_goal_unknown
+		id = ISR_Develop_Jerusalem
+		icon = GFX_jereusalem
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Shabbat_Laws
@@ -1856,7 +1859,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Expand_Welfare_Programs
-		icon = GFX_Monetary_Reform
+		icon = GFX_Money
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_Godless_Communism
@@ -1939,7 +1942,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Secularize_Israel
-		icon = GFX_goal_unknown
+		icon = GFX_Enshrine_Secularism
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Herut_Victory
@@ -1962,7 +1965,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Nationalize_railways
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRailroads
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Secularize_Israel
@@ -2004,7 +2007,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Fund_Development_Projects
-		icon = GFX_goal_unknown
+		icon = GFX_industrial_methods
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Expand_israeli_Settlements
@@ -2270,7 +2273,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Visit_From_the_US
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_us
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_West_German_Repperation_Treaty
@@ -2281,7 +2284,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_The_Kastner_Trial
-		icon = GFX_goal_unknown
+		icon = GFX_FocusFairTrials
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_PM_Moshe_Sharret
@@ -2453,7 +2456,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_French_Nuclear_Aid
-		icon = GFX_goal_unknown
+		icon = GFX_nuclear_Power
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Operation_Samaria
@@ -2498,7 +2501,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Strengthen_Soviet_Ties
-		icon = GFX_goal_unknown
+		icon = GFX_focus_chi_mission_to_the_soviet_union
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Lift_Martial_Law
@@ -2815,7 +2818,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Enshrine_Democratic_Values
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_support_democracy
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_End_Histadrut_Economic_Control
@@ -2916,7 +2919,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = ISR_Declare_Jerusalem_As_the_Capital
+			focus = ISR_Develop_Jerusalem
 		}
 		prerequisite = {
 			focus = ISR_Promote_Traditional_Culture
@@ -2933,7 +2936,7 @@ focus_tree = {
 			focus = ISR_Support_Our_Settlers
 		}
 		prerequisite = {
-			focus = ISR_Declare_Jerusalem_As_the_Capital
+			focus = ISR_Develop_Jerusalem
 		}
 		x = 59
 		y = 21

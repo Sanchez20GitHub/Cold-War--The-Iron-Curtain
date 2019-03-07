@@ -68,7 +68,21 @@ ideas = {
 			
 			traits = { industrial_concern }
 		}
-	}
+
+		Osem = {
+
+        picture = osem
+			
+			allowed = {
+				original_tag = ISR
+			}
+            modifier = {
+			consumer_goods_factor = -0.1
+			}
+			traits = { industrial_concern }
+		}
+	}	
+
 	aircraft_manufacturer = {
          Israel_Aerospace_Industries = {
 			
@@ -88,4 +102,3 @@ ideas = {
 
 		}
 	}
-}

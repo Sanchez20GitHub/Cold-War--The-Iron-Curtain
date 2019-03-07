@@ -129,4 +129,20 @@ spriteTypes = {
 		name = "GFX_jereusalem"
 		texturefile = "gfx/interface/goals/Jerusalem_Capital_no_crown.dds" 
 	}
+	SpriteType = {
+		name = "GFX_idea_osem"
+		texturefile = "gfx/interface/ideas/isr/osem.tga" 
+	}
+	SpriteType = {
+		name = "GFX_nuclear_Power"
+		texturefile = "gfx/interface/goals/nuclear_Power.dds"
+	}
+	SpriteType = {
+		name = "GFX_Egged_Bus"
+		texturefile = "gfx/interface/goals/Egged_Bus.dds"
+	}
+	SpriteType = {
+		name = "GFX_Talks_with_West_Germany"
+		texturefile = "gfx/interface/goals/Talks_with_West_Germany.dds"
+	}
 }
