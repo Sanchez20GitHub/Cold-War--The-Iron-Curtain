@@ -1,0 +1,84 @@
+spriteTypes = {
+
+##### HULLS - SUBMARINES - LARGE SINGLE #####
+
+	SpriteType = {
+		name = "GFX_sub_hull_large_single_0_medium"
+		texturefile = "gfx/interface/technologies/MTG_shls_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_large_single_1_medium"
+		texturefile = "gfx/interface/technologies/MTG_shls_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_sub_hull_large_single_2_medium"
+		texturefile = "gfx/interface/technologies/MTG_shls_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_sub_hull_large_single_3_medium"
+		texturefile = "gfx/interface/technologies/MTG_shls_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_large_single_4_medium"
+		texturefile = "gfx/interface/technologies/MTG_shls_4.dds"
+	}
+	
+##### HULLS - SUBMARINES - SMALL SINGLE #####
+	
+	SpriteType = {
+		name = "GFX_sub_hull_small_single_0_medium"
+		texturefile = "gfx/interface/technologies/MTG_shss_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_small_single_1_medium"
+		texturefile = "gfx/interface/technologies/MTG_shss_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_sub_hull_small_single_2_medium"
+		texturefile = "gfx/interface/technologies/MTG_shss_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_sub_hull_small_single_3_medium"
+		texturefile = "gfx/interface/technologies/MTG_shss_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_small_single_4_medium"
+		texturefile = "gfx/interface/technologies/MTG_shss_4.dds"
+	}
+	
+##### HULLS - SUBMARINES - LARGE DOUBLE #####
+	
+	SpriteType = {
+		name = "GFX_sub_hull_large_double_0_medium"
+		texturefile = "gfx/interface/technologies/MTG_shld_0.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_large_double_1_medium"
+		texturefile = "gfx/interface/technologies/MTG_shld_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_sub_hull_large_double_2_medium"
+		texturefile = "gfx/interface/technologies/MTG_shld_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_sub_hull_large_double_3_medium"
+		texturefile = "gfx/interface/technologies/MTG_shld_3.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_sub_hull_large_double_4_medium"
+		texturefile = "gfx/interface/technologies/MTG_shld_4.dds"
+	}
+	
+}
