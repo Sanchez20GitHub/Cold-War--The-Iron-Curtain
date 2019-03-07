@@ -659,10 +659,8 @@ focus_tree = {
 						name = "Sherman M-50" 
 						type = mbt_equipment_0 
 						upgrades = { 
-							tank_reliability_upgrade = 5
-							tank_engine_upgrade = 4
-							tank_armor_upgrade = 5
-							tank_gun_upgrade = 7
+							tank_engine_upgrade = 3
+							tank_gun_upgrade = 3
 						}
 					}
 
