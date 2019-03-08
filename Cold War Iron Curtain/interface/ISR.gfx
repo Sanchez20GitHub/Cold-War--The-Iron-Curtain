@@ -157,4 +157,8 @@ spriteTypes = {
 		name = "GFX_idea_Yitzhak_Ben_Zvi"
 		texturefile = "gfx/interface/ideas/isr/Yitzhak_Ben_Zvi.tga"
 	}
+	SpriteType = {
+		name = "GFX_agriculture_KR"
+		texturefile = "gfx/interface/goals/AUS_agriculture.dds"
+	}
 }

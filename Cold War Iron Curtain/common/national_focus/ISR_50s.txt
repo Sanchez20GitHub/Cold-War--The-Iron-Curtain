@@ -583,6 +583,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 14
+		completion_reward = {
+		add_ideas = sov_aid
+		}
 
 	}
 	focus = {
@@ -757,7 +760,7 @@ focus_tree = {
 			}		
 			add_equipment_to_stockpile = {
 				type = infantry_equipment
-				amount = 10000
+				amount = 1000
 				producer = FRA
 			}		
 		}
@@ -778,14 +781,27 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Appeal_to_Yugoslavia
-		icon = GFX_goal_unknown
+		icon = GFX_goal_YUG_Proclamation
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_Soviet_Anti_Semetism
 		}
 		x = 21
 		y = 13
-
+        completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = YUG
+									modifier = large_increase
+								}
+						}
+					YUG = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_increase
+								}
+						}
+				}  
 	}
 	focus = {
 		id = ISR_Allow_Foriegn_Investment
@@ -1820,7 +1836,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Increase_Agricultural_Subsidies
-		icon = GFX_goal_unknown
+		icon = GFX_agriculture_KR
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_West_German_Reperations2
@@ -2035,7 +2051,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Expand_Farms
-		icon = GFX_goal_unknown
+		icon = GFX_agriculture_KR
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Land_reclamation_Projects
