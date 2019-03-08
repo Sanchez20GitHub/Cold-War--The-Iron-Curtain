@@ -13,7 +13,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_screen_hull_ww_screens_small"
+		name = "GFX_screen_hull_ww_screens_medium"
 		texturefile = "gfx/interface/technologies/MTG_wwscreen_0.dds"
 	}
 
