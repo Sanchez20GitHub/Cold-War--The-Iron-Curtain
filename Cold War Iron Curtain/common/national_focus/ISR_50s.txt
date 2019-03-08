@@ -1898,7 +1898,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_To_the_Banks_of_the_Jordan
-		icon = GFX_goal_unknown
+		icon = GFX_west_bank
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Condemn_Godless_Communism
@@ -2108,7 +2108,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_To_The_Banks_of_the_Jordan_River
-		icon = GFX_goal_unknown
+		icon = GFX_west_bank
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Emphasize_Zionism
@@ -2125,7 +2125,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Reclaim_Gaza
-		icon = GFX_goal_unknown
+		icon = GFX_gaza
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Refuse_recognize_Jordan
@@ -2241,6 +2241,9 @@ focus_tree = {
 		}
 		x = 30
 		y = 11
+		completion_reward = {
+		add_ideas = idea_Yitzhak_Ben_Zvi
+		}
 
 	}
 	focus = {

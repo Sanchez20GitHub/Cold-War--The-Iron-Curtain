@@ -19,6 +19,8 @@ ideas = {
         
         idea_Yitzhak_Ben_Zvi = {
 
+        picture = Yitzhak_Ben_Zvi
+
             allowed = {
                 original_tag = ISR
             }

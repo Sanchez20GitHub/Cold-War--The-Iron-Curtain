@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Israel Events
 ###########################
 
@@ -176,6 +176,7 @@ country_event = {
 	id = israel.6
 	title = "Lausanne Talks"
 	desc = "israel.6.d"
+	picture = GFX_jerusalem
 
 	is_triggered_only = yes
 	
@@ -187,7 +188,8 @@ country_event = {
 country_event = {
 	id = israel.7
 	title = "Syrian Armistice"
-	desc = israel.7.d
+	desc = "israel.7.d"
+	picture = GFX_israeli_troops
 
 	is_triggered_only = yes
 	
@@ -199,7 +201,8 @@ country_event = {
 country_event = {
 	id = israel.8
 	title = "Municipal Elections"
-	desc = israel.8.d
+	desc = "israel.8.d"
+    picture = GFX_israel_fashion
 
 	is_triggered_only = yes
 	

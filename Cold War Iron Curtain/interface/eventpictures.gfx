@@ -2946,10 +2946,21 @@ spriteType = {
 		name = "GFX_rho_black_white"
 		texturefile = "gfx/event_pictures/rhodie_black_and_white.dds"
 	}
-	
-###GREECE
+    spriteType = {
+		name = "GFX_jerusalem"
+		texturefile = "gfx/event_pictures/jerusalem.tga"
+	}	
     spriteType = {
 		name = "GFX_news_event_cypriot_referendum"
 		texturefile = "gfx/event_pictures/news_event_cypriot_referendum.dds"
 	}
+    spriteType = {
+		name = "GFX_israel_fashion"
+		texturefile = "gfx/event_pictures/israeli_fashion.tga"
+	}
+
+    spriteType = {
+		name = "GFX_israeli_troops"
+		texturefile = "gfx/event_pictures/israeli_troops.tga"
+	}		
 }

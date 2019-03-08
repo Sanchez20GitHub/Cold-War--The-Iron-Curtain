@@ -145,4 +145,16 @@ spriteTypes = {
 		name = "GFX_Talks_with_West_Germany"
 		texturefile = "gfx/interface/goals/Talks_with_West_Germany.dds"
 	}
+	SpriteType = {
+		name = "GFX_gaza"
+		texturefile = "gfx/interface/goals/gaza.tga"
+	}
+	SpriteType = {
+		name = "GFX_west_bank"
+		texturefile = "gfx/interface/goals/west_bank.tga"
+	}
+	SpriteType = {
+		name = "GFX_idea_Yitzhak_Ben_Zvi"
+		texturefile = "gfx/interface/ideas/isr/Yitzhak_Ben_Zvi.tga"
+	}
 }
