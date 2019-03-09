@@ -225,14 +225,6 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_subkiller
-					ship_SAM_short_range
-					ship_armament_light
-				}
-			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
@@ -281,14 +273,6 @@ equipments = {
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_subkiller
-					ship_SAM_short_range
-					ship_armament_light
-				}
-			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
