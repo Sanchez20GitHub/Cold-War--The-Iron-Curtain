@@ -22,7 +22,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_armament_light }
 			}
-			fixed_ship_SAM_short_range_slot = {
+			fixed_ship_anti_air_slot = {
 				required = no
 				allowed_module_categories = { ship_SAM_short_range }
 			}
@@ -47,7 +47,13 @@ equipments = {
 					ship_subkiller
 				}
 			}
-			rear_1_custom_slot = mid_1_custom_slot
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_armament_light
+				}
+			}
 		}
 		
 		module_count_limit = {
@@ -115,7 +121,7 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_SAM_short_range_slot = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -124,12 +130,17 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
+					ship_SAM_short_range
 					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
 					ship_SAM_short_range
 					ship_armament_light
 				}
 			}
-			rear_1_custom_slot = mid_1_custom_slot
 		}
 
 		default_modules = {
@@ -162,33 +173,22 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_SAM_short_range_slot = inherit
+			fixed_ship_anti_air = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {
-					ship_subkiller
-					ship_SAM_short_range
-					ship_armament_light
-				}
-			}
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
-					ship_armament_light
+					ship_subkiller
 				}
 			}
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
 					ship_armament_light
 				}
@@ -221,7 +221,7 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_SAM_short_range_slot = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -237,17 +237,13 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
-					ship_armament_light
+					ship_subkiller
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
 					ship_armament_light
 				}
@@ -281,7 +277,7 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_SAM_short_range_slot = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_ship_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -297,17 +293,13 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
-					ship_armament_light
+					ship_subkiller
 				}
 			}
-			mid_2_custom_slot = mid_1_custom_slot
 			rear_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
-					ship_subkiller
 					ship_SAM_short_range
 					ship_armament_light
 				}
