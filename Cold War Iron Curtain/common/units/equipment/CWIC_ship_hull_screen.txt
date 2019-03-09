@@ -70,7 +70,7 @@ equipments = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_SAM_short_range_slot = empty
 			fixed_ship_radar_slot = empty
-			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_engine_slot = light_screen_engine_0
 			fixed_ship_torpedo_slot = empty
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
@@ -96,7 +96,7 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 200
 		resources = {
-			steel = 2
+			steel = 1
 		}
 		
 		manpower = 150
@@ -159,7 +159,7 @@ equipments = {
 		max_strength = 30
 		build_cost_ic = 300
 		resources = {
-			steel = 2.5
+			steel = 1.5
 		}
 		manpower = 200
 	}
@@ -254,10 +254,9 @@ equipments = {
 		build_cost_ic = 600
 		manpower = 200
 		resources = {
-			steel = 4
-			tungsten = 1
+			steel = 2
+			tungsten = 0.5
 		}
-		manpower = 200
 	}
 	
 	screen_hull_small_4 = {
@@ -302,9 +301,329 @@ equipments = {
 		build_cost_ic = 700
 		manpower = 150
 		resources = {
+			steel = 2.5
+			tungsten = 1
+		}
+	}
+	
+	screen_hull_medium = {
+		year = 1945
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		interface_category = interface_category_screen_ships
+		alias = frigate
+		priority = 2000
+
+		upgrades = {
+			ship_torpedo_upgrade
+			screen_engine_upgrade
+			ship_ASW_upgrade
+			ship_SAM_mid_range_upgrade
+		}
+
+		module_slots = {
+			fixed_ship_battery_slot = {
+				required = yes
+				allowed_module_categories = { ship_armament_light ship_armament_medium }
+			}
+			fixed_ship_anti_air_slot = {
+				required = no
+				allowed_module_categories = { ship_SAM_short_range ship_SAM_mid_range }
+			}
+			fixed_ship_radar_slot = {
+				required = no
+				allowed_module_categories = { ship_radar ship_sonar ship_navigation }
+			}
+			fixed_ship_torpedo_slot = {
+				required = no
+				allowed_module_categories = { ship_torpedo }
+			}
+			fixed_ship_engine_slot = {
+				required = yes
+				allowed_module_categories = { screen_engine }
+			}
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+					ship_armament_light
+				}
+			}
+		}
+		
+		module_count_limit = {
+			category = ship_radar
+			count < 2
+		}
+		
+		module_count_limit = {
+			category = ship_sonar
+			count < 2
+		}
+		
+		default_modules = {
+			fixed_ship_battery_slot = empty
+			fixed_ship_SAM_short_range_slot = empty
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = screen_engine_0
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		
+		lg_armor_piercing = 0
+		lg_attack = 0
+		
+		hg_armor_piercing = 0
+		hg_attack = 0
+		
+		torpedo_attack = 0
+		sub_attack = 1
+		anti_air_attack = 1.2
+		armor_value = 0
+		surface_detection = 25
+		sub_detection = 15
+		surface_visibility = 14
+		naval_speed = 45
+		reliability = 0.8
+		naval_range = 2200
+		max_strength = 50
+		fuel_consumption = 0
+		build_cost_ic = 400
+		resources = {
+			steel = 2
+		}
+		
+		manpower = 400
+	}
+
+	screen_hull_medium_0 = {
+		year = 1945
+
+		archetype = screen_hull_medium
+		priority = 2000
+		#alias = frigate_0
+		
+		module_slots = inherit
+	}
+
+	screen_hull_medium_1 = {
+		year = 1970
+
+		archetype = screen_hull_medium
+		priority = 2000
+		parent = screen_hull_light_0
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+					ship_armament_light
+				}
+			}
+		}
+
+		default_modules = {
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+
+
+		reliability = 0.85
+		surface_detection = 30
+		sub_detection = 10
+		surface_visibility = 16
+		anti_air_attack = 1.6
+		naval_speed = 48
+		naval_range = 2500
+		max_strength = 50
+		build_cost_ic = 800
+		resources = {
+			steel = 3
+		}
+		manpower = 450
+	}
+
+	screen_hull_medium_2 = {
+		year = 1970
+
+		archetype = screed_hull_small
+		priority = 2000
+		parent = screen_hull_1
+
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+					ship_armament_light
+				}
+			}
+		}
+
+		
+		resources = {
+			steel = 4
+		}
+
+		reliability = 0.85
+		surface_detection = 35
+		sub_detection = 20
+		surface_visibility = 20
+		anti_air_attack = 2
+		naval_speed = 51
+		naval_range = 2800
+		max_strength = 70
+		build_cost_ic = 1000
+		manpower = 500
+	}
+
+	screen_hull_medium_3 = {
+		year = 1985
+
+		archetype = screen_hull_medium
+		priority = 2000
+		parent = screen_hull_medium_2
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+					ship_armament_light
+				}
+			}
+		}
+
+
+		reliability = 0.95
+		surface_detection = 40
+		sub_detection = 25
+		surface_visibility = 22
+		anti_air_attack = 2.4
+		naval_speed = 54
+		naval_range = 3100
+		max_strength = 80
+		build_cost_ic = 1200
+		manpower = 450
+		resources = {
+			steel = 4
+			tungsten = 1
+		}
+	}
+	
+	screen_hull_medium_4 = {
+		year = 2000
+
+		archetype = screen_hull_medium
+		priority = 2000
+		parent = screen_hull_medium_3
+		
+		module_slots = {
+			fixed_ship_battery_slot = inherit
+			fixed_ship_anti_air_slot = inherit
+			fixed_ship_radar_slot = inherit
+			fixed_ship_engine_slot = inherit
+			fixed_ship_torpedo_slot = inherit
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+				}
+			}
+			rear_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_SAM_short_range
+					ship_SAM_mid_range
+					ship_subkiller
+					ship_armament_light
+				}
+			}
+		}
+
+
+		reliability = 1.00
+		surface_detection = 40
+		sub_detection = 25
+		surface_visibility = 23
+		anti_air_attack = 2.8
+		naval_speed = 57
+		naval_range = 3400
+		max_strength = 90
+		build_cost_ic = 1400
+		manpower = 400
+		resources = {
 			steel = 4
 			tungsten = 2
 		}
-		manpower = 150
 	}
 }
