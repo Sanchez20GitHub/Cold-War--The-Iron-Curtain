@@ -8,6 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
+	continuous_focus_position = { x = 100 y = 4000 }
 	focus = {
 		id = ISR_Ben_Gurion_Rule
 		icon = GFX_Ben_Gurion
@@ -900,7 +901,10 @@ focus_tree = {
 		}
 		x = 22
 		y = 18
-
+			completion_reward = {
+					add_ideas = city_economies
+					add_ideas = urban_planning
+				}
 	}
 	focus = {
 		id = ISR_Aid_our_Farmers
@@ -975,7 +979,9 @@ focus_tree = {
 		}
 		x = 22
 		y = 20
-
+		completion_reward = {
+			add_ideas = neutrality_idea
+		}
 	}
 	focus = {
 		id = ISR_Yugoslavian_Arms_Deals
@@ -1225,7 +1231,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 8
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Palestinian_Concilation_Committee
@@ -1316,7 +1324,9 @@ focus_tree = {
 		}
 		x = 33
 		y = 17
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Apply_for_American_Arms_Sales
@@ -1375,9 +1385,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ISR_Talks_With_West_Germany
 		}
-		x = -2
-		y = 1
-		relative_position_id = ISR_Condemn_the_Slansky_Trial
+		x = 34
+		y = 12
 
 	}
 	focus = {
@@ -1411,7 +1420,9 @@ focus_tree = {
 		}
 		x = 46
 		y = 8
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Mergers_With_the_Minor_Parties
@@ -1433,7 +1444,9 @@ focus_tree = {
 		}
 		x = 46
 		y = 17
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Promote_White_Collar_Enterprises
@@ -1455,7 +1468,9 @@ focus_tree = {
 		}
 		x = 48
 		y = 9
-
+		completion_reward = {
+			remove_ideas = fra_rationing
+		}
 	}
 	focus = {
 		id = ISR_End_Government_Subsidies_to_the_Collectives
@@ -2064,7 +2079,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ISR_Tensions_with_arab_states+
+		id = ISR_Tensions_with_arab_states
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -2137,7 +2152,27 @@ focus_tree = {
 		}
 		x = 75
 		y = 11
-
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 921
+					num_provinces = 1
+					on_win = herut_conflict.2
+					on_lose = herut_conflict.3
+					on_cancel = herut_conflict.4
+				}
+							
+				defender = {
+					state = 781
+					num_provinces = 2
+					on_win = herut_conflict.3
+					on_lose = herut_conflict.2
+					on_cancel = herut_conflict.4
+				}
+			}
+		
+		}
 	}
 	focus = {
 		id = ISR_Reclaim_Gaza
@@ -2154,7 +2189,27 @@ focus_tree = {
 		}
 		x = 69
 		y = 11
-
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 803
+					num_provinces = 2
+					on_win = herut_conflict.5
+					on_lose = herut_conflict.6
+					on_cancel = herut_conflict.7
+				}
+							
+				defender = {
+					state = 801
+					num_provinces = 1
+					on_win = herut_conflict.6
+					on_lose = herut_conflict.5
+					on_cancel = herut_conflict.7
+				}
+			}
+		
+		}
 	}
 	focus = {
 		id = ISR_Gazan_Settlements
@@ -2168,7 +2223,6 @@ focus_tree = {
 		}
 		x = 71
 		y = 12
-
 	}
 	focus = {
 		id = ISR_Settle_East_Jerusalem
@@ -2225,7 +2279,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
-			focus = ISR_Tensions_with_arab_states+
+			focus = ISR_Tensions_with_arab_states
 		}
 		prerequisite = {
 			focus = ISR_Appeal_to_America
@@ -2316,22 +2370,26 @@ focus_tree = {
 		}
 		x = 33
 		y = 14
-
+		completion_reward = {
+			country_event = kastner_trial.1
+		}
 	}
 	focus = {
 		id = ISR_Kafr_Qasim_Massacre
-		icon = GFX_goal_unknown
+		icon = GFX_Camp_Rafidah
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Operation_Elkayam
 		}
 		x = 30
-		y = 19
-
+		y = 18
+		completion_reward = {
+			news_event = kafr_qasim.1
+		}
 	}
 	focus = {
 		id = ISR_Expand_the_Railway_Systems
-		icon = GFX_goal_unknown
+		icon = GFX_FocusBuildRailroads
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Expand_the_National_Telephone_Lines
@@ -2605,7 +2663,9 @@ focus_tree = {
 		}
 		x = 5
 		y = 18
-
+		completion_reward = {
+			add_ideas = comecon_member
+		}
 	}
 	focus = {
 		id = ISR_Rights_For_Palestinians
@@ -2647,7 +2707,12 @@ focus_tree = {
 		}
 		x = 3
 		y = 21
-
+			completion_reward = {
+					add_timed_idea = {
+							idea = DDR_idea_first_five_year_plan
+							days = 1825
+						}
+				}
 	}
 	focus = {
 		id = ISR_Multiculturalism
@@ -2689,7 +2754,9 @@ focus_tree = {
 		}
 		x = 11
 		y = 21
-
+		completion_reward = {
+			add_ideas = gen_ghey_1
+		}
 	}
 	focus = {
 		id = ISR_A_Two_State_Solution
@@ -2731,7 +2798,9 @@ focus_tree = {
 		}
 		x = 68
 		y = 13
-
+		completion_reward = {
+			add_ideas = gen_balanced_workers_2
+		}	
 	}
 	focus = {
 		id = ISR_Settler_Economics
@@ -2752,7 +2821,7 @@ focus_tree = {
 		icon = GFX_pop_expulsion
 		cost = 10.00
 		prerequisite = {
-			focus = ISR_Tensions_with_arab_states+
+			focus = ISR_Tensions_with_arab_states
 		}
 		prerequisite = {
 			focus = ISR_Tax_cuts
@@ -2768,10 +2837,8 @@ focus_tree = {
 		prerequisite = {
 			focus = ISR_Mergers_With_the_Minor_Parties
 		}
-		x = -4
-		y = 2
-		relative_position_id = ISR_General_Zionist_Victory
-
+		x = 42
+		y = 10
 	}
 	focus = {
 		id = ISR_Promote_Capitalism
@@ -2785,7 +2852,9 @@ focus_tree = {
 		}
 		x = 46
 		y = 13
-
+		completion_reward = {
+			add_ideas = activate_capitalism
+		}
 	}
 	focus = {
 		id = ISR_End_Histadrut_Economic_Control
@@ -2920,7 +2989,9 @@ focus_tree = {
 		}
 		x = 59
 		y = 22
-
+		completion_reward = {
+			add_ideas = traditional_culture
+		}
 	}
 	focus = {
 		id = ISR_Develop_the_Lands_of_Israel
@@ -2945,7 +3016,9 @@ focus_tree = {
 		}
 		x = 56
 		y = 21
-
+		completion_reward = {
+			add_ideas = patriotic_schools
+		}
 	}
 	focus = {
 		id = ISR_Preserve_Traditional_Gender_Roles
@@ -2959,6 +3032,8 @@ focus_tree = {
 		}
 		x = 59
 		y = 21
-
+		completion_reward = {
+			add_ideas = gen_notsaga_2
+		}
 	}
 }
