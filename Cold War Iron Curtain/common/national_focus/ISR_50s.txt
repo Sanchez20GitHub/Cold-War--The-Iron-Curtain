@@ -778,7 +778,20 @@ focus_tree = {
 		}
 		x = 20
 		y = 12
-
+        completion_reward = {
+					ISR = {
+							add_opinion_modifier = {
+									target = SOV
+									modifier = large_decrease
+								}
+						}
+					SOV = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_decrease
+								}
+						}
+				}
 	}
 	focus = {
 		id = ISR_Appeal_to_Yugoslavia
@@ -813,7 +826,9 @@ focus_tree = {
 		}
 		x = 19
 		y = 13
-
+		completion_reward = {
+			add_ideas = capitalism
+		}
 	}
 	focus = {
 		id = ISR_Support_The_Kibbutz
@@ -1373,7 +1388,36 @@ focus_tree = {
 		}
 		x = 36
 		y = 11
-
+        completion_reward = {
+					add_popularity = {
+						ideology = communism
+						popularity = -0.03
+					}
+					ISR = {
+							add_opinion_modifier = {
+									target = SOV
+									modifier = large_decrease
+								}
+						}
+					SOV = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_decrease
+								}
+						}
+					ISR = {
+							add_opinion_modifier = {
+									target = CZE
+									modifier = large_decrease
+								}
+						}
+					CZE = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_decrease
+								}
+						}
+				}
 	}
 	focus = {
 		id = ISR_Education_Reforms
@@ -1387,7 +1431,9 @@ focus_tree = {
 		}
 		x = 34
 		y = 12
-
+		completion_reward = {
+			add_ideas = more_escuelas
+		}
 	}
 	focus = {
 		id = ISR_PM_Moshe_Sharret
@@ -1433,7 +1479,13 @@ focus_tree = {
 		}
 		x = 44
 		y = 9
-
+		completion_reward = {
+			add_popularity = {
+				ideology = centrist
+				popularity = 0.05
+			}
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = ISR_General_Zionists_Victory_1955
@@ -1576,7 +1628,6 @@ focus_tree = {
 		}
 		x = 44
 		y = 20
-
 	}
 	focus = {
 		id = ISR_West_German_Reperations
@@ -1601,6 +1652,9 @@ focus_tree = {
 		}
 		x = 49
 		y = 11
+		completion_reward = {
+			add_ideas = gen_openist_1
+		}
 
 	}
 	focus = {
@@ -1662,7 +1716,9 @@ focus_tree = {
 		}
 		x = 59
 		y = 17
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_A_Jewish_Society
@@ -1721,7 +1777,9 @@ focus_tree = {
 		}
 		x = 59
 		y = 8
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_West_German_Reperations2
@@ -1744,6 +1802,10 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = ISR_Hapoel_HaMizrachi_Victory
+		
+		completion_reward = {
+			add_ideas = gen_pro_union_2
+		}
 
 	}
 	focus = {
@@ -1783,7 +1845,9 @@ focus_tree = {
 		}
 		x = 56
 		y = 11
-
+		completion_reward = {
+			add_ideas = strengthened_labor_unions
+		}
 	}
 	focus = {
 		id = ISR_Encourage_Aliyah
@@ -1805,7 +1869,9 @@ focus_tree = {
 		}
 		x = 63
 		y = 19
-
+		completion_reward = {
+			add_ideas = military_expansion
+		}
 	}
 	focus = {
 		id = ISR_Shabbat_Laws
@@ -1858,8 +1924,10 @@ focus_tree = {
 		}
 		x = 63
 		y = 10
-
-	}
+		completion_reward = {
+			add_ideas = agriculture
+		}
+	}	
 	focus = {
 		id = ISR_Socialism_and_Torah
 		icon = GFX_goal_unknown
@@ -1947,7 +2015,9 @@ focus_tree = {
 		}
 		x = 72
 		y = 17
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Land_reclamation_Projects
@@ -1969,7 +2039,9 @@ focus_tree = {
 		}
 		x = 72
 		y = 8
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = ISR_Secularize_Israel
@@ -2557,7 +2629,9 @@ focus_tree = {
 		}
 		x = 37
 		y = 21
-
+		completion_reward = {
+			add_ideas = safety_net
+		}
 	}
 	focus = {
 		id = ISR_Begin_Merger_With_Maki
@@ -2599,7 +2673,11 @@ focus_tree = {
 		}
 		x = 3
 		y = 14
-
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = ISR_Ignore_the_Trials
@@ -2613,7 +2691,13 @@ focus_tree = {
 		}
 		x = 7
 		y = 12
-
+		completion_reward = {
+			add_stability = -0.05
+			add_popularity = {
+				ideology = communism
+				popularity = 0.07
+			}
+		}
 	}
 	focus = {
 		id = ISR_Aliyah_From_the_Eastern_Bloc
