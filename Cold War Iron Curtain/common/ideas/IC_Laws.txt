@@ -334,6 +334,7 @@ ideas = {
 	lgbt_policies = {		
 		law = yes
 		gen_notsaga_1 = {
+			default = yes
 			removal_cost = -1
 			modifier = {
 				MONTHLY_POPULATION = 0.05

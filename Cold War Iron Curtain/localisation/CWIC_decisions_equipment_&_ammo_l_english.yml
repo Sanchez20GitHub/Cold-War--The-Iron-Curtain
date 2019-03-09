@@ -1,4 +1,5 @@
 ﻿l_english:
+  EFFECT_CHANGE_LAW_lgbt_policies:0 "Changes LGBT Policies to "$NAME|Y$", causing ($DESC$)."
 
  #### Ammo equipment
  ammo_equipment_category:0 "Ammunition rearment"
