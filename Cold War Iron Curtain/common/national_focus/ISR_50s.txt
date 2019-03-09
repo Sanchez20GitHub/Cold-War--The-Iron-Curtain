@@ -1056,7 +1056,23 @@ focus_tree = {
 		}
 		x = 20
 		y = 21
-
+		completion_reward = {
+					add_equipment_to_stockpile = {
+							type = infantry_equipment
+							amount = 20000
+							producer = YUG
+						}
+						add_equipment_to_stockpile = {
+							type = fighter_equipment_3
+							amount = 100
+							producer = YUG
+						}	
+						add_equipment_to_stockpile = {
+							type = mbt_equipment_2
+							amount = 350
+							producer = YUG
+						}	
+				}
 	}
 	focus = {
 		id = ISR_The_Israeli_Navy
@@ -1091,7 +1107,11 @@ focus_tree = {
 		}
 		x = 25
 		y = 20
-
+		completion_reward = {
+			add_threat = -1
+			add_stability = 0.05
+			news_event = israel_peace.1
+		}
 	}
 	focus = {
 		id = ISR_Egyptian_Israeli_Peace_Treaty
@@ -1105,8 +1125,11 @@ focus_tree = {
 		}
 		x = 24
 		y = 21
-
-	}
+		completion_reward = {
+			add_threat = -5
+			news_event = israel_peace.2
+		}
+	}	
 	focus = {
 		id = ISR_Purchase_Submarines
 		icon = GFX_goal_unknown
@@ -1388,7 +1411,7 @@ focus_tree = {
 		x = 35
 		y = 6
         completion_reward = {
-        add_manpower = 120000
+			add_manpower = 120000
         }
 	}
 	focus = {
@@ -1424,7 +1447,22 @@ focus_tree = {
 		}
 		x = 37
 		y = 19
-
+		completion_reward = {
+					EGY = {
+							add_opinion_modifier = {
+									target = ISR
+									modifier = large_decrease
+								}
+						}
+					ISR = {
+							add_opinion_modifier = {
+									target = JOR
+									modifier = large_decrease
+								}
+						}
+			add_threat = 1	
+			add_war_support = 0.02
+		}
 	}
 	focus = {
 		id = ISR_Failure_of_the_Palestinian_Talks
@@ -1505,7 +1543,14 @@ focus_tree = {
 		}
 		x = 37
 		y = 13
-
+		completion_reward = {
+			news_event = pm_moshe_sharret
+			create_country_leader = {
+				name = "Moshe Sharret"
+				picture = "Moshe_Sharret.dds"
+				ideology = democratic_socialist
+			}		
+		}
 	}
 	focus = {
 		id = ISR_Continue_Palestinian_Martial_Law
@@ -1516,7 +1561,10 @@ focus_tree = {
 		}
 		x = 38
 		y = 20
-
+		completion_reward = {
+			add_war_support = 0.05
+			add_political_power = 100
+		}
 	}
 	focus = {
 		id = ISR_General_Zionist_Victory
