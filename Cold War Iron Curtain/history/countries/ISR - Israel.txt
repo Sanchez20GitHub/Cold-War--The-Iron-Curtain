@@ -198,6 +198,7 @@ add_ideas = {
 	idea_ISR_Defence_of_the_Sionist_Nation
 	population_growth_rapid
 	idea_Chaim_Weizmann
+	martial_law
 }
 
 create_country_leader = {

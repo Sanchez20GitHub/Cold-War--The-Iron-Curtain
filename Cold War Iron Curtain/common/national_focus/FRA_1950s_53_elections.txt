@@ -115,7 +115,8 @@ focus_tree = {
 		cost = 10.00
 		x = 1
 		y = 1
-		completion_reward = {
+		available = {
+			always = no
 		}
 	}
 	focus = {
@@ -140,6 +141,7 @@ focus_tree = {
 		x = 2
 		y = 2
 		completion_reward = {
+			add_political_power = 150
 		}
 	}
 	focus = {
@@ -152,6 +154,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		completion_reward = {
+			add_ideas = welfare_state_plus
 		}
 	}
 	focus = {
@@ -164,6 +167,7 @@ focus_tree = {
 		x = 2
 		y = 3
 		completion_reward = {
+		add_ideas = gen_pro_union_2
 		}
 	}
 	focus = {
@@ -209,7 +213,7 @@ focus_tree = {
 		y = 3
 		completion_reward = {
             
-            sadd_ideas = communism_banned
+            add_ideas = communism_banned
 		}
 	}
 	focus = {
