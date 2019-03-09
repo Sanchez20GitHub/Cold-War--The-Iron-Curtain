@@ -12,7 +12,9 @@ focus_tree = {
 		cost = 10.00
 		x = 6
 		y = 0
-
+		completion_reward = {
+			add_political_power = 150
+		}
 	}
 	focus = {
 		id = FRA_1970s_Euro_Communism
@@ -49,7 +51,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 2
-
+		completion_reward = {
+			add_ideas = rights_for_people
+		}
 	}
 	focus = {
 		id = FRA_1970s_Freedom_of_Speech
@@ -81,7 +85,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = FRA_1970s
+		id = FRA_1970s_Expel_Intellectuals
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -89,7 +93,14 @@ focus_tree = {
 		}
 		x = 5
 		y = 2
-
+		completion_reward = {
+			add_stability = 0.02
+			add_political_power = 150
+			add_timed_idea = {
+				idea = purged_tech_advisors
+				days = 900
+			}
+		}
 	}
 	focus = {
 		id = FRA_1970s_Influence_Eastern_Europe
@@ -97,7 +108,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = FRA_1970s_More_Democratic_Less_Communism
-			focus = FRA_1970s
+			focus = FRA_1970s_Expel_Intellectuals
 		}
 		x = 4
 		y = 3
@@ -136,7 +147,7 @@ focus_tree = {
 			focus = FRA_1970s_Second_Five_Year_Plan
 		}
 		prerequisite = {
-			focus = FRA_1970s
+			focus = FRA_1970s_Expel_Intellectuals
 		}
 		x = 6
 		y = 3
@@ -327,7 +338,13 @@ focus_tree = {
 		}
 		x = 4
 		y = 7
-
+		completion_reward = {
+			news_event = french_maoism.1
+			set_politics = {
+				ruling_party = maoism
+				electionis_allowed = no
+			}
+		}
 	}
 	focus = {
 		id = FRA_1970s_Cultural_Revolution
@@ -338,7 +355,10 @@ focus_tree = {
 		}
 		x = 4
 		y = 8
-
+		completion_reward = {
+			add_ideas = PRC_cultural_revolution
+			news_event = french_cul_rev
+		}
 	}
 	focus = {
 		id = FRA_1970s_Social_Ecologism
@@ -349,7 +369,9 @@ focus_tree = {
 		}
 		x = 4
 		y = 9
-
+		completion_reward = {
+			add_ideas = enviromental_regulation
+		}
 	}
 	focus = {
 		id = FRA_1970s_Recognize_PRC
@@ -360,7 +382,18 @@ focus_tree = {
 		}
 		x = 4
 		y = 10
-
+		completion_reward = {
+			add_opinion_modifier = {
+				target = PRC
+				modifier = large_increase
+			}
+			PRC = {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = large_increase
+				}
+			}
+		}
 	}
 	focus = {
 		id = FRA_1970s_Align_with_Moscow
@@ -375,7 +408,18 @@ focus_tree = {
 		}
 		x = 8
 		y = 7
-
+		completion_reward = {
+			add_opinion_modifier = {
+				target = SOV
+				modifier = large_increase
+			}
+			SOV = {
+				add_opinion_modifier = {
+					target = FRA
+					modifier = large_increase
+				}
+			}
+		}
 	}
 	focus = {
 		id = FRA_1970s_Soviet_Satellite
@@ -386,7 +430,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 8
-
+		completion_reward = {
+			add_ideas = comecon_member
+		}
 	}
 	focus = {
 		id = FRA_1970s_Soviet_Advisor
@@ -397,7 +443,9 @@ focus_tree = {
 		}
 		x = 8
 		y = 9
-
+		completion_reward = {
+			add_ideas = soviet_advisors
+		}
 	}
 	focus = {
 		id = FRA_1970s_French_Gulag
@@ -408,6 +456,8 @@ focus_tree = {
 		}
 		x = 8
 		y = 10
-
+		completion_reward = {
+			add_ideas = gulag_politic
+		}
 	}
 }

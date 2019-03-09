@@ -92,7 +92,9 @@ focus_tree = {
 		}
 		x = 6
 		y = 2
-
+		completion_reward = {
+			add_ideas = corporatism
+		}
 	}
 	focus = {
 		id = FRA_70s_Legacy_of_Vichy
@@ -238,7 +240,9 @@ focus_tree = {
 		}
 		x = 3
 		y = 5
-
+		completion_reward = {
+			add_ideas = press_censorship_5
+		}
 	}
 	focus = {
 		id = FRA_70s_Pressure_West_Germany

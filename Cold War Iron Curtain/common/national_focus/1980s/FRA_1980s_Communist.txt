@@ -291,7 +291,11 @@ focus_tree = {
 		}
 		x = 6
 		y = 9
-
+		completion_reward = {
+			every_owned_state = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
 	}
 	focus = {
 		id = FRA_1980s_Create_RMI

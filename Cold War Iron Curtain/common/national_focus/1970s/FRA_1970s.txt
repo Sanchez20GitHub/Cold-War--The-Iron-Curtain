@@ -19,7 +19,9 @@ focus_tree = {
 		cost = 10.00
 		x = 5
 		y = 9
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = FRA_70s_Invest_in_Civil
@@ -124,7 +126,13 @@ focus_tree = {
 		}
 		x = 2
 		y = 3
-
+		completion_reward = {
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+			load_focus_tree = FRA_1970s_Fascist
+		}
 	}
 	focus = {
 		id = FRA_70s_Reduce_Military_Service
@@ -248,7 +256,9 @@ focus_tree = {
 		}
 		x = 5
 		y = 10
-
+		available = {
+			always = no
+		}
 	}
 	focus = {
 		id = FRA_70s_Nationalization_Program
@@ -341,7 +351,7 @@ focus_tree = {
 	}
 	focus = {
 		id = FRA_70s_Tiertary_Sector_Boom
-		icon = GFX_goal_unknown
+		icon = GFX_goal_unknown  
 		cost = 10.00
 		prerequisite = {
 			focus = FRA_70s_Create_European_Monetary_System
