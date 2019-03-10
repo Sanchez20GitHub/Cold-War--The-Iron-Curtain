@@ -7,8 +7,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { Nationalist_minister }
+                
             }
+			traits = { Nationalist_minister }
         }
 
         Clifford_Dupont  = {
@@ -18,8 +19,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { Tax_Shelterer_minister }
+                
             }
+			traits = { Tax_Shelterer_minister }
         }
 
         P_K_van_der_Byl = {
@@ -29,8 +31,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { Police_Statist_minister }
+                
             }
+			traits = { Police_Statist_minister }
         }
 
         henry_evarard = {
@@ -40,8 +43,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { Welfare_Advocate_minister }
+               
             }
+			 traits = { Welfare_Advocate_minister }
         }
 
         Jack_Howman = {
@@ -51,8 +55,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { Financial_Hawk_minister }
+              
             }
+			  traits = { Financial_Hawk_minister }
         }
     }
     air_chief = {
@@ -63,8 +68,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { air_chief_old_guard }
+             
             }
+			   traits = { air_chief_old_guard }
         }
     }
 
@@ -76,8 +82,9 @@ ideas = {
         }
         allowed = {
             original_tag = ZIM
-                traits = { army_chief_drill_1 }
+                
             }
+		traits = { army_chief_drill_1 }
         }
     }
 }

@@ -573,7 +573,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Lift_Martial_Law
-		icon = GFX_goal_unknown
+		icon = GFX_lif_martial_law
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Ignore_the_Trials
@@ -971,7 +971,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Encourage_Israeli_Arab_Coexestience
-		icon = GFX_goal_unknown
+		icon = GFX_israel_country
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Invest_in_Industry
@@ -1958,7 +1958,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Jewish_Society
-		icon = GFX_goal_unknown
+		icon = GFX_jewish_society
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_National_Religious_Party_Victory
@@ -2141,7 +2141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Support_Our_Settlers
-		icon = GFX_goal_unknown
+		icon = GFX_jewish_settlers
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Military_Expansion
@@ -2454,7 +2454,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Expand_israeli_Settlements
-		icon = GFX_goal_unknown
+		icon = GFX_jewish_settlers
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Herut_victory_1955
@@ -2986,7 +2986,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_United_Israel
-		icon = GFX_goal_unknown
+		icon = GFX_israel_country
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Clashes_with_Syria
@@ -3075,7 +3075,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Subway_Expansion
-		icon = GFX_goal_unknown
+		icon = GFX_metro
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Secret_French_Arms_Deal
@@ -3438,7 +3438,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Settler_Economics
-		icon = GFX_goal_unknown
+		icon = GFX_jewish_settlers
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Tax_cuts
@@ -3641,7 +3641,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Devout_Israel
-		icon = GFX_goal_unknown
+		icon = GFX_israel_country
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_A_Jewish_Educational_Framework
@@ -3705,7 +3705,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_A_Jewish_Educational_Framework
-		icon = GFX_goal_unknown
+		icon = GFX_jewish_society
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Develop_Jerusalem
