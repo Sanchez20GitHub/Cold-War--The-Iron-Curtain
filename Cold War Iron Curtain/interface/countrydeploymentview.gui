@@ -57,7 +57,7 @@ guiTypes = {
 			
 				background = {
 					name = "Background"		
-					quadTextureSprite ="GFX_tiled_window2_1b_border"
+					quadTextureSprite ="GFX_tiled_window_2b_border"
 				}
 
 				background = {
@@ -136,7 +136,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "templates_grid"
-				position = { x = 10 y = 0 }
+				position = { x = 4 y = 2 }
 				size = { width = 280 height = 100%% }
 				slotsize = { width = 280 height = 72 }
 				max_slots_horizontal = 1
@@ -343,8 +343,8 @@ guiTypes = {
 
 		buttonType = {
 			name = "add_template_button"
-			position = { x = 87 y = 48 }
-			quadTextureSprite ="GFX_small_button_71x26"
+			position = { x = 87 y = 42 }
+			quadTextureSprite ="GFX_small_button_ic_71x26"
 			buttonFont = "hoi_16mbs"
 			buttonText = "DEPLOYMENT_ADD_TEMPLATE"
 			clicksound = click_default
@@ -360,16 +360,16 @@ guiTypes = {
 		
 		buttonType = {
 			name = "edit_button"
-			position = { x = 157 y = 48 }
+			position = { x = 157 y = 42 }
 			buttonFont = "hoi_16mbs"
 			buttonText = "EDIT"			
-			quadTextureSprite = "GFX_small_button_71x26"
+			quadTextureSprite = "GFX_small_button_ic_71x26"
 			clicksound = click_default
 		}
 		
 		buttonType = {
 			name = "delete_button"
-			position = { x = 226 y = 48 }
+			position = { x = 226 y = 42 }
 			buttonFont = "hoi_16mbs"
 			quadTextureSprite = "GFX_delete_template_button"
 			clicksound = click_default

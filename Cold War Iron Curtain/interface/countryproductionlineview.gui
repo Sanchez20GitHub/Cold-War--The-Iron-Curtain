@@ -1570,7 +1570,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=80 y=72 }
+			position = { x=94 y=70 }
 			centerposition = yes
 			alwaystransparent = yes
 		}
@@ -3643,7 +3643,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=175 y=51 }
+			position = { x=175 y=46 }
 			centerposition = yes
 			alwaystransparent = yes
 		}
