@@ -30,14 +30,14 @@ ideas = {
 			
 		designer = yes
 		
-		valmet = { 
-			
+		Valmet_Lentokoneteollisuus = { 
+			picture = Valmet_Lentokoneteollisuus
 			allowed = {
 				original_tag = FIN
 			}
 			
 			research_bonus = {
-				air_equipment = 0.10
+				air_equipment = 0.05
 			}
 			
 			traits = { 
@@ -77,17 +77,92 @@ ideas = {
 			}
 		}
 		
-		nokia = {
+		Suomen_Autoteollisuus = {
+			picture = Suomen_Autoteollisuus	
+			allowed = {
+				original_tag = FIN
+				date < 1981.01.01
+			}
+			visible = {
+				original_tag = FIN
+				date < 1981.01.01
+			}
+						
+			research_bonus = {
+				motorized_equipment = 0.03
+			}
 			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		sisu = {
+			picture = sisu
+			allowed = {
+				original_tag = FIN
+				date > 1981.01.01
+			}
+			visible = {
+				original_tag = FIN
+				date > 1981.01.01
+			}
+						
+			research_bonus = {
+				motorized_equipment = 0.05
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+	}
+	
+	industrial_concern = {
+	
+	designer = yes
+	
+		Suomen_Kaapelitehdas = {
+			picture = Suomen_Kaapelitehdas
+			allowed = {
+				original_tag = FIN
+				date < 1967.01.01
+			}
+			visible = {
+				original_tag = FIN
+				date < 1967.01.01
+			}
+			
+			research_bonus = {
+				electronics = 0.03
+			}
+			
+			traits = { electronics_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		KONE = {
+			picture = KONE
 			allowed = {
 				original_tag = FIN
 			}
 			
-			research_bonus = {
-				electronics = 0.10
+			traits = { industrial_concern }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		neste = {
+			picture = neste
+			allowed = {
+				original_tag = FIN
 			}
 			
-			traits = { electronics_concern }
+			modifier = {
+				production_oil_factor = 0.03
+			}
 			
 			ai_will_do = {
 				factor = 1
@@ -100,14 +175,14 @@ ideas = {
 	air_chief = {
 		
 		frans_helminen = {
-
-			
+			picture = frans_helminen
 			allowed = {
 				original_tag = FIN
+				date < 1952.09.21
 			}
-			
-			available = {
-				date < 1952.9.21
+			visible = {
+				original_tag = FIN
+				date < 1952.09.21
 			}
 						
 			traits = { air_chief_ground_support_2 }

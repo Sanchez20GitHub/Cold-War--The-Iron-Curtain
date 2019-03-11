@@ -3021,6 +3021,17 @@
  zeth_hoglund:0 "Zeth Höglund"
  per_edvin_skold:0 "Per Edvin Sköld"
  
+ #Finland
+ Suomen_Kaapelitehdas:0 "Suomen Kaapelitehdas Oy"
+ Suomen_Kaapelitehdas_desc:0 "Founded in 1917, Suomen Kaapelitehdas is an electronics company mainly producing various electrical, telegraph and telephone cables."
+ Valmet_Lentokoneteollisuus:0 "Valmet Lentokoneteollisuus"
+ Valmet_Lentokoneteollisuus_desc:0 "Founded in 1945, Valmet Lentokoneteollisuus has taken over the former Valtion lentokonetehdas."
+ KONE:0 "KONE Oyj"
+ Suomen_Autoteollisuus:0 "Oy Suomen Autoteollisuus Ab"
+ Suomen_Autoteollisuus_desc:0 "Formed in 1931 from two neighbouring Helsinki-based automobile coach builders Autokoritehdas and Autoteollisuus-Bilindustri, both of which had fallen into financial troubles by the beginning of the 1930s, Suomen Autoteollisuus is a truck manufacturer company."
+ sisu:0 "Oy Sisu Auto Ab"
+ neste:0 "Neste Oy"
+ 
 #hungary
  soviet_payments:0 "Payments to the Soviets"
  soviet_reparations:0 "Soviet Reparations"

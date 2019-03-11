@@ -4538,6 +4538,38 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/DDR/wilhelm_zaisser.tga"
 	}
 	######################################################################################################################################################
+	# Finnish Ideas
+	######################################################################################################################################################
+	
+	spriteType = {
+	    name = "GFX_idea_Suomen_Kaapelitehdas"
+		texturefile = "gfx/interface/ideas/fin/Suomen_Kaapelitehdas.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_Valmet_Lentokoneteollisuus"
+		texturefile = "gfx/interface/ideas/fin/Valmet_Lentokoneteollisuus.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_KONE"
+		texturefile = "gfx/interface/ideas/fin/KONE.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_neste"
+		texturefile = "gfx/interface/ideas/fin/neste.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_Suomen_Autoteollisuus"
+		texturefile = "gfx/interface/ideas/fin/Suomen_Autoteollisuus.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_sisu"
+		texturefile = "gfx/interface/ideas/fin/sisu.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_frans_helminen"
+		texturefile = "gfx/interface/ideas/fin/frans_helminen.tga"
+	}
+	######################################################################################################################################################
 	# French Ideas
 	######################################################################################################################################################
 	
