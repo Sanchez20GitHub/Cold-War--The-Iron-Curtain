@@ -127,7 +127,7 @@ herfocus_tree = {
 	}
 	focus = {
 		id = PRC_Electrification_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_goal_generic_idea
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_Rebuild_the_Damaged_Factories
@@ -1042,7 +1042,7 @@ herfocus_tree = {
 	}
 	focus = {
 		id = PRC_The_First_FIve_Year_Plan
-		icon = GFX_goal_unknown
+		icon = GFX_Five_Year_Plan
 		cost = 10.00
 		prerequisite = {
 			focus = PRC_Program_of_General_Transition_Towards_Socialism

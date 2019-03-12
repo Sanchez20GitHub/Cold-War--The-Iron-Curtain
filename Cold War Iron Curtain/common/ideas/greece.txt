@@ -524,7 +524,8 @@ ideas = {
 		designer = yes
 		
 		saracakis = {
-			
+
+		picture = saracakis
 			
 			allowed = {
 				original_tag = GRE

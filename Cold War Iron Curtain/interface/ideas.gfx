@@ -5174,30 +5174,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/law509.dds"
     }
     spriteType = {
-		name = "GFX_idea_Alexandros_Papagos"
-		texturefile = "gfx/interface/ideas/Alexandros_Papagos.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_Georgios_Mauros"
-		texturefile = "gfx/interface/ideas/Georgios_Mauros.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_Sofoklis_Venizelos"
-		texturefile = "gfx/interface/ideas/Sofoklis_Venizelos.tga"
-    }
-    spriteType = {
-		name = "GFX_idea_margaritis"
-		texturefile = "gfx/interface/ideas/margaritis.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_kelaidis"
-		texturefile = "gfx/interface/ideas/kelaidis.dds"
-    }
-    spriteType = {
-		name = "GFX_idea_Xaralampos_Potamianos"
-		texturefile = "gfx/interface/ideas/Xaralampos_Potamianos.dds"
-    }
-    spriteType = {
 		name = "GFX_idea_Fincantieri"
 		texturefile = "gfx/interface/ideas/fincantieri.tga"
     }

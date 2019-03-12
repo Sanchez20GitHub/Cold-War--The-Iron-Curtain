@@ -85,7 +85,7 @@ Emmanouil_Kelaidis = {
 			traits = { close_air_support_proponent }
 		}
 Konstantinos_Margaritis = {
-        picture = idea_margaritis
+        picture = margaritis
 
 			allowed = {
 				original_tag = GRE
