@@ -32,8 +32,9 @@ guiTypes = {
 		iconType = {
 			name ="frontend_game_logo"
 			spriteType = "GFX_frontend_game_logo"
-			position = { x= 20 y = 20 }
+			position = { x= 152 y = 70 }
 		}
+		
 		
 	}
 
@@ -67,14 +68,14 @@ guiTypes = {
 		{
 			name ="frontend_dev_logo"
 			spriteType = "GFX_frontend_dev_logo"
-			position = { x= 15 y = 15 }
+			position = { x= -120 y = 70 }
 		}
 		
 		iconType =
 		{
 			name ="pdx_int_logo"
 			spriteType = "GFX_pdx_int_logo"
-			position = { x= 135 y = 15 }
+			position = { x= 15 y = 70 }
 		}		
 		
 	}		
@@ -180,7 +181,7 @@ guiTypes = {
 	containerWindowType = {
 		name ="mainmenu_panel_bottom"
 		position = { x=0 y =0}
-		size = { width = 800 height = 750 }
+		size = { width = 1920 height = 1200 }
 		Orientation = CENTER
 		Origo = center		
 				
@@ -191,20 +192,20 @@ guiTypes = {
 			
 		ButtonType = {
 			name = "single_player_button"
-			position = { x = 118 y = 130 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow"
-			font = "hoi_24header"			
-			text = "FE_SINGLE_PLAYER"				
+			position = { x = 160 y = 680 }
+			spriteType = "GFX_singleplayer_button"
+			font = "hoi_36header"			
+			text = ""				
 			clicksound = click_default			
 			oversound = ui_menu_over
 		}
 		
 		ButtonType = {
 			name = "multi_player_button"
-			position = { x = 380 y = 130 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow"
+			position = { x = 130 y = 760 }
+			spriteType = "GFX_multiplayer_button"
 			font = "hoi_24header"			
-			text = "FE_MULTI_PLAYER"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
@@ -212,7 +213,7 @@ guiTypes = {
 		instantTextBoxType = {
 
 			name ="version_label"
-			position = { x = 450 y = 470 }
+			position = { x = 850 y = 1110 }
 			textureFile = ""
 			font = "hoi_18b"
 			borderSize = {x = 0 y = 0}
@@ -225,118 +226,43 @@ guiTypes = {
 		
 		ButtonType = {
 			name = "settings_button"
-			position = { x = 253 y = 240 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow_small"	
-			buttonText = "OPTIONS"
+			position = { x = 50 y = 840 }
+			spriteType ="GFX_options_button"	
+			buttonText = ""
 			buttonFont = "hoi_24header"
 			clicksound = click_default
 			oversound = ui_menu_over
 		}
 		
-
+		
 		ButtonType = {
-			name = "credits_button"
-			position = {  x = 253 y = 280 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow_small"	
-			buttonText = "FE_CREDITS"
-			buttonFont = "hoi_24header"
+			name = "discord_button"
+			position = { x = 50 y = 920 }
+			spriteType = "GFX_discord_button"
 			clicksound = click_default
-			oversound = ui_menu_over
+			pdx_tooltip = ""
+			web_link = "https://discord.gg/jcAR76f"
 		}
 		
 		ButtonType = {
 			name = "nudge_button"
-			position = { x = 253 y = 320 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow_small"	
-			buttonText = "Nudge!"
+			position = { x = 24 y = 600 }
+			spriteType = "GFX_nudge_button"
+			buttonText = ""
 			buttonFont = "hoi_24header"
 		}
 		
 
 		ButtonType = {
 			name = "exit_button"
-			position = { x = 253 y = 360 }
-			quadTextureSprite ="GFX_main_lobby_button_arrow_small"
+			position = { x = -5 y = 1000 }
+			spriteType = "GFX_exit_button"
 			font = "hoi_24header"			
-			text = "FE_EXIT"			
+			text = ""			
 			clicksound = click_default
 			oversound = ui_menu_over
 			
 		}
-		
-		
-		## facebook etc.
-		ButtonType = {
-			name = "homepage_button"
-			position = { x = 133 y = 460 }
-			quadTextureSprite ="homepage"
-			clicksound = click_default
-			pdx_tooltip = "MENU_HOMEPAGE"
-			web_link = "http://www.heartsofiron4.com"
-		}
-		ButtonType = {
-			name = "forum_button"
-			position = { x = 183 y = 460 }
-			quadTextureSprite ="forum"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FORUM"
-			web_link = "http://forum.paradoxplaza.com/forum/forumdisplay.php?844-Hearts-of-Iron-IV"
-		}
-		ButtonType = {
-			name = "facebook_button"
-			position = { x = 233 y = 460 }
-			quadTextureSprite ="facebook"
-			clicksound = click_default
-			pdx_tooltip = "MENU_FACEBOOK"
-			web_link = "https://www.facebook.com/Heartsofiron"
-		}			
-		
-		ButtonType = {
-			name = "twitter_button"
-			position = { x = 283 y = 460 }
-			quadTextureSprite ="twitter"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TWITTER"
-			web_link = "https://twitter.com/hoi_game"
-		}
 
-		ButtonType = {
-			name = "discord_button"
-			position = { x = 360 y = 440 }
-			quadTextureSprite ="discord"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_DISCORD"
-			web_link = "https://discord.gg/9V3zbH3"
-		}
-
-		ButtonType = {
-			name = "plane_button"
-			position = { x = 630 y = 200 }
-			quadTextureSprite ="planeencyclopedia"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_PLANE"
-			web_link = "https://www.plane-encyclopedia.com/"
-			scale = 0.9
-		}
-
-		ButtonType = {
-			name = "tank_button"
-			position = { x = 630 y = 250 }
-			quadTextureSprite ="tankencyclopedia"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_TANK"
-			web_link = "http://www.tanks-encyclopedia.com/"
-			scale = 0.9
-		}
-
-		ButtonType = {
-			name = "navy_button"
-			position = { x = 630 y = 300 }
-			quadTextureSprite ="navyencyclopedia"
-			#clicksound = click_default
-			pdx_tooltip = "MENU_NAVY"
-			web_link = "http://www.naval-encyclopedia.com/"
-			scale = 0.9
-		}
 	}
 }

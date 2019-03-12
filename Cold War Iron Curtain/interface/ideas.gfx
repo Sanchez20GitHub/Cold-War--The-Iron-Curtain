@@ -4566,8 +4566,20 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/fin/sisu.tga"
 	}
 	spriteType = {
+	    name = "GFX_idea_wartsila"
+		texturefile = "gfx/interface/ideas/fin/wartsila.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_tvh"
+		texturefile = "gfx/interface/ideas/fin/tvh.tga"
+	}
+	spriteType = {
 	    name = "GFX_idea_frans_helminen"
 		texturefile = "gfx/interface/ideas/fin/frans_helminen.tga"
+	}
+	spriteType = {
+	    name = "GFX_idea_Aarne_Sihvo"
+		texturefile = "gfx/interface/ideas/fin/Aarne_Sihvo.tga"
 	}
 	######################################################################################################################################################
 	# French Ideas
