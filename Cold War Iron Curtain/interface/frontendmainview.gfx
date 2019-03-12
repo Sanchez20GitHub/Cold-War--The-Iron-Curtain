@@ -36,4 +36,28 @@ spriteTypes = {
                 name = "GFX_alpha_stamp"
                 texturefile = "gfx/interface/alpha_stamp.dds"
         }
+		 spriteType = {
+                name = "GFX_singleplayer_button"
+                texturefile = "gfx/interface/menu/singleplayer_button.dds"
+        }
+		spriteType = {
+                name = "GFX_multiplayer_button"
+                texturefile = "gfx/interface/menu/multiplayer_button.dds"
+        }
+		spriteType = {
+                name = "GFX_options_button"
+                texturefile = "gfx/interface/menu/options_button.dds"
+        }
+		spriteType = {
+                name = "GFX_exit_button"
+                texturefile = "gfx/interface/menu/exit_button.dds"
+        }
+		spriteType = {
+                name = "GFX_discord_button"
+                texturefile = "gfx/interface/menu/discord_button.dds"
+        }
+		spriteType = {
+                name = "GFX_nudge_button"
+                texturefile = "gfx/interface/menu/nudge_button.dds"
+        }
 }

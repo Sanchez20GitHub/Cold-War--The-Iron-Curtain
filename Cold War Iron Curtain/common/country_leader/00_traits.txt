@@ -1044,7 +1044,7 @@ leader_traits = {
 	
 	refinery_concern = {
 		random = no
-		
+		production_oil_factor = 0.03
 		ai_will_do = {
 			factor = 1
 		}

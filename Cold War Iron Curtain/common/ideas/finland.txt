@@ -7,7 +7,7 @@ ideas = {
 		designer = yes
 		
 		wartsila = {
-
+			picture = wartsila
 			
 			allowed = {
 				original_tag = FIN
@@ -21,7 +21,7 @@ ideas = {
 				
 			}
 			
-			traits = { naval_manufacturer }
+			traits = { convoy_escort_naval_manufacturer }
 			
 		}
 	}
@@ -160,9 +160,25 @@ ideas = {
 				original_tag = FIN
 			}
 			
-			modifier = {
-				production_oil_factor = 0.03
+			traits = { refinery_concern }
+			
+			ai_will_do = {
+				factor = 1
 			}
+		}
+		
+		tvh = {
+			picture = tvh
+			allowed = {
+				original_tag = FIN
+				date < 1964.01.01
+			}
+			visible = {
+				original_tag = FIN
+				date < 1964.01.01
+			}
+			
+			traits = { construction_company }
 			
 			ai_will_do = {
 				factor = 1
@@ -171,6 +187,26 @@ ideas = {
 	}
 	
 	# MILITARy
+	
+	army_chief = {
+		Aarne_Sihvo = {
+			picture = Aarne_Sihvo
+			allowed = {
+				original_tag = FIN
+				date < 1960.01.01
+			}
+			visible = {
+				original_tag = FIN
+				date < 1960.01.01
+			}
+			
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 2
+			}
+		}
+	}
 	
 	air_chief = {
 		
