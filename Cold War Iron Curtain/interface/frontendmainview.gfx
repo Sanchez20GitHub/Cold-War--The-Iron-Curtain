@@ -60,4 +60,20 @@ spriteTypes = {
                 name = "GFX_nudge_button"
                 texturefile = "gfx/interface/menu/nudge_button.dds"
         }
+		spriteType = {
+                name = "GFX_new_button"
+                texturefile = "gfx/interface/menu/new_button.dds"
+        }
+		spriteType = {
+                name = "GFX_continue_button"
+                texturefile = "gfx/interface/menu/continue_button.dds"
+        }
+		spriteType = {
+                name = "GFX_back_button"
+                texturefile = "gfx/interface/menu/back_button.dds"
+        }
+		spriteType = {
+                name = "GFX_load_button"
+                texturefile = "gfx/interface/menu/load_button.dds"
+        }
 }
