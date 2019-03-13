@@ -7718,4 +7718,12 @@ spriteTypes = {
 		name = "GFX_lif_martial_law"
 		texturefile = "gfx/interface/goals/ISR_Lift_Martial_Law.dds"
 	}
+	SpriteType = {
+		name = "GFX_universities"
+		texturefile = "gfx/interface/goals/Universities.dds"
+	}
+	SpriteType = {
+		name = "GFX_chinese_propaganda"
+		texturefile = "gfx/interface/goals/PRC_Propaganda.dds"
+	}
 }

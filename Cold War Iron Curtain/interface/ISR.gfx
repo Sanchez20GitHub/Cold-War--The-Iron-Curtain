@@ -161,4 +161,8 @@ spriteTypes = {
 		name = "GFX_agriculture_KR"
 		texturefile = "gfx/interface/goals/AUS_agriculture.dds"
 	}
+	SpriteType = {
+		name = "GFX_Zalman_Shazar"
+		texturefile = "gfx/interface/goals/Zalman_Shazar.tga"
+	}
 }

@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Barlan_University
-		icon = GFX_goal_unknown
+		icon = GFX_universities
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Hula_Valley_Reclamation
@@ -206,7 +206,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Tel_Aviv_University
-		icon = GFX_goal_unknown
+		icon = GFX_prioritize_western_education
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Tel_Aviv_Savidor_Central_Railway_Station
@@ -222,7 +222,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ISR_Complete_the_Huleh_Swamp_Drainage_Project
-		icon = GFX_goal_unknown
+		icon = GFX_focus_swamp_targeting
 		cost = 10.00
 		prerequisite = {
 			focus = ISR_Tel_Aviv_University
@@ -1342,6 +1342,9 @@ focus_tree = {
 		}
 		x = 31
 		y = 9
+		completion_reward = {
+		add_ideas = egged_bus
+		}
 
 	}
 	focus = {
