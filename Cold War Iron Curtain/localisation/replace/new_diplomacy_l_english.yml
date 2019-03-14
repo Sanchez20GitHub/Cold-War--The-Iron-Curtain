@@ -1,0 +1,2 @@
+﻿l_english:
+ DIPLOMACY_REVOKE_OFFER_MILACC_DESC:0 "We, the [Root.GetNameDef] will at this time revoke the military access we have provided for $COUNTRY|Y$. Singed [Root.GetLeader]."
