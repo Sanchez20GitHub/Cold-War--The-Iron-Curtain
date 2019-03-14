@@ -1988,13 +1988,19 @@ guiTypes = {
 			}
 			
 			instantTextboxType = {
-				name = "title"
-				position = { x = 0 y = 29 }
-				font = "hoi_24header"
-				text = "Maus"
+				name = "Request Title"
+				position = { x = -3 y = 3 }
+				font = "hoi_20bs"
+				text = "DiploSecBBS.dos [Request_Military_Access]"
 				maxWidth = 530
 				maxHeight = 20
 				format = center
+			}
+			
+			iconType = {
+				name = "diplo_response_bg"
+				position = {x=30 y=155}	
+				quadTextureSprite ="GFX_diplo_response_bg"
 			}
 			
 			instantTextboxType = {
@@ -2007,15 +2013,9 @@ guiTypes = {
 				format = center
 			}
 
-			iconType = {
-				name = "diplo_response_bg"
-				position = {x=30 y=195}	
-				quadTextureSprite ="GFX_diplo_response_bg"
-			}
-			
 			instantTextBoxType = {
 				name = "diplo_reply"
-				position = { x = 117 y = 200 }
+				position = { x = 117 y = 160 }
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
@@ -2028,7 +2028,7 @@ guiTypes = {
 			
 			iconType = {
 				name = "accept_icon"
-				position = { x = 432 y = 204 }
+				position = { x = 365 y = 162 }
 				spriteType ="GFX_accept_decline_icon"
 			}
 			
@@ -2036,7 +2036,7 @@ guiTypes = {
 				name = "send_button"
 				position = { x = 350 y = -60 }
 				
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_SEND"
@@ -2049,7 +2049,7 @@ guiTypes = {
 				name = "cancel_button"
 				position = { x = 70 y = -60 }
 				shortcut = "ESCAPE"
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_CANCEL"
@@ -2074,13 +2074,19 @@ guiTypes = {
 			}
 			
 			instantTextboxType = {
-				name = "title"
-				position = { x = 0 y = 29 }
-				font = "hoi_24header"
-				text = "Maus"
+				name = "Offer Title"
+				position = { x = -3 y = 3 }
+				font = "hoi_20bs"
+				text = "DiploSecBBS.dos [Offer_Military_Access]"
 				maxWidth = 530
 				maxHeight = 20
 				format = center
+			}
+			
+			iconType = {
+				name = "diplo_response_bg"
+				position = {x=30 y=155}	
+				quadTextureSprite ="GFX_diplo_response_bg"
 			}
 			
 			instantTextboxType = {
@@ -2093,15 +2099,9 @@ guiTypes = {
 				format = center
 			}
 			
-			iconType = {
-				name = "diplo_response_bg"
-				position = {x=30 y=195}	
-				quadTextureSprite ="GFX_diplo_response_bg"
-			}
-			
 			instantTextBoxType = {
 				name = "diplo_reply"
-				position = { x = 117 y = 200 }
+				position = { x = 117 y = 160 }
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
@@ -2111,10 +2111,10 @@ guiTypes = {
 
 				format = centre
 			}
-
+			
 			iconType = {
 				name = "accept_icon"
-				position = { x = 432 y = 204 }
+				position = { x = 365 y = 162 }
 				spriteType ="GFX_accept_decline_icon"
 			}
 			
@@ -2122,7 +2122,7 @@ guiTypes = {
 				name = "send_button"
 				position = { x = 350 y = -60 }
 				
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_SEND"
@@ -2135,7 +2135,7 @@ guiTypes = {
 				name = "cancel_button"
 				position = { x = 70 y = -60 }
 				shortcut = "ESCAPE"
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_CANCEL"
@@ -2154,17 +2154,23 @@ guiTypes = {
 
 			background = {
 				name = "Background"		
-				spriteType ="GFX_diplo_nonagression_pact_bg"
+				spriteType ="GFX_diplo_action_mil_acess_bg"
 			}
 			
 			instantTextboxType = {
-				name = "title"
-				position = { x = 0 y = 29 }
-				font = "hoi_24header"
-				text = "Maus"
+				name = "NonAgression"
+				position = { x = -3 y = 3 }
+				font = "hoi_20bs"
+				text = "DiploSecBBS.dos [Non_Aggression_Pact]"
 				maxWidth = 530
 				maxHeight = 20
 				format = center
+			}
+			
+			iconType = {
+				name = "diplo_response_bg"
+				position = {x=30 y=155}	
+				quadTextureSprite ="GFX_diplo_response_bg"
 			}
 			
 			instantTextboxType = {
@@ -2185,7 +2191,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "diplo_reply"
-				position = { x = 117 y = 200 }
+				position = { x = 117 y = 160 }
 				textureFile = ""
 				font = "hoi_24header"
 				borderSize = {x = 0 y = 0}
@@ -2194,11 +2200,11 @@ guiTypes = {
 				maxHeight = 40	
 
 				format = centre
-			}
-
+			}				
+			
 			iconType = {
 				name = "accept_icon"
-				position = { x = 432 y = 204 }
+				position = { x = 365 y = 162 }
 				spriteType ="GFX_accept_decline_icon"
 			}
 			
@@ -2206,7 +2212,7 @@ guiTypes = {
 				name = "send_button"
 				position = { x = 350 y = -60 }
 				
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_SEND"
@@ -2219,7 +2225,7 @@ guiTypes = {
 				name = "cancel_button"
 				position = { x = 70 y = -60 }
 				shortcut = "ESCAPE"
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_CANCEL"
