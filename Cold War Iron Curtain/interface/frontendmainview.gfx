@@ -76,4 +76,8 @@ spriteTypes = {
                 name = "GFX_load_button"
                 texturefile = "gfx/interface/menu/load_button.dds"
         }
+		spriteType = {
+                name = "GFX_patreon_button"
+                texturefile = "gfx/interface/menu/patreon_button.dds"
+        }
 }
