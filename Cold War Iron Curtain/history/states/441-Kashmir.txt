@@ -29,7 +29,6 @@ state={
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
-
 			industrial_complex = 1
 			arms_factory = 1
 			coal_plant = 1
