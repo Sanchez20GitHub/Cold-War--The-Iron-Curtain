@@ -2418,9 +2418,9 @@ guiTypes = {
 			
 			instantTextboxType = {
 				name = "title"
-				position = { x = 0 y = 29 }
-				font = "hoi_24header"
-				text = "Maus"
+				position = { x = -3 y = 3 }
+				font = "hoi_20bs"
+				text = ""
 				maxWidth = 530
 				maxHeight = 20
 				format = center
@@ -2453,7 +2453,7 @@ guiTypes = {
 				name = "send_button"
 				position = { x = 350 y = -60 }
 				
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_SEND"
@@ -2466,7 +2466,7 @@ guiTypes = {
 				name = "cancel_button"
 				position = { x = 70 y = -60 }
 				shortcut = "ESCAPE"
-				quadTextureSprite ="GFX_button_123x34"
+				quadTextureSprite ="GFX_button_reset_123x34"
 				buttonFont = "hoi_16mbs"
 				Orientation = "LOWER_LEFT"
 				buttonText = "DIPLOMACY_CANCEL"
