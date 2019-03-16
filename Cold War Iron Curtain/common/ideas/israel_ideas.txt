@@ -13,7 +13,7 @@ ideas = {
 				conscription = 0.015
 			}
 
-			picture = air_war_plans_division_focus
+			picture = generic_manpower_bonus
 		}
 		
 		idea_ISR_Military_to_Victory = {

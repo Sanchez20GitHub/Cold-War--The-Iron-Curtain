@@ -97,7 +97,13 @@ defined_text = { # Country
 			tag = AST
 		}
 		localization_key = armorbgast
-	}		
+	}	
+	text = { 
+		trigger = {
+			tag = ITA
+		}
+		localization_key = armorbgita
+	}			
 	text = { 
 		trigger = {
 			tag = CZE
