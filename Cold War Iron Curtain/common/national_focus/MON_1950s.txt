@@ -21,7 +21,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_The_Foundations_for_a_Socialist_State
-		icon = GFX_goal_unknown
+		icon = GFX_FocusCrushRuralSuperstition
 		cost = 10.00
 		x = 7
 		y = 0
@@ -120,7 +120,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Renewed_Collectivization_Campaign
-		icon = GFX_goal_unknown
+		icon = GFX_CollectivizePastoralEconomies
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Foundations_for_a_Socialist_State
@@ -136,7 +136,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Complete_the_Pasotral_Collectivization_Effort
-		icon = GFX_goal_unknown
+		icon = GFX_ContinueCollectivizingPastoralEconomies
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Renewed_Collectivization_Campaign
@@ -182,7 +182,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Promote_Hygene_Standards
-		icon = GFX_goal_unknown
+		icon = GFX_wash_yer_damn_hands
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Young_Pioneers
@@ -214,7 +214,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_A_True_Socialist_State
-		icon = GFX_goal_unknown
+		icon = GFX_FocusTrueSocialismForMongolia
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Launch_the_Cultural_Campaigns
@@ -778,7 +778,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Import_Soviet_Tanks
-		icon = GFX_goal_unknown
+		icon = GFX_FocusImportSovietTanks
 		cost = 10.00
 		prerequisite = {
 			focus = MON_The_Mongolian_Peoples_Army_Ground_Forces
@@ -1334,7 +1334,7 @@ focus_tree = {
 	}	
 	focus = {
 		id = MON_Soviet_Agricultural_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_Soviet_Agriculture
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Deepen_Reliance_on_Soviet_Military
@@ -1381,7 +1381,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Moderate_Liberalization
-		icon = GFX_goal_unknown
+		icon = GFX_Communist_Liberalization
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Begin_Destalinization
@@ -1427,7 +1427,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Reject_Soviet_Economic_Planning
-		icon = GFX_goal_unknown
+		icon = GFX_Reject_Comecon
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Soviet_Agricultural_Planning
@@ -1458,7 +1458,7 @@ focus_tree = {
 	}
 	focus = {
 		id = MON_Investigate_Prior_Abuses
-		icon = GFX_goal_unknown
+		icon = GFX_Mongolian_Political_Investigations
 		cost = 10.00
 		prerequisite = {
 			focus = MON_Reduce_Political_Repression

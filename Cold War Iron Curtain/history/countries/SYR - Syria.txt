@@ -160,6 +160,12 @@ create_country_leader = {
 create_country_leader = {
 	name = "Husni al-Za'im"
 	picture = "Husni_al_Zaim.dds"
+	ideology = military_junta
+}
+
+create_country_leader = {
+	name = "Adib Shishakli"
+	picture = "Adlib_Shishakli.dds"
 	ideology = pan_arabism
 }
 
@@ -187,9 +193,9 @@ create_country_leader = {
             democratic = { popularity = 0 }
             communism = { popularity = 0 }
             fascism = { popularity = 0 }
-            nationalism = { popularity = 99.4 }
+            nationalism = { popularity = 0 }
             monarchism = { popularity = 0 }
-            neutrality = { popularity = 0 }
+            neutrality = { popularity = 99.4 }
             islamism = { popularity = 0 }
             radical_shiaism = { popularity = 0 }
             Social_Democratic = { popularity = 0 }
@@ -206,7 +212,7 @@ create_country_leader = {
             
 
 	    }
-	    ruling_party = nationalism
+	    ruling_party = neutrality
 	    last_election = "1949.1.1"
 	    election_frequency = 48
 	    elections_allowed = no

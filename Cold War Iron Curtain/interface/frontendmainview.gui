@@ -159,6 +159,15 @@ guiTypes = {
 		}
 		
 		ButtonType = {
+			name = "patreon_button"
+			position = { x= 1310 y = 85 }
+			spriteType = "GFX_patreon_button"
+			font = "hoi_36header"			
+			text = ""				
+			web_link = "https://www.patreon.com/coldwarironcurtain"
+		}
+		
+		ButtonType = {
 			name = "multi_player_button"
 			position = { x = 130 y = 760 }
 			spriteType = "GFX_multiplayer_button"

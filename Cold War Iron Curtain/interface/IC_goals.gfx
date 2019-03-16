@@ -5604,6 +5604,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/CommunistLoyalty.dds"
 	}
 	SpriteType = {
+	    name = "GFX_ISR_Communist_Party"
+		texturefile = "gfx/interface/goals/ISR_Communist_Party.dds"
+	}	
+	
+	SpriteType = {
 	    name = "GFX_CommunistPride"
 		texturefile = "gfx/interface/goals/CommunistPride.dds"
 	}

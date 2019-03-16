@@ -59,4 +59,34 @@ spriteTypes = {
 		name = "GFX_Soviet_Agriculture"
 		texturefile = "gfx/interface/goals/Soviet_Agriculture.tga"
 	}	
+	
+	SpriteType = {
+		name = "GFX_CollectivizePastoralEconomies"
+		texturefile = "gfx/interface/goals/CollectivizePastoralEconomies.dds"
+	}		
+	SpriteType = {
+		name = "GFX_ContinueCollectivizingPastoralEconomies"
+		texturefile = "gfx/interface/goals/ContinueCollectivizingPastoralEconomies.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FocusTrueSocialismForMongolia"
+		texturefile = "gfx/interface/goals/FocusTrueSocialismForMongolia.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FocusImportSovietTanks"
+		texturefile = "gfx/interface/goals/FocusImportSovietTanks.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FocusCrushRuralSuperstition"
+		texturefile = "gfx/interface/goals/FocusCrushRuralSuperstition.dds"
+	}	
+	SpriteType = {
+		name = "GFX_FocusLandlordClassicide"
+		texturefile = "gfx/interface/goals/FocusLandlordClassicide.dds"
+	}	
+	SpriteType = {
+		name = "GFX_wash_yer_damn_hands"
+		texturefile = "gfx/interface/goals/wash_yer_damn_hands.dds"
+	}		
+	
 }
