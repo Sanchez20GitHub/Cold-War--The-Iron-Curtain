@@ -2327,10 +2327,10 @@ guiTypes = {
 			}
 			
 			instantTextboxType = {
-				name = "NonAgression"
+				name = "title"
 				position = { x = -3 y = 3 }
 				font = "hoi_20bs"
-				text = "DiploSecBBS.dos [Non_Aggression_Pact]"
+				text = ""
 				maxWidth = 530
 				maxHeight = 20
 				format = center
