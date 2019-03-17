@@ -163,6 +163,10 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_Zalman_Shazar"
-		texturefile = "gfx/interface/goals/Zalman_Shazar.tga"
+		texturefile = "gfx/interface/ideas/isr/Zalman_Shazar.tga"
+	}
+	SpriteType = {
+		name = "GFX_arab_lost"
+		texturefile = "gfx/interface/ideas/isr/arab_israeli_war.tga"
 	}
 }

@@ -1112,9 +1112,10 @@ focus_tree = {
 		}
 		x = 46
 		y = 2
-		available = {
-			always = no
+		completion_reward = {
+			ENG = {country_event = egypt.60 }
 		}
+
 	}
 	focus = {
 		id = EGY_Negotiate_with_Britain
@@ -1128,13 +1129,6 @@ focus_tree = {
 		}
 		x = 50
 		y = 2
-		ai_will_do = {
-				factor = 0
-				modifier = {
-						is_historical_focus_on = yes
-						factor = 0
-					}
-			}
 		completion_reward = {
 			ENG = {country_event = egypt_suez.1 }
 		}

@@ -5225,4 +5225,24 @@ spriteTypes = {
 		name = "GFX_idea_aereolinas"
 		texturefile = "gfx/interface/ideas/arg/aereolinas.tga"
     }
+    spriteType = {
+		name = "GFX_idea_south_korean_electric_company"
+		texturefile = "gfx/interface/ideas/kor/south_korean_electric_company.tga"
+    }
+   spriteType = {
+		name = "GFX_idea_Doosan"
+		texturefile = "gfx/interface/ideas/kor/Doosan_Group.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_lee"
+		texturefile = "gfx/interface/ideas/kor/lee.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_kia"
+		texturefile = "gfx/interface/ideas/kor/kia.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_samsung"
+		texturefile = "gfx/interface/ideas/kor/samsung.tga"
+    }
 }

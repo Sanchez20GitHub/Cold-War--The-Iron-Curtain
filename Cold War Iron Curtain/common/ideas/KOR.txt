@@ -229,4 +229,18 @@ ideas = {
 		}
 
 	}
+
+    economic_advisor = {
+
+      Lee_Byung_chul = { 
+
+      picture = lee
+
+      allowed = {
+        original_tag = KOR
+      }
+
+      traits = { Cost_Cutter_minister }
+
+    }
 }
