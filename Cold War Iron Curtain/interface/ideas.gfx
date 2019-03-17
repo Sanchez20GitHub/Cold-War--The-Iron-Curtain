@@ -4271,12 +4271,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_PER_Sana-ey_Electronik-e_Iran"
-		texturefile = "gfx/interface/ideas/PER_Sana-ey_Electronik-e_Iran.dds"
+		texturefile = "gfx/interface/ideas/PER_Sana-ey_Electronik-e_Iran.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_PER_MAPNA"
-		texturefile = "gfx/interface/ideas/PER_MAPNA.dds"
+		texturefile = "gfx/interface/ideas/PER_MAPNA.tga"
 	}
 	
 	SpriteType = {
@@ -4291,27 +4291,27 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_idea_PER_Hamrahe_Aval"
-		texturefile = "gfx/interface/ideas/PER_Hamrahe_Aval.dds"
+		texturefile = "gfx/interface/ideas/PER_Hamrahe_Aval.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_PER_Sherkat_Mokhaberat_Iran"
-		texturefile = "gfx/interface/ideas/PER_Sherkat_Mokhaberat_Iran.dds"
+		texturefile = "gfx/interface/ideas/PER_Sherkat_Mokhaberat_Iran.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_PER_Iran_Khodro"
-		texturefile = "gfx/interface/ideas/PER_Iran_Khodro.dds"
+		texturefile = "gfx/interface/ideas/PER_Iran_Khodro.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_PER_Pars_Khodro"
-		texturefile = "gfx/interface/ideas/PER_Pars_Khodro.dds"
+		texturefile = "gfx/interface/ideas/PER_Pars_Khodro.tga"
 	}
 	
 	SpriteType = {
 		name = "GFX_idea_PER_SAIPA"
-		texturefile = "gfx/interface/ideas/PER_SAIPA.dds"
+		texturefile = "gfx/interface/ideas/PER_SAIPA.tga"
 	}
 
 	SpriteType = {
@@ -5244,5 +5244,9 @@ spriteTypes = {
  spriteType = {
 		name = "GFX_idea_samsung"
 		texturefile = "gfx/interface/ideas/kor/samsung.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_iranian_oil_company"
+		texturefile = "gfx/interface/ideas/Iranian_oil_company.tga"
     }
 }
