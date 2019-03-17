@@ -7,6 +7,7 @@ ideas = {
 					NOT = { original_tag = USA }
 				    NOT = { original_tag = KOR }
 				    NOT = { original_tag = ISR } 
+				    NOT = { original_tag = IRQ } 
 				}
 				picture = mr_bean
 				traits = { communist_believer }
@@ -16,6 +17,7 @@ ideas = {
 					NOT = { original_tag = GRE }
 					NOT = { original_tag = USA }
 				    NOT = { original_tag = KOR }
+				    NOT = { original_tag = IRQ } 
 				    NOT = { original_tag = ISR }
 				}
 				picture = mr_bean
@@ -27,6 +29,7 @@ ideas = {
 		     		NOT = { original_tag = KOR }
       				NOT = { original_tag = ISR }
 					NOT = { original_tag = USA }
+				    NOT = { original_tag = IRQ } 
 				}
 				picture = mr_bean
 				traits = { market_socialist_activist }
@@ -37,6 +40,7 @@ ideas = {
        				NOT = { original_tag = ISR }
 				    NOT = { original_tag = KOR }				
 					NOT = { original_tag = USA }
+				    NOT = { original_tag = IRQ } 
 				}
 				picture = mr_bean
 				traits = { market_socialist_activist }
@@ -47,6 +51,7 @@ ideas = {
 					NOT = { original_tag = USA }
 				    NOT = { original_tag = ISR }
 				    NOT = { original_tag = KOR }
+				    NOT = { original_tag = IRQ } 
 				}
 				picture = mr_bean
 				traits = { trotskyism_revolutionary }
@@ -57,6 +62,7 @@ ideas = {
 					NOT = { original_tag = USA }
 					NOT = { original_tag = ISR }
 				    NOT = { original_tag = KOR }
+				    NOT = { original_tag = IRQ } 
 				}
 				picture = mr_bean
 				traits = { conservative_reformer }
@@ -70,6 +76,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
+		        NOT = { original_tag = IRQ } 
 			    NOT = { original_tag = KOR }
 			}
 			picture = mr_bean
@@ -82,6 +89,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 		        NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -94,6 +102,7 @@ ideas = {
 				NOT = { original_tag = USA }
 		        NOT = { original_tag = KOR }
 				NOT = { original_tag = PRC }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -106,6 +115,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -118,6 +128,7 @@ ideas = {
 				NOT = { original_tag = USA }
 			    NOT = { original_tag = KOR }
 				NOT = { original_tag = PRC }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -131,6 +142,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = USA }
 				NOT = { original_tag = PRC }
+			    NOT = { original_tag = IRQ } 
 			    NOT = { original_tag = KOR }			
 				NOT = { original_tag = ISR }
 			}
@@ -143,6 +155,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 		        NOT = { original_tag = KOR }
 				NOT = { original_tag = USA }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 			}
@@ -154,7 +167,9 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 			}
@@ -168,6 +183,8 @@ ideas = {
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = GRE }
 			    NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
+			    NOT = { original_tag = IRQ }
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -177,13 +194,14 @@ ideas = {
 		Radical_Educator = { 
 			allowed = {
 				NOT = { original_tag = USA }
+				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
-			
+		
 			traits = { Radical_Educator_minister  }
 		}	
 	}
@@ -194,6 +212,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			}
 			picture = mr_bean
@@ -204,6 +223,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 			    NOT = { original_tag = KOR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
@@ -217,6 +237,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 			    NOT = { original_tag = KOR }
 			}
@@ -228,6 +249,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
 			    NOT = { original_tag = KOR }
 			    NOT = { original_tag = ISR }
@@ -242,6 +264,7 @@ ideas = {
 			allowed = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = KOR }
@@ -255,6 +278,7 @@ ideas = {
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
+				NOT = { original_tag = IRQ } 
 				NOT = { original_tag = ISR }
 				NOT = { original_tag = KOR }				
 			}
@@ -268,6 +292,7 @@ ideas = {
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
 				NOT = { original_tag = ISR }
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = KOR }
 			}
 			picture = mr_bean
@@ -276,6 +301,7 @@ ideas = {
 		}	
 		Cultural_Militarist = { 
 			allowed = {
+			    NOT = { original_tag = IRQ } 
 				NOT = { original_tag = USA }
 				NOT = { original_tag = GRE }
 				NOT = { original_tag = PRC }
