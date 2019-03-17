@@ -3523,12 +3523,7 @@ spriteTypes = {
     SpriteType = {
 		name = "GFX_FocusKampfgruppenDerArbeiterklasse"
 		texturefile = "gfx/interface/goals/FocusKampfgruppenDerArbeiterklasse.dds" 
-	}
-
-
-
-	
-	#More COOP Gitlab Icons
+	}	
     SpriteType = {
 		name = "GFX_Sugar"
 		texturefile = "gfx/interface/goals/coopicons/Sugar.tga" 
@@ -7730,5 +7725,9 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_chinese_propaganda"
 		texturefile = "gfx/interface/goals/PRC_Propaganda.dds"
+	}
+	SpriteType = {
+		name = "GFX_Nuclear_Energy"
+		texturefile = "gfx/interface/goals/Nuclear_Energy.dds"
 	}
 }
