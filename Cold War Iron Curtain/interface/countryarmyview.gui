@@ -7,12 +7,19 @@ guiTypes = {
 		Orientation = upper_left
 		clipping = no
 
-		iconType = {
-			name = "navy_overview_ship_entry_bg"
-			position = {x=-14 y=6} 
+		background = {
+			name = "background"
+			#spriteType = "GFX_tiled_window_transparent"
 			spriteType = "GFX_navy_overview_ship_entry"
 		}
-		
+
+
+		iconType = {
+			name = "highlight"
+			position = { x = 0 y = 0 }
+			spriteType = "GFX_navy_overview_ship_entry_highlight"
+			alwaystransparent = yes
+		}
 		instantTextboxType = {
 			name = "ships_count" 
 			position = {x=-4 y=5}
@@ -20,6 +27,7 @@ guiTypes = {
 			maxWidth = 30
 			maxHeight = 23
 			format = left
+			alwaystransparent = yes
 		}
 		iconType = {
 			name = "ship_icon"
@@ -27,6 +35,7 @@ guiTypes = {
 			spriteType = "GFX_navalcombat_ship_icon_unknown"
 			centerposition = yes
 			scale = 0.9
+			alwaystransparent = yes
 		}
 	}
 	
@@ -739,6 +748,18 @@ guiTypes = {
 			quadTextureSprite ="GFX_mapicon_unit_flag_stripe_visible"
 			position = { x=27 y=20 }
 		}
+		iconType = {
+			name = "exile_force_flag_frame"
+			quadTextureSprite ="GFX_unitlist_exile_flag_frame"
+			position = { x=49 y=13 }
+		}
+		
+		iconType = {
+			name = "foreign_template_flag"
+			quadTextureSprite ="GFX_mapicon_unit_flag_stripe_visible"
+			position = { x=49 y=20 }
+
+		}
 		
 		iconType = {
 			name = "colonial_force_flag"
@@ -868,6 +889,12 @@ guiTypes = {
 			alwaystransparent = yes
 		}		
 		
+		iconType = {
+			name = "pride"
+			position = {x=87 y=4}
+			spriteType = "GFX_NV_icon_pride"
+			scale = 0.8
+		}
 	}
 	
 	containerWindowType = {
@@ -997,6 +1024,17 @@ guiTypes = {
 			spriteType = "GFX_strategicair_mission_types"
 			scale = 0.7			
 		}
+		iconType = {
+			name = "exile_force_flag_frame"
+			quadTextureSprite ="GFX_unitlist_exile_flag_frame"
+			position = { x=7 y=3 }
+		}
 		
+		iconType = {
+			name = "foreign_wing_flag"
+			quadTextureSprite ="GFX_mapicon_unit_flag_stripe_visible"
+			position = { x=7 y=10 }
+			pdx_tooltip = GIE_AIRWING_SELECTION_ITEM_EXILE_FLAG
+		}
 	}
 }
