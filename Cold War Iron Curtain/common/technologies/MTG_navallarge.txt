@@ -976,7 +976,7 @@ technologies = {
 			carrier_hull_light_0
 		}
 		enable_equipment_modules = { 
-			screen_engine_0
+			capital_engine_0
 		}
 		path = {
 			leads_to_tech = carrier_hull_light_1
@@ -1017,7 +1017,7 @@ technologies = {
 			carrier_hull_light_1
 		}
 		enable_equipment_modules = { 
-			screen_engine_1
+			capital_engine_1
 		}
 		path = {
 			leads_to_tech = amphibious_deck_2
@@ -1054,7 +1054,7 @@ technologies = {
 			carrier_hull_light_2
 		}
 		enable_equipment_modules = { 
-			screen_engine_2
+			capital_engine_2
 		}
 		path = {
 			leads_to_tech = carrier_hull_light_3
@@ -1095,7 +1095,7 @@ technologies = {
 			carrier_hull_light_3
 		}
 		enable_equipment_modules = { 
-			screen_engine_3
+			capital_engine_3
 		}
 		path = {
 			leads_to_tech = amphibious_deck_4
@@ -1132,7 +1132,7 @@ technologies = {
 			carrier_hull_light_4
 		}
 		enable_equipment_modules = { 
-			screen_engine_4
+			capital_engine_4
 		}
 		
 		research_cost = 1

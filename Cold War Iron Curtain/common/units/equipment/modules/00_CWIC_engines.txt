@@ -1,0 +1,901 @@
+equipment_modules = {
+
+##### ENGINES #####
+##### LIGHT SCREEN ENGINE #####
+
+	small_screen_engine_0 = {
+		category = small_screen_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 125
+		}
+
+	}
+
+	small_screen_engine_1 = {
+		category = small_screen_engine
+		parent = small_screen_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_screen_engine_1
+			convert_cost_ic = 115
+		}
+	}
+
+	small_screen_engine_2 = {
+		category = small_screen_engine
+		parent = small_screen_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 150
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_screen_engine_2
+			convert_cost_ic = 115
+		}
+	}
+	small_screen_engine_3 = {
+		category = small_screen_engine
+		parent = small_screen_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_screen_engine_3
+			convert_cost_ic = 115
+		}
+	}
+	small_screen_engine_4 = {
+		category = small_screen_engine
+		parent = small_screen_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 210
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_screen_engine_3
+			convert_cost_ic = 115
+		}
+	}
+##### SCREEN ENGINE #####
+	screen_engine_0 = {
+		category = screen_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 250
+		}
+
+	}
+
+	screen_engine_1 = {
+		category = screen_engine
+		parent = screen_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 240
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = screen_engine_1
+			convert_cost_ic = 230
+		}
+	}
+
+	screen_engine_2 = {
+		category = screen_engine
+		parent = screen_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 300
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = screen_engine_2
+			convert_cost_ic = 230
+		}
+	}
+	screen_engine_3 = {
+		category = screen_engine
+		parent = screen_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = screen_engine_3
+			convert_cost_ic = 230
+		}
+	}
+	screen_engine_4 = {
+		category = screen_engine
+		parent = screen_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 420 #Smoke Weed Everyday
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = screen_engine_3
+			convert_cost_ic = 230
+		}
+	}
+##### CAPITAL ENGINE #####
+	capital_engine_0 = {
+		category = capital_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 500
+		}
+
+	}
+
+	capital_engine_1 = {
+		category = capital_engine
+		parent = capital_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 480
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_engine_1
+			convert_cost_ic = 460
+		}
+	}
+
+	capital_engine_2 = {
+		category = capital_engine
+		parent = capital_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 600
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_engine_2
+			convert_cost_ic = 460
+		}
+	}
+	capital_engine_3 = {
+		category = capital_engine
+		parent = capital_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 720
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_engine_3
+			convert_cost_ic = 460
+		}
+	}
+	capital_engine_4 = {
+		category = capital_engine
+		parent = capital_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 840 
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_engine_3
+			convert_cost_ic = 460
+		}
+	}
+##### SUPERHEAVY ENGINE #####
+	superheavy_engine_0 = {
+		category = superheavy_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 720
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 1000
+		}
+
+	}
+
+	superheavy_engine_1 = {
+		category = superheavy_engine
+		parent = superheavy_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 960
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_1
+			convert_cost_ic = 920
+		}
+	}
+
+	superheavy_engine_2 = {
+		category = superheavy_engine
+		parent = superheavy_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1200
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_2
+			convert_cost_ic = 920
+		}
+	}
+	superheavy_engine_3 = {
+		category = superheavy_engine
+		parent = superheavy_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1440
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_3
+			convert_cost_ic = 920
+		}
+	}
+	superheavy_engine_4 = {
+		category = superheavy_engine
+		parent = superheavy_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1680 
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 1000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_3
+			convert_cost_ic = 920
+		}
+	}
+##### SMALL SUB ENGINE #####
+	small_sub_engine_0 = {
+		category = small_sub_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 90
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_sub_engine
+			convert_cost_ic = 125
+		}
+
+	}
+
+	small_sub_engine_1 = {
+		category = small_sub_engine
+		parent = small_sub_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 120
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_sub_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_sub_engine_1
+			convert_cost_ic = 115
+		}
+	}
+
+	small_sub_engine_2 = {
+		category = small_sub_engine
+		parent = small_sub_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 150
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_sub_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_sub_engine_2
+			convert_cost_ic = 115
+		}
+	}
+	small_sub_engine_3 = {
+		category = small_sub_engine
+		parent = small_sub_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_sub_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_sub_engine_3
+			convert_cost_ic = 115
+		}
+	}
+	small_sub_engine_4 = {
+		category = small_sub_engine
+		parent = small_sub_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 210
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = small_sub_engine
+			convert_cost_ic = 125
+		}
+		
+		can_convert_from = {
+			module = small_sub_engine_3
+			convert_cost_ic = 115
+		}
+	}
+##### MEDIUM SUB ENGINE #####
+	medium_sub_engine_0 = {
+		category = medium_sub_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 180
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = medium_sub_engine
+			convert_cost_ic = 250
+		}
+
+	}
+
+	medium_sub_engine_1 = {
+		category = medium_sub_engine
+		parent = medium_sub_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 240
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = medium_sub_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = medium_sub_engine_1
+			convert_cost_ic = 230
+		}
+	}
+
+	medium_sub_engine_2 = {
+		category = medium_sub_engine
+		parent = medium_sub_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 300
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = medium_sub_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = medium_sub_engine_2
+			convert_cost_ic = 230
+		}
+	}
+	medium_sub_engine_3 = {
+		category = medium_sub_engine
+		parent = medium_sub_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = medium_sub_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = medium_sub_engine_3
+			convert_cost_ic = 230
+		}
+	}
+	medium_sub_engine_4 = {
+		category = medium_sub_engine
+		parent = medium_sub_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 420 #Smoke Weed Everyday
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = medium_sub_engine
+			convert_cost_ic = 250
+		}
+		
+		can_convert_from = {
+			module = medium_sub_engine_3
+			convert_cost_ic = 230
+		}
+	}
+##### LARGE SUB ENGINE #####
+	large_sub_engine_0 = {
+		category = large_sub_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.15
+			naval_speed = 0.2
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = large_sub_engine
+			convert_cost_ic = 500
+		}
+
+	}
+
+	large_sub_engine_1 = {
+		category = large_sub_engine
+		parent = large_sub_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 480
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.2
+			naval_speed = 0.3
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = large_sub_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = large_sub_engine_1
+			convert_cost_ic = 460
+		}
+	}
+
+	large_sub_engine_2 = {
+		category = large_sub_engine
+		parent = large_sub_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 600
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.3
+			naval_speed = 0.4
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = large_sub_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = large_sub_engine_2
+			convert_cost_ic = 460
+		}
+	}
+	large_sub_engine_3 = {
+		category = large_sub_engine
+		parent = large_sub_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 720
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.35
+			naval_speed = 0.5
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = large_sub_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = large_sub_engine_3
+			convert_cost_ic = 460
+		}
+	}
+	large_sub_engine_4 = {
+		category = large_sub_engine
+		parent = large_sub_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 840 
+		}
+		
+		multiply_stats = {
+			fuel_consumption = 0.4
+			naval_speed = 0.6
+			reliability = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = large_sub_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = large_sub_engine_3
+			convert_cost_ic = 460
+		}
+	}
+}
