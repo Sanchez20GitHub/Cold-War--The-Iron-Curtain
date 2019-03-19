@@ -47,7 +47,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_1
+			module = small_screen_engine_0
 			convert_cost_ic = 115
 		}
 	}
@@ -74,7 +74,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_2
+			module = small_screen_engine_1
 			convert_cost_ic = 115
 		}
 	}
@@ -100,7 +100,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_screen_engine_3
+			module = small_screen_engine_2
 			convert_cost_ic = 115
 		}
 	}
@@ -175,7 +175,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = screen_engine_1
+			module = screen_engine_0
 			convert_cost_ic = 230
 		}
 	}
@@ -202,7 +202,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = screen_engine_2
+			module = screen_engine_1
 			convert_cost_ic = 230
 		}
 	}
@@ -228,7 +228,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = screen_engine_3
+			module = screen_engine_2
 			convert_cost_ic = 230
 		}
 	}
@@ -303,7 +303,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = capital_engine_1
+			module = capital_engine_0
 			convert_cost_ic = 460
 		}
 	}
@@ -330,7 +330,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = capital_engine_2
+			module = capital_engine_1
 			convert_cost_ic = 460
 		}
 	}
@@ -356,7 +356,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = capital_engine_3
+			module = capital_engine_2
 			convert_cost_ic = 460
 		}
 	}
@@ -383,6 +383,135 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = capital_engine_3
+			convert_cost_ic = 460
+		}
+	}
+	
+##### CAPITAL NUCLEAR ENGINE #####
+	capital_nuclear_engine_0 = {
+		category = capital_nuclear_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1080
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.2
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_nuclear_engine
+			convert_cost_ic = 500
+		}
+
+	}
+
+	capital_nuclear_engine_1 = {
+		category = capital_nuclear_engine
+		parent = capital_nuclear_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1440
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.3
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_nuclear_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_nuclear_engine_0
+			convert_cost_ic = 460
+		}
+	}
+
+	capital_nuclear_engine_2 = {
+		category = capital_nuclear_engine
+		parent = capital_nuclear_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 1800
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.4
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_nuclear_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_nuclear_engine_1
+			convert_cost_ic = 460
+		}
+	}
+	capital_nuclear_engine_3 = {
+		category = capital_nuclear_engine
+		parent = capital_nuclear_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 2160
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.5
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_nuclear_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_nuclear_engine_2
+			convert_cost_ic = 460
+		}
+	}
+	capital_nuclear_engine_4 = {
+		category = capital_nuclear_engine
+		parent = capital_nuclear_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 3360
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.6
+			reliability =-0.1
+		}
+		
+		can_convert_from = {
+			module_category = capital_nuclear_engine
+			convert_cost_ic = 500
+		}
+		
+		can_convert_from = {
+			module = capital_nuclear_engine_3
 			convert_cost_ic = 460
 		}
 	}
@@ -431,7 +560,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = superheavy_engine_1
+			module = superheavy_engine_0
 			convert_cost_ic = 920
 		}
 	}
@@ -458,7 +587,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = superheavy_engine_2
+			module = superheavy_engine_1
 			convert_cost_ic = 920
 		}
 	}
@@ -484,7 +613,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = superheavy_engine_3
+			module = superheavy_engine_2
 			convert_cost_ic = 920
 		}
 	}
@@ -512,6 +641,179 @@ equipment_modules = {
 		can_convert_from = {
 			module = superheavy_engine_3
 			convert_cost_ic = 920
+		}
+	}
+##### SUPERHEAVY NUCLEAR ENGINE #####
+	superheavy_nuclear_engine_0 = {
+		category = superheavy_nuclear_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 2160
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.2
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_nuclear_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 3000
+		}
+
+	}
+
+	superheavy_nuclear_engine_1 = {
+		category = superheavy_nuclear_engine
+		parent = superheavy_nuclear_engine_0
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 2880
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.3
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_nuclear_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_nuclear_engine_0
+			convert_cost_ic = 2750
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_1
+			convert_cost_ic = 2750
+		}
+	}
+
+	superheavy_nuclear_engine_2 = {
+		category = superheavy_nuclear_engine
+		parent = superheavy_nuclear_engine_1
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 3600
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.4
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_nuclear_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_nuclear_engine_1
+			convert_cost_ic = 2750
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_2
+			convert_cost_ic = 2750
+		}
+	}
+	superheavy_nuclear_engine_3 = {
+		category = superheavy_nuclear_engine
+		parent = superheavy_nuclear_engine_2
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 4320
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.5
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_nuclear_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_nuclear_engine_2
+			convert_cost_ic = 2750
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_3
+			convert_cost_ic = 2750
+		}
+	}
+	superheavy_nuclear_engine_4 = {
+		category = superheavy_nuclear_engine
+		parent = superheavy_nuclear_engine_3
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 6720
+		}
+		
+		multiply_stats = {
+			fuel_consumption = -1
+			naval_speed = 0.6
+			reliability = 0.1
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_nuclear_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_nuclear_engine_3
+			convert_cost_ic = 2750
+		}
+		
+		can_convert_from = {
+			module_category = superheavy_engine
+			convert_cost_ic = 3000
+		}
+		
+		can_convert_from = {
+			module = superheavy_engine_4
+			convert_cost_ic = 2750
 		}
 	}
 ##### SMALL SUB ENGINE #####
@@ -559,7 +861,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_sub_engine_1
+			module = small_sub_engine_0
 			convert_cost_ic = 115
 		}
 	}
@@ -586,7 +888,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_sub_engine_2
+			module = small_sub_engine_1
 			convert_cost_ic = 115
 		}
 	}
@@ -612,7 +914,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = small_sub_engine_3
+			module = small_sub_engine_2
 			convert_cost_ic = 115
 		}
 	}
@@ -687,7 +989,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_1
+			module = medium_sub_engine_0
 			convert_cost_ic = 230
 		}
 	}
@@ -714,7 +1016,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_2
+			module = medium_sub_engine_1
 			convert_cost_ic = 230
 		}
 	}
@@ -740,7 +1042,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = medium_sub_engine_3
+			module = medium_sub_engine_2
 			convert_cost_ic = 230
 		}
 	}
@@ -815,7 +1117,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_1
+			module = large_sub_engine_0
 			convert_cost_ic = 460
 		}
 	}
@@ -842,7 +1144,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_2
+			module = large_sub_engine_1
 			convert_cost_ic = 460
 		}
 	}
@@ -868,7 +1170,7 @@ equipment_modules = {
 		}
 		
 		can_convert_from = {
-			module = large_sub_engine_3
+			module = large_sub_engine_2
 			convert_cost_ic = 460
 		}
 	}
