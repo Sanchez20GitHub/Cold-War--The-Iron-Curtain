@@ -21,7 +21,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light }
+				allowed_module_categories = { ship_armament_light ship_armament_medium }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
