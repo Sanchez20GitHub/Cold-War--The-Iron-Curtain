@@ -7730,4 +7730,44 @@ spriteTypes = {
 		name = "GFX_Nuclear_Energy"
 		texturefile = "gfx/interface/goals/Nuclear_Energy.dds"
 	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_Increase_Living_Standards"
+		texturefile = "gfx/interface/goals/ISR_Focus_Increase_Living_Standards.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_Israeli_Army"
+		texturefile = "gfx/interface/goals/ISR_Focus_Israeli_Army.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_National_Religious_Party"
+		texturefile = "gfx/interface/goals/ISR_Focus_National_Religious_Party.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_Operation_Samaria"
+		texturefile = "gfx/interface/goals/ISR_Focus_Operation_Samaria.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_Tax_Cuts"
+		texturefile = "gfx/interface/goals/ISR_Focus_Tax_Cuts.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_generic_government_thing"
+		texturefile = "gfx/interface/goals/ISR_generic_government_thing.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_ISR_Focus_Two_State_Solution"
+		texturefile = "gfx/interface/goals/ISR_Focus_Two_State_Solution.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Icon_Tel_Aviv"
+		texturefile = "gfx/interface/goals/ISR_Icon_Tel_Aviv.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Focus_Egypt-Israeli_Tension"
+		texturefile = "gfx/interface/goals/ISR_Focus_Egypt-Israeli_Tension.dds"
+	}
+	SpriteType = {
+		name = "GFX_ISR_Palestinian_Martial_Law"
+		texturefile = "gfx/interface/goals/ISR_Palestinian_Martial_Law.dds"
+	}
 }

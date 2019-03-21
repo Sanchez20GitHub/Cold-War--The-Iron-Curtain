@@ -5249,4 +5249,37 @@ spriteTypes = {
 		name = "GFX_idea_iranian_oil_company"
 		texturefile = "gfx/interface/ideas/Iranian_oil_company.tga"
     }
+###########chile############
+ spriteType = {
+		name = "GFX_idea_augusto_pinochet"
+		texturefile = "gfx/interface/ideas/chl/Minister_Augusto_Pinochet.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Carlos_Ibanez_del_Campo"
+		texturefile = "gfx/interface/ideas/chl/Minister_Carlos_Ibanez_del_Campo.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Francisco_ORyan"
+		texturefile = "gfx/interface/ideas/chl/Minister_Francisco_ORyan.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Luis_Corvalan"
+		texturefile = "gfx/interface/ideas/chl/Minister_Luis_Corvalan.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Manuel_Contreras"
+		texturefile = "gfx/interface/ideas/chl/Minister_Manuel_Contreras.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Miguel_Serrano"
+		texturefile = "gfx/interface/ideas/chl/Minister_Miguel_Serrano.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Rene_Schneider"
+		texturefile = "gfx/interface/ideas/chl/Minister_Rene_Schneider.dds"
+    }
+ spriteType = {
+		name = "GFX_idea_Salvador_Allende"
+		texturefile = "gfx/interface/ideas/chl/Minister_Salvador_Allende.dds"
+    }
 }

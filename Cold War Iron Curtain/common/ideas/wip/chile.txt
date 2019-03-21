@@ -1,266 +1,61 @@
 ideas = {
-	# MILITARY
 
 
 	political_advisor = {
 
-		CHL_gustavo_ross_santa_maria = {
+    Salvador_Allende = {
 
-			picture = generic_political_advisor_south_america_1
+    picture = Salvador_Allende
 
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { armaments_organizer }
+    	allowed = {
+	     	original_tag = CHL
 		}
 
-		CHL_miguel_cruchaga_tacomal = {
+        traits = { smooth_talking_charmer }	
+    }    
+    Miguel_Serrano = {
 
-			picture = generic_political_advisor_south_america_2
-				
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { war_industrialist }
+    picture = Miguel_Serrano
+
+    	allowed = {
+	     	original_tag = CHL
 		}
 
-		CHL_luis_alamos_barros = {
+        traits = { backroom_backstabber }	
+    } 
+    Carlos_Ibanez_del_Campo = {
 
-			picture = generic_political_advisor_south_america_3
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { ideological_crusader }
+    picture = Carlos_Ibanez_del_Campo
+
+    	allowed = {
+	     	original_tag = CHL
 		}
-	}
+
+        traits = { divisive_politico }	
+    }
+} 
 
 	army_chief = {
 
-		CHL_julio_allard_pinto = {
+    Rene_Schneider = {
+        
+        picture = Rene_Schneider
 
-			picture = generic_army_south_america_1
-			
 			allowed = {
 				original_tag = CHL
-			}		
-			
-			traits = { army_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
 			}
+			
+			traits = { army_chief_old_guard }				
 		}
 
-		CHL_e_novoa_fuentes = {
-
-			picture = generic_army_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { army_chief_defensive_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-
-	air_chief = {
-
-		CHL_dario_mujica_gamboa = {
-
-			picture = generic_air_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { air_chief_ground_support_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		CHL_marmaduke_grove = {
-
-			picture = generic_air_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { air_chief_old_guard }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-	}
-
-	navy_chief = {
-
-		CHL_c_j_de_la_motte = {
-
-			picture = generic_navy_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-					
-			traits = { navy_chief_maneuver_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		CHL_francisco_o_ryan_orrego = {
-
-			picture = generic_navy_south_america_1
-			
-			allowed = {
-				original_tag = CHL
-			}
-					
-			traits = { navy_chief_decisive_battle_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}
-
-	high_command = {
-
-		CHL_ernesto_m_orlando = {
-			
-			picture = generic_army_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { army_infantry_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		CHL_arturo_espinoza_mujica = {
-
-			picture = generic_army_south_america_4
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { army_artillery_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		CHL_jose_luis_sanchez_besa = {
-
-			picture = generic_air_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { air_strategic_bombing_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-
-		CHL_carlos_puga_monsalve = {
-
-			picture = generic_air_south_america_3
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { air_naval_strike_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-		
-		CHL_gustavo_silva = {
-
-			picture = generic_navy_south_america_3
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			traits = { navy_naval_air_defense_2 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		}
-	}	
-
-	theorist = {
-		CHL_carlos_fuentes_rabe = {
-			
-			picture = generic_army_south_america_3
+    augusto_pinochet = {
+        picture = augusto_pinochet
 
 			allowed = {
 				original_tag = CHL
 			}
 			
-			research_bonus = {
-				land_doctrine = 0.07
-			}
-			
-			traits = { military_theorist }
-		}
-		
-		CHL_dario_cellejas_rojas = {
-
-			picture = generic_navy_south_america_2
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			research_bonus = {
-				naval_doctrine = 0.07
-			}
-			
-			traits = { naval_theorist }
-		}	
-
-		CHL_ariosto_herrera = {
-
-			picture = generic_air_south_america_1
-			
-			allowed = {
-				original_tag = CHL
-			}
-			
-			research_bonus = {
-				air_doctrine = 0.07
-			}
-			
-			traits = { air_warfare_theorist }
-		}
-
-	}
+			traits = { army_chief_offensive_3 }				
+		}   
+    }
 }
