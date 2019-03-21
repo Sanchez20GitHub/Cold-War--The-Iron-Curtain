@@ -25,7 +25,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_ciws ship_AA_gun }
+				allowed_module_categories = { ship_AA_gun }
 			}
 			fixed_ship_radar_slot = {
 				required = no
@@ -342,7 +342,7 @@ equipments = {
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
-				allowed_module_categories = { ship_ciws ship_SAM_mid_range }
+				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range }
 			}
 			fixed_ship_radar_slot = {
 				required = no
