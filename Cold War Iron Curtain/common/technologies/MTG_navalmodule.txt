@@ -1,7 +1,13 @@
 technologies = {
 	countermeasures_0 = {
 		enable_equipment_modules = { 
-			countermeasures_0
+			countermeasures_light_0
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_0
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_0
 		}
 		path = {
 			leads_to_tech = countermeasures_1
@@ -34,7 +40,13 @@ technologies = {
 	}
 	countermeasures_1 = {
 		enable_equipment_modules = { 
-			countermeasures_1
+			countermeasures_light_1
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_1
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_1
 		}
 		path = {
 			leads_to_tech = countermeasures_2
@@ -67,7 +79,13 @@ technologies = {
 	}
 	countermeasures_2 = {
 		enable_equipment_modules = { 
-			countermeasures_2
+			countermeasures_light_2
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_2
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_2
 		}
 		path = {
 			leads_to_tech = countermeasures_3
@@ -100,7 +118,13 @@ technologies = {
 	}
 	countermeasures_3 = {
 		enable_equipment_modules = { 
-			countermeasures_3
+			countermeasures_light_3
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_3
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_3
 		}
 		path = {
 			leads_to_tech = countermeasures_4
@@ -137,7 +161,13 @@ technologies = {
 	}
 	countermeasures_4 = {
 		enable_equipment_modules = { 
-			countermeasures_4
+			countermeasures_light_4
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_4
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_4
 		}
 		path = {
 			leads_to_tech = countermeasures_5
@@ -170,7 +200,13 @@ technologies = {
 	}
 	countermeasures_5 = {
 		enable_equipment_modules = { 
-			countermeasures_5
+			countermeasures_light_5
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_5
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_5
 		}
 		path = {
 			leads_to_tech = countermeasures_6
@@ -203,7 +239,13 @@ technologies = {
 	}
 	countermeasures_6 = {
 		enable_equipment_modules = { 
-			countermeasures_6
+			countermeasures_light_6
+		}
+		enable_equipment_modules = { 
+			countermeasures_medium_6
+		}
+		enable_equipment_modules = { 
+			countermeasures_heavy_6
 		}
 		
 		research_cost = 1.5

@@ -1,0 +1,345 @@
+equipment_modules = {
+
+	countermeasures_light_0 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_0
+		
+		add_stats = {
+			armor_value = 1.5
+			build_cost_ic = 100
+		}
+		
+		build_cost_resources = {
+			steel = 0
+		}
+		
+	}
+	countermeasures_light_1 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_1
+		
+		add_stats = {
+			armor_value = 3
+			build_cost_ic = 150
+		}
+		
+		build_cost_resources = {
+			aluminium = 0
+		}
+		
+	}
+	countermeasures_light_2 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_2
+		
+		add_stats = {
+			armor_value = 4.5
+			build_cost_ic = 200
+		}
+		
+		build_cost_resources = {
+			aluminium = 0
+		}
+		
+	}
+	countermeasures_light_3 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_3
+		
+		add_stats = {
+			armor_value = 6
+			build_cost_ic = 250
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+		}
+		
+	}
+	countermeasures_light_4 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_4
+		
+		add_stats = {
+			armor_value = 12
+			build_cost_ic = 300
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+		}
+		
+	}
+	countermeasures_light_5 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_5
+		
+		add_stats = {
+			armor_value = 18
+			build_cost_ic = 350
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+		}
+		
+	}
+	countermeasures_light_6 = {
+		category = ship_countermeasures_light
+		gfx = ship_countermeasures_light_6
+		
+		add_stats = {
+			armor_value = 27
+			build_cost_ic = 400
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+			steel = 1
+		}
+		
+	}
+	
+	countermeasures_medium_0 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_0
+		
+		add_stats = {
+			armor_value = 3
+			build_cost_ic = 200
+		}
+		
+		build_cost_resources = {
+			steel = 1
+		}
+		
+	}
+	countermeasures_medium_1 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_1
+		
+		add_stats = {
+			armor_value = 6
+			build_cost_ic = 300
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+		}
+		
+	}
+	countermeasures_medium_2 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_2
+		
+		add_stats = {
+			armor_value = 9
+			build_cost_ic = 400
+		}
+		
+		build_cost_resources = {
+			aluminium = 1
+		}
+		
+	}
+	countermeasures_medium_3 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_3
+		
+		add_stats = {
+			armor_value = 12
+			build_cost_ic = 500
+		}
+		
+		build_cost_resources = {
+			aluminium = 2
+		}
+		
+	}
+	countermeasures_medium_4 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_4
+		
+		add_stats = {
+			armor_value = 24
+			build_cost_ic = 600
+		}
+		
+		build_cost_resources = {
+			aluminium = 2
+		}
+		
+	}
+	countermeasures_medium_5 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_5
+		
+		add_stats = {
+			armor_value = 36
+			build_cost_ic = 700
+		}
+		
+		build_cost_resources = {
+			aluminium = 2
+		}
+		
+	}
+	countermeasures_medium_6 = {
+		category = ship_countermeasures_medium
+		gfx = ship_countermeasures_medium_6
+		
+		add_stats = {
+			armor_value = 54
+			build_cost_ic = 800
+		}
+		
+		build_cost_resources = {
+			aluminium = 3
+		}
+		
+	}
+	
+	countermeasures_heavy_0 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_0
+		
+		add_stats = {
+			armor_value = 6
+			build_cost_ic = 400
+		}
+		
+		build_cost_resources = {
+			steel = 2
+		}
+		
+	}
+	countermeasures_heavy_1 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_1
+		
+		add_stats = {
+			armor_value = 12
+			build_cost_ic = 600
+		}
+		
+		build_cost_resources = {
+			aluminium = 2
+		}
+		
+	}
+	countermeasures_heavy_2 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_2
+		
+		add_stats = {
+			armor_value = 18
+			build_cost_ic = 800
+		}
+		
+		build_cost_resources = {
+			aluminium = 2
+		}
+		
+	}
+	countermeasures_heavy_3 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_3
+		
+		add_stats = {
+			armor_value = 24
+			build_cost_ic = 1000
+		}
+		
+		build_cost_resources = {
+			aluminium = 4
+		}
+		
+	}
+	countermeasures_heavy_4 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_4
+		
+		add_stats = {
+			armor_value = 48
+			build_cost_ic = 1200
+		}
+		
+		build_cost_resources = {
+			aluminium = 4
+		}
+		
+	}
+	countermeasures_heavy_5 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_5
+		
+		add_stats = {
+			armor_value = 72
+			build_cost_ic = 1400
+		}
+		
+		build_cost_resources = {
+			aluminium = 4
+		}
+		
+	}
+	countermeasures_heavy_6 = {
+		category = ship_countermeasures_heavy
+		gfx = ship_countermeasures_heavy_6
+		
+		add_stats = {
+			armor_value = 108
+			build_cost_ic = 1600
+		}
+		
+		build_cost_resources = {
+			aluminium = 5
+			tungsten = 1
+		}
+		
+	}
+	
+	ciws_0 = {
+		category = ship_ciws
+		gfx = ship_ciws_0
+		
+		add_stats = {
+			armor_value = 36
+			build_cost_ic = 600
+		}
+		
+		build_cost_resources = {
+			tungsten = 1
+		}
+		
+	}
+	ciws_1 = {
+		category = ship_ciws
+		gfx = ship_ciws_1
+		
+		add_stats = {
+			armor_value = 58
+			build_cost_ic = 1050
+		}
+		
+		build_cost_resources = {
+			tungsten = 2
+		}
+		
+	}
+	ciws_2 = {
+		category = ship_ciws
+		gfx = ship_ciws_2
+		
+		add_stats = {
+			armor_value = 81
+			build_cost_ic = 1400
+		}
+		
+		build_cost_resources = {
+			tungsten = 3
+		}
+		
+	}
+	
+}

@@ -85,17 +85,16 @@ equipments = {
 		
 		torpedo_attack = 0
 		sub_attack = 1
-		anti_air_attack = 0.6
 		armor_value = 0
 		surface_detection = 20
 		sub_detection = 5
-		surface_visibility = 10
-		naval_speed = 46
+		surface_visibility = 12
+		naval_speed = 50
 		reliability = 0.8
-		naval_range = 1600
-		max_strength = 25
+		naval_range = 1800
+		max_strength = 48
 		fuel_consumption = 2
-		build_cost_ic = 200
+		build_cost_ic = 600
 		resources = {
 			steel = 1
 		}
@@ -118,7 +117,7 @@ equipments = {
 
 		archetype = screen_hull_small
 		priority = 2000
-		parent = screen_hull_light_0
+		parent = screen_hull_small_0
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -154,12 +153,11 @@ equipments = {
 		surface_detection = 20
 		sub_detection = 5
 		surface_visibility = 14
-		anti_air_attack = 0.8
 		naval_speed = 54
 		naval_range = 2000
-		max_strength = 30
+		max_strength = 56
 		fuel_consumption = 3
-		build_cost_ic = 300
+		build_cost_ic = 800
 		resources = {
 			steel = 2
 		}
@@ -171,7 +169,7 @@ equipments = {
 
 		archetype = screed_hull_small
 		priority = 2000
-		parent = screen_hull_1
+		parent = screen_hull_small_1
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -206,12 +204,11 @@ equipments = {
 		surface_detection = 25
 		sub_detection = 5
 		surface_visibility = 15
-		anti_air_attack = 1
 		naval_speed = 58
 		naval_range = 2200
-		max_strength = 35
+		max_strength = 64
 		fuel_consumption = 4
-		build_cost_ic = 500
+		build_cost_ic = 1000
 		manpower = 250
 	}
 
@@ -254,12 +251,11 @@ equipments = {
 		surface_detection = 30
 		sub_detection = 10
 		surface_visibility = 16
-		anti_air_attack = 1.2
 		naval_speed = 62
 		naval_range = 2400
-		max_strength = 40
-		fuel_consumption = 5
-		build_cost_ic = 600
+		max_strength = 72
+		fuel_consumption = 4
+		build_cost_ic = 1200
 		manpower = 200
 		resources = {
 			steel = 3
@@ -303,12 +299,11 @@ equipments = {
 		surface_detection = 30
 		sub_detection = 10
 		surface_visibility = 17
-		anti_air_attack = 1.4
 		naval_speed = 66
 		naval_range = 2600
-		max_strength = 45
-		fuel_consumption = 6
-		build_cost_ic = 700
+		max_strength = 80
+		fuel_consumption = 5
+		build_cost_ic = 1600
 		manpower = 150
 		resources = {
 			steel = 3
@@ -411,7 +406,6 @@ equipments = {
 		
 		torpedo_attack = 0
 		sub_attack = 1
-		anti_air_attack = 1.2
 		armor_value = 0
 		surface_detection = 25
 		sub_detection = 15
@@ -419,9 +413,9 @@ equipments = {
 		naval_speed = 45
 		reliability = 0.8
 		naval_range = 2200
-		max_strength = 50
+		max_strength = 72
 		fuel_consumption = 4
-		build_cost_ic = 400
+		build_cost_ic = 1200
 		resources = {
 			steel = 2
 		}
@@ -444,7 +438,7 @@ equipments = {
 
 		archetype = screen_hull_medium
 		priority = 2000
-		parent = screen_hull_light_0
+		parent = screen_hull_medium_0
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -491,14 +485,13 @@ equipments = {
 		surface_detection = 30
 		sub_detection = 10
 		surface_visibility = 16
-		anti_air_attack = 1.6
 		naval_speed = 48
 		naval_range = 2500
-		max_strength = 50
+		max_strength = 84
 		fuel_consumption = 6
-		build_cost_ic = 800
+		build_cost_ic = 1600
 		resources = {
-			steel = 3
+			steel = 4
 		}
 		manpower = 450
 	}
@@ -508,7 +501,7 @@ equipments = {
 
 		archetype = screed_hull_small
 		priority = 2000
-		parent = screen_hull_1
+		parent = screen_hull_medium_1
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -546,19 +539,18 @@ equipments = {
 
 		
 		resources = {
-			steel = 4
+			steel = 6
 		}
 
 		reliability = 0.85
 		surface_detection = 35
 		sub_detection = 20
 		surface_visibility = 20
-		anti_air_attack = 2
 		naval_speed = 51
 		naval_range = 2800
-		max_strength = 70
+		max_strength = 96
 		fuel_consumption = 8
-		build_cost_ic = 1000
+		build_cost_ic = 2000
 		manpower = 500
 	}
 
@@ -611,15 +603,14 @@ equipments = {
 		surface_detection = 40
 		sub_detection = 25
 		surface_visibility = 22
-		anti_air_attack = 2.4
 		naval_speed = 54
 		naval_range = 3100
-		max_strength = 80
+		max_strength = 108
 		fuel_consumption = 10
-		build_cost_ic = 1200
+		build_cost_ic = 2400
 		manpower = 450
 		resources = {
-			steel = 4
+			steel = 6
 			tungsten = 1
 		}
 	}
@@ -670,15 +661,14 @@ equipments = {
 		surface_detection = 40
 		sub_detection = 25
 		surface_visibility = 23
-		anti_air_attack = 2.8
 		naval_speed = 57
 		naval_range = 3400
-		max_strength = 90
-		fuel_consumption = 12
-		build_cost_ic = 1400
+		max_strength = 120
+		fuel_consumption = 10
+		build_cost_ic = 3200
 		manpower = 400
 		resources = {
-			steel = 4
+			steel = 6
 			tungsten = 2
 		}
 	}
@@ -787,7 +777,6 @@ equipments = {
 		
 		torpedo_attack = 0
 		sub_attack = 1
-		anti_air_attack = 2.4
 		armor_value = 0
 		surface_detection = 30
 		sub_detection = 10
@@ -795,9 +784,9 @@ equipments = {
 		naval_speed = 40
 		reliability = 0.8
 		naval_range = 2400
-		max_strength = 100
+		max_strength = 108
 		fuel_consumption = 8
-		build_cost_ic = 800
+		build_cost_ic = 2400
 		resources = {
 			steel = 3
 		}
@@ -820,7 +809,7 @@ equipments = {
 
 		archetype = screen_hull_large
 		priority = 2000
-		parent = screen_hull_light_0
+		parent = screen_hull_large_0
 		
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -876,14 +865,13 @@ equipments = {
 		surface_detection = 30
 		sub_detection = 10
 		surface_visibility = 22
-		anti_air_attack = 3.2
 		naval_speed = 42
 		naval_range = 2800
-		max_strength = 120
+		max_strength = 126
 		fuel_consumption = 12
-		build_cost_ic = 1200
+		build_cost_ic = 3200
 		resources = {
-			steel = 5
+			steel = 7
 		}
 		manpower = 575
 	}
@@ -893,7 +881,7 @@ equipments = {
 
 		archetype = screed_hull_small
 		priority = 2000
-		parent = screen_hull_1
+		parent = screen_hull_large_1
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
@@ -939,7 +927,7 @@ equipments = {
 
 		
 		resources = {
-			steel = 7
+			steel = 9
 			aluminium = 1
 		}
 
@@ -947,12 +935,11 @@ equipments = {
 		surface_detection = 40
 		sub_detection = 13
 		surface_visibility = 24
-		anti_air_attack = 4
 		naval_speed = 44
 		naval_range = 3200
-		max_strength = 140
+		max_strength = 144
 		fuel_consumption = 16
-		build_cost_ic = 2000
+		build_cost_ic = 4000
 		manpower = 650
 	}
 
@@ -1014,15 +1001,14 @@ equipments = {
 		surface_detection = 50
 		sub_detection = 16
 		surface_visibility = 26
-		anti_air_attack = 4.8
 		naval_speed = 46
 		naval_range = 3600
-		max_strength = 160
+		max_strength = 162
 		fuel_consumption = 20
-		build_cost_ic = 2400
+		build_cost_ic = 4800
 		manpower = 575
 		resources = {
-			steel = 7
+			steel = 9
 			tungsten = 2
 			aluminium = 1
 		}
@@ -1082,15 +1068,14 @@ equipments = {
 		surface_detection = 50
 		sub_detection = 16
 		surface_visibility = 27
-		anti_air_attack = 5.6
 		naval_speed = 48
 		naval_range = 4000
 		max_strength = 180
 		fuel_consumption = 24
-		build_cost_ic = 2800
+		build_cost_ic = 6400
 		manpower = 500
 		resources = {
-			steel = 7
+			steel = 9
 			tungsten = 3
 			aluminium = 1
 		}

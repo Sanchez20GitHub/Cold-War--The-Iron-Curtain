@@ -1,0 +1,135 @@
+equipment_modules = {
+##### GUN (LIGHT) #####
+	ship_armament_light_0 = {
+		category = ship_armament_light
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 0.5
+			build_cost_ic = 90	
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 0.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_armament_light
+			convert_cost_ic = 60
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+	
+	ship_armament_light_1 = {
+		category = ship_armament_light
+		parent = ship_armament_light_0
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1
+			build_cost_ic = 135
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 1
+		}
+		
+		can_convert_from = {
+			module_category = ship_armament_light
+			convert_cost_ic = 100
+		}
+		can_convert_from = {
+			module = ship_armament_light_0
+			convert_cost_ic = 60
+		}
+
+		critical_parts = { damaged_light_guns }
+	}
+
+	ship_armament_light_2 = {
+		category = ship_armament_light
+		parent = ship_armament_light_1
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 1.5
+			build_cost_ic = 180
+			
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 2
+		}
+		
+		can_convert_from = {
+			module_category = ship_armament_light
+			convert_cost_ic = 100
+		}
+		
+		can_convert_from = {
+			module = ship_armament_light_1
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	ship_armament_light_3 = {
+		category = ship_armament_light
+		parent = ship_armament_light_2
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 2
+			build_cost_ic = 225		
+		}
+		
+		build_cost_resources = {
+			steel = 0.5
+		}
+		
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_armament_light
+			convert_cost_ic = 100
+		}
+		
+		can_convert_from = {
+			module= ship_armament_light_2
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_light_guns }
+	}
+
+	ship_armament_light_4 = {
+		category = ship_armament_light
+		parent = ship_armament_light_3
+		sfx = sfx_ui_sd_module_turret
+		
+		add_stats = {
+			lg_attack = 2.5
+			build_cost_ic = 270
+		}
+		build_cost_resources = {
+			steel = 1
+		}
+		add_average_stats = {
+			lg_armor_piercing = 2.5
+		}
+		
+		can_convert_from = {
+			module_category = ship_armament_light
+			convert_cost_ic = 100
+		}
+			
+		can_convert_from = {
+			module = ship_armament_light_3
+			convert_cost_ic = 60
+		}
+		critical_parts = { damaged_light_guns }
+	}
+##### GUN (MEDIUM)
+}

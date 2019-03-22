@@ -3,6 +3,54 @@ equipment_modules = {
 ##### ENGINES #####
 ##### LIGHT SCREEN ENGINE #####
 
+	ww_screen_engine_small = {
+		category = small_screen_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 0
+		}
+		
+		can_convert_from = {
+			module_category = small_screen_engine
+			convert_cost_ic = 75
+		}
+
+	}
+	
+	ww_screen_engine = {
+		category = screen_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 0
+		}
+		
+		can_convert_from = {
+			module_category = screen_engine
+			convert_cost_ic = 150
+		}
+
+	}
+	
+	ww_capital_engine = {
+		category = capital_engine
+		sfx = sfx_ui_sd_module_engine
+
+		
+		add_stats = {
+			build_cost_ic = 0
+		}
+		
+		can_convert_from = {
+			module_category = capital_engine
+			convert_cost_ic = 300
+		}
+
+	}
+
 	small_screen_engine_0 = {
 		category = small_screen_engine
 		sfx = sfx_ui_sd_module_engine
