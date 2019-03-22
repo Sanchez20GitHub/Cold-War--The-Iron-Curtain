@@ -8608,7 +8608,7 @@ guiTypes = {
 			name = "close"
 			quadTextureSprite ="GFX_delete_template_button"
 			buttonFont = "vic_18"
-			position = { x=-1 y=-1 }
+			position = { x=516 y=0 }
 			shortcut = "ESCAPE"
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "CLOSE"
