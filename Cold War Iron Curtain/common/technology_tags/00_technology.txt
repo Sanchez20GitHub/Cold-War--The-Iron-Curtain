@@ -76,9 +76,9 @@ technology_categories = {
 	naval_medium_armament
 	naval_heavy_armament
 	naval_sensors
-	naval_maritimeantiair
-	naval_maritimeradar
-	naval_maritimenavigation
+	naval_maritime_antiair
+	naval_maritime_radar
+	naval_maritime_navigation
 	shbb_tech
 	ss_tech
 	ss_tech_hull
