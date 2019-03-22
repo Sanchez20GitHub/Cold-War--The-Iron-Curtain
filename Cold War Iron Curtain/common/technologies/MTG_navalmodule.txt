@@ -1466,24 +1466,24 @@ technologies = {
 	}
 	ww_armaments = {
 		enable_equipment_modules = { 
-			ww_light_armament
+			ww_ship_light_armament
 		}
 		enable_equipment_modules = { 
-			ww_medium_armament
+			ww_ship_medium_armament
 		}
 		enable_equipment_modules = { 
-			ww_heavy_armament
+			ww_ship_heavy_armament
 		}
 		path = {
-			leads_to_tech = light_armament_0
+			leads_to_tech = ship_light_armament_0
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armament_0
+			leads_to_tech = ship_medium_armament_0
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armament_0
+			leads_to_tech = ship_heavy_armament_0
 			research_cost_coeff = 1
 		}
 		
@@ -1511,12 +1511,12 @@ technologies = {
 			naval_weapon
 		}
 	}
-	light_armament_0 = {
+	ship_light_armament_0 = {
 		enable_equipment_modules = { 
-			light_armament_0
+			ship_light_armament_0
 		}
 		path = {
-			leads_to_tech = light_armament_1
+			leads_to_tech = ship_light_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -1541,24 +1541,24 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_1 = {
+	ship_light_armament_1 = {
 		enable_equipment_modules = { 
-			light_armament_1
+			ship_light_armament_1
 		}
 		path = {
-			leads_to_tech = light_armament_2
+			leads_to_tech = ship_light_armament_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armament_1
+			leads_to_tech = ship_medium_armament_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armament_1
+			leads_to_tech = ship_heavy_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -1583,16 +1583,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_2 = {
+	ship_light_armament_2 = {
 		enable_equipment_modules = { 
-			light_armament_2
+			ship_light_armament_2
 		}
 		path = {
-			leads_to_tech = light_armament_3
+			leads_to_tech = ship_light_armament_3
 			research_cost_coeff = 1
 		}
 		
@@ -1617,20 +1617,20 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_3 = {
+	ship_light_armament_3 = {
 		enable_equipment_modules = { 
-			light_armament_3
+			ship_light_armament_3
 		}
 		path = {
-			leads_to_tech = light_armament_4
+			leads_to_tech = ship_light_armament_4
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armament_3
+			leads_to_tech = ship_medium_armament_3
 			research_cost_coeff = 1
 		}
 		
@@ -1655,16 +1655,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_4 = {
+	ship_light_armament_4 = {
 		enable_equipment_modules = { 
-			light_armament_4
+			ship_light_armament_4
 		}
 		path = {
-			leads_to_tech = light_armament_5
+			leads_to_tech = ship_light_armament_5
 			research_cost_coeff = 1
 		}
 		
@@ -1689,24 +1689,24 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_5 = {
+	ship_light_armament_5 = {
 		enable_equipment_modules = { 
-			light_armament_5
+			ship_light_armament_5
 		}
 		path = {
-			leads_to_tech = light_armament_6
+			leads_to_tech = ship_light_armament_6
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armament_5
+			leads_to_tech = ship_medium_armament_5
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armament_2
+			leads_to_tech = ship_heavy_armament_2
 			research_cost_coeff = 1
 		}
 		
@@ -1731,13 +1731,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	light_armament_6 = {
+	ship_light_armament_6 = {
 		enable_equipment_modules = { 
-			light_armament_6
+			ship_light_armament_6
 		}
 		
 		research_cost = 1.5
@@ -1761,16 +1761,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_light_armament
+			naval_ship_light_armament
 			naval_weapon
 		}
 	}
-	medium_armament_0 = {
+	ship_medium_armament_0 = {
 		enable_equipment_modules = { 
-			medium_armament_0
+			ship_medium_armament_0
 		}
 		path = {
-			leads_to_tech = medium_armament_1
+			leads_to_tech = ship_medium_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -1795,24 +1795,24 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_1 = {
+	ship_medium_armament_1 = {
 		enable_equipment_modules = { 
-			medium_armament_1
+			ship_medium_armament_1
 		}
 		path = {
-			leads_to_tech = medium_armament_2
+			leads_to_tech = ship_medium_armament_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = light_armament_1
+			leads_to_tech = ship_light_armament_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armament_1
+			leads_to_tech = ship_heavy_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -1837,16 +1837,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_2 = {
+	ship_medium_armament_2 = {
 		enable_equipment_modules = { 
-			medium_armament_2
+			ship_medium_armament_2
 		}
 		path = {
-			leads_to_tech = medium_armament_3
+			leads_to_tech = ship_medium_armament_3
 			research_cost_coeff = 1
 		}
 		
@@ -1871,20 +1871,20 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_3 = {
+	ship_medium_armament_3 = {
 		enable_equipment_modules = { 
-			medium_armament_3
+			ship_medium_armament_3
 		}
 		path = {
-			leads_to_tech = medium_armament_4
+			leads_to_tech = ship_medium_armament_4
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = light_armament_3
+			leads_to_tech = ship_light_armament_3
 			research_cost_coeff = 1
 		}
 		
@@ -1909,16 +1909,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_4 = {
+	ship_medium_armament_4 = {
 		enable_equipment_modules = { 
-			medium_armament_4
+			ship_medium_armament_4
 		}
 		path = {
-			leads_to_tech = medium_armament_5
+			leads_to_tech = ship_medium_armament_5
 			research_cost_coeff = 1
 		}
 		
@@ -1943,24 +1943,24 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_5 = {
+	ship_medium_armament_5 = {
 		enable_equipment_modules = { 
-			medium_armament_5
+			ship_medium_armament_5
 		}
 		path = {
-			leads_to_tech = medium_armament_6
+			leads_to_tech = ship_medium_armament_6
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = light_armament_5
+			leads_to_tech = ship_light_armament_5
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = heavy_armament_2
+			leads_to_tech = ship_heavy_armament_2
 			research_cost_coeff = 1
 		}
 		
@@ -1985,13 +1985,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	medium_armament_6 = {
+	ship_medium_armament_6 = {
 		enable_equipment_modules = { 
-			medium_armament_6
+			ship_medium_armament_6
 		}
 		
 		research_cost = 1.5
@@ -2015,16 +2015,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_medium_armament
+			naval_ship_medium_armament
 			naval_weapon
 		}
 	}
-	heavy_armament_0 = {
+	ship_heavy_armament_0 = {
 		enable_equipment_modules = { 
-			heavy_armament_0
+			ship_heavy_armament_0
 		}
 		path = {
-			leads_to_tech = heavy_armament_1
+			leads_to_tech = ship_heavy_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -2049,24 +2049,24 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_heavy_armament
+			naval_ship_heavy_armament
 			naval_weapon
 		}
 	}
-	heavy_armament_1 = {
+	ship_heavy_armament_1 = {
 		enable_equipment_modules = { 
-			heavy_armament_1
+			ship_heavy_armament_1
 		}
 		path = {
-			leads_to_tech = heavy_armament_2
+			leads_to_tech = ship_heavy_armament_2
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = light_armament_1
+			leads_to_tech = ship_light_armament_1
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = medium_armament_1
+			leads_to_tech = ship_medium_armament_1
 			research_cost_coeff = 1
 		}
 		
@@ -2091,13 +2091,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_heavy_armament
+			naval_ship_heavy_armament
 			naval_weapon
 		}
 	}
-	heavy_armament_2 = {
+	ship_heavy_armament_2 = {
 		enable_equipment_modules = { 
-			heavy_armament_2
+			ship_heavy_armament_2
 		}
 		
 		research_cost = 3
@@ -2121,7 +2121,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_heavy_armament
+			naval_ship_heavy_armament
 			naval_weapon
 		}
 	}

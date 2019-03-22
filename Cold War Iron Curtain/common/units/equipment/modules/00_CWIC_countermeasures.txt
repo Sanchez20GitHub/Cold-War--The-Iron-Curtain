@@ -1,8 +1,8 @@
 equipment_modules = {
 
 	countermeasures_light_0 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_0
+		category = countermeasures_light
+		gfx = countermeasures_light_0
 		
 		add_stats = {
 			armor_value = 1.5
@@ -15,8 +15,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_1 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_1
+		category = countermeasures_light
+		gfx = countermeasures_light_1
 		
 		add_stats = {
 			armor_value = 3
@@ -29,8 +29,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_2 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_2
+		category = countermeasures_light
+		gfx = countermeasures_light_2
 		
 		add_stats = {
 			armor_value = 4.5
@@ -43,8 +43,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_3 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_3
+		category = countermeasures_light
+		gfx = countermeasures_light_3
 		
 		add_stats = {
 			armor_value = 6
@@ -57,8 +57,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_4 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_4
+		category = countermeasures_light
+		gfx = countermeasures_light_4
 		
 		add_stats = {
 			armor_value = 12
@@ -71,8 +71,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_5 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_5
+		category = countermeasures_light
+		gfx = countermeasures_light_5
 		
 		add_stats = {
 			armor_value = 18
@@ -85,8 +85,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_light_6 = {
-		category = ship_countermeasures_light
-		gfx = ship_countermeasures_light_6
+		category = countermeasures_light
+		gfx = countermeasures_light_6
 		
 		add_stats = {
 			armor_value = 27
@@ -101,8 +101,8 @@ equipment_modules = {
 	}
 	
 	countermeasures_medium_0 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_0
+		category = countermeasures_medium
+		gfx = countermeasures_medium_0
 		
 		add_stats = {
 			armor_value = 3
@@ -115,8 +115,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_1 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_1
+		category = countermeasures_medium
+		gfx = countermeasures_medium_1
 		
 		add_stats = {
 			armor_value = 6
@@ -129,8 +129,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_2 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_2
+		category = countermeasures_medium
+		gfx = countermeasures_medium_2
 		
 		add_stats = {
 			armor_value = 9
@@ -143,8 +143,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_3 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_3
+		category = countermeasures_medium
+		gfx = countermeasures_medium_3
 		
 		add_stats = {
 			armor_value = 12
@@ -157,8 +157,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_4 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_4
+		category = countermeasures_medium
+		gfx = countermeasures_medium_4
 		
 		add_stats = {
 			armor_value = 24
@@ -171,8 +171,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_5 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_5
+		category = countermeasures_medium
+		gfx = countermeasures_medium_5
 		
 		add_stats = {
 			armor_value = 36
@@ -185,8 +185,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_medium_6 = {
-		category = ship_countermeasures_medium
-		gfx = ship_countermeasures_medium_6
+		category = countermeasures_medium
+		gfx = countermeasures_medium_6
 		
 		add_stats = {
 			armor_value = 54
@@ -200,8 +200,8 @@ equipment_modules = {
 	}
 	
 	countermeasures_heavy_0 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_0
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_0
 		
 		add_stats = {
 			armor_value = 6
@@ -214,8 +214,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_1 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_1
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_1
 		
 		add_stats = {
 			armor_value = 12
@@ -228,8 +228,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_2 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_2
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_2
 		
 		add_stats = {
 			armor_value = 18
@@ -242,8 +242,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_3 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_3
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_3
 		
 		add_stats = {
 			armor_value = 24
@@ -256,8 +256,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_4 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_4
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_4
 		
 		add_stats = {
 			armor_value = 48
@@ -270,8 +270,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_5 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_5
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_5
 		
 		add_stats = {
 			armor_value = 72
@@ -284,8 +284,8 @@ equipment_modules = {
 		
 	}
 	countermeasures_heavy_6 = {
-		category = ship_countermeasures_heavy
-		gfx = ship_countermeasures_heavy_6
+		category = countermeasures_heavy
+		gfx = countermeasures_heavy_6
 		
 		add_stats = {
 			armor_value = 108
