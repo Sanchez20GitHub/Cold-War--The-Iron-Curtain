@@ -171,7 +171,7 @@ air_wings = {
 	}
 	140 = {
 		# 2. Torpedflyggruppen -- Heinkel HD 16s
-		cv_nav_bomber_equipment_1 =  {
+		nav_bomber_equipment_1 =  {
 			owner = "SWE" 
 			amount = 12
 		}
@@ -180,15 +180,7 @@ air_wings = {
 
 ### Starting Production ###
 instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "SWE"
-		}
-		requested_factories = 1
-		progress = 0.77
-		efficiency = 100
-	}
+
 	add_equipment_production = {
 		equipment = {
 			type = support_equipment_1

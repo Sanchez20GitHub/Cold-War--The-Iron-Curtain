@@ -351,7 +351,6 @@ leader_traits = {
 			}
 			sam_carrier = {
 				soft_attack = 0.05
-				aa_attack = 0.05
 				ap_attack = 0.05
 				defense = -0.05
 				instant = yes
@@ -379,7 +378,6 @@ leader_traits = {
 			}
 			spaag_equipment = {
 				soft_attack = 0.05
-				aa_attack = 0.05
 				ap_attack = 0.05
 				defense = -0.05
 				instant = yes
@@ -723,11 +721,11 @@ leader_traits = {
 		naval_strike_agility_factor = 0.03
 		equipment_bonus = {
 			scout_heliopter_equipment = {
-			attack = 0.05
+			breakthrough = 0.05
 			instant = yes
 			}
 			attack_helicopter_equipment = {
-			attack = 0.05
+			breakthrough = 0.05
 			instant = yes
 			}
 			utility_helicopter_equipment = {
@@ -879,9 +877,7 @@ leader_traits = {
 			auto_cannon_equipment = {
 			reliability = 0.1
 			soft_attack = 0.05
-			aa_attack = 0.05
 			defense = 0.05
-			aa_attack = 0.05
 			instant = yes
 			}
 			direct_fire_gun_equipment = {

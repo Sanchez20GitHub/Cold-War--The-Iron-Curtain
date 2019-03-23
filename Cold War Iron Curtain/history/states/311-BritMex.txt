@@ -25,7 +25,6 @@ state=
 			state_infrastructure = 2
 
 		industrial_complex = 1
-                        coal_plant = 1
 			2077 = {
 				naval_base = 1
 			}

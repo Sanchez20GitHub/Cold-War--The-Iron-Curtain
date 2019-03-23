@@ -38,7 +38,6 @@ state={
 
 			air_base = 3
 			industrial_complex = 1
-			coal_plant = 1
 			7193 = {
 				naval_base = 2
 

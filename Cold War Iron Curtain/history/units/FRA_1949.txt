@@ -515,7 +515,7 @@ units = {
 		name = "Division de Cochinchine-Cambodge"
 		location = 4401
 		division_template = "Légion étrangère Française" 			# Reserve Division (low experience, reserve equip)
-		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 
@@ -524,7 +524,7 @@ units = {
 		name = "Brigade d'Annam-Laos"	
 		location = 10103
 		division_template = "Légion étrangère Française"				
-		force_equipment_variants = { infantry_equipment_0 = { owner = "FRA" } }
+		force_equipment_variants = { infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 1
 	}
@@ -537,8 +537,8 @@ units = {
 air_wings = {
 		##### People's Liberation Army Air Force (PLAAF) #####
 	16 = { 			#Ile De France
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 10 }
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 10 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 	}
 
 	28 = { 			#Alsace
@@ -546,18 +546,18 @@ air_wings = {
 		jet_multirole_equipment_1 = { owner = "FRA" amount = 20 }
 		jet_multirole_equipment_1 = { owner = "ENG" amount = 20 }
 		jet_interceptor_equipment_1 = { owner = "ENG" amount = 20 }
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 	}
 
 	17 = { 			#Lorraine
 		jet_multirole_equipment_1 = { owner = "ENG" amount = 20 }
 		jet_interceptor_equipment_1 = { owner = "ENG" amount = 20 }
 		jet_multirole_equipment_1 = { owner = "FRA" amount = 20 }
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 	}
 	
 	21 = { 			#Provence
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 		jet_multirole_equipment_1 = { owner = "ENG" amount = 20 }
 		jet_interceptor_equipment_1 = { owner = "ENG" amount = 20 }
 	}
@@ -588,14 +588,14 @@ air_wings = {
 
 	838 = { 			#North Central Coast 
 		tac_bomber_equipment_3 = { owner = "FRA" amount = 20 }
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 		fighter_equipment_3 = { owner = "FRA" amount = 20 }
 	}
 
 	757 = { 			#South Central Coast 
 		jet_interceptor_equipment_1 = { owner = "ENG" amount = 20 }
 		fighter_equipment_2 = { owner = "FRA" amount = 20 }
-		jet_CAS_equipment_1 = { owner = "FRA" amount = 20 }
+		CAS_equipment_4 = { owner = "FRA" amount = 20 }
 	}
 
 	286 = { 			#Cochinchina

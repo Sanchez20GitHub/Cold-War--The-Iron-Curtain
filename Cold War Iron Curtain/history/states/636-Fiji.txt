@@ -17,8 +17,6 @@ state={
 			infrastructure = 2
 			state_infrastructure = 2
 
-			industrial_complex = 1
-			coal_plant = 1
 			4286 = {
 				naval_base = 1
 

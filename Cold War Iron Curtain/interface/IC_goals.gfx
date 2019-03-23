@@ -2862,22 +2862,7 @@ spriteTypes = {
 		name = "GFX_GRE_MP_agriculture"
 		texturefile = "gfx/interface/goals/Gre_Land_Redistribution.dds" 
 	}
-	SpriteType = {
-		name = "GFX_GEETHA"
-		texturefile = "gfx/interface/goals/GEETHA.dds" 
-	}
-	SpriteType = {
-		name = "GFX_Evelpidwn"
-		texturefile = "gfx/interface/goals/Evelpidwn.dds" 
-	}
-	SpriteType = {
-		name = "GFX_sxoli_efedrwn"
-		texturefile = "gfx/interface/goals/sxoli_efedrwn.dds" 
-	}
-	SpriteType = {
-		name = "GFX_smy"
-		texturefile = "gfx/interface/goals/smy.dds" 
-	}
+
 	SpriteType = {
 		name = "GFX_Greek_Autarky"
 		texturefile = "gfx/interface/goals/Greek_Autarky.dds" 
@@ -2997,18 +2982,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GRE_Decrease_Political_Suppression"
 		texturefile = "gfx/interface/goals/GRE_Decrease_Political_Suppression.tga" 
-	}
-	SpriteType = {
-		name = "GFX_GRE_army"
-		texturefile = "gfx/interface/goals/GRE_army.dds" 
-	}
-	SpriteType = {
-		name = "GFX_GRE_airforce"
-		texturefile = "gfx/interface/goals/GRE_airforce.dds" 
-	}
-	SpriteType = {
-		name = "GFX_GRE_navy"
-		texturefile = "gfx/interface/goals/GRE_navy.dds" 
 	}
 	SpriteType = {
 		name = "GFX_Papagos_Consolidates_power"
@@ -6665,10 +6638,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/Drachma_dev.dds" 
 	}
 	SpriteType = {
-		name = "GFX_Infrastructure_Athens"
-		texturefile = "gfx/interface/goals/Infrastructure_Athens.dds" 
-	}
-	SpriteType = {
 		name = "GFX_Drachma_dev"
 		texturefile = "gfx/interface/goals/Drachma_dev.dds" 
 	}
@@ -6715,22 +6684,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GRE_MP_agriculture"
 		texturefile = "gfx/interface/goals/Gre_Land_Redistribution.dds" 
-	}
-	SpriteType = {
-		name = "GFX_GEETHA"
-		texturefile = "gfx/interface/goals/GEETHA.dds" 
-	}
-	SpriteType = {
-		name = "GFX_Evelpidwn"
-		texturefile = "gfx/interface/goals/Evelpidwn.dds" 
-	}
-	SpriteType = {
-		name = "GFX_sxoli_efedrwn"
-		texturefile = "gfx/interface/goals/sxoli_efedrwn.dds" 
-	}
-	SpriteType = {
-		name = "GFX_smy"
-		texturefile = "gfx/interface/goals/smy.dds" 
 	}
 	SpriteType = {
 		name = "GFX_Greek_Autarky"
@@ -6852,18 +6805,7 @@ spriteTypes = {
 		name = "GFX_GRE_Decrease_Political_Suppression"
 		texturefile = "gfx/interface/goals/GRE_Decrease_Political_Suppression.tga" 
 	}
-	SpriteType = {
-		name = "GFX_GRE_army"
-		texturefile = "gfx/interface/goals/GRE_army.dds" 
-	}
-	SpriteType = {
-		name = "GFX_GRE_airforce"
-		texturefile = "gfx/interface/goals/GRE_airforce.dds" 
-	}
-	SpriteType = {
-		name = "GFX_GRE_navy"
-		texturefile = "gfx/interface/goals/GRE_navy.dds" 
-	}
+
 	SpriteType = {
 		name = "GFX_Papagos_Consolidates_power"
 		texturefile = "gfx/interface/goals/Papagos_Consolidates_power.dds" 

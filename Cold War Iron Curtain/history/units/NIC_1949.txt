@@ -50,9 +50,6 @@ units = {
 		division_template = "División de Infanteria"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.6
-		force_equipment_variants = {
-			infantry_equip_1 = { owner = "NIC" creator = "USA" }
-		}
 
 	}
 	division= {	
