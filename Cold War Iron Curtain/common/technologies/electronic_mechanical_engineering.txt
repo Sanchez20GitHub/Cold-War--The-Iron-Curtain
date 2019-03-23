@@ -123,6 +123,7 @@ technologies = {
 		
 		dependencies = {
 			transistor_II = 1
+			hardware_II = 1
 		}
 	
 		research_cost = 1
@@ -2010,6 +2011,7 @@ technologies = {
 		
 		dependencies = {
 			hardware_II = 1
+			transistor_II = 1
 		}
 	
 		research_cost = 1
