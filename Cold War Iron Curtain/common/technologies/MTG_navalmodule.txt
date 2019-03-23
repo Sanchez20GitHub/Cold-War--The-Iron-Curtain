@@ -1,20 +1,14 @@
 technologies = {
 	countermeasures_0 = {
 		enable_equipment_modules = { 
-			countermeasures_light_0
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_0
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_0
+			countermeasures_0
 		}
 		path = {
 			leads_to_tech = countermeasures_1
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1945
 
@@ -40,20 +34,14 @@ technologies = {
 	}
 	countermeasures_1 = {
 		enable_equipment_modules = { 
-			countermeasures_light_1
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_1
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_1
+			countermeasures_1
 		}
 		path = {
 			leads_to_tech = countermeasures_2
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1955
 
@@ -79,20 +67,14 @@ technologies = {
 	}
 	countermeasures_2 = {
 		enable_equipment_modules = { 
-			countermeasures_light_2
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_2
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_2
+			countermeasures_2
 		}
 		path = {
 			leads_to_tech = countermeasures_3
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1965
 
@@ -118,13 +100,7 @@ technologies = {
 	}
 	countermeasures_3 = {
 		enable_equipment_modules = { 
-			countermeasures_light_3
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_3
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_3
+			countermeasures_3
 		}
 		path = {
 			leads_to_tech = countermeasures_4
@@ -135,7 +111,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1975
 
@@ -161,20 +137,14 @@ technologies = {
 	}
 	countermeasures_4 = {
 		enable_equipment_modules = { 
-			countermeasures_light_4
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_4
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_4
+			countermeasures_4
 		}
 		path = {
 			leads_to_tech = countermeasures_5
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1985
 
@@ -200,20 +170,14 @@ technologies = {
 	}
 	countermeasures_5 = {
 		enable_equipment_modules = { 
-			countermeasures_light_5
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_5
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_5
+			countermeasures_5
 		}
 		path = {
 			leads_to_tech = countermeasures_6
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 1995
 
@@ -239,16 +203,10 @@ technologies = {
 	}
 	countermeasures_6 = {
 		enable_equipment_modules = { 
-			countermeasures_light_6
-		}
-		enable_equipment_modules = { 
-			countermeasures_medium_6
-		}
-		enable_equipment_modules = { 
-			countermeasures_heavy_6
+			countermeasures_6
 		}
 		
-		research_cost = 1.5
+		research_cost = 3.5
 		
 		start_year = 2005
 
@@ -281,7 +239,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 2
 		
 		start_year = 1980
 
