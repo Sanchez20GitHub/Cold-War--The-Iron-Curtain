@@ -182,7 +182,7 @@ equipments = {
 	screen_hull_small_2 = {
 		year = 1970
 
-		archetype = screed_hull_small
+		archetype = screen_hull_small
 		priority = 2000
 		parent = screen_hull_small_1
 
@@ -548,7 +548,7 @@ equipments = {
 	screen_hull_medium_2 = {
 		year = 1970
 
-		archetype = screed_hull_small
+		archetype = screen_hull_medium
 		priority = 2000
 		parent = screen_hull_medium_1
 
@@ -764,7 +764,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -962,7 +962,7 @@ equipments = {
 	screen_hull_large_2 = {
 		year = 1970
 
-		archetype = screed_hull_small
+		archetype = screen_hull_large
 		priority = 2000
 		parent = screen_hull_large_1
 

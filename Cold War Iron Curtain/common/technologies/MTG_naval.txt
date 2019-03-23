@@ -1467,7 +1467,7 @@ technologies = {
 			screen_hull_small_0
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_0
+			light_screen_engine_0
 		}
 		path = {
 			leads_to_tech = screen_hull_small_1
@@ -1505,7 +1505,7 @@ technologies = {
 			screen_hull_small_1
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_1
+			light_screen_engine_1
 		}
 		path = {
 			leads_to_tech = screen_hull_small_2
@@ -1547,7 +1547,7 @@ technologies = {
 			screen_hull_small_2
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_2
+			light_screen_engine_2
 		}
 		path = {
 			leads_to_tech = screen_hull_small_3
@@ -1589,7 +1589,7 @@ technologies = {
 			screen_hull_small_3
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_3
+			light_screen_engine_3
 		}
 		path = {
 			leads_to_tech = screen_hull_small_4
@@ -1631,7 +1631,7 @@ technologies = {
 			screen_hull_small_4
 		}
 		enable_equipment_modules = { 
-			small_screen_engine_4
+			light_screen_engine_4
 		}
 		path = {
 			leads_to_tech = rhib_launch_4

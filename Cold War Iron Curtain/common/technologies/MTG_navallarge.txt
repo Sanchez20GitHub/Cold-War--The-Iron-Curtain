@@ -2,13 +2,13 @@ technologies = {
 
 	ww_capitals = {
 		enable_equipments = { 
-			capital_hull_large_ww
+			ww_capital_hull_large
 		}
 		enable_equipments = { 
-			capital_hull_small_ww
+			ww_capital_hull_cruiser
 		}
 		enable_equipment_modules = { 
-			capital_engine_ww
+			ww_capital_engine
 		}
 		path = {
 			leads_to_tech = capital_hull_0
