@@ -78,9 +78,9 @@ equipments = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_ciws_slot = empty
 			fixed_maritime_radar_slot = empty
-			fixed_ship_engine_slot = light_screen_engine_0
+			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
-			front_2_custom_slot
+			front_2_custom_slot = empty
 			mid_1_custom_slot = empty
 			rear_1_custom_slot = empty
 		}
@@ -188,7 +188,7 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_maritime_radar_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
@@ -433,7 +433,7 @@ equipments = {
 			fixed_ship_ciws_slot = empty
 			fixed_maritime_radar_slot = empty
 			fixed_maritime_radar_slot_2 = empty
-			fixed_ship_engine_slot = screen_engine_0
+			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
 			front_2_custom_slot = empty
 			mid_1_custom_slot = empty
@@ -554,7 +554,7 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_maritime_radar_slot = inherit
 			fixed_maritime_radar_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
@@ -836,7 +836,7 @@ equipments = {
 			fixed_ship_ciws_slot = empty
 			fixed_maritime_radar_slot = empty
 			fixed_maritime_radar_slot_2 = empty
-			fixed_ship_engine_slot = screen_engine_0
+			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
 			front_1_custom_slot = empty
 			front_2_custom_slot = empty
@@ -968,7 +968,7 @@ equipments = {
 
 		module_slots = {
 			fixed_ship_battery_slot = inherit
-			fixed_ship_anti_air = inherit
+			fixed_ship_anti_air_slot = inherit
 			fixed_maritime_radar_slot = inherit
 			fixed_maritime_radar_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
