@@ -216,7 +216,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Menachem Begin"
 	picture = "Menachem_Begin.dds"
-	ideology = national_conservatism
+	ideology = national_democrat
 }
 
 create_country_leader = {
@@ -246,7 +246,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Haim-Moshe Shapira"
 	picture = "Haim-Moshe_Shapira.dds"
-	ideology = national_democrat
+	ideology = national_conservatism
 }
 
 create_country_leader = {

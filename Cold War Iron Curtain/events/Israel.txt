@@ -4,6 +4,8 @@
 
 add_namespace = israel
 
+add_namespace = israelelection
+
 #Invitation to the Alliance Democratic Middle East
 country_event = {
 	id = israel.1
@@ -212,5 +214,97 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = israelelection.1
+	title = "1951 Knesset Election"
+	desc = "israelelection.1.d"
+	picture = GFX_israel_fashion
+	
+	is_triggered_only = yes
+	
+	
+	option = {
+		name = israelelection.1.a
+        ai_chance = { factor = 100 }
+	add_popularity = {
+			ideology = socialist
+			popularity = -0.02
+	}
+		set_politics = {
+				ruling_party = socialist
+        }
+	set_country_flag = Mapai1951
+	set_country_flag = 1951ElectionHeld
+	}
 
+	option = {
+		name = israelelection.1.b
+        ai_chance = { factor = 0 }
+	add_popularity = {
+			ideology = liberal
+			popularity = 0.28
+	}
+	add_popularity = {
+			ideology = socialist
+			popularity = -0.08
+	}
+		set_politics = {
+				ruling_party = liberal
+        }
+	set_country_flag = GenZionist1951
+	set_country_flag = 1951ElectionHeld
+	}
+	
+	option = {
+		name = israelelection.1.c
+        ai_chance = { factor = 0 }
+	add_popularity = {
+			ideology = trotskyism
+			popularity = 0.25
+	}
+	add_popularity = {
+			ideology = socialist
+			popularity = -0.07
+	}
+		set_politics = {
+				ruling_party = trotskyism
+        }
+	set_country_flag = Mapam1951
+	set_country_flag = 1951ElectionHeld
+	}
+	
+	option = {
+		name = israelelection.1.e
+        ai_chance = { factor = 0 }
+	add_popularity = {
+			ideology = conservative
+			popularity = 0.25
+	}
+	add_popularity = {
+			ideology = socialist
+			popularity = -0.08
+	}
+		set_politics = {
+				ruling_party = conservative
+        }
+	set_country_flag = Religious1951
+	set_country_flag = 1951ElectionHeld
+	}
 
+	option = {
+		name = israelelection.1.f
+        ai_chance = { factor = 0 }
+	add_popularity = {
+			ideology = nationalism
+			popularity = 0.29
+	}
+	add_popularity = {
+			ideology = socialist
+			popularity = -0.05
+	}
+		set_politics = {
+				ruling_party = nationalism
+        }
+	set_country_flag = Herut1951
+	set_country_flag = 1951ElectionHeld
+	}
