@@ -72,9 +72,9 @@ technology_categories = {
 	naval_subkiller
 	ciws
 	naval_weapon
-	naval_armament_light
-	naval_armament_medium
-	naval_armament_heavy
+	naval_ship_armament_light
+	naval_ship_armament_medium
+	naval_ship_armament_heavy
 	naval_sensors
 	naval_maritime_antiair
 	naval_maritime_radar
