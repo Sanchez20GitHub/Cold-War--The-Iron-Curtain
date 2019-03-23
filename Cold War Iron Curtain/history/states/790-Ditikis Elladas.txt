@@ -13,14 +13,13 @@ state={
 		set_state_flag = riverlarge
 		set_state_flag = small
 		set_state_flag = semideveloped
-		victory_points = {
-			7211 5 
-		}
+		
 		buildings = {
 			infrastructure = 1
 			state_infrastructure = 2
-			7211 = {
-				naval_base = 3
+			
+			4193 = {
+				naval_base = 2
 
 			}
 

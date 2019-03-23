@@ -27,6 +27,18 @@ state={
 			anti_air_building = 4
 			air_base = 4
 			coal_plant = 2
+			469 = {
+				bunker = 4
+
+			}
+			3585 = {
+				bunker = 4
+
+			}
+			11432 = {
+				bunker = 4
+
+			}
 
 		}
 		add_core_of = CZE

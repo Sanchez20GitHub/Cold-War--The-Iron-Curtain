@@ -29,6 +29,10 @@ state={
 				bunker = 4
 
 			}
+			6529 = {
+				bunker = 4
+
+			}
 			11502 = {
 				bunker = 4
 
@@ -36,6 +40,16 @@ state={
 
 		}
 		add_core_of = FRA
+		1969.1.1 = {
+			buildings = {
+				6529 = {
+					bunker = 0
+
+				}
+
+			}
+
+		}
 
 	}
 
