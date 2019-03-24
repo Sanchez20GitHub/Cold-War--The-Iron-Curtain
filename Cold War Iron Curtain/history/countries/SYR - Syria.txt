@@ -4,10 +4,6 @@ oob = "SYR_1949"
 
 # Starting tech
 set_technology = {
-
-##### INFRA #####
-	ww_infra = 1
-
 	
 ##Infantry##
 	
@@ -167,7 +163,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Adib Shishakli"
 	picture = "Adib_Shishakli.dds"
-	ideology = pan_arabism
+	ideology = nationalist_ideology
 }
 
 create_country_leader = {
@@ -194,16 +190,16 @@ create_country_leader = {
             democratic = { popularity = 0 }
             communism = { popularity = 10 }
             fascism = { popularity = 10 }
-            nationalism = { popularity = 20 }
+            nationalism = { popularity = 10 }
             monarchism = { popularity = 0 }
-            neutrality = { popularity = 20 }
+            neutrality = { popularity = 50 }
             islamism = { popularity = 10 }
             radical_shiaism = { popularity = 0 }
             Social_Democratic = { popularity = 0 }
             Social_Liberalism = { popularity = 0 }
             Salafism = { popularity = 0 }
             Liberal_Conservatism = { popularity = 0 }
-            conservative = { popularity = 30 }
+            conservative = { popularity = 10 }
             Christian_Democratic = { popularity = 0 }
             socialist = { popularity = 0 }
             centrist = { popularity = 0 }
@@ -288,7 +284,7 @@ create_country_leader = {
 
 	    }
 	    ruling_party = fascism
-	    last_election = "1961.1.1"
+	    last_election = "1963.3.8"
 	    election_frequency = 48
 	    elections_allowed = no
     }
@@ -308,4 +304,70 @@ create_country_leader = {
 	     picture = "Bashar_al_Assad.dds"
 	     ideology = baathism
     }
+}
+
+create_field_marshal = {
+	name = "Aram Karamanoukian"
+	portrait_path = "gfx/leaders/SYR/FIELD_MARSHALS/Aram_Karamanoukian.tga"
+	traits = { bearer_of_artillery defensive_doctrine   }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	#planning_skill = 2
+	#logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Adib Shishakli"
+	portrait_path = "gfx/leaders/SYR/Adib_Shishakli.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	#planning_skill = 2
+	#logistics_skill = 2 
+}
+
+create_corps_commander = {
+	name = "Sami al-Hinnawi"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Sami_al-Hinnawi.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Fawzi Selu"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Fawzi_Selu.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Lu'ay al-Atassi"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Luay_al-Atassi.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
+}
+
+create_corps_commander = {
+	name = "Amin al-Hafiz"
+	portrait_path = "gfx/leaders/SYR/GENERALS/Amin_al-Hafiz.tga"
+	traits = {  }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	#planning_skill = 1
+	#logistics_skill = 1 
 }

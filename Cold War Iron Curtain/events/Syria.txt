@@ -4,68 +4,76 @@
 
 add_namespace = syria
 
-
-#Surrender when Israel has taken too much land in Syria
+#Husni al-Zaim
 country_event = {
 	id = syria.1
-	title = "Israeli Ceasefire Proposal"
-	desc = "Our top advisors suggest that attempting a ceasefire with Israel in exchange for letting them hold Golan for now would be the best way for us to get out of this war."
-	picture = GFX_report_event_soviet_tanks_snow
+	title = syr_news.1.t
+	desc = syr_news.1.d
+	picture = GFX_Husni-al-Zaim_syr
 	
 	is_triggered_only = yes
 
 	fire_only_once = yes
 
 	option = {
-		name = "Surrender and offer Golan"
-		ISR = {
-			country_event = syria.2
-		}
-		effect_tooltip = {
-			ISR = { white_peace = SYR }
-			transfer_state = 759
-		}
+		name = syr_news.1.a
 	}
 }
 
-#Israel response to Syria surrender
+#Armistice with Israel
 country_event = {
 	id = syria.2
-	title = "Syria proposes ceasefire"
-	desc = "With our current successes against Syria, they now suggest that we sign a ceasefire, in exchange for us being allowed to occupy Golan for the time being."
-	picture = GFX_report_event_finnish_soldiers_snow
+	title = syr_news.2.t
+	desc = syr_news.2.d
+	picture = GFX_Arab-Israeli_War_syr
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = syr_news.2.a
+	}
+}
+
+#Adib Shishakli
+news_event = {
+	id = syria.3
+	title = syr_news.3.t
+	desc = syr_news.3.d
+	picture = GFX_Shishakli_syr
 	
 	is_triggered_only = yes
 
 	option = {
-		name = "Accept the ceasefire"
-		white_peace = SYR
-		transfer_state = 759
+		name = syr_news.3.a
 	}
 }
 
-
-add_namespace = swfs
-country_event = {
-	id = swfs.15
-	title = "Syria Requests the Annexation of Kuwait"
-	desc = "Syria Requests the Annexation of Kuwait"
+#Restore democracy
+news_event = {
+	id = syria.4
+	title = syr_news.4.t
+	desc = syr_news.4.d
+	picture = GFX_Quwatli_syr
 
 	is_triggered_only = yes
 
 	option = {
-		name = "Agree to the Demands"
-		SYR = { annex_country = { target = KUW } }
-		ai_chance = {
-			factor = 80
-		}
+		name = syr_news.4.a
 	}
+}
+
+#Confront the leftist influence
+country_event = {
+	id = syria.5
+	title = syr_news.5.t
+	desc = syr_news.5.d
+	picture = GFX_Syrian_parliament_syr
+
+	is_triggered_only = yes
 
 	option = {
-		ai_chance = {
-			factor = 20
-		}
-		name = "Decline"
-
+		name = syr_news.5.a
 	}
 }

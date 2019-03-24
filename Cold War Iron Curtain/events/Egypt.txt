@@ -315,6 +315,7 @@ country_event = {
 			every_owned_state = {
 				add_core_of = EGY 
 			}
+			EGY = { change_tag_from = SYR }
 		}
 		EGY = {
 			set_cosmetic_tag = UAR_EGY
