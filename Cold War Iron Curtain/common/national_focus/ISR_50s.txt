@@ -41,6 +41,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = 1955ElectionHeld
+					}
 	}
 	focus = {
 		id = The_Israeli_Defense_Forces
@@ -286,6 +289,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = LeftFaction1955
+					}
 	}
 	focus = {
 		id = ISR_Condemn_American_Imperialism
@@ -917,7 +923,10 @@ focus_tree = {
 		y = 17
 		available = {
 			always = no
-		}	
+		}
+			bypass = {
+					has_country_flag = Mapam1955
+					}		
 	}
 	focus = {
 		id = ISR_Establish_State_Pensions
@@ -1441,6 +1450,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = Mapai1955
+					}
 	}
 	focus = {
 		id = ISR_Apply_for_American_Arms_Sales
@@ -1626,6 +1638,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = GenZionist1955
+					}
 	}
 	focus = {
 		id = ISR_Promote_White_Collar_Enterprises
@@ -1973,6 +1988,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = Religious1955
+					}
 	}
 	focus = {
 		id = ISR_A_Jewish_Society
@@ -2347,6 +2365,9 @@ focus_tree = {
 		available = {
 			always = no
 		}
+			bypass = {
+					has_country_flag = Herut1955
+					}
 	}
 	focus = {
 		id = ISR_Land_reclamation_Projects
