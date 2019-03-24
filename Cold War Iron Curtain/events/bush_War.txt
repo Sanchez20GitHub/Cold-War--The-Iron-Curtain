@@ -42,4 +42,30 @@ option = {
         
         }
 	}
+country_event = {
+id = bush_war.4
+title = "Operation Nickel"
+desc = bush_war.4.d
+picture = GFX_rho_artillery
+
+fire_only_once = yes
+
+option = {
+	   name = "An Interesting Aftermath"
+        
+        }
+	}
+country_event = {
+id = bush_war.5
+title = "Operation Birch"
+desc = bush_war.5.d
+picture = GFX_convoy
+
+fire_only_once = yes
+
+option = {
+	   name = "Another Victory for Rhodesia"
+        
+        }
+	}
 		

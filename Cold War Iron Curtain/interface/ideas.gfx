@@ -5282,4 +5282,16 @@ spriteTypes = {
 		name = "GFX_idea_Salvador_Allende"
 		texturefile = "gfx/interface/ideas/chl/Minister_Salvador_Allende.dds"
     }
+ spriteType = {
+		name = "GFX_idea_Egyptian_National_Railways"
+		texturefile = "gfx/interface/ideas/egy/Egyptian_National_Railways.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Arab_contractors"
+		texturefile = "gfx/interface/ideas/egy/Arab_Contractors.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Orascom_Construction"
+		texturefile = "gfx/interface/ideas/egy/Orascom_Construction.tga"
+    }
 }

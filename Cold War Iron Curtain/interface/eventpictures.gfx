@@ -2962,5 +2962,19 @@ spriteType = {
     spriteType = {
 		name = "GFX_israeli_troops"
 		texturefile = "gfx/event_pictures/israeli_troops.tga"
+	}	
+
+    spriteType = {
+		name = "GFX_rho_artillery"
+		texturefile = "gfx/event_pictures/rho_artillery.tga"
 	}		
-}
+
+    spriteType = {
+		name = "GFX_convoy"
+		texturefile = "gfx/event_pictures/convoy.tga"
+	}		
+
+    spriteType = {
+		name = "GFX_hebrew"
+		texturefile = "gfx/event_pictures/hebrew.tga"
+	}		
