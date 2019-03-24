@@ -923,7 +923,7 @@ technologies = {
 		
 		dependencies = {
 			hardware_II = 1
-			jet_engines
+			jet_engines = 1
 		}
 		
 		categories = {
