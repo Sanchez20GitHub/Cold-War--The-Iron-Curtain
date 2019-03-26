@@ -161,7 +161,7 @@ set_politics = {
 
 create_country_leader = {
     name = "Georgy Zhukov"
-	portrait_path = "gfx/leaders/SOV/FIELD_MARSHALS/Georgy_Zhukov.dds"
+	picture = "gfx/leaders/SOV/FIELD_MARSHALS/Georgy_Zhukov.dds"
 	ideology = stalinism
 }
 
