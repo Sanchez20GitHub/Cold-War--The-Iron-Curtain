@@ -1,11 +1,10 @@
 state={
-	id=1264
-	name="STATE_1264"
+	id=970
+	name="STATE_970"
 	
 	history={
 		owner = BRM
 		add_core_of = BRM
-		add_core_of = KAY
 		buildings = {
 			infrastructure = 4
 
@@ -14,9 +13,9 @@ state={
 	}
 	
 	provinces={
-		4293 4408 7441 11081 12238 
+		7254 7382 10223 12197 12267 12284 
 	}
-	manpower=1574079
+	manpower=6184829
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 }

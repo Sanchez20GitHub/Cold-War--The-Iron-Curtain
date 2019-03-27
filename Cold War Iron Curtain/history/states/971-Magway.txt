@@ -1,6 +1,6 @@
 state={
-	id=1266
-	name="STATE_1266"
+	id=971
+	name="STATE_971"
 	
 	history={
 		owner = BRM
@@ -13,9 +13,9 @@ state={
 	}
 	
 	provinces={
-		1403 4336 12125 
+		1333 1650 4019 4059 4541 7034 7163 7190 
 	}
-	manpower=2054393
+	manpower=3917055
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_city
 }

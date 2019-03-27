@@ -10,7 +10,19 @@ state={
 		set_state_flag = small
 		set_state_flag = undeveloped
 		victory_points = {
+			9209 4
+		}
+		victory_points = {
+			35 2 
+		}
+		victory_points = {
+			9149 5
+		}
+		victory_points = {
 			11380 1 
+		}
+		victory_points = {
+			11082 1
 		}
 		victory_points = {
 			9393 2
@@ -30,9 +42,9 @@ state={
 	}
 
 	provinces={
-		6311 6397 9308 9393 11289 11380 
+		6311 6397 9308 9393 11289 11380 9109 11082 11188 6084 6164 6188 9209 11044 35 3106 9185 3182 6127 9149 11163 11278 
 	}
-	manpower=450123
+	manpower=1624123
 	buildings_max_level_factor=1.000
 	state_category=pop1dev1
 }
