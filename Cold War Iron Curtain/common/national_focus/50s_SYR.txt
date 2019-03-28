@@ -1209,7 +1209,7 @@ modifier = large_increase
 HUN = {
 add_opinion_modifier = {
 target = SYR
-modifier = large_decrease
+modifier = large_increase
 }
 }
  } 
