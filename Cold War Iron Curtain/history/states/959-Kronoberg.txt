@@ -1,7 +1,7 @@
 
 state={
-	id=967
-	name="STATE_967"
+	id=959
+	name="STATE_959"
 
 	history={
 		owner = SWE
@@ -10,19 +10,12 @@ state={
 		set_state_flag = small
 		set_state_flag = undeveloped
 		victory_points = {
-			11380 1 
-		}
-		victory_points = {
-			9393 2
+			242 2 
 		}
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
 
-			11380 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = SWE
@@ -30,9 +23,9 @@ state={
 	}
 
 	provinces={
-		6311 6397 9308 9393 11289 11380 
+		242 363 9410 11231 11280 
 	}
-	manpower=450123
+	manpower=198143
 	buildings_max_level_factor=1.000
-	state_category=pop1dev1
+	state_category=pop1
 }

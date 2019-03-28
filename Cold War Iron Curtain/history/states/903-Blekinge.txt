@@ -1,27 +1,26 @@
 
 state={
-	id=139
-	name="STATE_139"
-	resources={
-		steel=10.000
-	}
+	id=903
+	name="STATE_903"
 
 	history={
 		owner = SWE
 		set_state_flag = temperate
 		set_state_flag = lakes
 		set_state_flag = micro
-		set_state_flag = semideveloped
+		set_state_flag = developed
 		victory_points = {
-			299 2 
+			11215 1 
 		}
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			state_infrastructure = 2
 
-			industrial_complex = 2
-			air_base = 2
-			coal_plant = 1
+			11215 = {
+				naval_base = 5
+				coastal_bunker = 3
+
+			}
 
 		}
 		add_core_of = SWE
@@ -29,9 +28,9 @@ state={
 	}
 
 	provinces={
-		211 299 329 3229 6148 11390 
+		11215 11327 
 	}
-	manpower=918593
+	manpower=158453
 	buildings_max_level_factor=1.000
-	state_category=pop1dev2
+	state_category=pop1dev1
 }

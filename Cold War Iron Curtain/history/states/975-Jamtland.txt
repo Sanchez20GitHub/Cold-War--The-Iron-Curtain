@@ -1,26 +1,22 @@
 
 state={
-	id=38
-	name="STATE_38"
+	id=975
+	name="STATE_975"
 
 	history={
 		owner = SWE
 		set_state_flag = boreal
-		set_state_flag = river
+		set_state_flag = lakes
 		set_state_flag = nominal
-		set_state_flag = decent
+		set_state_flag = undeveloped
 		victory_points = {
-			130 1 
+		    11148 2
 		}
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
 
 			coal_plant = 1
-			130 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = SWE
@@ -28,9 +24,9 @@ state={
 	}
 
 	provinces={
-		130 182 205 6063 9035 9088 9141 9151 11123 11129 11185 
+		46 113 168 3039 3108 3111 3162 3191 6010 6126 6129 6185 6207 9066 9148 9154 9171 9229 11049 11052 11053 11116 11148 11187 
 	}
-	manpower=125812
+	manpower=131289
 	buildings_max_level_factor=1.000
-	state_category=pop1dev2
+	state_category=pop1dev1
 }
