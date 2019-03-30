@@ -1424,13 +1424,13 @@ technologies = {
 	}
 	ww_armaments = {
 		enable_equipment_modules = { 
-			ww_ship_armament_light
+			ship_armament_light_ww
 		}
 		enable_equipment_modules = { 
-			ww_ship_armament_medium
+			ship_armament_medium_ww
 		}
 		enable_equipment_modules = { 
-			ww_ship_armament_heavy
+			ship_armament_heavy_ww
 		}
 		path = {
 			leads_to_tech = ship_armament_light_0

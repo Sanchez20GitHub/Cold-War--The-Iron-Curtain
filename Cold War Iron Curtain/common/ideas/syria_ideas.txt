@@ -173,7 +173,7 @@ ideas = {
 			removal_cost = -1
 
 			modifier = {
-				research_time_factor = -0.01
+				research_time_factor = -0.02
 			}
 
 			picture = generic_intel_bonus

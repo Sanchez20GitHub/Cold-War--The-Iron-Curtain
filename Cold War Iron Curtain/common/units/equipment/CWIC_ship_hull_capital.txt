@@ -42,7 +42,7 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { capital_engine }
+				allowed_module_categories = { capital_engine capital_nuclear_engine }
 			}
 			front_1_custom_slot = {
 				required = no
