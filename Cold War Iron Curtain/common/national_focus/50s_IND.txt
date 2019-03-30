@@ -40,6 +40,12 @@ focus_tree = {
 		    has_global_flag = republic_of_india
 		}
 		completion_reward = {
+			ENG = {
+				set_autonomy = {
+					target = RAJ
+					autonomy_state = autonomy_free
+				}			
+			}
 		
 		}
 	}

@@ -1,6 +1,7 @@
 ideas = {
 	air_chief = {
         Liu_Yalou = {
+        picture = Liu_Yalou
 			allowed = {
 				original_tag = PRC
 			}
@@ -8,6 +9,7 @@ ideas = {
 			traits = { air_chief_old_guard }
 		}
         Wu_Faxian = {
+            picture = Wu_Faxian
 			allowed = {
 				original_tag = PRC
 			}
@@ -16,6 +18,7 @@ ideas = {
 		}
 
         Zhang_Tingfa = {
+            picture = Zhang_Tingfa
 			allowed = {
 				original_tag = PRC
 			}
@@ -25,6 +28,7 @@ ideas = {
    }
    	navy_chief = {
         Zhou_Xihan = {
+            picture = Zhou_Xihan
 			allowed = {
 				original_tag = PRC
 			}
@@ -32,6 +36,7 @@ ideas = {
 			traits = { navy_chief_maneuver_1 }
 		}
         Luo_Shunchu = {
+            picture = Luo_Shunchu
 			allowed = {
 				original_tag = PRC
 			}
@@ -39,4 +44,14 @@ ideas = {
 			traits = { navy_fleet_logistics_1 }
 		}
 	}
+	foriegn_advisor = {
+	zhou_enlai = {
+	   picture = zhou_enlai
+	   allowed = {
+	        original_tag = PRC
+           }
+    
+       traits = { Foreign_Aid_Advocate_minister}
+        }
+    }
 }

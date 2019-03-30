@@ -5294,4 +5294,8 @@ spriteTypes = {
 		name = "GFX_idea_Orascom_Construction"
 		texturefile = "gfx/interface/ideas/egy/Orascom_Construction.tga"
     }
+ spriteType = {
+		name = "GFX_idea_zhou_enlai"
+		texturefile = "gfx/interface/ideas/prc/zhou_enlai.tga"
+    }
 }
