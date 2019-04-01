@@ -78,6 +78,30 @@ guiTypes = {
 				}
 				
 				containerWindowType = {
+					name = "ship_armament_asw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_asw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
+				
+				containerWindowType = {
 					name = "ship_armament_heavy"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
@@ -91,6 +115,30 @@ guiTypes = {
 
 				containerWindowType = {
 					name = "ship_armament_heavy@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
+				
+				containerWindowType = {
+					name = "ship_armament_heavyasw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_heavyasw@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -636,6 +684,29 @@ guiTypes = {
 						position = { x=190 y=0 }
 					}
 				}
+				containerWindowType = {
+					name = "ship_armament_asw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_asw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
 				#### MODULE: Armament Heavy ####
 				containerWindowType = {
 					name = "ship_armament_heavy"
@@ -657,6 +728,29 @@ guiTypes = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_torpedo@highlight"
 						position = { x=190 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_armament_heavyasw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_heavyasw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
 					}
 				}
 			}
@@ -922,6 +1016,7 @@ guiTypes = {
 						position = { x=190 y=0 }
 					}
 				}
+				
 				#### MODULE: Armament Medium ####
 				containerWindowType = {
 					name = "ship_armament_medium"
@@ -943,6 +1038,29 @@ guiTypes = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_torpedo@highlight"
 						position = { x=190 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_armament_asw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_asw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
 					}
 				}
 				#### MODULE: Armament Heavy ####
@@ -968,10 +1086,33 @@ guiTypes = {
 						position = { x=190 y=0 }
 					}
 				}
+				containerWindowType = {
+					name = "ship_armament_heavyasw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_heavyasw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
 			}
-			################# MODULE SLOT: Custom, Middle #2 #################
+			################# MODULE SLOT: Custom, Middle #3 #################
 			containerWindowType = {
-				name = "mid_2_custom_slot"
+				name = "mid_3_custom_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
@@ -1094,6 +1235,29 @@ guiTypes = {
 						position = { x=190 y=0 }
 					}
 				}
+				containerWindowType = {
+					name = "ship_armament_asw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_asw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
 				#### MODULE: Subkiller ####
 				containerWindowType = {
 					name = "ship_subkiller"
@@ -1195,6 +1359,29 @@ guiTypes = {
 						position = { x=40 y=0 }
 					}
 				}
+				containerWindowType = {
+					name = "ship_armament_asw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_asw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
+					}
+				}
 				#### MODULE: Armament Heavy ####
 				containerWindowType = {
 					name = "ship_armament_heavy"
@@ -1216,6 +1403,29 @@ guiTypes = {
 						name = "image"
 						spriteType = "GFX_SM_light_hull_torpedo@highlight"
 						position = { x=190 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_armament_heavyasw"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_light_battery"
+						position = { x=360 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_armament_heavyasw@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_light_hull_light_battery@highlight"
+						position = { x=360 y=0 }
 					}
 				}
 				#### MODULE: SAM Mid Range ####

@@ -22,7 +22,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy ship_armament_asw ship_armament_heavyasw }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -49,14 +49,16 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_heavy
+					ship_armament_heavyasw
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 				}
 			}
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -73,6 +75,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 					ship_AA_gun
 				}
@@ -83,6 +86,7 @@ equipments = {
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 					ship_AA_gun
 				}
@@ -176,7 +180,7 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -268,7 +272,7 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -357,7 +361,7 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -442,7 +446,7 @@ equipments = {
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -522,7 +526,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy ship_armament_asw ship_armament_heavyasw }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -542,21 +546,23 @@ equipments = {
 			}
 			fixed_ship_engine_slot = {
 				required = yes
-				allowed_module_categories = { capital_engine }
+				allowed_module_categories = { capital_engine capital_nuclear_engine }
 			}
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_heavy
+					ship_armament_heavyasw
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 				}
 			}
 			front_2_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					countermeasures_heavy
+					countermeasures
 				}
 			}
 			mid_1_custom_slot = {
@@ -574,7 +580,9 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_heavy
+					ship_armament_heavyasw
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 					ship_AA_gun
 				}
@@ -584,6 +592,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 					ship_subkiller
 					ship_AA_gun
@@ -596,7 +605,9 @@ equipments = {
 					ship_SAM_long_range
 					ship_subkiller
 					ship_armament_heavy
+					ship_armament_heavyasw
 					ship_armament_medium
+					ship_armament_asw
 					ship_armament_light
 					ship_AA_gun
 				}
