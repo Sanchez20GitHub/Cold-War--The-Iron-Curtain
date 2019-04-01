@@ -323,6 +323,28 @@ spriteTypes = {
 		name = "GFX_POL_tank_destroyer_5_medium"
 		texturefile = "gfx/interface/technologies/POL_tank_destroyer_5.dds"
 	}	
+
+###ROCKET ARTILLERY
+
+	SpriteType = {
+		name = "GFX_POL_sp_rocket1_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_1.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_POL_sp_rocket2_medium"
+		texturefile = "gfx/interface/technologies/SOV_sp_rocket_2.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_POL_sp_rocket3_medium"
+		texturefile = "gfx/interface/technologies/CZE_sp_rocket_3.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_POL_sp_rocket5_medium"
+		texturefile = "gfx/interface/technologies/POL_sp_rocket_5.dds"
+	}
 	
 #####HELICOPTER TAB
 
