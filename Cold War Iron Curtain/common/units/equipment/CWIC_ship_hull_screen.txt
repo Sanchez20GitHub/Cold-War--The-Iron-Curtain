@@ -21,7 +21,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_asw }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_asm }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -369,7 +369,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_asw }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_asm }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -764,7 +764,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = {
 				required = yes
-				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy ship_armament_asw ship_armament_heavyasw }
+				allowed_module_categories = { ship_armament_light ship_armament_medium ship_armament_heavy ship_armament_asm ship_armament_heavyasm }
 			}
 			fixed_ship_anti_air_slot = {
 				required = no
@@ -791,7 +791,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
-					ship_armament_asw
+					ship_armament_asm
 					ship_armament_light
 				}
 			}
@@ -816,7 +816,7 @@ equipments = {
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_armament_medium
-					ship_armament_asw
+					ship_armament_asm
 					ship_armament_light
 					ship_AA_gun
 				}
@@ -901,6 +901,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asm
 					ship_armament_light
 				}
 			}
@@ -924,8 +925,9 @@ equipments = {
 				allowed_module_categories = {
 					ship_SAM_mid_range
 					ship_subkiller
-					ship_armament_light
 					ship_armament_medium
+					ship_armament_asm
+					ship_armament_light
 					ship_AA_gun
 				}
 			}
@@ -980,6 +982,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asm
 					ship_armament_light
 				}
 			}
@@ -1003,8 +1006,9 @@ equipments = {
 				allowed_module_categories = {
 					ship_SAM_mid_range
 					ship_subkiller
-					ship_armament_light
 					ship_armament_medium
+					ship_armament_asm
+					ship_armament_light
 					ship_AA_gun
 				}
 			}
@@ -1057,6 +1061,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asm
 					ship_armament_light
 				}
 			}
@@ -1080,8 +1085,9 @@ equipments = {
 				allowed_module_categories = {
 					ship_SAM_mid_range
 					ship_subkiller
-					ship_armament_light
 					ship_armament_medium
+					ship_armament_asm
+					ship_armament_light
 					ship_AA_gun
 				}
 			}
@@ -1131,6 +1137,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_torpedo
 					ship_armament_medium
+					ship_armament_asm
 					ship_armament_light
 				}
 			}
@@ -1153,8 +1160,10 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_SAM_mid_range
-					ship_armament_light
+					ship_subkiller
 					ship_armament_medium
+					ship_armament_asm
+					ship_armament_light
 					ship_AA_gun
 				}
 			}
