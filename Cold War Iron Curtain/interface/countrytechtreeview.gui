@@ -902,7 +902,7 @@ guiTypes = {
 			
 			containerWindowType = {
 				name = "rocketry_year_nukes"
-				position = { x=3350 y=30 }
+				position = { x=3275 y=30 }
 				size = { width = 130 height = 100% }
 				orientation = upper_left
 			
@@ -1275,7 +1275,7 @@ guiTypes = {
 						
 			gridboxtype = {
 				name = "rocket_engines_tree"
-				position = { x=2275 y=172 }
+				position = { x=2200 y=172 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"				
