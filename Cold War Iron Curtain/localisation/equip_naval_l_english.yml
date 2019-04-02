@@ -630,3 +630,9 @@
  JAP_light_carrier_3:0 "Haruna Class"
  JAP_light_carrier_4:0 "Shirane Class"
  JAP_carrier_6:0 "Hyuuga Class"
+ 
+ ### MAN THE GUNS GENERIC
+ 
+ sub_hull_ww:0 "WW2 Submarine Hull"
+ sub_hull_ww_desc:0 ""
+ 
