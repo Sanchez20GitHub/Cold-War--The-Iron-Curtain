@@ -1,6 +1,4 @@
 spriteTypes = {
-	SpriteType = {
-    }
     spriteType = {
 		name = "GFX_idea_Israel_Military_Industries"
 		texturefile = "gfx/interface/ideas/isr/IMI.tga"
