@@ -518,8 +518,8 @@ guiTypes = {
 	
 		buttonType = {
 			name = "manage_occupied_button"
-			position = { x = 20 y = 390 }
-			quadTextureSprite = "GFX_button_221x34"
+			position = { x = 10 y = 390 }
+			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 			buttonText = "MANAGE_OCCUPIED_TERRITORIES"
@@ -527,20 +527,12 @@ guiTypes = {
 
 		buttonType = {
 			name = "show_subjects_button"
-			position = { x = 313 y = 390 }
-			quadTextureSprite = "GFX_button_221x34"
+			position = { x = 370 y = 390 }
+			quadTextureSprite = "GFX_government_button"
 			buttonFont = "hoi_16mbs"
 			Orientation = "UPPER_LEFT"
 			buttonText = "MANAGE_SUBJECTS"
 		}		
-		instantTextboxType = {
-			name = "show_subjects_button_text"
-			position = { x = -130 y = 398 }
-			font = "hoi_16mbs"
-			text = "MANAGE_SUBJECTS"
-			Orientation = "UPPER_RIGHT"
-			alwaystransparent = yes
-		}
 		
 		buttonType = {
 			name = "show_exiles_button"

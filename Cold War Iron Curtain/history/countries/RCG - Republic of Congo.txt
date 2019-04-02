@@ -2,6 +2,8 @@
 
 oob = "RCG_1949"
 
+set_cosmetic_tag = RCG_FRA
+
 # Starting tech
 set_technology = {
 
@@ -68,8 +70,6 @@ add_ideas = {
 }
 
 set_convoys = 7
-
-set_cosmetic_tag = RCG_FRA
 
 set_politics = {
 
