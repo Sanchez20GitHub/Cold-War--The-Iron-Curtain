@@ -5298,4 +5298,24 @@ spriteTypes = {
 		name = "GFX_idea_zhou_enlai"
 		texturefile = "gfx/interface/ideas/prc/zhou_enlai.tga"
     }
+ spriteType = {
+		name = "GFX_idea_Luo_Shunchu"
+		texturefile = "gfx/interface/ideas/prc/Luo_shunchu.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Liu_Yalou"
+		texturefile = "gfx/interface/ideas/prc/Liu_Yalou.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Wu_Faxian"
+		texturefile = "gfx/interface/ideas/prc/Wu_Faxian.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Zhang_Tingfa"
+		texturefile = "gfx/interface/ideas/prc/Zhang_Tingfa.tga"
+    }
+ spriteType = {
+		name = "GFX_idea_Zhou_Xihan"
+		texturefile = "gfx/interface/ideas/prc/Zhou_xihan.tga"
+    }
 }
