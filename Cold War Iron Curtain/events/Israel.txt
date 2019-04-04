@@ -445,7 +445,7 @@ option = {
 country_event = {
 id = israelpresidents.1
 title = "1951 Presidential Election"
-desc = israelpresidents.1
+desc = israelpresidents.1.d
 picture = GFX_israel_fashion
 
 fire_only_once = yes
@@ -461,7 +461,7 @@ option = {
 country_event = {
 id = israelpresidents.2
 title = "Chaim Weizmann passes away"
-desc = israelpresidents.2
+desc = israelpresidents.2.d
 picture = GFX_israel_fashion
 
 fire_only_once = yes
@@ -478,7 +478,7 @@ option = {
 country_event = {
 id = israelpresidents.3
 title = "1952 Israeli Presidential Election"
-desc = israelpresidents.3
+desc = israelpresidents.3.d
 picture = GFX_israel_fashion
 
 fire_only_once = yes
