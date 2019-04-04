@@ -5947,4 +5947,32 @@ ic_pulse = {
 		}
 		country_event =  rho.129
 	}
-}
+
+###ISRAEL
+
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1951.7.29
+            date < 1951.7.30
+        }
+        country_event = { id = israelelection.1 days = 0 }
+    }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1955.7.25
+            date < 1955.7.26
+        }
+        country_event = { id = israelelection.2 days = 0 }
+    }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1954.1.25
+            date < 1954.1.26
+			has_country_flag = Mapai1951
+        }
+        country_event = { id = lavonmania.1 days = 0 }
+		set_country_flag = PMSharett
+    }
