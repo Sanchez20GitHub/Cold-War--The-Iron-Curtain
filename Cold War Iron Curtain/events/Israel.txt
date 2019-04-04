@@ -8,6 +8,8 @@ add_namespace = israelelection
 
 add_namespace = lavonmania
 
+add_namespace = israelpresidents
+
 #Invitation to the Alliance Democratic Middle East
 country_event = {
 	id = israel.1
@@ -441,6 +443,39 @@ option = {
 	}
 
 country_event = {
+id = israelpresidents.1
+title = "1951 Presidential Election"
+desc = israelpresidents.1
+picture = GFX_israel_fashion
+
+fire_only_once = yes
+
+is_triggered_only = yes
+
+option = {
+	   name = "Nobody opposes Weizmann it seems"
+        
+        }
+	}
+
+country_event = {
+id = israelpresidents.2
+title = "Chaim Weizmann passes away"
+desc = israelpresidents.2
+picture = GFX_israel_fashion
+
+fire_only_once = yes
+
+is_triggered_only = yes
+
+option = {
+	   name = "Rest in Peace"
+	   
+    remove_ideas = idea_Chaim_Weizmann
+        }
+	}
+
+country_event = {
 id = lavonmania.1
 title = "David Ben Gurion Retires from Politics"
 desc = lavonmania.1.d
@@ -462,4 +497,6 @@ option = {
 		}
 	}
 }
+
+
 	
