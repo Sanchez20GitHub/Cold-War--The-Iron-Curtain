@@ -5979,9 +5979,17 @@ ic_pulse = {
 	if = {
         limit = {
             original_tag = ISR
-            date > 1951.11.19
-            date < 1951.11.18
+            date > 1951.11.18
+            date < 1951.11.19
         }
         country_event = { id = israelpresidents.1 days = 0 }
+    }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1952.11.9
+            date < 1952.11.10
+        }
+        country_event = { id = israelpresidents.2 days = 0 }
     }
 }
