@@ -474,6 +474,23 @@ option = {
     remove_ideas = idea_Chaim_Weizmann
         }
 	}
+	
+country_event = {
+id = israelpresidents.3
+title = "1952 Israeli Presidential Election"
+desc = israelpresidents.3
+picture = GFX_israel_fashion
+
+fire_only_once = yes
+
+is_triggered_only = yes
+
+option = {
+	   name = "Ben Tzvi is the new President"
+	   
+    add_ideas = idea_Yitzhak_Ben_Zvi
+        }
+	}
 
 country_event = {
 id = lavonmania.1

@@ -5992,4 +5992,12 @@ ic_pulse = {
         }
         country_event = { id = israelpresidents.2 days = 0 }
     }
+	if = {
+        limit = {
+            original_tag = ISR
+            date > 1952.12.8
+            date < 1952.12.9
+        }
+        country_event = { id = israelpresidents.3 days = 0 }
+    }
 }
