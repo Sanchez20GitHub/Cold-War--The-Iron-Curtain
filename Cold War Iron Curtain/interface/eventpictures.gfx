@@ -2279,6 +2279,35 @@ spriteType = {
 		texturefile = "gfx/event_pictures/GFX_report_event_taft_leave_nato.dds"
 	}
 
+	############################################################################################################################################################
+	# Syria Events
+	############################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_Husni-al-Zaim"
+		texturefile = "gfx/event_pictures/Husni-al-Zaim.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Arab-Israeli_War"
+		texturefile = "gfx/event_pictures/Arab-Israeli_War.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Shishakli"
+		texturefile = "gfx/event_pictures/Shishakli.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Quwatli"
+		texturefile = "gfx/event_pictures/Quwatli.dds"
+	}
+
+	spriteType = {
+		name = "GFX_Syrian_parliament"
+		texturefile = "gfx/event_pictures/Syrian_parliament.dds"
+	}
+
 	##########################################################################################################################################
 	# French Event
 	##########################################################################################################################################
