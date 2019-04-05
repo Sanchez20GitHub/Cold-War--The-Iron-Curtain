@@ -27,6 +27,9 @@ https://en.wikipedia.org/wiki/Shaanxi_Yanchang_Petroleum
 https://en.wikipedia.org/wiki/China_National_Erzhong_Group
 https://en.wikipedia.org/wiki/China_State_Construction_Engineering
 
+
+
+
 Army Chief
 https://en.wikipedia.org/wiki/Qin_Jiwei
 https://en.wikipedia.org/wiki/Zhang_Aiping
@@ -37,7 +40,6 @@ https://en.wikipedia.org/wiki/Lin_Biao
 https://en.wikipedia.org/wiki/Peng_Dehuai
 
 Foriegn Minister
-https://en.wikipedia.org/wiki/Zhou_Enlai
 https://en.wikipedia.org/wiki/Chen_Yi_(marshal)
 https://en.wikipedia.org/wiki/Ji_Pengfei
 https://en.wikipedia.org/wiki/Qiao_Guanhua
@@ -58,7 +60,6 @@ https://en.wikipedia.org/wiki/Shi_Liang_(1900%E2%80%931985)
 
 Education
 https://en.wikipedia.org/wiki/Ma_Xulun
-https://en.wikipedia.org/wiki/Yang_Xiufeng
 https://en.wikipedia.org/wiki/Shen_Yanbing
 https://en.wikipedia.org/wiki/Lu_Dingyi
 
@@ -74,19 +75,6 @@ https://en.wikipedia.org/wiki/Zhang_Wentian
 https://en.wikipedia.org/wiki/Lin_Biao
 https://en.wikipedia.org/wiki/Liu_Shaoqi
 https://en.wikipedia.org/wiki/Zhu_De
-
-Navy
-https://en.wikipedia.org/wiki/Zhou_Xihan
-Luo Shunchu
-Zhang Xuesi
-Ma Guansan
-Pan Yan
-https://en.wikipedia.org/wiki/Chief_of_Staff_of_the_People%27s_Liberation_Army_Navy
-
-Air
-https://en.wikipedia.org/wiki/Liu_Yalou
-https://en.wikipedia.org/wiki/Wu_Faxian
-https://en.wikipedia.org/wiki/Zhang_Tingfa
 
 
 Military High Command

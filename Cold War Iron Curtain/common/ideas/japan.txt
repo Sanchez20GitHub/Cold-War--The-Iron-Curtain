@@ -723,6 +723,8 @@ ideas = {
 		designer = yes
 	
 		sumitomo_heavy_industries = {
+
+		picture = sumitomo
 			
 			allowed = {
 				original_tag = JAP

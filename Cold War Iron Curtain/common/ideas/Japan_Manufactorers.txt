@@ -199,9 +199,31 @@ ideas = {
 			
 			traits = { electronics_concern }
 		}
+
+    Idemitsu = {
+
+	    picture = Idemitsu
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.1
+			}
+			
+			research_bonus = {
+				synth_resources = 0.05
+			}
+			
+			traits = { refinery_concern }
+		}		
+		
 		
 		
 		sumitomo = {
+
+	    picture = Sumitomo_Heavy_Industries
 						
 			allowed = {
 				original_tag = JAP

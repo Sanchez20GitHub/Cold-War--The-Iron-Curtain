@@ -1267,7 +1267,8 @@ ideas = {
 	industrial_concern = {
 		Eni = {
 
-			
+			picture = Eni
+
 			allowed = {
 				original_tag = ITA
 			}
@@ -1283,7 +1284,8 @@ ideas = {
 			traits = { refinery_concern }
 		}		
 		Enel = {
-
+       
+        picture = Enel
 			
 			allowed = {
 				original_tag = ITA

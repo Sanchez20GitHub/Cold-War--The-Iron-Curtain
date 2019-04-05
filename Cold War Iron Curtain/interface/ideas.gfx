@@ -5187,15 +5187,15 @@ spriteTypes = {
     }
     spriteType = {
 		name = "GFX_idea_Fincantieri"
-		texturefile = "gfx/interface/ideas/fincantieri.tga"
+		texturefile = "gfx/interface/ideas/ita/fincantieri.tga"
     }
     spriteType = {
 		name = "GFX_idea_Eni"
-		texturefile = "gfx/interface/ideas/eni.tga"
+		texturefile = "gfx/interface/ideas/ita/Eni.tga"
     }
     spriteType = {
 		name = "GFX_idea_Enel"
-		texturefile = "gfx/interface/ideas/enel.tga"
+		texturefile = "gfx/interface/ideas/ita/Enel.tga"
     }
     spriteType = {
 		name = "GFX_idea_Israel_Military_Industries"
@@ -5317,5 +5317,9 @@ spriteTypes = {
  spriteType = {
 		name = "GFX_idea_Zhou_Xihan"
 		texturefile = "gfx/interface/ideas/prc/Zhou_xihan.tga"
+    }
+  spriteType = {
+		name = "GFX_idea_Idemitsu"
+		texturefile = "gfx/interface/ideas/jap/Idemitsu.tga"
     }
 }
