@@ -9,7 +9,7 @@ country_event = {
 	id = syria.1
 	title = syr_news.1.t
 	desc = syr_news.1.d
-	picture = GFX_Husni-al-Zaim_syr
+	picture = GFX_Husni-al-Zaim
 	
 	is_triggered_only = yes
 
@@ -25,7 +25,7 @@ country_event = {
 	id = syria.2
 	title = syr_news.2.t
 	desc = syr_news.2.d
-	picture = GFX_Arab-Israeli_War_syr
+	picture = GFX_Arab-Israeli_War
 	
 	is_triggered_only = yes
 
@@ -41,7 +41,7 @@ news_event = {
 	id = syria.3
 	title = syr_news.3.t
 	desc = syr_news.3.d
-	picture = GFX_Shishakli_syr
+	picture = GFX_Shishakli
 	
 	is_triggered_only = yes
 
@@ -55,7 +55,7 @@ news_event = {
 	id = syria.4
 	title = syr_news.4.t
 	desc = syr_news.4.d
-	picture = GFX_Quwatli_syr
+	picture = GFX_Quwatli
 
 	is_triggered_only = yes
 
