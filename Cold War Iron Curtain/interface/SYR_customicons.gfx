@@ -1,3 +1,6 @@
 spriteTypes = { 
- 
+ 	SpriteType = {
+		name = "GFX_PAL_Icon_Nakba"
+		texturefile = "gfx/interface/goals/PAL_Icon_Nakba.dds"
+	}
  }
