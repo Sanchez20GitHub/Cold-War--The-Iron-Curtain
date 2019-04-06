@@ -165,8 +165,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Kahlid Mohieddin"
-	picture = "Mohieddin.dds"
+	name = "Mahmoud Amin El Alem"
+	picture = "Mahmoud_Amin.dds"
 	ideology = marxism_leninism
 }
 create_country_leader = {
