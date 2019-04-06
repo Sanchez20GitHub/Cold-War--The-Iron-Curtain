@@ -176,7 +176,7 @@ set_politics = {
 
 create_country_leader = {
 	name = "Boleslaw Bierut"
-	picture = "Boleslaw_Bierut.dds"
+	picture = "Portrait_POL_Boleslaw_Bierut.dds"
 	ideology = stalinism
 }
 
@@ -295,14 +295,6 @@ create_corps_commander = {
 	#load_focus_tree = POL_60s
 }
 
-1949.1.1 = {
-	create_country_leader = {
-		name = "Poznan Workers"
-		picture = "Workers.dds"
-		ideology = Independent
-	}
-}
-
 1956.1.1 = {
 	create_country_leader = {
 		name = "Edward Ochab"
@@ -327,7 +319,7 @@ create_corps_commander = {
 1973.1.1 = {
 	create_country_leader = {
 		name = "Edward Gierek"
-		picture = "Edward_Gierek.dds"
+		picture = "Portrait_POL_Edward_Gierek.dds"
 		ideology = marxism_leninism
 	}
 	create_country_leader = {
