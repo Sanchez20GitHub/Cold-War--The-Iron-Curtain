@@ -1252,9 +1252,6 @@ focus_tree = {
 		prerequisite = {
 			focus = DDR_Nationalizaton_Campaign
 		}
-		prerequisite = {
-			focus = DDR_Republikflucht
-		}
 		x = 4
 		y = 6
 			completion_reward = {
@@ -2446,27 +2443,11 @@ focus_tree = {
 		}
 	}
 	focus = {
-		id = DDR_Republikflucht
-		icon = GFX_focus_economic_crash
-		cost = 10.00
-		prerequisite = {
-			focus = DDR_continue_agrarian_reforms
-		}
-		x = 5
-		y = 5
-		completion_reward = {
-			add_ideas = Republikflucht
-		}
-	}
-	focus = {
 		id = DDR_Stalinist_Economics
 		icon = GFX_stalin_reforms2
 		cost = 10.00
 		prerequisite = {
 			focus = DDR_Nationalizaton_Campaign
-		}
-		prerequisite = {
-			focus = DDR_Republikflucht
 		}
 		x = 6
 		y = 6

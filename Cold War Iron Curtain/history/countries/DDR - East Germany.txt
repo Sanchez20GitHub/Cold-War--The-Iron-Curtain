@@ -127,6 +127,7 @@ add_ideas = {
 	comecon_member
 	war_reparations
 	gulag_politic
+	Republikflucht
 }
 
 set_politics = {
