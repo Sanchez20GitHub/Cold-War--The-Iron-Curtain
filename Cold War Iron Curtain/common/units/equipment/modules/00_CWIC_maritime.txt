@@ -1,7 +1,7 @@
 equipment_modules = {
 
-	maritime_radar_0 = {
-		category = maritime_radar
+	maritime_ew_ss_0 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -14,12 +14,12 @@ equipment_modules = {
 			tungsten = 2
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_1 = {
-		category = maritime_radar
+	maritime_ew_ss_1 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -32,12 +32,12 @@ equipment_modules = {
 			tungsten = 2
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_2 = {
-		category = maritime_radar
+	maritime_ew_ss_2 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -50,12 +50,12 @@ equipment_modules = {
 			tungsten = 3
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_3 = {
-		category = maritime_radar
+	maritime_ew_ss_3 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -68,12 +68,12 @@ equipment_modules = {
 			tungsten = 3
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_4 = {
-		category = maritime_radar
+	maritime_ew_ss_4 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -86,12 +86,12 @@ equipment_modules = {
 			tungsten = 4
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_5 = {
-		category = maritime_radar
+	maritime_ew_ss_5 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -104,12 +104,12 @@ equipment_modules = {
 			tungsten = 4
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_radar_6 = {
-		category = maritime_radar
+	maritime_ew_ss_6 = {
+		category = maritime_ew_ss
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -122,12 +122,12 @@ equipment_modules = {
 			tungsten = 5
 		}
 		can_convert_from = {
-			module_category = maritime_radar
+			module_category = maritime_ew_ss
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_0 = {
-		category = maritime_antiair
+	maritime_ta_fcs_0 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -142,12 +142,12 @@ equipment_modules = {
 			tungsten = 2
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_1 = {
-		category = maritime_antiair
+	maritime_ta_fcs_1 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -162,12 +162,12 @@ equipment_modules = {
 			tungsten = 2
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_2 = {
-		category = maritime_antiair
+	maritime_ta_fcs_2 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -182,12 +182,12 @@ equipment_modules = {
 			tungsten = 3
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_3 = {
-		category = maritime_antiair
+	maritime_ta_fcs_3 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -202,12 +202,12 @@ equipment_modules = {
 			tungsten = 3
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_4 = {
-		category = maritime_antiair
+	maritime_ta_fcs_4 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -222,12 +222,12 @@ equipment_modules = {
 			tungsten = 4
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_5 = {
-		category = maritime_antiair
+	maritime_ta_fcs_5 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -242,12 +242,12 @@ equipment_modules = {
 			tungsten = 4
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}
-	maritime_antiair_6 = {
-		category = maritime_antiair
+	maritime_ta_fcs_6 = {
+		category = maritime_ta_fcs
 		sfx = sfx_ui_sd_module_sonar
 
 		multiply_stats = {
@@ -262,7 +262,7 @@ equipment_modules = {
 			tungsten = 5
 		}
 		can_convert_from = {
-			module_category = maritime_antiair
+			module_category = maritime_ta_fcs
 			convert_cost_ic = 120
 		}
 	}

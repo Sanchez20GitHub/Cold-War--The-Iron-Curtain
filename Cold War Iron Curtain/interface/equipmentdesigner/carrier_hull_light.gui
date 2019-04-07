@@ -107,7 +107,7 @@ guiTypes = {
 
 			################# MODULE SLOT: Radar/Sonar #################
 			containerWindowType = {
-				name = "fixed_maritime_radar_slot"
+				name = "fixed_maritime_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 				
@@ -138,7 +138,7 @@ guiTypes = {
 
 				#### MODULE: Radar ####
 				containerWindowType = {
-					name = "maritime_radar"
+					name = "maritime_ew_ss"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -150,7 +150,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_radar@highlight"
+					name = "maritime_ew_ss@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -212,7 +212,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "maritime_antiair"
+					name = "maritime_ta_fcs"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -224,7 +224,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_antiair@highlight"
+					name = "maritime_ta_fcs@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -238,13 +238,13 @@ guiTypes = {
 			
 			################# MODULE SLOT: Radar/Sonar #################
 			containerWindowType = {
-				name = "fixed_maritime_radar_slot_2"
+				name = "fixed_maritime_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
 				#### MODULE: Radar ####
 				containerWindowType = {
-					name = "maritime_radar"
+					name = "maritime_ew_ss"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -256,7 +256,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_radar@highlight"
+					name = "maritime_ew_ss@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -318,7 +318,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "maritime_antiair"
+					name = "maritime_ta_fcs"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -330,7 +330,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_antiair@highlight"
+					name = "maritime_ta_fcs@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
