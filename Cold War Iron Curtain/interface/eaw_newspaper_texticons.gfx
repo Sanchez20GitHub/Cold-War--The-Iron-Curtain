@@ -162,6 +162,11 @@ spriteTypes = {
 		legacy_lazy_load = no
 	}
 	spriteType = {
+		name = "GFX_fin_socialist_news"
+		texturefile = "gfx/interface/newspaper_headers/fin_socialist_news.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
 		name = "GFX_spr_news"
 		texturefile = "gfx/interface/newspaper_headers/spr_news.dds"
 		legacy_lazy_load = no

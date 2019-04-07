@@ -2,7 +2,7 @@
 
 oob = "RCG_1949"
 
-set_cosmetic_tag = RCG_FRA
+set_cosmetic_tag = RCG_EQ_AFR
 
 # Starting tech
 set_technology = {

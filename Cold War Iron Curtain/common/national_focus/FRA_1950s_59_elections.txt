@@ -185,6 +185,7 @@ focus_tree = {
 					target = PRC
 					modifier = large_increase
 				}
+			}
 		}
 	}
 	focus = {

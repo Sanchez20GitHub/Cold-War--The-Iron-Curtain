@@ -25,14 +25,11 @@ focus_tree = {
 		cost = 10.00
 		x = 39
 		y = 1
-			completion_reward = {
-					FRA = {
-							set_autonomy = {
-									target = CAM
-									autonomy_state = autonomy_protectorate
-								}
-						}
-				}
+		completion_reward = {
+				add_autonomy_ratio = {
+				value = 0.9
+			}
+		}
 
 	}
 	focus = {

@@ -251,8 +251,16 @@ defined_text = { # Country
 	text = {
 		trigger = {
 			tag = FIN
+			NOT = { has_government = socialist }
 		}
 		localization_key = newspaper_header_fin
+	}
+	text = {
+		trigger = {
+			tag = FIN
+			has_government = socialist
+		}
+		localization_key = newspaper_header_fin_socialist
 	}
 	text = {
 		trigger = {

@@ -741,11 +741,11 @@ technologies = {
 			ww_detection
 		}
 		path = {
-			leads_to_tech = maritime_radar_0
+			leads_to_tech = maritime_ew_ss_0
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = maritime_antiair_0
+			leads_to_tech = maritime_ta_fcs_0
 			research_cost_coeff = 1
 		}
 		path = {
@@ -777,12 +777,12 @@ technologies = {
 			naval_sensors
 		}
 	}
-	maritime_radar_0 = {
+	maritime_ew_ss_0 = {
 		enable_equipment_modules = { 
-			maritime_radar_0
+			maritime_ew_ss_0
 		}
 		path = {
-			leads_to_tech = maritime_radar_1
+			leads_to_tech = maritime_ew_ss_1
 			research_cost_coeff = 1
 		}
 		
@@ -807,16 +807,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_1 = {
+	maritime_ew_ss_1 = {
 		enable_equipment_modules = { 
-			maritime_radar_1
+			maritime_ew_ss_1
 		}
 		path = {
-			leads_to_tech = maritime_radar_2
+			leads_to_tech = maritime_ew_ss_2
 			research_cost_coeff = 1
 		}
 		
@@ -841,16 +841,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_2 = {
+	maritime_ew_ss_2 = {
 		enable_equipment_modules = { 
-			maritime_radar_2
+			maritime_ew_ss_2
 		}
 		path = {
-			leads_to_tech = maritime_radar_3
+			leads_to_tech = maritime_ew_ss_3
 			research_cost_coeff = 1
 		}
 		
@@ -875,16 +875,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_3 = {
+	maritime_ew_ss_3 = {
 		enable_equipment_modules = { 
-			maritime_radar_3
+			maritime_ew_ss_3
 		}
 		path = {
-			leads_to_tech = maritime_radar_4
+			leads_to_tech = maritime_ew_ss_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -913,16 +913,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_4 = {
+	maritime_ew_ss_4 = {
 		enable_equipment_modules = { 
-			maritime_radar_4
+			maritime_ew_ss_4
 		}
 		path = {
-			leads_to_tech = maritime_radar_5
+			leads_to_tech = maritime_ew_ss_5
 			research_cost_coeff = 1
 		}
 		
@@ -947,16 +947,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_5 = {
+	maritime_ew_ss_5 = {
 		enable_equipment_modules = { 
-			maritime_radar_5
+			maritime_ew_ss_5
 		}
 		path = {
-			leads_to_tech = maritime_radar_6
+			leads_to_tech = maritime_ew_ss_6
 			research_cost_coeff = 1
 		}
 		
@@ -981,13 +981,13 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_radar_6 = {
+	maritime_ew_ss_6 = {
 		enable_equipment_modules = { 
-			maritime_radar_6
+			maritime_ew_ss_6
 		}
 		
 		research_cost = 1.5
@@ -1011,16 +1011,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_radar
+			naval_maritime_ew_ss
 			naval_sensors
 		}
 	}
-	maritime_antiair_0 = {
+	maritime_ta_fcs_0 = {
 		enable_equipment_modules = { 
-			maritime_antiair_0
+			maritime_ta_fcs_0
 		}
 		path = {
-			leads_to_tech = maritime_antiair_1
+			leads_to_tech = maritime_ta_fcs_1
 			research_cost_coeff = 1
 		}
 		
@@ -1045,16 +1045,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_1 = {
+	maritime_ta_fcs_1 = {
 		enable_equipment_modules = { 
-			maritime_antiair_1
+			maritime_ta_fcs_1
 		}
 		path = {
-			leads_to_tech = maritime_antiair_2
+			leads_to_tech = maritime_ta_fcs_2
 			research_cost_coeff = 1
 		}
 		
@@ -1079,16 +1079,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_2 = {
+	maritime_ta_fcs_2 = {
 		enable_equipment_modules = { 
-			maritime_antiair_2
+			maritime_ta_fcs_2
 		}
 		path = {
-			leads_to_tech = maritime_antiair_3
+			leads_to_tech = maritime_ta_fcs_3
 			research_cost_coeff = 1
 		}
 		
@@ -1113,16 +1113,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_3 = {
+	maritime_ta_fcs_3 = {
 		enable_equipment_modules = { 
-			maritime_antiair_3
+			maritime_ta_fcs_3
 		}
 		path = {
-			leads_to_tech = maritime_antiair_4
+			leads_to_tech = maritime_ta_fcs_4
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1151,16 +1151,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_4 = {
+	maritime_ta_fcs_4 = {
 		enable_equipment_modules = { 
-			maritime_antiair_4
+			maritime_ta_fcs_4
 		}
 		path = {
-			leads_to_tech = maritime_antiair_5
+			leads_to_tech = maritime_ta_fcs_5
 			research_cost_coeff = 1
 		}
 		
@@ -1185,16 +1185,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_5 = {
+	maritime_ta_fcs_5 = {
 		enable_equipment_modules = { 
-			maritime_antiair_5
+			maritime_ta_fcs_5
 		}
 		path = {
-			leads_to_tech = maritime_antiair_6
+			leads_to_tech = maritime_ta_fcs_6
 			research_cost_coeff = 1
 		}
 		
@@ -1219,16 +1219,16 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
-	maritime_antiair_6 = {
+	maritime_ta_fcs_6 = {
 		enable_equipment_modules = { 
-			maritime_antiair_6
+			maritime_ta_fcs_6
 		}
 		dependencies = {
-            maritime_radar_6 = 1
+            maritime_ew_ss_6 = 1
         }
 		
 		research_cost = 1.5
@@ -1252,14 +1252,11 @@ technologies = {
 		categories = {
 			naval_equipment
 			naval_modules_general
-			naval_maritime_antiair
+			naval_maritime_ta_fcs
 			naval_sensors
 		}
 	}
 	maritime_navigation_0 = {
-		enable_equipment_modules = { 
-			maritime_navigation_0
-		}
 		path = {
 			leads_to_tech = maritime_navigation_1
 			research_cost_coeff = 1
@@ -1291,9 +1288,6 @@ technologies = {
 		}
 	}
 	maritime_navigation_1 = {
-		enable_equipment_modules = { 
-			maritime_navigation_1
-		}
 		path = {
 			leads_to_tech = maritime_navigation_2
 			research_cost_coeff = 1
@@ -1325,9 +1319,6 @@ technologies = {
 		}
 	}
 	maritime_navigation_2 = {
-		enable_equipment_modules = { 
-			maritime_navigation_2
-		}
 		path = {
 			leads_to_tech = maritime_navigation_3
 			research_cost_coeff = 1
@@ -1359,9 +1350,6 @@ technologies = {
 		}
 	}
 	maritime_navigation_3 = {
-		enable_equipment_modules = { 
-			maritime_navigation_3
-		}
 		path = {
 			leads_to_tech = maritime_navigation_4
 			research_cost_coeff = 1
@@ -1393,9 +1381,6 @@ technologies = {
 		}
 	}
 	maritime_navigation_4 = {
-		enable_equipment_modules = { 
-			maritime_navigation_4
-		}
 		
 		research_cost = 1.5
 		

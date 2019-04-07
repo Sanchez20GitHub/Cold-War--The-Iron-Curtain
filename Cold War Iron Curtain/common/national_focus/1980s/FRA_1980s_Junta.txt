@@ -2,6 +2,10 @@ focus_tree = {
 	id = FRA_1980s_Junta
 	country = {
 		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
 	}
 	default = no
 	shared_focus = FRA_1980s_French_Military
@@ -251,7 +255,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = FRA_1980s_Inflation_Problem
+		id = FRA_1980s_Inflation_Problem_Junta
 		icon = GFX_goal_unknown
 		cost = 10.00
 		prerequisite = {
@@ -270,7 +274,7 @@ focus_tree = {
 			focus = FRA_1980s_Army_Professionalization3
 		}
 		prerequisite = {
-			focus = FRA_1980s_Inflation_Problem
+			focus = FRA_1980s_Inflation_Problem_Junta
 		}
 		prerequisite = {
 			focus = FRA_1980s_Economic_Liberalization

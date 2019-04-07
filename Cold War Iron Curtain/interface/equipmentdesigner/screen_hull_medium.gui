@@ -161,7 +161,7 @@ guiTypes = {
 
 			################# MODULE SLOT: Radar/Sonar #################
 			containerWindowType = {
-				name = "fixed_maritime_radar_slot"
+				name = "fixed_maritime_slot"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 				
@@ -192,7 +192,7 @@ guiTypes = {
 
 				#### MODULE: Radar ####
 				containerWindowType = {
-					name = "maritime_radar"
+					name = "maritime_ew_ss"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -204,7 +204,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_radar@highlight"
+					name = "maritime_ew_ss@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -266,7 +266,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "maritime_antiair"
+					name = "maritime_ta_fcs"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -278,7 +278,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_antiair@highlight"
+					name = "maritime_ta_fcs@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -292,13 +292,13 @@ guiTypes = {
 			
 			################# MODULE SLOT: Radar/Sonar #################
 			containerWindowType = {
-				name = "fixed_maritime_radar_slot_2"
+				name = "fixed_maritime_slot_2"
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
 				#### MODULE: Radar ####
 				containerWindowType = {
-					name = "maritime_radar"
+					name = "maritime_ew_ss"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -310,7 +310,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_radar@highlight"
+					name = "maritime_ew_ss@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -372,7 +372,7 @@ guiTypes = {
 					}
 				}
 				containerWindowType = {
-					name = "maritime_antiair"
+					name = "maritime_ta_fcs"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -384,7 +384,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "maritime_antiair@highlight"
+					name = "maritime_ta_fcs@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -402,8 +402,9 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
+				##### MODULE: TORPEDO #####
 				containerWindowType = {
-					name = "ship_torpedo"
+					name = "ship_torpedo_small"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -415,7 +416,30 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "ship_torpedo@highlight"
+					name = "ship_torpedo_small@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=240 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_torpedo_medium"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=240 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_medium@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -526,27 +550,51 @@ guiTypes = {
 				position = { x=0 y=0 }
 				size = { width=100% height=100% }
 
-				#### MODULE: Torpedo ####
+				##### MODULE: TORPEDO #####
 				containerWindowType = {
-					name = "ship_torpedo"
+					name = "ship_torpedo_small"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
-						name = "image"
+						name = "blueprint"
 						spriteType = "GFX_SM_light_hull_torpedo"
-						position = { x=190 y=0 }
+						position = { x=240 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_small@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_light_hull_torpedo@highlight"
+						position = { x=240 y=0 }
 					}
 				}
 				containerWindowType = {
-					name = "ship_torpedo@highlight"
+					name = "ship_torpedo_medium"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
-						name = "image"
+						name = "blueprint"
+						spriteType = "GFX_SM_light_hull_torpedo"
+						position = { x=240 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_torpedo_medium@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
 						spriteType = "GFX_SM_light_hull_torpedo@highlight"
-						position = { x=190 y=0 }
+						position = { x=240 y=0 }
 					}
 				}
 
@@ -745,6 +793,29 @@ guiTypes = {
 				}
 				containerWindowType = {
 					name = "ship_screen_aviation@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer@highlight"
+						position = { x=200 y=0 }
+					}
+				}
+				#### MODULE: RHIB DECK ####
+				containerWindowType = {
+					name = "ship_rhib_launch"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_light_hull_mid_1_mine_layer"
+						position = { x=200 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_rhib_launch@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					

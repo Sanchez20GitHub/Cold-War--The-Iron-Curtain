@@ -4182,13 +4182,8 @@ focus_tree = {
 						}
 					create_country_leader = {
 							name = "Phoumi Nosavans"
-							desc = ""
 							picture = "Nosavans.dds"
-							expire = "1990.1.1"
 							ideology = reactionary
-							traits = {
-
-}
 						}
 				}
 

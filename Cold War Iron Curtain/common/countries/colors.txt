@@ -148,10 +148,6 @@ KUW = {
 	color = rgb { 180 190 80 }
 	color_ui = rgb { 170 200 70 }
 }
-SIK = {
-	color = rgb { 85 158 226 }
-	color_ui = rgb { 85 158 226 }
-}
 
 #VANILLA COUNTRIES
 GER = {
@@ -314,9 +310,13 @@ CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
 }
-CHI = {
+SIK = {
 	color = hsv { 0.18 0.6 0.9 } 
 	color_ui = hsv { 0.18 0.3 0.9 }
+}
+CHI = {
+	color = rgb { 85 158 226 }
+	color_ui = rgb { 85 158 226 }
 }
 CHL = {
 	color = rgb { 155 101 107 }

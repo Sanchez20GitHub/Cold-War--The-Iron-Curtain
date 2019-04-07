@@ -11,7 +11,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_updgrade
 			screen_engine_small_upgrade
 			ship_ASW_upgrade
 			ship_ciws_upgrade
@@ -27,13 +27,13 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -50,7 +50,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -65,7 +66,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -77,7 +78,7 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_ciws_slot = empty
-			fixed_maritime_radar_slot = empty
+			fixed_maritime_slot = empty
 			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
 			front_2_custom_slot = empty
@@ -130,7 +131,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
+			fixed_maritime_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			
@@ -143,7 +144,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -189,7 +191,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
+			fixed_maritime_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 
@@ -202,7 +204,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -243,7 +246,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
+			fixed_maritime_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -260,7 +263,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -301,7 +305,7 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
+			fixed_maritime_slot = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = inherit
@@ -315,7 +319,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -358,7 +363,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_medium
 			screen_engine_upgrade
 			ship_ASW_upgrade
 			ship_SAM_mid_range_upgrade
@@ -375,17 +380,17 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
-			fixed_maritime_radar_slot_2 = {
+			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -401,7 +406,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -419,7 +425,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -431,8 +437,8 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_ciws_slot = empty
-			fixed_maritime_radar_slot = empty
-			fixed_maritime_radar_slot_2 = empty
+			fixed_maritime_slot = empty
+			fixed_maritime_slot_2 = empty
 			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
 			front_2_custom_slot = empty
@@ -485,8 +491,8 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			
@@ -499,7 +505,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -518,6 +525,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -555,8 +563,8 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 
@@ -569,7 +577,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -588,6 +597,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -619,8 +629,8 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -637,7 +647,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -656,6 +667,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -687,8 +699,8 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = inherit
@@ -702,7 +714,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -721,6 +734,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -753,7 +767,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_medium
 			screen_engine_upgrade
 			ship_ASW_upgrade
 			ship_SAM_mid_range_upgrade
@@ -770,17 +784,17 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
-			fixed_maritime_radar_slot_2 = {
+			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -789,7 +803,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -804,7 +819,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -824,7 +840,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -836,8 +852,8 @@ equipments = {
 		default_modules = {
 			fixed_ship_battery_slot = empty
 			fixed_ship_ciws_slot = empty
-			fixed_maritime_radar_slot = empty
-			fixed_maritime_radar_slot_2 = empty
+			fixed_maritime_slot = empty
+			fixed_maritime_slot_2 = empty
 			fixed_ship_engine_slot = empty
 			fixed_ship_torpedo_slot = empty
 			front_1_custom_slot = empty
@@ -892,14 +908,15 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -914,7 +931,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -935,6 +953,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -973,14 +992,15 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -995,7 +1015,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -1016,6 +1037,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -1048,8 +1070,8 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -1059,7 +1081,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -1074,7 +1097,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -1095,6 +1119,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -1127,15 +1152,16 @@ equipments = {
 		module_slots = {
 			fixed_ship_battery_slot = inherit
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_ship_torpedo_slot = inherit
 			fixed_ship_CIWS_slot = inherit
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -1150,7 +1176,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -1171,6 +1198,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}

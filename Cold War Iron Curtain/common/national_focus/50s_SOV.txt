@@ -830,7 +830,6 @@ focus_tree = {
 					target = GRE
 					type = annex_everything
 				}
-				add_to_faction = PDG
 			}
 
 	}

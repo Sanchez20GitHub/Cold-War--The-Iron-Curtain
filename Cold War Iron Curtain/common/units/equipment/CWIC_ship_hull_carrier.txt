@@ -19,13 +19,13 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range ship_SAM_long_range }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
-			fixed_maritime_radar_slot_2 = {
+			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -52,7 +52,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -63,8 +63,8 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_anti_air_slot = empty
-			fixed_maritime_radar_slot = empty
-			fixed_maritime_radar_slot_2 = empty
+			fixed_maritime_slot = empty
+			fixed_maritime_slot_2 = empty
 			fixed_ship_engine_slot = empty
 			fixed_countermeasures_slot = empty
 			mid_1_custom_slot = empty
@@ -114,8 +114,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			
@@ -165,8 +165,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			
@@ -224,8 +224,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -294,8 +294,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = inherit
@@ -376,13 +376,13 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range ship_SAM_long_range }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
-			fixed_maritime_radar_slot_2 = {
+			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -402,7 +402,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -413,8 +413,8 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_anti_air_slot = empty
-			fixed_maritime_radar_slot = empty
-			fixed_maritime_radar_slot_2 = empty
+			fixed_maritime_slot = empty
+			fixed_maritime_slot_2 = empty
 			fixed_ship_engine_slot = empty
 			fixed_countermeasures_slot = empty
 			mid_1_custom_slot = empty
@@ -463,8 +463,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			
@@ -513,8 +513,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			
@@ -563,8 +563,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -618,8 +618,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = inherit
@@ -681,13 +681,13 @@ equipments = {
 				required = no
 				allowed_module_categories = { ship_AA_gun ship_SAM_mid_range ship_SAM_long_range }
 			}
-			fixed_maritime_radar_slot = {
+			fixed_maritime_slot = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
-			fixed_maritime_radar_slot_2 = {
+			fixed_maritime_slot_2 = {
 				required = no
-				allowed_module_categories = { maritime_radar ship_sonar maritime_navigation maritime_antiair }
+				allowed_module_categories = { maritime_ew_ss ship_sonar maritime_navigation maritime_ta_fcs }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -715,7 +715,7 @@ equipments = {
 		}
 		
 		module_count_limit = {
-			category = maritime_radar
+			category = maritime_ew_ss
 			count < 2
 		}
 		
@@ -726,8 +726,8 @@ equipments = {
 		
 		default_modules = {
 			fixed_ship_anti_air_slot = empty
-			fixed_maritime_radar_slot = empty
-			fixed_maritime_radar_slot_2 = empty
+			fixed_maritime_slot = empty
+			fixed_maritime_slot_2 = empty
 			fixed_ship_engine_slot = empty
 			fixed_countermeasures_slot = empty
 			mid_1_custom_slot = empty
@@ -778,8 +778,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			
@@ -850,8 +850,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = {
@@ -946,8 +946,8 @@ equipments = {
 		
 		module_slots = {
 			fixed_ship_anti_air_slot = inherit
-			fixed_maritime_radar_slot = inherit
-			fixed_maritime_radar_slot_2 = inherit
+			fixed_maritime_slot = inherit
+			fixed_maritime_slot_2 = inherit
 			fixed_ship_engine_slot = inherit
 			fixed_countermeasures_slot = inherit
 			fixed_ship_CIWS_slot = inherit
