@@ -4970,7 +4970,7 @@ country_event = {
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Dwayne Johnson"
-			picture = "Dwayne_Johnson.dds"
+			picture = "THEROCK.dds"
 			ideology = centrism
 		}
 		ai_chance = {

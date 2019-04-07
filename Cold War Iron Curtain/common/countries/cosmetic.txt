@@ -391,8 +391,8 @@ BEL_MON = {
 }
 
 XSM_CHI = {
-	color = hsv { 0.18 0.6 0.9 } 
-	color_ui = hsv { 0.18 0.3 0.9 }
+	color = rgb { 85 158 226 }
+	color_ui = rgb { 85 158 226 }
 }
 
 KAS_RAJ = {
