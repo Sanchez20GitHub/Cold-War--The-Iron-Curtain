@@ -518,6 +518,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -588,6 +589,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -656,6 +658,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -721,6 +724,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -935,6 +939,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -1016,6 +1021,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -1095,6 +1101,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}
@@ -1171,6 +1178,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
 				}
 			}
 		}

@@ -219,6 +219,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
+					ship_mlrs_battery
 				}
 			}
 		}
@@ -314,6 +316,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
+					ship_mlrs_battery
 				}
 			}
 		}
@@ -406,6 +410,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
+					ship_mlrs_battery
 				}
 			}
 		}
@@ -494,6 +500,8 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_screen_aviation
+					ship_rhib_launch
+					ship_mlrs_battery
 				}
 			}
 		}
