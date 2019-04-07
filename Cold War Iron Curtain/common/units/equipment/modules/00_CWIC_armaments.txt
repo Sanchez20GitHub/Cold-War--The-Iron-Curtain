@@ -11,7 +11,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 2
+			lg_armor_piercing = 1.5
 		}
 		
 		can_convert_from = {
@@ -32,7 +32,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 2.5
+			lg_armor_piercing = 3
 		}
 		
 		can_convert_from = {
@@ -55,7 +55,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 3
+			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -83,7 +83,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 6
+			lg_armor_piercing = 12
 		}
 		
 		build_cost_resources = {
@@ -118,7 +118,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 9
+			lg_armor_piercing = 24
 		}
 		
 		can_convert_from = {
@@ -148,7 +148,7 @@ equipment_modules = {
 			tungsten = 1
 		}
 		add_average_stats = {
-			lg_armor_piercing = 14
+			lg_armor_piercing = 48
 		}
 		
 		can_convert_from = {
@@ -174,7 +174,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 4
+			lg_armor_piercing = 3
 		}
 		
 		can_convert_from = {
@@ -195,7 +195,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 5
+			lg_armor_piercing = 6
 		}
 		
 		can_convert_from = {
@@ -218,7 +218,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 8
+			lg_armor_piercing = 12
 		}
 		
 		can_convert_from = {
@@ -246,7 +246,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 16
+			lg_armor_piercing = 24
 		}
 		
 		build_cost_resources = {
@@ -281,7 +281,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			lg_armor_piercing = 24
+			lg_armor_piercing = 48
 		}
 		
 		can_convert_from = {
@@ -311,7 +311,7 @@ equipment_modules = {
 			tungsten = 1
 		}
 		add_average_stats = {
-			lg_armor_piercing = 36
+			lg_armor_piercing = 96
 		}
 		
 		can_convert_from = {
@@ -337,7 +337,7 @@ equipment_modules = {
 		}
 		
 		add_average_stats = {
-			hg_armor_piercing = 36
+			hg_armor_piercing = 24
 		}
 		
 		build_cost_resources = {
@@ -357,12 +357,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 13
+			hg_attack = 24
 			build_cost_ic = 600
 		}
 		
 		add_average_stats = {
-			hg_armor_piercing = 40
+			hg_armor_piercing = 48
 		}
 		
 		build_cost_resources = {
@@ -384,12 +384,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 16
+			hg_attack = 36
 			build_cost_ic = 960
 		}
 		
 		add_average_stats = {
-			hg_armor_piercing = 52
+			hg_armor_piercing = 96
 		}
 		
 		build_cost_resources = {
@@ -415,13 +415,13 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			hg_attack = 20
+			hg_attack = 72
 			build_cost_ic = 2040
 			
 		}
 		
 		add_average_stats = {
-			hg_armor_piercing = 72
+			hg_armor_piercing = 192
 		}
 		
 		build_cost_resources = {
