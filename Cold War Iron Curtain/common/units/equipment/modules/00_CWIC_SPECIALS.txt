@@ -1,0 +1,83 @@
+equipment_modules = {
+
+	ship_screen_aviation_1 = {
+		category = ship_screen_aviation
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 20
+			build_cost_ic = 300
+		}
+		
+		build_cost_resources = {
+			oil = 1
+			aluminium = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_screen_aviation
+			convert_cost_ic = 150
+		}
+	}
+	ship_screen_aviation_2 = {
+		category = ship_screen_aviation
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 25
+			build_cost_ic = 360
+		}
+		
+		build_cost_resources = {
+			oil = 2
+			aluminium = 1
+		}
+
+		can_convert_from = {
+			module_category = ship_screen_aviation
+			convert_cost_ic = 150
+		}
+	}
+	ship_screen_aviation_3 = {
+		category = ship_screen_aviation
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 30
+			build_cost_ic = 420
+		}
+		
+		build_cost_resources = {
+			oil = 2
+			aluminium = 2
+		}
+
+		can_convert_from = {
+			module_category = ship_screen_aviation
+			convert_cost_ic = 150
+		}
+	}
+	ship_screen_aviation_4 = {
+		category = ship_screen_aviation
+		sfx = sfx_ui_sd_module_turret
+
+		
+		add_stats = {
+			sub_attack = 35
+			build_cost_ic = 480
+		}
+		
+		build_cost_resources = {
+			oil = 2
+			aluminium = 2
+		}
+
+		can_convert_from = {
+			module_category = ship_screen_aviation
+			convert_cost_ic = 150
+		}
+	}
+}
