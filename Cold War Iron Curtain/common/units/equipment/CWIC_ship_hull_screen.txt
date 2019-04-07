@@ -11,7 +11,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_updgrade
 			screen_engine_small_upgrade
 			ship_ASW_upgrade
 			ship_ciws_upgrade
@@ -33,7 +33,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -50,7 +50,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -143,7 +144,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -202,7 +204,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -260,7 +263,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -315,7 +319,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_subkiller
 				}
@@ -358,7 +363,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_medium
 			screen_engine_upgrade
 			ship_ASW_upgrade
 			ship_SAM_mid_range_upgrade
@@ -385,7 +390,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -401,7 +406,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -499,7 +505,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -570,7 +577,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -639,7 +647,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -705,7 +714,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_AA_gun
 					ship_SAM_mid_range
 					ship_subkiller
@@ -757,7 +767,7 @@ equipments = {
 		priority = 2000
 
 		upgrades = {
-			ship_torpedo_upgrade
+			ship_torpedo_medium
 			screen_engine_upgrade
 			ship_ASW_upgrade
 			ship_SAM_mid_range_upgrade
@@ -784,7 +794,7 @@ equipments = {
 			}
 			fixed_ship_torpedo_slot = {
 				required = no
-				allowed_module_categories = { ship_torpedo }
+				allowed_module_categories = { ship_torpedo_medium ship_torpedo_small }
 			}
 			fixed_ship_engine_slot = {
 				required = yes
@@ -793,7 +803,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -808,7 +819,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -903,7 +915,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -918,7 +931,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -985,7 +999,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -1000,7 +1015,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -1065,7 +1081,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -1080,7 +1097,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
@@ -1142,7 +1160,8 @@ equipments = {
 			front_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_armament_medium
 					ship_armament_asm
 					ship_armament_light
@@ -1157,7 +1176,8 @@ equipments = {
 			mid_1_custom_slot = {
 				required = no
 				allowed_module_categories = {
-					ship_torpedo
+					ship_torpedo_medium
+					ship_torpedo_small
 					ship_SAM_mid_range
 					ship_subkiller
 					ship_AA_gun
