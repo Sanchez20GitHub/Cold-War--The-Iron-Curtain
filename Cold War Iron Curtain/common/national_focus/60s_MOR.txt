@@ -3812,6 +3812,7 @@ focus_tree = {
 					add_state_claim = 1154
 					add_state_claim = 460
 					add_state_claim = 459
+					add_state_claim = 1147
 					add_state_claim = 513
 				}
 		}

@@ -47,6 +47,11 @@ bookmarks = {
 				UN_Security_Council_Member_Perm
 				ENG_george_vi			
 			}
+			focuses = {
+				ENG_CloakDagger
+				ENG_Empires_End
+				ENG_Empress
+			}
 		}
 		
 		"FRA"={
@@ -59,7 +64,9 @@ bookmarks = {
 				UN_Security_Council_Member_Perm
 			}
 			focuses = {
-				
+				FRA_truth_rec
+				FRA_CNIP_1953
+				FRA_Degaulle_Fifth_Republic
 			}
 		}
 		
@@ -69,7 +76,8 @@ bookmarks = {
 			ideas={
 				CHI_disorganized_military
 				UN_Security_Council_Member_Perm
-			}			
+			}	
+			
 		}
 		
 		"PRC"={
@@ -77,13 +85,28 @@ bookmarks = {
 			ideology = maoism
 			ideas={
 				PRC_peoples_army
+				SOV_government_corruption_endemic
+				tot_economic_mobilisation
+			}	
+			focuses = {
+				PRC_The_First_Year_A_Success
+				PRC_Failure_of_the_Hundred_Flowers_Campaign
+				PRC_The_Chinese_Way_to_Socialism
 			}			
 		}
 		"KPA"={
 			history = "KPA_GATHERING_STORM_DESC"
 			ideology = communism
 			ideas={
-			}			
+				north_korean_foriegn_policy_idea
+				population_growth_explosion
+				extensive_conscription
+			}
+			focuses = {
+				KPA_The_Korean_War
+				KPA_Rebuild_the_Nation
+				KPA_One_Korea_Under_Kim
+			}				
 		}
 
 		"ITA"={
