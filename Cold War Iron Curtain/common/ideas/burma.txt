@@ -3,49 +3,49 @@ ideas = {
 	country = {
 
 		BRM_internal_conflict_1 = {
-			
+
 			allowed = { always = yes }
 
 			allowed_civil_war = { always = yes }
 
 			removal_cost = -1
 
-			modifier = { 
+			modifier = {
 				conscription_factor = -0.15
-				add_stability = -0.3
-				add_war_support = -0.3
+				stability_factor = -0.3
+				war_support_factor = -0.3
 			}
 
 			picture = FRA_national_mobilization_focus
 		}
 		BRM_internal_conflict_2 = {
-			
+
 			allowed = { always = yes }
 
 			allowed_civil_war = { always = yes }
 
 			removal_cost = -1
 
-			modifier = { 
+			modifier = {
 				conscription_factor = -0.1
-				add_stability = -0.2
-				add_war_support = -0.2
+				stability_factor = -0.2
+				war_support_factor = -0.2
 			}
 
 			picture = FRA_national_mobilization_focus
 		}
 		BRM_internal_conflict_3 = {
-			
+
 			allowed = { always = yes }
 
 			allowed_civil_war = { always = yes }
 
 			removal_cost = -1
 
-			modifier = { 
+			modifier = {
 				conscription_factor = -0.05
-				add_stability = -0.1
-				add_war_support = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
 			}
 
 			picture = FRA_national_mobilization_focus

@@ -70,6 +70,7 @@ NDefines.NMilitary.CORPS_COMMANDER_DIVISIONS_CAP = 36
 NDefines.NMilitary.CORPS_COMMANDER_ARMIES_CAP = -1
 NDefines.NMilitary.FIELD_MARSHAL_DIVISIONS_CAP = 0
 NDefines.NMilitary.FIELD_MARSHAL_ARMIES_CAP = 8
+NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.05
 
 NDefines.NNavy.CARRIER_STACK_PENALTY = 8 -- The most efficient is 4 carriers in combat. 5+ brings the penalty to the amount of wings in battle.
 NDefines.NNavy.CARRIER_STACK_PENALTY_EFFECT = 0.1 -- Each carrier above the optimal amount decreases the amount of airplanes being able to takeoff by such %.
