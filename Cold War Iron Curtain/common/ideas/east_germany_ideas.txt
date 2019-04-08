@@ -599,6 +599,19 @@ ideas = {
 			traits = { basic_state_security }
 		}
 		
+		Markus_Wolf = {
+			picture = Markus_Wolf
+			allowed = {
+				original_tag = DDR
+			}
+
+			available = {
+				date > 1953.1.1
+				date < 1986.7.1
+			}
+			traits = { spymaster }
+		}
+		
 		ernst_wollweber = {
 			
 			allowed = {

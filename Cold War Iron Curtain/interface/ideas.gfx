@@ -4527,7 +4527,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_pioneers"
-		texturefile = "gfx/interface/ideas/DDR/pioneers.tga"
+		texturefile = "gfx/interface/ideas/DDR/pioneers.dds"
 	}
 	spriteType = {
 		name = "GFX_willi_stoph"
@@ -4536,6 +4536,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_wilhelm_zaisser"
 		texturefile = "gfx/interface/ideas/DDR/wilhelm_zaisser.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Markus_Wolf"
+		texturefile = "gfx/interface/ideas/DDR/Markus_Wolf.dds"
 	}
 	######################################################################################################################################################
 	# Finnish Ideas
