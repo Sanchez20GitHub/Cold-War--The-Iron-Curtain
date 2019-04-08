@@ -76,8 +76,8 @@ technology_categories = {
 	naval_ship_armament_medium
 	naval_ship_armament_heavy
 	naval_sensors
-	naval_maritime_antiair
-	naval_maritime_radar
+	naval_maritime_ta_fcs
+	naval_maritime_ew_ss
 	naval_maritime_navigation
 	shbb_tech
 	ss_tech
