@@ -254,14 +254,14 @@ continent = {
 
 continent = {
 	name = north_america
-	army = {
+army = {
 		male = {
-			"gfx/leaders/Europe/General_Europe_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_6.dds"
 		}
 	}
 	
@@ -272,7 +272,7 @@ continent = {
 			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
 		}
 	}
-
+	
 	political = {
 		conservative = {
 				male = { 
@@ -326,12 +326,12 @@ continent = {
 		}
 		Social_Liberalism = {
 				male = { 
-					"gfx/leaders/Portrait_EU_Generic_1.dds"
-					"gfx/leaders/Portrait_EU_Generic_2.dds"
-					"gfx/leaders/Portrait_EU_Generic_3.dds"
-					"gfx/leaders/portrait_EU_generic_4.dds"
-					"gfx/leaders/portrait_EU_generic_5.dds"
-					"gfx/leaders/portrait_EU_generic_6.dds"
+					"gfx/leaders/europe/Portrait_EU_Generic_1.dds"
+					"gfx/leaders/europe/Portrait_EU_Generic_2.dds"
+					"gfx/leaders/europe/Portrait_EU_Generic_3.dds"
+					"gfx/leaders/europe/portrait_EU_generic_4.dds"
+					"gfx/leaders/europe/portrait_EU_generic_5.dds"
+					"gfx/leaders/europe/portrait_EU_generic_6.dds"
 			}
 		}
 		democratic = {

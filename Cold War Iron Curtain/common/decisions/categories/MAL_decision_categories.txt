@@ -3,6 +3,6 @@ malaysian_emergency_category = {
 
 	}
 	allowed = {
-		always = yes
+		original_tag = MLA
 	}
 }

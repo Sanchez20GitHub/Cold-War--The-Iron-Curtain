@@ -129,7 +129,7 @@ set_politics = {
 		
 	}
 		
-	ruling_party = Liberal_Conservatism
+	ruling_party = Christian_Democratic
 	last_election = "1947.10.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -162,7 +162,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Oskar Leimgruber"
-	picture = "Portrait_Switzerland_Leimgruber.dds"
+	picture = "Oskar_Leimgruber.dds"
 	ideology = christian_democracy
 }
 
@@ -173,8 +173,8 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Marino Bodenmann"
-	picture = "Portrait_Switzerland_Marino_Bodenmann.dds"
+	name = "Edgar Woog"
+	picture = "Edgar_Woog.dds"
 	ideology = marxism_leninism
 }
 
