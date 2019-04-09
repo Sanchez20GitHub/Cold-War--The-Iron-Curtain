@@ -270,7 +270,7 @@ add_ideas = {
 	remove_ideas = fra_rationing
 	remove_ideas = fra_legacy_of_occupation
 	set_autonomy = { target = SEN autonomy_state = autonomy_free }	
-	set_autonomy = { target = ROC autonomy_state = autonomy_free }	
+	set_autonomy = { target = RCG autonomy_state = autonomy_free }	
 	set_autonomy = { target = CMR autonomy_state = autonomy_free }	
 
 	set_technology = {
@@ -562,7 +562,7 @@ if = {
 		freedom_level = 0.4
 	}
 	set_autonomy = {
-		target = ROC
+		target = RCG
 		autonomous_state = autonomy_colony
 		freedom_level = 0.4
 	}
@@ -616,7 +616,7 @@ if = {
 		puppet = TUN
 		puppet = SAR
 		puppet = AND
-		puppet = ROC
+		puppet = RCG
 		puppet = SEN
 		puppet = VIE
 		puppet = CAM
