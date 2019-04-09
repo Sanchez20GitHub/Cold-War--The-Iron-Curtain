@@ -1118,13 +1118,10 @@
 			available = {
 					country_exists = TUR
 				}
-			cancel = {
+			bypass = {
 					NOT = {
 							country_exists = TUR
 						}
-				}
-			allow_branch = {
-					
 				}
 			completion_reward = {
 					TUR = {
@@ -1231,20 +1228,55 @@
 		prerequisite = {
 			focus = USA_economic_aid_to_turkey
 		}
+		bypass = {
+			OR = {
+				TUR = { is_in_faction_with = SOV }
+				NOT = { country_exists = TUR }
+			}
+			OR = {
+				PDG = { is_in_faction_with = SOV }
+				NOT = { country_exists = GRE }
+			}
+		}
 		x = 27
 		y = 4
-			allow_branch = {
-					
-				}
-			completion_reward = {
-					GRE = {
-							add_ideas = nato_member
+		completion_reward = {
+			if = {
+				limit = {
+					country_exists = GRE 
+					OR = {
+						TUR = { is_in_faction_with = SOV }
+						NOT = { 
+							country_exists = TUR 
 						}
-					TUR = {
-							add_ideas = nato_member
-						}
+					}
 				}
-
+				GRE = {
+					add_ideas = nato_member
+				}
+			}
+			else_if = {
+				limit = {
+					country_exists = PDG 
+					country_exists = TUR 
+					NOT = {
+						TUR = { is_in_faction_with = SOV }
+						country_exists = GRE
+					}
+				}
+				TUR = {
+					add_ideas = nato_member
+				}
+			}
+			else = {
+				GRE = {
+					add_ideas = nato_member
+				}
+				TUR = {
+					add_ideas = nato_member
+				}
+			}
+		}
 	}
 	shared_focus = {
 		id = USA_support_arab_cause

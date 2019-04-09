@@ -788,7 +788,7 @@ country_event = {
 			ideology = trotskyism
 			size = 0.5
 			capital = 195
-			states = { 195 208 146 216 215 147 722 213 209 244 263 264 }
+			states = { 195 208 216 215 147 722 213 209 244 263 264 }
 		}
 		random_other_country = {
 			limit = {
@@ -815,7 +815,7 @@ country_event = {
 			ideology = trotskyism
 			size = 0.5
 			capital = 195
-			states = { 195 208 146 216 215 147 722 213 209 244 263 264 }
+			states = { 195 208 216 215 147 722 213 209 244 263 264 }
 		}
 		random_other_country = {
 			limit = {

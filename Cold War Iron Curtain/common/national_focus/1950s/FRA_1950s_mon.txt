@@ -2380,7 +2380,6 @@ focus_tree = {
 							transfer_state = 787
 							transfer_state = 788
 							transfer_state = 757
-							transfer_state = 839
 						}
 					CAM = {
 							transfer_state = 286

@@ -51,7 +51,7 @@ focus_tree = {
 		y = 9
 			available = {
 					NOT = {
-							owns_state = 839
+							owns_state = 286
 						}
 				}
 			completion_reward = {

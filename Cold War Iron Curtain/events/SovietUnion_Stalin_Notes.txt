@@ -1258,7 +1258,6 @@ country_event = {
 		}
         
         FIN = {
-            transfer_state = 146
             
             add_opinion_modifier = {
                 target = SOV

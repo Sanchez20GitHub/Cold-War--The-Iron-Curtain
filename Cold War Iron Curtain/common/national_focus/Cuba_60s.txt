@@ -2146,7 +2146,7 @@ focus_tree = {
 		y = 11
 			completion_reward = {
 					USA = {
-							country_event = CUB.1000
+							country_event = cuba.1000
 						}
 				}
 

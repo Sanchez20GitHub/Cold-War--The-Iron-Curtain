@@ -207,7 +207,6 @@ country_event = {
 		name = "Agree to the Demands"
 		FIN = { transfer_state = 722 } 
 		FIN = { transfer_state = 147 } 
-		FIN = { transfer_state = 146 } 
 		ai_chance = {
 			factor = 50
 		}
@@ -260,7 +259,6 @@ country_event = {
 	option = {
 		name = "Agree to the Sale"
 			transfer_state = 147
-			transfer_state = 146
 			transfer_state = 722
 			add_timed_idea = { idea = soviet_payments days = 1825 }	
 			SOV = {
