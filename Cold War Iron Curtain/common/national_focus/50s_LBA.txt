@@ -11,6 +11,7 @@ focus_tree = {
 	default = no
 	focus = {
 		id = LBA_emirship_of_idris
+		icon = GFX_idrisi
 		cost = 6
 		x = 0
 		y = 0
@@ -288,30 +289,9 @@ focus_tree = {
 	
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	focus = {
 		id = LBA_demonstrate_against_the_bevin_sforza_plan
+		icon = GFX_a_strong_united_nation
 		cost = 10
 		x = 14
 		y = 0
@@ -332,6 +312,7 @@ focus_tree = {
 	focus = {
 		id = LBA_petition_united_nations
 		cost = 10
+		icon = GFX_un
 		x = 15
 		y = 1
 
@@ -353,6 +334,7 @@ focus_tree = {
 	focus = {
 		id = LBA_spread_demonstrations_worldwide
 		cost = 10
+		icon = GFX_fist
 		x = 13
 		y = 1
 
@@ -372,6 +354,7 @@ focus_tree = {
 
 	focus = {
 		id = LBA_suggest_resolution_to_un
+		icon = GFX_un
 		cost = 10
 		x = 14
 		y = 3
@@ -401,6 +384,7 @@ focus_tree = {
 	focus = {
 		id = LBA_declare_united_kingdom_of_libya
 		cost = 10
+		icon = GFX_a_strong_united_nation
 		x = 14
 		y = 5
 			
@@ -430,6 +414,7 @@ focus_tree = {
 	focus = {
 		id = LBA_determine_the_future_administration
 		cost = 10
+		icon = GFX_focus_internal_dissent
 		x = 14
 		y = 7
 
@@ -583,6 +568,7 @@ focus_tree = {
 	focus = {
 		id = LBA_adopt_the_1952_constitution
 		cost = 10
+		icon = GFX_Paper
 		x = 14
 		y = 10
 		

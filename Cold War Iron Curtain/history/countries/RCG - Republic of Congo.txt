@@ -70,7 +70,6 @@ add_ideas = {
 }
 
 set_convoys = 7
-set_cosmetic_tag = ROC_FRA
 
 set_politics = {
 

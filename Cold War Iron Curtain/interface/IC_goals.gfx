@@ -14,6 +14,10 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_FocusToyota"
 		texturefile = "gfx/interface/goals/FocusToyota.dds"
+	}
+	SpriteType = {
+		name = "GFX_idrisi"
+		texturefile = "gfx/interface/goals/idrisi.dds"
 	}	
 	SpriteType = {
 		name = "GFX_focus_Japanese_Socialist"
